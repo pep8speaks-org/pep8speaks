@@ -171,14 +171,14 @@ def main():
             ## Footer
             if request.json["action"] == "opened":
                 if config["message"]["opened"]["footer"] == "":
-                    comment = "Please check out other resources."
+                    comment += "Please check out other resources."
                 else:
-                    comment = config["message"]["opened"]["footer"]
+                    comment += config["message"]["opened"]["footer"]
             elif request.json["action"] == "synchronize":
                 if config["message"]["updated"]["footer"] == "":
-                    comment = "You've still not checked other resources!"
+                    comment += "You've still not checked other resources!"
                 else:
-                    comment = config["message"]["opened"]["footer"]
+                    comment += config["message"]["opened"]["footer"]
 
 
             # Do not repeat the comment made on the PR by the bot
