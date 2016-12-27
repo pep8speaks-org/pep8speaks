@@ -93,14 +93,16 @@ def main():
                 with open(".pep8speaks.yml", "r") as stream:
                     new_config = yaml.load(stream)
                     config["ignore"] = new_config["ignore"]
-                    config["message"]["opened"]["header"] = new_config["message"]["opened"]["header"]
-                    config["message"]["opened"]["header"].replace("{name}", author)
-                    config["message"]["opened"]["footer"] = new_config["message"]["opened"]["footer"]
-                    config["message"]["opened"]["footer"].replace("{name}", author)
-                    config["message"]["updated"]["header"] = new_config["message"]["updated"]["header"]
-                    config["message"]["updated"]["header"].replace("{name}", author)
-                    config["message"]["updated"]["footer"] = new_config["message"]["updated"]["footer"]
-                    config["message"]["updated"]["footer"].replace("{name}", author)
+                    for act in ["opened", "updated"]:
+                        for pos in ["header", "footer"]:
+                            config["message"][act][pos] = new_config[
+                                "message"][act][pos].replace("{name}", author)
+                            config["message"][act][pos] = new_config[
+                                "message"][act][pos].replace("{name}", author)
+                            config["message"][act][pos] = new_config[
+                                "message"][act][pos].replace("{name}", author)
+                            config["message"][act][pos] = new_config[
+                                "message"][act][pos].replace("{name}", author)
             except:  # Bad yml file
                 pass
 
