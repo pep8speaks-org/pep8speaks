@@ -1,12 +1,29 @@
 # -*- coding: utf-8 -*-
+from contextlib import contextmanager
 import json
 import os
 import sys
-from contextlib import contextmanager
+import urllib.parse as urlparse
 from flask import Flask, render_template, request, Response
 from flask_session import Session
+import psycopg2
 import pycodestyle
 import requests
+
+
+if "OVER_HEROKU" in os.environ:  # For running locally
+    urlparse.uses_netloc.append("postgres")
+    url = urlparse.urlparse(os.environ["DATABASE_URL"])
+
+    conn = psycopg2.connect(
+        database=url.path[1:],
+        user=url.username,
+        password=url.password,
+        host=url.hostname,
+        port=url.port
+    )
+
+    cursor = conn.cursor()
 
 
 app = Flask(__name__)
@@ -21,16 +38,30 @@ def redirected(stdout):
     sys.stdout = saved_stdout
 
 
+def update_users(repository):
+    global conn, cursor
+    # Check if repository exists in database
+    query = r"INSERT INTO Users VALUES {} ;".format(repository)
+
+    try:
+        cursor.execute(query)
+        conn.commit()
+    except psycopg2.IntegrityError:  # If already exists
+        conn.rollback()
+
+
 @app.route("/", methods=['GET', 'POST'])
 def main():
     if request.method == "POST" and "action" in request.json:
+
         PERMITTED_TO_COMMENT = True
+
         if request.json["action"] in ["synchronize", "opened"]:
             after_commit_hash = request.json["pull_request"]["head"]["sha"]
             repository = request.json["repository"]["full_name"]
             author = request.json["pull_request"]["head"]["user"]["login"]
             diff_url = request.json["pull_request"]["diff_url"]
-            #update_users(repository)  # Update users of the repository
+            update_users(repository)  # Update users of the repository
             data = {
                 "after_commit_hash": after_commit_hash,
                 "repository": repository,

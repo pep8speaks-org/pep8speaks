@@ -3,3 +3,4 @@ Flask-Session
 flask
 gunicorn
 pycodestyle
+psycopg2
