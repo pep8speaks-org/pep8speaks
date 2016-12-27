@@ -153,7 +153,7 @@ def main():
                     comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
                 else:
                     comment = config["message"]["opened"]["header"] + "\n\n"
-            elif request.json["action"] == "synchronize":
+            elif request.json["action"] in ["synchronize", "reopened"]:
                 if config["message"]["updated"]["header"] == "":
                     comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
                 else:
@@ -176,7 +176,7 @@ def main():
                     comment += "Please check out other resources."
                 else:
                     comment += config["message"]["opened"]["footer"]
-            elif request.json["action"] == "synchronize":
+            elif request.json["action"] in ["synchronize", "reopened"]:
                 if config["message"]["updated"]["footer"] == "":
                     comment += "You've still not checked other resources!"
                 else:
