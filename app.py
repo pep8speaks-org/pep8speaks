@@ -77,19 +77,30 @@ def main():
             r = requests.get("https://api.github.com/repos/" + \
                             repository + "/contents/").json()
             for content in r:
-                if content["type"] == "file" and content["name"] == ".pep8speaks.yml":
+                if content["name"] == ".pep8speaks.yml":
                     res = requests.get(content["download_url"])
                     with open(".pep8speaks.yml", "w+") as config_file:
                         config_file.write(res.text)
 
-            config = {"ignore" : [], "message": {"header": "", "footer": ""}}
+            config = {"ignore" : [],
+                      "message": {
+                        "opened": {"header": "", "footer": ""},
+                        "updated": {"header": "", "footer": ""}
+                        }
+                     }
 
             try:
                 with open(".pep8speaks.yml", "r") as stream:
                     new_config = yaml.load(stream)
                     config["ignore"] = new_config["ignore"]
-                    config["message"]["header"] = new_config["message"]["header"]
-                    config["message"]["footer"] = new_config["message"]["footer"]
+                    config["message"]["opened"]["header"] = new_config["message"]["opened"]["header"]
+                    config["message"]["opened"]["header"].replace("{name}", author)
+                    config["message"]["opened"]["footer"] = new_config["message"]["opened"]["footer"]
+                    config["message"]["opened"]["footer"].replace("{name}", author)
+                    config["message"]["updated"]["header"] = new_config["message"]["updated"]["header"]
+                    config["message"]["updated"]["header"].replace("{name}", author)
+                    config["message"]["updated"]["footer"] = new_config["message"]["updated"]["footer"]
+                    config["message"]["updated"]["footer"].replace("{name}", author)
             except:  # Bad yml file
                 pass
 
@@ -119,6 +130,8 @@ def main():
                 with open("pycodestyle_result.txt", "r") as f:
                     data["results"][file] = f.readlines()
                 data["results"][file] = [i.replace("file_to_check.py", file)[1:] for i in data["results"][file]]
+
+                ## Remove the errors and warnings to be ignored from config
                 for error in list(data["results"][file]):
                     for to_ignore in config["ignore"]:
                         if to_ignore in error:
@@ -131,11 +144,19 @@ def main():
 
             # Write the comment body
             comment = ""
-            if request.json["action"] == "opened":
-                comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
-            elif request.json["action"] == "synchronize":
-                comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
 
+            ## Header
+            if request.json["action"] == "opened":
+                if config["message"]["opened"]["header"] == "":
+                    comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
+                else:
+                    comment = config["message"]["opened"]["header"] + "\n\n"
+            elif request.json["action"] == "synchronize":
+                if config["message"]["updated"]["header"] == "":
+                    comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
+                else:
+                    comment = config["message"]["opened"]["header"] + "\n\n"
+            ## Body
             for file in list(data["results"].keys()):
                 if len(data["results"][file]) == 0:
                     comment += " - There are no PEP8 issues in the file `" + file[1:] + "` !"
@@ -147,11 +168,23 @@ def main():
                     comment += "```"
                 comment += "\n\n"
 
-            pr_number = request.json["number"]
+            ## Footer
+            if request.json["action"] == "opened":
+                if config["message"]["opened"]["footer"] == "":
+                    comment = "Please check out other resources."
+                else:
+                    comment = config["message"]["opened"]["footer"]
+            elif request.json["action"] == "synchronize":
+                if config["message"]["updated"]["footer"] == "":
+                    comment = "You've still not checked other resources!"
+                else:
+                    comment = config["message"]["opened"]["footer"]
+
 
             # Do not repeat the comment made on the PR by the bot
+            data["pr_number"] = request.json["number"]
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
-                    str(pr_number) + "/comments?access_token={}".format(
+                    str(data["pr_number"]) + "/comments?access_token={}".format(
                         os.environ["GITHUB_TOKEN"])
             comments = requests.get(query).json()
             last_comment = ""
@@ -173,7 +206,7 @@ def main():
             # Make the comment
             if PERMITTED_TO_COMMENT:
                 query = "https://api.github.com/repos/" + repository + "/issues/" + \
-                        str(pr_number) + "/comments?access_token={}".format(
+                        str(data["pr_number"]) + "/comments?access_token={}".format(
                             os.environ["GITHUB_TOKEN"])
                 response = requests.post(query, json={"body": comment}).json()
                 data["comment_response"] = response
