@@ -85,12 +85,27 @@ def main():
                 comment += "\n\n"
 
             pr_number = request.json["number"]
+
+            # Do not repeat the comment made on the PR by the bot
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
                     str(pr_number) + "/comments?access_token={}".format(
                         os.environ["GITHUB_TOKEN"])
-            response = requests.post(query, json={"body": comment}).json()
-            data["comment_response"] = response
-
+            comments = requests.get(query).json()
+            last_comment = ""
+            for old_comment in list(reversed(comments)):
+                if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+                    last_comment = old_comment["body"]
+                    break
+            print("Comment is \n")
+            print(comment)
+            print("Last comment is \n")
+            print(last_comment)
+            if comment != last_comment:
+                query = "https://api.github.com/repos/" + repository + "/issues/" + \
+                        str(pr_number) + "/comments?access_token={}".format(
+                            os.environ["GITHUB_TOKEN"])
+                response = requests.post(query, json={"body": comment}).json()
+                data["comment_response"] = response
 
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
