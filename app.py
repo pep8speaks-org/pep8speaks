@@ -126,12 +126,20 @@ def main():
                         os.environ["GITHUB_TOKEN"])
             comments = requests.get(query).json()
             last_comment = ""
-            for old_comment in list(reversed(comments)):
+            for old_comment in reversed(comments):
                 if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
                     last_comment = old_comment["body"]
                     break
             if comment == last_comment:
                 PERMITTED_TO_COMMENT = False
+
+            # Check if the bot is asked to keep quiet
+            for old_comment in reversed(comments):
+                if '@pep8speaks' in old_comment['body']:
+                    if 'resume' in old_comment['body'].lower():
+                        break
+                    elif 'quiet' in old_comment['body'].lower():
+                        PERMITTED_TO_COMMENT = False
 
             # Make the comment
             if PERMITTED_TO_COMMENT:
