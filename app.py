@@ -29,7 +29,7 @@ def main():
             repository = request.json["repository"]["full_name"]
             author = request.json["pull_request"]["head"]["user"]["login"]
             diff_url = request.json["pull_request"]["diff_url"]
-
+            #update_users(repository)  # Update users of the repository
             data = {
                 "after_commit_hash": after_commit_hash,
                 "repository": repository,
@@ -66,6 +66,7 @@ def main():
                 os.remove("pycodestyle_result.txt")
 
 
+
             # Make the comment
             if request.json["action"] == "opened":
                 comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
@@ -73,17 +74,22 @@ def main():
                 comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
 
             for file in list(data["results"].keys()):
-                comment += "In the file `" + file + "`, following are the PEP8 issues :\n"
-                comment += "```\n"
-                for issue in data["results"][file]:
-                    comment += issue
+                if len(data["results"][file]) == 0:
+                    comment += "There are no PEP8 issues in the file `" + file + "` !"
+                else:
+                    comment += "In the file `" + file + "`, following are the PEP8 issues :\n"
+                    comment += "```\n"
+                    for issue in data["results"][file]:
+                        comment += issue
                 comment += "```\n\n"
+
             pr_number = request.json["number"]
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
                     str(pr_number) + "/comments?access_token={}".format(
                         os.environ["GITHUB_TOKEN"])
             response = requests.post(query, json={"body": comment}).json()
             data["comment_response"] = response
+
 
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
