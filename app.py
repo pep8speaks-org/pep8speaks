@@ -41,7 +41,8 @@ def redirected(stdout):
 def update_users(repository):
     global conn, cursor
     # Check if repository exists in database
-    query = r"INSERT INTO Users (repository) VALUES ('{}') ;".format(repository)
+    query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
+            "".format(repository)
 
     try:
         cursor.execute(query)
