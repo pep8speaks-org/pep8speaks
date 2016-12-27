@@ -157,7 +157,7 @@ def main():
                 if config["message"]["updated"]["header"] == "":
                     comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
                 else:
-                    comment = config["message"]["opened"]["header"] + "\n\n"
+                    comment = config["message"]["updated"]["header"] + "\n\n"
             ## Body
             for file in list(data["results"].keys()):
                 if len(data["results"][file]) == 0:
@@ -180,7 +180,7 @@ def main():
                 if config["message"]["updated"]["footer"] == "":
                     comment += "You've still not checked other resources!"
                 else:
-                    comment += config["message"]["opened"]["footer"]
+                    comment += config["message"]["updated"]["footer"]
 
 
             # Do not repeat the comment made on the PR by the bot
