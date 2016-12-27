@@ -41,7 +41,7 @@ def redirected(stdout):
 def update_users(repository):
     global conn, cursor
     # Check if repository exists in database
-    query = r"INSERT INTO Users VALUES {} ;".format(repository)
+    query = r"INSERT INTO Users (repository) VALUES ('{}') ;".format(repository)
 
     try:
         cursor.execute(query)
@@ -100,6 +100,7 @@ def main():
 
 
             # Write the comment body
+            comment = ""
             if request.json["action"] == "opened":
                 comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
             elif request.json["action"] == "synchronize":
