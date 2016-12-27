@@ -56,7 +56,7 @@ def main():
 
         PERMITTED_TO_COMMENT = True
 
-        if request.json["action"] in ["synchronize", "opened"]:
+        if request.json["action"] in ["synchronize", "opened", "reopened"]:
             after_commit_hash = request.json["pull_request"]["head"]["sha"]
             repository = request.json["repository"]["full_name"]
             author = request.json["pull_request"]["head"]["user"]["login"]
