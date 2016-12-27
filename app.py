@@ -9,6 +9,7 @@ from flask_session import Session
 import psycopg2
 import pycodestyle
 import requests
+import yaml
 
 
 if "OVER_HEROKU" in os.environ:  # For running locally
@@ -72,9 +73,32 @@ def main():
                 "results": {},
             }
 
+            # Configuration file
+            r = requests.get("https://api.github.com/repos/" + \
+                            repository + "/contents/").json()
+            for content in r:
+                if content["type"] == "file" and content["name"] == ".pep8speaks.yml":
+                    res = requests.get(content["download_url"])
+                    with open(".pep8speaks.yml", "w+") as config_file:
+                        config_file.write(res.text)
+
+            config = {"ignore" : [], "message": {"header": "", "footer": ""}}
+
+            try:
+                with open(".pep8speaks.yml", "r") as stream:
+                    new_config = yaml.load(stream)
+                    config["ignore"] = new_config["ignore"]
+                    config["message"]["header"] = new_config["message"]["header"]
+                    config["message"]["footer"] = new_config["message"]["footer"]
+            except:  # Bad yml file
+                pass
+
+            os.remove(".pep8speaks.yml")
+
+            # Run pycodestyle
             r = requests.get(diff_url)
             lines = list(r.iter_lines())
-            # All the python files with additions
+            ## All the python files with additions
             files_to_analyze = []
             for i in range(len(lines)):
                 line = lines[i]
@@ -95,6 +119,11 @@ def main():
                 with open("pycodestyle_result.txt", "r") as f:
                     data["results"][file] = f.readlines()
                 data["results"][file] = [i.replace("file_to_check.py", file)[1:] for i in data["results"][file]]
+                for error in list(data["results"][file]):
+                    for to_ignore in config["ignore"]:
+                        if to_ignore in error:
+                            data["results"][file].remove(error)
+
                 os.remove("file_to_check.py")
                 os.remove("pycodestyle_result.txt")
 
