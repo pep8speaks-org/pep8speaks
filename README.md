@@ -1,2 +1,15 @@
 # pep8speaks
-A GitHub bot @pep8speaks written in Python, to run pep8 over new Pull Requests
+> because it matters.
+
+A GitHub bot which checks pep8 issues and then comments over Pull Requests
+
+<img src="data/readme.png" width="80%">
+
+# How to Use?
+
+ - Go to your project or organization settings
+  - GitHub > Settings > Webhooks > Add Webhook
+ - Payload URL : https://pep8speaks.herokuapp.com
+ - Click on `Let me select individual events.`
+ - Tick `Pull request` and untick all other events.
+ - Add webhook
