@@ -47,3 +47,5 @@ The config file is not required for it to work. The default settings are shown a
 # Contribute
 
 This is a very young project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/OrkoHunter/pep8speaks/issues/1). Pull Requests are most welcome !
+
+:heart:
