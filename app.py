@@ -75,13 +75,14 @@ def main():
 
             for file in list(data["results"].keys()):
                 if len(data["results"][file]) == 0:
-                    comment += "There are no PEP8 issues in the file `" + file + "` !"
+                    comment += " - There are no PEP8 issues in the file `" + file + "` !"
                 else:
-                    comment += "In the file `" + file + "`, following are the PEP8 issues :\n"
+                    comment += " - In the file `" + file + "`, following are the PEP8 issues :\n"
                     comment += "```\n"
                     for issue in data["results"][file]:
                         comment += issue
-                comment += "```\n\n"
+                    comment += "```"
+                comment += "\n\n"
 
             pr_number = request.json["number"]
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
