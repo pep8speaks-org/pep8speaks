@@ -9,6 +9,7 @@ from flask_session import Session
 import psycopg2
 import pycodestyle
 import requests
+import unidiff
 import yaml
 
 
@@ -40,16 +41,17 @@ def redirected(stdout):
 
 
 def update_users(repository):
-    global conn, cursor
-    # Check if repository exists in database
-    query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
-            "".format(repository)
+    if "OVER_HEROKU" in os.environ:
+        global conn, cursor
+        # Check if repository exists in database
+        query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
+                "".format(repository)
 
-    try:
-        cursor.execute(query)
-        conn.commit()
-    except psycopg2.IntegrityError:  # If already exists
-        conn.rollback()
+        try:
+            cursor.execute(query)
+            conn.commit()
+        except psycopg2.IntegrityError:  # If already exists
+            conn.rollback()
 
 
 @app.route("/", methods=['GET', 'POST'])
@@ -73,15 +75,7 @@ def main():
                 "results": {},
             }
 
-            # Configuration file
-            r = requests.get("https://api.github.com/repos/" + \
-                            repository + "/contents/").json()
-            for content in r:
-                if content["name"] == ".pep8speaks.yml":
-                    res = requests.get(content["download_url"])
-                    with open(".pep8speaks.yml", "w+") as config_file:
-                        config_file.write(res.text)
-
+            # Default configuration parameters
             config = {"ignore" : [],
                       "message": {
                         "opened": {"header": "", "footer": ""},
@@ -92,6 +86,16 @@ def main():
                       }
                      }
 
+            # Configuration file
+            r = requests.get("https://api.github.com/repos/" + \
+                            repository + "/contents/").json()
+            for content in r:
+                if content["name"] == ".pep8speaks.yml":
+                    res = requests.get(content["download_url"])
+                    with open(".pep8speaks.yml", "w+") as config_file:
+                        config_file.write(res.text)
+
+            # Update default config with those provided
             try:
                 with open(".pep8speaks.yml", "r") as stream:
                     new_config = yaml.load(stream)
@@ -106,6 +110,7 @@ def main():
                                 "message"][act][pos].replace("{name}", author)
                             config["message"][act][pos] = new_config[
                                 "message"][act][pos].replace("{name}", author)
+                    config["scanner"]["diff_only"] = new_config["scanner"]["diff_only"]
             except:  # Bad yml file
                 pass
 
@@ -113,17 +118,27 @@ def main():
 
             # Run pycodestyle
             r = requests.get(diff_url)
-            lines = list(r.iter_lines())
+            with open(".diff", "w+") as diff_file:
+                diff_file.write(r.text)
             ## All the python files with additions
-            files_to_analyze = []
-            for i in range(len(lines)):
-                line = lines[i]
-                line = line.decode('ascii')
-                if line[:3] == '+++':
-                    if line[-2:] == "py":
-                        files_to_analyze.append(line[5:])
+            patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
 
-            for file in files_to_analyze:
+            # A dictionary with filename paired with list of new line numbers
+            py_files = {}
+
+            for patchset in patch:
+                if patchset.target_file[-3:] == '.py':
+                    py_file = patchset.target_file[1:]
+                    py_files[py_file] = []
+                    for hunk in patchset:
+                        for line in hunk.target_lines():
+                            if line.is_added:
+                                py_files[py_file].append(line.target_line_no)
+
+            os.remove('.diff')
+
+
+            for file in py_files.keys():
                 r = requests.get("https://raw.githubusercontent.com/" + \
                                  repository + "/" + after_commit_hash + \
                                  "/" + file)
@@ -137,7 +152,13 @@ def main():
                 data["results"][file] = [i.replace("file_to_check.py", file)[1:] for i in data["results"][file]]
 
                 ## Remove the errors and warnings to be ignored from config
+                ## Also remove other errors in case of diff_only = True
+
                 for error in list(data["results"][file]):
+                    if config["scanner"]["diff_only"]:
+                        if not int(error.split(":")[1]) in py_files[file]:
+                            data["results"][file].remove(error)
+                            continue  # To avoid duplicate deletion
                     for to_ignore in config["ignore"]:
                         if to_ignore in error:
                             data["results"][file].remove(error)
