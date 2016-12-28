@@ -1,18 +1,15 @@
-# pep8speaks
+# PEP8 Speaks
 > because it matters.
 
-A GitHub bot which checks pep8 issues and then comments over Pull Requests
+A GitHub integration which checks pep8 issues and then comments over Pull Requests
 
 <img src="data/readme.png" width="80%">
 
 # How to Use?
 
- - Go to your project or organization settings
-  - GitHub > Settings > Webhooks > Add Webhook
- - Payload URL : https://pep8speaks.herokuapp.com
- - Click on `Let me select individual events.`
- - Tick `Pull request` and untick all other events.
- - Add webhook
+ - Go to the homepage of the [Integration](https://github.com/integration/pep8-speaks)
+ - Click on Install button
+ - Add the repositories you want this service for
 
 # Features
 
@@ -22,7 +19,7 @@ A GitHub bot which checks pep8 issues and then comments over Pull Requests
  - The bot's last comment is not repeated. Hence if the PR is updated and the bot does not comment, it means it stands with its previous comment.
 
 # Configuration
-The bot can be configured additionally by adding a `.pep8speaks.yml` file to the base directory of the repo. Here are the available options of the config file :
+The integration can be configured additionally by adding a `.pep8speaks.yml` file to the base directory of the repo. Here are the available options of the config file :
 
 ```yaml
 # File : .pep8speaks.yml
