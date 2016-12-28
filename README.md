@@ -40,6 +40,9 @@ message:  # Customize the comment made by the bot
 ignore:  # Errors and warnings to ignore
     - W391  # This comes up if there's a blank line at end of file
     - E203  # You shouldn't be ignoring this. It's for whitespaces before ':'
+
+scanner:
+    diff_only: False  # If True, errors caused by only the patch are shown
 ```
 
 The config file is not required for it to work. The default settings are shown above in the image.
