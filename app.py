@@ -86,7 +86,10 @@ def main():
                       "message": {
                         "opened": {"header": "", "footer": ""},
                         "updated": {"header": "", "footer": ""}
-                        }
+                        },
+                      "scanner": {
+                        "diff_only": False
+                      }
                      }
 
             try:
