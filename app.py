@@ -200,12 +200,12 @@ def main():
             ## Footer
             if request.json["action"] == "opened":
                 if config["message"]["opened"]["footer"] == "":
-                    comment += "Please check out other resources."
+                    comment += ""
                 else:
                     comment += config["message"]["opened"]["footer"]
             elif request.json["action"] in ["synchronize", "reopened"]:
                 if config["message"]["updated"]["footer"] == "":
-                    comment += "You've still not checked other resources!"
+                    comment += ""
                 else:
                     comment += config["message"]["updated"]["footer"]
 
