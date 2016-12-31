@@ -63,7 +63,7 @@ def main():
         if request.json["action"] in ["synchronize", "opened", "reopened"]:
             after_commit_hash = request.json["pull_request"]["head"]["sha"]
             repository = request.json["repository"]["full_name"]
-            author = request.json["pull_request"]["head"]["user"]["login"]
+            author = request.json["pull_request"]["user"]["login"]
             diff_url = request.json["pull_request"]["diff_url"]
             update_users(repository)  # Update users of the repository
             data = {
