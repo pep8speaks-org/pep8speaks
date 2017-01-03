@@ -76,20 +76,25 @@ def main():
             }
 
             # Default configuration parameters
-            config = {"ignore" : [],
-                      "message": {
-                        "opened": {"header": "", "footer": ""},
-                        "updated": {"header": "", "footer": ""}
-                        },
-                      "scanner": {
-                        "diff_only": False
-                      }
-                     }
+            config = {
+                        "ignore": [],
+                        "message": {
+                                    "opened": {
+                                                "header": "",
+                                                "footer": ""
+                                                },
+                                    "updated": {
+                                                "header": "",
+                                                "footer": ""
+                                                }
+                                    },
+                        "scanner": {"diff_only": False}
+                    }
 
             # Configuration file
             PEP8SPEAK_YML_FOUND = False
-            r = requests.get("https://api.github.com/repos/" + \
-                            repository + "/contents/").json()
+            r = requests.get("https://api.github.com/repos/" + repository +
+                             "/contents/").json()
             for content in r:
                 if content["name"] == ".pep8speaks.yml":
                     PEP8SPEAK_YML_FOUND = True
@@ -140,10 +145,9 @@ def main():
 
             os.remove('.diff')
 
-
             for file in py_files.keys():
-                r = requests.get("https://raw.githubusercontent.com/" + \
-                                 repository + "/" + after_commit_hash + \
+                r = requests.get("https://raw.githubusercontent.com/" +
+                                 repository + "/" + after_commit_hash +
                                  "/" + file)
                 with open("file_to_check.py", 'w+') as file_to_check:
                     file_to_check.write(r.text)
@@ -169,8 +173,6 @@ def main():
                 os.remove("file_to_check.py")
                 os.remove("pycodestyle_result.txt")
 
-
-
             # Write the comment body
             comment = ""
 
@@ -190,7 +192,8 @@ def main():
                 if len(data["results"][file]) == 0:
                     comment += " - There are no PEP8 issues in the file `" + file[1:] + "` !"
                 else:
-                    comment += " - In the file `" + file[1:] + "`, following are the PEP8 issues :\n"
+                    comment += " - In the file `" + file[1:] + "`, following\
+                     are the PEP8 issues :\n"
                     comment += "```\n"
                     for issue in data["results"][file]:
                         comment += issue
@@ -209,12 +212,11 @@ def main():
                 else:
                     comment += config["message"]["updated"]["footer"]
 
-
             # Do not repeat the comment made on the PR by the bot
             data["pr_number"] = request.json["number"]
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
-                    str(data["pr_number"]) + "/comments?access_token={}".format(
-                        os.environ["GITHUB_TOKEN"])
+                    str(data["pr_number"]) + \
+                    "/comments?access_token={}".format(os.environ["GITHUB_TOKEN"])
             comments = requests.get(query).json()
             last_comment = ""
             for old_comment in reversed(comments):
