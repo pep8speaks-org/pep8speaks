@@ -94,13 +94,13 @@ def main():
             # Configuration file
             PEP8SPEAK_YML_FOUND = False
             r = requests.get("https://api.github.com/repos/" + repository +
-                             "/contents/").json()
-            for content in r:
-                if content["name"] == ".pep8speaks.yml":
-                    PEP8SPEAK_YML_FOUND = True
-                    res = requests.get(content["download_url"])
-                    with open(".pep8speaks.yml", "w+") as config_file:
-                        config_file.write(res.text)
+                             "/contents/.pep8speaks.yml")
+            if r.status_code == 200:
+                PEP8SPEAK_YML_FOUND = True
+                res = requests.get(r.json()["download_url"])
+                with open(".pep8speaks.yml", "w+") as config_file:
+                    config_file.write(res.text)
+            # Handle the case of no configuration file resulting in a 404 response code
 
             # Update default config with those provided
             try:
