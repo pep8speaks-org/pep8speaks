@@ -103,23 +103,25 @@ def main():
             # Handle the case of no configuration file resulting in a 404 response code
 
             # Update default config with those provided
-            try:
-                with open(".pep8speaks.yml", "r") as stream:
+            with open(".pep8speaks.yml", "r") as stream:
+                try:
                     new_config = yaml.load(stream)
-                    config["ignore"] = new_config["ignore"]
-                    for act in ["opened", "updated"]:
-                        for pos in ["header", "footer"]:
-                            config["message"][act][pos] = new_config[
-                                "message"][act][pos].replace("{name}", author)
-                            config["message"][act][pos] = new_config[
-                                "message"][act][pos].replace("{name}", author)
-                            config["message"][act][pos] = new_config[
-                                "message"][act][pos].replace("{name}", author)
-                            config["message"][act][pos] = new_config[
-                                "message"][act][pos].replace("{name}", author)
-                    config["scanner"]["diff_only"] = new_config["scanner"]["diff_only"]
-            except:  # Bad yml file
-                pass
+                    # overloading the default configuration with the one specified
+                    for key in new_config:
+                        config[key] = new_config[key]
+
+                except yaml.YAMLError as e:  # Bad YAML file
+                    pass
+
+            # personalising the messages
+            if "message" in config:
+                for act in config["message"]:
+                    # can be either "opened" or "updated"
+                    for pos in config["message"][act]:
+                        # can be either "header" or "footer"
+                        msg = config["message"][act][pos]
+                        new_msg = msg.replace("{name}", author)
+                        config["message"][act][pos] = new_msg
 
             if PEP8SPEAK_YML_FOUND:
                 os.remove(".pep8speaks.yml")
