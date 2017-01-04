@@ -92,11 +92,11 @@ def main():
                     }
 
             # Configuration file
-            PEP8SPEAK_YML_FOUND = False
+            PEP8SPEAKS_YML_FOUND = False
             r = requests.get("https://api.github.com/repos/" + repository +
                              "/contents/.pep8speaks.yml")
             if r.status_code == 200:
-                PEP8SPEAK_YML_FOUND = True
+                PEP8SPEAKS_YML_FOUND = True
                 res = requests.get(r.json()["download_url"])
                 with open(".pep8speaks.yml", "w+") as config_file:
                     config_file.write(res.text)
@@ -123,7 +123,7 @@ def main():
                         new_msg = msg.replace("{name}", author)
                         config["message"][act][pos] = new_msg
 
-            if PEP8SPEAK_YML_FOUND:
+            if PEP8SPEAKS_YML_FOUND:
                 os.remove(".pep8speaks.yml")
 
             # Run pycodestyle
