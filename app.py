@@ -274,9 +274,9 @@ def main():
                 PERMITTED_TO_COMMENT = False
 
             ## Do not comment on updating if no errors were introduced previously
-            if not "following" in comment.lower():  # `following are the pep8 issues`
+            if "following" not in comment.lower():  # `following are the pep8 issues`
                 if "no PEP8 issues" in last_comment:
-                    if not "following" in last_comment.lower():
+                    if "following" not in last_comment.lower():
                         PERMITTED_TO_COMMENT = False  # When both comment have no errors
 
             # Check if the bot is asked to keep quiet
