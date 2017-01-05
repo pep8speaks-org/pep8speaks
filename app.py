@@ -148,6 +148,7 @@ def main():
             os.remove('.diff')
 
             for file in py_files.keys():
+                filename = file[1:]
                 r = requests.get("https://raw.githubusercontent.com/" +
                                  repository + "/" + after_commit_hash +
                                  "/" + file)
@@ -157,20 +158,26 @@ def main():
                 with redirected(stdout='pycodestyle_result.txt'):
                     checker.check_all()
                 with open("pycodestyle_result.txt", "r") as f:
-                    data["results"][file] = f.readlines()
-                data["results"][file] = [i.replace("file_to_check.py", file)[1:] for i in data["results"][file]]
+                    data["results"][filename] = f.readlines()
+                data["results"][filename] = [i.replace("file_to_check.py", filename) for i in data["results"][filename]]
 
                 ## Remove the errors and warnings to be ignored from config
                 ## Also remove other errors in case of diff_only = True
 
-                for error in list(data["results"][file]):
+                for error in list(data["results"][filename]):
                     if config["scanner"]["diff_only"]:
                         if not int(error.split(":")[1]) in py_files[file]:
-                            data["results"][file].remove(error)
+                            data["results"][filename].remove(error)
                             continue  # To avoid duplicate deletion
                     for to_ignore in config["ignore"]:
                         if to_ignore in error:
-                            data["results"][file].remove(error)
+                            data["results"][filename].remove(error)
+
+                ## Store the link to the file
+                url = "https://github.com/" + author + "/" + \
+                      repository.split("/")[-1] + "/blob/" + \
+                      after_commit_hash + file
+                data[filename + "_link"] = url
 
                 os.remove("file_to_check.py")
                 os.remove("pycodestyle_result.txt")
@@ -192,12 +199,12 @@ def main():
             ## Body
             comment_body = ""
             for file in list(data["results"].keys()):
-                PR_INVOLVES_PYTHON = True
                 if len(data["results"][file]) == 0:
-                    comment_body += " - There are no PEP8 issues in the file `" + file[1:] + "` !"
+                    comment_body += " - There are no PEP8 issues in the" + \
+                                    " file [`{0}`]({1}) !".format(file, data[file + "_link"])
                 else:
-                    comment_body += " - In the file `" + file[1:] + "`, following\
-                     are the PEP8 issues :\n"
+                    comment_body += " - In the file [`{0}`]({1}), following\
+                     are the PEP8 issues :\n".format(file, data[file + "_link"])
                     comment_body += "```\n"
                     for issue in data["results"][file]:
                         comment_body += issue
