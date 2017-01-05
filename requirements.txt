@@ -6,3 +6,4 @@ pycodestyle
 psycopg2
 PyYAML
 unidiff
+autopep8
