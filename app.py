@@ -38,9 +38,10 @@ sess = Session()
 def main():
     if request.method == "GET":
         return redirect("https://pep8speaks.com")
-    elif request.method == "POST" and "action" in request.json:
+    elif request.method == "POST":
         if helpers.match_webhook_secret(request):
-            return handlers.handle_payload(request)
+            if request.headers["X-GitHub-Event"] == "pull_request":
+                return handlers.handle_pull_request(request)
     else:
         return render_template('index.html')
 

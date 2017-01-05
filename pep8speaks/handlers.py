@@ -5,7 +5,7 @@ from flask import Response
 import requests
 from pep8speaks import helpers
 
-def handle_payload(request):
+def handle_pull_request(request):
 
     # A variable which is set to False whenever a criteria is not met
     PERMITTED_TO_COMMENT = True
