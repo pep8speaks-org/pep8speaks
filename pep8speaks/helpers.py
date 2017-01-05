@@ -74,18 +74,18 @@ def get_config(repository):
         res = requests.get(r.json()["download_url"])
         with open(".pep8speaks.yml", "w+") as config_file:
             config_file.write(res.text)
-    # Handle the case of no configuration file resulting in a 404 response code
+        # Handle the case of no configuration file resulting in a 404 response code
 
-    # Update default config with those provided
-    with open(".pep8speaks.yml", "r") as stream:
-        try:
-            new_config = yaml.load(stream)
-            # overloading the default configuration with the one specified
-            for key in new_config:
-                config[key] = new_config[key]
+        # Update default config with those provided
+        with open(".pep8speaks.yml", "r") as stream:
+            try:
+                new_config = yaml.load(stream)
+                # overloading the default configuration with the one specified
+                for key in new_config:
+                    config[key] = new_config[key]
 
-        except yaml.YAMLError as e:  # Bad YAML file
-            pass
+            except yaml.YAMLError as e:  # Bad YAML file
+                pass
 
     if PEP8SPEAKS_YML_FOUND:
         os.remove(".pep8speaks.yml")
