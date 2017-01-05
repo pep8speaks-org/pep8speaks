@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 from contextlib import contextmanager
+import hmac
 import json
 import os
 import sys
 import urllib.parse as urlparse
-from flask import Flask, render_template, redirect, request, Response
+from flask import abort, Flask, render_template, redirect, request, Response
 from flask_session import Session
 import psycopg2
 import pycodestyle
@@ -60,6 +61,18 @@ def main():
         return redirect("https://pep8speaks.com")
     elif request.method == "POST" and "action" in request.json:
 
+        if "OVER_HEROKU" in os.environ:
+            header_signature = request.headers.get('X-Hub-Signature')
+            if header_signature is None:
+                abort(403)
+            sha_name, signature = header_signature.split('=')
+            if sha_name != 'sha1':
+                abort(501)
+            mac = hmac.new(str(secret), msg=request.data, digestmod=sha1)
+            if not hmac.compare_digest(str(mac.hexdigest()), str(signature)):
+                abort(403)
+
+        # A variable which is set to False whenever a criteria is not met
         PERMITTED_TO_COMMENT = True
 
         if request.json["action"] in ["synchronize", "opened", "reopened"]:
