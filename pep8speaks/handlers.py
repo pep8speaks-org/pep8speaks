@@ -65,42 +65,57 @@ def handle_pull_request(request):
         js = json.dumps(data)
         return Response(js, status=200, mimetype='application/json')
 
+
 def handle_review(request):
     condition1 = request.json["action"] == "submitted"
     condition2 = "@pep8speaks" in request.json["review"]["body"]
-    conditions_matched = condition1 and condition2
+    condition3 = "pep8ify" in request.json["review"]["body"]
+    conditions_matched = condition1 and condition2 and condition3
 
     if conditions_matched:
-        data = dict()
-        data["author"] = request.json["pull_request"]["user"]["login"]
-        data["reviewer"] = request.json["review"]["user"]["login"]
-        data["repository"] = request.json["repository"]["full_name"]
-        data["diff_url"] = request.json["pull_request"]["diff_url"]
-        data["sha"] = request.json["pull_request"]["head"]["sha"]
-        data["review_url"] = request.json["review"]["html_url"]
-        data["pr_number"] = request.json["pull_request"]["number"]
-        # Dictionary with filename matched with a string of diff
-        data["diff"] = {}
+        return _pep8ify(request)
+    else:
+        conditions_matched = condition1 and condition2
+        if conditions_matched:
+            return _create_diff(request)
 
-        # Get the .pep8speaks.yml config file from the repository
-        config = helpers.get_config(data["repository"])
 
-        helpers.autopep8(data, config)
+def _create_diff(request):
+    data = dict()
+    data["author"] = request.json["pull_request"]["user"]["login"]
+    data["reviewer"] = request.json["review"]["user"]["login"]
+    data["repository"] = request.json["repository"]["full_name"]
+    data["diff_url"] = request.json["pull_request"]["diff_url"]
+    data["sha"] = request.json["pull_request"]["head"]["sha"]
+    data["review_url"] = request.json["review"]["html_url"]
+    data["pr_number"] = request.json["pull_request"]["number"]
+    # Dictionary with filename matched with a string of diff
+    data["diff"] = {}
 
-        helpers.create_gist(data, config)
+    # Get the .pep8speaks.yml config file from the repository
+    config = helpers.get_config(data["repository"])
 
-        comment = "Here you go with [the gist]({}) !\n\n" + \
-                  "> You can ask me to create a PR against this branch " + \
-                  "with those fixes. Submit a review comment as " + \
-                  "`@pep8speaks pep8ify`.\n\n" + "@{} @{} "
-        comment = comment.format(data["gist_url"], data["reviewer"],
-                                 data["author"])
+    helpers.autopep8(data, config)
 
-        query = "https://api.github.com/repos/" + data["repository"] + \
-                "/issues/" + str(data["pr_number"]) + "/comments" + \
-                "?access_token={}".format(os.environ["GITHUB_TOKEN"])
-        response = requests.post(query, json={"body": comment}).json()
-        data["comment_response"] = response
+    helpers.create_gist(data, config)
 
-        js = json.dumps(data)
-        return Response(js, status=200, mimetype='application/json')
+    comment = "Here you go with [the gist]({}) !\n\n" + \
+              "> You can ask me to create a PR against this branch " + \
+              "with those fixes. Submit a review comment as " + \
+              "`@pep8speaks pep8ify`.\n\n" + "@{} @{} "
+    comment = comment.format(data["gist_url"], data["reviewer"],
+                             data["author"])
+
+    query = "https://api.github.com/repos/" + data["repository"] + \
+            "/issues/" + str(data["pr_number"]) + "/comments" + \
+            "?access_token={}".format(os.environ["GITHUB_TOKEN"])
+    response = requests.post(query, json={"body": comment}).json()
+    data["comment_response"] = response
+
+    js = json.dumps(data)
+    return Response(js, status=200, mimetype='application/json')
+
+
+def handle_review_comment(request):
+    # Figure out what does "position" mean in the response
+    pass

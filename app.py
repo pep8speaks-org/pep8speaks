@@ -45,6 +45,8 @@ def main():
                 return handlers.handle_pull_request(request)
             elif event == "pull_request_review":
                 return handlers.handle_review(request)
+            elif event == "pull_request_review_comment":
+                return handlers.handle_review_comment(request)
     else:
         return render_template('index.html')
 

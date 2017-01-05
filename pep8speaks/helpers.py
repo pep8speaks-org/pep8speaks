@@ -313,8 +313,6 @@ def create_gist(data, config):
     REQUEST_JSON["description"] = "In response to @{0}'s comment : {1}".format(
         data["reviewer"], data["review_url"])
 
-    DIFF_EXISTS = False  # Case when there's nothing to create a gist for
-
     for file in list(data["diff"].keys()):
         if len(data["diff"][file]) != 0:
             REQUEST_JSON["files"][file + ".diff"] = {"content": data["diff"][file]}
@@ -323,4 +321,5 @@ def create_gist(data, config):
     url = "https://api.github.com/gists?access_token={}".format(os.environ["GITHUB_TOKEN"])
     res = requests.post(url, json=REQUEST_JSON).json()
     data["gist_response"] = res
+    print(res)
     data["gist_url"] = res["html_url"]
