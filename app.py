@@ -205,10 +205,24 @@ def main():
                 else:
                     comment_body += " - In the file [`{0}`]({1}), following\
                      are the PEP8 issues :\n".format(file, data[file + "_link"])
-                    comment_body += "```\n"
                     for issue in data["results"][file]:
-                        comment_body += issue
-                    comment_body += "```"
+                        ## Replace filename with L
+                        error_string = issue.replace(file + ":", "Line ")
+
+                        ## Link error codes to search query
+                        error_string_list = error_string.split(" ")
+                        code = error_string_list[2]
+                        code_url = "https://duckduckgo.com/?q=pep8%20{0}".format(code)
+                        error_string_list[2] = "[{0}]({1})".format(code, code_url)
+
+                        ## Link line numbers in the file
+                        line, col = error_string_list[1][:-1].split(":")
+                        line_url = data[file + "_link"] + "#L" + line
+                        error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
+                        error_string = " ".join(error_string_list)
+                        error_string = error_string.replace("Line [", "[Line ")
+
+                        comment_body += "> {0}".format(error_string)
                 comment_body += "\n\n"
 
             if len(comment_body) == 0:
