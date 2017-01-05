@@ -176,43 +176,52 @@ def main():
                 os.remove("pycodestyle_result.txt")
 
             # Write the comment body
-            comment = ""
-
             ## Header
+            comment_header = ""
             if request.json["action"] == "opened":
                 if config["message"]["opened"]["header"] == "":
-                    comment = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
+                    comment_header = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
                 else:
-                    comment = config["message"]["opened"]["header"] + "\n\n"
+                    comment_header = config["message"]["opened"]["header"] + "\n\n"
             elif request.json["action"] in ["synchronize", "reopened"]:
                 if config["message"]["updated"]["header"] == "":
-                    comment = "Hello @" + author + "! Thanks for updating the PR.\n\n"
+                    comment_header = "Hello @" + author + "! Thanks for updating the PR.\n\n"
                 else:
-                    comment = config["message"]["updated"]["header"] + "\n\n"
+                    comment_header = config["message"]["updated"]["header"] + "\n\n"
+
             ## Body
+            comment_body = ""
             for file in list(data["results"].keys()):
+                PR_INVOLVES_PYTHON = True
                 if len(data["results"][file]) == 0:
-                    comment += " - There are no PEP8 issues in the file `" + file[1:] + "` !"
+                    comment_body += " - There are no PEP8 issues in the file `" + file[1:] + "` !"
                 else:
-                    comment += " - In the file `" + file[1:] + "`, following\
+                    comment_body += " - In the file `" + file[1:] + "`, following\
                      are the PEP8 issues :\n"
-                    comment += "```\n"
+                    comment_body += "```\n"
                     for issue in data["results"][file]:
-                        comment += issue
-                    comment += "```"
-                comment += "\n\n"
+                        comment_body += issue
+                    comment_body += "```"
+                comment_body += "\n\n"
+
+            if len(comment_body) == 0:
+                PERMITTED_TO_COMMENT = False
 
             ## Footer
+            comment_footer = ""
             if request.json["action"] == "opened":
                 if config["message"]["opened"]["footer"] == "":
-                    comment += ""
+                    comment_footer += ""
                 else:
-                    comment += config["message"]["opened"]["footer"]
+                    comment_footer += config["message"]["opened"]["footer"]
             elif request.json["action"] in ["synchronize", "reopened"]:
                 if config["message"]["updated"]["footer"] == "":
-                    comment += ""
+                    comment_footer += ""
                 else:
-                    comment += config["message"]["updated"]["footer"]
+                    comment_footer += config["message"]["updated"]["footer"]
+
+            # Construct the comment
+            comment = comment_header + comment_body + comment_footer
 
             # Do not repeat the comment made on the PR by the bot
             data["pr_number"] = request.json["number"]

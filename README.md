@@ -44,6 +44,11 @@ scanner:
 
 The config file is not required for it to work. The default settings are shown above in the image.
 
+# How to fix?
+
+ - Check the errors locally by the command line tool [pycodestyle](https://github.com/PyCQA/pycodestyle) (previously known as `pep8`).
+ - [autopep8](https://github.com/hhatto/autopep8) is another command line tool to fix the issues.
+
 ## Media
 
  - [Product Hunt](https://www.producthunt.com/posts/pep8-speaks)

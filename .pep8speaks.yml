@@ -1,3 +1,0 @@
-ignore:
-  - E266  # Too many '#'
-  - E501  # Line too long
