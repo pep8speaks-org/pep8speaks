@@ -228,6 +228,12 @@ def main():
             if comment == last_comment:
                 PERMITTED_TO_COMMENT = False
 
+            ## Do not comment on updating if no errors were introduced previously
+            if not "following" in comment.lower():  # `following are the pep8 issues`
+                if "no PEP8 issues" in last_comment:
+                    if not "following" in last_comment.lower():
+                        PERMITTED_TO_COMMENT = False  # When both comment have no errors
+
             # Check if the bot is asked to keep quiet
             for old_comment in reversed(comments):
                 if '@pep8speaks' in old_comment['body']:
@@ -255,4 +261,7 @@ app.config['SESSION_TYPE'] = 'filesystem'
 
 sess.init_app(app)
 app.debug = True
+
+if __name__ == '__main__':
+    app.run(debug=True)
 # app.run()
