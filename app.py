@@ -4,7 +4,7 @@ import json
 import os
 import sys
 import urllib.parse as urlparse
-from flask import Flask, render_template, request, Response
+from flask import Flask, render_template, redirect, request, Response
 from flask_session import Session
 import psycopg2
 import pycodestyle
@@ -56,7 +56,9 @@ def update_users(repository):
 
 @app.route("/", methods=['GET', 'POST'])
 def main():
-    if request.method == "POST" and "action" in request.json:
+    if request.method == "GET":
+        return redirect("https://pep8speaks.com")
+    elif request.method == "POST" and "action" in request.json:
 
         PERMITTED_TO_COMMENT = True
 
