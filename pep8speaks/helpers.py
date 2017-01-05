@@ -179,7 +179,7 @@ def prepare_comment(request, data, config):
                             " file [`{0}`]({1}) !".format(file, data[file + "_link"])
         else:
             comment_body += " - In the file [`{0}`]({1}), following\
-             are the PEP8 issues :\n".format(file, data[file + "_link"])
+                are the PEP8 issues :\n".format(file, data[file + "_link"])
             for issue in data["results"][file]:
                 ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
@@ -249,3 +249,78 @@ def comment_permission_check(data, comment):
 
 
     return PERMITTED_TO_COMMENT
+
+def autopep8(data, config):
+    # Run pycodestyle
+    r = requests.get(data["diff_url"] + \
+            "?access_token={}".format(os.environ["GITHUB_TOKEN"]))
+    with open(".diff", "w+") as diff_file:
+        diff_file.write(r.text)
+    ## All the python files with additions
+    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+
+    # A dictionary with filename paired with list of new line numbers
+    py_files = {}
+
+    for patchset in patch:
+        if patchset.target_file[-3:] == '.py':
+            py_file = patchset.target_file[1:]
+            py_files[py_file] = []
+            for hunk in patchset:
+                for line in hunk.target_lines():
+                    if line.is_added:
+                        py_files[py_file].append(line.target_line_no)
+
+    os.remove('.diff')
+
+    # Ignore errors and warnings specified in the config file
+    to_ignore = ",".join(config["ignore"])
+    arg_to_ignore = ""
+    if len(to_ignore) > 0:
+        arg_to_ignore = "--ignore " + to_ignore
+
+    for file in py_files.keys():
+        filename = file[1:]
+        r = requests.get("https://raw.githubusercontent.com/" +
+                         data["repository"] + "/" + data["sha"] +
+                         "/" + file)
+        with open("file_to_fix.py", 'w+') as file_to_fix:
+            file_to_fix.write(r.text)
+
+        # Store the diff in .diff file
+        os.system("autopep8 file_to_fix.py --diff {} > autopep8.diff".format(arg_to_ignore))
+        with open("autopep8.diff", "r") as f:
+            data["diff"][filename] = f.read()
+
+        # Fix the errors
+        data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
+
+        ## Store the link to the file
+        url = "https://github.com/" + data["author"] + "/" + \
+              data["repository"].split("/")[-1] + "/blob/" + \
+              data["sha"] + file
+        data[filename + "_link"] = url
+
+        os.remove("file_to_fix.py")
+        os.remove("autopep8.diff")
+
+
+def create_gist(data, config):
+    """Create gists for diff files"""
+    REQUEST_JSON = {}
+    REQUEST_JSON["public"] = True
+    REQUEST_JSON["files"] = {}
+    REQUEST_JSON["description"] = "In response to @{0}'s comment : {1}".format(
+        data["reviewer"], data["review_url"])
+
+    DIFF_EXISTS = False  # Case when there's nothing to create a gist for
+
+    for file in list(data["diff"].keys()):
+        if len(data["diff"][file]) != 0:
+            REQUEST_JSON["files"][file + ".diff"] = {"content": data["diff"][file]}
+
+    # Call github api to create the gist
+    url = "https://api.github.com/gists?access_token={}".format(os.environ["GITHUB_TOKEN"])
+    res = requests.post(url, json=REQUEST_JSON).json()
+    data["gist_response"] = res
+    data["gist_url"] = res["html_url"]

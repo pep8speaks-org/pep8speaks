@@ -40,8 +40,11 @@ def main():
         return redirect("https://pep8speaks.com")
     elif request.method == "POST":
         if helpers.match_webhook_secret(request):
-            if request.headers["X-GitHub-Event"] == "pull_request":
+            event = request.headers["X-GitHub-Event"]
+            if event == "pull_request":
                 return handlers.handle_pull_request(request)
+            elif event == "pull_request_review":
+                return handlers.handle_review(request)
     else:
         return render_template('index.html')
 
