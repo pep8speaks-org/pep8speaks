@@ -339,8 +339,8 @@ def delete_if_forked(data):
     for repo in r.json():
         if data["target_repo_fullname"] in repo["description"]:
             FORKED = True
-            requests.delete("https://api.github.com/repos/"
-                            "{}".format(data["target_repo_fullname"]),
+            r = requests.delete("https://api.github.com/repos/"
+                            "{}".format(repo["full_name"]),
                             headers=headers)
     return FORKED
 
@@ -410,7 +410,7 @@ def create_new_branch(data):
 def autopep8ify(data, config):
     # Run pycodestyle
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(data["diff_url"])
+    r = requests.get(data["diff_url"], headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
     ## All the python files with additions
@@ -454,23 +454,26 @@ def autopep8ify(data, config):
 
 def commit(data):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    params = {"ref": data["new_branch"]}
+
+    fullname = data.get("fork_fullname")
+
     for file in data["results"].keys():
         url = "https://api.github.com/repos/{}/contents/{}"
-        url = url.format(data["fork_fullname"], file)
-        params["path"] = file
+        url = url.format(fullname, file)
+        params = {"ref": data["new_branch"]}
         r = requests.get(url, params=params, headers=headers)
-        sha_blob = r.json()["sha"]
-        new_file = data["results"][file]
+        sha_blob = r.json().get("sha")
+        params["path"] = file
+        new_file = data.get("results")[file]
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
-        data = {
+        request_json = {
             "path": file,
             "message": "Fix pep8 errors in {}".format(file),
             "content": content_code,
             "sha": sha_blob,
-            "branch": data["new_branch"],
+            "branch": data.get("new_branch"),
         }
-        r = requests.put(url, json=data, headers=headers)
+        r = requests.put(url, json=request_json, headers=headers)
 
 
 def create_pr(data):
