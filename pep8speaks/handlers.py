@@ -102,9 +102,14 @@ def _create_diff(request):
     comment = "Here you go with [the gist]({}) !\n\n" + \
               "> You can ask me to create a PR against this branch " + \
               "with those fixes. Submit a review comment as " + \
-              "`@pep8speaks pep8ify`.\n\n" + "@{} @{} "
-    comment = comment.format(data["gist_url"], data["reviewer"],
-                             data["author"])
+              "`@pep8speaks pep8ify`.\n\n"
+    if data["reviewer"] == data["author"]:  # Both are same person
+        comment += "@{} "
+        comment = comment.format(data["gist_url"], data["reviewer"])
+    else:
+        comment += "@{} @{} "
+        comment = comment.format(data["gist_url"], data["reviewer"],
+                                 data["author"])
 
     query = "https://api.github.com/repos/" + data["repository"] + \
             "/issues/" + str(data["pr_number"]) + "/comments" + \

@@ -294,6 +294,7 @@ def autopep8(data, config):
 
         # Fix the errors
         data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
+        data["diff"][filename] = data["diff"][filename].replace("\\", "\\\\")
 
         ## Store the link to the file
         url = "https://github.com/" + data["author"] + "/" + \
@@ -315,11 +316,13 @@ def create_gist(data, config):
 
     for file in list(data["diff"].keys()):
         if len(data["diff"][file]) != 0:
-            REQUEST_JSON["files"][file + ".diff"] = {"content": data["diff"][file]}
+            REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
+                "content": data["diff"][file]
+                }
 
     # Call github api to create the gist
-    url = "https://api.github.com/gists?access_token={}".format(os.environ["GITHUB_TOKEN"])
-    res = requests.post(url, json=REQUEST_JSON).json()
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    url = "https://api.github.com/gists"
+    res = requests.post(url, json=REQUEST_JSON, headers=headers).json()
     data["gist_response"] = res
-    print(res)
     data["gist_url"] = res["html_url"]
