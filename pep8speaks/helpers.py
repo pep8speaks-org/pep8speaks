@@ -34,6 +34,24 @@ def update_users(repository):
         except psycopg2.IntegrityError:  # If already exists
             conn.rollback()
 
+def update_dict(base, head, depth=-1):
+    """
+    Recursively merge or update dict-like objects.
+    >>> update({'k1': {'k2': 2}}, {'k1': {'k2': {'k3': 3}}, 'k4': 4})
+    {'k1': {'k2': {'k3': 3}}, 'k4': 4}
+
+    Source : http://stackoverflow.com/a/14048316/4698026
+    """
+
+    for k, v in head.items():
+        if isinstance(v, Mapping) and not depth == 0:
+            r = update(base.get(k, {}), v, depth=max(depth - 1, -1))
+            base[k] = r
+        elif isinstance(base, Mapping):
+            base[k] = head[k]
+        else:
+            base = {k: head[k]}
+    return base
 
 def match_webhook_secret(request):
     if "OVER_HEROKU" in os.environ:
@@ -55,7 +73,6 @@ def get_config(repository):
 
     # Default configuration parameters
     config = {
-                "ignore": [],
                 "message": {
                             "opened": {
                                         "header": "",
@@ -66,7 +83,20 @@ def get_config(repository):
                                         "footer": ""
                                         }
                             },
-                "scanner": {"diff_only": False}
+                "scanner": {"diff_only": False},
+                "pycodestyle_config": {
+                    "ignore": [],
+                    "max-line-length": 79,
+                    "count": False,
+                    "first": False,
+                    "show-pep8": False,
+                    "filename": [],
+                    "exclude": [],
+                    "select": [],
+                    "show-source": False,
+                    "statistics": False,
+                    "hang-closing": False,
+                }
             }
 
     # Configuration file
@@ -84,8 +114,7 @@ def get_config(repository):
             try:
                 new_config = yaml.load(stream)
                 # overloading the default configuration with the one specified
-                for key in new_config:
-                    config[key] = new_config[key]
+                config = update_dict(config, new_config)
 
             except yaml.YAMLError as e:  # Bad YAML file
                 pass
@@ -129,9 +158,12 @@ def run_pycodestyle(data, config):
                          "/" + file)
         with open("file_to_check.py", 'w+') as file_to_check:
             file_to_check.write(r.text)
-        checker = pycodestyle.Checker('file_to_check.py')
-        with redirected(stdout='pycodestyle_result.txt'):
-            checker.check_all()
+        # Use the command line here
+        cmd = "pycodestyle {} file_to_check.py > pycodestyle_result.txt"
+        os.system(cmd.format(config["pycode_style_cmd_config"]))
+        # checker = pycodestyle.Checker('file_to_check.py')
+        # with redirected(stdout='pycodestyle_result.txt'):
+        #     checker.check_all()
         with open("pycodestyle_result.txt", "r") as f:
             data["results"][filename] = f.readlines()
         data["results"][filename] = [i.replace("file_to_check.py", filename) for i in data["results"][filename]]
@@ -144,9 +176,6 @@ def run_pycodestyle(data, config):
                 if not int(error.split(":")[1]) in py_files[file]:
                     data["results"][filename].remove(error)
                     continue  # To avoid duplicate deletion
-            for to_ignore in config["ignore"]:
-                if to_ignore in error:
-                    data["results"][filename].remove(error)
 
         ## Store the link to the file
         url = "https://github.com/" + author + "/" + \
