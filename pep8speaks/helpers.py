@@ -18,6 +18,7 @@ import yaml
 
 @contextmanager
 def redirected(stdout):
+    """Retirect output from STDOUT to a file"""
     saved_stdout = sys.stdout
     sys.stdout = open(stdout, 'w+')
     yield
@@ -25,6 +26,7 @@ def redirected(stdout):
 
 
 def update_users(repository):
+    """Update users of the integration in the database"""
     if "OVER_HEROKU" in os.environ:
         # Check if repository exists in database
         query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
@@ -56,6 +58,7 @@ def update_dict(base, head):
 
 
 def match_webhook_secret(request):
+    """Match the webhook secret sent from GitHub"""
     if "OVER_HEROKU" in os.environ:
         header_signature = request.headers.get('X-Hub-Signature')
         if header_signature is None:
@@ -71,45 +74,51 @@ def match_webhook_secret(request):
 
 
 def get_config(repository):
+    """
+    Get .pep8speaks.yml config file from the repository and return
+    the config dictionary
+    """
     PEP8SPEAKS_YML_FOUND = False
 
     # Default configuration parameters
     config = {
-                "message": {
-                            "opened": {
-                                        "header": "",
-                                        "footer": ""
-                                        },
-                            "updated": {
-                                        "header": "",
-                                        "footer": ""
-                                        }
-                            },
-                "scanner": {"diff_only": False},
-                "pycodestyle": {
-                    "ignore": [],
-                    "max-line-length": 79,
-                    "count": False,
-                    "first": False,
-                    "show-pep8": False,
-                    "filename": [],
-                    "exclude": [],
-                    "select": [],
-                    "show-source": False,
-                    "statistics": False,
-                    "hang-closing": False,
-                }
+        "message": {
+            "opened": {
+                "header": "",
+                "footer": ""
+            },
+            "updated": {
+                "header": "",
+                "footer": ""
             }
+        },
+        "scanner": {"diff_only": False},
+        "pycodestyle": {
+            "ignore": [],
+            "max-line-length": 79,
+            "count": False,
+            "first": False,
+            "show-pep8": False,
+            "filename": [],
+            "exclude": [],
+            "select": [],
+            "show-source": False,
+            "statistics": False,
+            "hang-closing": False,
+        }
+    }
+
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
 
     # Configuration file
-    r = requests.get("https://api.github.com/repos/{0}/contents/.pep8speaks.yml"
-                     "?access_token={1}".format(repository, os.environ["GITHUB_TOKEN"]))
+    url = "https://api.github.com/repos/{}/contents/.pep8speaks.yml"
+    url = url.format(repository)
+    r = requests.get(url, headers=headers)
     if r.status_code == 200:
         PEP8SPEAKS_YML_FOUND = True
         res = requests.get(r.json()["download_url"])
         with open(".pep8speaks.yml", "w+") as config_file:
             config_file.write(res.text)
-        # Handle the case of no configuration file resulting in a 404 response code
 
         # Update default config with those provided
         with open(".pep8speaks.yml", "r") as stream:
@@ -142,12 +151,19 @@ def get_config(repository):
 
 
 def run_pycodestyle(data, config):
+    """
+    Run pycodestyle script on the files and update the data
+    dictionary
+    """
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+
     diff_url = data["diff_url"]
     repository = data["repository"]
     after_commit_hash = data["after_commit_hash"]
     author = data["author"]
+
     # Run pycodestyle
-    r = requests.get(diff_url)
+    r = requests.get(diff_url, headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
     ## All the python files with additions
@@ -169,38 +185,35 @@ def run_pycodestyle(data, config):
 
     for file in py_files.keys():
         filename = file[1:]
-        r = requests.get("https://raw.githubusercontent.com/" +
-                         repository + "/" + after_commit_hash +
-                         "/" + file)
+        url = "https://raw.githubusercontent.com/{}/{}/{}"
+        url = url.format(repository, after_commit_hash, file)
+        r = requests.get(url, headers=headers)
         with open("file_to_check.py", 'w+') as file_to_check:
             file_to_check.write(r.text)
+
         # Use the command line here
         cmd = "pycodestyle {} file_to_check.py > pycodestyle_result.txt"
         os.system(cmd.format(config["pycodestyle_cmd_config"]))
-        # checker = pycodestyle.Checker('file_to_check.py')
-        # with redirected(stdout='pycodestyle_result.txt'):
-        #     checker.check_all()
+
         with open("pycodestyle_result.txt", "r") as f:
             data["extra_results"][filename] = f.readlines()
 
-
+        # Put only relevant errors in the data["results"] dictionary
         data["results"][filename] = []
         for error in data["extra_results"][filename]:
             if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
                 data["results"][filename].append(error.replace("file_to_check.py", filename))
 
-        ## Remove the errors and warnings to be ignored from config
-        ## Also remove other errors in case of diff_only = True
-
+        ## Remove errors in case of diff_only = True
+        ## which are caused in the whole file
         for error in list(data["results"][filename]):
             if config["scanner"]["diff_only"]:
                 if not int(error.split(":")[1]) in py_files[file]:
                     data["results"][filename].remove(error)
 
         ## Store the link to the file
-        url = "https://github.com/" + author + "/" + \
-              repository.split("/")[-1] + "/blob/" + \
-              after_commit_hash + file
+        url = "https://github.com/{}/{}/blob/{}{}"
+        url = url.format(author, repository.split("/")[-1], after_commit_hash, file)
         data[filename + "_link"] = url
 
         os.remove("file_to_check.py")
@@ -208,6 +221,7 @@ def run_pycodestyle(data, config):
 
 
 def prepare_comment(request, data, config):
+    """Construct the string of comment i.e. its header, body and footer"""
     author = data["author"]
     # Write the comment body
     ## Header
@@ -273,14 +287,17 @@ def prepare_comment(request, data, config):
 
 
 def comment_permission_check(data, comment):
+    """Check for quite and resume status or duplicate comments"""
     PERMITTED_TO_COMMENT = True
     repository = data["repository"]
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
 
     # Check for duplicate comment
-    query = "https://api.github.com/repos/" + repository + "/issues/" + \
-            str(data["pr_number"]) + \
-            "/comments?access_token={}".format(os.environ["GITHUB_TOKEN"])
-    comments = requests.get(query).json()
+    url = "https://api.github.com/repos/{}/issues/{}/comments"
+    url = url.format(repository, str(data["pr_number"]))
+    comments = requests.get(url, headers=headers).json()
+
+    # Get the last comment by the bot
     last_comment = ""
     for old_comment in reversed(comments):
         if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
@@ -306,10 +323,12 @@ def comment_permission_check(data, comment):
 
     return PERMITTED_TO_COMMENT
 
+
 def autopep8(data, config):
     # Run pycodestyle
-    r = requests.get(data["diff_url"] + \
-            "?access_token={}".format(os.environ["GITHUB_TOKEN"]))
+
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    r = requests.get(data["diff_url"], headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
     ## All the python files with additions
@@ -330,16 +349,16 @@ def autopep8(data, config):
     os.remove('.diff')
 
     # Ignore errors and warnings specified in the config file
-    to_ignore = ",".join(config["ignore"])
+    to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
     for file in py_files.keys():
         filename = file[1:]
-        r = requests.get("https://raw.githubusercontent.com/" +
-                         data["repository"] + "/" + data["sha"] +
-                         "/" + file)
+        url = "https://raw.githubusercontent.com/{}/{}/{}"
+        url = url.format(data["repository"], data["sha"], file)
+        r = requests.get(url, headers=headers)
         with open("file_to_fix.py", 'w+') as file_to_fix:
             file_to_fix.write(r.text)
 
@@ -484,7 +503,7 @@ def autopep8ify(data, config):
     os.remove('.diff')
 
     # Ignore errors and warnings specified in the config file
-    to_ignore = ",".join(config["ignore"])
+    to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
