@@ -200,9 +200,10 @@ def run_pycodestyle(data, config):
 
         # Put only relevant errors in the data["results"] dictionary
         data["results"][filename] = []
-        for error in data["extra_results"][filename]:
+        for error in list(data["extra_results"][filename]):
             if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
                 data["results"][filename].append(error.replace("file_to_check.py", filename))
+                data["extra_results"][filename].remove(error)
 
         ## Remove errors in case of diff_only = True
         ## which are caused in the whole file
@@ -265,9 +266,11 @@ def prepare_comment(request, data, config):
 
                 comment_body += "> {0}".format(error_string)
 
-        comment_body += "\n\n - Complete extra results for this file :\n\n"
-        comment_body += "> " + "".join(data["extra_results"][file])
-        comment_body += "---\n\n"
+        comment_body += "\n\n"
+        if len(data["extra_results"][file]) > 0:
+            comment_body += " - Complete extra results for this file :\n\n"
+            comment_body += "> " + "".join(data["extra_results"][file])
+            comment_body += "---\n\n"
 
 
     ## Footer
