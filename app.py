@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import builtins
 import hmac
-
 import os
 import sys
 import urllib.parse as urlparse
@@ -11,7 +10,8 @@ import psycopg2
 from pep8speaks import handlers, helpers
 
 
-if "OVER_HEROKU" in os.environ:  # For running locally
+# For running locally without connecting to the database
+if "OVER_HEROKU" in os.environ:
     urlparse.uses_netloc.append("postgres")
     url = urlparse.urlparse(os.environ["DATABASE_URL"])
 
@@ -39,6 +39,7 @@ def main():
     if request.method == "GET":
         return redirect("https://pep8speaks.com")
     elif request.method == "POST":
+        # GitHub sends the secret key in the payload header
         if helpers.match_webhook_secret(request):
             event = request.headers["X-GitHub-Event"]
             if event == "pull_request":
@@ -59,4 +60,3 @@ app.debug = False
 
 if __name__ == '__main__':
     app.run(debug=True)
-# app.run()
