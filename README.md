@@ -34,13 +34,18 @@ message:  # Customize the comment made by the bot
         header: "Hello @{name}, Thank you for updating !"
         footer: ""  # Why to comment the link to the style guide everytime? :)
 
-ignore:  # Errors and warnings to ignore
-    - W391  # This comes up if there's a blank line at end of file
-    - E203  # You shouldn't be ignoring this. It's for whitespaces before ':'
-
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
+
+pycodestyle_config:
+    max-line-length: 100  # Default is 79 in PEP8
+    ignore:  # Errors and warnings to ignore
+        - W391
+        - E203
+  statistics: True
 ```
+
+Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
 
 The config file is not required for it to work. The default settings are shown above in the image.
 
