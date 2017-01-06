@@ -85,7 +85,7 @@ def handle_review(request):
     config = helpers.get_config(data["repository"])
 
     if conditions_matched:
-        return _pep8ify(request, data. config)
+        return _pep8ify(request, data, config)
     else:
         conditions_matched = condition1 and condition2
         if conditions_matched:
@@ -118,11 +118,28 @@ def _create_diff(request, data, config):
     response = requests.post(query, json={"body": comment}).json()
     data["comment_response"] = response
 
+    status_code = 200
+    if "error" in data.keys():
+        status_code = 400
     js = json.dumps(data)
-    return Response(js, status=200, mimetype='application/json')
+    return Response(js, status=status_code, mimetype='application/json')
 
 
 def _pep8ify(request, data, config):
+    data["target_repo_fullname"] = request.json["pull_request"]["head"]["repo"]["full_name"]
+    data["target_repo_branch"] = request.json["pull_request"]["head"]["ref"]
+    data["results"] = {}
+
+    helpers.delete_if_forked(data)
+    helpers.fork_for_pr(data)
+    helpers.update_fork_desc(data)
+    helpers.create_new_branch(data)
+    helpers.autopep8ify(data, config)
+    helpers.commit(data)
+    helpers.create_pr(data)
+
+    js = json.dumps(data)
+    return Response(js, status=200, mimetype='application/json')
 
 
 

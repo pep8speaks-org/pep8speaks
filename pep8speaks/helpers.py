@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 from contextlib import contextmanager
+import base64
 import hmac
+import json
 import os
 import sys
+import time
 from flask import abort
 import psycopg2
 import pycodestyle
@@ -306,21 +309,6 @@ def autopep8(data, config):
         os.remove("autopep8.diff")
 
 
-def autopep8ify(data, config):
-    # Help needed
-    # Create a fork
-    # https://developer.github.com/v3/repos/forks/#create-a-fork
-
-    # Create a branch
-    # https://gist.github.com/potherca/3964930
-
-    # Run autopep8 --inline
-
-    # Commit and update branch (FIGURE OUT??)
-
-    # Create PR
-    # https://developer.github.com/v3/pulls/#create-a-pull-request
-
 def create_gist(data, config):
     """Create gists for diff files"""
     REQUEST_JSON = {}
@@ -341,3 +329,162 @@ def create_gist(data, config):
     res = requests.post(url, json=REQUEST_JSON, headers=headers).json()
     data["gist_response"] = res
     data["gist_url"] = res["html_url"]
+
+
+def delete_if_forked(data):
+    FORKED = False
+    url = "https://api.github.com/user/repos"
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    r = requests.get(url, headers=headers)
+    for repo in r.json():
+        if data["target_repo_fullname"] in repo["description"]:
+            FORKED = True
+            requests.delete("https://api.github.com/repos/"
+                            "{}".format(data["target_repo_fullname"]),
+                            headers=headers)
+    return FORKED
+
+
+def fork_for_pr(data):
+    FORKED = False
+    url = "https://api.github.com/repos/{}/forks"
+    url = url.format(data["target_repo_fullname"])
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    r = requests.post(url, headers=headers)
+    if r.status_code == 202:
+        data["fork_fullname"] = r.json()["full_name"]
+        FORKED = True
+    else:
+        data["error"] = "Unable to fork"
+    return FORKED
+
+
+def update_fork_desc(data):
+    # Check if forked (takes time)
+    url = "https://api.github.com/repos/{}".format(data["fork_fullname"])
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    r = requests.get(url, headers=headers)
+    ATTEMPT = 0
+    while(r.status_code != 200):
+        time.sleep(5)
+        r = requests.get(url, headers=headers)
+        ATTEMPT += 1
+        if ATTEMPT > 10:
+            data["error"] = "Forking is taking more than usual time"
+            break
+
+    full_name = data["target_repo_fullname"]
+    author, name = full_name.split("/")
+    data = {
+        "name": name,
+        "description": "Forked from @{}'s {}".format(author, full_name)
+    }
+    r = requests.patch(url, data=json.dumps(data), headers=headers)
+    if r.status_code != 200:
+        data["error"] = "Could not update description of the fork"
+
+
+def create_new_branch(data):
+    url = "https://api.github.com/repos/{}/git/refs/heads"
+    url = url.format(data["fork_fullname"])
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    sha = None
+    r = requests.get(url, headers=headers)
+    for ref in r.json():
+        if ref["ref"].split("/")[-1] == data["target_repo_branch"]:
+            sha = ref["object"]["sha"]
+
+    url = "https://api.github.com/repos/{}/git/refs"
+    url = url.format(data["fork_fullname"])
+    data["new_branch"] = "{}-pep8-patch".format(data["target_repo_branch"])
+    request_json = {
+        "ref": "refs/heads/{}".format(data["new_branch"]),
+        "sha": sha,
+    }
+    r = requests.post(url, json=request_json, headers=headers)
+
+    if r.status_code != 200:
+        data["error"] = "Could not create new branch in the fork"
+
+
+def autopep8ify(data, config):
+    # Run pycodestyle
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    r = requests.get(data["diff_url"])
+    with open(".diff", "w+") as diff_file:
+        diff_file.write(r.text)
+    ## All the python files with additions
+    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+
+    # A dictionary with filename paired with list of new line numbers
+    py_files = {}
+
+    for patchset in patch:
+        if patchset.target_file[-3:] == '.py':
+            py_file = patchset.target_file[1:]
+            py_files[py_file] = []
+            for hunk in patchset:
+                for line in hunk.target_lines():
+                    if line.is_added:
+                        py_files[py_file].append(line.target_line_no)
+
+    os.remove('.diff')
+
+    # Ignore errors and warnings specified in the config file
+    to_ignore = ",".join(config["ignore"])
+    arg_to_ignore = ""
+    if len(to_ignore) > 0:
+        arg_to_ignore = "--ignore " + to_ignore
+
+    for file in py_files.keys():
+        filename = file[1:]
+        url = "https://raw.githubusercontent.com/{}/{}/{}"
+        url = url.format(data["repository"], data["sha"], file)
+        r = requests.get(url, headers=headers)
+        with open("file_to_fix.py", 'w+') as file_to_fix:
+            file_to_fix.write(r.text)
+
+        # Store the diff in .diff file
+        os.system("autopep8 file_to_fix.py --in-place {}".format(arg_to_ignore))
+        with open("file_to_fix.py", "r") as f:
+            data["results"][filename] = f.read()
+
+        os.remove("file_to_fix.py")
+
+
+def commit(data):
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    params = {"ref": data["new_branch"]}
+    for file in data["results"].keys():
+        url = "https://api.github.com/repos/{}/contents/{}"
+        url = url.format(data["fork_fullname"], file)
+        params["path"] = file
+        r = requests.get(url, params=params, headers=headers)
+        sha_blob = r.json()["sha"]
+        new_file = data["results"][file]
+        content_code = base64.b64encode(new_file.encode()).decode("utf-8")
+        data = {
+            "path": file,
+            "message": "Fix pep8 errors in {}".format(file),
+            "content": content_code,
+            "sha": sha_blob,
+            "branch": data["new_branch"],
+        }
+        r = requests.put(url, json=data, headers=headers)
+
+
+def create_pr(data):
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    url = "https://api.github.com/repos/{}/pulls"
+    url = url.format(data["target_repo_fullname"])
+    request_json = {
+        "title": "Fix pep8 errors",
+        "head": "pep8speaks:{}".format(data["new_branch"]),
+        "base": data["target_repo_branch"],
+        "body": "The changes are suggested by autopep8",
+    }
+    r = requests.post(url, json=request_json, headers=headers)
+    if r.status_code == 201:
+        data["pr_url"] = r.json()["html_url"]
+    else:
+        data["error"] = "Pull request could not be created"
