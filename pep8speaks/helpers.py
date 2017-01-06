@@ -166,7 +166,8 @@ def run_pycodestyle(data, config):
     r = requests.get(diff_url, headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
-    # All the python files with additions
+
+    ## All the python files with additions
     patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers
@@ -202,21 +203,19 @@ def run_pycodestyle(data, config):
         data["results"][filename] = []
         for error in list(data["extra_results"][filename]):
             if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
-                data["results"][filename].append(
-                    error.replace("file_to_check.py", filename))
+                data["results"][filename].append(error.replace("file_to_check.py", filename))
                 data["extra_results"][filename].remove(error)
 
-        # Remove errors in case of diff_only = True
-        # which are caused in the whole file
+        ## Remove errors in case of diff_only = True
+        ## which are caused in the whole file
         for error in list(data["results"][filename]):
             if config["scanner"]["diff_only"]:
                 if not int(error.split(":")[1]) in py_files[file]:
                     data["results"][filename].remove(error)
 
-        # Store the link to the file
+        ## Store the link to the file
         url = "https://github.com/{}/{}/blob/{}{}"
-        url = url.format(author, repository.split("/")
-                         [-1], after_commit_hash, file)
+        url = url.format(author, repository.split("/")[-1], after_commit_hash, file)
         data[filename + "_link"] = url
 
         os.remove("file_to_check.py")
@@ -227,7 +226,7 @@ def prepare_comment(request, data, config):
     """Construct the string of comment i.e. its header, body and footer"""
     author = data["author"]
     # Write the comment body
-    # Header
+    ## Header
     comment_header = ""
     if request.json["action"] == "opened":
         if config["message"]["opened"]["header"] == "":
@@ -240,31 +239,29 @@ def prepare_comment(request, data, config):
         else:
             comment_header = config["message"]["updated"]["header"] + "\n\n"
 
-    # Body
+    ## Body
     comment_body = ""
     for file in list(data["results"].keys()):
         if len(data["results"][file]) == 0:
             comment_body += " - There are no PEP8 issues in the" + \
-                            " file [`{0}`]({1}) !".format(
-                                file, data[file + "_link"])
+                            " file [`{0}`]({1}) !".format(file, data[file + "_link"])
         else:
             comment_body += " - In the file [`{0}`]({1}), following\
                 are the PEP8 issues :\n".format(file, data[file + "_link"])
             for issue in data["results"][file]:
-                # Replace filename with L
+                ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
 
-                # Link error codes to search query
+                ## Link error codes to search query
                 error_string_list = error_string.split(" ")
                 code = error_string_list[2]
                 code_url = "https://duckduckgo.com/?q=pep8%20{0}".format(code)
                 error_string_list[2] = "[{0}]({1})".format(code, code_url)
 
-                # Link line numbers in the file
+                ## Link line numbers in the file
                 line, col = error_string_list[1][:-1].split(":")
                 line_url = data[file + "_link"] + "#L" + line
-                error_string_list[1] = "[{0}:{1}]({2}):".format(
-                    line, col, line_url)
+                error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
 
@@ -276,7 +273,8 @@ def prepare_comment(request, data, config):
             comment_body += "> " + "".join(data["extra_results"][file])
             comment_body += "---\n\n"
 
-    # Footer
+
+    ## Footer
     comment_footer = ""
     if request.json["action"] == "opened":
         if config["message"]["opened"]["footer"] == "":
@@ -312,7 +310,7 @@ def comment_permission_check(data, comment):
     if comment == last_comment:
         PERMITTED_TO_COMMENT = False
 
-    # Do not comment on updating if no errors were introduced previously
+    ## Do not comment on updating if no errors were introduced previously
     if "following" not in comment.lower():  # `following are the pep8 issues`
         if "no PEP8 issues" in last_comment:
             if "following" not in last_comment.lower():
@@ -326,6 +324,7 @@ def comment_permission_check(data, comment):
             elif 'quiet' in old_comment['body'].lower():
                 PERMITTED_TO_COMMENT = False
 
+
     return PERMITTED_TO_COMMENT
 
 
@@ -336,7 +335,7 @@ def autopep8(data, config):
     r = requests.get(data["diff_url"], headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
-    # All the python files with additions
+    ## All the python files with additions
     patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers
@@ -368,17 +367,15 @@ def autopep8(data, config):
             file_to_fix.write(r.text)
 
         # Store the diff in .diff file
-        os.system(
-            "autopep8 file_to_fix.py --diff {} > autopep8.diff".format(arg_to_ignore))
+        os.system("autopep8 file_to_fix.py --diff {} > autopep8.diff".format(arg_to_ignore))
         with open("autopep8.diff", "r") as f:
             data["diff"][filename] = f.read()
 
         # Fix the errors
-        data["diff"][filename] = data["diff"][
-            filename].replace("file_to_check.py", filename)
+        data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
         data["diff"][filename] = data["diff"][filename].replace("\\", "\\\\")
 
-        # Store the link to the file
+        ## Store the link to the file
         url = "https://github.com/" + data["author"] + "/" + \
               data["repository"].split("/")[-1] + "/blob/" + \
               data["sha"] + file
@@ -400,7 +397,7 @@ def create_gist(data, config):
         if len(data["diff"][file]) != 0:
             REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
                 "content": data["diff"][file]
-            }
+                }
 
     # Call github api to create the gist
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
@@ -419,8 +416,8 @@ def delete_if_forked(data):
         if data["target_repo_fullname"] in repo["description"]:
             FORKED = True
             r = requests.delete("https://api.github.com/repos/"
-                                "{}".format(repo["full_name"]),
-                                headers=headers)
+                            "{}".format(repo["full_name"]),
+                            headers=headers)
     return FORKED
 
 
@@ -492,7 +489,7 @@ def autopep8ify(data, config):
     r = requests.get(data["diff_url"], headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
-    # All the python files with additions
+    ## All the python files with additions
     patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers

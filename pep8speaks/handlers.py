@@ -21,6 +21,7 @@ def handle_pull_request(request):
             "diff_url": request.json["pull_request"]["diff_url"],
             # Dictionary with filename matched with list of results
             "results": {},
+
             # Dictionary with filename matched with list of results caused by
             # pycodestyle arguments
             "extra_results": {},
@@ -72,8 +73,8 @@ def handle_pull_request(request):
             headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
             query = "https://api.github.com/repos/{}/issues/{}/comments"
             query = query.format(data["repository"], str(data["pr_number"]))
-            response = requests.post(
-                query, json={"body": comment}, headers=headers)
+
+            response = requests.post(query, json={"body": comment}, headers=headers)
             data["comment_response"] = response.json()
 
         js = json.dumps(data)
@@ -97,14 +98,14 @@ def handle_review(request):
 
     condition1 = request.json["action"] == "submitted"
     # Mainly the summary of the review matters
-    # pep8speaks must be mentioned
+    ## pep8speaks must be mentioned
     condition2 = "@pep8speaks" in request.json["review"]["body"]
-    # Check if asked to pep8ify
+    ## Check if asked to pep8ify
     condition3 = "pep8ify" in request.json["review"]["body"]
 
-    # If pep8ify is not there, all other reviews with body summary
-    # having the mention of pep8speaks, will result in commenting
-    # with autpep8 diff gist.
+    ## If pep8ify is not there, all other reviews with body summary
+    ## having the mention of pep8speaks, will result in commenting
+    ## with autpep8 diff gist.
     conditions_matched = condition1 and condition2 and condition3
 
     if conditions_matched:
@@ -116,8 +117,7 @@ def handle_review(request):
 
 
 def _pep8ify(request, data, config):
-    data["target_repo_fullname"] = request.json[
-        "pull_request"]["head"]["repo"]["full_name"]
+    data["target_repo_fullname"] = request.json["pull_request"]["head"]["repo"]["full_name"]
     data["target_repo_branch"] = request.json["pull_request"]["head"]["ref"]
     data["results"] = {}
 

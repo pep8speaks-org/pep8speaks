@@ -1,18 +1,15 @@
-# pep8speaks
+# PEP8 Speaks
 > because it matters.
 
-A GitHub bot which checks pep8 issues and then comments over Pull Requests
+A GitHub integration which checks pep8 issues and then comments over Pull Requests
 
 <img src="data/readme.png" width="80%">
 
 # How to Use?
 
- - Go to your project or organization settings
-  - GitHub > Settings > Webhooks > Add Webhook
- - Payload URL : https://pep8speaks.herokuapp.com
- - Click on `Let me select individual events.`
- - Tick `Pull request` and untick all other events.
- - Add webhook
+ - Go to the homepage of the [Integration](https://github.com/integration/pep8-speaks)
+ - Click on Install button
+ - Add the repositories you want this service for
 
 # Features
 
@@ -22,7 +19,7 @@ A GitHub bot which checks pep8 issues and then comments over Pull Requests
  - The bot's last comment is not repeated. Hence if the PR is updated and the bot does not comment, it means it stands with its previous comment.
 
 # Configuration
-The bot can be configured additionally by adding a `.pep8speaks.yml` file to the base directory of the repo. Here are the available options of the config file :
+The integration can be configured additionally by adding a `.pep8speaks.yml` file to the base directory of the repo. Here are the available options of the config file :
 
 ```yaml
 # File : .pep8speaks.yml
@@ -37,15 +34,29 @@ message:  # Customize the comment made by the bot
         header: "Hello @{name}, Thank you for updating !"
         footer: ""  # Why to comment the link to the style guide everytime? :)
 
-ignore:  # Errors and warnings to ignore
-    - W391  # This comes up if there's a blank line at end of file
-    - E203  # You shouldn't be ignoring this. It's for whitespaces before ':'
-
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
+
+pycodestyle:
+    max-line-length: 100  # Default is 79 in PEP8
+    ignore:  # Errors and warnings to ignore
+        - W391
+        - E203
+  statistics: True
 ```
 
+Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
+
 The config file is not required for it to work. The default settings are shown above in the image.
+
+# How to fix?
+
+ - Check the errors locally by the command line tool [pycodestyle](https://github.com/PyCQA/pycodestyle) (previously known as `pep8`).
+ - [autopep8](https://github.com/hhatto/autopep8) is another command line tool to fix the issues.
+
+## Media
+
+ - [Product Hunt](https://www.producthunt.com/posts/pep8-speaks)
 
 # Contribute
 
