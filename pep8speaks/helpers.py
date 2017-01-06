@@ -166,6 +166,7 @@ def run_pycodestyle(data, config):
     r = requests.get(diff_url, headers=headers)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
+
     ## All the python files with additions
     patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
 

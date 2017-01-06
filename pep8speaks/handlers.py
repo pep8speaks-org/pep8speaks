@@ -5,6 +5,7 @@ from flask import Response
 import requests
 from pep8speaks import helpers
 
+
 def handle_pull_request(request):
 
     # A variable which is set to False whenever a criteria is not met
@@ -20,7 +21,9 @@ def handle_pull_request(request):
             "diff_url": request.json["pull_request"]["diff_url"],
             # Dictionary with filename matched with list of results
             "results": {},
-            # Dictionary with filename matched with list of results caused by pycodestyle arguments
+
+            # Dictionary with filename matched with list of results caused by
+            # pycodestyle arguments
             "extra_results": {},
             "pr_number": request.json["number"],
         }
@@ -41,7 +44,6 @@ def handle_pull_request(request):
                     msg = config["message"][act][pos]
                     new_msg = msg.replace("{name}", data["author"])
                     config["message"][act][pos] = new_msg
-
 
         # Updates data dictionary with the results
         # This function runs the pep8 checker
@@ -71,6 +73,7 @@ def handle_pull_request(request):
             headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
             query = "https://api.github.com/repos/{}/issues/{}/comments"
             query = query.format(data["repository"], str(data["pr_number"]))
+
             response = requests.post(query, json={"body": comment}, headers=headers)
             data["comment_response"] = response.json()
 
