@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from contextlib import contextmanager
 import base64
+import collections
 import hmac
 import json
 import os
@@ -34,24 +35,24 @@ def update_users(repository):
         except psycopg2.IntegrityError:  # If already exists
             conn.rollback()
 
-def update_dict(base, head, depth=-1):
+
+def update_dict(base, head):
     """
     Recursively merge or update dict-like objects.
-    >>> update({'k1': {'k2': 2}}, {'k1': {'k2': {'k3': 3}}, 'k4': 4})
-    {'k1': {'k2': {'k3': 3}}, 'k4': 4}
+    >>> update({'k1': 1}, {'k1': {'k2': {'k3': 3}}})
 
-    Source : http://stackoverflow.com/a/14048316/4698026
+    Source : http://stackoverflow.com/a/32357112/4698026
     """
-
-    for k, v in head.items():
-        if isinstance(v, Mapping) and not depth == 0:
-            r = update(base.get(k, {}), v, depth=max(depth - 1, -1))
-            base[k] = r
-        elif isinstance(base, Mapping):
-            base[k] = head[k]
+    for key, value in head.items():
+        if isinstance(base, collections.Mapping):
+            if isinstance(value, collections.Mapping):
+                base[key] = update_dict(base.get(key, {}), value)
+            else:
+                base[key] = head[key]
         else:
-            base = {k: head[k]}
+            base = {key: head[key]}
     return base
+
 
 def match_webhook_secret(request):
     if "OVER_HEROKU" in os.environ:
