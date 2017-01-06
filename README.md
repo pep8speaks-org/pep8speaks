@@ -37,7 +37,7 @@ message:  # Customize the comment made by the bot
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
 
-pycodestyle_config:
+pycodestyle:
     max-line-length: 100  # Default is 79 in PEP8
     ignore:  # Errors and warnings to ignore
         - W391

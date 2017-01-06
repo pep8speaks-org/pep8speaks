@@ -86,7 +86,7 @@ def get_config(repository):
                                         }
                             },
                 "scanner": {"diff_only": False},
-                "pycodestyle_config": {
+                "pycodestyle": {
                     "ignore": [],
                     "max-line-length": 79,
                     "count": False,
@@ -126,7 +126,7 @@ def get_config(repository):
 
     # Create pycodestyle command line arguments
     arguments = " "
-    confs = config["pycodestyle_config"]
+    confs = config["pycodestyle"]
     for conf in confs.keys():
         if confs[conf]:  # Non empty
             if isinstance(confs[conf], int):
@@ -251,7 +251,7 @@ def prepare_comment(request, data, config):
 
                 comment_body += "> {0}".format(error_string)
 
-        comment_body += "\n\n - Extra results for this file :\n\n"
+        comment_body += "\n\n - Complete extra results for this file :\n\n"
         comment_body += "> " + "".join(data["extra_results"][file])
         comment_body += "---\n\n"
 
