@@ -24,6 +24,8 @@ def handle_pull_request(request):
             "diff_url": diff_url,
             # Dictionary with filename matched with list of results
             "results": {},
+            # Dictionary with filename matched with list of results caused by pycodestyle arguments
+            "extra_results": {},
             "pr_number": pr_number,
         }
 

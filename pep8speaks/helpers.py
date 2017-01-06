@@ -5,6 +5,7 @@ import collections
 import hmac
 import json
 import os
+import re
 import sys
 import time
 from flask import abort
@@ -123,6 +124,20 @@ def get_config(repository):
     if PEP8SPEAKS_YML_FOUND:
         os.remove(".pep8speaks.yml")
 
+    # Create pycodestyle command line arguments
+    arguments = " "
+    confs = config["pycodestyle_config"]
+    for conf in confs.keys():
+        if confs[conf]:  # Non empty
+            if isinstance(confs[conf], int):
+                if isinstance(confs[conf], bool):
+                    arguments += "--{} ".format(conf)
+                else:
+                    arguments += "--{}={} ".format(conf, confs[conf])
+            elif isinstance(confs[conf], list):
+                arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
+    config["pycodestyle_cmd_config"] = arguments
+
     return config
 
 
@@ -161,13 +176,18 @@ def run_pycodestyle(data, config):
             file_to_check.write(r.text)
         # Use the command line here
         cmd = "pycodestyle {} file_to_check.py > pycodestyle_result.txt"
-        os.system(cmd.format(config["pycode_style_cmd_config"]))
+        os.system(cmd.format(config["pycodestyle_cmd_config"]))
         # checker = pycodestyle.Checker('file_to_check.py')
         # with redirected(stdout='pycodestyle_result.txt'):
         #     checker.check_all()
         with open("pycodestyle_result.txt", "r") as f:
-            data["results"][filename] = f.readlines()
-        data["results"][filename] = [i.replace("file_to_check.py", filename) for i in data["results"][filename]]
+            data["extra_results"][filename] = f.readlines()
+
+
+        data["results"][filename] = []
+        for error in data["extra_results"][filename]:
+            if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
+                data["results"][filename].append(error.replace("file_to_check.py", filename))
 
         ## Remove the errors and warnings to be ignored from config
         ## Also remove other errors in case of diff_only = True
@@ -176,7 +196,6 @@ def run_pycodestyle(data, config):
             if config["scanner"]["diff_only"]:
                 if not int(error.split(":")[1]) in py_files[file]:
                     data["results"][filename].remove(error)
-                    continue  # To avoid duplicate deletion
 
         ## Store the link to the file
         url = "https://github.com/" + author + "/" + \
@@ -231,7 +250,11 @@ def prepare_comment(request, data, config):
                 error_string = error_string.replace("Line [", "[Line ")
 
                 comment_body += "> {0}".format(error_string)
+
+        comment_body += "\n\n - Extra results for this file :\n---\n"
+        comment_body += ''.join(data["extra_results"][file])
         comment_body += "\n\n"
+
 
     ## Footer
     comment_footer = ""
@@ -405,11 +428,11 @@ def update_fork_desc(data):
 
     full_name = data["target_repo_fullname"]
     author, name = full_name.split("/")
-    data = {
+    request_json = {
         "name": name,
         "description": "Forked from @{}'s {}".format(author, full_name)
     }
-    r = requests.patch(url, data=json.dumps(data), headers=headers)
+    r = requests.patch(url, data=json.dumps(request_json), headers=headers)
     if r.status_code != 200:
         data["error"] = "Could not update description of the fork"
 
