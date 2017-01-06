@@ -306,6 +306,21 @@ def autopep8(data, config):
         os.remove("autopep8.diff")
 
 
+def autopep8ify(data, config):
+    # Help needed
+    # Create a fork
+    # https://developer.github.com/v3/repos/forks/#create-a-fork
+
+    # Create a branch
+    # https://gist.github.com/potherca/3964930
+
+    # Run autopep8 --inline
+
+    # Commit and update branch (FIGURE OUT??)
+
+    # Create PR
+    # https://developer.github.com/v3/pulls/#create-a-pull-request
+
 def create_gist(data, config):
     """Create gists for diff files"""
     REQUEST_JSON = {}

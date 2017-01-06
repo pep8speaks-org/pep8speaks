@@ -72,15 +72,6 @@ def handle_review(request):
     condition3 = "pep8ify" in request.json["review"]["body"]
     conditions_matched = condition1 and condition2 and condition3
 
-    if conditions_matched:
-        return _pep8ify(request)
-    else:
-        conditions_matched = condition1 and condition2
-        if conditions_matched:
-            return _create_diff(request)
-
-
-def _create_diff(request):
     data = dict()
     data["author"] = request.json["pull_request"]["user"]["login"]
     data["reviewer"] = request.json["review"]["user"]["login"]
@@ -89,11 +80,21 @@ def _create_diff(request):
     data["sha"] = request.json["pull_request"]["head"]["sha"]
     data["review_url"] = request.json["review"]["html_url"]
     data["pr_number"] = request.json["pull_request"]["number"]
-    # Dictionary with filename matched with a string of diff
-    data["diff"] = {}
 
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(data["repository"])
+
+    if conditions_matched:
+        return _pep8ify(request, data. config)
+    else:
+        conditions_matched = condition1 and condition2
+        if conditions_matched:
+            return _create_diff(request, data, config)
+
+
+def _create_diff(request, data, config):
+    # Dictionary with filename matched with a string of diff
+    data["diff"] = {}
 
     helpers.autopep8(data, config)
 
@@ -119,6 +120,10 @@ def _create_diff(request):
 
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
+
+
+def _pep8ify(request, data, config):
+
 
 
 def handle_review_comment(request):
