@@ -251,9 +251,9 @@ def prepare_comment(request, data, config):
 
                 comment_body += "> {0}".format(error_string)
 
-        comment_body += "\n\n - Extra results for this file :\n---\n"
-        comment_body += ''.join(data["extra_results"][file])
-        comment_body += "\n\n"
+        comment_body += "\n\n - Extra results for this file :\n\n"
+        comment_body += "> " + "".join(data["extra_results"][file])
+        comment_body += "---\n\n"
 
 
     ## Footer
