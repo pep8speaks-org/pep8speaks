@@ -56,6 +56,10 @@ def handle_pull_request(request):
         # Do not make duplicate comment made on the PR by the bot
         PERMITTED_TO_COMMENT = helpers.comment_permission_check(data, comment)
 
+        # Do not run on PR's created by pep8speaks using autopep8
+        if author == "pep8speaks":
+            PERMITTED_TO_COMMENT = False
+
         # Make the comment
         if PERMITTED_TO_COMMENT:
             query = "https://api.github.com/repos/" + repository + "/issues/" + \
