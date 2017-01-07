@@ -61,7 +61,8 @@ def handle_pull_request(request):
 
         # Do not make duplicate comment made on the PR by the bot
         # Check if asked to keep quiet
-        PERMITTED_TO_COMMENT = helpers.comment_permission_check(data, comment)
+        if not helpers.comment_permission_check(data, comment):
+            PERMITTED_TO_COMMENT = False
 
         # Do not run on PR's created by pep8speaks which use autopep8
         # Too much noisy
