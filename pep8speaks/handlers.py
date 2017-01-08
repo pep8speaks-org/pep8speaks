@@ -30,6 +30,7 @@ def handle_pull_request(request):
 
         # Update users of the integration
         helpers.update_users(data["repository"])
+        helpers.follow_user(data)
 
         # Get the config from .pep8speaks.yml file of the repository
         config = helpers.get_config(data)

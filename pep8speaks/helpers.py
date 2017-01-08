@@ -39,6 +39,18 @@ def update_users(repository):
             conn.rollback()
 
 
+
+def follow_user(data):
+    """Follow the user of the service"""
+    headers = {
+        "Authorization": "token " + os.environ["GITHUB_TOKEN"],
+        "Content-Length": 0,
+        }
+    url  = "https://api.github.com/user/following/{}"
+    url = url.format(data["repository"].split("/")[0])
+    r = requests.put(url, headers=headers)
+
+
 def update_dict(base, head):
     """
     Recursively merge or update dict-like objects.
