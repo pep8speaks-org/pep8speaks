@@ -96,7 +96,7 @@ def handle_review(request):
     data["pr_number"] = request.json["pull_request"]["number"]
 
     # Get the .pep8speaks.yml config file from the repository
-    config = helpers.get_config(data["repository"])
+    config = helpers.get_config(data)
 
     condition1 = request.json["action"] == "submitted"
     # Mainly the summary of the review matters
