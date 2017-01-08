@@ -189,6 +189,10 @@ def handle_integration_installation(request):
     }
 
     helpers.follow_user(data["user"])
+    status_code = 200
+    js = json.dumps(data)
+    return Response(js, status=status_code, mimetype='application/json')
+
 
 
 def handle_integration_installation_repo(request):
@@ -199,3 +203,6 @@ def handle_integration_installation_repo(request):
 
     for repo in data["repositories"]:
         helpers.update_users(repo["full_name"])
+    status_code = 200
+    js = json.dumps(data)
+    return Response(js, status=status_code, mimetype='application/json')
