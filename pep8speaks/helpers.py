@@ -425,11 +425,12 @@ def delete_if_forked(data):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     r = requests.get(url, headers=headers)
     for repo in r.json():
-        if data["target_repo_fullname"] in repo["description"]:
-            FORKED = True
-            r = requests.delete("https://api.github.com/repos/"
-                            "{}".format(repo["full_name"]),
-                            headers=headers)
+        if repo["description"]:
+            if data["target_repo_fullname"] in repo["description"]:
+                FORKED = True
+                r = requests.delete("https://api.github.com/repos/"
+                                "{}".format(repo["full_name"]),
+                                headers=headers)
     return FORKED
 
 
