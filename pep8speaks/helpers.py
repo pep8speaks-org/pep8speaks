@@ -40,14 +40,14 @@ def update_users(repository):
 
 
 
-def follow_user(data):
+def follow_user(user):
     """Follow the user of the service"""
     headers = {
         "Authorization": "token " + os.environ["GITHUB_TOKEN"],
         "Content-Length": 0,
         }
     url  = "https://api.github.com/user/following/{}"
-    url = url.format(data["repository"].split("/")[0])
+    url = url.format(user)
     r = requests.put(url, headers=headers)
 
 

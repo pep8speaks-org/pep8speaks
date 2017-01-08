@@ -30,7 +30,6 @@ def handle_pull_request(request):
 
         # Update users of the integration
         helpers.update_users(data["repository"])
-        helpers.follow_user(data)
 
         # Get the config from .pep8speaks.yml file of the repository
         config = helpers.get_config(data)
@@ -181,3 +180,15 @@ def _create_diff(request, data, config):
 def handle_review_comment(request):
     # Figure out what does "position" mean in the response
     pass
+
+
+def handle_integration_installation(request):
+    # Add the user/repo in the database
+    data = {
+        repositories: request.json()["repositories_added"],
+        user: request.json()["installation"]["account"]["login"]
+    }
+
+    helpers.follow_user(data["user"])
+    for repo in data["repositories"]:
+        helpers.update_users(repo["full_name"])
