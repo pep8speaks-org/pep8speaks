@@ -183,12 +183,19 @@ def handle_review_comment(request):
 
 
 def handle_integration_installation(request):
-    # Add the user/repo in the database
+    # Follow user
     data = {
-        repositories: request.json()["repositories_added"],
-        user: request.json()["installation"]["account"]["login"]
+        "user": request.json["installation"]["account"]["login"]
     }
 
     helpers.follow_user(data["user"])
+
+
+def handle_integration_installation_repo(request):
+    # Add the repo in the database
+    data = {
+        "repositories": request.json["repositories_added"],
+    }
+
     for repo in data["repositories"]:
         helpers.update_users(repo["full_name"])
