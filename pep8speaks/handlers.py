@@ -11,9 +11,10 @@ def handle_pull_request(request):
     # A variable which is set to False whenever a criteria is not met
     # Ultimately if this is True, only then the comment is made
     PERMITTED_TO_COMMENT = True
+    # This dictionary is used and updated after making API calls
+    data = {}
 
     if request.json["action"] in ["synchronize", "opened", "reopened"]:
-        # This dictionary is used and updated after making API calls
         data = {
             "after_commit_hash": request.json["pull_request"]["head"]["sha"],
             "repository": request.json["repository"]["full_name"],
@@ -78,8 +79,8 @@ def handle_pull_request(request):
             response = requests.post(query, json={"body": comment}, headers=headers)
             data["comment_response"] = response.json()
 
-        js = json.dumps(data)
-        return Response(js, status=200, mimetype='application/json')
+    js = json.dumps(data)
+    return Response(js, status=200, mimetype='application/json')
 
 
 def handle_review(request):
