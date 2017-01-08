@@ -73,7 +73,7 @@ def match_webhook_secret(request):
     return True
 
 
-def get_config(repository):
+def get_config(data):
     """
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
@@ -111,14 +111,14 @@ def get_config(repository):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
 
     # Configuration file
-    url = "https://api.github.com/repos/{}/contents/.pep8speaks.yml"
-    url = url.format(repository)
+    url = "https://raw.githubusercontent.com/{}/{}/{}/.pep8speaks.yml"
+    repo = data["repository"].split("/")[-1]
+    url = url.format(data["author"], repo, data["after_commit_hash"])
     r = requests.get(url, headers=headers)
     if r.status_code == 200:
         PEP8SPEAKS_YML_FOUND = True
-        res = requests.get(r.json()["download_url"])
         with open(".pep8speaks.yml", "w+") as config_file:
-            config_file.write(res.text)
+            config_file.write(r.text)
 
         # Update default config with those provided
         with open(".pep8speaks.yml", "r") as stream:

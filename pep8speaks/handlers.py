@@ -32,7 +32,7 @@ def handle_pull_request(request):
         helpers.update_users(data["repository"])
 
         # Get the config from .pep8speaks.yml file of the repository
-        config = helpers.get_config(data["repository"])
+        config = helpers.get_config(data)
 
         # Personalising the messages obtained from the config file
         # Replace {name} with name of the author
