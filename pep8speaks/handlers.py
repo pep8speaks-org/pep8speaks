@@ -87,6 +87,7 @@ def handle_review(request):
     # Handle the request when a new review is submitted
 
     data = dict()
+    data["after_commit_hash"] = request.json["pull_request"]["head"]["sha"],
     data["author"] = request.json["pull_request"]["user"]["login"]
     data["reviewer"] = request.json["review"]["user"]["login"]
     data["repository"] = request.json["repository"]["full_name"]
