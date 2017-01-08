@@ -187,7 +187,7 @@ def handle_review_comment(request):
 def handle_integration_installation(request):
     # Follow user
     data = {
-        "user": request.json["installation"]["account"]["login"]
+        "user": request.json["installation"]["sender"]["login"]
     }
 
     helpers.follow_user(data["user"])
