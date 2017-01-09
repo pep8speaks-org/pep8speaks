@@ -159,6 +159,9 @@ def get_config(data):
                 arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
     config["pycodestyle_cmd_config"] = arguments
 
+    # pycodestyle is case-sensitive
+    config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
+
     return config
 
 
