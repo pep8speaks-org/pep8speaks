@@ -1,5 +1,5 @@
 # PEP8 Speaks
-> because it matters.
+> "PEP8 unto thyself, not unto others" - Raymond Hettinger
 
 A GitHub integration which checks pep8 issues and then comments over Pull Requests
 
