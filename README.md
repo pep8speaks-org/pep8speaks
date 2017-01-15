@@ -1,7 +1,7 @@
 # PEP8 Speaks
 > because it matters.
 
-A GitHub integration which checks pep8 issues and then comments over Pull Requests
+A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
 <img src="data/readme.png" width="80%">
 
