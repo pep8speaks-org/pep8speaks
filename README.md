@@ -66,5 +66,5 @@ This is a very young project. If you have got any suggestions for new features o
 
 :heart:
 
-<img src="data/pep8speaks.commits.png" width="60%"><br>
+<img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
 ###### Created using [commits.io](https://commits.io)
