@@ -65,3 +65,6 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
 This is a very young project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/OrkoHunter/pep8speaks/issues/1). Pull Requests are most welcome !
 
 :heart:
+
+<img src="data/pep8speaks.commits.png" width="60%"><br>
+###### Created using [commits.io](https://commits.io)
