@@ -8,4 +8,4 @@ PyYAML
 unidiff
 autopep8
 markdown
-BeautifulSoup
+beautifulsoup4

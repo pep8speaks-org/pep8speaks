@@ -8,8 +8,8 @@ import os
 import re
 import sys
 import time
+from bs4 import BeautifulSoup
 from flask import abort
-from BeautifulSoup import BeautifulSoup
 from markdown import markdown
 import psycopg2
 import pycodestyle
