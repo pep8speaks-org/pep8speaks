@@ -9,6 +9,8 @@ import re
 import sys
 import time
 from flask import abort
+from BeautifulSoup import BeautifulSoup
+from markdown import markdown
 import psycopg2
 import pycodestyle
 import requests
@@ -322,7 +324,10 @@ def comment_permission_check(data, comment):
         if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
             last_comment = old_comment["body"]
             break
-    if comment == last_comment:
+
+    text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
+    text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
+    if text1 == text2:
         PERMITTED_TO_COMMENT = False
 
     ## Do not comment on updating if no errors were introduced previously
