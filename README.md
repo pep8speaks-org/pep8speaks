@@ -1,4 +1,5 @@
 # PEP8 Speaks
+<img src="data/my_logo.png" >
 > because it matters.
 
 A GitHub :octocat: integration to automatically review Python code style over Pull Requests
