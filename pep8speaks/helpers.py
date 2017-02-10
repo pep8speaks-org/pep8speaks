@@ -330,7 +330,7 @@ def comment_permission_check(data, comment):
 
     text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
     text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
-    if text1 == text2:
+    if text1 == text2.replace("submitting", "updating"):
         PERMITTED_TO_COMMENT = False
 
     ## Do not comment on updating if no errors were introduced previously
