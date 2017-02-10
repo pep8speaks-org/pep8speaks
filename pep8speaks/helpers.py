@@ -119,7 +119,8 @@ def get_config(data):
             "show-source": False,
             "statistics": False,
             "hang-closing": False,
-        }
+        },
+        "no_blank_comment": False,
     }
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
@@ -257,12 +258,14 @@ def prepare_comment(request, data, config):
             comment_header = config["message"]["updated"]["header"] + "\n\n"
 
     ## Body
+    ERROR = False  # Set to True when any pep8 error exists
     comment_body = ""
     for file in list(data["results"].keys()):
         if len(data["results"][file]) == 0:
             comment_body += " - There are no PEP8 issues in the" + \
                             " file [`{0}`]({1}) !".format(file, data[file + "_link"])
         else:
+            ERROR = True
             comment_body += " - In the file [`{0}`]({1}), following\
                 are the PEP8 issues :\n".format(file, data[file + "_link"])
             for issue in data["results"][file]:
@@ -304,7 +307,7 @@ def prepare_comment(request, data, config):
         else:
             comment_footer += config["message"]["updated"]["footer"]
 
-    return comment_header, comment_body, comment_footer
+    return comment_header, comment_body, comment_footer, ERROR
 
 
 def comment_permission_check(data, comment):

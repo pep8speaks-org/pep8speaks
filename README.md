@@ -48,6 +48,8 @@ pycodestyle:
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
+
+no_blank_comment: False  # If True, no comment is made when the bot does not find any pep8 errors
 ```
 
 Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)

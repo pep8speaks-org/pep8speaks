@@ -51,11 +51,15 @@ def handle_pull_request(request):
         helpers.run_pycodestyle(data, config)
 
         # Construct the comment
-        header, body, footer = helpers.prepare_comment(request, data, config)
+        header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
 
         # If there is nothing in the comment body, no need to make the comment
         if len(body) == 0:
             PERMITTED_TO_COMMENT = False
+
+        if config["no_blank_comment"]:  # If asked not to comment no-error messages
+            if not ERROR:  # If there is no error in the PR
+                PERMITTED_TO_COMMENT = False
 
         # Concatenate comment parts
         comment = header + body + footer
