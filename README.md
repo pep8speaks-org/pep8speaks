@@ -1,7 +1,8 @@
 # PEP8 Speaks
+<img src="data/my_logo.png" >
 > because it matters.
 
-A GitHub integration which checks pep8 issues and then comments over Pull Requests
+A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
 <img src="data/readme.png" width="80%">
 
@@ -47,6 +48,8 @@ pycodestyle:
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
+
+no_blank_comment: False  # If True, no comment is made when the bot does not find any pep8 errors
 ```
 
 Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
@@ -65,3 +68,6 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
 This is a very young project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/OrkoHunter/pep8speaks/issues/1). Pull Requests are most welcome !
 
 :heart:
+
+<img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
+###### Created using [commits.io](https://commits.io)

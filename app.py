@@ -48,6 +48,10 @@ def main():
                 return handlers.handle_review(request)
             elif event == "pull_request_review_comment":
                 return handlers.handle_review_comment(request)
+            elif event == "integration_installation":
+                return handlers.handle_integration_installation(request)
+            elif event == "integration_installation_repositories":
+                return handlers.handle_integration_installation_repo(request)
     else:
         return render_template('index.html')
 

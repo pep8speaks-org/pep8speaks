@@ -90,3 +90,5 @@ ENV/
 
 # Flask
 flask_session
+
+exports.sh

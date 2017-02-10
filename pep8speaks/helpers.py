@@ -8,7 +8,9 @@ import os
 import re
 import sys
 import time
+from bs4 import BeautifulSoup
 from flask import abort
+from markdown import markdown
 import psycopg2
 import pycodestyle
 import requests
@@ -37,6 +39,18 @@ def update_users(repository):
             conn.commit()
         except psycopg2.IntegrityError:  # If already exists
             conn.rollback()
+
+
+
+def follow_user(user):
+    """Follow the user of the service"""
+    headers = {
+        "Authorization": "token " + os.environ["GITHUB_TOKEN"],
+        "Content-Length": "0",
+        }
+    url  = "https://api.github.com/user/following/{}"
+    url = url.format(user)
+    r = requests.put(url, headers=headers)
 
 
 def update_dict(base, head):
@@ -73,7 +87,7 @@ def match_webhook_secret(request):
     return True
 
 
-def get_config(repository):
+def get_config(data):
     """
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
@@ -105,20 +119,21 @@ def get_config(repository):
             "show-source": False,
             "statistics": False,
             "hang-closing": False,
-        }
+        },
+        "no_blank_comment": False,
     }
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
 
     # Configuration file
-    url = "https://api.github.com/repos/{}/contents/.pep8speaks.yml"
-    url = url.format(repository)
+    url = "https://raw.githubusercontent.com/{}/{}/{}/.pep8speaks.yml"
+    repo = data["repository"].split("/")[-1]
+    url = url.format(data["author"], repo, data["after_commit_hash"])
     r = requests.get(url, headers=headers)
     if r.status_code == 200:
         PEP8SPEAKS_YML_FOUND = True
-        res = requests.get(r.json()["download_url"])
         with open(".pep8speaks.yml", "w+") as config_file:
-            config_file.write(res.text)
+            config_file.write(r.text)
 
         # Update default config with those provided
         with open(".pep8speaks.yml", "r") as stream:
@@ -146,6 +161,9 @@ def get_config(repository):
             elif isinstance(confs[conf], list):
                 arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
     config["pycodestyle_cmd_config"] = arguments
+
+    # pycodestyle is case-sensitive
+    config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
 
     return config
 
@@ -240,12 +258,14 @@ def prepare_comment(request, data, config):
             comment_header = config["message"]["updated"]["header"] + "\n\n"
 
     ## Body
+    ERROR = False  # Set to True when any pep8 error exists
     comment_body = ""
     for file in list(data["results"].keys()):
         if len(data["results"][file]) == 0:
             comment_body += " - There are no PEP8 issues in the" + \
                             " file [`{0}`]({1}) !".format(file, data[file + "_link"])
         else:
+            ERROR = True
             comment_body += " - In the file [`{0}`]({1}), following\
                 are the PEP8 issues :\n".format(file, data[file + "_link"])
             for issue in data["results"][file]:
@@ -287,7 +307,7 @@ def prepare_comment(request, data, config):
         else:
             comment_footer += config["message"]["updated"]["footer"]
 
-    return comment_header, comment_body, comment_footer
+    return comment_header, comment_body, comment_footer, ERROR
 
 
 def comment_permission_check(data, comment):
@@ -307,7 +327,10 @@ def comment_permission_check(data, comment):
         if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
             last_comment = old_comment["body"]
             break
-    if comment == last_comment:
+
+    text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
+    text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
+    if text1 == text2.replace("submitting", "updating"):
         PERMITTED_TO_COMMENT = False
 
     ## Do not comment on updating if no errors were introduced previously
@@ -413,11 +436,12 @@ def delete_if_forked(data):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     r = requests.get(url, headers=headers)
     for repo in r.json():
-        if data["target_repo_fullname"] in repo["description"]:
-            FORKED = True
-            r = requests.delete("https://api.github.com/repos/"
-                            "{}".format(repo["full_name"]),
-                            headers=headers)
+        if repo["description"]:
+            if data["target_repo_fullname"] in repo["description"]:
+                FORKED = True
+                r = requests.delete("https://api.github.com/repos/"
+                                "{}".format(repo["full_name"]),
+                                headers=headers)
     return FORKED
 
 

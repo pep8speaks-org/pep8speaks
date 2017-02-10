@@ -11,9 +11,10 @@ def handle_pull_request(request):
     # A variable which is set to False whenever a criteria is not met
     # Ultimately if this is True, only then the comment is made
     PERMITTED_TO_COMMENT = True
+    # This dictionary is used and updated after making API calls
+    data = {}
 
     if request.json["action"] in ["synchronize", "opened", "reopened"]:
-        # This dictionary is used and updated after making API calls
         data = {
             "after_commit_hash": request.json["pull_request"]["head"]["sha"],
             "repository": request.json["repository"]["full_name"],
@@ -32,7 +33,7 @@ def handle_pull_request(request):
         helpers.update_users(data["repository"])
 
         # Get the config from .pep8speaks.yml file of the repository
-        config = helpers.get_config(data["repository"])
+        config = helpers.get_config(data)
 
         # Personalising the messages obtained from the config file
         # Replace {name} with name of the author
@@ -50,11 +51,15 @@ def handle_pull_request(request):
         helpers.run_pycodestyle(data, config)
 
         # Construct the comment
-        header, body, footer = helpers.prepare_comment(request, data, config)
+        header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
 
         # If there is nothing in the comment body, no need to make the comment
         if len(body) == 0:
             PERMITTED_TO_COMMENT = False
+
+        if config["no_blank_comment"]:  # If asked not to comment no-error messages
+            if not ERROR:  # If there is no error in the PR
+                PERMITTED_TO_COMMENT = False
 
         # Concatenate comment parts
         comment = header + body + footer
@@ -78,14 +83,15 @@ def handle_pull_request(request):
             response = requests.post(query, json={"body": comment}, headers=headers)
             data["comment_response"] = response.json()
 
-        js = json.dumps(data)
-        return Response(js, status=200, mimetype='application/json')
+    js = json.dumps(data)
+    return Response(js, status=200, mimetype='application/json')
 
 
 def handle_review(request):
     # Handle the request when a new review is submitted
 
     data = dict()
+    data["after_commit_hash"] = request.json["pull_request"]["head"]["sha"],
     data["author"] = request.json["pull_request"]["user"]["login"]
     data["reviewer"] = request.json["review"]["user"]["login"]
     data["repository"] = request.json["repository"]["full_name"]
@@ -95,7 +101,7 @@ def handle_review(request):
     data["pr_number"] = request.json["pull_request"]["number"]
 
     # Get the .pep8speaks.yml config file from the repository
-    config = helpers.get_config(data["repository"])
+    config = helpers.get_config(data)
 
     condition1 = request.json["action"] == "submitted"
     # Mainly the summary of the review matters
@@ -180,3 +186,29 @@ def _create_diff(request, data, config):
 def handle_review_comment(request):
     # Figure out what does "position" mean in the response
     pass
+
+
+def handle_integration_installation(request):
+    # Follow user
+    data = {
+        "user": request.json["sender"]["login"]
+    }
+
+    helpers.follow_user(data["user"])
+    status_code = 200
+    js = json.dumps(data)
+    return Response(js, status=status_code, mimetype='application/json')
+
+
+
+def handle_integration_installation_repo(request):
+    # Add the repo in the database
+    data = {
+        "repositories": request.json["repositories_added"],
+    }
+
+    for repo in data["repositories"]:
+        helpers.update_users(repo["full_name"])
+    status_code = 200
+    js = json.dumps(data)
+    return Response(js, status=status_code, mimetype='application/json')
