@@ -1,9 +1,9 @@
 {
   "name": "PEP8Speaks",
-  "description": "An GitHub integration to ",
-  "repository": "A GitHub integration to automatically review Python code style over Pull Requests",
+  "description": "A GitHub integration to automatically review Python code style over Pull Requests",
+  "repository": "https://github.com/OrkoHunter/pep8speaks",
   "logo": "https://pep8speaks.com/img/my_logo.png",
-  "website": "https/pep8speaks.com",
+  "website": "https://pep8speaks.com",
   "keywords": ["python"],
   "env" : {
     "APP_SECRET_KEY": {
@@ -16,22 +16,21 @@
     "BOT_PASSWORD": {
         "description": "GitHub password of your pep8speaks bot"
     },
-   "OVER_HEROKU": {
+    "OVER_HEROKU": {
         "description": "Set this to False to escape database configuration",
         "value": "False"
-   },
-   "GITHUB_PAYLOAD_SECRET": {
-        "description": "Use the same secret key for configuring payloads in your repository's settings. " \
-        "This is to ensure that the app responds only to payloads sent by your repositories."
-   },
-   "GITHUB_TOKEN": {
+    },
+    "GITHUB_PAYLOAD_SECRET": {
+        "description": "Use the same secret key for configuring payloads in your repository's settings. This is to ensure that the app responds only to payloads sent by your repositories."
+    },
+    "GITHUB_TOKEN": {
         "description": "OAuth token of your pep8speaks bot (Generate from the bot's GitHub settings)"
-   }
+    }
   },
+  "image": "heroku/python",
   "buildpacks": [
     {
       "url": "heroku/python"
     }
-  ],
-  "image": "heroku/python",
+  ]
 }
