@@ -59,6 +59,12 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
  - Check the errors locally by the command line tool [pycodestyle](https://github.com/PyCQA/pycodestyle) (previously known as `pep8`).
  - [autopep8](https://github.com/hhatto/autopep8) is another command line tool to fix the issues.
 
+# Private repos
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork)
+
+The integration only works for publicly hosted repositories. So if you are looking to deploy a fork of it or **use the integration for private repositories**, [here are the instructions](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork).
+
+
 ## Media
 
  - [Product Hunt](https://www.producthunt.com/posts/pep8-speaks)
