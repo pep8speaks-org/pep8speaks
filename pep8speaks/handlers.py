@@ -56,7 +56,6 @@ def handle_pull_request(request):
         # If there is nothing in the comment body, no need to make the comment
         if len(body) == 0:
             PERMITTED_TO_COMMENT = False
-
         if config["no_blank_comment"]:  # If asked not to comment no-error messages
             if not ERROR:  # If there is no error in the PR
                 PERMITTED_TO_COMMENT = False
@@ -77,12 +76,12 @@ def handle_pull_request(request):
         # Make the comment
         if PERMITTED_TO_COMMENT:
             headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+            auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
             query = "https://api.github.com/repos/{}/issues/{}/comments"
             query = query.format(data["repository"], str(data["pr_number"]))
 
-            response = requests.post(query, json={"body": comment}, headers=headers)
+            response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
             data["comment_response"] = response.json()
-
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
 
@@ -171,9 +170,10 @@ def _create_diff(request, data, config):
                                  data["author"])
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     query = "https://api.github.com/repos/{}/issues/{}/comments"
     query = query.format(data["repository"], str(data["pr_number"]))
-    response = requests.post(query, json={"body": comment}, headers=headers)
+    response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
     data["comment_response"] = response.json()
 
     status_code = 200

@@ -48,9 +48,10 @@ def follow_user(user):
         "Authorization": "token " + os.environ["GITHUB_TOKEN"],
         "Content-Length": "0",
         }
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     url  = "https://api.github.com/user/following/{}"
     url = url.format(user)
-    r = requests.put(url, headers=headers)
+    r = requests.put(url, headers=headers, auth=auth)
 
 
 def update_dict(base, head):
@@ -124,12 +125,13 @@ def get_config(data):
     }
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
 
     # Configuration file
     url = "https://raw.githubusercontent.com/{}/{}/{}/.pep8speaks.yml"
     repo = data["repository"].split("/")[-1]
     url = url.format(data["author"], repo, data["after_commit_hash"])
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, auth=auth)
     if r.status_code == 200:
         PEP8SPEAKS_YML_FOUND = True
         with open(".pep8speaks.yml", "w+") as config_file:
@@ -174,14 +176,17 @@ def run_pycodestyle(data, config):
     dictionary
     """
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-
-    diff_url = data["diff_url"]
+    diff_headers = headers.copy()
+    diff_headers["Accept"] = "application/vnd.github.VERSION.diff"
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     repository = data["repository"]
     after_commit_hash = data["after_commit_hash"]
     author = data["author"]
+    diff_url = "https://api.github.com/repos/{}/pulls/{}"
+    diff_url = diff_url.format(repository, str(data["pr_number"]))
 
     # Run pycodestyle
-    r = requests.get(diff_url, headers=headers)
+    r = requests.get(diff_url, headers=diff_headers, auth=auth)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
 
@@ -199,14 +204,13 @@ def run_pycodestyle(data, config):
                 for line in hunk.target_lines():
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
-
     os.remove('.diff')
 
     for file in py_files.keys():
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(repository, after_commit_hash, file)
-        r = requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers, auth=auth)
         with open("file_to_check.py", 'w+') as file_to_check:
             file_to_check.write(r.text)
 
@@ -315,11 +319,12 @@ def comment_permission_check(data, comment):
     PERMITTED_TO_COMMENT = True
     repository = data["repository"]
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
 
     # Check for duplicate comment
     url = "https://api.github.com/repos/{}/issues/{}/comments"
     url = url.format(repository, str(data["pr_number"]))
-    comments = requests.get(url, headers=headers).json()
+    comments = requests.get(url, headers=headers, auth=auth).json()
 
     # Get the last comment by the bot
     last_comment = ""
@@ -355,7 +360,8 @@ def autopep8(data, config):
     # Run pycodestyle
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(data["diff_url"], headers=headers)
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    r = requests.get(data["diff_url"], headers=headers, auth=auth)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
     ## All the python files with additions
@@ -385,7 +391,7 @@ def autopep8(data, config):
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
-        r = requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers, auth=auth)
         with open("file_to_fix.py", 'w+') as file_to_fix:
             file_to_fix.write(r.text)
 
@@ -424,8 +430,9 @@ def create_gist(data, config):
 
     # Call github api to create the gist
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     url = "https://api.github.com/gists"
-    res = requests.post(url, json=REQUEST_JSON, headers=headers).json()
+    res = requests.post(url, json=REQUEST_JSON, headers=headers, auth=auth).json()
     data["gist_response"] = res
     data["gist_url"] = res["html_url"]
 
@@ -434,14 +441,15 @@ def delete_if_forked(data):
     FORKED = False
     url = "https://api.github.com/user/repos"
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(url, headers=headers)
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    r = requests.get(url, headers=headers, auth=auth)
     for repo in r.json():
         if repo["description"]:
             if data["target_repo_fullname"] in repo["description"]:
                 FORKED = True
                 r = requests.delete("https://api.github.com/repos/"
                                 "{}".format(repo["full_name"]),
-                                headers=headers)
+                                headers=headers, auth=auth)
     return FORKED
 
 
@@ -450,7 +458,8 @@ def fork_for_pr(data):
     url = "https://api.github.com/repos/{}/forks"
     url = url.format(data["target_repo_fullname"])
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.post(url, headers=headers)
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    r = requests.post(url, headers=headers, auth=auth)
     if r.status_code == 202:
         data["fork_fullname"] = r.json()["full_name"]
         FORKED = True
@@ -463,11 +472,12 @@ def update_fork_desc(data):
     # Check if forked (takes time)
     url = "https://api.github.com/repos/{}".format(data["fork_fullname"])
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(url, headers=headers)
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    r = requests.get(url, headers=headers, auth=auth)
     ATTEMPT = 0
     while(r.status_code != 200):
         time.sleep(5)
-        r = requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers, auth=auth)
         ATTEMPT += 1
         if ATTEMPT > 10:
             data["error"] = "Forking is taking more than usual time"
@@ -479,7 +489,7 @@ def update_fork_desc(data):
         "name": name,
         "description": "Forked from @{}'s {}".format(author, full_name)
     }
-    r = requests.patch(url, data=json.dumps(request_json), headers=headers)
+    r = requests.patch(url, data=json.dumps(request_json), headers=headers, auth=auth)
     if r.status_code != 200:
         data["error"] = "Could not update description of the fork"
 
@@ -488,8 +498,9 @@ def create_new_branch(data):
     url = "https://api.github.com/repos/{}/git/refs/heads"
     url = url.format(data["fork_fullname"])
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     sha = None
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, auth=auth)
     for ref in r.json():
         if ref["ref"].split("/")[-1] == data["target_repo_branch"]:
             sha = ref["object"]["sha"]
@@ -501,7 +512,7 @@ def create_new_branch(data):
         "ref": "refs/heads/{}".format(data["new_branch"]),
         "sha": sha,
     }
-    r = requests.post(url, json=request_json, headers=headers)
+    r = requests.post(url, json=request_json, headers=headers, auth=auth)
 
     if r.status_code != 200:
         data["error"] = "Could not create new branch in the fork"
@@ -510,7 +521,8 @@ def create_new_branch(data):
 def autopep8ify(data, config):
     # Run pycodestyle
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(data["diff_url"], headers=headers)
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    r = requests.get(data["diff_url"], headers=headers, auth=auth)
     with open(".diff", "w+") as diff_file:
         diff_file.write(r.text)
     ## All the python files with additions
@@ -540,7 +552,7 @@ def autopep8ify(data, config):
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
-        r = requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers, auth=auth)
         with open("file_to_fix.py", 'w+') as file_to_fix:
             file_to_fix.write(r.text)
 
@@ -554,6 +566,7 @@ def autopep8ify(data, config):
 
 def commit(data):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
 
     fullname = data.get("fork_fullname")
 
@@ -561,7 +574,7 @@ def commit(data):
         url = "https://api.github.com/repos/{}/contents/{}"
         url = url.format(fullname, file)
         params = {"ref": data["new_branch"]}
-        r = requests.get(url, params=params, headers=headers)
+        r = requests.get(url, params=params, headers=headers, auth=auth)
         sha_blob = r.json().get("sha")
         params["path"] = file
         new_file = data.get("results")[file]
@@ -573,11 +586,12 @@ def commit(data):
             "sha": sha_blob,
             "branch": data.get("new_branch"),
         }
-        r = requests.put(url, json=request_json, headers=headers)
+        r = requests.put(url, json=request_json, headers=headers, auth=auth)
 
 
 def create_pr(data):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     url = "https://api.github.com/repos/{}/pulls"
     url = url.format(data["target_repo_fullname"])
     request_json = {
@@ -586,7 +600,7 @@ def create_pr(data):
         "base": data["target_repo_branch"],
         "body": "The changes are suggested by autopep8",
     }
-    r = requests.post(url, json=request_json, headers=headers)
+    r = requests.post(url, json=request_json, headers=headers, auth=auth)
     if r.status_code == 201:
         data["pr_url"] = r.json()["html_url"]
     else:
