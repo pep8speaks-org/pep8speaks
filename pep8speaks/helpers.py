@@ -2,6 +2,7 @@
 from contextlib import contextmanager
 import base64
 import collections
+import datetime
 import hmac
 import json
 import os
@@ -47,9 +48,9 @@ def follow_user(user):
     headers = {
         "Authorization": "token " + os.environ["GITHUB_TOKEN"],
         "Content-Length": "0",
-        }
+    }
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
-    url  = "https://api.github.com/user/following/{}"
+    url = "https://api.github.com/user/following/{}"
     url = url.format(user)
     r = requests.put(url, headers=headers, auth=auth)
 
@@ -333,10 +334,13 @@ def comment_permission_check(data, comment):
             last_comment = old_comment["body"]
             break
 
+    """
+    # Disabling this because only a single comment is made per PR
     text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
     text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
     if text1 == text2.replace("submitting", "updating"):
         PERMITTED_TO_COMMENT = False
+    """
 
     ## Do not comment on updating if no errors were introduced previously
     if "following" not in comment.lower():  # `following are the pep8 issues`
@@ -354,6 +358,36 @@ def comment_permission_check(data, comment):
 
 
     return PERMITTED_TO_COMMENT
+
+
+def create_or_update_comment(data, comment):
+    comment_mode = None
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+
+    query = "https://api.github.com/repos/{}/issues/{}/comments"
+    query = query.format(data["repository"], str(data["pr_number"]))
+    comments = requests.get(query, headers=headers, auth=auth).json()
+
+    # Get the last comment id by the bot
+    last_comment_id = None
+    for old_comment in reversed(comments):
+        if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+            last_comment_id = old_comment["id"]
+            break
+
+    if last_comment_id is None:  # Create a new comment
+        response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
+        data["comment_response"] = response.json()
+    else:  # Update the last comment
+        utc_time = datetime.datetime.utcnow()
+        time_now = utc_time.strftime("%B %d, %Y at %H:%M Hours UTC")
+        comment += "\n\n##### Comment last updated on {}"
+        comment = comment.format(time_now)
+
+        query = "https://api.github.com/repos/{}/issues/comments/{}"
+        query = query.format(data["repository"], str(last_comment_id))
+        response = requests.patch(query, json={"body": comment}, headers=headers, auth=auth)
 
 
 def autopep8(data, config):
@@ -426,7 +460,7 @@ def create_gist(data, config):
         if len(data["diff"][file]) != 0:
             REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
                 "content": data["diff"][file]
-                }
+            }
 
     # Call github api to create the gist
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
