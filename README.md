@@ -1,10 +1,10 @@
 # PEP8 Speaks
-<img src="data/my_logo.png" >
-> because it matters.
 
 A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
-<img src="data/readme.png" width="80%">
+<img src="data/my_logo.png" width="20%">
+# Example
+<img style="margin-left: 100%" src="data/action.gif">
 
 # How to Use?
 
@@ -14,11 +14,11 @@ A GitHub :octocat: integration to automatically review Python code style over Pu
 
 # Features
 
- - To pause the bot from commenting on a PR, comment `@pep8speaks Keep Quiet.`
+ - The bot makes **a single comment on the PR and keeps updating it** on new commits. No hussle on emails !
+ - To pause the bot on a PR, comment `@pep8speaks Keep Quiet.`
  - Comment `@pep8speaks Resume now.` to resume.
   - The keywords are `quiet` and `resume` and the mention of the bot.
- - The bot's last comment is not repeated. Hence if the PR is updated and the bot does not comment, it means it stands with its previous comment.
- - Mention `@pep8speaks` in a review summary while creating a review of a PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
+ - Mention `@pep8speaks` in a **review summary** while creating a review of a PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
   - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot.
  - Write `@pep8speaks pep8ify` in a review summary and it will create a Pull Request with changes suggested by [`autopep8`](https://github.com/hhatto/autopep8) against the branch of the author of the PR. `autopep8` fixes most of the errors reported by [`pycodestyle`](https://github.com/PyCQA/pycodestyle).
   - `@pep8speaks` along with `pep8ify` in a single review summary rules out the diff feature.
@@ -77,3 +77,5 @@ This is a very young project. If you have got any suggestions for new features o
 
 <img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
 ###### Created using [commits.io](https://commits.io)
+
+<sub><sup><sub>This project does not endorse all of the rules of the original PEP8 and thus believes in customizing the pycodestyle.
