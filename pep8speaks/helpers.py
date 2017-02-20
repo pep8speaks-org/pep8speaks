@@ -7,6 +7,7 @@ import hmac
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from bs4 import BeautifulSoup
@@ -216,11 +217,11 @@ def run_pycodestyle(data, config):
             file_to_check.write(r.text)
 
         # Use the command line here
-        cmd = "pycodestyle {} file_to_check.py > pycodestyle_result.txt"
-        os.system(cmd.format(config["pycodestyle_cmd_config"]))
-
-        with open("pycodestyle_result.txt", "r") as f:
-            data["extra_results"][filename] = f.readlines()
+        cmd = 'pycodestyle {config[pycodestyle_cmd_config]} file_to_check.py'.format(
+            config=config)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        data["extra_results"][filename] = stdout.splitlines()
 
         # Put only relevant errors in the data["results"] dictionary
         data["results"][filename] = []
@@ -242,7 +243,6 @@ def run_pycodestyle(data, config):
         data[filename + "_link"] = url
 
         os.remove("file_to_check.py")
-        os.remove("pycodestyle_result.txt")
 
 
 def prepare_comment(request, data, config):
