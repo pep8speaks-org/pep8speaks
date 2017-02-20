@@ -48,9 +48,9 @@ def follow_user(user):
     headers = {
         "Authorization": "token " + os.environ["GITHUB_TOKEN"],
         "Content-Length": "0",
-        }
+    }
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
-    url  = "https://api.github.com/user/following/{}"
+    url = "https://api.github.com/user/following/{}"
     url = url.format(user)
     r = requests.put(url, headers=headers, auth=auth)
 
@@ -460,7 +460,7 @@ def create_gist(data, config):
         if len(data["diff"][file]) != 0:
             REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
                 "content": data["diff"][file]
-                }
+            }
 
     # Call github api to create the gist
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
