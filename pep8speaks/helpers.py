@@ -221,7 +221,7 @@ def run_pycodestyle(data, config):
             config=config)
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
-        data["extra_results"][filename] = stdout.splitlines()
+        data["extra_results"][filename] = stdout.decode('utf-8').splitlines()
 
         # Put only relevant errors in the data["results"] dictionary
         data["results"][filename] = []
