@@ -590,10 +590,11 @@ def autopep8ify(data, config):
         with open("file_to_fix.py", 'w+') as file_to_fix:
             file_to_fix.write(r.text)
 
-        # Store the diff in .diff file
-        os.system("autopep8 file_to_fix.py --in-place {}".format(arg_to_ignore))
-        with open("file_to_fix.py", "r") as f:
-            data["results"][filename] = f.read()
+        cmd = 'autopep8 file_to_fix.py {arg_to_ignore}'.format(
+            arg_to_ignore=arg_to_ignore)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        data["results"][filename] = stdout.decode('utf-8')
 
         os.remove("file_to_fix.py")
 
