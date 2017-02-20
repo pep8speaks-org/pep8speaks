@@ -144,7 +144,7 @@ def get_config(data):
                 # overloading the default configuration with the one specified
                 config = update_dict(config, new_config)
 
-            except yaml.YAMLError as e:  # Bad YAML file
+            except yaml.YAMLError:  # Bad YAML file
                 pass
 
     if PEP8SPEAKS_YML_FOUND:
