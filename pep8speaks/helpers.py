@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from contextlib import contextmanager
+
 import base64
 import collections
 import datetime
@@ -9,14 +9,13 @@ import os
 import re
 import sys
 import time
-from bs4 import BeautifulSoup
-from flask import abort
-from markdown import markdown
+from contextlib import contextmanager
+
 import psycopg2
-import pycodestyle
 import requests
 import unidiff
 import yaml
+from flask import abort
 
 
 @contextmanager
