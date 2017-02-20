@@ -153,15 +153,15 @@ def get_config(data):
     # Create pycodestyle command line arguments
     arguments = " "
     confs = config["pycodestyle"]
-    for conf in confs.keys():
-        if confs[conf]:  # Non empty
-            if isinstance(confs[conf], int):
-                if isinstance(confs[conf], bool):
-                    arguments += "--{} ".format(conf)
+    for key, value in confs.items():
+        if value:  # Non empty
+            if isinstance(value, int):
+                if isinstance(value, bool):
+                    arguments += "--{} ".format(key)
                 else:
-                    arguments += "--{}={} ".format(conf, confs[conf])
-            elif isinstance(confs[conf], list):
-                arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
+                    arguments += "--{}={} ".format(key, value)
+            elif isinstance(value, list):
+                arguments += "--{}={} ".format(key, ','.join(value))
     config["pycodestyle_cmd_config"] = arguments
 
     # pycodestyle is case-sensitive
