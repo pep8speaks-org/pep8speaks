@@ -93,7 +93,6 @@ def get_config(data):
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
     """
-    PEP8SPEAKS_YML_FOUND = False
 
     # Default configuration parameters
     config = {
