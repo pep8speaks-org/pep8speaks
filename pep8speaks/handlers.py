@@ -75,13 +75,7 @@ def handle_pull_request(request):
 
         # Make the comment
         if PERMITTED_TO_COMMENT:
-            headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-            auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
-            query = "https://api.github.com/repos/{}/issues/{}/comments"
-            query = query.format(data["repository"], str(data["pr_number"]))
-
-            response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
-            data["comment_response"] = response.json()
+            helpers.create_or_update_comment(data, comment)
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
 
