@@ -133,22 +133,12 @@ def get_config(data):
     url = url.format(data["author"], repo, data["after_commit_hash"])
     r = requests.get(url, headers=headers, auth=auth)
     if r.status_code == 200:
-        PEP8SPEAKS_YML_FOUND = True
-        with open(".pep8speaks.yml", "w+") as config_file:
-            config_file.write(r.text)
-
-        # Update default config with those provided
-        with open(".pep8speaks.yml", "r") as stream:
-            try:
-                new_config = yaml.load(stream)
-                # overloading the default configuration with the one specified
-                config = update_dict(config, new_config)
-
-            except yaml.YAMLError:  # Bad YAML file
-                pass
-
-    if PEP8SPEAKS_YML_FOUND:
-        os.remove(".pep8speaks.yml")
+        try:
+            new_config = yaml.load(r.text)
+            # overloading the default configuration with the one specified
+            config = update_dict(config, new_config)
+        except yaml.YAMLError:  # Bad YAML file
+            pass
 
     # Create pycodestyle command line arguments
     arguments = " "
