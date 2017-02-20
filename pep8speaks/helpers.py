@@ -429,10 +429,11 @@ def autopep8(data, config):
         with open("file_to_fix.py", 'w+') as file_to_fix:
             file_to_fix.write(r.text)
 
-        # Store the diff in .diff file
-        os.system("autopep8 file_to_fix.py --diff {} > autopep8.diff".format(arg_to_ignore))
-        with open("autopep8.diff", "r") as f:
-            data["diff"][filename] = f.read()
+        cmd = 'autopep8 file_to_fix.py --diff {arg_to_ignore}'.format(
+            arg_to_ignore=arg_to_ignore)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        data["diff"][filename] = stdout.decode('utf-8')
 
         # Fix the errors
         data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
@@ -445,7 +446,6 @@ def autopep8(data, config):
         data[filename + "_link"] = url
 
         os.remove("file_to_fix.py")
-        os.remove("autopep8.diff")
 
 
 def create_gist(data, config):
