@@ -176,11 +176,9 @@ def run_pycodestyle(data, config):
 
     # Run pycodestyle
     r = requests.get(diff_url, headers=diff_headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
 
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -193,7 +191,6 @@ def run_pycodestyle(data, config):
                 for line in hunk.target_lines():
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
-    os.remove('.diff')
 
     for file in py_files.keys():
         filename = file[1:]
@@ -384,10 +381,8 @@ def autopep8(data, config):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -400,8 +395,6 @@ def autopep8(data, config):
                 for line in hunk.target_lines():
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
-
-    os.remove('.diff')
 
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
@@ -545,10 +538,9 @@ def autopep8ify(data, config):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
+
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -561,8 +553,6 @@ def autopep8ify(data, config):
                 for line in hunk.target_lines():
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
-
-    os.remove('.diff')
 
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
