@@ -289,17 +289,13 @@ def prepare_comment(request, data, config):
 
 
     ## Footer
-    comment_footer = ""
+    comment_footer = []
     if request.json["action"] == "opened":
-        if config["message"]["opened"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["opened"]["footer"]
+        comment_footer.append(config["message"]["opened"]["footer"])
     elif request.json["action"] in ["synchronize", "reopened"]:
-        if config["message"]["updated"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["updated"]["footer"]
+        comment_footer.append(config["message"]["updated"]["footer"])
+
+    comment_footer = ''.join(comment_footer)
 
     return comment_header, comment_body, comment_footer, ERROR
 
