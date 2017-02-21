@@ -249,15 +249,17 @@ def prepare_comment(request, data, config):
 
     ## Body
     ERROR = False  # Set to True when any pep8 error exists
-    comment_body = ""
+    comment_body = []
     for file, issues in data["results"].items():
         if len(issues) == 0:
-            comment_body += " - There are no PEP8 issues in the" + \
-                            " file [`{0}`]({1}) !".format(file, data[file + "_link"])
+            comment_body.append(
+                " - There are no PEP8 issues in the"
+                " file [`{0}`]({1}) !".format(file, data[file + "_link"]))
         else:
             ERROR = True
-            comment_body += " - In the file [`{0}`]({1}), following\
-                are the PEP8 issues :\n".format(file, data[file + "_link"])
+            comment_body.append(
+                " - In the file [`{0}`]({1}), following "
+                "are the PEP8 issues :\n".format(file, data[file + "_link"]))
             for issue in issues:
                 ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
@@ -275,13 +277,15 @@ def prepare_comment(request, data, config):
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
 
-                comment_body += "> {0}".format(error_string)
+                comment_body.append("> {0}".format(error_string))
 
-        comment_body += "\n\n"
+        comment_body.append("\n\n")
         if len(data["extra_results"][file]) > 0:
-            comment_body += " - Complete extra results for this file :\n\n"
-            comment_body += "> " + "".join(data["extra_results"][file])
-            comment_body += "---\n\n"
+            comment_body.append(" - Complete extra results for this file :\n\n")
+            comment_body.append("> " + "".join(data["extra_results"][file]))
+            comment_body.append("---\n\n")
+
+    comment_body = ''.join(comment_body)
 
 
     ## Footer
