@@ -8,24 +8,13 @@ import json
 import os
 import re
 import subprocess
-import sys
 import time
-from contextlib import contextmanager
 
 import psycopg2
 import requests
 import unidiff
 import yaml
 from flask import abort
-
-
-@contextmanager
-def redirected(stdout):
-    """Retirect output from STDOUT to a file"""
-    saved_stdout = sys.stdout
-    sys.stdout = open(stdout, 'w+')
-    yield
-    sys.stdout = saved_stdout
 
 
 def update_users(repository):
