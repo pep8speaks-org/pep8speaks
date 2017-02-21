@@ -140,18 +140,18 @@ def get_config(data):
             pass
 
     # Create pycodestyle command line arguments
-    arguments = " "
+    arguments = []
     confs = config["pycodestyle"]
     for key, value in confs.items():
         if value:  # Non empty
             if isinstance(value, int):
                 if isinstance(value, bool):
-                    arguments += "--{} ".format(key)
+                    arguments.append("--{}".format(key))
                 else:
-                    arguments += "--{}={} ".format(key, value)
+                    arguments.append("--{}={}".format(key, value))
             elif isinstance(value, list):
-                arguments += "--{}={} ".format(key, ','.join(value))
-    config["pycodestyle_cmd_config"] = arguments
+                arguments.append("--{}={}".format(key, ','.join(value)))
+    config["pycodestyle_cmd_config"] = ' {arguments}'.format(arguments=' '.join(arguments))
 
     # pycodestyle is case-sensitive
     config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
