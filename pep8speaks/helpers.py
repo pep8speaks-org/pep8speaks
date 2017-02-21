@@ -290,7 +290,7 @@ def prepare_comment(request, data, config):
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
 
-                comment_body += "> {0}".format(error_string)
+                comment_body += "\n> {0}".format(error_string)
 
         comment_body += "\n\n"
         if len(data["extra_results"][file]) > 0:
