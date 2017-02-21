@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import builtins
-import hmac
 import os
-import sys
 import urllib.parse as urlparse
+
+import psycopg2
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
-import psycopg2
+
 from pep8speaks import handlers, helpers
 
 
