@@ -192,7 +192,7 @@ def run_pycodestyle(data, config):
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(repository, after_commit_hash, file)
@@ -250,15 +250,15 @@ def prepare_comment(request, data, config):
     ## Body
     ERROR = False  # Set to True when any pep8 error exists
     comment_body = ""
-    for file in list(data["results"].keys()):
-        if len(data["results"][file]) == 0:
+    for file, issues in data["results"].items():
+        if len(issues) == 0:
             comment_body += " - There are no PEP8 issues in the" + \
                             " file [`{0}`]({1}) !".format(file, data[file + "_link"])
         else:
             ERROR = True
             comment_body += " - In the file [`{0}`]({1}), following\
                 are the PEP8 issues :\n".format(file, data[file + "_link"])
-            for issue in data["results"][file]:
+            for issue in issues:
                 ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
 
@@ -402,7 +402,7 @@ def autopep8(data, config):
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
@@ -437,10 +437,10 @@ def create_gist(data, config):
     REQUEST_JSON["description"] = "In response to @{0}'s comment : {1}".format(
         data["reviewer"], data["review_url"])
 
-    for file in list(data["diff"].keys()):
-        if len(data["diff"][file]) != 0:
+    for file, diffs in data["diff"].items():
+        if len(diffs) != 0:
             REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
-                "content": data["diff"][file]
+                "content": diffs
             }
 
     # Call github api to create the gist
@@ -560,7 +560,7 @@ def autopep8ify(data, config):
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
@@ -582,14 +582,13 @@ def commit(data):
 
     fullname = data.get("fork_fullname")
 
-    for file in data["results"].keys():
+    for file, new_file in data["results"].items():
         url = "https://api.github.com/repos/{}/contents/{}"
         url = url.format(fullname, file)
         params = {"ref": data["new_branch"]}
         r = requests.get(url, params=params, headers=headers, auth=auth)
         sha_blob = r.json().get("sha")
         params["path"] = file
-        new_file = data.get("results")[file]
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
             "path": file,
