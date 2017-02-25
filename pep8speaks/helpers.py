@@ -187,7 +187,7 @@ def run_pycodestyle(data, config):
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(repository, after_commit_hash, file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_check.py", 'w+') as file_to_check:
+        with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
             file_to_check.write(r.text)
 
         # Use the command line here
@@ -395,7 +395,7 @@ def autopep8(data, config):
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
         cmd = 'autopep8 file_to_fix.py --diff {arg_to_ignore}'.format(
@@ -553,7 +553,7 @@ def autopep8ify(data, config):
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
         cmd = 'autopep8 file_to_fix.py {arg_to_ignore}'.format(
