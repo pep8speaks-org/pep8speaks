@@ -195,7 +195,7 @@ def run_pycodestyle(data, config):
             config=config)
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
-        data["extra_results"][filename] = stdout.decode('utf-8').splitlines()
+        data["extra_results"][filename] = stdout.decode(r.encoding).splitlines()
 
         # Put only relevant errors in the data["results"] dictionary
         data["results"][filename] = []
@@ -402,7 +402,7 @@ def autopep8(data, config):
             arg_to_ignore=arg_to_ignore)
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
-        data["diff"][filename] = stdout.decode('utf-8')
+        data["diff"][filename] = stdout.decode(r.encoding)
 
         # Fix the errors
         data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
@@ -560,7 +560,7 @@ def autopep8ify(data, config):
             arg_to_ignore=arg_to_ignore)
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
-        data["results"][filename] = stdout.decode('utf-8')
+        data["results"][filename] = stdout.decode(r.encoding)
 
         os.remove("file_to_fix.py")
 
