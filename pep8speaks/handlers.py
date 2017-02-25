@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import json
 import os
-from flask import Response
+
 import requests
+from flask import Response
 from pep8speaks import helpers
 
 
@@ -171,7 +172,7 @@ def _create_diff(request, data, config):
     data["comment_response"] = response.json()
 
     status_code = 200
-    if "error" in data.keys():
+    if "error" in data:
         status_code = 400
     js = json.dumps(data)
     return Response(js, status=status_code, mimetype='application/json')

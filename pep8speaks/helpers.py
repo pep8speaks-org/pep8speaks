@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from contextlib import contextmanager
+
 import base64
 import collections
 import datetime
@@ -8,25 +8,13 @@ import json
 import os
 import re
 import subprocess
-import sys
 import time
-from bs4 import BeautifulSoup
-from flask import abort
-from markdown import markdown
+
 import psycopg2
-import pycodestyle
 import requests
 import unidiff
 import yaml
-
-
-@contextmanager
-def redirected(stdout):
-    """Retirect output from STDOUT to a file"""
-    saved_stdout = sys.stdout
-    sys.stdout = open(stdout, 'w+')
-    yield
-    sys.stdout = saved_stdout
+from flask import abort
 
 
 def update_users(repository):
@@ -95,7 +83,6 @@ def get_config(data):
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
     """
-    PEP8SPEAKS_YML_FOUND = False
 
     # Default configuration parameters
     config = {
@@ -135,36 +122,26 @@ def get_config(data):
     url = url.format(data["author"], repo, data["after_commit_hash"])
     r = requests.get(url, headers=headers, auth=auth)
     if r.status_code == 200:
-        PEP8SPEAKS_YML_FOUND = True
-        with open(".pep8speaks.yml", "w+") as config_file:
-            config_file.write(r.text)
-
-        # Update default config with those provided
-        with open(".pep8speaks.yml", "r") as stream:
-            try:
-                new_config = yaml.load(stream)
-                # overloading the default configuration with the one specified
-                config = update_dict(config, new_config)
-
-            except yaml.YAMLError as e:  # Bad YAML file
-                pass
-
-    if PEP8SPEAKS_YML_FOUND:
-        os.remove(".pep8speaks.yml")
+        try:
+            new_config = yaml.load(r.text)
+            # overloading the default configuration with the one specified
+            config = update_dict(config, new_config)
+        except yaml.YAMLError:  # Bad YAML file
+            pass
 
     # Create pycodestyle command line arguments
-    arguments = " "
+    arguments = []
     confs = config["pycodestyle"]
-    for conf in confs.keys():
-        if confs[conf]:  # Non empty
-            if isinstance(confs[conf], int):
-                if isinstance(confs[conf], bool):
-                    arguments += "--{} ".format(conf)
+    for key, value in confs.items():
+        if value:  # Non empty
+            if isinstance(value, int):
+                if isinstance(value, bool):
+                    arguments.append("--{}".format(key))
                 else:
-                    arguments += "--{}={} ".format(conf, confs[conf])
-            elif isinstance(confs[conf], list):
-                arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
-    config["pycodestyle_cmd_config"] = arguments
+                    arguments.append("--{}={}".format(key, value))
+            elif isinstance(value, list):
+                arguments.append("--{}={}".format(key, ','.join(value)))
+    config["pycodestyle_cmd_config"] = ' {arguments}'.format(arguments=' '.join(arguments))
 
     # pycodestyle is case-sensitive
     config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
@@ -189,11 +166,9 @@ def run_pycodestyle(data, config):
 
     # Run pycodestyle
     r = requests.get(diff_url, headers=diff_headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
 
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -206,14 +181,13 @@ def run_pycodestyle(data, config):
                 for line in hunk.target_lines():
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
-    os.remove('.diff')
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(repository, after_commit_hash, file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_check.py", 'w+') as file_to_check:
+        with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
             file_to_check.write(r.text)
 
         # Use the command line here
@@ -264,16 +238,18 @@ def prepare_comment(request, data, config):
 
     ## Body
     ERROR = False  # Set to True when any pep8 error exists
-    comment_body = ""
-    for file in list(data["results"].keys()):
-        if len(data["results"][file]) == 0:
-            comment_body += " - There are no PEP8 issues in the" + \
-                            " file [`{0}`]({1}) !".format(file, data[file + "_link"])
+    comment_body = []
+    for file, issues in data["results"].items():
+        if len(issues) == 0:
+            comment_body.append(
+                " - There are no PEP8 issues in the"
+                " file [`{0}`]({1}) !".format(file, data[file + "_link"]))
         else:
             ERROR = True
-            comment_body += " - In the file [`{0}`]({1}), following\
-                are the PEP8 issues :\n".format(file, data[file + "_link"])
-            for issue in data["results"][file]:
+            comment_body.append(
+                " - In the file [`{0}`]({1}), following "
+                "are the PEP8 issues :\n".format(file, data[file + "_link"]))
+            for issue in issues:
                 ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
 
@@ -289,28 +265,25 @@ def prepare_comment(request, data, config):
                 error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
+                comment_body.append("\n> {0}".format(error_string))
 
-                comment_body += "\n> {0}".format(error_string)
-
-        comment_body += "\n\n"
+        comment_body.append("\n\n")
         if len(data["extra_results"][file]) > 0:
-            comment_body += " - Complete extra results for this file :\n\n"
-            comment_body += "> " + "".join(data["extra_results"][file])
-            comment_body += "---\n\n"
+            comment_body.append(" - Complete extra results for this file :\n\n")
+            comment_body.append("> " + "".join(data["extra_results"][file]))
+            comment_body.append("---\n\n")
+
+    comment_body = ''.join(comment_body)
 
 
     ## Footer
-    comment_footer = ""
+    comment_footer = []
     if request.json["action"] == "opened":
-        if config["message"]["opened"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["opened"]["footer"]
+        comment_footer.append(config["message"]["opened"]["footer"])
     elif request.json["action"] in ["synchronize", "reopened"]:
-        if config["message"]["updated"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["updated"]["footer"]
+        comment_footer.append(config["message"]["updated"]["footer"])
+
+    comment_footer = ''.join(comment_footer)
 
     return comment_header, comment_body, comment_footer, ERROR
 
@@ -396,10 +369,8 @@ def autopep8(data, config):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -413,20 +384,18 @@ def autopep8(data, config):
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
 
-    os.remove('.diff')
-
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
         cmd = 'autopep8 file_to_fix.py --diff {arg_to_ignore}'.format(
@@ -456,10 +425,10 @@ def create_gist(data, config):
     REQUEST_JSON["description"] = "In response to @{0}'s comment : {1}".format(
         data["reviewer"], data["review_url"])
 
-    for file in list(data["diff"].keys()):
-        if len(data["diff"][file]) != 0:
+    for file, diffs in data["diff"].items():
+        if len(diffs) != 0:
             REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
-                "content": data["diff"][file]
+                "content": diffs
             }
 
     # Call github api to create the gist
@@ -557,10 +526,9 @@ def autopep8ify(data, config):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
+
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -574,20 +542,18 @@ def autopep8ify(data, config):
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
 
-    os.remove('.diff')
-
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
+    for file in py_files:
         filename = file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
         url = url.format(data["repository"], data["sha"], file)
         r = requests.get(url, headers=headers, auth=auth)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
         cmd = 'autopep8 file_to_fix.py {arg_to_ignore}'.format(
@@ -605,14 +571,13 @@ def commit(data):
 
     fullname = data.get("fork_fullname")
 
-    for file in data["results"].keys():
+    for file, new_file in data["results"].items():
         url = "https://api.github.com/repos/{}/contents/{}"
         url = url.format(fullname, file)
         params = {"ref": data["new_branch"]}
         r = requests.get(url, params=params, headers=headers, auth=auth)
         sha_blob = r.json().get("sha")
         params["path"] = file
-        new_file = data.get("results")[file]
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
             "path": file,
