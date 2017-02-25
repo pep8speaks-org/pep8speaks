@@ -168,7 +168,7 @@ def run_pycodestyle(data, config):
     r = requests.get(diff_url, headers=diff_headers, auth=auth)
 
     ## All the python files with additions
-    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -265,7 +265,7 @@ def prepare_comment(request, data, config):
                 error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
-                comment_body.append("> {0}".format(error_string))
+                comment_body.append("\n> {0}".format(error_string))
 
         comment_body.append("\n\n")
         if len(data["extra_results"][file]) > 0:
@@ -370,7 +370,7 @@ def autopep8(data, config):
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
     ## All the python files with additions
-    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -528,7 +528,7 @@ def autopep8ify(data, config):
     r = requests.get(data["diff_url"], headers=headers, auth=auth)
 
     ## All the python files with additions
-    patch = unidiff.PatchSet(r.text.splitlines(), encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
