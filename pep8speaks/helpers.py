@@ -111,6 +111,7 @@ def get_config(data):
             "hang-closing": False,
         },
         "no_blank_comment": False,
+        "only_mention_files_with_errors": True,
     }
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
@@ -241,9 +242,10 @@ def prepare_comment(request, data, config):
     comment_body = []
     for file, issues in data["results"].items():
         if len(issues) == 0:
-            comment_body.append(
-                " - There are no PEP8 issues in the"
-                " file [`{0}`]({1}) !".format(file, data[file + "_link"]))
+            if not config["only_mention_files_with_errors"]:
+                comment_body.append(
+                    " - There are no PEP8 issues in the"
+                    " file [`{0}`]({1}) !".format(file, data[file + "_link"]))
         else:
             ERROR = True
             comment_body.append(
@@ -272,6 +274,10 @@ def prepare_comment(request, data, config):
             comment_body.append(" - Complete extra results for this file :\n\n")
             comment_body.append("> " + "".join(data["extra_results"][file]))
             comment_body.append("---\n\n")
+
+    if config["only_mention_files_with_errors"] and not ERROR:
+        comment_body.append("Cheers ! There are no PEP8 issues in this Pull Request. :beers: ")
+
 
     comment_body = ''.join(comment_body)
 
@@ -314,12 +320,6 @@ def comment_permission_check(data, comment):
     if text1 == text2.replace("submitting", "updating"):
         PERMITTED_TO_COMMENT = False
     """
-
-    ## Do not comment on updating if no errors were introduced previously
-    if "following" not in comment.lower():  # `following are the pep8 issues`
-        if "no PEP8 issues" in last_comment:
-            if "following" not in last_comment.lower():
-                PERMITTED_TO_COMMENT = False  # When both comment have no errors
 
     # Check if the bot is asked to keep quiet
     for old_comment in reversed(comments):

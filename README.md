@@ -50,7 +50,11 @@ pycodestyle:
         - E203
 
 no_blank_comment: False  # If True, no comment is made when the bot does not find any pep8 errors
+
+only_mention_files_with_errors: True  # If set to False, a separate status comment for each file is made.
 ```
+
+Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/master/pep8speaks/helpers.py#L87-L115).
 
 Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
 
