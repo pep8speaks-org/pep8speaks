@@ -77,6 +77,7 @@ def handle_pull_request(request):
         # Make the comment
         if PERMITTED_TO_COMMENT:
             helpers.create_or_update_comment(data, comment)
+
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
 
