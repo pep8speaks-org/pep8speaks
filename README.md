@@ -3,7 +3,9 @@
 A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
 <img src="data/my_logo.png" width="20%">
+
 # Example
+
 <img style="margin-left: 100%" src="data/action.gif">
 
 # How to Use?
