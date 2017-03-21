@@ -71,10 +71,6 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
 The integration only works for publicly hosted repositories. So if you are looking to deploy a fork of it or **use the integration for private repositories**, [here are the instructions](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork).
 
 
-## Media
-
- - [Product Hunt](https://www.producthunt.com/posts/pep8-speaks)
-
 # Contribute
 
 This is a very young project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/OrkoHunter/pep8speaks/issues/1). Pull Requests are most welcome !
