@@ -110,7 +110,7 @@ def get_config(data):
             "statistics": False,
             "hang-closing": False,
         },
-        "no_blank_comment": False,
+        "no_blank_comment": True,
         "only_mention_files_with_errors": True,
     }
 
