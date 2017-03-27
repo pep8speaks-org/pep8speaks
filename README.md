@@ -2,11 +2,11 @@
 
 A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
-<img src="data/my_logo.png" width="20%">
+<h1 align="center"><img src="data/my_logo.png"></h1>
 
 # Example
 
-<img style="margin-left: 100%" src="data/action.gif">
+<img src="data/action.gif">
 
 # How to Use?
 
