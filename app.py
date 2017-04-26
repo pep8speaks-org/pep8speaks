@@ -11,7 +11,7 @@ from pep8speaks import handlers, helpers
 
 
 # For running locally without connecting to the database
-if "OVER_HEROKU" in os.environ:
+if os.environ.get("OVER_HEROKU", False) is not False:
     urlparse.uses_netloc.append("postgres")
     url = urlparse.urlparse(os.environ["DATABASE_URL"])
 
