@@ -19,7 +19,7 @@ from flask import abort
 
 def update_users(repository):
     """Update users of the integration in the database"""
-    if "OVER_HEROKU" in os.environ:
+    if os.environ.get("OVER_HEROKU", False) is not False:
         # Check if repository exists in database
         query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
                 "".format(repository)
@@ -29,7 +29,6 @@ def update_users(repository):
             conn.commit()
         except psycopg2.IntegrityError:  # If already exists
             conn.rollback()
-
 
 
 def follow_user(user):
@@ -64,7 +63,7 @@ def update_dict(base, head):
 
 def match_webhook_secret(request):
     """Match the webhook secret sent from GitHub"""
-    if "OVER_HEROKU" in os.environ:
+    if os.environ.get("OVER_HEROKU", False) is not False:
         header_signature = request.headers.get('X-Hub-Signature')
         if header_signature is None:
             abort(403)
