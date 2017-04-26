@@ -16,10 +16,6 @@
     "BOT_PASSWORD": {
         "description": "GitHub password of your pep8speaks bot"
     },
-    "OVER_HEROKU": {
-        "description": "Set this to False to escape database configuration",
-        "value": "False"
-    },
     "GITHUB_PAYLOAD_SECRET": {
         "description": "Use the same secret key for configuring payloads in your repository's settings. This is to ensure that the app responds only to payloads sent by your repositories."
     },
