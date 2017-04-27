@@ -117,9 +117,9 @@ def get_config(data):
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
 
     # Configuration file
-    url = "https://raw.githubusercontent.com/{}/{}/{}/.pep8speaks.yml"
-    repo = data["repository"].split("/")[-1]
-    url = url.format(data["author"], repo, data["after_commit_hash"])
+    url = "https://raw.githubusercontent.com/{}/{}/.pep8speaks.yml"
+
+    url = url.format(data["repository"], data["after_commit_hash"])
     r = requests.get(url, headers=headers, auth=auth)
     if r.status_code == 200:
         try:
