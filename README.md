@@ -41,6 +41,7 @@ message:  # Customize the comment made by the bot
     updated:  # Messages when new commits are added to the PR
         header: "Hello @{name}, Thank you for updating !"
         footer: ""  # Why to comment the link to the style guide everytime? :)
+    no_errors: "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
 
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
