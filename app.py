@@ -52,6 +52,10 @@ def main():
                 return handlers.handle_integration_installation(request)
             elif event == "integration_installation_repositories":
                 return handlers.handle_integration_installation_repo(request)
+            elif event == "ping":
+                return handlers.handle_ping(request)
+            else:
+                return handlers.handle_unsupported_requests(request)
     else:
         return render_template('index.html')
 

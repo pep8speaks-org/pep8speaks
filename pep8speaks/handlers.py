@@ -196,7 +196,6 @@ def handle_integration_installation(request):
     return Response(js, status=status_code, mimetype='application/json')
 
 
-
 def handle_integration_installation_repo(request):
     # Add the repo in the database
     data = {
@@ -208,3 +207,15 @@ def handle_integration_installation_repo(request):
     status_code = 200
     js = json.dumps(data)
     return Response(js, status=status_code, mimetype='application/json')
+
+
+def handle_ping(request):
+    return Response(status=200, mimetype='application/json')
+
+
+def handle_unsupported_requests(request):
+    data = {
+        "unsupported github event": request.headers["X-GitHub-Event"],
+    }
+    js = json.dumps(data)
+    return Response(js, status=400, mimetype='application/json')
