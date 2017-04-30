@@ -17,6 +17,7 @@ def handle_pull_request(request):
 
     if request.json["action"] in ["synchronize", "opened", "reopened"]:
         data = {
+            "action": request.json["action"],
             "after_commit_hash": request.json["pull_request"]["head"]["sha"],
             "repository": request.json["repository"]["full_name"],
             "author": request.json["pull_request"]["user"]["login"],
@@ -55,10 +56,10 @@ def handle_pull_request(request):
         header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
 
         # If there is nothing in the comment body, no need to make the comment
-        if len(body) == 0:
+        if len(body) == 0 and data["action"] == "opened":
             PERMITTED_TO_COMMENT = False
         if config["no_blank_comment"]:  # If asked not to comment no-error messages
-            if not ERROR:  # If there is no error in the PR
+            if not ERROR and data["action"] == "opened":  # If there is no error in the PR
                 PERMITTED_TO_COMMENT = False
 
         # Concatenate comment parts
