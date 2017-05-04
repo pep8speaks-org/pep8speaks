@@ -212,10 +212,8 @@ def run_pycodestyle(data, config):
                     data["results"][filename].remove(error)
 
         ## Store the link to the file
-        url = "https://github.com/{}/{}/blob/{}{}"
-        url = url.format(author, repository.split("/")[-1], after_commit_hash, file)
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        data[filename + "_link"] = url.format(repository, after_commit_hash, file)
         os.remove("file_to_check.py")
 
 
@@ -408,11 +406,8 @@ def autopep8(data, config):
         data["diff"][filename] = data["diff"][filename].replace("\\", "\\\\")
 
         ## Store the link to the file
-        url = "https://github.com/" + data["author"] + "/" + \
-              data["repository"].split("/")[-1] + "/blob/" + \
-              data["sha"] + file
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        data[filename + "_link"] = url.format(data["repository"], data["sha"], file)
         os.remove("file_to_fix.py")
 
 
