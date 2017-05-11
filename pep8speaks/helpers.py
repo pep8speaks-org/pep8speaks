@@ -51,13 +51,14 @@ def update_dict(base, head):
     Source : http://stackoverflow.com/a/32357112/4698026
     """
     for key, value in head.items():
-        if isinstance(base, collections.Mapping):
-            if isinstance(value, collections.Mapping):
-                base[key] = update_dict(base.get(key, {}), value)
+        if key in base:
+            if isinstance(base, collections.Mapping):
+                if isinstance(value, collections.Mapping):
+                    base[key] = update_dict(base.get(key, {}), value)
+                else:
+                    base[key] = head[key]
             else:
-                base[key] = head[key]
-        else:
-            base = {key: head[key]}
+                base = {key: head[key]}
     return base
 
 
