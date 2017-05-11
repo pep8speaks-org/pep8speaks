@@ -31,53 +31,57 @@ def handle_pull_request(request):
             "pr_number": request.json["number"],
         }
 
-        # Update users of the integration
-        helpers.update_users(data["repository"])
+        # If the PR contains at least one Python file
+        pythonic_pr = helpers.check_pythonic_pr(data)
 
-        # Get the config from .pep8speaks.yml file of the repository
-        config = helpers.get_config(data)
+        if pythonic_pr:
+            # Update users of the integration
+            helpers.update_users(data["repository"])
 
-        # Personalising the messages obtained from the config file
-        # Replace {name} with name of the author
-        if "message" in config:
-            for act in config["message"]:
-                # can be either "opened" or "updated"
-                for pos in config["message"][act]:
-                    # can be either "header" or "footer"
-                    msg = config["message"][act][pos]
-                    new_msg = msg.replace("{name}", data["author"])
-                    config["message"][act][pos] = new_msg
+            # Get the config from .pep8speaks.yml file of the repository
+            config = helpers.get_config(data)
 
-        # Updates data dictionary with the results
-        # This function runs the pep8 checker
-        helpers.run_pycodestyle(data, config)
+            # Personalising the messages obtained from the config file
+            # Replace {name} with name of the author
+            if "message" in config:
+                for act in config["message"]:
+                    # can be either "opened" or "updated"
+                    for pos in config["message"][act]:
+                        # can be either "header" or "footer"
+                        msg = config["message"][act][pos]
+                        new_msg = msg.replace("{name}", data["author"])
+                        config["message"][act][pos] = new_msg
 
-        # Construct the comment
-        header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
+            # Updates data dictionary with the results
+            # This function runs the pep8 checker
+            helpers.run_pycodestyle(data, config)
 
-        # If there is nothing in the comment body, no need to make the comment
-        if len(body) == 0 and data["action"] == "opened":
-            PERMITTED_TO_COMMENT = False
-        if config["no_blank_comment"]:  # If asked not to comment no-error messages
-            if not ERROR and data["action"] == "opened":  # If there is no error in the PR
+            # Construct the comment
+            header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
+
+            # If there is nothing in the comment body, no need to make the comment
+            if len(body) == 0 and data["action"] == "opened":
+                PERMITTED_TO_COMMENT = False
+            if config["no_blank_comment"]:  # If asked not to comment no-error messages
+                if not ERROR and data["action"] == "opened":  # If there is no error in the PR
+                    PERMITTED_TO_COMMENT = False
+
+            # Concatenate comment parts
+            comment = header + body + footer
+
+            # Do not make duplicate comment made on the PR by the bot
+            # Check if asked to keep quiet
+            if not helpers.comment_permission_check(data, comment):
                 PERMITTED_TO_COMMENT = False
 
-        # Concatenate comment parts
-        comment = header + body + footer
+            # Do not run on PR's created by pep8speaks which use autopep8
+            # Too much noisy
+            if data["author"] == "pep8speaks":
+                PERMITTED_TO_COMMENT = False
 
-        # Do not make duplicate comment made on the PR by the bot
-        # Check if asked to keep quiet
-        if not helpers.comment_permission_check(data, comment):
-            PERMITTED_TO_COMMENT = False
-
-        # Do not run on PR's created by pep8speaks which use autopep8
-        # Too much noisy
-        if data["author"] == "pep8speaks":
-            PERMITTED_TO_COMMENT = False
-
-        # Make the comment
-        if PERMITTED_TO_COMMENT:
-            helpers.create_or_update_comment(data, comment)
+            # Make the comment
+            if PERMITTED_TO_COMMENT:
+                helpers.create_or_update_comment(data, comment)
 
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')

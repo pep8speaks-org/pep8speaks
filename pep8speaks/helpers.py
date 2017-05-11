@@ -77,6 +77,20 @@ def match_webhook_secret(request):
     return True
 
 
+def check_pythonic_pr(data):
+    """
+    Return True if the PR contains at least one Python file
+    """
+    files = list(get_files_involved_in_pr(data).keys())
+    pythonic = False
+    for file in files:
+        if file[-3:] == '.py':
+            pythonic = True
+            break
+
+    return pythonic
+
+
 def get_config(data):
     """
     Get .pep8speaks.yml config file from the repository and return
@@ -149,10 +163,9 @@ def get_config(data):
     return config
 
 
-def run_pycodestyle(data, config):
+def get_files_involved_in_pr(data):
     """
-    Run pycodestyle script on the files and update the data
-    dictionary
+    Return a list of file names modified/added in the PR
     """
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     diff_headers = headers.copy()
@@ -163,24 +176,46 @@ def run_pycodestyle(data, config):
     author = data["author"]
     diff_url = "https://api.github.com/repos/{}/pulls/{}"
     diff_url = diff_url.format(repository, str(data["pr_number"]))
-
-    # Run pycodestyle
     r = requests.get(diff_url, headers=diff_headers, auth=auth)
-
-    ## All the python files with additions
     patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
-    # A dictionary with filename paired with list of new line numbers
-    py_files = {}
+    files = {}
 
     for patchset in patch:
-        if patchset.target_file[-3:] == '.py':
-            py_file = patchset.target_file[1:]
-            py_files[py_file] = []
-            for hunk in patchset:
-                for line in hunk.target_lines():
-                    if line.is_added:
-                        py_files[py_file].append(line.target_line_no)
+        file = patchset.target_file[1:]
+        files[file] = []
+        for hunk in patchset:
+            for line in hunk.target_lines():
+                if line.is_added:
+                    files[file].append(line.target_line_no)
+
+    return files
+
+
+def get_python_files_involved_in_pr(data):
+    files = get_files_involved_in_pr(data)
+    for file in list(files.keys()):
+        if file[-3:] != ".py":
+            del files[file]
+
+    return files
+
+
+def run_pycodestyle(data, config):
+    """
+    Run pycodestyle script on the files and update the data
+    dictionary
+    """
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    repository = data["repository"]
+    after_commit_hash = data["after_commit_hash"]
+    author = data["author"]
+
+    # Run pycodestyle
+    ## All the python files with additions
+    # A dictionary with filename paired with list of new line numbers
+    py_files = get_python_files_involved_in_pr(data)
 
     for file in py_files:
         filename = file[1:]
