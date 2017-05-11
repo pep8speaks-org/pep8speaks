@@ -51,8 +51,6 @@ pycodestyle:
         - W391
         - E203
 
-no_blank_comment: False  # If True, no comment is made when the bot does not find any pep8 errors
-
 only_mention_files_with_errors: True  # If set to False, a separate status comment for each file is made.
 ```
 

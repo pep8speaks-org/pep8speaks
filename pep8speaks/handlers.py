@@ -62,9 +62,9 @@ def handle_pull_request(request):
             # If there is nothing in the comment body, no need to make the comment
             if len(body) == 0 and data["action"] == "opened":
                 PERMITTED_TO_COMMENT = False
-            if config["no_blank_comment"]:  # If asked not to comment no-error messages
-                if not ERROR and data["action"] == "opened":  # If there is no error in the PR
-                    PERMITTED_TO_COMMENT = False
+            # Simply do not comment no-error messages when a PR is opened
+            if not ERROR and data["action"] == "opened":
+                PERMITTED_TO_COMMENT = False
 
             # Concatenate comment parts
             comment = header + body + footer
