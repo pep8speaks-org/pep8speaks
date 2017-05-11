@@ -108,7 +108,8 @@ def get_config(data):
             "updated": {
                 "header": "",
                 "footer": ""
-            }
+            },
+            "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: ",
         },
         "scanner": {"diff_only": False},
         "pycodestyle": {
@@ -309,11 +310,9 @@ def prepare_comment(request, data, config):
             comment_body.append("---\n\n")
 
     if config["only_mention_files_with_errors"] and not ERROR:
-        comment_body.append("Cheers ! There are no PEP8 issues in this Pull Request. :beers: ")
-
+        comment_body.append(config["message"]["no_errors"])
 
     comment_body = ''.join(comment_body)
-
 
     ## Footer
     comment_footer = []
