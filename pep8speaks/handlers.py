@@ -44,7 +44,7 @@ def handle_pull_request(request):
             # Personalising the messages obtained from the config file
             # Replace {name} with name of the author
             if "message" in config:
-                for act in config["message"]:
+                for act in ['opened', 'updated']:
                     # can be either "opened" or "updated"
                     for pos in config["message"][act]:
                         # can be either "header" or "footer"
