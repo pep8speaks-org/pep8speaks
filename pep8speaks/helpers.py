@@ -365,7 +365,7 @@ def comment_permission_check(data, comment):
     return PERMITTED_TO_COMMENT
 
 
-def create_or_update_comment(data, comment):
+def create_or_update_comment(data, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE):
     comment_mode = None
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
@@ -381,7 +381,7 @@ def create_or_update_comment(data, comment):
             last_comment_id = old_comment["id"]
             break
 
-    if last_comment_id is None:  # Create a new comment
+    if last_comment_id is None and not ONLY_UPDATE_COMMENT_BUT_NOT_CREATE:  # Create a new comment
         response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
         data["comment_response"] = response.json()
     else:  # Update the last comment

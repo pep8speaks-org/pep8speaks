@@ -60,11 +60,17 @@ def handle_pull_request(request):
             header, body, footer, ERROR = helpers.prepare_comment(request, data, config)
 
             # If there is nothing in the comment body, no need to make the comment
-            if len(body) == 0 and data["action"] == "opened":
+            # But in case of PR update, make sure to update the comment with no issues.
+            ONLY_UPDATE_COMMENT_BUT_NOT_CREATE = False
+            if len(body) == 0:
                 PERMITTED_TO_COMMENT = False
+
             # Simply do not comment no-error messages when a PR is opened
-            if not ERROR and data["action"] == "opened":
-                PERMITTED_TO_COMMENT = False
+            if not ERROR:
+                if data["action"] == "opened":
+                    PERMITTED_TO_COMMENT = False
+                elif data["action"] in ["reopened", "synchronize"]:
+                    ONLY_UPDATE_COMMENT_BUT_NOT_CREATE = True
 
             # Concatenate comment parts
             comment = header + body + footer
@@ -81,7 +87,7 @@ def handle_pull_request(request):
 
             # Make the comment
             if PERMITTED_TO_COMMENT:
-                helpers.create_or_update_comment(data, comment)
+                helpers.create_or_update_comment(data, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE)
 
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
