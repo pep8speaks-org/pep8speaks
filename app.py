@@ -54,6 +54,8 @@ def main():
                 return handlers.handle_integration_installation_repo(request)
             elif event == "ping":
                 return handlers.handle_ping(request)
+            elif event == "issue_comment":
+                return handlers.handle_issue_comment(request)
             else:
                 return handlers.handle_unsupported_requests(request)
     else:

@@ -130,8 +130,8 @@ def handle_review(request):
 
 
 def _pep8ify(request, data, config):
-    data["target_repo_fullname"] = request.json["pull_request"]["head"]["repo"]["full_name"]
-    data["target_repo_branch"] = request.json["pull_request"]["head"]["ref"]
+    data["target_repo_fullname"] = data["pull_request"]["head"]["repo"]["full_name"]
+    data["target_repo_branch"] = data["pull_request"]["head"]["ref"]
     data["results"] = {}
 
     # Check if the fork of the target repo exists
@@ -166,7 +166,7 @@ def _create_diff(request, data, config):
 
     comment = "Here you go with [the gist]({}) !\n\n" + \
               "> You can ask me to create a PR against this branch " + \
-              "with those fixes. Submit a review comment as " + \
+              "with those fixes. Simply comment " + \
               "`@pep8speaks pep8ify`.\n\n"
     if data["reviewer"] == data["author"]:  # Both are the same person
         comment += "@{} "
@@ -222,6 +222,51 @@ def handle_integration_installation_repo(request):
 
 def handle_ping(request):
     return Response(status=200, mimetype='application/json')
+
+
+def handle_issue_comment(request):
+    # A variable which is set to False whenever a criteria is not met
+    # Ultimately if this is True, only then the comment is made
+    PERMITTED_TO_COMMENT = True
+    # This dictionary is used and updated after making API calls
+    data = {}
+
+    if request.json["action"] in ["created", "edited"]:
+        auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+        pull_request = requests.get(request.json["issue"]["pull_request"]["url"], auth=auth).json()
+        data["pull_request"] = pull_request
+        data["after_commit_hash"] = pull_request["head"]["sha"],
+        data["author"] = pull_request["user"]["login"]
+        data["reviewer"] = request.json["comment"]["user"]["login"]
+        data["repository"] = request.json["repository"]["full_name"]
+        data["diff_url"] = pull_request["diff_url"]
+        data["sha"] = pull_request["head"]["sha"]
+        data["review_url"] = request.json["comment"]["html_url"]
+        data["pr_number"] = pull_request["number"]
+        data["comment"] = request.json["comment"]["body"]
+
+        # Get the .pep8speaks.yml config file from the repository
+        config = helpers.get_config(data)
+
+        splitted_comment = data["comment"].lower().split()
+
+        # If diff is required
+        params1 = ["@pep8speaks", "suggest", "diff"]
+        condition1 = all(p in splitted_comment for p in params1)
+        # If asked to pep8ify
+        params2 = ["@pep8speaks", "pep8ify"]
+        condition2 = all(p in splitted_comment for p in params2)
+
+        if condition1:
+            return _create_diff(request, data, config)
+        elif condition2:
+            return _pep8ify(request, data, config)
+        else:
+            print("No conditions")
+            js = json.dumps(data)
+            return Response(js, status=200, mimetype='application/json')
+    elif request.json["action"] == "deleted":
+        return Response(js, status=200, mimetype='application/json')
 
 
 def handle_unsupported_requests(request):
