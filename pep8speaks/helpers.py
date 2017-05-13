@@ -464,13 +464,8 @@ def create_gist(data, config):
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
     url = "https://api.github.com/gists"
-    print("url", url)
-    print("REQUEST_JSON", REQUEST_JSON)
-    print("headers", headers)
-    print("auth", auth)
     res = requests.post(url, json=REQUEST_JSON, headers=headers, auth=auth).json()
     data["gist_response"] = res
-    print(data)
     data["gist_url"] = res["html_url"]
 
 
@@ -551,7 +546,7 @@ def create_new_branch(data):
     }
     r = requests.post(url, json=request_json, headers=headers, auth=auth)
 
-    if r.status_code != 200:
+    if r.status_code > 299:
         data["error"] = "Could not create new branch in the fork"
 
 

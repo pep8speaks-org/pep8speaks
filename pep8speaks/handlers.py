@@ -150,6 +150,22 @@ def _pep8ify(request, data, config):
     # Create a PR from the branch to the target repository
     helpers.create_pr(data)
 
+    comment = "Here you go with [the Pull Request]({}) ! The fixes are " \
+              "suggested by [autopep8](https://github.com/hhatto/autopep8).\n\n"
+    if data["reviewer"] == data["author"]:  # Both are the same person
+        comment += "@{} "
+        comment = comment.format(data["pr_url"], data["reviewer"])
+    else:
+        comment += "@{} @{} "
+        comment = comment.format(data["pr_url"], data["reviewer"],
+                                 data["author"])
+
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    query = "https://api.github.com/repos/{}/issues/{}/comments"
+    query = query.format(data["repository"], str(data["pr_number"]))
+    response = requests.post(query, json={"body": comment}, auth=auth)
+    data["comment_response"] = response.json()
+
     js = json.dumps(data)
     return Response(js, status=200, mimetype='application/json')
 
@@ -262,7 +278,6 @@ def handle_issue_comment(request):
         elif condition2:
             return _pep8ify(request, data, config)
         else:
-            print("No conditions")
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
     elif request.json["action"] == "deleted":
