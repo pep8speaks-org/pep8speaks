@@ -105,6 +105,7 @@ def handle_review(request):
     data["sha"] = request.json["pull_request"]["head"]["sha"]
     data["review_url"] = request.json["review"]["html_url"]
     data["pr_number"] = request.json["pull_request"]["number"]
+    data["pull_request"] = request.json["pull_request"]
 
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(data)
