@@ -29,6 +29,9 @@ def handle_pull_request(request):
             # pycodestyle arguments
             "extra_results": {},
             "pr_number": request.json["number"],
+            "commits_url": request.json["pull_request"]["commits_url"],
+            "pr_title": request.json["pull_request"]["title"],
+            "pr_desc": request.json["pull_request"]["body"]
         }
 
         # If the PR contains at least one Python file
