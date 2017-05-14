@@ -128,6 +128,9 @@ def handle_review(request):
         conditions_matched = condition1 and condition2
         if conditions_matched:
             return _create_diff(request, data, config)
+        else:
+            js = json.dumps(data)
+            return Response(js, status=200, mimetype='application/json')
 
 
 def _pep8ify(request, data, config):
@@ -282,6 +285,7 @@ def handle_issue_comment(request):
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
     elif request.json["action"] == "deleted":
+        js = json.dumps(data)
         return Response(js, status=200, mimetype='application/json')
 
 
