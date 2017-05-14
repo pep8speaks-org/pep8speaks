@@ -29,6 +29,9 @@ def handle_pull_request(request):
             # pycodestyle arguments
             "extra_results": {},
             "pr_number": request.json["number"],
+            "commits_url": request.json["pull_request"]["commits_url"],
+            "pr_title": request.json["pull_request"]["title"],
+            "pr_desc": request.json["pull_request"]["body"]
         }
 
         # If the PR contains at least one Python file
@@ -128,6 +131,9 @@ def handle_review(request):
         conditions_matched = condition1 and condition2
         if conditions_matched:
             return _create_diff(request, data, config)
+        else:
+            js = json.dumps(data)
+            return Response(js, status=200, mimetype='application/json')
 
 
 def _pep8ify(request, data, config):
@@ -282,6 +288,7 @@ def handle_issue_comment(request):
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
     elif request.json["action"] == "deleted":
+        js = json.dumps(data)
         return Response(js, status=200, mimetype='application/json')
 
 

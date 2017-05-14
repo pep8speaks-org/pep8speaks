@@ -17,6 +17,7 @@ A GitHub :octocat: integration to automatically review Python code style over Pu
 # Features
 
  - The bot makes **a single comment on the PR and keeps updating it** on new commits. No hustle on emails !
+ - Add `[skip pep8]` anywhere in the commit message, PR title or PR description to prohibit pep8speaks to comment on the Pull Request.
  - To pause the bot on a PR, comment `@pep8speaks Keep Quiet.`
  - Comment `@pep8speaks Resume now.` to resume.
   - The keywords are `quiet` and `resume` and the mention of the bot.

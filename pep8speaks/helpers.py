@@ -361,6 +361,19 @@ def comment_permission_check(data, comment):
             elif 'quiet' in old_comment['body'].lower():
                 PERMITTED_TO_COMMENT = False
 
+    # Check for [skip pep8]
+    ## In commits
+    commits = requests.get(data["commits_url"], auth=auth).json()
+    for commit in commits:
+        if any(m in commit["commit"]["message"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+            PERMITTED_TO_COMMENT = False
+            break
+    ## PR title
+    if any(m in data["pr_title"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        PERMITTED_TO_COMMENT = False
+    ## PR description
+    if any(m in data["pr_desc"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        PERMITTED_TO_COMMENT = False
 
     return PERMITTED_TO_COMMENT
 
