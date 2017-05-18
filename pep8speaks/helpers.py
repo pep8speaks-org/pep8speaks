@@ -304,7 +304,7 @@ def prepare_comment(request, data, config):
                 comment_body.append("\n> {0}".format(error_string))
 
         comment_body.append("\n\n")
-        if len(data["extra_results"][file]) > 0:
+        if len(data["extra_results"][file]) > 0 and not config["scanner"]["diff_only"]:
             comment_body.append(" - Complete extra results for this file :\n\n")
             comment_body.append("> " + "".join(data["extra_results"][file]))
             comment_body.append("---\n\n")
