@@ -215,7 +215,7 @@ def _create_diff(request, data, config):
 
 def handle_review_comment(request):
     # Figure out what does "position" mean in the response
-    pass
+    return Response(status=200, mimetype='application/json')
 
 
 def handle_integration_installation(request):
@@ -255,35 +255,39 @@ def handle_issue_comment(request):
     data = {}
 
     if request.json["action"] in ["created", "edited"]:
-        auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
-        pull_request = requests.get(request.json["issue"]["pull_request"]["url"], auth=auth).json()
-        data["pull_request"] = pull_request
-        data["after_commit_hash"] = pull_request["head"]["sha"],
-        data["author"] = pull_request["user"]["login"]
-        data["reviewer"] = request.json["comment"]["user"]["login"]
-        data["repository"] = request.json["repository"]["full_name"]
-        data["diff_url"] = pull_request["diff_url"]
-        data["sha"] = pull_request["head"]["sha"]
-        data["review_url"] = request.json["comment"]["html_url"]
-        data["pr_number"] = pull_request["number"]
-        data["comment"] = request.json["comment"]["body"]
+        if "pull_request" in request.json["issue"]:
+            auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+            pull_request = requests.get(request.json["issue"]["pull_request"]["url"], auth=auth).json()
+            data["pull_request"] = pull_request
+            data["after_commit_hash"] = pull_request["head"]["sha"],
+            data["author"] = pull_request["user"]["login"]
+            data["reviewer"] = request.json["comment"]["user"]["login"]
+            data["repository"] = request.json["repository"]["full_name"]
+            data["diff_url"] = pull_request["diff_url"]
+            data["sha"] = pull_request["head"]["sha"]
+            data["review_url"] = request.json["comment"]["html_url"]
+            data["pr_number"] = pull_request["number"]
+            data["comment"] = request.json["comment"]["body"]
 
-        # Get the .pep8speaks.yml config file from the repository
-        config = helpers.get_config(data)
+            # Get the .pep8speaks.yml config file from the repository
+            config = helpers.get_config(data)
 
-        splitted_comment = data["comment"].lower().split()
+            splitted_comment = data["comment"].lower().split()
 
-        # If diff is required
-        params1 = ["@pep8speaks", "suggest", "diff"]
-        condition1 = all(p in splitted_comment for p in params1)
-        # If asked to pep8ify
-        params2 = ["@pep8speaks", "pep8ify"]
-        condition2 = all(p in splitted_comment for p in params2)
+            # If diff is required
+            params1 = ["@pep8speaks", "suggest", "diff"]
+            condition1 = all(p in splitted_comment for p in params1)
+            # If asked to pep8ify
+            params2 = ["@pep8speaks", "pep8ify"]
+            condition2 = all(p in splitted_comment for p in params2)
 
-        if condition1:
-            return _create_diff(request, data, config)
-        elif condition2:
-            return _pep8ify(request, data, config)
+            if condition1:
+                return _create_diff(request, data, config)
+            elif condition2:
+                return _pep8ify(request, data, config)
+            else:
+                js = json.dumps(data)
+                return Response(js, status=200, mimetype='application/json')
         else:
             js = json.dumps(data)
             return Response(js, status=200, mimetype='application/json')
