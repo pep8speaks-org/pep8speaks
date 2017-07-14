@@ -3,6 +3,7 @@
 import base64
 import collections
 import datetime
+import fnmatch
 import hmac
 import json
 import os
@@ -194,13 +195,20 @@ def get_files_involved_in_pr(data):
     return files
 
 
-def get_python_files_involved_in_pr(data):
+def get_python_files_involved_in_pr(data, exclude=[]):
     files = get_files_involved_in_pr(data)
     for file in list(files.keys()):
-        if file[-3:] != ".py":
+        if file[-3:] != ".py" or filename_match(file, exclude):
             del files[file]
 
     return files
+
+
+def filename_match(filename, patterns):
+    """
+    Check if patterns contains a pattern that matches filename.
+    """
+    return any(fnmatch(filename, pattern) for pattern in patterns)
 
 
 def run_pycodestyle(data, config):
@@ -217,7 +225,7 @@ def run_pycodestyle(data, config):
     # Run pycodestyle
     ## All the python files with additions
     # A dictionary with filename paired with list of new line numbers
-    py_files = get_python_files_involved_in_pr(data)
+    py_files = get_python_files_involved_in_pr(data, config["pycodestyle"]["exclude"])
 
     for file in py_files:
         filename = file[1:]
