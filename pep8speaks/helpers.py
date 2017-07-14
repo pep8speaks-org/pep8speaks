@@ -208,7 +208,7 @@ def filename_match(filename, patterns):
     """
     Check if patterns contains a pattern that matches filename.
     """
-    return any(fnmatch(filename, pattern) for pattern in patterns)
+    return any(fnmatch.fnmatch(filename, pattern) for pattern in patterns)
 
 
 def run_pycodestyle(data, config):
