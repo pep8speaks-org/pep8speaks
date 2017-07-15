@@ -56,6 +56,8 @@ def main():
                 return handlers.handle_ping(request)
             elif event == "issue_comment":
                 return handlers.handle_issue_comment(request)
+            elif event == "installation":
+                return handlers.handle_installation(request)
             else:
                 return handlers.handle_unsupported_requests(request)
     else:

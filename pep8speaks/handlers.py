@@ -96,6 +96,10 @@ def handle_pull_request(request):
     return Response(js, status=200, mimetype='application/json')
 
 
+def handle_installation(request):
+    return Response(status=200, mimetype='application/json')
+
+
 def handle_review(request):
     # Handle the request when a new review is submitted
 
