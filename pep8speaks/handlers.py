@@ -31,7 +31,8 @@ def handle_pull_request(request):
             "pr_number": request.json["number"],
             "commits_url": request.json["pull_request"]["commits_url"],
             "pr_title": request.json["pull_request"]["title"],
-            "pr_desc": request.json["pull_request"]["body"]
+            "pr_desc": request.json["pull_request"]["body"],
+            "base_branch": request.json["pull_request"]["base"]["ref"],
         }
 
         # If the PR contains at least one Python file
