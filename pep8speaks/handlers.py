@@ -110,6 +110,10 @@ def handle_review(request):
     data["pr_number"] = request.json["pull_request"]["number"]
     data["pull_request"] = request.json["pull_request"]
 
+    if not request.json["review"]["body"]:
+        js = json.dumps(data)
+        return Response(js, status=200, mimetype='application/json')
+
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(data)
 
