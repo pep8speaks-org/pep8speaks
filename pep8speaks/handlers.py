@@ -114,6 +114,7 @@ def handle_review(request):
     data["review_url"] = request.json["review"]["html_url"]
     data["pr_number"] = request.json["pull_request"]["number"]
     data["pull_request"] = request.json["pull_request"]
+    data["base_branch"] = request.json["pull_request"]["base"]["ref"]
 
     if not request.json["review"]["body"]:
         js = json.dumps(data)
@@ -277,6 +278,7 @@ def handle_issue_comment(request):
             data["review_url"] = request.json["comment"]["html_url"]
             data["pr_number"] = pull_request["number"]
             data["comment"] = request.json["comment"]["body"]
+            data["base_branch"] = request.json["repository"]["default_branch"]
 
             # Get the .pep8speaks.yml config file from the repository
             config = helpers.get_config(data)
