@@ -22,7 +22,7 @@ A GitHub :octocat: integration to automatically review Python code style over Pu
  - Comment `@pep8speaks Resume now.` to resume.
   - The keywords are `quiet` and `resume` and the mention of the bot.
  - Mention `@pep8speaks` in a **review summary** while creating a review of a PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
-  - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot.
+  - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot and have `suggest` and `diff` keywords.
  - Write `@pep8speaks pep8ify` in a review summary and it will create a Pull Request with changes suggested by [`autopep8`](https://github.com/hhatto/autopep8) against the branch of the author of the PR. `autopep8` fixes most of the errors reported by [`pycodestyle`](https://github.com/PyCQA/pycodestyle).
   - `@pep8speaks` along with `pep8ify` in a single review summary rules out the diff feature.
  - Comment only if Python files are involved. So, install the integration on all of your repositories. The bot won't speak where it should not
