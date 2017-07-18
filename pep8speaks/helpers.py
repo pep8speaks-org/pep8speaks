@@ -208,7 +208,26 @@ def filename_match(filename, patterns):
     """
     Check if patterns contains a pattern that matches filename.
     """
-    return any(fnmatch.fnmatch(filename, pattern) for pattern in patterns)
+    PATTERN_MATCHED = False
+
+    # `dir/*` works but `dir/` does not
+    for index in range(len(patterns)):
+        if patterns[index][-1] == '/':
+            patterns[index] += '*'
+
+    # filename has a leading `/` which confuses fnmatch
+    filename = filename.lstrip('/')
+
+    # Pattern is a fnmatch compatible regex
+    if any(fnmatch.fnmatch(filename, pattern) for pattern in patterns):
+        PATTERN_MATCHED = True
+
+    # Pattern is a simple name of file or directory (not caught by fnmatch)
+    for pattern in patterns:
+        if not '/' in pattern and pattern in filename.split('/'):
+            PATTERN_MATCHED = True
+
+    return PATTERN_MATCHED
 
 
 def run_pycodestyle(data, config):
