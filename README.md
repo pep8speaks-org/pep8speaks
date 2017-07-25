@@ -17,11 +17,12 @@ A GitHub :octocat: integration to automatically review Python code style over Pu
 # Features
 
  - The bot makes **a single comment on the PR and keeps updating it** on new commits. No hustle on emails !
+ - Add `[skip pep8]` anywhere in the commit message, PR title or PR description to prohibit pep8speaks to comment on the Pull Request.
  - To pause the bot on a PR, comment `@pep8speaks Keep Quiet.`
  - Comment `@pep8speaks Resume now.` to resume.
   - The keywords are `quiet` and `resume` and the mention of the bot.
  - Mention `@pep8speaks` in a **review summary** while creating a review of a PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
-  - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot.
+  - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot and have `suggest` and `diff` keywords.
  - Write `@pep8speaks pep8ify` in a review summary and it will create a Pull Request with changes suggested by [`autopep8`](https://github.com/hhatto/autopep8) against the branch of the author of the PR. `autopep8` fixes most of the errors reported by [`pycodestyle`](https://github.com/PyCQA/pycodestyle).
   - `@pep8speaks` along with `pep8ify` in a single review summary rules out the diff feature.
  - Comment only if Python files are involved. So, install the integration on all of your repositories. The bot won't speak where it should not
@@ -41,6 +42,7 @@ message:  # Customize the comment made by the bot
     updated:  # Messages when new commits are added to the PR
         header: "Hello @{name}, Thank you for updating !"
         footer: ""  # Why to comment the link to the style guide everytime? :)
+    no_errors: "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
 
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
@@ -50,8 +52,6 @@ pycodestyle:
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
-
-no_blank_comment: False  # If True, no comment is made when the bot does not find any pep8 errors
 
 only_mention_files_with_errors: True  # If set to False, a separate status comment for each file is made.
 ```

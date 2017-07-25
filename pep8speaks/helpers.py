@@ -3,6 +3,7 @@
 import base64
 import collections
 import datetime
+import fnmatch
 import hmac
 import json
 import os
@@ -51,13 +52,14 @@ def update_dict(base, head):
     Source : http://stackoverflow.com/a/32357112/4698026
     """
     for key, value in head.items():
-        if isinstance(base, collections.Mapping):
-            if isinstance(value, collections.Mapping):
-                base[key] = update_dict(base.get(key, {}), value)
+        if key in base:
+            if isinstance(base, collections.Mapping):
+                if isinstance(value, collections.Mapping):
+                    base[key] = update_dict(base.get(key, {}), value)
+                else:
+                    base[key] = head[key]
             else:
-                base[key] = head[key]
-        else:
-            base = {key: head[key]}
+                base = {key: head[key]}
     return base
 
 
@@ -77,6 +79,20 @@ def match_webhook_secret(request):
     return True
 
 
+def check_pythonic_pr(data):
+    """
+    Return True if the PR contains at least one Python file
+    """
+    files = list(get_files_involved_in_pr(data).keys())
+    pythonic = False
+    for file in files:
+        if file[-3:] == '.py':
+            pythonic = True
+            break
+
+    return pythonic
+
+
 def get_config(data):
     """
     Get .pep8speaks.yml config file from the repository and return
@@ -93,7 +109,8 @@ def get_config(data):
             "updated": {
                 "header": "",
                 "footer": ""
-            }
+            },
+            "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: ",
         },
         "scanner": {"diff_only": False},
         "pycodestyle": {
@@ -119,7 +136,7 @@ def get_config(data):
     # Configuration file
     url = "https://raw.githubusercontent.com/{}/{}/.pep8speaks.yml"
 
-    url = url.format(data["repository"], data["after_commit_hash"])
+    url = url.format(data["repository"], data["base_branch"])
     r = requests.get(url, headers=headers, auth=auth)
     if r.status_code == 200:
         try:
@@ -149,10 +166,9 @@ def get_config(data):
     return config
 
 
-def run_pycodestyle(data, config):
+def get_files_involved_in_pr(data):
     """
-    Run pycodestyle script on the files and update the data
-    dictionary
+    Return a list of file names modified/added in the PR
     """
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     diff_headers = headers.copy()
@@ -163,24 +179,72 @@ def run_pycodestyle(data, config):
     author = data["author"]
     diff_url = "https://api.github.com/repos/{}/pulls/{}"
     diff_url = diff_url.format(repository, str(data["pr_number"]))
-
-    # Run pycodestyle
     r = requests.get(diff_url, headers=diff_headers, auth=auth)
-
-    ## All the python files with additions
     patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
-    # A dictionary with filename paired with list of new line numbers
-    py_files = {}
+    files = {}
 
     for patchset in patch:
-        if patchset.target_file[-3:] == '.py':
-            py_file = patchset.target_file[1:]
-            py_files[py_file] = []
-            for hunk in patchset:
-                for line in hunk.target_lines():
-                    if line.is_added:
-                        py_files[py_file].append(line.target_line_no)
+        file = patchset.target_file[1:]
+        files[file] = []
+        for hunk in patchset:
+            for line in hunk.target_lines():
+                if line.is_added:
+                    files[file].append(line.target_line_no)
+
+    return files
+
+
+def get_python_files_involved_in_pr(data, exclude=[]):
+    files = get_files_involved_in_pr(data)
+    for file in list(files.keys()):
+        if file[-3:] != ".py" or filename_match(file, exclude):
+            del files[file]
+
+    return files
+
+
+def filename_match(filename, patterns):
+    """
+    Check if patterns contains a pattern that matches filename.
+    """
+    PATTERN_MATCHED = False
+
+    # `dir/*` works but `dir/` does not
+    for index in range(len(patterns)):
+        if patterns[index][-1] == '/':
+            patterns[index] += '*'
+
+    # filename has a leading `/` which confuses fnmatch
+    filename = filename.lstrip('/')
+
+    # Pattern is a fnmatch compatible regex
+    if any(fnmatch.fnmatch(filename, pattern) for pattern in patterns):
+        PATTERN_MATCHED = True
+
+    # Pattern is a simple name of file or directory (not caught by fnmatch)
+    for pattern in patterns:
+        if not '/' in pattern and pattern in filename.split('/'):
+            PATTERN_MATCHED = True
+
+    return PATTERN_MATCHED
+
+
+def run_pycodestyle(data, config):
+    """
+    Run pycodestyle script on the files and update the data
+    dictionary
+    """
+    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
+    repository = data["repository"]
+    after_commit_hash = data["after_commit_hash"]
+    author = data["author"]
+
+    # Run pycodestyle
+    ## All the python files with additions
+    # A dictionary with filename paired with list of new line numbers
+    py_files = get_python_files_involved_in_pr(data, config["pycodestyle"]["exclude"])
 
     for file in py_files:
         filename = file[1:]
@@ -212,10 +276,8 @@ def run_pycodestyle(data, config):
                     data["results"][filename].remove(error)
 
         ## Store the link to the file
-        url = "https://github.com/{}/{}/blob/{}{}"
-        url = url.format(author, repository.split("/")[-1], after_commit_hash, file)
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        data[filename + "_link"] = url.format(repository, after_commit_hash, file)
         os.remove("file_to_check.py")
 
 
@@ -275,11 +337,9 @@ def prepare_comment(request, data, config):
             comment_body.append("---\n\n")
 
     if config["only_mention_files_with_errors"] and not ERROR:
-        comment_body.append("Cheers ! There are no PEP8 issues in this Pull Request. :beers: ")
-
+        comment_body.append(config["message"]["no_errors"])
 
     comment_body = ''.join(comment_body)
-
 
     ## Footer
     comment_footer = []
@@ -328,11 +388,24 @@ def comment_permission_check(data, comment):
             elif 'quiet' in old_comment['body'].lower():
                 PERMITTED_TO_COMMENT = False
 
+    # Check for [skip pep8]
+    ## In commits
+    commits = requests.get(data["commits_url"], auth=auth).json()
+    for commit in commits:
+        if any(m in commit["commit"]["message"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+            PERMITTED_TO_COMMENT = False
+            break
+    ## PR title
+    if any(m in data["pr_title"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        PERMITTED_TO_COMMENT = False
+    ## PR description
+    if any(m in data["pr_desc"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        PERMITTED_TO_COMMENT = False
 
     return PERMITTED_TO_COMMENT
 
 
-def create_or_update_comment(data, comment):
+def create_or_update_comment(data, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE):
     comment_mode = None
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
     auth = (os.environ["BOT_USERNAME"], os.environ["BOT_PASSWORD"])
@@ -348,7 +421,7 @@ def create_or_update_comment(data, comment):
             last_comment_id = old_comment["id"]
             break
 
-    if last_comment_id is None:  # Create a new comment
+    if last_comment_id is None and not ONLY_UPDATE_COMMENT_BUT_NOT_CREATE:  # Create a new comment
         response = requests.post(query, json={"body": comment}, headers=headers, auth=auth)
         data["comment_response"] = response.json()
     else:  # Update the last comment
@@ -408,11 +481,8 @@ def autopep8(data, config):
         data["diff"][filename] = data["diff"][filename].replace("\\", "\\\\")
 
         ## Store the link to the file
-        url = "https://github.com/" + data["author"] + "/" + \
-              data["repository"].split("/")[-1] + "/blob/" + \
-              data["sha"] + file
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        data[filename + "_link"] = url.format(data["repository"], data["sha"], file)
         os.remove("file_to_fix.py")
 
 
@@ -516,7 +586,7 @@ def create_new_branch(data):
     }
     r = requests.post(url, json=request_json, headers=headers, auth=auth)
 
-    if r.status_code != 200:
+    if r.status_code > 299:
         data["error"] = "Could not create new branch in the fork"
 
 

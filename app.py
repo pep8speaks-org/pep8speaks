@@ -50,10 +50,14 @@ def main():
                 return handlers.handle_review_comment(request)
             elif event == "integration_installation":
                 return handlers.handle_integration_installation(request)
-            elif event == "integration_installation_repositories":
+            elif event in ["integration_installation_repositories", "installation_repositories"]:
                 return handlers.handle_integration_installation_repo(request)
             elif event == "ping":
                 return handlers.handle_ping(request)
+            elif event == "issue_comment":
+                return handlers.handle_issue_comment(request)
+            elif event == "installation":
+                return handlers.handle_installation(request)
             else:
                 return handlers.handle_unsupported_requests(request)
     else:
