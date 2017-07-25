@@ -65,6 +65,41 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
  - Check the errors locally by the command line tool [pycodestyle](https://github.com/PyCQA/pycodestyle) (previously known as `pep8`).
  - [autopep8](https://github.com/hhatto/autopep8) is another command line tool to fix the issues.
 
+# Popular Users
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://avatars1.githubusercontent.com/u/21206976?v=4&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/pandas-dev/pandas">Pandas</a>
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github.com/sunpy/sunpy-logo/blob/master/generated/sunpy_icon.png?raw=true" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/sunpy">SunPy</a>
+      </td>
+      <td align="center" width="20%" valign="top">
+        <img src="https://avatars0.githubusercontent.com/u/847984?v=3&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/astropy">Astropy</a>
+      </td>
+      <td align="center" valign="top">
+        <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/scikit-learn-contrib">Scikit Learn Contrib</a>
+      </td>
+      <td align="center" valign="top">
+        <img style="margin-right: 5%" src="https://avatars3.githubusercontent.com/u/897180?v=3&s=400" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/scikit-image">Scikit Image</a>
+      </td>
+     </tr>
+  </tbody>
+</table>
+
+
 # Private repos
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork)
 
