@@ -95,6 +95,11 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
         <br>
         <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/scikit-image">Scikit Image</a>
       </td>
+      <td align="center" valign="top">
+        <img style="margin-right: 5%" src="https://avatars0.githubusercontent.com/u/1284937?v=4&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/spyder-ide/spyder">Spyder IDE</a>
+      </td>
      </tr>
   </tbody>
 </table>
