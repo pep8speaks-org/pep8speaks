@@ -7,7 +7,7 @@ import psycopg2
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
 
-from pep8speaks import handlers, helpers
+from pep8speaks import handlers, helpers, models
 
 
 # For running locally without connecting to the database
@@ -43,9 +43,11 @@ def main():
         if helpers.match_webhook_secret(request):
             event = request.headers["X-GitHub-Event"]
             if event == "pull_request":
-                return handlers.handle_pull_request(request)
+                ghrequest = models.GHRequest(request, event)
+                return handlers.handle_pull_request(ghrequest)
             elif event == "pull_request_review":
-                return handlers.handle_review(request)
+                ghrequest = models.GHRequest(request, event)
+                return handlers.handle_review(ghrequest)
             elif event == "pull_request_review_comment":
                 return handlers.handle_review_comment(request)
             elif event == "integration_installation":
@@ -55,7 +57,8 @@ def main():
             elif event == "ping":
                 return handlers.handle_ping(request)
             elif event == "issue_comment":
-                return handlers.handle_issue_comment(request)
+                ghrequest = models.GHRequest(request, event)
+                return handlers.handle_issue_comment(ghrequest)
             elif event == "installation":
                 return handlers.handle_installation(request)
             else:
