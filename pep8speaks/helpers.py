@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import base64
-import collections
 import datetime
-import fnmatch
-import hmac
 import json
 import os
 import re
@@ -14,7 +11,6 @@ import time
 import psycopg2
 import unidiff
 import yaml
-from flask import abort
 from pep8speaks import utils
 
 
@@ -39,41 +35,6 @@ def follow_user(user):
     }
     query = "https://api.github.com/user/following/{}".format(user)
     return utils._request(query=query, type='PUT', headers=headers)
-
-
-def update_dict(base, head):
-    """
-    Recursively merge or update dict-like objects.
-    >>> update({'k1': 1}, {'k1': {'k2': {'k3': 3}}})
-
-    Source : http://stackoverflow.com/a/32357112/4698026
-    """
-    for key, value in head.items():
-        if key in base:
-            if isinstance(base, collections.Mapping):
-                if isinstance(value, collections.Mapping):
-                    base[key] = update_dict(base.get(key, {}), value)
-                else:
-                    base[key] = head[key]
-            else:
-                base = {key: head[key]}
-    return base
-
-
-def match_webhook_secret(request):
-    """Match the webhook secret sent from GitHub"""
-    if os.environ.get("OVER_HEROKU", False) is not False:
-        header_signature = request.headers.get('X-Hub-Signature')
-        if header_signature is None:
-            abort(403)
-        sha_name, signature = header_signature.split('=')
-        if sha_name != 'sha1':
-            abort(501)
-        mac = hmac.new(os.environ["GITHUB_PAYLOAD_SECRET"].encode(), msg=request.data,
-                       digestmod="sha1")
-        if not hmac.compare_digest(str(mac.hexdigest()), str(signature)):
-            abort(403)
-    return True
 
 
 def get_config(repo, base_branch):
@@ -124,7 +85,7 @@ def get_config(repo, base_branch):
         try:
             new_config = yaml.load(r.text)
             # overloading the default configuration with the one specified
-            config = update_dict(config, new_config)
+            config = utils.update_dict(config, new_config)
         except yaml.YAMLError:  # Bad YAML file
             pass
 
@@ -175,7 +136,7 @@ def get_files_involved_in_pr(repo, pr_number):
 def get_py_files_in_pr(repo, pr_number, exclude=[]):
     files = get_files_involved_in_pr(repo, pr_number)
     for file in list(files.keys()):
-        if file[-3:] != ".py" or filename_match(file, exclude):
+        if file[-3:] != ".py" or utils.filename_match(file, exclude):
             del files[file]
 
     return files
@@ -186,31 +147,6 @@ def check_pythonic_pr(repo, pr_number):
     Return True if the PR contains at least one Python file
     """
     return len(get_py_files_in_pr(repo, pr_number)) > 0
-
-
-def filename_match(filename, patterns):
-    """
-    Check if patterns contains a pattern that matches filename.
-    """
-
-    # `dir/*` works but `dir/` does not
-    for index in range(len(patterns)):
-        if patterns[index][-1] == '/':
-            patterns[index] += '*'
-
-    # filename has a leading `/` which confuses fnmatch
-    filename = filename.lstrip('/')
-
-    # Pattern is a fnmatch compatible regex
-    if any(fnmatch.fnmatch(filename, pattern) for pattern in patterns):
-        return True
-
-    # Pattern is a simple name of file or directory (not caught by fnmatch)
-    for pattern in patterns:
-        if '/' not in pattern and pattern in filename.split('/'):
-            return True
-
-    return False
 
 
 def run_pycodestyle(ghrequest, config):

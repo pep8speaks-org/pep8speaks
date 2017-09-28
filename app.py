@@ -7,7 +7,7 @@ import psycopg2
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
 
-from pep8speaks import handlers, helpers, models
+from pep8speaks import handlers, helpers, models, utils
 
 
 # For running locally without connecting to the database
@@ -40,7 +40,7 @@ def main():
         return redirect("https://pep8speaks.com")
     elif request.method == "POST":
         # GitHub sends the secret key in the payload header
-        if helpers.match_webhook_secret(request):
+        if utils.match_webhook_secret(request):
             event = request.headers["X-GitHub-Event"]
             if event == "pull_request":
                 ghrequest = models.GHRequest(request, event)
