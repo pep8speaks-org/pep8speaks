@@ -208,7 +208,7 @@ def filename_match(filename, patterns):
 
     # Pattern is a simple name of file or directory (not caught by fnmatch)
     for pattern in patterns:
-        if not '/' in pattern and pattern in filename.split('/'):
+        if '/' not in pattern and pattern in filename.split('/'):
             return True
 
     return False
