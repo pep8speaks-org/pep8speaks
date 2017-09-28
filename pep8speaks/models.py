@@ -1,5 +1,6 @@
 from pep8speaks import utils
 
+
 class GHRequest(object):
     """A payload object sent by GitHub"""
     def __init__(self, request, event):
