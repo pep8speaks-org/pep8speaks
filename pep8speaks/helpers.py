@@ -169,7 +169,6 @@ def get_files_involved_in_pr(repo, pr_number):
             for line in hunk.target_lines():
                 if line.is_added:
                     files[file].append(line.target_line_no)
-
     return files
 
 
@@ -226,7 +225,7 @@ def run_pycodestyle(ghrequest, config):
     ## All the python files with additions
     # A dictionary with filename paired with list of new line numbers
     files_to_exclude = config["pycodestyle"]["exclude"]
-    py_files = get_on_filed_in_pr(repo, pr_number, files_to_exclude)
+    py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
 
     for file in py_files:
         filename = file[1:]

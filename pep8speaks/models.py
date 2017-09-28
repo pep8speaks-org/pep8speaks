@@ -16,7 +16,7 @@ class GHRequest(object):
         # Generic object for the pull request of payload
         self.pull_request = self._get_pull_request(request, event)
 
-        self._set_properties()
+        self._set_properties(request, event)
 
     def _get_pull_request(self, request, event):
         """
@@ -42,14 +42,14 @@ class GHRequest(object):
 
         return False
 
-    def _set_properties(self):
+    def _set_properties(self, request, event):
         """
         Set necessary properties of the object taken from the data in request.
         """
-        self._set_defaults()
-        self._set_conditionals()
+        self._set_defaults(request)
+        self._set_conditionals(request, event)
 
-    def _set_defaults(self):
+    def _set_defaults(self, request):
         """
         Set properties common to all event types.
         """
@@ -65,7 +65,7 @@ class GHRequest(object):
         self.base_branch = self.pull_request['base']['ref']
         self.after_commit_hash = self.pull_request['head']['sha']
 
-    def _set_conditionals(self):
+    def _set_conditionals(self, request, event):
         """
         Set properties which are specific to event types.
         """

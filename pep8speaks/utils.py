@@ -4,7 +4,7 @@ from pep8speaks.constants import AUTH
 
 
 def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
-    args = (query)
+    args = (query,)
     kwargs = {'auth': AUTH}
     if json: kwargs['json'] = json
     if data: kwargs['data'] = data
