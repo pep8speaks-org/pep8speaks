@@ -1,12 +1,13 @@
 import collections
 import fnmatch
 import hmac
+import json
 import os
 
 from flask import abort
+from flask import Response as FResponse
 import requests
 from pep8speaks.constants import AUTH
-
 
 def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
     args = (query,)
@@ -26,6 +27,11 @@ def _request(query=None, type='GET', json={}, data='', headers=None, params=None
         return requests.patch(*args, **kwargs)
     elif type == 'DELETE':
         return requests.delete(*args, **kwargs)
+
+
+def Response(data={}, status=200, mimetype='application/json'):
+    response_object = json.dumps(data, default=lambda obj: obj.__dict__)
+    return FResponse(response_object, status=status, mimetype=mimetype)
 
 
 def update_dict(base, head):

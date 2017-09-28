@@ -1,16 +1,8 @@
 # -*- coding: utf-8 -*-
-import json
 import os
 
 import requests
-from flask import Response as FResponse
 from pep8speaks import helpers, utils
-
-
-def Response(data={}, status=200, mimetype='application/json'):
-    response_object = json.dumps(data, default=lambda obj: obj.__dict__)
-    return FResponse(response_object, status=status, mimetype=mimetype)
-
 
 
 def handle_pull_request(ghrequest):
@@ -19,13 +11,13 @@ def handle_pull_request(ghrequest):
     # Ultimately if this is True, only then the comment is made
 
     if not ghrequest.OK:
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # If the PR contains at least one Python file
     pythonic_pr = helpers.check_pythonic_pr(ghrequest.repository, ghrequest.pr_number)
 
     if not pythonic_pr:
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     helpers.update_users(ghrequest.repository)
 
@@ -54,12 +46,12 @@ def handle_pull_request(ghrequest):
     # But in case of PR update, make sure to update the comment with no issues.
     ONLY_UPDATE_COMMENT_BUT_NOT_CREATE = False
     if len(body) == 0:
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # Simply do not comment no-error messages when a PR is opened
     if not ERROR:
         if ghrequest.action == "opened":
-            return Response(ghrequest)
+            return utils.Response(ghrequest)
         elif ghrequest.action in ("reopened", "synchronize"):
             ONLY_UPDATE_COMMENT_BUT_NOT_CREATE = True
 
@@ -69,24 +61,24 @@ def handle_pull_request(ghrequest):
     # Do not make duplicate comment made on the PR by the bot
     # Check if asked to keep quiet
     if not helpers.comment_permission_check(ghrequest):
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # Do not run on PR's created by pep8speaks which use autopep8
     # Too much noisy
     if ghrequest.author == "pep8speaks":
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # NOW, Interact with the PR and make/update the comment
     helpers.create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE)
 
-    return Response(ghrequest)
+    return utils.Response(ghrequest)
 
 
 def handle_installation(request):
     """
     Do nothing. It's handled by handle_integration_installation
     """
-    return Response()
+    return utils.Response()
 
 
 def handle_review(ghrequest):
@@ -95,7 +87,7 @@ def handle_review(ghrequest):
     """
 
     if not ghrequest.review_body:
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
@@ -119,7 +111,7 @@ def handle_review(ghrequest):
         if conditions_matched:
             return _create_diff(ghrequest, config)
         else:
-            return Response(ghrequest)
+            return utils.Response(ghrequest)
 
 
 def _pep8ify(ghrequest, config):
@@ -158,7 +150,7 @@ def _pep8ify(ghrequest, config):
     response = utils._request(query, type='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
-    return Response(ghrequest)
+    return utils.Response(ghrequest)
 
 
 def _create_diff(ghrequest, config):
@@ -189,14 +181,14 @@ def _create_diff(ghrequest, config):
     ghrequest.comment_response = response.json()
 
     if "error" in ghrequest:
-        return Response(ghrequest, status=400)
+        return utils.Response(ghrequest, status=400)
 
-    return Response(ghrequest)
+    return utils.Response(ghrequest)
 
 
 def handle_review_comment(request):
     # Figure out what does "position" mean in the response
-    return Response()
+    return utils.Response()
 
 
 def handle_integration_installation(request):
@@ -208,7 +200,7 @@ def handle_integration_installation(request):
     response_object = {
         "message": "Followed @{}".format(user)
     }
-    return Response(response_object)
+    return utils.Response(response_object)
 
 
 def handle_integration_installation_repo(request):
@@ -223,14 +215,14 @@ def handle_integration_installation_repo(request):
     response_object = {
         "message", "Added the following repositories : {}".format(str(repositories))
     }
-    return Response(response_object)
+    return utils.Response(response_object)
 
 
 def handle_ping(request):
     """
     Do nothing
     """
-    return Response()
+    return utils.Response()
 
 
 def handle_issue_comment(ghrequest):
@@ -239,7 +231,7 @@ def handle_issue_comment(ghrequest):
     PERMITTED_TO_COMMENT = True
 
     if not ghrequest.OK:
-        return Response(ghrequest)
+        return utils.Response(ghrequest)
 
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
@@ -258,11 +250,11 @@ def handle_issue_comment(ghrequest):
     elif condition2:
         return _pep8ify(ghrequest, config)
 
-    return Response(ghrequest)
+    return utils.Response(ghrequest)
 
 
 def handle_unsupported_requests(request):
     response_object = {
         "unsupported github event": request.headers["X-GitHub-Event"],
     }
-    return Response(response_object, 400)
+    return utils.Response(response_object, 400)
