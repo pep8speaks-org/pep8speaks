@@ -7,9 +7,11 @@ import os
 from flask import abort
 from flask import Response as FResponse
 import requests
-from pep8speaks.constants import AUTH
+from pep8speaks.constants import AUTH, BASE_URL
+
 
 def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
+    query = BASE_URL + query
     args = (query,)
     kwargs = {'auth': AUTH}
     if json: kwargs['json'] = json

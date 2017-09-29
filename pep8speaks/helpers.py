@@ -33,7 +33,7 @@ def follow_user(user):
     headers = {
         "Content-Length": "0",
     }
-    query = "https://api.github.com/user/following/{}".format(user)
+    query = "/user/following/{}".format(user)
     return utils._request(query=query, type='PUT', headers=headers)
 
 
@@ -115,7 +115,7 @@ def get_files_involved_in_pr(repo, pr_number):
     """
     headers = {"Accept": "application/vnd.github.VERSION.diff"}
 
-    query = "https://api.github.com/repos/{}/pulls/{}"
+    query = "/repos/{}/pulls/{}"
     query = query.format(repo, pr_number)
     r = utils._request(query, headers=headers)
 
@@ -281,7 +281,7 @@ def comment_permission_check(ghrequest):
     repository = ghrequest.repository
 
     # Check for duplicate comment
-    url = "https://api.github.com/repos/{}/issues/{}/comments"
+    url = "/repos/{}/issues/{}/comments"
     url = url.format(repository, str(ghrequest.pr_number))
     comments = utils._request(url).json()
 
@@ -325,7 +325,7 @@ def comment_permission_check(ghrequest):
 
 
 def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE):
-    query = "https://api.github.com/repos/{}/issues/{}/comments"
+    query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
     comments = utils._request(query).json()
 
@@ -345,7 +345,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
         comment += "\n\n##### Comment last updated on {}"
         comment = comment.format(time_now)
 
-        query = "https://api.github.com/repos/{}/issues/comments/{}"
+        query = "/repos/{}/issues/comments/{}"
         query = query.format(ghrequest.repository, str(last_comment_id))
         response = utils._request(query, type='PATCH', json={"body": comment})
 
@@ -416,7 +416,7 @@ def create_gist(ghrequest, config):
             }
 
     # Call github api to create the gist
-    query = "https://api.github.com/gists"
+    query = "/gists"
     response = utils._request(query, type='POST', json=request_json).json()
     ghrequest.gist_response = response
     ghrequest.gist_url = res["html_url"]
@@ -424,20 +424,20 @@ def create_gist(ghrequest, config):
 
 def delete_if_forked(ghrequest):
     FORKED = False
-    query = "https://api.github.com/user/repos"
+    query = "/user/repos"
     r = utils._request(query)
     for repo in r.json():
         if repo["description"]:
             if ghrequest.target_repo_fullname in repo["description"]:
                 FORKED = True
-                url = "https://api.github.com/repos/{}"
+                url = "/repos/{}"
                 url = url.format(repo["full_name"])
                 utils._request(url, type='DELETE')
     return FORKED
 
 
 def fork_for_pr(ghrequest):
-    query = "https://api.github.com/repos/{}/forks"
+    query = "/repos/{}/forks"
     query = query.format(ghrequest.target_repo_fullname)
     r = utils._request(query, type='POST')
 
@@ -451,7 +451,7 @@ def fork_for_pr(ghrequest):
 
 def update_fork_desc(ghrequest):
     # Check if forked (takes time)
-    query = "https://api.github.com/repos/{}".format(ghrequest.fork_fullname)
+    query = "/repos/{}".format(ghrequest.fork_fullname)
     r = utils._request(query)
     ATTEMPT = 0
     while(r.status_code != 200):
@@ -474,7 +474,7 @@ def update_fork_desc(ghrequest):
 
 
 def create_new_branch(ghrequest):
-    query = "https://api.github.com/repos/{}/git/refs/heads"
+    query = "/repos/{}/git/refs/heads"
     query = query.format(ghrequest.fork_fullname)
     sha = None
     r = utils._request(query)
@@ -482,7 +482,7 @@ def create_new_branch(ghrequest):
         if ref["ref"].split("/")[-1] == ghrequest.target_repo_branch:
             sha = ref["object"]["sha"]
 
-    query = "https://api.github.com/repos/{}/git/refs"
+    query = "/repos/{}/git/refs"
     query = query.format(ghrequest.fork_fullname)
     ghrequest.new_branch = "{}-pep8-patch".format(ghrequest.target_repo_branch)
     request_json = {
@@ -541,7 +541,7 @@ def commit(ghrequest):
     fullname = ghrequest.fork_fullname
 
     for file, new_file in ghrequest.results.items():
-        query = "https://api.github.com/repos/{}/contents/{}"
+        query = "/repos/{}/contents/{}"
         query = query.format(fullname, file)
         params = {"ref": ghrequest.new_branch}
         r = utils._request(query, params=params)
@@ -559,7 +559,7 @@ def commit(ghrequest):
 
 
 def create_pr(ghrequest):
-    query = "https://api.github.com/repos/{}/pulls"
+    query = "/repos/{}/pulls"
     query = query.format(ghrequest.target_repo_fullname)
     request_json = {
         "title": "Fix pep8 errors",

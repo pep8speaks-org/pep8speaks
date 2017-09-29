@@ -145,7 +145,7 @@ def _pep8ify(ghrequest, config):
         comment = comment.format(ghrequest.pr_url, ghrequest.reviewer,
                                  ghrequest.author)
 
-    query = "https://api.github.com/repos/{}/issues/{}/comments"
+    query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
     response = utils._request(query, type='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
@@ -175,7 +175,7 @@ def _create_diff(ghrequest, config):
         comment = comment.format(ghrequest.gist_url, ghrequest.reviewer,
                                  ghrequest.author)
 
-    query = "https://api.github.com/repos/{}/issues/{}/comments"
+    query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
     response = utils._request(query, type='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
