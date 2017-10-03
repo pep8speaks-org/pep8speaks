@@ -53,7 +53,8 @@ pycodestyle:
         - W391
         - E203
 
-only_mention_files_with_errors: True  # If set to False, a separate status comment for each file is made.
+only_mention_files_with_errors: True  # If False, a separate status comment for each file is made.
+descending_issues_order: False # If True, PEP8 issues in message will be displayed in descending order of line numbers in the file
 ```
 
 Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/master/pep8speaks/helpers.py#L87-L115).

@@ -128,6 +128,7 @@ def get_config(data):
         },
         "no_blank_comment": True,
         "only_mention_files_with_errors": True,
+        "descending_issues_order": False,
     }
 
     headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
@@ -312,6 +313,8 @@ def prepare_comment(request, data, config):
             comment_body.append(
                 " - In the file [`{0}`]({1}), following "
                 "are the PEP8 issues :\n".format(file, data[file + "_link"]))
+            if config["descending_issues_order"]:
+                issues = issues[::-1]
             for issue in issues:
                 ## Replace filename with L
                 error_string = issue.replace(file + ":", "Line ")
