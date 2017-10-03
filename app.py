@@ -42,24 +42,21 @@ def main():
         # GitHub sends the secret key in the payload header
         if helpers.match_webhook_secret(request):
             event = request.headers["X-GitHub-Event"]
-            if event == "pull_request":
-                return handlers.handle_pull_request(request)
-            elif event == "pull_request_review":
-                return handlers.handle_review(request)
-            elif event == "pull_request_review_comment":
-                return handlers.handle_review_comment(request)
-            elif event == "integration_installation":
-                return handlers.handle_integration_installation(request)
-            elif event in ["integration_installation_repositories", "installation_repositories"]:
-                return handlers.handle_integration_installation_repo(request)
-            elif event == "ping":
-                return handlers.handle_ping(request)
-            elif event == "issue_comment":
-                return handlers.handle_issue_comment(request)
-            elif event == "installation":
-                return handlers.handle_installation(request)
-            else:
-                return handlers.handle_unsupported_requests(request)
+            event_to_action = {
+                "pull_request": handlers.handle_pull_request,
+                "pull_request_review": handlers.handle_review,
+                "pull_request_review_comment": handlers.handle_review_comment,
+                "integration_installation": handlers.handle_integration_installation,
+                "integration_installation_repositories": handlers.handle_integration_installation_repo,
+                "installation_repositories": handlers.handle_integration_installation_repo,
+                "ping": handlers.handle_ping,
+                "issue_comment": handlers.handle_issue_comment,
+                "installation": handlers.handle_installation,
+            }
+        try:
+            event_to_action[event](request)
+        except KeyError:
+            handlers.handle_unsupported_requests(request)
     else:
         return render_template('index.html')
 
