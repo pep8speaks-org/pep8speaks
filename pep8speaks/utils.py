@@ -11,7 +11,10 @@ from pep8speaks.constants import AUTH, BASE_URL
 
 
 def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
-    query = BASE_URL + query
+    # Queries like /repos/:id needs to be appended to the base URL,
+    # Queries like https://raw.githubusercontent.com need not.
+    if query[0] == '/':
+        query = BASE_URL + query
     args = (query,)
     kwargs = {'auth': AUTH}
     if json: kwargs['json'] = json
