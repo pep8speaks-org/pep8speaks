@@ -1,0 +1,25 @@
+sudo: false
+
+language: python
+
+python:
+  - 3.6
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+addons:
+  apt:
+    sources:
+      - build-essential
+
+install:
+ - pip install --upgrade pip
+ - pip install -r requirements.txt
+
+script:
+ - pytest
+
+notifications:
+  email: false
