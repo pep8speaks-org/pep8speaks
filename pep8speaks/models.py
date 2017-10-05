@@ -13,6 +13,9 @@ class GHRequest(object):
         # pycodestyle arguments
         self.extra_results = {}
 
+        # In case error occurs in the request
+        self.error = None
+
         # Generic object for the pull request of payload
         self.pull_request = self._get_pull_request(request, event)
 

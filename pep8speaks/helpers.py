@@ -397,6 +397,7 @@ def autopep8(ghrequest, config):
 
         ## Store the link to the file
         url = "https://github.com/{}/blob/{}{}"
+        ghrequest.links = {}
         ghrequest.links[filename + "_link"] = url.format(ghrequest.repository, ghrequest.sha, file)
         os.remove("file_to_fix.py")
 
@@ -419,7 +420,7 @@ def create_gist(ghrequest, config):
     query = "/gists"
     response = utils._request(query, type='POST', json=request_json).json()
     ghrequest.gist_response = response
-    ghrequest.gist_url = res["html_url"]
+    ghrequest.gist_url = response["html_url"]
 
 
 def delete_if_forked(ghrequest):

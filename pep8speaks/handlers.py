@@ -180,7 +180,7 @@ def _create_diff(ghrequest, config):
     response = utils._request(query, type='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
-    if "error" in ghrequest:
+    if ghrequest.error:
         return utils.Response(ghrequest, status=400)
 
     return utils.Response(ghrequest)
@@ -226,9 +226,6 @@ def handle_ping(request):
 
 
 def handle_issue_comment(ghrequest):
-    # A variable which is set to False whenever a criteria is not met
-    # Ultimately if this is True, only then the comment is made
-    PERMITTED_TO_COMMENT = True
 
     if not ghrequest.OK:
         return utils.Response(ghrequest)
