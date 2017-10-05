@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
-
-import requests
 from pep8speaks import helpers, utils
 
 

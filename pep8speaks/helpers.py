@@ -21,6 +21,7 @@ def update_users(repository):
         query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
                 "".format(repository)
 
+        # cursor and conn are bultins, defined in app.py
         try:
             cursor.execute(query)
             conn.commit()
@@ -285,6 +286,7 @@ def comment_permission_check(ghrequest):
     url = url.format(repository, str(ghrequest.pr_number))
     comments = utils._request(url).json()
 
+    """
     # Get the last comment by the bot
     last_comment = ""
     for old_comment in reversed(comments):
@@ -292,7 +294,6 @@ def comment_permission_check(ghrequest):
             last_comment = old_comment["body"]
             break
 
-    """
     # Disabling this because only a single comment is made per PR
     text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
     text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))

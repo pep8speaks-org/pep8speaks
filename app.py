@@ -7,7 +7,7 @@ import psycopg2
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
 
-from pep8speaks import handlers, helpers, models, utils
+from pep8speaks import handlers, models, utils
 
 
 # For running locally without connecting to the database
