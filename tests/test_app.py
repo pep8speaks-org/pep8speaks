@@ -20,11 +20,12 @@ class TestApp:
         ("ping", "handle_ping"),
         ("issue_comment", "handle_issue_comment"),
         ("installation", "handle_installation"),
+        ("some_strage_event", "handle_unsupported_requests"),
     ])
     def test_main_post(self, mocker, client, event, action):
         mock_func = mock.MagicMock(return_value=True)
-        mocker.patch('pep8speaks.helpers.match_webhook_secret', mock_func)
+        mocker.patch('pep8speaks.utils.match_webhook_secret', mock_func)
         mocker.patch('pep8speaks.handlers.' + action, mock_func)
         client.post(url_for('main'),
-                    headers={'X-GitHub-Event': event})
+                    headers={"X-GitHub-Event": event})
         assert mock_func.call_count == 2
