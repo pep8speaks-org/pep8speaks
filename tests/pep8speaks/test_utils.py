@@ -28,6 +28,10 @@ class TestUtils:
 
         monkeypatch.setenv('OVER_HEROKU', False)
 
+        request_ctx.headers = {'Header1': True}
+        with pytest.raises(werkzeug.exceptions.Forbidden):
+            match_webhook_secret(request_ctx)
+
         request_ctx.headers = {'X-Hub-Signature': None}
         with pytest.raises(werkzeug.exceptions.Forbidden):
             match_webhook_secret(request_ctx)
