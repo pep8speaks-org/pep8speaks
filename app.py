@@ -52,10 +52,10 @@ def create_app():
                     "issue_comment": handlers.handle_issue_comment,
                     "installation": handlers.handle_installation,
                 }
-            try:
-                event_to_action[event](request)
-            except KeyError:
-                handlers.handle_unsupported_requests(request)
+                try:
+                    event_to_action[event](request)
+                except KeyError:
+                    handlers.handle_unsupported_requests(request)
         else:
             return render_template('index.html')
 
