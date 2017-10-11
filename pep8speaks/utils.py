@@ -61,14 +61,19 @@ def update_dict(base, head):
 def match_webhook_secret(request):
     """Match the webhook secret sent from GitHub"""
     if os.environ.get("OVER_HEROKU", False):
-        header_signature = request.headers.get('X-Hub-Signature')
-        if header_signature is None:
+        if ('X-Hub-Signature' in request.headers and
+           request.headers.get('X-Hub-Signature') is not None):
+            header_signature = request.headers.get('X-Hub-Signature', None)
+        else:
             abort(403)
         sha_name, signature = header_signature.split('=')
         if sha_name != 'sha1':
             abort(501)
-        mac = hmac.new(os.environ["GITHUB_PAYLOAD_SECRET"].encode(), msg=request.data,
+
+        mac = hmac.new(os.environ["GITHUB_PAYLOAD_SECRET"].encode(),
+                       msg=request.data,
                        digestmod="sha1")
+
         if not hmac.compare_digest(str(mac.hexdigest()), str(signature)):
             abort(403)
     return True

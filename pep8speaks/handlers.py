@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-from pep8speaks import helpers, utils
+from pep8speaks import helpers, utils, models
 
 
-def handle_pull_request(ghrequest):
-    """
-    ghrequest: An instance of pep8speaks.models.GHRequest
-    """
+def handle_pull_request(request):
+    ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
+
     if not ghrequest.OK:
         return utils.Response(ghrequest)
 
@@ -77,10 +76,12 @@ def handle_installation(request):
     return utils.Response()
 
 
-def handle_review(ghrequest):
+def handle_review(request):
     """
     Handle the request when a new review is submitted
     """
+
+    ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
 
     if not ghrequest.review_body:
         return utils.Response(ghrequest)
@@ -221,7 +222,8 @@ def handle_ping(request):
     return utils.Response()
 
 
-def handle_issue_comment(ghrequest):
+def handle_issue_comment(request):
+    ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
 
     if not ghrequest.OK:
         return utils.Response(ghrequest)
