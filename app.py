@@ -53,7 +53,7 @@ def create_app():
                     "installation": handlers.handle_installation,
                 }
                 try:
-                    event_to_action[event](request)
+                    return event_to_action[event](request)
                 except KeyError:
                     handlers.handle_unsupported_requests(request)
         else:
