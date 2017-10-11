@@ -4,6 +4,10 @@ from pep8speaks import utils
 class GHRequest(object):
     """A payload object sent by GitHub"""
     def __init__(self, request, event):
+        # Keep request body and event type
+        self.request = request.json
+        self.event = event
+
         self.OK = self._is_request_valid(request, event)
 
         # Dictionary with filename matched with corresponding list of results
@@ -25,6 +29,9 @@ class GHRequest(object):
         """
         Get data about the pull request created
         """
+        if not self.OK:
+            return None
+
         if event == "issue_comment":
             pr_url = request.json['issue']['pull_request']['url']
             pull_request = utils._request(pr_url).json()
@@ -49,6 +56,9 @@ class GHRequest(object):
         """
         Set necessary properties of the object taken from the data in request.
         """
+        if not self.OK:
+            return None
+
         self._set_defaults(request)
         self._set_conditionals(request, event)
 
