@@ -3,10 +3,9 @@ from pep8speaks import helpers, utils
 
 
 def handle_pull_request(ghrequest):
-
-    # A variable which is set to False whenever a criteria is not met
-    # Ultimately if this is True, only then the comment is made
-
+    """
+    ghrequest: An instance of pep8speaks.models.GHRequest
+    """
     if not ghrequest.OK:
         return utils.Response(ghrequest)
 
