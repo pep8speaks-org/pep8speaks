@@ -1,0 +1,30 @@
+{
+    "message": {
+        "opened": {
+            "header": "",
+            "footer": ""
+        },
+        "updated": {
+            "header": "",
+            "footer": ""
+        },
+        "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
+    },
+    "scanner": {"diff_only": false},
+    "pycodestyle": {
+        "ignore": [],
+        "max-line-length": 79,
+        "count": false,
+        "first": false,
+        "show-pep8": false,
+        "filename": [],
+        "exclude": [],
+        "select": [],
+        "show-source": false,
+        "statistics": false,
+        "hang-closing": false
+    },
+    "no_blank_comment": true,
+    "only_mention_files_with_errors": true,
+    "descending_issues_order": false
+}
