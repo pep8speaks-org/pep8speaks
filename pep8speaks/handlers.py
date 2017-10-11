@@ -5,9 +5,6 @@ from pep8speaks import helpers, utils, models
 def handle_pull_request(request):
     ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
 
-    # A variable which is set to False whenever a criteria is not met
-    # Ultimately if this is True, only then the comment is made
-
     if not ghrequest.OK:
         return utils.Response(ghrequest)
 

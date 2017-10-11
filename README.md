@@ -1,5 +1,4 @@
-# PEP8 Speaks
-
+# PEP8 Speaks [![Build Status](https://travis-ci.org/OrkoHunter/pep8speaks.svg?branch=master)](https://travis-ci.org/OrkoHunter/pep8speaks)
 A GitHub :octocat: integration to automatically review Python code style over Pull Requests
 
 <h1 align="center"><img src="data/my_logo.png"></h1>
