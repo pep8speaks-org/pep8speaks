@@ -28,7 +28,7 @@ def _request(query=None, method="GET", json=None, data=None, headers=None, param
         "headers": headers if headers else None,
         "params": params if params else None,
     }
-    return requests.Request(method, query, **kwargs)
+    return requests.request(method, query, **kwargs)
 
 
 def Response(data={}, status=200, mimetype='application/json'):

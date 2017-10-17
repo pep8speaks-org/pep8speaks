@@ -13,7 +13,7 @@ class TestUtils:
     ])
     def test_request(self, mocker, query, method, json, data, headers, params):
         mock_func = mock.MagicMock(return_value=True)
-        mocker.patch('requests.Request', mock_func)
+        mocker.patch('requests.request', mock_func)
         _request(query, method, json, data, headers, params)
         assert mock_func.call_count == 1
         assert mock_func.call_args[0][0] == method
