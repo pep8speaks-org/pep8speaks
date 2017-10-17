@@ -10,27 +10,31 @@ import requests
 from pep8speaks.constants import AUTH, BASE_URL
 
 
-def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
+def _request(query=None, method='GET', json={}, data='', headers=None, params=None):
     # Queries like /repos/:id needs to be appended to the base URL,
     # Queries like https://raw.githubusercontent.com need not.
     if query[0] == '/':
         query = BASE_URL + query
     args = (query,)
     kwargs = {'auth': AUTH}
-    if json: kwargs['json'] = json
-    if data: kwargs['data'] = data
-    if headers: kwargs['headers'] = headers
-    if params: kwargs['params'] = params
+    if json:
+        kwargs['json'] = json
+    if data:
+        kwargs['data'] = data
+    if headers:
+        kwargs['headers'] = headers
+    if params:
+        kwargs['params'] = params
 
-    if type == 'GET':
+    if method == 'GET':
         return requests.get(*args, **kwargs)
-    elif type == 'POST':
+    elif method == 'POST':
         return requests.post(*args, **kwargs)
-    elif type == 'PUT':
+    elif method == 'PUT':
         return requests.put(*args, **kwargs)
-    elif type == 'PATCH':
+    elif method == 'PATCH':
         return requests.patch(*args, **kwargs)
-    elif type == 'DELETE':
+    elif method == 'DELETE':
         return requests.delete(*args, **kwargs)
 
 
