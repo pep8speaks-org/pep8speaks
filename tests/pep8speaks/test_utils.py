@@ -1,10 +1,30 @@
 import hmac
 import pytest
 import werkzeug
-from pep8speaks.utils import update_dict, match_webhook_secret
+import mock
+from pep8speaks.utils import update_dict, match_webhook_secret, _request
+from pep8speaks.constants import BASE_URL
 
 
 class TestUtils:
+    @pytest.mark.parametrize('query, method, json, data, headers, params', [
+        ('/someurl', 'POST', {'k1': 'v1'}, '', None, None),
+        ('http://someurl.com', 'GET', None, '', 'h1=v1', 'k1=v1'),
+    ])
+    def test_request(self, mocker, query, method, json, data, headers, params):
+        mock_func = mock.MagicMock(return_value=True)
+        mocker.patch('requests.request', mock_func)
+        _request(query, method, json, data, headers, params)
+        assert mock_func.call_count == 1
+        assert mock_func.call_args[0][0] == method
+        assert mock_func.call_args[1]['headers'] == headers
+        assert mock_func.call_args[1]['auth'] == ('', '')
+        assert mock_func.call_args[1]['params'] == params
+        assert mock_func.call_args[1]['json'] == json
+        if query[0] == "/":
+            assert mock_func.call_args[0][1] == BASE_URL + query
+        else:
+            assert mock_func.call_args[0][1] == query
 
     @pytest.mark.parametrize('base, head, expected', [
         ({}, {}, {}),

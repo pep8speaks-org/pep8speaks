@@ -10,28 +10,25 @@ import requests
 from pep8speaks.constants import AUTH, BASE_URL
 
 
-def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
-    # Queries like /repos/:id needs to be appended to the base URL,
-    # Queries like https://raw.githubusercontent.com need not.
-    if query[0] == '/':
-        query = BASE_URL + query
-    args = (query,)
-    kwargs = {'auth': AUTH}
-    if json: kwargs['json'] = json
-    if data: kwargs['data'] = data
-    if headers: kwargs['headers'] = headers
-    if params: kwargs['params'] = params
+def _request(query=None, method="GET", json=None, data=None, headers=None, params=None):
+    """
+    Queries like /repos/:id needs to be appended to the base URL,
+    Queries like https://raw.githubusercontent.com need not.
+    
+    full list of kwargs see http://docs.python-requests.org/en/master/api/#requests.request
+    """
 
-    if type == 'GET':
-        return requests.get(*args, **kwargs)
-    elif type == 'POST':
-        return requests.post(*args, **kwargs)
-    elif type == 'PUT':
-        return requests.put(*args, **kwargs)
-    elif type == 'PATCH':
-        return requests.patch(*args, **kwargs)
-    elif type == 'DELETE':
-        return requests.delete(*args, **kwargs)
+    if query[0] == "/":
+        query = BASE_URL + query
+
+    kwargs = {
+        "auth": AUTH,
+        "json": json if json else None,
+        "data": data if data else None,
+        "headers": headers if headers else None,
+        "params": params if params else None,
+    }
+    return requests.request(method, query, **kwargs)
 
 
 def Response(data={}, status=200, mimetype='application/json'):
