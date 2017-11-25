@@ -134,7 +134,9 @@ def get_files_involved_in_pr(repo, pr_number):
     return files
 
 
-def get_py_files_in_pr(repo, pr_number, exclude=[]):
+def get_py_files_in_pr(repo, pr_number, exclude=None):
+    if exclude is None:
+        exclude = []
     files = get_files_involved_in_pr(repo, pr_number)
     for file in list(files.keys()):
         if file[-3:] != ".py" or utils.filename_match(file, exclude):

@@ -14,7 +14,7 @@ def _request(query=None, method="GET", json=None, data=None, headers=None, param
     """
     Queries like /repos/:id needs to be appended to the base URL,
     Queries like https://raw.githubusercontent.com need not.
-    
+
     full list of kwargs see http://docs.python-requests.org/en/master/api/#requests.request
     """
 
@@ -31,7 +31,9 @@ def _request(query=None, method="GET", json=None, data=None, headers=None, param
     return requests.request(method, query, **kwargs)
 
 
-def Response(data={}, status=200, mimetype='application/json'):
+def Response(data=None, status=200, mimetype='application/json'):
+    if data is None:
+        data = {}
     response_object = json.dumps(data, default=lambda obj: obj.__dict__)
     return FResponse(response_object, status=status, mimetype=mimetype)
 
