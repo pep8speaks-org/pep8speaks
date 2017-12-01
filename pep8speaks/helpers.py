@@ -405,7 +405,7 @@ def autopep8(ghrequest, config):
         os.remove("file_to_fix.py")
 
 
-def create_gist(ghrequest, config):
+def create_gist(ghrequest):
     """Create gists for diff files"""
     request_json = {}
     request_json["public"] = True
