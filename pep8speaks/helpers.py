@@ -166,6 +166,7 @@ def run_pycodestyle(ghrequest, config):
     files_to_exclude = config["pycodestyle"]["exclude"]
     py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
 
+    ghrequest.links = {}  # UI Link of each updated file in the PR
     for file in py_files:
         filename = file[1:]
         query = "https://raw.githubusercontent.com/{}/{}/{}"
@@ -197,7 +198,6 @@ def run_pycodestyle(ghrequest, config):
 
         ## Store the link to the file
         url = "https://github.com/{}/blob/{}{}"
-        ghrequest.links = {}  # UI Link of each updated file in the PR
         ghrequest.links[filename + "_link"] = url.format(repo, commit, file)
         os.remove("file_to_check.py")
 
