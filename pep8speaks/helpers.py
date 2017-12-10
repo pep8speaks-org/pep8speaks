@@ -35,7 +35,7 @@ def follow_user(user):
         "Content-Length": "0",
     }
     query = "/user/following/{}".format(user)
-    return utils._request(query=query, type='PUT', headers=headers)
+    return utils._request(query=query, method='PUT', headers=headers)
 
 
 def get_config(repo, base_branch):
@@ -107,7 +107,9 @@ def get_files_involved_in_pr(repo, pr_number):
     return files
 
 
-def get_py_files_in_pr(repo, pr_number, exclude=[]):
+def get_py_files_in_pr(repo, pr_number, exclude=None):
+    if exclude is None:
+        exclude = []
     files = get_files_involved_in_pr(repo, pr_number)
     for file in list(files.keys()):
         if file[-3:] != ".py" or utils.filename_match(file, exclude):
@@ -137,6 +139,7 @@ def run_pycodestyle(ghrequest, config):
     files_to_exclude = config["pycodestyle"]["exclude"]
     py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
 
+    ghrequest.links = {}  # UI Link of each updated file in the PR
     for file in py_files:
         filename = file[1:]
         query = "https://raw.githubusercontent.com/{}/{}/{}"
@@ -168,7 +171,6 @@ def run_pycodestyle(ghrequest, config):
 
         ## Store the link to the file
         url = "https://github.com/{}/blob/{}{}"
-        ghrequest.links = {}  # UI Link of each updated file in the PR
         ghrequest.links[filename + "_link"] = url.format(repo, commit, file)
         os.remove("file_to_check.py")
 
@@ -311,7 +313,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
             break
 
     if last_comment_id is None and not ONLY_UPDATE_COMMENT_BUT_NOT_CREATE:  # Create a new comment
-        response = utils._request(query=query, type='POST', json={"body": comment})
+        response = utils._request(query=query, method='POST', json={"body": comment})
         ghrequest.comment_response = response.json()
     else:  # Update the last comment
         utc_time = datetime.datetime.utcnow()
@@ -321,7 +323,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
 
         query = "/repos/{}/issues/comments/{}"
         query = query.format(ghrequest.repository, str(last_comment_id))
-        response = utils._request(query, type='PATCH', json={"body": comment})
+        response = utils._request(query, method='PATCH', json={"body": comment})
 
     return response
 
@@ -376,7 +378,7 @@ def autopep8(ghrequest, config):
         os.remove("file_to_fix.py")
 
 
-def create_gist(ghrequest, config):
+def create_gist(ghrequest):
     """Create gists for diff files"""
     request_json = {}
     request_json["public"] = True
@@ -392,7 +394,7 @@ def create_gist(ghrequest, config):
 
     # Call github api to create the gist
     query = "/gists"
-    response = utils._request(query, type='POST', json=request_json).json()
+    response = utils._request(query, method='POST', json=request_json).json()
     ghrequest.gist_response = response
     ghrequest.gist_url = response["html_url"]
 
@@ -407,14 +409,14 @@ def delete_if_forked(ghrequest):
                 FORKED = True
                 url = "/repos/{}"
                 url = url.format(repo["full_name"])
-                utils._request(url, type='DELETE')
+                utils._request(url, method='DELETE')
     return FORKED
 
 
 def fork_for_pr(ghrequest):
     query = "/repos/{}/forks"
     query = query.format(ghrequest.target_repo_fullname)
-    r = utils._request(query, type='POST')
+    r = utils._request(query, method='POST')
 
     if r.status_code == 202:
         ghrequest.fork_fullname = r.json()["full_name"]
@@ -443,7 +445,7 @@ def update_fork_desc(ghrequest):
         "name": name,
         "description": "Forked from @{}'s {}".format(author, full_name)
     }
-    r = utils._request(query, type='PATCH', data=json.dumps(request_json))
+    r = utils._request(query, method='PATCH', data=json.dumps(request_json))
     if r.status_code != 200:
         ghrequest.error = "Could not update description of the fork"
 
@@ -464,7 +466,7 @@ def create_new_branch(ghrequest):
         "ref": "refs/heads/{}".format(ghrequest.new_branch),
         "sha": sha,
     }
-    r = utils._request(query, type='POST', json=request_json)
+    r = utils._request(query, method='POST', json=request_json)
 
     if r.status_code > 299:
         ghrequest.error = "Could not create new branch in the fork"
@@ -530,7 +532,7 @@ def commit(ghrequest):
             "sha": sha_blob,
             "branch": ghrequest.new_branch,
         }
-        r = utils._request(query, type='PUT', json=request_json)
+        r = utils._request(query, method='PUT', json=request_json)
 
 
 def create_pr(ghrequest):
@@ -542,7 +544,7 @@ def create_pr(ghrequest):
         "base": ghrequest.target_repo_branch,
         "body": "The changes are suggested by autopep8",
     }
-    r = utils._request(query, type='POST', json=request_json)
+    r = utils._request(query, method='POST', json=request_json)
     if r.status_code == 201:
         ghrequest.pr_url = r.json()["html_url"]
     else:
