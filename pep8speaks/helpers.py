@@ -125,12 +125,12 @@ def get_files_involved_in_pr(repo, pr_number):
     files = {}
 
     for patchset in patch:
-        file = patchset.target_file[1:]
-        files[file] = []
+        diff_file = patchset.target_file[1:]
+        files[diff_file] = []
         for hunk in patchset:
             for line in hunk.target_lines():
                 if line.is_added:
-                    files[file].append(line.target_line_no)
+                    files[diff_file].append(line.target_line_no)
     return files
 
 
@@ -138,9 +138,9 @@ def get_py_files_in_pr(repo, pr_number, exclude=None):
     if exclude is None:
         exclude = []
     files = get_files_involved_in_pr(repo, pr_number)
-    for file in list(files.keys()):
-        if file[-3:] != ".py" or utils.filename_match(file, exclude):
-            del files[file]
+    for diff_file in list(files.keys()):
+        if diff_file[-3:] != ".py" or utils.filename_match(diff_file, exclude):
+            del files[diff_file]
 
     return files
 
@@ -167,10 +167,10 @@ def run_pycodestyle(ghrequest, config):
     py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
 
     ghrequest.links = {}  # UI Link of each updated file in the PR
-    for file in py_files:
-        filename = file[1:]
+    for py_file in py_files:
+        filename = py_file[1:]
         query = "https://raw.githubusercontent.com/{}/{}/{}"
-        query = query.format(repo, commit, file)
+        query = query.format(repo, commit, py_file)
         r = utils.query_request(query)
         with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
             file_to_check.write(r.text)
@@ -193,12 +193,12 @@ def run_pycodestyle(ghrequest, config):
         ## which are caused in the whole file
         for error in list(ghrequest.results[filename]):
             if config["scanner"]["diff_only"]:
-                if not int(error.split(":")[1]) in py_files[file]:
+                if not int(error.split(":")[1]) in py_files[py_file]:
                     ghrequest.results[filename].remove(error)
 
         ## Store the link to the file
         url = "https://github.com/{}/blob/{}{}"
-        ghrequest.links[filename + "_link"] = url.format(repo, commit, file)
+        ghrequest.links[filename + "_link"] = url.format(repo, commit, py_file)
         os.remove("file_to_check.py")
 
 
@@ -222,23 +222,23 @@ def prepare_comment(ghrequest, config):
     ## Body
     ERROR = False  # Set to True when any pep8 error exists
     comment_body = []
-    for file, issues in ghrequest.results.items():
+    for gh_file, issues in ghrequest.results.items():
         if len(issues) == 0:
             if not config["only_mention_files_with_errors"]:
                 comment_body.append(
                     " - There are no PEP8 issues in the"
-                    " file [`{0}`]({1}) !".format(file, ghrequest.links[file + "_link"]))
+                    " file [`{0}`]({1}) !".format(gh_file, ghrequest.links[gh_file + "_link"]))
         else:
             ERROR = True
             comment_body.append(
                 " - In the file [`{0}`]({1}), following "
-                "are the PEP8 issues :\n".format(file, ghrequest.links[file + "_link"]))
+                "are the PEP8 issues :\n".format(gh_file, ghrequest.links[gh_file + "_link"]))
             if config["descending_issues_order"]:
                 issues = issues[::-1]
 
             for issue in issues:
                 ## Replace filename with L
-                error_string = issue.replace(file + ":", "Line ")
+                error_string = issue.replace(gh_file + ":", "Line ")
 
                 ## Link error codes to search query
                 error_string_list = error_string.split(" ")
@@ -248,16 +248,16 @@ def prepare_comment(ghrequest, config):
 
                 ## Link line numbers in the file
                 line, col = error_string_list[1][:-1].split(":")
-                line_url = ghrequest.links[file + "_link"] + "#L" + line
+                line_url = ghrequest.links[gh_file + "_link"] + "#L" + line
                 error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
                 comment_body.append("\n> {0}".format(error_string))
 
         comment_body.append("\n\n")
-        if len(ghrequest.extra_results[file]) > 0:
+        if len(ghrequest.extra_results[gh_file]) > 0:
             comment_body.append(" - Complete extra results for this file :\n\n")
-            comment_body.append("> " + "".join(ghrequest.extra_results[file]))
+            comment_body.append("> " + "".join(ghrequest.extra_results[gh_file]))
             comment_body.append("---\n\n")
 
     if config["only_mention_files_with_errors"] and not ERROR:
@@ -380,10 +380,10 @@ def autopep8(ghrequest, config):
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files:
-        filename = file[1:]
+    for py_file in py_files:
+        filename = py_file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
-        url = url.format(ghrequest.repository, ghrequest.sha, file)
+        url = url.format(ghrequest.repository, ghrequest.sha, py_file)
         r = utils.query_request(url)
         with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
@@ -401,7 +401,7 @@ def autopep8(ghrequest, config):
         ## Store the link to the file
         url = "https://github.com/{}/blob/{}{}"
         ghrequest.links = {}
-        ghrequest.links[filename + "_link"] = url.format(ghrequest.repository, ghrequest.sha, file)
+        ghrequest.links[filename + "_link"] = url.format(ghrequest.repository, ghrequest.sha, py_file)
         os.remove("file_to_fix.py")
 
 
@@ -413,9 +413,9 @@ def create_gist(ghrequest):
     request_json["description"] = "In response to @{0}'s comment : {1}".format(
         ghrequest.reviewer, ghrequest.review_url)
 
-    for file, diffs in ghrequest.diff.items():
+    for diff_file, diffs in ghrequest.diff.items():
         if len(diffs) != 0:
-            request_json["files"][file.split("/")[-1] + ".diff"] = {
+            request_json["files"][diff_file.split("/")[-1] + ".diff"] = {
                 "content": diffs
             }
 
@@ -524,10 +524,10 @@ def autopep8ify(ghrequest, config):
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files:
-        filename = file[1:]
+    for py_file in py_files:
+        filename = py_file[1:]
         query = "https://raw.githubusercontent.com/{}/{}/{}"
-        query = query.format(ghrequest.repository, ghrequest.sha, file)
+        query = query.format(ghrequest.repository, ghrequest.sha, py_file)
         r = utils.query_request(query)
         with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
@@ -544,17 +544,17 @@ def autopep8ify(ghrequest, config):
 def commit(ghrequest):
     fullname = ghrequest.fork_fullname
 
-    for file, new_file in ghrequest.results.items():
+    for old_file, new_file in ghrequest.results.items():
         query = "/repos/{}/contents/{}"
-        query = query.format(fullname, file)
+        query = query.format(fullname, old_file)
         params = {"ref": ghrequest.new_branch}
         r = utils.query_request(query, params=params)
         sha_blob = r.json().get("sha")
-        params["path"] = file
+        params["path"] = old_file
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
-            "path": file,
-            "message": "Fix pep8 errors in {}".format(file),
+            "path": old_file,
+            "message": "Fix pep8 errors in {}".format(old_file),
             "content": content_code,
             "sha": sha_blob,
             "branch": ghrequest.new_branch,
