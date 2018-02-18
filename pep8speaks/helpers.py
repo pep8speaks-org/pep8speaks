@@ -288,20 +288,18 @@ def comment_permission_check(ghrequest):
     url = url.format(repository, str(ghrequest.pr_number))
     comments = utils.query_request(url).json()
 
-    """
-    # Get the last comment by the bot
-    last_comment = ""
-    for old_comment in reversed(comments):
-        if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
-            last_comment = old_comment["body"]
-            break
+    # # Get the last comment by the bot
+    # last_comment = ""
+    # for old_comment in reversed(comments):
+    #     if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+    #         last_comment = old_comment["body"]
+    #         break
 
-    # Disabling this because only a single comment is made per PR
-    text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
-    text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
-    if text1 == text2.replace("submitting", "updating"):
-        PERMITTED_TO_COMMENT = False
-    """
+    # # Disabling this because only a single comment is made per PR
+    # text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
+    # text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
+    # if text1 == text2.replace("submitting", "updating"):
+    #     PERMITTED_TO_COMMENT = False
 
     # Check if the bot is asked to keep quiet
     for old_comment in reversed(comments):
