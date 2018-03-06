@@ -57,7 +57,7 @@ only_mention_files_with_errors: True  # If False, a separate status comment for 
 descending_issues_order: False # If True, PEP8 issues in message will be displayed in descending order of line numbers in the file
 ```
 
-Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/master/pep8speaks/helpers.py#L48-L77).
+Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/01d5f5e13bf4bb7044f752e1b381b6217f25d0d0/pep8speaks/helpers.py#L48-L77).
 
 Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
 
