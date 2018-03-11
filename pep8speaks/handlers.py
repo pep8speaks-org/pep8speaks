@@ -144,7 +144,7 @@ def _pep8ify(ghrequest, config):
 
     query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
-    response = utils._request(query, method='POST', json={"body": comment})
+    response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
     return utils.Response(ghrequest)
@@ -174,7 +174,7 @@ def _create_diff(ghrequest, config):
 
     query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
-    response = utils._request(query, method='POST', json={"body": comment})
+    response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
     if ghrequest.error:

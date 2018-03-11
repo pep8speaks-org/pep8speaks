@@ -2,7 +2,7 @@ import hmac
 import pytest
 import werkzeug
 import mock
-from pep8speaks.utils import update_dict, match_webhook_secret, _request
+from pep8speaks.utils import update_dict, match_webhook_secret, query_request
 from pep8speaks.constants import BASE_URL
 
 
@@ -14,7 +14,8 @@ class TestUtils:
     def test_request(self, mocker, query, method, json, data, headers, params):
         mock_func = mock.MagicMock(return_value=True)
         mocker.patch('requests.request', mock_func)
-        _request(query, method, json, data, headers, params)
+        query_request(query, method, json=json, data=data,
+                      headers=headers, params=params)
         assert mock_func.call_count == 1
         assert mock_func.call_args[0][0] == method
         assert mock_func.call_args[1]['headers'] == headers
