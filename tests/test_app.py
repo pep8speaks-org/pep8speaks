@@ -12,8 +12,6 @@ class TestApp:
 
     @pytest.mark.parametrize('event, action', [
         ("pull_request", "handle_pull_request"),
-        ("pull_request_review", "handle_review"),
-        ("pull_request_review_comment", "handle_review_comment"),
         ("integration_installation", "handle_integration_installation"),
         ("integration_installation_repositories", "handle_integration_installation_repo"),
         ("installation_repositories", "handle_integration_installation_repo"),
