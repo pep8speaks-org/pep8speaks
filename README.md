@@ -4,6 +4,8 @@ A GitHub :octocat: integration to automatically review Python code style over Pu
 
 <h1 align="center"><img src="data/my_logo.png"></h1>
 
+> "PEP8 unto thyself, not unto others" - Raymond Hettinger
+
 # Example
 
 <img src="data/action.gif">
