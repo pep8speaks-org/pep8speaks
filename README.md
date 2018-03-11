@@ -1,9 +1,14 @@
-# PEP8 Speaks
+# PEP8 Speaks [![Build Status](https://travis-ci.org/OrkoHunter/pep8speaks.svg?branch=master)](https://travis-ci.org/OrkoHunter/pep8speaks) [![Code Health](https://landscape.io/github/OrkoHunter/pep8speaks/master/landscape.svg?style=flat)](https://landscape.io/github/OrkoHunter/pep8speaks/master)
+
+A GitHub :octocat: integration to automatically review Python code style over Pull Requests
+
+<h1 align="center"><img src="data/my_logo.png"></h1>
+
 > "PEP8 unto thyself, not unto others" - Raymond Hettinger
 
-A GitHub integration which checks pep8 issues and then comments over Pull Requests
+# Example
 
-<img src="data/readme.png" width="80%">
+<img src="data/action.gif">
 
 # How to Use?
 
@@ -13,15 +18,16 @@ A GitHub integration which checks pep8 issues and then comments over Pull Reques
 
 # Features
 
- - To pause the bot from commenting on a PR, comment `@pep8speaks Keep Quiet.`
+ - The bot makes **a single comment on the PR and keeps updating it** on new commits. No hustle on emails !
+ - The bot comments only if Python files are involved. So, install the integration on all of your repositories. The bot won't speak where it should not
+ - Comment `@pep8speaks suggest diff` in a comment of the PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
+  - You can also comment `@pep8speaks suggest the diff` or anything you wish, as long as you mention the bot and have `suggest` and `diff` keywords.
+ - Comment `@pep8speaks pep8ify` on the PR and it will create a Pull Request with changes suggested by [`autopep8`](https://github.com/hhatto/autopep8) against the branch of the author of the PR. `autopep8` fixes most of the errors reported by [`pycodestyle`](https://github.com/PyCQA/pycodestyle).
+ - Add `[skip pep8]` anywhere in the commit message, PR title or PR description to prohibit pep8speaks to comment on the Pull Request.
+ - To pause the bot on a PR, comment `@pep8speaks Keep Quiet.`
  - Comment `@pep8speaks Resume now.` to resume.
   - The keywords are `quiet` and `resume` and the mention of the bot.
- - The bot's last comment is not repeated. Hence if the PR is updated and the bot does not comment, it means it stands with its previous comment.
- - Mention `@pep8speaks` in a review summary while creating a review of a PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
-  - In the review summary, you can also write `@pep8speaks suggest diff` or anything you wish, as long as you mention the bot.
- - Write `@pep8speaks pep8ify` in a review summary and it will create a Pull Request with changes suggested by [`autopep8`](https://github.com/hhatto/autopep8) against the branch of the author of the PR. `autopep8` fixes most of the errors reported by [`pycodestyle`](https://github.com/PyCQA/pycodestyle).
-  - `@pep8speaks` along with `pep8ify` in a single review summary rules out the diff feature.
- - Comment only if Python files are involved. So, install the integration on all of your repositories. The bot won't speak where it should not
+
 
 # Configuration
 A config file is *not required* for the integration to work. However it can be configured additionally by adding a `.pep8speaks.yml` file to the base directory of the repo. Here are the available options of the config file :
@@ -38,6 +44,7 @@ message:  # Customize the comment made by the bot
     updated:  # Messages when new commits are added to the PR
         header: "Hello @{name}, Thank you for updating !"
         footer: ""  # Why to comment the link to the style guide everytime? :)
+    no_errors: "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
 
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
@@ -47,7 +54,12 @@ pycodestyle:
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
+
+only_mention_files_with_errors: True  # If False, a separate status comment for each file is made.
+descending_issues_order: False # If True, PEP8 issues in message will be displayed in descending order of line numbers in the file
 ```
+
+Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/01d5f5e13bf4bb7044f752e1b381b6217f25d0d0/pep8speaks/helpers.py#L48-L77).
 
 Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
 
@@ -56,12 +68,59 @@ Note : See more [pycodestyle options](https://pycodestyle.readthedocs.io/en/late
  - Check the errors locally by the command line tool [pycodestyle](https://github.com/PyCQA/pycodestyle) (previously known as `pep8`).
  - [autopep8](https://github.com/hhatto/autopep8) is another command line tool to fix the issues.
 
-## Media
+# Popular Users
 
- - [Product Hunt](https://www.producthunt.com/posts/pep8-speaks)
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://avatars1.githubusercontent.com/u/21206976?v=4&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/pandas-dev/pandas">Pandas</a>
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github.com/sunpy/sunpy-logo/blob/master/generated/sunpy_icon.png?raw=true" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/sunpy">SunPy</a>
+      </td>
+      <td align="center" width="20%" valign="top">
+        <img src="https://avatars0.githubusercontent.com/u/847984?v=3&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/astropy">Astropy</a>
+      </td>
+      <td align="center" valign="top">
+        <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/scikit-learn-contrib">Scikit Learn Contrib</a>
+      </td>
+      <td align="center" valign="top">
+        <img style="margin-right: 5%" src="https://avatars3.githubusercontent.com/u/897180?v=3&s=400" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/scikit-image">Scikit Image</a>
+      </td>
+      <td align="center" valign="top">
+        <img style="margin-right: 5%" src="https://avatars0.githubusercontent.com/u/1284937?v=4&s=200" height="100px">
+        <br>
+        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/spyder-ide/spyder">Spyder IDE</a>
+      </td>
+     </tr>
+  </tbody>
+</table>
+
+
+# Private repos
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork)
+
+The integration only works for publicly hosted repositories. So if you are looking to deploy a fork of it or **use the integration for private repositories**, [here are the instructions](https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork).
+
 
 # Contribute
 
 This is a very young project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/OrkoHunter/pep8speaks/issues/1). Pull Requests are most welcome !
 
 :heart:
+
+<img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
+###### Created using [commits.io](https://commits.io)
+
+<sub><sup><sub>This project does not endorse all of the rules of the original PEP8 and thus believes in customizing the pycodestyle.

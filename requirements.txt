@@ -1,9 +1,1 @@
-requests
-Flask-Session
-flask
-gunicorn
-pycodestyle
-psycopg2
-PyYAML
-unidiff
-autopep8
+-r requirements/base.txt

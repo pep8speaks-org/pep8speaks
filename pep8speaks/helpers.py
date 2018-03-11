@@ -1,37 +1,27 @@
 # -*- coding: utf-8 -*-
-from contextlib import contextmanager
+
 import base64
-import collections
-import hmac
+import datetime
 import json
 import os
 import re
-import sys
+import subprocess
 import time
-from flask import abort
+
 import psycopg2
-import pycodestyle
-import requests
 import unidiff
 import yaml
-
-
-@contextmanager
-def redirected(stdout):
-    """Retirect output from STDOUT to a file"""
-    saved_stdout = sys.stdout
-    sys.stdout = open(stdout, 'w+')
-    yield
-    sys.stdout = saved_stdout
+from pep8speaks import utils
 
 
 def update_users(repository):
     """Update users of the integration in the database"""
-    if "OVER_HEROKU" in os.environ:
+    if os.environ.get("OVER_HEROKU", False) is not False:
         # Check if repository exists in database
         query = r"INSERT INTO Users (repository, created_at) VALUES ('{}', now());" \
                 "".format(repository)
 
+        # cursor and conn are bultins, defined in app.py
         try:
             cursor.execute(query)
             conn.commit()
@@ -39,58 +29,20 @@ def update_users(repository):
             conn.rollback()
 
 
-
 def follow_user(user):
     """Follow the user of the service"""
     headers = {
-        "Authorization": "token " + os.environ["GITHUB_TOKEN"],
         "Content-Length": "0",
-        }
-    url  = "https://api.github.com/user/following/{}"
-    url = url.format(user)
-    r = requests.put(url, headers=headers)
+    }
+    query = "/user/following/{}".format(user)
+    return utils.query_request(query=query, method='PUT', headers=headers)
 
 
-def update_dict(base, head):
-    """
-    Recursively merge or update dict-like objects.
-    >>> update({'k1': 1}, {'k1': {'k2': {'k3': 3}}})
-
-    Source : http://stackoverflow.com/a/32357112/4698026
-    """
-    for key, value in head.items():
-        if isinstance(base, collections.Mapping):
-            if isinstance(value, collections.Mapping):
-                base[key] = update_dict(base.get(key, {}), value)
-            else:
-                base[key] = head[key]
-        else:
-            base = {key: head[key]}
-    return base
-
-
-def match_webhook_secret(request):
-    """Match the webhook secret sent from GitHub"""
-    if "OVER_HEROKU" in os.environ:
-        header_signature = request.headers.get('X-Hub-Signature')
-        if header_signature is None:
-            abort(403)
-        sha_name, signature = header_signature.split('=')
-        if sha_name != 'sha1':
-            abort(501)
-        mac = hmac.new(os.environ["GITHUB_PAYLOAD_SECRET"].encode(), msg=request.data,
-                       digestmod="sha1")
-        if not hmac.compare_digest(str(mac.hexdigest()), str(signature)):
-            abort(403)
-    return True
-
-
-def get_config(data):
+def get_config(repo, base_branch):
     """
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
     """
-    PEP8SPEAKS_YML_FOUND = False
 
     # Default configuration parameters
     config = {
@@ -102,7 +54,8 @@ def get_config(data):
             "updated": {
                 "header": "",
                 "footer": ""
-            }
+            },
+            "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: ",
         },
         "scanner": {"diff_only": False},
         "pycodestyle": {
@@ -117,47 +70,39 @@ def get_config(data):
             "show-source": False,
             "statistics": False,
             "hang-closing": False,
-        }
+        },
+        "no_blank_comment": True,
+        "only_mention_files_with_errors": True,
+        "descending_issues_order": False,
     }
 
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-
     # Configuration file
-    url = "https://raw.githubusercontent.com/{}/{}/{}/.pep8speaks.yml"
-    repo = data["repository"].split("/")[-1]
-    url = url.format(data["author"], repo, data["after_commit_hash"])
-    r = requests.get(url, headers=headers)
+    query = "https://raw.githubusercontent.com/{}/{}/.pep8speaks.yml"
+    query = query.format(repo, base_branch)
+
+    r = utils.query_request(query)
+
     if r.status_code == 200:
-        PEP8SPEAKS_YML_FOUND = True
-        with open(".pep8speaks.yml", "w+") as config_file:
-            config_file.write(r.text)
-
-        # Update default config with those provided
-        with open(".pep8speaks.yml", "r") as stream:
-            try:
-                new_config = yaml.load(stream)
-                # overloading the default configuration with the one specified
-                config = update_dict(config, new_config)
-
-            except yaml.YAMLError as e:  # Bad YAML file
-                pass
-
-    if PEP8SPEAKS_YML_FOUND:
-        os.remove(".pep8speaks.yml")
+        try:
+            new_config = yaml.load(r.text)
+            # overloading the default configuration with the one specified
+            config = utils.update_dict(config, new_config)
+        except yaml.YAMLError:  # Bad YAML file
+            pass
 
     # Create pycodestyle command line arguments
-    arguments = " "
+    arguments = []
     confs = config["pycodestyle"]
-    for conf in confs.keys():
-        if confs[conf]:  # Non empty
-            if isinstance(confs[conf], int):
-                if isinstance(confs[conf], bool):
-                    arguments += "--{} ".format(conf)
+    for key, value in confs.items():
+        if value:  # Non empty
+            if isinstance(value, int):
+                if isinstance(value, bool):
+                    arguments.append("--{}".format(key))
                 else:
-                    arguments += "--{}={} ".format(conf, confs[conf])
-            elif isinstance(confs[conf], list):
-                arguments += "--{}={} ".format(conf, ','.join(confs[conf]))
-    config["pycodestyle_cmd_config"] = arguments
+                    arguments.append("--{}={}".format(key, value))
+            elif isinstance(value, list):
+                arguments.append("--{}={}".format(key, ','.join(value)))
+    config["pycodestyle_cmd_config"] = ' {arguments}'.format(arguments=' '.join(arguments))
 
     # pycodestyle is case-sensitive
     config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
@@ -165,107 +110,135 @@ def get_config(data):
     return config
 
 
-def run_pycodestyle(data, config):
+def get_files_involved_in_pr(repo, pr_number):
     """
-    Run pycodestyle script on the files and update the data
-    dictionary
+    Return a list of file names modified/added in the PR
     """
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+    headers = {"Accept": "application/vnd.github.VERSION.diff"}
 
-    diff_url = data["diff_url"]
-    repository = data["repository"]
-    after_commit_hash = data["after_commit_hash"]
-    author = data["author"]
+    query = "/repos/{}/pulls/{}"
+    query = query.format(repo, pr_number)
+    r = utils.query_request(query, headers=headers)
 
-    # Run pycodestyle
-    r = requests.get(diff_url, headers=headers)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
-    ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
-
-    # A dictionary with filename paired with list of new line numbers
-    py_files = {}
+    files = {}
 
     for patchset in patch:
-        if patchset.target_file[-3:] == '.py':
-            py_file = patchset.target_file[1:]
-            py_files[py_file] = []
-            for hunk in patchset:
-                for line in hunk.target_lines():
-                    if line.is_added:
-                        py_files[py_file].append(line.target_line_no)
+        diff_file = patchset.target_file[1:]
+        files[diff_file] = []
+        for hunk in patchset:
+            for line in hunk.target_lines():
+                if line.is_added:
+                    files[diff_file].append(line.target_line_no)
+    return files
 
-    os.remove('.diff')
 
-    for file in py_files.keys():
-        filename = file[1:]
-        url = "https://raw.githubusercontent.com/{}/{}/{}"
-        url = url.format(repository, after_commit_hash, file)
-        r = requests.get(url, headers=headers)
-        with open("file_to_check.py", 'w+') as file_to_check:
+def get_py_files_in_pr(repo, pr_number, exclude=None):
+    if exclude is None:
+        exclude = []
+    files = get_files_involved_in_pr(repo, pr_number)
+    for diff_file in list(files.keys()):
+        if diff_file[-3:] != ".py" or utils.filename_match(diff_file, exclude):
+            del files[diff_file]
+
+    return files
+
+
+def check_pythonic_pr(repo, pr_number):
+    """
+    Return True if the PR contains at least one Python file
+    """
+    return len(get_py_files_in_pr(repo, pr_number)) > 0
+
+
+def run_pycodestyle(ghrequest, config):
+    """
+    Runs the pycodestyle cli tool on the files and update ghrequest
+    """
+    repo = ghrequest.repository
+    pr_number = ghrequest.pr_number
+    commit = ghrequest.after_commit_hash
+
+    # Run pycodestyle
+    ## All the python files with additions
+    # A dictionary with filename paired with list of new line numbers
+    files_to_exclude = config["pycodestyle"]["exclude"]
+    py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
+
+    ghrequest.links = {}  # UI Link of each updated file in the PR
+    for py_file in py_files:
+        filename = py_file[1:]
+        query = "https://raw.githubusercontent.com/{}/{}/{}"
+        query = query.format(repo, commit, py_file)
+        r = utils.query_request(query)
+        with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
             file_to_check.write(r.text)
 
         # Use the command line here
-        cmd = "pycodestyle {} file_to_check.py > pycodestyle_result.txt"
-        os.system(cmd.format(config["pycodestyle_cmd_config"]))
+        cmd = 'pycodestyle {config[pycodestyle_cmd_config]} file_to_check.py'.format(
+            config=config)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        ghrequest.extra_results[filename] = stdout.decode(r.encoding).splitlines()
 
-        with open("pycodestyle_result.txt", "r") as f:
-            data["extra_results"][filename] = f.readlines()
-
-        # Put only relevant errors in the data["results"] dictionary
-        data["results"][filename] = []
-        for error in list(data["extra_results"][filename]):
+        # Put only relevant errors in the ghrequest.results dictionary
+        ghrequest.results[filename] = []
+        for error in list(ghrequest.extra_results[filename]):
             if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
-                data["results"][filename].append(error.replace("file_to_check.py", filename))
-                data["extra_results"][filename].remove(error)
+                ghrequest.results[filename].append(error.replace("file_to_check.py", filename))
+                ghrequest.extra_results[filename].remove(error)
 
         ## Remove errors in case of diff_only = True
         ## which are caused in the whole file
-        for error in list(data["results"][filename]):
+        for error in list(ghrequest.results[filename]):
             if config["scanner"]["diff_only"]:
-                if not int(error.split(":")[1]) in py_files[file]:
-                    data["results"][filename].remove(error)
+                if not int(error.split(":")[1]) in py_files[py_file]:
+                    ghrequest.results[filename].remove(error)
 
         ## Store the link to the file
-        url = "https://github.com/{}/{}/blob/{}{}"
-        url = url.format(author, repository.split("/")[-1], after_commit_hash, file)
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        ghrequest.links[filename + "_link"] = url.format(repo, commit, py_file)
         os.remove("file_to_check.py")
-        os.remove("pycodestyle_result.txt")
 
 
-def prepare_comment(request, data, config):
+def prepare_comment(ghrequest, config):
     """Construct the string of comment i.e. its header, body and footer"""
-    author = data["author"]
+    author = ghrequest.author
     # Write the comment body
     ## Header
     comment_header = ""
-    if request.json["action"] == "opened":
+    if ghrequest.action == "opened":
         if config["message"]["opened"]["header"] == "":
             comment_header = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
         else:
             comment_header = config["message"]["opened"]["header"] + "\n\n"
-    elif request.json["action"] in ["synchronize", "reopened"]:
+    elif ghrequest.action in ["synchronize", "reopened"]:
         if config["message"]["updated"]["header"] == "":
             comment_header = "Hello @" + author + "! Thanks for updating the PR.\n\n"
         else:
             comment_header = config["message"]["updated"]["header"] + "\n\n"
 
     ## Body
-    comment_body = ""
-    for file in list(data["results"].keys()):
-        if len(data["results"][file]) == 0:
-            comment_body += " - There are no PEP8 issues in the" + \
-                            " file [`{0}`]({1}) !".format(file, data[file + "_link"])
+    ERROR = False  # Set to True when any pep8 error exists
+    comment_body = []
+    for gh_file, issues in ghrequest.results.items():
+        if len(issues) == 0:
+            if not config["only_mention_files_with_errors"]:
+                comment_body.append(
+                    " - There are no PEP8 issues in the"
+                    " file [`{0}`]({1}) !".format(gh_file, ghrequest.links[gh_file + "_link"]))
         else:
-            comment_body += " - In the file [`{0}`]({1}), following\
-                are the PEP8 issues :\n".format(file, data[file + "_link"])
-            for issue in data["results"][file]:
+            ERROR = True
+            comment_body.append(
+                " - In the file [`{0}`]({1}), following "
+                "are the PEP8 issues :\n".format(gh_file, ghrequest.links[gh_file + "_link"]))
+            if config["descending_issues_order"]:
+                issues = issues[::-1]
+
+            for issue in issues:
                 ## Replace filename with L
-                error_string = issue.replace(file + ":", "Line ")
+                error_string = issue.replace(gh_file + ":", "Line ")
 
                 ## Link error codes to search query
                 error_string_list = error_string.split(" ")
@@ -275,61 +248,58 @@ def prepare_comment(request, data, config):
 
                 ## Link line numbers in the file
                 line, col = error_string_list[1][:-1].split(":")
-                line_url = data[file + "_link"] + "#L" + line
+                line_url = ghrequest.links[gh_file + "_link"] + "#L" + line
                 error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
+                comment_body.append("\n> {0}".format(error_string))
 
-                comment_body += "> {0}".format(error_string)
+        comment_body.append("\n\n")
+        if len(ghrequest.extra_results[gh_file]) > 0:
+            comment_body.append(" - Complete extra results for this file :\n\n")
+            comment_body.append("> " + "".join(ghrequest.extra_results[gh_file]))
+            comment_body.append("---\n\n")
 
-        comment_body += "\n\n"
-        if len(data["extra_results"][file]) > 0:
-            comment_body += " - Complete extra results for this file :\n\n"
-            comment_body += "> " + "".join(data["extra_results"][file])
-            comment_body += "---\n\n"
+    if config["only_mention_files_with_errors"] and not ERROR:
+        comment_body.append(config["message"]["no_errors"])
 
+    comment_body = ''.join(comment_body)
 
     ## Footer
-    comment_footer = ""
-    if request.json["action"] == "opened":
-        if config["message"]["opened"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["opened"]["footer"]
-    elif request.json["action"] in ["synchronize", "reopened"]:
-        if config["message"]["updated"]["footer"] == "":
-            comment_footer += ""
-        else:
-            comment_footer += config["message"]["updated"]["footer"]
+    comment_footer = []
+    if ghrequest.action == "opened":
+        comment_footer.append(config["message"]["opened"]["footer"])
+    elif ghrequest.action in ["synchronize", "reopened"]:
+        comment_footer.append(config["message"]["updated"]["footer"])
 
-    return comment_header, comment_body, comment_footer
+    comment_footer = ''.join(comment_footer)
+
+    return comment_header, comment_body, comment_footer, ERROR
 
 
-def comment_permission_check(data, comment):
-    """Check for quite and resume status or duplicate comments"""
-    PERMITTED_TO_COMMENT = True
-    repository = data["repository"]
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+def comment_permission_check(ghrequest):
+    """
+    Check for quite and resume status or duplicate comments
+    """
+    repository = ghrequest.repository
 
     # Check for duplicate comment
-    url = "https://api.github.com/repos/{}/issues/{}/comments"
-    url = url.format(repository, str(data["pr_number"]))
-    comments = requests.get(url, headers=headers).json()
+    url = "/repos/{}/issues/{}/comments"
+    url = url.format(repository, str(ghrequest.pr_number))
+    comments = utils.query_request(url).json()
 
-    # Get the last comment by the bot
-    last_comment = ""
-    for old_comment in reversed(comments):
-        if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
-            last_comment = old_comment["body"]
-            break
-    if comment == last_comment:
-        PERMITTED_TO_COMMENT = False
+    # # Get the last comment by the bot
+    # last_comment = ""
+    # for old_comment in reversed(comments):
+    #     if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+    #         last_comment = old_comment["body"]
+    #         break
 
-    ## Do not comment on updating if no errors were introduced previously
-    if "following" not in comment.lower():  # `following are the pep8 issues`
-        if "no PEP8 issues" in last_comment:
-            if "following" not in last_comment.lower():
-                PERMITTED_TO_COMMENT = False  # When both comment have no errors
+    # # Disabling this because only a single comment is made per PR
+    # text1 = ''.join(BeautifulSoup(markdown(comment)).findAll(text=True))
+    # text2 = ''.join(BeautifulSoup(markdown(last_comment)).findAll(text=True))
+    # if text1 == text2.replace("submitting", "updating"):
+    #     PERMITTED_TO_COMMENT = False
 
     # Check if the bot is asked to keep quiet
     for old_comment in reversed(comments):
@@ -337,21 +307,58 @@ def comment_permission_check(data, comment):
             if 'resume' in old_comment['body'].lower():
                 break
             elif 'quiet' in old_comment['body'].lower():
-                PERMITTED_TO_COMMENT = False
+                return False
+
+    # Check for [skip pep8]
+    ## In commits
+    commits = utils.query_request(ghrequest.commits_url).json()
+    for commit in commits:
+        if any(m in commit["commit"]["message"].lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+            return False
+    ## PR title
+    if any(m in ghrequest.pr_title.lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        return False
+    ## PR description
+    if any(m in ghrequest.pr_desc.lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+        return False
+
+    return True
 
 
-    return PERMITTED_TO_COMMENT
+def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE):
+    query = "/repos/{}/issues/{}/comments"
+    query = query.format(ghrequest.repository, str(ghrequest.pr_number))
+    comments = utils.query_request(query).json()
+
+    # Get the last comment id by the bot
+    last_comment_id = None
+    for old_comment in comments:
+        if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+            last_comment_id = old_comment["id"]
+            break
+
+    if last_comment_id is None and not ONLY_UPDATE_COMMENT_BUT_NOT_CREATE:  # Create a new comment
+        response = utils.query_request(query=query, method='POST', json={"body": comment})
+        ghrequest.comment_response = response.json()
+    else:  # Update the last comment
+        utc_time = datetime.datetime.utcnow()
+        time_now = utc_time.strftime("%B %d, %Y at %H:%M Hours UTC")
+        comment += "\n\n##### Comment last updated on {}"
+        comment = comment.format(time_now)
+
+        query = "/repos/{}/issues/comments/{}"
+        query = query.format(ghrequest.repository, str(last_comment_id))
+        response = utils.query_request(query, method='PATCH', json={"body": comment})
+
+    return response
 
 
-def autopep8(data, config):
+def autopep8(ghrequest, config):
     # Run pycodestyle
 
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(data["diff_url"], headers=headers)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
+    r = utils.query_request(ghrequest.diff_url)
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -365,148 +372,137 @@ def autopep8(data, config):
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
 
-    os.remove('.diff')
-
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
-        filename = file[1:]
+    for py_file in py_files:
+        filename = py_file[1:]
         url = "https://raw.githubusercontent.com/{}/{}/{}"
-        url = url.format(data["repository"], data["sha"], file)
-        r = requests.get(url, headers=headers)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+        url = url.format(ghrequest.repository, ghrequest.sha, py_file)
+        r = utils.query_request(url)
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
-        # Store the diff in .diff file
-        os.system("autopep8 file_to_fix.py --diff {} > autopep8.diff".format(arg_to_ignore))
-        with open("autopep8.diff", "r") as f:
-            data["diff"][filename] = f.read()
+        cmd = 'autopep8 file_to_fix.py --diff {arg_to_ignore}'.format(
+            arg_to_ignore=arg_to_ignore)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        ghrequest.diff[filename] = stdout.decode(r.encoding)
 
         # Fix the errors
-        data["diff"][filename] = data["diff"][filename].replace("file_to_check.py", filename)
-        data["diff"][filename] = data["diff"][filename].replace("\\", "\\\\")
+        ghrequest.diff[filename] = ghrequest.diff[filename].replace("file_to_check.py", filename)
+        ghrequest.diff[filename] = ghrequest.diff[filename].replace("\\", "\\\\")
 
         ## Store the link to the file
-        url = "https://github.com/" + data["author"] + "/" + \
-              data["repository"].split("/")[-1] + "/blob/" + \
-              data["sha"] + file
-        data[filename + "_link"] = url
-
+        url = "https://github.com/{}/blob/{}{}"
+        ghrequest.links = {}
+        ghrequest.links[filename + "_link"] = url.format(ghrequest.repository, ghrequest.sha, py_file)
         os.remove("file_to_fix.py")
-        os.remove("autopep8.diff")
 
 
-def create_gist(data, config):
+def create_gist(ghrequest):
     """Create gists for diff files"""
-    REQUEST_JSON = {}
-    REQUEST_JSON["public"] = True
-    REQUEST_JSON["files"] = {}
-    REQUEST_JSON["description"] = "In response to @{0}'s comment : {1}".format(
-        data["reviewer"], data["review_url"])
+    request_json = {}
+    request_json["public"] = True
+    request_json["files"] = {}
+    request_json["description"] = "In response to @{0}'s comment : {1}".format(
+        ghrequest.reviewer, ghrequest.review_url)
 
-    for file in list(data["diff"].keys()):
-        if len(data["diff"][file]) != 0:
-            REQUEST_JSON["files"][file.split("/")[-1] + ".diff"] = {
-                "content": data["diff"][file]
-                }
+    for diff_file, diffs in ghrequest.diff.items():
+        if len(diffs) != 0:
+            request_json["files"][diff_file.split("/")[-1] + ".diff"] = {
+                "content": diffs
+            }
 
     # Call github api to create the gist
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    url = "https://api.github.com/gists"
-    res = requests.post(url, json=REQUEST_JSON, headers=headers).json()
-    data["gist_response"] = res
-    data["gist_url"] = res["html_url"]
+    query = "/gists"
+    response = utils.query_request(query, method='POST', json=request_json).json()
+    ghrequest.gist_response = response
+    ghrequest.gist_url = response["html_url"]
 
 
-def delete_if_forked(data):
+def delete_if_forked(ghrequest):
     FORKED = False
-    url = "https://api.github.com/user/repos"
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(url, headers=headers)
+    query = "/user/repos"
+    r = utils.query_request(query)
     for repo in r.json():
         if repo["description"]:
-            if data["target_repo_fullname"] in repo["description"]:
+            if ghrequest.target_repo_fullname in repo["description"]:
                 FORKED = True
-                r = requests.delete("https://api.github.com/repos/"
-                                "{}".format(repo["full_name"]),
-                                headers=headers)
+                url = "/repos/{}"
+                url = url.format(repo["full_name"])
+                utils.query_request(url, method='DELETE')
     return FORKED
 
 
-def fork_for_pr(data):
-    FORKED = False
-    url = "https://api.github.com/repos/{}/forks"
-    url = url.format(data["target_repo_fullname"])
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.post(url, headers=headers)
+def fork_for_pr(ghrequest):
+    query = "/repos/{}/forks"
+    query = query.format(ghrequest.target_repo_fullname)
+    r = utils.query_request(query, method='POST')
+
     if r.status_code == 202:
-        data["fork_fullname"] = r.json()["full_name"]
-        FORKED = True
-    else:
-        data["error"] = "Unable to fork"
-    return FORKED
+        ghrequest.fork_fullname = r.json()["full_name"]
+        return True
+
+    ghrequest.error = "Unable to fork"
+    return False
 
 
-def update_fork_desc(data):
+def update_fork_desc(ghrequest):
     # Check if forked (takes time)
-    url = "https://api.github.com/repos/{}".format(data["fork_fullname"])
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(url, headers=headers)
+    query = "/repos/{}".format(ghrequest.fork_fullname)
+    r = utils.query_request(query)
     ATTEMPT = 0
     while(r.status_code != 200):
         time.sleep(5)
-        r = requests.get(url, headers=headers)
+        r = utils.query_request(query)
         ATTEMPT += 1
         if ATTEMPT > 10:
-            data["error"] = "Forking is taking more than usual time"
+            ghrequest.error = "Forking is taking more than usual time"
             break
 
-    full_name = data["target_repo_fullname"]
+    full_name = ghrequest.target_repo_fullname
     author, name = full_name.split("/")
     request_json = {
         "name": name,
         "description": "Forked from @{}'s {}".format(author, full_name)
     }
-    r = requests.patch(url, data=json.dumps(request_json), headers=headers)
+    r = utils.query_request(query, method='PATCH', data=json.dumps(request_json))
     if r.status_code != 200:
-        data["error"] = "Could not update description of the fork"
+        ghrequest.error = "Could not update description of the fork"
 
 
-def create_new_branch(data):
-    url = "https://api.github.com/repos/{}/git/refs/heads"
-    url = url.format(data["fork_fullname"])
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+def create_new_branch(ghrequest):
+    query = "/repos/{}/git/refs/heads"
+    query = query.format(ghrequest.fork_fullname)
     sha = None
-    r = requests.get(url, headers=headers)
+    r = utils.query_request(query)
     for ref in r.json():
-        if ref["ref"].split("/")[-1] == data["target_repo_branch"]:
+        if ref["ref"].split("/")[-1] == ghrequest.target_repo_branch:
             sha = ref["object"]["sha"]
 
-    url = "https://api.github.com/repos/{}/git/refs"
-    url = url.format(data["fork_fullname"])
-    data["new_branch"] = "{}-pep8-patch".format(data["target_repo_branch"])
+    query = "/repos/{}/git/refs"
+    query = query.format(ghrequest.fork_fullname)
+    ghrequest.new_branch = "{}-pep8-patch".format(ghrequest.target_repo_branch)
     request_json = {
-        "ref": "refs/heads/{}".format(data["new_branch"]),
+        "ref": "refs/heads/{}".format(ghrequest.new_branch),
         "sha": sha,
     }
-    r = requests.post(url, json=request_json, headers=headers)
+    r = utils.query_request(query, method='POST', json=request_json)
 
-    if r.status_code != 200:
-        data["error"] = "Could not create new branch in the fork"
+    if r.status_code > 299:
+        ghrequest.error = "Could not create new branch in the fork"
 
 
-def autopep8ify(data, config):
+def autopep8ify(ghrequest, config):
     # Run pycodestyle
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    r = requests.get(data["diff_url"], headers=headers)
-    with open(".diff", "w+") as diff_file:
-        diff_file.write(r.text)
+    r = utils.query_request(ghrequest.diff_url)
+
     ## All the python files with additions
-    patch = unidiff.PatchSet.from_filename('.diff', encoding='utf-8')
+    patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
     # A dictionary with filename paired with list of new line numbers
     py_files = {}
@@ -520,66 +516,61 @@ def autopep8ify(data, config):
                     if line.is_added:
                         py_files[py_file].append(line.target_line_no)
 
-    os.remove('.diff')
-
     # Ignore errors and warnings specified in the config file
     to_ignore = ",".join(config["pycodestyle"]["ignore"])
     arg_to_ignore = ""
     if len(to_ignore) > 0:
         arg_to_ignore = "--ignore " + to_ignore
 
-    for file in py_files.keys():
-        filename = file[1:]
-        url = "https://raw.githubusercontent.com/{}/{}/{}"
-        url = url.format(data["repository"], data["sha"], file)
-        r = requests.get(url, headers=headers)
-        with open("file_to_fix.py", 'w+') as file_to_fix:
+    for py_file in py_files:
+        filename = py_file[1:]
+        query = "https://raw.githubusercontent.com/{}/{}/{}"
+        query = query.format(ghrequest.repository, ghrequest.sha, py_file)
+        r = utils.query_request(query)
+        with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
 
-        # Store the diff in .diff file
-        os.system("autopep8 file_to_fix.py --in-place {}".format(arg_to_ignore))
-        with open("file_to_fix.py", "r") as f:
-            data["results"][filename] = f.read()
+        cmd = 'autopep8 file_to_fix.py {arg_to_ignore}'.format(
+            arg_to_ignore=arg_to_ignore)
+        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+        stdout, _ = proc.communicate()
+        ghrequest.results[filename] = stdout.decode(r.encoding)
 
         os.remove("file_to_fix.py")
 
 
-def commit(data):
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
+def commit(ghrequest):
+    fullname = ghrequest.fork_fullname
 
-    fullname = data.get("fork_fullname")
-
-    for file in data["results"].keys():
-        url = "https://api.github.com/repos/{}/contents/{}"
-        url = url.format(fullname, file)
-        params = {"ref": data["new_branch"]}
-        r = requests.get(url, params=params, headers=headers)
+    for old_file, new_file in ghrequest.results.items():
+        query = "/repos/{}/contents/{}"
+        query = query.format(fullname, old_file)
+        params = {"ref": ghrequest.new_branch}
+        r = utils.query_request(query, params=params)
         sha_blob = r.json().get("sha")
-        params["path"] = file
-        new_file = data.get("results")[file]
+        params["path"] = old_file
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
-            "path": file,
-            "message": "Fix pep8 errors in {}".format(file),
+            "path": old_file,
+            "message": "Fix pep8 errors in {}".format(old_file),
             "content": content_code,
             "sha": sha_blob,
-            "branch": data.get("new_branch"),
+            "branch": ghrequest.new_branch,
         }
-        r = requests.put(url, json=request_json, headers=headers)
+        r = utils.query_request(query, method='PUT', json=request_json)
 
 
-def create_pr(data):
-    headers = {"Authorization": "token " + os.environ["GITHUB_TOKEN"]}
-    url = "https://api.github.com/repos/{}/pulls"
-    url = url.format(data["target_repo_fullname"])
+def create_pr(ghrequest):
+    query = "/repos/{}/pulls"
+    query = query.format(ghrequest.target_repo_fullname)
     request_json = {
         "title": "Fix pep8 errors",
-        "head": "pep8speaks:{}".format(data["new_branch"]),
-        "base": data["target_repo_branch"],
+        "head": "pep8speaks:{}".format(ghrequest.new_branch),
+        "base": ghrequest.target_repo_branch,
         "body": "The changes are suggested by autopep8",
     }
-    r = requests.post(url, json=request_json, headers=headers)
+    r = utils.query_request(query, method='POST', json=request_json)
     if r.status_code == 201:
-        data["pr_url"] = r.json()["html_url"]
+        ghrequest.pr_url = r.json()["html_url"]
     else:
-        data["error"] = "Pull request could not be created"
+        ghrequest.error = "Pull request could not be created"

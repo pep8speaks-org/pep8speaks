@@ -90,3 +90,8 @@ ENV/
 
 # Flask
 flask_session
+
+exports.sh
+
+# Sublime Text
+.sublime-*
