@@ -45,36 +45,9 @@ def get_config(repo, base_branch):
     """
 
     # Default configuration parameters
-    config = {
-        "message": {
-            "opened": {
-                "header": "",
-                "footer": ""
-            },
-            "updated": {
-                "header": "",
-                "footer": ""
-            },
-            "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: ",
-        },
-        "scanner": {"diff_only": False},
-        "pycodestyle": {
-            "ignore": [],
-            "max-line-length": 79,
-            "count": False,
-            "first": False,
-            "show-pep8": False,
-            "filename": [],
-            "exclude": [],
-            "select": [],
-            "show-source": False,
-            "statistics": False,
-            "hang-closing": False,
-        },
-        "no_blank_comment": True,
-        "only_mention_files_with_errors": True,
-        "descending_issues_order": False,
-    }
+    default_config_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'default_config.json')
+    with open(default_config_path) as config_file:
+        config = json.loads(config_file.read())
 
     # Configuration file
     query = "https://raw.githubusercontent.com/{}/{}/.pep8speaks.yml"
