@@ -34,7 +34,7 @@ class GHRequest(object):
 
         if event == "issue_comment":
             pr_url = request.json['issue']['pull_request']['url']
-            pull_request = utils._request(pr_url).json()
+            pull_request = utils.query_request(pr_url).json()
         elif event == "pull_request":
             pull_request = request.json['pull_request']
         else:

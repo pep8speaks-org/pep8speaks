@@ -10,31 +10,27 @@ import requests
 from pep8speaks.constants import AUTH, BASE_URL
 
 
-def _request(query=None, type='GET', json={}, data='', headers=None, params=None):
-    # Queries like /repos/:id needs to be appended to the base URL,
-    # Queries like https://raw.githubusercontent.com need not.
-    if query[0] == '/':
+def query_request(query=None, method="GET", **kwargs):
+    """
+    Queries like /repos/:id needs to be appended to the base URL,
+    Queries like https://raw.githubusercontent.com need not.
+
+    full list of kwargs see http://docs.python-requests.org/en/master/api/#requests.request
+    """
+
+    if query[0] == "/":
         query = BASE_URL + query
-    args = (query,)
-    kwargs = {'auth': AUTH}
-    if json: kwargs['json'] = json
-    if data: kwargs['data'] = data
-    if headers: kwargs['headers'] = headers
-    if params: kwargs['params'] = params
 
-    if type == 'GET':
-        return requests.get(*args, **kwargs)
-    elif type == 'POST':
-        return requests.post(*args, **kwargs)
-    elif type == 'PUT':
-        return requests.put(*args, **kwargs)
-    elif type == 'PATCH':
-        return requests.patch(*args, **kwargs)
-    elif type == 'DELETE':
-        return requests.delete(*args, **kwargs)
+    request_kwargs = {
+        "auth": AUTH,
+    }
+    request_kwargs.update(**kwargs)
+    return requests.request(method, query, **request_kwargs)
 
 
-def Response(data={}, status=200, mimetype='application/json'):
+def Response(data=None, status=200, mimetype='application/json'):
+    if data is None:
+        data = {}
     response_object = json.dumps(data, default=lambda obj: obj.__dict__)
     return FResponse(response_object, status=status, mimetype=mimetype)
 
