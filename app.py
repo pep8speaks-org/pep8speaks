@@ -43,8 +43,6 @@ def create_app():
                 event = request.headers["X-GitHub-Event"]
                 event_to_action = {
                     "pull_request": handlers.handle_pull_request,
-                    "pull_request_review": handlers.handle_review,
-                    "pull_request_review_comment": handlers.handle_review_comment,
                     "integration_installation": handlers.handle_integration_installation,
                     "integration_installation_repositories": handlers.handle_integration_installation_repo,
                     "installation_repositories": handlers.handle_integration_installation_repo,

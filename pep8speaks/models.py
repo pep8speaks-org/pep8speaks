@@ -34,8 +34,8 @@ class GHRequest(object):
 
         if event == "issue_comment":
             pr_url = request.json['issue']['pull_request']['url']
-            pull_request = utils._request(pr_url).json()
-        elif event in ("pull_request", "pull_request_review"):
+            pull_request = utils.query_request(pr_url).json()
+        elif event == "pull_request":
             pull_request = request.json['pull_request']
         else:
             return None
@@ -87,8 +87,3 @@ class GHRequest(object):
             self.review_url = request.json['comment']['html_url']
             self.comment = request.json['comment']['body']
             self.base_branch = request.json['repository']['default_branch']  # Overrides the default
-
-        if event == 'pull_request_review':
-            self.reviewer = request.json['review']['user']['login']
-            self.review_url = request.json['review']['html_url']
-            self.review_body = request.json['review']['body']

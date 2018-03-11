@@ -69,46 +69,37 @@ def handle_pull_request(request):
     return utils.Response(ghrequest)
 
 
-def handle_installation(request):
-    """
-    Do nothing. It's handled by handle_integration_installation
-    """
-    return utils.Response()
-
-
-def handle_review(request):
-    """
-    Handle the request when a new review is submitted
-    """
-
+def handle_issue_comment(request):
     ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
 
-    if not ghrequest.review_body:
+    if not ghrequest.OK:
         return utils.Response(ghrequest)
 
     # Get the .pep8speaks.yml config file from the repository
     config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
 
-    condition1 = ghrequest.action == "submitted"
-    # Mainly the summary of the review matters
-    ## pep8speaks must be mentioned
-    condition2 = "@pep8speaks" in ghrequest.review_body
-    ## Check if asked to pep8ify
-    condition3 = "pep8ify" in ghrequest.review_body
+    splitted_comment = ghrequest.comment.lower().split()
 
-    ## If pep8ify is not there, all other reviews with body summary
-    ## having the mention of pep8speaks, will result in commenting
-    ## with autpep8 diff gist.
-    conditions_matched = condition1 and condition2 and condition3
+    # If diff is required
+    params1 = ["@pep8speaks", "suggest", "diff"]
+    condition1 = all(p in splitted_comment for p in params1)
+    # If asked to pep8ify
+    params2 = ["@pep8speaks", "pep8ify"]
+    condition2 = all(p in splitted_comment for p in params2)
 
-    if conditions_matched:
+    if condition1:
+        return _create_diff(ghrequest, config)
+    elif condition2:
         return _pep8ify(ghrequest, config)
-    else:
-        conditions_matched = condition1 and condition2
-        if conditions_matched:
-            return _create_diff(ghrequest, config)
-        else:
-            return utils.Response(ghrequest)
+
+    return utils.Response(ghrequest)
+
+
+def handle_installation(request):
+    """
+    Do nothing. It's handled by handle_integration_installation
+    """
+    return utils.Response()
 
 
 def _pep8ify(ghrequest, config):
@@ -144,7 +135,7 @@ def _pep8ify(ghrequest, config):
 
     query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
-    response = utils._request(query, method='POST', json={"body": comment})
+    response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
     return utils.Response(ghrequest)
@@ -174,18 +165,13 @@ def _create_diff(ghrequest, config):
 
     query = "/repos/{}/issues/{}/comments"
     query = query.format(ghrequest.repository, str(ghrequest.pr_number))
-    response = utils._request(query, method='POST', json={"body": comment})
+    response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
     if ghrequest.error:
         return utils.Response(ghrequest, status=400)
 
     return utils.Response(ghrequest)
-
-
-def handle_review_comment(request):
-    # Figure out what does "position" mean in the response
-    return utils.Response()
 
 
 def handle_integration_installation(request):
@@ -220,32 +206,6 @@ def handle_ping(request):
     Do nothing
     """
     return utils.Response()
-
-
-def handle_issue_comment(request):
-    ghrequest = models.GHRequest(request, request.headers["X-GitHub-Event"])
-
-    if not ghrequest.OK:
-        return utils.Response(ghrequest)
-
-    # Get the .pep8speaks.yml config file from the repository
-    config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
-
-    splitted_comment = ghrequest.comment.lower().split()
-
-    # If diff is required
-    params1 = ["@pep8speaks", "suggest", "diff"]
-    condition1 = all(p in splitted_comment for p in params1)
-    # If asked to pep8ify
-    params2 = ["@pep8speaks", "pep8ify"]
-    condition2 = all(p in splitted_comment for p in params2)
-
-    if condition1:
-        return _create_diff(ghrequest, config)
-    elif condition2:
-        return _pep8ify(ghrequest, config)
-
-    return utils.Response(ghrequest)
 
 
 def handle_unsupported_requests(request):

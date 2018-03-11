@@ -10,7 +10,7 @@ import requests
 from pep8speaks.constants import AUTH, BASE_URL
 
 
-def _request(query=None, method="GET", json=None, data=None, headers=None, params=None):
+def query_request(query=None, method="GET", **kwargs):
     """
     Queries like /repos/:id needs to be appended to the base URL,
     Queries like https://raw.githubusercontent.com need not.
@@ -21,14 +21,11 @@ def _request(query=None, method="GET", json=None, data=None, headers=None, param
     if query[0] == "/":
         query = BASE_URL + query
 
-    kwargs = {
+    request_kwargs = {
         "auth": AUTH,
-        "json": json if json else None,
-        "data": data if data else None,
-        "headers": headers if headers else None,
-        "params": params if params else None,
     }
-    return requests.request(method, query, **kwargs)
+    request_kwargs.update(**kwargs)
+    return requests.request(method, query, **request_kwargs)
 
 
 def Response(data=None, status=200, mimetype='application/json'):
