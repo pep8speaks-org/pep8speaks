@@ -320,9 +320,9 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
         ghrequest.comment_response = response.json()
     else:  # Update the last comment
         utc_time = datetime.datetime.utcnow()
-        time_now = utc_time.strftime("%B %d, %Y at %H:%M Hours UTC")
-        comment += "\n\n##### Comment last updated on {}"
-        comment = comment.format(time_now)
+        time_now = utc_time.strftime("%B %d, %Y at %H:%M UTC")
+        comment += "\n\n##### Comment last updated at {time_now!s}"
+        comment = comment.format(time_now=time_now)
 
         query = "/repos/{}/issues/comments/{}"
         query = query.format(ghrequest.repository, str(last_comment_id))
@@ -386,7 +386,7 @@ def create_gist(ghrequest):
     request_json = {}
     request_json["public"] = True
     request_json["files"] = {}
-    request_json["description"] = "In response to @{0}'s comment : {1}".format(
+    request_json["description"] = "In response to @{0}'s comment: {1}".format(
         ghrequest.reviewer, ghrequest.review_url)
 
     for diff_file, diffs in ghrequest.diff.items():
@@ -439,7 +439,7 @@ def update_fork_desc(ghrequest):
         r = utils.query_request(query)
         ATTEMPT += 1
         if ATTEMPT > 10:
-            ghrequest.error = "Forking is taking more than usual time"
+            ghrequest.error = "Forking is taking longer than usual"
             break
 
     full_name = ghrequest.target_repo_fullname
@@ -472,7 +472,7 @@ def create_new_branch(ghrequest):
     r = utils.query_request(query, method='POST', json=request_json)
 
     if r.status_code > 299:
-        ghrequest.error = "Could not create new branch in the fork"
+        ghrequest.error = "Could not create a new branch in the fork"
 
 
 def autopep8ify(ghrequest, config):
