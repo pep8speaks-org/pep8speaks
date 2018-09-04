@@ -382,8 +382,7 @@ def create_or_update_comment(data, comment):
     else:  # Update the last comment
         utc_time = datetime.datetime.utcnow()
         time_now = utc_time.strftime("%B %d, %Y at %H:%M Hours UTC")
-        comment += "\n\n##### Comment last updated on {}"
-        comment = comment.format(time_now)
+        comment += f"\n\n##### Comment last updated on {time_now}"
 
         query = "https://api.github.com/repos/{}/issues/comments/{}"
         query = query.format(data["repository"], str(last_comment_id))
