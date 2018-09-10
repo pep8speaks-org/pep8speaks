@@ -37,14 +37,14 @@ A config file is *not required* for the integration to work. However it can be c
 
 message:  # Customize the comment made by the bot
     opened:  # Messages when a new PR is submitted
-        header: "Hello @{name}, Thank you for submitting the Pull Request !"
+        header: "Hello @{name}! Thanks for opening this PR. "
                 # The keyword {name} is converted into the author's username
         footer: "Do see the [Hitchhiker's guide to code style](https://goo.gl/hqbW4r)"
                 # The messages can be written as they would over GitHub
     updated:  # Messages when new commits are added to the PR
-        header: "Hello @{name}, Thank you for updating !"
+        header: "Hello @{name}! Thanks for updating this PR. "
         footer: ""  # Why to comment the link to the style guide everytime? :)
-    no_errors: "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
+    no_errors: "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
 
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown

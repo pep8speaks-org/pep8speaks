@@ -176,7 +176,7 @@ def run_pycodestyle(ghrequest, config):
 
 
 def prepare_comment(ghrequest, config):
-    """Construct the string of comment i.e. its header, body and footer"""
+    """Construct the string of comment i.e. its header, body and footer."""
     author = ghrequest.author
     # Write the comment body
     # ## Header
@@ -190,7 +190,7 @@ def prepare_comment(ghrequest, config):
         comment_header = config["message"][action_text[:-3] + "ed"]["header"]
         if comment_header == "":
             comment_header = (
-                "Hello @{author!s}! Thanks for {action_text!s} this PR. "
+                "Hello @{author!s}! Thanks for {action_text} this PR. "
                 "We checked the lines you've touched for [PEP 8]"
                 "(https://www.python.org/dev/peps/pep-0008) issues, and found:"
                 .format(author=author, action_text=action_text))
