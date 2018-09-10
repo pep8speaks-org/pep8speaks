@@ -320,7 +320,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
         ghrequest.comment_response = response.json()
     else:  # Update the last comment
         utc_time = datetime.datetime.utcnow()
-        time_now = utc_time.strftime("%B %d, %Y at %H:%M UTC")
+        time_now = utc_time.strftime("%Y-%m-%d %H:%M:%S UTC")
         comment += "\n\n##### Comment last updated at {time_now!s}"
         comment = comment.format(time_now=time_now)
 
@@ -530,7 +530,7 @@ def commit(ghrequest):
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
             "path": old_file,
-            "message": "Fix pep8 errors in {}".format(old_file),
+            "message": "Fix PEP 8 errors in {}".format(old_file),
             "content": content_code,
             "sha": sha_blob,
             "branch": ghrequest.new_branch,
@@ -542,7 +542,7 @@ def create_pr(ghrequest):
     query = "/repos/{}/pulls"
     query = query.format(ghrequest.target_repo_fullname)
     request_json = {
-        "title": "Fix pep8 errors",
+        "title": "Fix PEP 8 errors",
         "head": "pep8speaks:{}".format(ghrequest.new_branch),
         "base": ghrequest.target_repo_branch,
         "body": "The changes are suggested by autopep8",

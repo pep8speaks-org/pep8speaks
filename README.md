@@ -50,13 +50,13 @@ scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
 
 pycodestyle:
-    max-line-length: 100  # Default is 79 in PEP8
+    max-line-length: 100  # Default is 79 in PEP 8
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
 
 only_mention_files_with_errors: True  # If False, a separate status comment for each file is made.
-descending_issues_order: False # If True, PEP8 issues in message will be displayed in descending order of line numbers in the file
+descending_issues_order: False  # If True, PEP 8 issues in message will be displayed in descending order of line numbers in the file
 ```
 
 Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/master/data/default_config.json).
@@ -123,4 +123,4 @@ This is a very young project. If you have got any suggestions for new features o
 <img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
 ###### Created using [commits.io](https://commits.io)
 
-<sub><sup><sub>This project does not endorse all of the rules of the original PEP8 and thus believes in customizing the pycodestyle.
+<sub><sup><sub>This project does not endorse all of the rules of the original PEP 8 and thus believes in customizing the pycodestyle.
