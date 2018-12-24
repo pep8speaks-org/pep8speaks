@@ -199,6 +199,7 @@ def prepare_comment(ghrequest, config):
             ERROR = True
             comment_body.append(
                 f" - In the file [`{gh_file}`]({ghrequest.links[gh_file + '_link']}), following are the PEP8 issues :\n"
+                )
             if config["descending_issues_order"]:
                 issues = issues[::-1]
 
@@ -503,7 +504,7 @@ def commit(ghrequest):
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
             "path": old_file,
-            "message": f"Fix pep8 errors in {old_file}"
+            "message": f"Fix pep8 errors in {old_file}",
             "content": content_code,
             "sha": sha_blob,
             "branch": ghrequest.new_branch,
