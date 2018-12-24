@@ -479,7 +479,7 @@ def autopep8ify(ghrequest, config):
 
     for py_file in py_files:
         filename = py_file[1:]
-        query = f"https://raw.githubusercontent.com/{ghrequest.repository}/{ghrequest.sha}/{oy_file}"
+        query = f"https://raw.githubusercontent.com/{ghrequest.repository}/{ghrequest.sha}/{py_file}"
         r = utils.query_request(query)
         with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
