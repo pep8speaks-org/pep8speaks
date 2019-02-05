@@ -5,3 +5,4 @@ pycodestyle:
         - E303
         - E128
         - E701
+        - W504
