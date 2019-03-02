@@ -31,6 +31,7 @@ def query_request(query=None, method="GET", **kwargs):
 def Response(data=None, status=200, mimetype='application/json'):
     if data is None:
         data = {}
+
     response_object = json.dumps(data, default=lambda obj: obj.__dict__)
     return FResponse(response_object, status=status, mimetype=mimetype)
 

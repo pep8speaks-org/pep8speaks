@@ -182,13 +182,13 @@ def handle_integration_installation_repo(request):
     """
     Update the database of repositories the integration is working upon.
     """
-    repositories = request.json["repositories_added"],
+    repositories = request.json["repositories_added"]
 
     for repo in repositories:
         helpers.update_users(repo["full_name"])
 
     response_object = {
-        "message", f"Added the following repositories : {str(repositories)}"
+        "message": f"Added the following repositories : {str(repositories)}"
     }
     return utils.Response(response_object)
 
