@@ -37,26 +37,27 @@ A config file is *not required* for the integration to work. However it can be c
 
 message:  # Customize the comment made by the bot
     opened:  # Messages when a new PR is submitted
-        header: "Hello @{name}, Thank you for submitting the Pull Request !"
+        header: "Hello @{name}! Thanks for opening this PR. "
                 # The keyword {name} is converted into the author's username
         footer: "Do see the [Hitchhiker's guide to code style](https://goo.gl/hqbW4r)"
                 # The messages can be written as they would over GitHub
     updated:  # Messages when new commits are added to the PR
-        header: "Hello @{name}, Thank you for updating !"
+        header: "Hello @{name}! Thanks for updating this PR. "
         footer: ""  # Why to comment the link to the style guide everytime? :)
-    no_errors: "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
+    no_errors: "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
 
 scanner:
     diff_only: False  # If True, errors caused by only the patch are shown
 
 pycodestyle:
-    max-line-length: 100  # Default is 79 in PEP8
+    max-line-length: 100  # Default is 79 in PEP 8
     ignore:  # Errors and warnings to ignore
         - W391
         - E203
+        - W504
 
 only_mention_files_with_errors: True  # If False, a separate status comment for each file is made.
-descending_issues_order: False # If True, PEP8 issues in message will be displayed in descending order of line numbers in the file
+descending_issues_order: False  # If True, PEP 8 issues in message will be displayed in descending order of line numbers in the file
 ```
 
 Check out the [default configuration options](https://github.com/OrkoHunter/pep8speaks/blob/master/data/default_config.json).
@@ -123,4 +124,4 @@ This is a very young project. If you have got any suggestions for new features o
 <img src="https://raw.githubusercontent.com/OrkoHunter/pep8speaks/master/data/pep8speaks.commits.png" width="60%"><br>
 ###### Created using [commits.io](https://commits.io)
 
-<sub><sup><sub>This project does not endorse all of the rules of the original PEP8 and thus believes in customizing the pycodestyle.
+<sub><sup><sub>This project does not endorse all of the rules of the original PEP 8 and thus believes in customizing the pycodestyle.

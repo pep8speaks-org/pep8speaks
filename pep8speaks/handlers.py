@@ -145,7 +145,7 @@ def _create_diff(ghrequest, config):
     helpers.autopep8(ghrequest, config)
 
     # Create the gist
-    helpers.create_gist(ghrequest, config)
+    helpers.create_gist(ghrequest)
 
     comment = (
         f"Here you go with [the gist]({ghrequest.gist_url}) !\n\n"
