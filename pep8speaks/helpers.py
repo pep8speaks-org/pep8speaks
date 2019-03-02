@@ -158,7 +158,7 @@ def run_pycodestyle(ghrequest, config):
         # Put only relevant errors in the ghrequest.results dictionary
         ghrequest.results[filename] = []
         for error in list(ghrequest.extra_results[filename]):
-            if re.search("^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
+            if re.search(r"^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
                 ghrequest.results[filename].append(error.replace("file_to_check.py", filename))
                 ghrequest.extra_results[filename].remove(error)
 
