@@ -63,8 +63,7 @@ class TestUtils:
                             data.encode())
 
         request_ctx.headers = {
-            'X-Hub-Signature': '{}={}'.format(hmac_obj.name,
-                                              hmac_obj.hexdigest())
+            'X-Hub-Signature': f'{hmac_obj.name}={hmac_obj.hexdigest()}'
         }
         with pytest.raises(werkzeug.exceptions.NotImplemented):
             match_webhook_secret(request_ctx)
@@ -74,7 +73,7 @@ class TestUtils:
                             digestmod="sha1")
 
         request_ctx.headers = {
-            'X-Hub-Signature': 'sha1={}'.format(hmac_obj.hexdigest())
+            'X-Hub-Signature': f'sha1={hmac_obj.hexdigest()}'
         }
         request_ctx.data = data.encode()
 

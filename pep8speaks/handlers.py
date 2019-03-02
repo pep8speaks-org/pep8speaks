@@ -123,18 +123,14 @@ def _pep8ify(ghrequest, config):
     # Create a PR from the branch to the target repository
     helpers.create_pr(ghrequest)
 
-    comment = "Here you go with [the Pull Request]({}) ! The fixes are " \
-              "suggested by [autopep8](https://github.com/hhatto/autopep8).\n\n"
-    if ghrequest.reviewer == ghrequest.author:  # Both are the same person
-        comment += "@{} "
-        comment = comment.format(ghrequest.pr_url, ghrequest.reviewer)
-    else:
-        comment += "@{} @{} "
-        comment = comment.format(ghrequest.pr_url, ghrequest.reviewer,
-                                 ghrequest.author)
+    comment = (
+        f"Here you go with [the Pull Request]({ghrequest.pr_url}) ! The fixes are "
+        f"suggested by [autopep8](https://github.com/hhatto/autopep8).\n\n @{ghrequest.reviewer}"
+    )
+    if ghrequest.reviewer != ghrequest.author:  # Both are not the same person
+        comment += f" @{ghrequest.author}"
 
-    query = "/repos/{}/issues/{}/comments"
-    query = query.format(ghrequest.repository, str(ghrequest.pr_number))
+    query = f"/repos/{ghrequest.repository}/issues/{str(ghrequest.pr_number)}/comments"
     response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
@@ -151,20 +147,16 @@ def _create_diff(ghrequest, config):
     # Create the gist
     helpers.create_gist(ghrequest)
 
-    comment = "Here you go with [the gist]({}) !\n\n" + \
-              "> You can ask me to create a PR against this branch " + \
-              "with those fixes. Simply comment " + \
-              "`@pep8speaks pep8ify`.\n\n"
-    if ghrequest.reviewer == ghrequest.author:  # Both are the same person
-        comment += "@{} "
-        comment = comment.format(ghrequest.gist_url, ghrequest.reviewer)
-    else:
-        comment += "@{} @{} "
-        comment = comment.format(ghrequest.gist_url, ghrequest.reviewer,
-                                 ghrequest.author)
+    comment = (
+        f"Here you go with [the gist]({ghrequest.gist_url}) !\n\n"
+        f"> You can ask me to create a PR against this branch "
+        f"with those fixes. Simply comment "
+        f"`@pep8speaks pep8ify`.\n\n @{ghrequest.reviewer}"
+    )
+    if ghrequest.reviewer != ghrequest.author:  # Both are not the same person
+        comment += f" @{ghrequest.author}"
 
-    query = "/repos/{}/issues/{}/comments"
-    query = query.format(ghrequest.repository, str(ghrequest.pr_number))
+    query = f"/repos/{ghrequest.repository}/issues/{str(ghrequest.pr_number)}/comments"
     response = utils.query_request(query, method='POST', json={"body": comment})
     ghrequest.comment_response = response.json()
 
@@ -181,7 +173,7 @@ def handle_integration_installation(request):
     user = request.json["sender"]["login"]
     helpers.follow_user(user)
     response_object = {
-        "message": "Followed @{}".format(user)
+        "message": f"Followed @{user}"
     }
     return utils.Response(response_object)
 
@@ -196,7 +188,7 @@ def handle_integration_installation_repo(request):
         helpers.update_users(repo["full_name"])
 
     response_object = {
-        "message", "Added the following repositories : {}".format(str(repositories))
+        "message", f"Added the following repositories : {str(repositories)}"
     }
     return utils.Response(response_object)
 
