@@ -10,7 +10,7 @@
         },
         "no_errors": "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
     },
-    "scanner": {"diff_only": false},
+    "scanner": {"diff_only": true},
     "pycodestyle": {
         "ignore": [],
         "max-line-length": 79,
