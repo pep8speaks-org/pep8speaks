@@ -149,7 +149,7 @@ def _create_diff(ghrequest, config):
     helpers.autopep8(ghrequest, config)
 
     # Create the gist
-    helpers.create_gist(ghrequest, config)
+    helpers.create_gist(ghrequest)
 
     comment = "Here you go with [the gist]({})!\n\n" + \
               "> You can ask me to create a PR against this branch " + \
