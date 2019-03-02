@@ -1,6 +1,6 @@
-requests==2.11.1
+requests==2.21.0
 Flask-Session==0.3.0
-flask==0.11.1
+flask==1.0.2
 gunicorn==19.6.0
 pycodestyle>=2.3.0
 psycopg2==2.7.3.1
