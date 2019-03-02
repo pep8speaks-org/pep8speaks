@@ -176,61 +176,67 @@ def run_pycodestyle(ghrequest, config):
 
 
 def prepare_comment(ghrequest, config):
-    """Construct the string of comment i.e. its header, body and footer"""
+    """Construct the string of comment i.e. its header, body and footer."""
     author = ghrequest.author
     # Write the comment body
-    ## Header
+    # ## Header
     comment_header = ""
+    action_text = None
     if ghrequest.action == "opened":
-        if config["message"]["opened"]["header"] == "":
-            comment_header = "Hello @" + author + "! Thanks for submitting the PR.\n\n"
-        else:
-            comment_header = config["message"]["opened"]["header"] + "\n\n"
+        action_text = "opening"
     elif ghrequest.action in ["synchronize", "reopened"]:
-        if config["message"]["updated"]["header"] == "":
-            comment_header = "Hello @" + author + "! Thanks for updating the PR.\n\n"
-        else:
-            comment_header = config["message"]["updated"]["header"] + "\n\n"
+        action_text = "updating"
+    if action_text:
+        comment_header = config["message"][action_text[:-3] + "ed"]["header"]
+        if comment_header == "":
+            comment_header = (
+                "Hello @{author!s}! Thanks for {action_text} this PR. "
+                "We checked the lines you've touched for [PEP 8]"
+                "(https://www.python.org/dev/peps/pep-0008) issues, and found:"
+                .format(author=author, action_text=action_text))
+        comment_header = comment_header + "\n\n"
 
-    ## Body
+    # ## Body
     ERROR = False  # Set to True when any pep8 error exists
     comment_body = []
     for gh_file, issues in ghrequest.results.items():
-        if len(issues) == 0:
+        if not issues:
             if not config["only_mention_files_with_errors"]:
                 comment_body.append(
-                    " - There are no PEP8 issues in the"
-                    " file [`{0}`]({1}) !".format(gh_file, ghrequest.links[gh_file + "_link"]))
+                    "* In the file [`{0}`]({1}): No issues found."
+                    .format(gh_file, ghrequest.links[gh_file + "_link"]))
         else:
             ERROR = True
             comment_body.append(
-                " - In the file [`{0}`]({1}), following "
-                "are the PEP8 issues :\n".format(gh_file, ghrequest.links[gh_file + "_link"]))
+                "* In the file [`{0}`]({1}):\n"
+                .format(gh_file, ghrequest.links[gh_file + "_link"]))
             if config["descending_issues_order"]:
                 issues = issues[::-1]
 
             for issue in issues:
-                ## Replace filename with L
+                # Replace filename with L
                 error_string = issue.replace(gh_file + ":", "Line ")
 
-                ## Link error codes to search query
+                # Link error codes to search query
                 error_string_list = error_string.split(" ")
                 code = error_string_list[2]
                 code_url = "https://duckduckgo.com/?q=pep8%20{0}".format(code)
                 error_string_list[2] = "[{0}]({1})".format(code, code_url)
 
-                ## Link line numbers in the file
+                # Link line numbers in the file
                 line, col = error_string_list[1][:-1].split(":")
                 line_url = ghrequest.links[gh_file + "_link"] + "#L" + line
-                error_string_list[1] = "[{0}:{1}]({2}):".format(line, col, line_url)
+                error_string_list[1] = ("[{0}:{1}]({2}):"
+                                        .format(line, col, line_url))
                 error_string = " ".join(error_string_list)
                 error_string = error_string.replace("Line [", "[Line ")
                 comment_body.append("\n> {0}".format(error_string))
 
         comment_body.append("\n\n")
-        if len(ghrequest.extra_results[gh_file]) > 0:
-            comment_body.append(" - Complete extra results for this file :\n\n")
-            comment_body.append("> " + "".join(ghrequest.extra_results[gh_file]))
+        if ghrequest.extra_results[gh_file]:
+            comment_body.append("* Additional results for this file:\n\n")
+            comment_body.append(
+                "> " + "".join(ghrequest.extra_results[gh_file]))
             comment_body.append("---\n\n")
 
     if config["only_mention_files_with_errors"] and not ERROR:
@@ -238,12 +244,11 @@ def prepare_comment(ghrequest, config):
 
     comment_body = ''.join(comment_body)
 
-    ## Footer
+    # ## Footer
     comment_footer = []
-    if ghrequest.action == "opened":
-        comment_footer.append(config["message"]["opened"]["footer"])
-    elif ghrequest.action in ["synchronize", "reopened"]:
-        comment_footer.append(config["message"]["updated"]["footer"])
+    if action_text:
+        comment_footer.append(
+            config["message"][action_text[:-3] + "ed"]["footer"])
 
     comment_footer = ''.join(comment_footer)
 
@@ -315,8 +320,8 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
         ghrequest.comment_response = response.json()
     else:  # Update the last comment
         utc_time = datetime.datetime.utcnow()
-        time_now = utc_time.strftime("%B %d, %Y at %H:%M Hours UTC")
-        comment += f"\n\n##### Comment last updated on {time_now}"
+        time_now = utc_time.strftime("%Y-%m-%d %H:%M:%S UTC")
+        comment += f"\n\n##### Comment last updated at {time_now!s}"
 
         query = "/repos/{}/issues/comments/{}"
         query = query.format(ghrequest.repository, str(last_comment_id))
@@ -380,7 +385,7 @@ def create_gist(ghrequest):
     request_json = {}
     request_json["public"] = True
     request_json["files"] = {}
-    request_json["description"] = "In response to @{0}'s comment : {1}".format(
+    request_json["description"] = "In response to @{0}'s comment: {1}".format(
         ghrequest.reviewer, ghrequest.review_url)
 
     for diff_file, diffs in ghrequest.diff.items():
@@ -433,7 +438,7 @@ def update_fork_desc(ghrequest):
         r = utils.query_request(query)
         ATTEMPT += 1
         if ATTEMPT > 10:
-            ghrequest.error = "Forking is taking more than usual time"
+            ghrequest.error = "Forking is taking longer than usual"
             break
 
     full_name = ghrequest.target_repo_fullname
@@ -466,7 +471,7 @@ def create_new_branch(ghrequest):
     r = utils.query_request(query, method='POST', json=request_json)
 
     if r.status_code > 299:
-        ghrequest.error = "Could not create new branch in the fork"
+        ghrequest.error = "Could not create a new branch in the fork"
 
 
 def autopep8ify(ghrequest, config):
@@ -524,7 +529,7 @@ def commit(ghrequest):
         content_code = base64.b64encode(new_file.encode()).decode("utf-8")
         request_json = {
             "path": old_file,
-            "message": "Fix pep8 errors in {}".format(old_file),
+            "message": "Fix PEP 8 errors in {}".format(old_file),
             "content": content_code,
             "sha": sha_blob,
             "branch": ghrequest.new_branch,
@@ -536,7 +541,7 @@ def create_pr(ghrequest):
     query = "/repos/{}/pulls"
     query = query.format(ghrequest.target_repo_fullname)
     request_json = {
-        "title": "Fix pep8 errors",
+        "title": "Fix PEP 8 errors",
         "head": "pep8speaks:{}".format(ghrequest.new_branch),
         "base": ghrequest.target_repo_branch,
         "body": "The changes are suggested by autopep8",

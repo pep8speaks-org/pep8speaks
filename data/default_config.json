@@ -8,7 +8,7 @@
             "header": "",
             "footer": ""
         },
-        "no_errors": "Cheers ! There are no PEP8 issues in this Pull Request. :beers: "
+        "no_errors": "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
     },
     "scanner": {"diff_only": false},
     "pycodestyle": {

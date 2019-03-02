@@ -123,7 +123,7 @@ def _pep8ify(ghrequest, config):
     # Create a PR from the branch to the target repository
     helpers.create_pr(ghrequest)
 
-    comment = "Here you go with [the Pull Request]({}) ! The fixes are " \
+    comment = "Here you go with [the Pull Request]({})! The fixes are " \
               "suggested by [autopep8](https://github.com/hhatto/autopep8).\n\n"
     if ghrequest.reviewer == ghrequest.author:  # Both are the same person
         comment += "@{} "
@@ -151,7 +151,7 @@ def _create_diff(ghrequest, config):
     # Create the gist
     helpers.create_gist(ghrequest)
 
-    comment = "Here you go with [the gist]({}) !\n\n" + \
+    comment = "Here you go with [the gist]({})!\n\n" + \
               "> You can ask me to create a PR against this branch " + \
               "with those fixes. Simply comment " + \
               "`@pep8speaks pep8ify`.\n\n"
@@ -196,7 +196,8 @@ def handle_integration_installation_repo(request):
         helpers.update_users(repo["full_name"])
 
     response_object = {
-        "message", "Added the following repositories : {}".format(str(repositories))
+        "message", "Added the following repositories: {}"
+        .format(str(repositories))
     }
     return utils.Response(response_object)
 
