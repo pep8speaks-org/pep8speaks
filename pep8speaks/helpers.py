@@ -145,7 +145,7 @@ def run_pycodestyle(ghrequest, config):
             file_to_check.write(r.text)
 
         # Use the command line here
-        cmd = f'pycodestyle {config[pycodestyle_cmd_config]} file_to_check.py'
+        cmd = f'pycodestyle {config["pycodestyle_cmd_config"]} file_to_check.py'
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
         ghrequest.extra_results[filename] = stdout.decode(r.encoding).splitlines()
