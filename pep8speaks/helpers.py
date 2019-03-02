@@ -37,10 +37,13 @@ def follow_user(user):
     return utils.query_request(query=query, method='PUT', headers=headers)
 
 
-def get_config(repo, base_branch):
+def get_config(repo, base_branch, after_commit_hash):
     """
     Get .pep8speaks.yml config file from the repository and return
     the config dictionary
+
+    First look in the base branch of the Pull Request (general master branch).
+    If no file is found, then look for a file in the head branch of the Pull Request.
     """
 
     # Default configuration parameters
@@ -48,14 +51,23 @@ def get_config(repo, base_branch):
     with open(default_config_path) as config_file:
         config = json.loads(config_file.read())
 
+    new_config_text = ""
+
     # Configuration file
     query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/.pep8speaks.yml"
-
     r = utils.query_request(query)
 
     if r.status_code == 200:
+        new_config_text = r.text
+    else:  # Try to look for a config in the head branch of the Pull Request
+        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/.pep8speaks.yml"
+        r_new = utils.query_request(new_query)
+        if r_new.status_code == 200:
+            new_config_text = r_new.text
+
+    if len(new_config_text) > 0:
         try:
-            new_config = yaml.load(r.text)
+            new_config = yaml.load(new_config_text)
             # overloading the default configuration with the one specified
             config = utils.update_dict(config, new_config)
         except yaml.YAMLError:  # Bad YAML file

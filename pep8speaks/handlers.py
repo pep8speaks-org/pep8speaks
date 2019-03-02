@@ -17,7 +17,7 @@ def handle_pull_request(request):
     helpers.update_users(ghrequest.repository)
 
     # Get the config from .pep8speaks.yml file of the repository
-    config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
+    config = helpers.get_config(ghrequest.repository, ghrequest.base_branch, ghrequest.after_commit_hash)
 
     # Personalising the messages obtained from the config file
     # Replace {name} with name of the author
@@ -76,7 +76,7 @@ def handle_issue_comment(request):
         return utils.Response(ghrequest)
 
     # Get the .pep8speaks.yml config file from the repository
-    config = helpers.get_config(ghrequest.repository, ghrequest.base_branch)
+    config = helpers.get_config(ghrequest.repository, ghrequest.base_branch, ghrequest.after_commit_hash)
 
     splitted_comment = ghrequest.comment.lower().split()
 
