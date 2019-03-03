@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import base64
+import configparser
 import datetime
 import json
 import os
@@ -37,6 +38,54 @@ def follow_user(user):
     return utils.query_request(query=query, method='PUT', headers=headers)
 
 
+def read_setup_cfg_file(setup_config_file):
+    """Return a dictionary for pycodestyle section"""
+    setup_config = configparser.ConfigParser()
+    setup_config.read_string(setup_config_file)
+
+    setup_config_found = False
+    if setup_config.has_section("pycodestyle"):
+        setup_config_section = setup_config["pycodestyle"]
+        setup_config_found = True
+    elif setup_config.has_section("flake8"):
+        setup_config_section = setup_config["flake8"]
+        setup_config_found = True
+
+    new_config = {"pycodestyle": {}}
+
+    if not setup_config_found:
+        return new_config
+
+    print(setup_config_section)
+    # These ones are of type string
+    keys = ["max-line-length", "count", "first", "show-pep8", "show-source", "statistics", "hang-closing"]
+    for key in keys:
+        try:
+            value = setup_config_section[key]
+            value = value.split(" ")[0].strip(",#")  # In case there are comments on the line
+            if key == "max-line-length":
+                value = int(value)
+            new_config["pycodestyle"][key] = value
+        except KeyError:
+            pass
+
+    list_keys = ["ignore", "exclude", "filename", "select"]
+    for key in list_keys:
+        try:
+            value = setup_config_section[key]
+            items = []
+            for line in value.split("\n"):
+                item = line.split(" ")[0].strip(",#")
+                if len(item) > 0:
+                    items.append(item)
+                    new_config["pycodestyle"][key] = items
+        except KeyError:
+            pass
+
+    print("new_config", new_config)
+    return new_config
+
+
 def get_config(repo, base_branch, after_commit_hash):
     """
     Get .pep8speaks.yml config file from the repository and return
@@ -51,6 +100,25 @@ def get_config(repo, base_branch, after_commit_hash):
     with open(default_config_path) as config_file:
         config = json.loads(config_file.read())
 
+
+    # Read setup.cfg for [pycodestyle] or [flake8]
+    setup_config_file = ""
+    query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/setup.cfg"
+    r = utils.query_request(query)
+    if r.status_code == 200:
+        setup_config_file = r.text
+    else:  # Try to look for a config in the head branch of the Pull Request
+        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/setup.cfg"
+        r_new = utils.query_request(new_query)
+        if r_new.status_code == 200:
+            setup_config_file = r_new.text
+
+    if len(setup_config_file) > 0:
+        new_setup_config = read_setup_cfg_file(setup_config_file)
+        config = utils.update_dict(config, new_setup_config)
+
+    print("config after updating", config)
+    # Read .pep8speaks.yml
     new_config_text = ""
 
     # Configuration file
