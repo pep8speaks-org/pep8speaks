@@ -56,7 +56,7 @@ def read_setup_cfg_file(setup_config_file):
     if not setup_config_found:
         return new_config
 
-    print(setup_config_section)
+    # print(setup_config_section)
     # These ones are of type string
     keys = ["max-line-length", "count", "first", "show-pep8", "show-source", "statistics", "hang-closing"]
     for key in keys:
@@ -82,7 +82,7 @@ def read_setup_cfg_file(setup_config_file):
         except KeyError:
             pass
 
-    print("new_config", new_config)
+    # print("new_config", new_config)
     return new_config
 
 
@@ -117,7 +117,7 @@ def get_config(repo, base_branch, after_commit_hash):
         new_setup_config = read_setup_cfg_file(setup_config_file)
         config = utils.update_dict(config, new_setup_config)
 
-    print("config after updating", config)
+    # print("config after updating", config)
     # Read .pep8speaks.yml
     new_config_text = ""
 
