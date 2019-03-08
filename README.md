@@ -102,6 +102,8 @@ message:  # Customize the comment made by the bot
   </tbody>
 </table>
 
+See the [complete list of organizations and users](https://github.com/OrkoHunter/pep8speaks/wiki/List-of-users-and-orgs).
+
 # Miscellaneous features
 
  - Comment `@pep8speaks suggest diff` in a comment of the PR, and it will comment a gist of diff suggesting fixes for the PR. [Example](https://github.com/OrkoHunter/test-pep8speaks/pull/22#issuecomment-270826241)
