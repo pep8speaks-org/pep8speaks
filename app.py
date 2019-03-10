@@ -53,7 +53,7 @@ def create_app():
                 try:
                     return event_to_action[event](request)
                 except KeyError:
-                    handlers.handle_unsupported_requests(request)
+                    return handlers.handle_unsupported_requests(request)
         else:
             return render_template('index.html')
 
