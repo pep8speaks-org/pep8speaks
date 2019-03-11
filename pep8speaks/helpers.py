@@ -9,24 +9,18 @@ import re
 import subprocess
 import time
 
-import psycopg2
 import unidiff
 import yaml
 from pep8speaks import utils
 
 
 def update_users(repository):
-    """Update users of the integration in the database"""
-    if os.environ.get("OVER_HEROKU", False) is not False:
-        # Check if repository exists in database
-        query = f"INSERT INTO Users (repository, created_at) VALUES ('{repository}', now());"
-
-        # cursor and conn are bultins, defined in app.py
-        try:
-            cursor.execute(query)
-            conn.commit()
-        except psycopg2.IntegrityError:  # If already exists
-            conn.rollback()
+    """Star the repository from the bot account"""
+    headers = {
+        "Content-Length": "0",
+    }
+    query = f"/user/starred/{repository}"
+    return utils.query_request(query=query, method='PUT', headers=headers)
 
 
 def follow_user(user):
