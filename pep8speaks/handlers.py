@@ -188,7 +188,7 @@ def handle_integration_installation_repo(request):
         helpers.update_users(repo["full_name"])
 
     response_object = {
-        "message": f"Added the following repositories : {str(repositories)}"
+        "message": f"Starred the following repositories : {str(repositories)}"
     }
     return utils.Response(response_object)
 

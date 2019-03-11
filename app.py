@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-import builtins
 import os
-import urllib.parse as urlparse
 
-import psycopg2
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
 
@@ -11,25 +8,6 @@ from pep8speaks import handlers, utils
 
 
 def create_app():
-    # For running locally without connecting to the database
-    if os.environ.get("OVER_HEROKU", False) is not False:
-        urlparse.uses_netloc.append("postgres")
-        url = urlparse.urlparse(os.environ["DATABASE_URL"])
-
-        conn = psycopg2.connect(
-            database=url.path[1:],
-            user=url.username,
-            password=url.password,
-            host=url.hostname,
-            port=url.port
-        )
-
-        cursor = conn.cursor()
-
-        # Make the objects available across all the modules
-        builtins.conn = conn
-        builtins.cursor = cursor
-
     app = Flask(__name__)
     sess = Session()
 
