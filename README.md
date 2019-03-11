@@ -32,9 +32,11 @@ A GitHub :octocat: app to automatically review Python code style over Pull Reque
 pycodestyle:
     max-line-length: 100  # Default is 79 in PEP 8
     ignore:  # Errors and warnings to ignore
-        - W391
-        - E203
-        - W504
+        - W504  # line break after binary operator
+        - E402  # module level import not at top of file
+        - E731  # do not assign a lambda expression, use a def
+        - C406  # Unnecessary list literal - rewrite as a dict literal.
+        - E741  # ambiguous variable name
 
 scanner:
     diff_only: True  # If False, the entire file touched by the Pull Request is scanned for errors. If True, only the diff is scanned.
