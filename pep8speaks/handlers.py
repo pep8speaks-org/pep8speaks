@@ -171,9 +171,10 @@ def handle_integration_installation(request):
     Follow the user from the account of @pep8speaks on GitHub
     """
     user = request.json["sender"]["login"]
-    helpers.follow_user(user)
+    query_response = helpers.follow_user(user).content.decode("utf-8")
     response_object = {
-        "message": f"Followed @{user}"
+        "message": f"Followed @{user}",
+        "query_response": query_response
     }
     return utils.Response(response_object)
 
@@ -184,12 +185,17 @@ def handle_integration_installation_repo(request):
     """
     repositories = request.json["repositories_added"]
 
+    responses = []
     for repo in repositories:
-        helpers.update_users(repo["full_name"])
+        responses.append(helpers.update_users(repo["full_name"]).content.decode("utf-8"))
+
+    responses_str = "\n".join(responses)
 
     response_object = {
-        "message": f"Starred the following repositories : {str(repositories)}"
+        "message": f"Starred the following repositories : {str(repositories)}",
+        "responses": responses_str
     }
+
     return utils.Response(response_object)
 
 
