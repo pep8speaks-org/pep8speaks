@@ -28,7 +28,7 @@ def _util_general_flow(repo, pr_number, expected_comment):
     response_data = r.json()
     # assert len(response_data) == 1
     # assert response_data[0]['user']['login'] == 'pep8speaks'
-    comment_id =  response_data[0]['id']
+    comment_id = response_data[0]['id']
 
     # Delete the existing comment by @pep8speaks
     query = f"/repos/{repo}/issues/comments/{comment_id}"
@@ -78,7 +78,7 @@ def test_errors_without_pep8speaks_yml():
         "y leading '#' for block comment\n\n")
 
     responses, comment = _util_general_flow(repo, pr_number, expected_comment)
-    assert all(responses) == True
+    assert all(responses) is True
     assert comment == expected_comment
 
 
@@ -98,7 +98,7 @@ def test_errors_with_pep8speaks_yml():
     )
 
     responses, comment = _util_general_flow(repo, pr_number, expected_comment)
-    assert all(responses) == True
+    assert all(responses) is True
     assert comment == expected_comment
 
 
@@ -133,5 +133,5 @@ def test_errors_with_setup_cfg_and_pep8speaks_yml():
     )
 
     responses, comment = _util_general_flow(repo, pr_number, expected_comment)
-    assert all(responses) == True
+    assert all(responses) is True
     assert comment == expected_comment
