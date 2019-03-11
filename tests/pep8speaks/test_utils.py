@@ -1,4 +1,5 @@
 import hmac
+import os
 import pytest
 import werkzeug
 import mock
@@ -19,7 +20,7 @@ class TestUtils:
         assert mock_func.call_count == 1
         assert mock_func.call_args[0][0] == method
         assert mock_func.call_args[1]['headers'] == headers
-        assert mock_func.call_args[1]['auth'] == ('', '')
+        assert mock_func.call_args[1]['auth'] == (os.environ['BOT_USERNAME'], os.environ['GITHUB_TOKEN'])
         assert mock_func.call_args[1]['params'] == params
         assert mock_func.call_args[1]['json'] == json
         if query[0] == "/":

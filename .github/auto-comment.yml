@@ -1,0 +1,7 @@
+# Comment to a new PR.
+pullRequestOpened: >
+  :sparkling_heart: Thank you so much for raising the pull request! :sparkling_heart:
+
+  This pull request is going to be deployed on Heroku with payload URL https://pep8speaks-pr-xxx.herokuapp.com - The repository https://github.com/OrkoHunter/test-pep8speaks is configured to test review deployments like this.
+
+  @OrkoHunter please update the `Webhook URL` of the [test-pep8speaks app](https://github.com/settings/apps/test-pep8speaks) and restart CI to test this branch.
