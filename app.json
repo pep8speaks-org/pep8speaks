@@ -2,7 +2,7 @@
   "name": "PEP8Speaks",
   "description": "A GitHub integration to automatically review Python code style over Pull Requests",
   "repository": "https://github.com/OrkoHunter/pep8speaks",
-  "logo": "https://pep8speaks.com/img/my_logo.png",
+  "logo": "https://avatars1.githubusercontent.com/u/24736507?s=460&v=4",
   "website": "https://pep8speaks.com",
   "keywords": ["python"],
   "env" : {
