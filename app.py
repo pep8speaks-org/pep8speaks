@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
+import logging
 import os
+import sys
 
 from flask import Flask, render_template, redirect, request
 from flask_session import Session
@@ -10,6 +12,8 @@ from pep8speaks import handlers, utils
 def create_app():
     app = Flask(__name__)
     sess = Session()
+
+    logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
     @app.route("/", methods=['GET', 'POST'])
     def main():
