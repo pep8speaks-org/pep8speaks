@@ -211,3 +211,10 @@ def handle_unsupported_requests(request):
         "unsupported github event": request.headers["X-GitHub-Event"],
     }
     return utils.Response(response_object, 400)
+
+
+def handle_unauthorized_requests():
+    response_object = {
+        "message": "Unauthorized request"
+    }
+    return utils.Response(response_object, 401)
