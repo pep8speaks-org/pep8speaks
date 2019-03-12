@@ -28,7 +28,7 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
     # will enable debugging the requests
 
     # Create a new branch from the head branch for a new PR
-    new_branch = f"{head}-{uuid.uuid4().hex}"
+    new_branch = f"{uuid.uuid4().hex}-{head}"
     request_json = {
         "ref": f"refs/heads/{new_branch}",
         "sha": sha,
