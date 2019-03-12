@@ -25,7 +25,7 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
     print("Waiting is required to to avoid triggering GitHub API abuse")
 
     responses_ok = []  # Store all GitHub requests r.ok variable and assert at the end. This
-                       # will enable debugging the requests
+    # will enable debugging the requests
 
     # Create a new branch from the head branch for a new PR
     new_branch = f"{head}-{uuid.uuid4().hex}"
@@ -169,6 +169,3 @@ def test_errors_with_setup_cfg_and_pep8speaks_yml():
     responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
     assert all(responses) is True
     assert comment == expected_comment
-
-if __name__ == "__main__":
-    test_errors_with_pep8speaks_yml()
