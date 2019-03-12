@@ -40,10 +40,10 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
         print("New branch created!")
 
     # Create a pull request with the newly created branch and base branch on repo
-    if os.environ.get("TRAVIS_PULL_REQUEST", False):
-        pr_number = os.environ.get("TRAVIS_PULL_REQUEST")
-        pr_title = f"Testing PR #{os.environ} on OrkoHunter/PEP8Speaks"
-        pr_body = f"Testing https://github.com/OrkoHunter/pep8speaks/pull/{pr_number}\n\n"
+    TRAVIS_PR_NUMBER = os.environ.get("TRAVIS_PULL_REQUEST", False)
+    if TRAVIS_PR_NUMBER:
+        pr_title = f"Testing PR #{TRAVIS_PR_NUMBER} on OrkoHunter/PEP8Speaks"
+        pr_body = f"Testing https://github.com/OrkoHunter/pep8speaks/pull/{TRAVIS_PR_NUMBER}\n\n"
     else:
         pr_title = "Testing new changes"
         pr_body = "Not triggered by Travis.\n\n"
