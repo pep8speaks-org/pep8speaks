@@ -67,7 +67,7 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
     r = query_request(query=query, method="POST", json=request_body)
     responses_ok.append(r.ok)
     response_data = r.json()
-    print(response_data)
+    # print(response_data)
     test_pr_number = response_data['number']
     print(f"Test PR Number #{test_pr_number}")
 
@@ -79,7 +79,7 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
     r = query_request(query=query)
     responses_ok.append(r.ok)
     response_data = r.json()
-    print("response_data for comments check ", response_data)
+    # print("response_data for comments check ", response_data)
     comment = response_data[0]["body"]
 
     # Close the pull request
@@ -87,7 +87,7 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
     r = query_request(query=query, method="PATCH", json={'state': 'closed'})
     responses_ok.append(r.ok)
     print("For closing the PR")
-    print(r.content.decode("utf-8"))
+    # print(r.content.decode("utf-8"))
 
     # Delete the branch
     query = f"/repos/{repo}/git/refs/heads/{new_branch}"
