@@ -33,9 +33,10 @@ def create_app():
                     "issue_comment": handlers.handle_issue_comment,
                     "installation": handlers.handle_installation,
                 }
-                try:
+                supported_event = event in event_to_action
+                if supported_event:
                     return event_to_action[event](request)
-                except KeyError:
+                else:
                     return handlers.handle_unsupported_requests(request)
             else:
                 app.logger.info("Received an unauthorized request")
