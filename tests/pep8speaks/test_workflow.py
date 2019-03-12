@@ -187,7 +187,7 @@ def test_errors_with_flake8():
     head = "test-errors-with-flake8"
     sha = "b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a"
     expected_comment = (
-        "Hello @OrkoHunter! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://ww"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://ww"
         "w.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https://git"
         "hub.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/good_module.py"
         "):\n\n> [Line 2:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002daf"
