@@ -11,64 +11,94 @@
 [ ] Add a new commit to an opened PR with creating new issues with .pep8speaks.yml
 [ ] Add a new commit to an opened PR with creating new issues without .pep8speaks.yml
 """
+import os
 import time
+import uuid
 from pep8speaks.utils import query_request
 
 
-def _util_general_flow(repo, pr_number, expected_comment):
-    print(f"Testing https://github.com/{repo}/pull/{pr_number}")
+def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
+    # Get the list of sha of the repo at
+    # https://api.github.com/repos/OrkoHunter/test-pep8speaks/git/refs/heads/
 
-    responses = []
+    print(f"Testing https://github.com/{repo}/tree/{head}")
+    print("Waiting is required to to avoid triggering GitHub API abuse")
 
-    # Assuming only one comment is made and that too by @pep8speaks
-    query = f"/repos/{repo}/issues/{pr_number}/comments"
-    r = query_request(query=query)
-    # assert r.ok == True
-    responses.append(r.ok)
+    responses_ok = []  # Store all GitHub requests r.ok variable and assert at the end. This
+                       # will enable debugging the requests
+
+    # Create a new branch from the head branch for a new PR
+    new_branch = f"{head}-{uuid.uuid4().hex}"
+    request_json = {
+        "ref": f"refs/heads/{new_branch}",
+        "sha": sha,
+    }
+    query = f"/repos/{repo}/git/refs"
+    r = query_request(query, method="POST", json=request_json)
+    responses_ok.append(r.ok)
+    if r.ok:
+        print("New branch created!")
+
+    # Create a pull request with the newly created branch and base branch on repo
+    if os.environ.get("TRAVIS_PULL_REQUEST", False):
+        pr_number = os.environ.get("TRAVIS_PULL_REQUEST")
+        pr_title = f"Testing PR #{os.environ} on OrkoHunter/PEP8Speaks"
+        pr_body = f"Testing https://github.com/OrkoHunter/pep8speaks/pull/{pr_number}\n\n"
+    else:
+        pr_title = "Testing new changes"
+        pr_body = "Not triggered by Travis.\n\n"
+
+    pr_body += f"---\n*Expected Result -*\n\n---\n{expected_comment}\n---"
+
+    request_body = {
+        'title': pr_title,
+        'body': pr_body,
+        'base': base,
+        'head': new_branch
+    }
+
+    query = f"/repos/{repo}/pulls"
+    r = query_request(query=query, method="POST", json=request_body)
+    responses_ok.append(r.ok)
     response_data = r.json()
-    # assert len(response_data) == 1
-    # assert response_data[0]['user']['login'] == 'pep8speaks'
-    comment_id = response_data[0]['id']
+    print(response_data)
+    test_pr_number = response_data['number']
+    print(f"Test PR Number #{test_pr_number}")
 
-    # Delete the existing comment by @pep8speaks
-    query = f"/repos/{repo}/issues/comments/{comment_id}"
-    r = query_request(query=query, method="DELETE")
-    # assert r.ok == True
-    responses.append(r.ok)
+    # Wait for @pep8speaks to comment
+    time.sleep(20)
+
+    # Get the comment by @pep8speaks
+    query = f"/repos/{repo}/issues/{test_pr_number}/comments"
+    r = query_request(query=query)
+    responses_ok.append(r.ok)
+    response_data = r.json()
+    print("response_data for comments check ", response_data)
+    comment = response_data[0]["body"]
 
     # Close the pull request
-    query = f"/repos/{repo}/pulls/{pr_number}"
+    query = f"/repos/{repo}/pulls/{test_pr_number}"
     r = query_request(query=query, method="PATCH", json={'state': 'closed'})
-    # assert r.ok == True
-    responses.append(r.ok)
+    responses_ok.append(r.ok)
+    print("For closing the PR")
+    print(r.content.decode("utf-8"))
 
-    # Reopen the pull request
-    query = f"/repos/{repo}/pulls/{pr_number}"
-    r = query_request(query=query, method="PATCH", json={'state': 'open'})
-    # assert r.ok == True
-    responses.append(r.ok)
+    # Delete the branch
+    query = f"/repos/{repo}/git/refs/heads/{new_branch}"
+    r = query_request(query=query, method="DELETE")
+    responses_ok.append(r.ok)
 
-    # Now wait for 10 seconds for pep8speaks to comment
-    time.sleep(10)
-    # Verify the comment
-    query = f"/repos/{repo}/issues/{pr_number}/comments"
-    r = query_request(query=query)
-    # assert r.ok == True
-    responses.append(r.ok)
-    response_data = r.json()
-    # assert len(response_data) == 1
-    # assert response_data[0]['user']['login'] == 'pep8speaks'
-
-    comment = response_data[0]["body"]
-    return responses, comment
+    return responses_ok, comment
 
 
 def test_errors_without_pep8speaks_yml():
-    """See https://github.com/OrkoHunter/test-pep8speaks/pull/81"""
+    """See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
+    head = "test-errors-without-pep8speaks.yml"
+    sha = "7bd64e782f605d3a4f7388c0c993ebb344a952c4"
     pr_number = 81
     expected_comment = (
-        "Hello @OrkoHunter! Thanks for updating this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/7bd64e782f605d3a4f7388c0c993ebb344a952c4/modules/good_module"
         ".py):\n\n> [Line 14:80](https://github.com/OrkoHunter/test-pep8speaks/blob/7bd64e782f605d3a4f7388c0c993e"
@@ -77,17 +107,19 @@ def test_errors_without_pep8speaks_yml():
         "388c0c993ebb344a952c4/modules/good_module.py#L16): [E266](https://duckduckgo.com/?q=pep8%20E266) too man"
         "y leading '#' for block comment\n\n")
 
-    responses, comment = _util_general_flow(repo, pr_number, expected_comment)
+    responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
     assert all(responses) is True
     assert comment == expected_comment
 
 
 def test_errors_with_pep8speaks_yml():
-    """See https://github.com/OrkoHunter/test-pep8speaks/pull/82"""
+    """See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
+    head = "test-errors-with-pep8speaks.yml"
+    sha = "076c6c107250b61f9bec84230e5c2aa63c337901"
     pr_number = 82
     expected_comment = (
-        "Hello @OrkoHunter! Thanks for updating this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/076c6c107250b61f9bec84230e5c2aa63c337901/modules/good_module"
         ".py):\n\n> [Line 14:82](https://github.com/OrkoHunter/test-pep8speaks/blob/076c6c107250b61f9bec84230e5c2"
@@ -97,17 +129,19 @@ def test_errors_with_pep8speaks_yml():
         "ine contains whitespace\n\n"
     )
 
-    responses, comment = _util_general_flow(repo, pr_number, expected_comment)
+    responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
     assert all(responses) is True
     assert comment == expected_comment
 
 
 def test_errors_with_setup_cfg_and_pep8speaks_yml():
-    """See https://github.com/OrkoHunter/test-pep8speaks/pull/83"""
+    """See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
+    head = "test-errors-with-setup.cfg-and-pep8speaks.yml"
+    sha = "d2dfbb72f2e72758bad016b682e5f9a5a38d5599"
     pr_number = 83
     expected_comment = (
-        "Hello @OrkoHunter! Thanks for updating this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/d2dfbb72f2e72758bad016b682e5f9a5a38d5599/modules/good_module"
         ".py):\n\n> [Line 2:1](https://github.com/OrkoHunter/test-pep8speaks/blob/d2dfbb72f2e72758bad016b682e5f9a"
@@ -132,6 +166,9 @@ def test_errors_with_setup_cfg_and_pep8speaks_yml():
         "\n\n"
     )
 
-    responses, comment = _util_general_flow(repo, pr_number, expected_comment)
+    responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
     assert all(responses) is True
     assert comment == expected_comment
+
+if __name__ == "__main__":
+    test_errors_with_pep8speaks_yml()
