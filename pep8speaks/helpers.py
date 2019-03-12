@@ -110,7 +110,7 @@ def get_config(repo, base_branch, after_commit_hash):
 
     if len(setup_config_file) > 0:
         linter_cfg_config = read_setup_cfg_file(setup_config_file)
-        # Copy the cfg config for all linters
+        # Copy the setup.cfg config for all linters
         new_setup_config = {}
         for linter in linters:
             new_setup_config[linter] = linter_cfg_config
@@ -204,16 +204,17 @@ def check_pythonic_pr(repo, pr_number):
 
 def run_pycodestyle(ghrequest, config):
     """
-    Runs the pycodestyle cli tool on the files and update ghrequest
+    Runs the linter cli tool on the files and update ghrequest
     """
+    linter = config["scanner"]["linter"]  # Either pycodestyle or flake8
     repo = ghrequest.repository
     pr_number = ghrequest.pr_number
     commit = ghrequest.after_commit_hash
 
-    # Run pycodestyle
+    # Run linter
     ## All the python files with additions
     # A dictionary with filename paired with list of new line numbers
-    files_to_exclude = config["pycodestyle"]["exclude"]
+    files_to_exclude = config["linter"]["exclude"]
     py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
 
     ghrequest.links = {}  # UI Link of each updated file in the PR
