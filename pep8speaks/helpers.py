@@ -4,7 +4,9 @@ import base64
 import configparser
 import datetime
 import json
+import logging
 import os
+from pathlib import Path
 import re
 import subprocess
 import time
@@ -33,7 +35,7 @@ def follow_user(user):
 
 
 def read_setup_cfg_file(setup_config_file):
-    """Return a dictionary for pycodestyle section"""
+    """Return a dictionary for pycodestyle/flake8 section"""
     setup_config = configparser.ConfigParser()
     setup_config.read_string(setup_config_file)
 
@@ -45,12 +47,11 @@ def read_setup_cfg_file(setup_config_file):
         setup_config_section = setup_config["flake8"]
         setup_config_found = True
 
-    new_config = {"pycodestyle": {}}
+    linter_cfg_config = {}
 
     if not setup_config_found:
-        return new_config
+        return linter_cfg_config
 
-    # print(setup_config_section)
     # These ones are of type string
     keys = ["max-line-length", "count", "first", "show-pep8", "show-source", "statistics", "hang-closing"]
     for key in keys:
@@ -59,7 +60,7 @@ def read_setup_cfg_file(setup_config_file):
             value = value.split(" ")[0].strip(",#")  # In case there are comments on the line
             if key == "max-line-length":
                 value = int(value)
-            new_config["pycodestyle"][key] = value
+            linter_cfg_config[key] = value
         except KeyError:
             pass
 
@@ -72,12 +73,11 @@ def read_setup_cfg_file(setup_config_file):
                 item = line.split(" ")[0].strip(",#")
                 if len(item) > 0:
                     items.append(item)
-                    new_config["pycodestyle"][key] = items
+                    linter_cfg_config[key] = items
         except KeyError:
             pass
 
-    # print("new_config", new_config)
-    return new_config
+    return linter_cfg_config
 
 
 def get_config(repo, base_branch, after_commit_hash):
@@ -90,12 +90,13 @@ def get_config(repo, base_branch, after_commit_hash):
     """
 
     # Default configuration parameters
-    default_config_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'default_config.json')
-    with open(default_config_path) as config_file:
-        config = json.loads(config_file.read())
+    default_config = Path(__file__).absolute().parent.parent.joinpath("data", "default_pep8speaks.yml")
+    with open(default_config, "r") as config_file:
+        config = yaml.safe_load(config_file)
 
+    linters = ["pycodestyle", "flake8"]
 
-    # Read setup.cfg for [pycodestyle] or [flake8]
+    # Read setup.cfg for [pycodestyle] or [flake8] section
     setup_config_file = ""
     query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/setup.cfg"
     r = utils.query_request(query)
@@ -108,10 +109,13 @@ def get_config(repo, base_branch, after_commit_hash):
             setup_config_file = r_new.text
 
     if len(setup_config_file) > 0:
-        new_setup_config = read_setup_cfg_file(setup_config_file)
+        linter_cfg_config = read_setup_cfg_file(setup_config_file)
+        # Copy the cfg config for all linters
+        new_setup_config = {}
+        for linter in linters:
+            new_setup_config[linter] = linter_cfg_config
         config = utils.update_dict(config, new_setup_config)
 
-    # print("config after updating", config)
     # Read .pep8speaks.yml
     new_config_text = ""
 
@@ -135,22 +139,24 @@ def get_config(repo, base_branch, after_commit_hash):
         except yaml.YAMLError:  # Bad YAML file
             pass
 
-    # Create pycodestyle command line arguments
-    arguments = []
-    confs = config["pycodestyle"]
-    for key, value in confs.items():
-        if value:  # Non empty
-            if isinstance(value, int):
-                if isinstance(value, bool):
-                    arguments.append(f"--{key}")
-                else:
-                    arguments.append(f"--{key}={value}")
-            elif isinstance(value, list):
-                arguments.append(f"--{key}={','.join(value)}")
-    config["pycodestyle_cmd_config"] = f' {" ".join(arguments)}'
+    # Create pycodestyle and flake8 command line arguments
+    for linter in linters:
+        confs = config.get(linter, dict())
+        arguments = []
+        for key, value in confs.items():
+            if value:  # Non empty
+                if isinstance(value, int):
+                    if isinstance(value, bool):
+                        arguments.append(f"--{key}")
+                    else:
+                        arguments.append(f"--{key}={value}")
+                elif isinstance(value, list):
+                    arguments.append(f"--{key}={','.join(value)}")
+        config[f"{linter}_cmd_config"] = f' {" ".join(arguments)}'
 
-    # pycodestyle is case-sensitive
-    config["pycodestyle"]["ignore"] = [e.upper() for e in list(config["pycodestyle"]["ignore"])]
+    # linters are case-sensitive with error codes
+    for linter in linters:
+        config[linter]["ignore"] = [e.upper() for e in list(config[linter]["ignore"])]
 
     return config
 
@@ -219,7 +225,10 @@ def run_pycodestyle(ghrequest, config):
             file_to_check.write(r.text)
 
         # Use the command line here
-        cmd = f'pycodestyle {config["pycodestyle_cmd_config"]} file_to_check.py'
+        if config["scanner"]["linter"] == "flake8":
+            cmd = f'flake8 {config["flake8_cmd_config"]} file_to_check.py'
+        else:
+            cmd = f'pycodestyle {config["pycodestyle_cmd_config"]} file_to_check.py'
         proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         stdout, _ = proc.communicate()
         ghrequest.extra_results[filename] = stdout.decode(r.encoding).splitlines()
@@ -227,9 +236,15 @@ def run_pycodestyle(ghrequest, config):
         # Put only relevant errors in the ghrequest.results dictionary
         ghrequest.results[filename] = []
         for error in list(ghrequest.extra_results[filename]):
-            if re.search(r"^file_to_check.py:\d+:\d+:\s[WE]\d+\s.*", error):
+            relevant_error_pattern = r"^file_to_check.py:\d+:\d+:\s[WEF]\d+\s.*"
+            # Other error codes are B C D T
+            if re.search(relevant_error_pattern, error):
                 ghrequest.results[filename].append(error.replace("file_to_check.py", filename))
                 ghrequest.extra_results[filename].remove(error)
+
+        # Replace file_to_check.py with filename in all additional errors
+        extras = ghrequest.extra_results[filename]
+        ghrequest.extra_results[filename] = [e.replace("file_to_check.py", filename) for e in extras]
 
         ## Remove errors in case of diff_only = True
         ## which are caused in the whole file
@@ -301,10 +316,14 @@ def prepare_comment(ghrequest, config):
 
         comment_body.append("\n\n")
         if ghrequest.extra_results[gh_file]:
-            comment_body.append("* Additional results for this file:\n\n")
-            comment_body.append(
-                "> " + "".join(ghrequest.extra_results[gh_file]))
-            comment_body.append("---\n\n")
+            logging.debug("There are extra results which are not being printed.")
+            logging.debug(ghrequest.extra_results[gh_file])
+            # comment_body.append("* Additional results for this file:\n\n> ")
+            # comment_body.append(
+            #     "\n> ".join(ghrequest.extra_results[gh_file]))
+            # comment_body.append("\n---\n\n")
+            # Extra results are disabled now because flake8 generates a lot of error codes
+            # The acceptable ones are listed in relevant_error_pattern in run_pycodestyle
 
     if config["only_mention_files_with_errors"] and not ERROR:
         comment_body.append(config["message"]["no_errors"])
