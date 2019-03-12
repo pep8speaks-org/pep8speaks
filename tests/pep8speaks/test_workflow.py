@@ -1,25 +1,31 @@
-"""
-[ ] Create a new PR involving Python files with errors without .pep8speaks.yml
-[ ] Create a new PR involving Python files with errors with .pep8speaks.yml
-[ ] Create a new PR involving Python files without errors without .pep8speaks.yml
-[ ] Create a new PR involving Python files without errors with .pep8speaks.yml
-[ ] Create a new PR not involving Python files with errors
-[ ] Add a new commit to an opened PR with fixing the issues with .pep8speaks.yml
-[ ] Add a new commit to an opened PR with fixing the issues without .pep8speaks.yml
-[ ] Add a new commit to an opened PR with maintaining the issues with .pep8speaks.yml
-[ ] Add a new commit to an opened PR with maintaining the issues without .pep8speaks.yml
-[ ] Add a new commit to an opened PR with creating new issues with .pep8speaks.yml
-[ ] Add a new commit to an opened PR with creating new issues without .pep8speaks.yml
-"""
 import os
 import time
 import uuid
 from pep8speaks.utils import query_request
 
+"""
+**Testing workflow is as follows**
+* Each branch on https://github.com/OrkoHunter/test-pep8speaks correspond to a type of test.
+* The test functions create a new branch from the existing branches.
+* The new branches are then used to create a Pull Request on the master branch of the test repository.
+* Meanwhile, the PR responsible to run the tests gets deployed on a test Heroku app.
+* @OrkoHunter has to manually update Webhook URL of the test-PEP8Speaks app installed on the test repo. (This can be automated)
+* We then expect @pep8speaks to make the comment.
+* If the comment is not what we expected for if the bot does not comment at all, the test fails.
+* Finally, the test closes the PR and deletes the branch.
+
+**Keywords**
+head: The new branch which is used to create the Pull Request.
+base: The existing branch where the changes are supposed to pulled into.
+sha: sha of the latest commit in the corresponding test branches.
+     Get the list of sha of the repo at
+     https://api.github.com/repos/OrkoHunter/test-pep8speaks/git/refs/heads/
+
+"""
+
 
 def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
-    # Get the list of sha of the repo at
-    # https://api.github.com/repos/OrkoHunter/test-pep8speaks/git/refs/heads/
+    """Create a new Pull Request on a test repository and verify the comment by pep8speaks."""
 
     print(f"Testing https://github.com/{repo}/tree/{head}")
     print("Waiting is required to to avoid triggering GitHub API abuse")
@@ -92,11 +98,12 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
 
 
 def test_errors_without_pep8speaks_yml():
-    """See https://github.com/{repo}/tree/{head}"""
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the default configuration.
+
+    See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
     head = "test-errors-without-pep8speaks.yml"
     sha = "7bd64e782f605d3a4f7388c0c993ebb344a952c4"
-    pr_number = 81
     expected_comment = (
         "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
@@ -113,11 +120,12 @@ def test_errors_without_pep8speaks_yml():
 
 
 def test_errors_with_pep8speaks_yml():
-    """See https://github.com/{repo}/tree/{head}"""
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the .pep8speaks.yml file present in this (head) branch since the base branch does not contain any .pep8speaks.yml
+
+    See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
     head = "test-errors-with-pep8speaks.yml"
     sha = "076c6c107250b61f9bec84230e5c2aa63c337901"
-    pr_number = 82
     expected_comment = (
         "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
@@ -135,11 +143,12 @@ def test_errors_with_pep8speaks_yml():
 
 
 def test_errors_with_setup_cfg_and_pep8speaks_yml():
-    """See https://github.com/{repo}/tree/{head}"""
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the .pep8speaks.yml and setup.cfg file present in this (head) branch since the base branch does not contain those files.
+
+    See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
     head = "test-errors-with-setup.cfg-and-pep8speaks.yml"
     sha = "d2dfbb72f2e72758bad016b682e5f9a5a38d5599"
-    pr_number = 83
     expected_comment = (
         "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
@@ -164,6 +173,46 @@ def test_errors_with_setup_cfg_and_pep8speaks_yml():
         "nter/test-pep8speaks/blob/d2dfbb72f2e72758bad016b682e5f9a5a38d5599/modules/good_module.py#L40): [E305](h"
         "ttps://duckduckgo.com/?q=pep8%20E305) expected 2 blank lines after class or function definition, found 1"
         "\n\n"
+    )
+
+    responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
+    assert all(responses) is True
+    assert comment == expected_comment
+
+
+def test_errors_with_flake8():
+    """Use flake8 as linter and test its configuration."""
+
+    repo = "OrkoHunter/test-pep8speaks"
+    head = "test-errors-with-flake8"
+    sha = "b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a"
+    expected_comment = (
+        "Hello @OrkoHunter! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://ww"
+        "w.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https://git"
+        "hub.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/good_module.py"
+        "):\n\n> [Line 2:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002daf"
+        "d71a/modules/good_module.py#L2): [E265](https://duckduckgo.com/?q=pep8%20E265) block comment should start "
+        "with '# '\n> [Line 9:18](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a"
+        "002dafd71a/modules/good_module.py#L9): [F821](https://duckduckgo.com/?q=pep8%20F821) undefined name 'htabl"
+        "e'\n> [Line 9:44](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd7"
+        "1a/modules/good_module.py#L9): [F821](https://duckduckgo.com/?q=pep8%20F821) undefined name 'values'\n> [Li"
+        "ne 13:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/module"
+        "s/good_module.py#L13): [E302](https://duckduckgo.com/?q=pep8%20E302) expected 2 blank lines, found 1\n> [Li"
+        "ne 13:11](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modul"
+        "es/good_module.py#L13): [E203](https://duckduckgo.com/?q=pep8%20E203) whitespace before ':'\n> [Line 14:83]"
+        "(https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/good_m"
+        "odule.py#L14): [E501](https://duckduckgo.com/?q=pep8%20E501) line too long (155 > 82 characters)\n> [Line 1"
+        "6:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/go"
+        "od_module.py#L16): [W293](https://duckduckgo.com/?q=pep8%20W293) blank line contains whitespace\n> [Line 17"
+        ":5](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/goo"
+        "d_module.py#L17): [E266](https://duckduckgo.com/?q=pep8%20E266) too many leading '#' for block comment\n> ["
+        "Line 18:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modu"
+        "les/good_module.py#L18): [W293](https://duckduckgo.com/?q=pep8%20W293) blank line contains whitespace\n> [L"
+        "ine 19:11](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modu"
+        "les/good_module.py#L19): [E225](https://duckduckgo.com/?q=pep8%20E225) missing whitespace around operator\n"
+        "> [Line 40:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/m"
+        "odules/good_module.py#L40): [E305](https://duckduckgo.com/?q=pep8%20E305) expected 2 blank lines after clas"
+        "s or function definition, found 1\n\n"
     )
 
     responses, comment = create_a_new_pr(repo, expected_comment, head, sha)
