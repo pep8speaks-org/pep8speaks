@@ -12,6 +12,10 @@ cache:
 install:
   - pip install -r requirements/test.txt
 
+before_script:
+  - echo "Waiting 60 seconds for new deployment of the branch"
+  - sleep 60s
+
 script:
   - pytest
 
