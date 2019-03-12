@@ -58,11 +58,6 @@ def handle_pull_request(request):
     if not helpers.comment_permission_check(ghrequest):
         return utils.Response(ghrequest)
 
-    # Do not run on PR's created by pep8speaks which use autopep8
-    # Too much noisy
-    if ghrequest.author == "pep8speaks":
-        return utils.Response(ghrequest)
-
     # NOW, Interact with the PR and make/update the comment
     helpers.create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CREATE)
 
