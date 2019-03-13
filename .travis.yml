@@ -13,6 +13,7 @@ install:
   - pip install -r requirements/test.txt
 
 script:
+  - echo "Make sure you the review app of this branch is deployed and configured in the test-pep8speaks app"
   - pytest
 
 notifications:

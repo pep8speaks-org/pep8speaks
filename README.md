@@ -21,7 +21,8 @@ A GitHub :octocat: app to automatically review Python code style over Pull Reque
 - The bot makes **a single comment on the Pull Request and keeps updating it** on new commits. No hustle on emails !
 - The bot **comments only if Python files are involved**. So, install the integration on all of your repositories. The bot would not comment where it should not.
 - By default, the bot does not comment if there are no PEP 8 issues. You can change this in configuration.
-- The bot can read `setup.cfg` for `[flake8]` or `[pycodestyle]` section for PEP 8 customization. Check out the `Configuration` section below.
+- **You can use choose between `pycodestyle` or `flake8` as your linter.** The bot can read configurations for both.
+- The bot can read your `setup.cfg` for `[flake8]` and `[pycodestyle]` sections. Check out the `Configuration` section below.
 
 # Configuration
 **A config file is not required for the integration to work**. However it can be configured additionally by adding a `.pep8speaks.yml` file in the root of the project. Here is an example :
@@ -29,7 +30,11 @@ A GitHub :octocat: app to automatically review Python code style over Pull Reque
 ```yaml
 # File : .pep8speaks.yml
 
-pycodestyle:
+scanner:
+    diff_only: True  # If False, the entire file touched by the Pull Request is scanned for errors. If True, only the diff is scanned.
+    linter: pycodestyle  # Other option is flake8
+
+pycodestyle:  # Same as scanner.linter value. Other option is flake8
     max-line-length: 100  # Default is 79 in PEP 8
     ignore:  # Errors and warnings to ignore
         - W504  # line break after binary operator
@@ -38,12 +43,8 @@ pycodestyle:
         - C406  # Unnecessary list literal - rewrite as a dict literal.
         - E741  # ambiguous variable name
 
-scanner:
-    diff_only: True  # If False, the entire file touched by the Pull Request is scanned for errors. If True, only the diff is scanned.
-
 no_blank_comment: True  # If True, no comment is made on PR without any errors.
 descending_issues_order: False  # If True, PEP 8 issues in message will be displayed in descending order of line numbers in the file
-only_mention_files_with_errors: True  # If False, a separate status section for each file is made in the comment.
 
 message:  # Customize the comment made by the bot
     opened:  # Messages when a new PR is submitted
@@ -58,12 +59,16 @@ message:  # Customize the comment made by the bot
 ```
 
 **Notes:**
-- Default settings are in [data/default_config.json](data/default_config.json). Your `.pep8speaks.yml` will override these values.
+- Default settings are in [data/default_pep8speaks.yml](data/default_pep8speaks.yml). Your `.pep8speaks.yml` will override these values.
 - For every Pull Request, the bot looks for `.pep8speaks.yml` in the `base` branch (the existing one). If the file is not found, it then searches the `head` branch (the incoming changes).
-- For pycodestyle/flake8 configurations (like `ignore` or `max-line-length`), PEP8Speaks will look and prioritize configurations in the following order :
-  - `pycodestyle:` section of `.pep8speaks.yml`
+- Set the value of `scanner.linter` to either `pycodestyle` or `flake8`
+  - flake8 is a wrapper around pycodestyle with additional enforcements.
+- For linter configurations (like `ignore` or `max-line-length`), PEP8Speaks will look and prioritize configurations in the following order :
+  - `pycodestyle:` or `flake8:` section of `.pep8speaks.yml`.
+    - This depends upon the `scanner.linter` value.
   - `[pycodestyle]` or `[flake8]` section of `setup.cfg` file in the root of the project.
-- Read more about the [pycodestyle options](https://pycodestyle.readthedocs.io/en/latest/intro.html#example-usage-and-output)
+    - This is independent of `scanner.linter`. So, `[flake8]` section of `setup.cfg` will also work for pycodestyle.
+- Read more on [pycodestyle](http://pycodestyle.pycqa.org/en/latest/) and [flake8](http://flake8.pycqa.org/en/latest/) documentation.
 
 # Popular Users
 
