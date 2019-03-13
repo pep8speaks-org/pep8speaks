@@ -131,9 +131,18 @@ This app will only work for publicly hosted repositories. So if you are looking 
 
 Updates to the app are announced using the GitHub Release feature over [here](https://github.com/OrkoHunter/pep8speaks/releases). A lot of major changes are made as the community grows bigger. Click on `Watch` -> `Releases only` on top of the page, to get notified about new configurations or feature updates.
 
-# Contribute
+# Support
 
-If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Also, if you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter) :)
+You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Also, if you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter) :)
+
+The project requires to be hosted on a server and due to which, it needs financial support as well.
+
+Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pep8speaks/wiki/Funding).
+
+[![https://opencollective.com/pep8speaks/](https://opencollective.com/pep8speaks/tiers/backer.svg?avatarHeight=36)](https://opencollective.com/pep8speaks)
+[![Donate](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/orkohunter)
+
 
 :heart:
 
