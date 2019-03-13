@@ -2,13 +2,13 @@
 
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
-<h1 align="center"><img src=".github/logo.png"></h1>
+<h1 align="center"><img src="logo.png"></h1>
 
 > "PEP 8 unto thyself, not unto others" - Raymond Hettinger
 
 # Example
 
-<img src=".github/action.gif">
+<img src="action.gif">
 
 # How to Use?
 
