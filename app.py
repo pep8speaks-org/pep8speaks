@@ -3,7 +3,7 @@ import logging
 import os
 import sys
 
-from flask import Flask, render_template, redirect, request
+from flask import Flask, redirect, request
 from flask_session import Session
 
 from pep8speaks import handlers, utils

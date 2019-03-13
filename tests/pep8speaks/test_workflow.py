@@ -9,7 +9,8 @@ from pep8speaks.utils import query_request
 * The test functions create a new branch from the existing branches.
 * The new branches are then used to create a Pull Request on the master branch of the test repository.
 * Meanwhile, the PR responsible to run the tests gets deployed on a test Heroku app.
-* @OrkoHunter has to manually update Webhook URL of the test-PEP8Speaks app installed on the test repo. (This can be automated)
+* @OrkoHunter has to manually update Webhook URL of the test-PEP8Speaks app installed on the test
+  repo. (This can be automated)
 * We then expect @pep8speaks to make the comment.
 * If the comment is not what we expected for if the bot does not comment at all, the test fails.
 * Finally, the test closes the PR and deletes the branch.
@@ -98,7 +99,8 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
 
 
 def test_errors_without_pep8speaks_yml():
-    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the default configuration.
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the
+       default configuration.
 
     See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
@@ -120,7 +122,8 @@ def test_errors_without_pep8speaks_yml():
 
 
 def test_errors_with_pep8speaks_yml():
-    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the .pep8speaks.yml file present in this (head) branch since the base branch does not contain any .pep8speaks.yml
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the
+       .pep8speaks.yml file present in this (head) branch since the base branch does not contain any .pep8speaks.yml
 
     See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
@@ -143,7 +146,9 @@ def test_errors_with_pep8speaks_yml():
 
 
 def test_errors_with_setup_cfg_and_pep8speaks_yml():
-    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the .pep8speaks.yml and setup.cfg file present in this (head) branch since the base branch does not contain those files.
+    """This Pull Request introduces PEP 8 errors to a Python file. Errors should be reported here with the
+       .pep8speaks.yml and setup.cfg file present in this (head) branch since the base branch does not contain
+       those files.
 
     See https://github.com/{repo}/tree/{head}"""
     repo = "OrkoHunter/test-pep8speaks"
