@@ -59,7 +59,7 @@ message:  # Customize the comment made by the bot
 ```
 
 **Notes:**
-- Default settings are in [data/default_pep8speaks.yml](data/default_pep8speaks.yml). Your `.pep8speaks.yml` will override these values.
+- Default settings are in [data/default_pep8speaks.yml](/data/default_pep8speaks.yml). Your `.pep8speaks.yml` will override these values.
 - For every Pull Request, the bot looks for `.pep8speaks.yml` in the `base` branch (the existing one). If the file is not found, it then searches the `head` branch (the incoming changes).
 - Set the value of `scanner.linter` to either `pycodestyle` or `flake8`
   - flake8 is a wrapper around pycodestyle with additional enforcements.
