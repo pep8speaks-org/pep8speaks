@@ -8,7 +8,7 @@ class GHRequest(object):
         self.request = request.json
         self.event = event
 
-        self.OK = self._is_request_valid(request, event)
+        self.OK = self._is_request_valid(self.request, event)
 
         # Dictionary with filename matched with corresponding list of results
         self.results = {}
@@ -22,6 +22,7 @@ class GHRequest(object):
 
         # Generic object for the pull request of payload
         self.pull_request = self._get_pull_request(request, event)
+
 
         self._set_properties(request, event)
 
@@ -42,12 +43,17 @@ class GHRequest(object):
         return pull_request
 
     def _is_request_valid(self, request, event):
+        # The bot should be able to access the repository
+        r = utils.query_request(request['repository']['url'])
+        if not r.ok:
+            return False
+
         # A valid pull request payload can only be created or updated with commits
         if event == 'pull_request':
-            if request.json['action'] in ['synchronize', 'opened', 'reopened']:
+            if request['action'] in ['synchronize', 'opened', 'reopened']:
                 return True
         elif event == 'issue_comment':
-            if request.json['action'] in ('created', 'edited') and 'pull_request' in request.json['issue']:
+            if request['action'] in ('created', 'edited') and 'pull_request' in request.json['issue']:
                 return True
 
         return False
