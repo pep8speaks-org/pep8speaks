@@ -165,6 +165,13 @@ Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pe
           <p>CCExtractor</p>
         </a>
       </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/debugger22">
+          <img width="150" height="150" src="https://avatars3.githubusercontent.com/u/2821646?s=400&v=4">
+          <br><br>
+          <p>Sudhanshu Mishra</p>
+        </a>
+      </td>
     </tr>
-  </tbody>
+</tbody>
 </table>
