@@ -156,7 +156,8 @@ def get_config(repo, base_branch, after_commit_hash):
 
     # linters are case-sensitive with error codes
     for linter in linters:
-        config[linter]["ignore"] = [e.upper() for e in list(config[linter]["ignore"])]
+        if config[linter]["ignore"]:
+            config[linter]["ignore"] = [e.upper() for e in list(config[linter]["ignore"])]
 
     return config
 
