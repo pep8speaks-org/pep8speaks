@@ -168,3 +168,28 @@ If you use this project and you like it, [please let me know](https://saythanks.
 <sub><sup><sub>This project does not endorse all of the rules of the original PEP 8 and thus believes in customizing pycodestyle.
 
 <sub><sup><sub>[.](https://github.com/OrkoHunter/python-easter-eggs)
+
+<h2 align="center">Silver Sponsors</h2>
+
+[Become a Silver Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.com).
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://ccextractor.org">
+          <img width="150" height="150" src="https://raw.githubusercontent.com/CCExtractor/ccextractor-org-media/master/static/ccx_logo_transparent_800x600.png">
+          <br><br>
+          <p>CCExtractor</p>
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/debugger22">
+          <img width="150" height="150" src="https://avatars3.githubusercontent.com/u/2821646?s=400&v=4">
+          <br><br>
+          <p>Sudhanshu Mishra</p>
+        </a>
+      </td>
+    </tr>
+</tbody>
+</table>

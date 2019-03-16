@@ -53,7 +53,7 @@ class GHRequest(object):
             if request['action'] in ['synchronize', 'opened', 'reopened']:
                 return True
         elif event == 'issue_comment':
-            if request['action'] in ('created', 'edited') and 'pull_request' in request.json['issue']:
+            if request['action'] in ('created', 'edited') and 'pull_request' in request['issue']:
                 return True
 
         return False
