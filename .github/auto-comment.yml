@@ -8,4 +8,4 @@ pullRequestOpened: >
 
   @OrkoHunter Create a review app for this PR on Heroku and  update the `Webhook URL` of the [test-pep8speaks app](https://github.com/settings/apps/test-pep8speaks). Finally restart Travis to test this PR.
 
-  Remember to redeploy the production app and revert the Webhook URL when the Pull Request is merged.
+  Remember to deploy the production app and revert the Webhook URL of the test GitHub app when the Pull Request is merged.

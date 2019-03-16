@@ -1,21 +1,36 @@
-# PEP 8 Speaks [![Build Status](https://travis-ci.org/OrkoHunter/pep8speaks.svg?branch=master)](https://travis-ci.org/OrkoHunter/pep8speaks) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OrkoHunter) [![Donate on liberapay](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
+# PEP 8 Speaks [![Build Status](https://travis-ci.org/OrkoHunter/pep8speaks.svg?branch=master)](https://travis-ci.org/OrkoHunter/pep8speaks) ![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OrkoHunter) [![Donate on liberapay](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
 
 
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
-<h1 align="center"><img src="logo.png"></h1>
+<p align="center">
+    <img src="logo.png">
+</p>
 
-> "PEP 8 unto thyself, not unto others" - Raymond Hettinger
+Table of Contents
+=================
+
+   * [Installation](#installation)
+   * [Example](#example)
+   * [Main features](#main-features)
+   * [Configuration](#configuration)
+   * [Popular Users](#popular-users)
+   * [Miscellaneous features](#miscellaneous-features)
+   * [Private repos](#private-repos)
+   * [How to fix PEP 8 issues?](#how-to-fix-pep-8-issues)
+   * [Release announcements](#release-announcements)
+   * [Contributing](#contributing)
+
+# Installation
+
+ - Go to the homepage of the app - https://github.com/apps/pep8-speaks
+ - Click on the Configure button
+ - Add repositories or organizations to activate PEP 8 Speaks
 
 # Example
 
 <img src="action.gif">
 
-# How to Use?
-
- - Go to the homepage of the app - https://github.com/apps/pep8-speaks
- - Click on the Configure button
- - Add repositories or organizations to activate PEP8Speaks
 
 # Main features
 
@@ -132,9 +147,11 @@ This app will only work for publicly hosted repositories. So if you are looking 
 
 Updates to the app are announced using the GitHub Release feature over [here](https://github.com/OrkoHunter/pep8speaks/releases). A lot of major changes are made as the community grows bigger. Click on `Watch` -> `Releases only` on top of the page, to get notified about new configurations or feature updates.
 
-# Support
+Usually, the master branch is deployed as soon as Pull Requests are merged in the repository. However, on every Friday, I  make a release and make sure the latest code is deployed. You do not need to do anything to use the latest version. If you use a fork of PEP 8 Speaks, check out the Release space.
 
-You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Also, if you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter) :)
+# Contributing
+
+You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Read [CONTRIBUTING](/.github/CONTRBUTING.md) doc to understand how the project works and how you can make changes.
 
 The project requires to be hosted on a server and due to which, it needs financial support as well.
 
@@ -144,6 +161,7 @@ Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pe
 [![Donate](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/orkohunter)
 
+If you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter). Thanks!
 
 :heart:
 
