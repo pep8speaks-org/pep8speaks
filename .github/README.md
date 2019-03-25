@@ -169,6 +169,25 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <sub><sup><sub>[.](https://github.com/OrkoHunter/python-easter-eggs)
 
+<h2 align="center">Gold Sponsors</h2>
+
+[Become a Gold Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.com).
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://www.python.org/psf/">
+          <img width="100" height="184" src="https://wiki.python.org/psf/Logo?action=AttachFile&do=get&target=PSF-vertical-F.png">
+          <br><br>
+          <p>Python Software Foundation</p>
+        </a>
+      </td>
+    </tr>
+</tbody>
+</table>
+
+
 <h2 align="center">Silver Sponsors</h2>
 
 [Become a Silver Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.com).
