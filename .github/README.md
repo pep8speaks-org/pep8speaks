@@ -151,7 +151,7 @@ Usually, the master branch is deployed as soon as Pull Requests are merged in th
 
 # Contributing
 
-You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Read [CONTRIBUTING](/.github/CONTRBUTING.md) doc to understand how the project works and how you can make changes.
+You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Read [CONTRIBUTING](/.github/CONTRIBUTING.md) doc to understand how the project works and how you can make changes.
 
 The project requires to be hosted on a server and due to which, it needs financial support as well.
 
