@@ -7,7 +7,7 @@ import os
 from flask import abort
 from flask import Response as FResponse
 import requests
-from pep8speaks.constants import AUTH, BASE_URL
+from pep8speaks.constants import AUTH, GH_API
 
 
 def query_request(query=None, method="GET", **kwargs):
@@ -19,7 +19,7 @@ def query_request(query=None, method="GET", **kwargs):
     """
 
     if query[0] == "/":
-        query = BASE_URL + query
+        query = 'https://' + GH_API + query
 
     request_kwargs = {
         "auth": AUTH,

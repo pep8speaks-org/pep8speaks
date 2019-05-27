@@ -14,6 +14,7 @@ import time
 import unidiff
 import yaml
 from pep8speaks import utils
+from pep8speaks.constants import GH_BASE, GH_RAW
 
 
 def update_users(repository):
@@ -98,12 +99,12 @@ def get_config(repo, base_branch, after_commit_hash):
 
     # Read setup.cfg for [pycodestyle] or [flake8] section
     setup_config_file = ""
-    query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/setup.cfg"
+    query = f"https://{GH_RAW}/{repo}/{base_branch}/setup.cfg"
     r = utils.query_request(query)
     if r.status_code == 200:
         setup_config_file = r.text
     else:  # Try to look for a config in the head branch of the Pull Request
-        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/setup.cfg"
+        new_query = f"https://{GH_RAW}/{repo}/{after_commit_hash}/setup.cfg"
         r_new = utils.query_request(new_query)
         if r_new.status_code == 200:
             setup_config_file = r_new.text
@@ -120,13 +121,13 @@ def get_config(repo, base_branch, after_commit_hash):
     new_config_text = ""
 
     # Configuration file
-    query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/.pep8speaks.yml"
+    query = f"https://{GH_RAW}/{repo}/{base_branch}/.pep8speaks.yml"
     r = utils.query_request(query)
 
     if r.status_code == 200:
         new_config_text = r.text
     else:  # Try to look for a config in the head branch of the Pull Request
-        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/.pep8speaks.yml"
+        new_query = f"https://{GH_RAW}/{repo}/{after_commit_hash}/.pep8speaks.yml"
         r_new = utils.query_request(new_query)
         if r_new.status_code == 200:
             new_config_text = r_new.text
@@ -221,7 +222,7 @@ def run_pycodestyle(ghrequest, config):
     ghrequest.links = {}  # UI Link of each updated file in the PR
     for py_file in py_files:
         filename = py_file[1:]
-        query = f"https://raw.githubusercontent.com/{repo}/{commit}/{py_file}"
+        query = f"https://{GH_RAW}/{repo}/{commit}/{py_file}"
         r = utils.query_request(query)
         with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
             file_to_check.write(r.text)
@@ -256,7 +257,7 @@ def run_pycodestyle(ghrequest, config):
                     ghrequest.results[filename].remove(error)
 
         ## Store the link to the file
-        url = f"https://github.com/{repo}/blob/{commit}{py_file}"
+        url = f"https://{GH_BASE}/{repo}/blob/{commit}{py_file}"
         ghrequest.links[filename + "_link"] = url
         os.remove("file_to_check.py")
 
@@ -442,7 +443,7 @@ def autopep8(ghrequest, config):
 
     for py_file in py_files:
         filename = py_file[1:]
-        url = f"https://raw.githubusercontent.com/{ghrequest.repository}/{ghrequest.sha}/{py_file}"
+        url = f"https://{GH_RAW}/{ghrequest.repository}/{ghrequest.sha}/{py_file}"
         r = utils.query_request(url)
         with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)
@@ -458,7 +459,7 @@ def autopep8(ghrequest, config):
 
         ## Store the link to the file
         ghrequest.links = {}
-        ghrequest.links[filename + "_link"] = f"https://github.com/{ghrequest.repository}/blob/{ghrequest.sha}{py_file}"
+        ghrequest.links[filename + "_link"] = f"https://{GH_BASE}/{ghrequest.repository}/blob/{ghrequest.sha}{py_file}"
         os.remove("file_to_fix.py")
 
 
@@ -578,7 +579,7 @@ def autopep8ify(ghrequest, config):
 
     for py_file in py_files:
         filename = py_file[1:]
-        query = f"https://raw.githubusercontent.com/{ghrequest.repository}/{ghrequest.sha}/{py_file}"
+        query = f"https://{GH_RAW}/{ghrequest.repository}/{ghrequest.sha}/{py_file}"
         r = utils.query_request(query)
         with open("file_to_fix.py", 'w+', encoding=r.encoding) as file_to_fix:
             file_to_fix.write(r.text)

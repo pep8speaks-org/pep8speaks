@@ -4,7 +4,7 @@ import pytest
 import werkzeug
 import mock
 from pep8speaks.utils import update_dict, match_webhook_secret, query_request
-from pep8speaks.constants import BASE_URL
+from pep8speaks.constants import GH_API
 
 
 class TestUtils:
@@ -24,7 +24,7 @@ class TestUtils:
         assert mock_func.call_args[1]['params'] == params
         assert mock_func.call_args[1]['json'] == json
         if query[0] == "/":
-            assert mock_func.call_args[0][1] == BASE_URL + query
+            assert mock_func.call_args[0][1] == 'https://' + GH_API + query
         else:
             assert mock_func.call_args[0][1] == query
 
