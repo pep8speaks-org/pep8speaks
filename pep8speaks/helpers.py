@@ -486,7 +486,7 @@ def create_gist(ghrequest):
 def delete_if_forked(ghrequest):
     FORKED = False
     query = "/user/repos"
-    r = utils.query_request(query)
+    r = utils.query_request(query, params={'affiliation': 'owner'})
     for repo in r.json():
         if repo["description"]:
             if ghrequest.target_repo_fullname in repo["description"]:
