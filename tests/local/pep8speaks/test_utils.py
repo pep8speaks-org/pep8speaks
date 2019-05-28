@@ -14,7 +14,7 @@ class TestUtils:
     ])
     def test_request(self, mocker, query, method, json, data, headers, params):
         mock_func = mock.MagicMock(return_value=True)
-        mocker.patch('requests.request', mock_func)
+        mocker.patch('requests.Session.request', mock_func)
         query_request(query, method, json=json, data=data,
                       headers=headers, params=params)
         assert mock_func.call_count == 1
