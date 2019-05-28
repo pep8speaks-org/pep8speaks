@@ -419,7 +419,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
 def autopep8(ghrequest, config):
     # Run pycodestyle
 
-    r = utils.query_request(ghrequest.diff_url)
+    r = ghrequest.fetch_diff()
     ## All the python files with additions
     patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
 
@@ -554,7 +554,7 @@ def create_new_branch(ghrequest):
 
 def autopep8ify(ghrequest, config):
     # Run pycodestyle
-    r = utils.query_request(ghrequest.diff_url)
+    r = ghrequest.fetch_diff()
 
     ## All the python files with additions
     patch = unidiff.PatchSet(r.content.splitlines(), encoding=r.encoding)
