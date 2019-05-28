@@ -75,7 +75,7 @@ class GHRequest(object):
         self.sha = self.pull_request['head']['sha']
         self.action = request.json['action']
         self.author = self.pull_request['user']['login']
-        self.pr_desc = self.pull_request['body']
+        self.pr_desc = self.pull_request['body'] if self.pull_request['body'] is not None else ''
         self.diff_url = self.pull_request['diff_url']
         self.pr_title = self.pull_request['title']
         self.pr_number = self.pull_request['number']
