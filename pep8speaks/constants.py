@@ -11,3 +11,4 @@ AUTH = (os.environ.setdefault("BOT_USERNAME", ""), os.environ.setdefault("GITHUB
 GH_BASE = os.environ.setdefault('GH_BASE', 'github.com')
 GH_API = os.environ.setdefault('GH_API', 'api.github.com')
 GH_RAW = os.environ.setdefault('GH_RAW', 'raw.githubusercontent.com')
+GH_USER_ID = os.environ.setdefault('GH_USER_ID', '24736507')
