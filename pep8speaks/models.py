@@ -104,6 +104,6 @@ class GHRequest(object):
             # https://developer.github.com/v3/media/#commits-commit-comparison-and-pull-requests
             print(f'XXX fetch /repos/{self.repository}/pulls/{self.pr_number}  {self.diff_url}')  # fixme
             return utils.query_request(f'/repos/{self.repository}/pulls/{self.pr_number}',
-            headers={'Accept': 'application/vnd.github.v3.patch'})
+                                       headers={'Accept': 'application/vnd.github.v3.diff'})
         else:
             return utils.query_request(self.diff_url)
