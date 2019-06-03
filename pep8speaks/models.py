@@ -102,7 +102,6 @@ class GHRequest(object):
         if self.private:
             # If the target repository is private, fetch diff using API.
             # https://developer.github.com/v3/media/#commits-commit-comparison-and-pull-requests
-            print(f'XXX fetch /repos/{self.repository}/pulls/{self.pr_number}  {self.diff_url}')  # fixme
             return utils.query_request(f'/repos/{self.repository}/pulls/{self.pr_number}',
                                        headers={'Accept': 'application/vnd.github.v3.diff'})
         else:
