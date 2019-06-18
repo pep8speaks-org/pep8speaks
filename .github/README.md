@@ -157,7 +157,6 @@ The project requires to be hosted on a server and due to which, it needs financi
 
 Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pep8speaks/wiki/Funding).
 
-[![https://opencollective.com/pep8speaks/](https://opencollective.com/pep8speaks/tiers/backer.svg?avatarHeight=36)](https://opencollective.com/pep8speaks)
 [![Donate](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/orkohunter)
 
@@ -181,6 +180,13 @@ If you use this project and you like it, [please let me know](https://saythanks.
           <img width="100" height="184" src="https://wiki.python.org/psf/Logo?action=AttachFile&do=get&target=PSF-vertical-F.png">
           <br><br>
           <p>Python Software Foundation</p>
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://weblate.org/">
+          <img width="184" height="184" src="https://raw.githubusercontent.com/WeblateOrg/graphics/master/logo-formats/Basic-Square.png">
+          <br><br>
+          <p>Weblate</p>
         </a>
       </td>
     </tr>
