@@ -184,7 +184,7 @@ If you use this project and you like it, [please let me know](https://saythanks.
       </td>
       <td align="center" valign="top">
         <a href="https://weblate.org/">
-          <img width="184" height="184" src="https://raw.githubusercontent.com/WeblateOrg/graphics/master/logo-formats/Basic-Square.png">
+          <img width="184" height="160" src="https://raw.githubusercontent.com/WeblateOrg/graphics/master/logo-formats/Basic-Square.png">
           <br><br>
           <p>Weblate</p>
         </a>
