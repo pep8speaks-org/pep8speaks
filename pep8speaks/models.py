@@ -75,7 +75,7 @@ class GHRequest(object):
         self.sha = self.pull_request['head']['sha']
         self.action = request.json['action']
         self.author = self.pull_request['user']['login']
-        self.pr_desc = self.pull_request['body']
+        self.pr_desc = self.pull_request['body'] if self.pull_request['body'] is not None else ''
         self.diff_url = self.pull_request['diff_url']
         self.pr_title = self.pull_request['title']
         self.pr_number = self.pull_request['number']
@@ -83,6 +83,7 @@ class GHRequest(object):
         self.commits_url = self.pull_request['commits_url']
         self.base_branch = self.pull_request['base']['ref']
         self.after_commit_hash = self.pull_request['head']['sha']
+        self.private = self.pull_request['base']['repo']['private']
 
     def _set_conditionals(self, request, event):
         """
@@ -93,3 +94,15 @@ class GHRequest(object):
             self.review_url = request.json['comment']['html_url']
             self.comment = request.json['comment']['body']
             self.base_branch = request.json['repository']['default_branch']  # Overrides the default
+
+    def fetch_diff(self):
+        """
+        Fetch diff and return Response object.
+        """
+        if self.private:
+            # If the target repository is private, fetch diff using API.
+            # https://developer.github.com/v3/media/#commits-commit-comparison-and-pull-requests
+            return utils.query_request(f'/repos/{self.repository}/pulls/{self.pr_number}',
+                                       headers={'Accept': 'application/vnd.github.v3.diff'})
+        else:
+            return utils.query_request(self.diff_url)

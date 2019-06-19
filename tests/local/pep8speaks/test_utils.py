@@ -4,7 +4,7 @@ import pytest
 import werkzeug
 import mock
 from pep8speaks.utils import update_dict, match_webhook_secret, query_request
-from pep8speaks.constants import BASE_URL
+from pep8speaks.constants import GH_API
 
 
 class TestUtils:
@@ -14,7 +14,7 @@ class TestUtils:
     ])
     def test_request(self, mocker, query, method, json, data, headers, params):
         mock_func = mock.MagicMock(return_value=True)
-        mocker.patch('requests.request', mock_func)
+        mocker.patch('requests.Session.request', mock_func)
         query_request(query, method, json=json, data=data,
                       headers=headers, params=params)
         assert mock_func.call_count == 1
@@ -24,7 +24,7 @@ class TestUtils:
         assert mock_func.call_args[1]['params'] == params
         assert mock_func.call_args[1]['json'] == json
         if query[0] == "/":
-            assert mock_func.call_args[0][1] == BASE_URL + query
+            assert mock_func.call_args[0][1] == 'https://' + GH_API + query
         else:
             assert mock_func.call_args[0][1] == query
 

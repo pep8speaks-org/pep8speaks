@@ -7,7 +7,8 @@ import os
 from flask import abort
 from flask import Response as FResponse
 import requests
-from pep8speaks.constants import AUTH, BASE_URL
+from requests.packages.urllib3.util.retry import Retry
+from pep8speaks.constants import AUTH, GH_API
 
 
 def query_request(query=None, method="GET", **kwargs):
@@ -19,13 +20,28 @@ def query_request(query=None, method="GET", **kwargs):
     """
 
     if query[0] == "/":
-        query = BASE_URL + query
+        query = 'https://' + GH_API + query
 
     request_kwargs = {
         "auth": AUTH,
+        "timeout": 8,
     }
     request_kwargs.update(**kwargs)
-    return requests.request(method, query, **request_kwargs)
+
+    s = requests.Session()
+    retries = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=1.0,
+        method_whitelist=frozenset(['GET', 'POST']),
+        status_forcelist=(500, 502, 503, 504, 409, 422),
+    )
+    s.mount("http://", requests.adapters.HTTPAdapter(max_retries=retries))
+    s.mount("https://", requests.adapters.HTTPAdapter(max_retries=retries))
+
+    return s.request(method, query, **request_kwargs)
+
 
 
 def Response(data=None, status=200, mimetype='application/json'):
