@@ -397,7 +397,7 @@ def create_or_update_comment(ghrequest, comment, ONLY_UPDATE_COMMENT_BUT_NOT_CRE
     # Get the last comment id by the bot
     last_comment_id = None
     for old_comment in comments:
-        if old_comment["user"]["id"] == 24736507:  # ID of @pep8speaks
+        if old_comment["user"]["login"] == os.environ["BOT_USERNAME"]:
             last_comment_id = old_comment["id"]
             break
 
