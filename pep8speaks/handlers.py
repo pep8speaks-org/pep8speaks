@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import os
+
 from pep8speaks import helpers, utils, models
 
 
@@ -76,10 +78,10 @@ def handle_issue_comment(request):
     splitted_comment = ghrequest.comment.lower().split()
 
     # If diff is required
-    params1 = ["@pep8speaks", "suggest", "diff"]
+    params1 = [f"@{os.environ['BOT_USERNAME']}", "suggest", "diff"]
     condition1 = all(p in splitted_comment for p in params1)
     # If asked to pep8ify
-    params2 = ["@pep8speaks", "pep8ify"]
+    params2 = [f"@{os.environ['BOT_USERNAME']}", "pep8ify"]
     condition2 = all(p in splitted_comment for p in params2)
 
     if condition1:
@@ -146,7 +148,7 @@ def _create_diff(ghrequest, config):
         f"Here you go with [the gist]({ghrequest.gist_url}) !\n\n"
         f"> You can ask me to create a PR against this branch "
         f"with those fixes. Simply comment "
-        f"`@pep8speaks pep8ify`.\n\n @{ghrequest.reviewer}"
+        f"`@{os.environ['BOT_USERNAME']} pep8ify`.\n\n @{ghrequest.reviewer}"
     )
     if ghrequest.reviewer != ghrequest.author:  # Both are not the same person
         comment += f" @{ghrequest.author}"
