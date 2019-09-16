@@ -384,8 +384,9 @@ def comment_permission_check(ghrequest):
     if any(m in ghrequest.pr_title.lower() for m in ["[skip pep8]", "[pep8 skip]"]):
         return False
     ## PR description
-    if any(m in ghrequest.pr_desc.lower() for m in ["[skip pep8]", "[pep8 skip]"]):
-        return False
+    if ghrequest.pr_desc:
+        if any(m in ghrequest.pr_desc.lower() for m in ["[skip pep8]", "[pep8 skip]"]):
+            return False
 
     return True
 
