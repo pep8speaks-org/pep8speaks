@@ -39,19 +39,15 @@ def Response(data=None, status=200, mimetype='application/json'):
 def update_dict(base, head):
     """
     Recursively merge or update dict-like objects.
-    >>> update({'k1': 1}, {'k1': {'k2': {'k3': 3}}})
+    >>> update_dict({'k1': 1}, {'k1': {'k2': {'k3': 3}}})
 
-    Source : http://stackoverflow.com/a/32357112/4698026
+    Source : https://stackoverflow.com/a/3233356/11342032
     """
     for key, value in head.items():
-        if key in base:
-            if isinstance(base, collections.Mapping):
-                if isinstance(value, collections.Mapping):
-                    base[key] = update_dict(base.get(key, {}), value)
-                else:
-                    base[key] = head[key]
-            else:
-                base = {key: head[key]}
+        if isinstance(value, collections.Mapping):
+            base[key] = update_dict(base.get(key, {}), value)
+        else:
+            base[key] = value
     return base
 
 

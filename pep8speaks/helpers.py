@@ -9,10 +9,16 @@ import os
 from pathlib import Path
 import re
 import subprocess
+from subprocess import Popen, PIPE
 import time
+from urllib.request import urlopen
+from zipfile import ZipFile
+import shutil
 
 import unidiff
 import yaml
+
+from pep8speaks import utils
 from pep8speaks import utils
 
 
@@ -152,6 +158,9 @@ def get_config(repo, base_branch, after_commit_hash):
                         arguments.append(f"--{key}={value}")
                 elif isinstance(value, list):
                     arguments.append(f"--{key}={','.join(value)}")
+                elif isinstance(value, dict):
+                    value_formatted = ' '.join(f'{key_}:{val_}' for key_, val_ in value.items())
+                    arguments.append(f"--{key}='{value_formatted}'")
         config[f"{linter}_cmd_config"] = f' {" ".join(arguments)}'
 
     # linters are case-sensitive with error codes
@@ -212,58 +221,46 @@ def run_pycodestyle(ghrequest, config):
     pr_number = ghrequest.pr_number
     commit = ghrequest.after_commit_hash
 
-    # Run linter
-    ## All the python files with additions
-    # A dictionary with filename paired with list of new line numbers
-    files_to_exclude = config[linter]["exclude"]
-    py_files = get_py_files_in_pr(repo, pr_number, files_to_exclude)
+    r = repo_zip_url = utils.query_request(f'https://github.com/{repo}/archive/{commit}.zip')
 
-    ghrequest.links = {}  # UI Link of each updated file in the PR
-    for py_file in py_files:
-        filename = py_file[1:]
-        query = f"https://raw.githubusercontent.com/{repo}/{commit}/{py_file}"
-        r = utils.query_request(query)
-        with open("file_to_check.py", 'w+', encoding=r.encoding) as file_to_check:
-            file_to_check.write(r.text)
+    with open('/tmp/repo.zip', 'wb') as zf:
+        zf.write(r.content)
 
-        # Use the command line here
-        if config["scanner"]["linter"] == "flake8":
-            cmd = f'flake8 {config["flake8_cmd_config"]} file_to_check.py'
-        else:
-            cmd = f'pycodestyle {config["pycodestyle_cmd_config"]} file_to_check.py'
-        proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
-        stdout, _ = proc.communicate()
-        ghrequest.extra_results[filename] = stdout.decode(r.encoding).splitlines()
+    with ZipFile('/tmp/repo.zip') as zf:
+        zf.extractall('/tmp')
 
-        # Put only relevant errors in the ghrequest.results dictionary
-        ghrequest.results[filename] = []
-        for error in list(ghrequest.extra_results[filename]):
-            relevant_error_pattern = r"^file_to_check.py:\d+:\d+:\s[WEF]\d+\s.*"
-            # Other error codes are B C D T
-            if re.search(relevant_error_pattern, error):
-                ghrequest.results[filename].append(error.replace("file_to_check.py", filename))
-                ghrequest.extra_results[filename].remove(error)
+    repo_dir = f'/tmp/{repo.split("/")[1]}-{commit}'
+    diff = utils.query_request(
+        # for some reason the `https:github.com/{repo}/pull/{pr_number}.diff` endpoint
+        # doesn't work with private repos.
+        f'https://api.github.com/repos/{repo}/pulls/{pr_number}',
+        headers={'accept': 'application/vnd.github.v3.diff'}
+    ).text
+    if config["scanner"]["linter"] == "flake8":
+        cmd = f'flake8 -vv {config["flake8_cmd_config"]} --diff'
+    else:
+        cmd = f'pycodestyle {config["pycodestyle_cmd_config"]} --diff'
+    logging.debug(f'Running linter command: {cmd}')
+    proc = Popen(cmd, shell=True, cwd=repo_dir, stdin=PIPE, stdout=PIPE)
+    stdout, stderr = proc.communicate(input=diff.encode())
 
-        # Replace file_to_check.py with filename in all additional errors
-        extras = ghrequest.extra_results[filename]
-        ghrequest.extra_results[filename] = [e.replace("file_to_check.py", filename) for e in extras]
 
-        ## Remove errors in case of diff_only = True
-        ## which are caused in the whole file
-        for error in list(ghrequest.results[filename]):
-            if config["scanner"]["diff_only"]:
-                if not int(error.split(":")[1]) in py_files[py_file]:
-                    ghrequest.results[filename].remove(error)
+    output_lines = stdout.decode().splitlines()
+    for line in output_lines:
+        filename = line.split(':')[0]
+        relevant_error_pattern = f"^{filename}:\d+:\d+:\s[WEF]\d+\s.*"
+        # Other error codes are B C D T
+        if re.search(relevant_error_pattern, line):
+            ghrequest.results.setdefault(filename, []).append(line)
 
-        ## Store the link to the file
-        url = f"https://github.com/{repo}/blob/{commit}{py_file}"
-        ghrequest.links[filename + "_link"] = url
-        os.remove("file_to_check.py")
-
+    shutil.rmtree(repo_dir)
+    os.remove('/tmp/repo.zip')
 
 def prepare_comment(ghrequest, config):
     """Construct the string of comment i.e. its header, body and footer."""
     author = ghrequest.author
+    repo = ghrequest.repository
+    commit = ghrequest.after_commit_hash
     # Write the comment body
     # ## Header
     comment_header = ""
@@ -285,49 +282,37 @@ def prepare_comment(ghrequest, config):
     # ## Body
     ERROR = False  # Set to True when any pep8 error exists
     comment_body = []
-    for gh_file, issues in ghrequest.results.items():
-        if not issues:
-            if not config["only_mention_files_with_errors"]:
-                comment_body.append(
-                    f"* In the file [`{gh_file}`]({ghrequest.links[gh_file + '_link']}): No issues found.")
-        else:
+    for filename, issues in ghrequest.results.items():
+        file_url = f'https://github.com/{repo}/blob/{commit}/{filename}'
+        if issues:
             ERROR = True
             comment_body.append(
-                f"* In the file [`{gh_file}`]({ghrequest.links[gh_file + '_link']}):\n"
+                f"* In the file [`{filename}`]({file_url}):\n"
             )
             if config["descending_issues_order"]:
                 issues = issues[::-1]
 
-            for issue in issues:
-                # Replace filename with L
-                error_string = issue.replace(gh_file + ":", "Line ")
+        for issue in issues:
+            # Replace filename with L
+            error_string = issue.replace(filename + ":", "Line ")
 
-                # Link error codes to search query
-                error_string_list = error_string.split(" ")
-                code = error_string_list[2]
-                code_url = f"https://duckduckgo.com/?q=pep8%20{code}"
-                error_string_list[2] = f"[{code}]({code_url})"
+            # Link error codes to search query
+            error_string_list = error_string.split(" ")
+            code = error_string_list[2]
+            code_url = f"https://duckduckgo.com/?q=pep8%20{code}"
+            error_string_list[2] = f"[{code}]({code_url})"
 
-                # Link line numbers in the file
-                line, col = error_string_list[1][:-1].split(":")
-                line_url = ghrequest.links[gh_file + "_link"] + "#L" + line
-                error_string_list[1] = f"[{line}:{col}]({line_url}):"
-                error_string = " ".join(error_string_list)
-                error_string = error_string.replace("Line [", "[Line ")
-                comment_body.append(f"\n> {error_string}")
+            # Link line numbers in the file
+            line, col = error_string_list[1][:-1].split(":")
+            line_url = file_url + "#L" + line
+            error_string_list[1] = f"[{line}:{col}]({line_url}):"
+            error_string = " ".join(error_string_list)
+            error_string = error_string.replace("Line [", "[Line ")
+            comment_body.append(f"\n> {error_string}")
 
         comment_body.append("\n\n")
-        if ghrequest.extra_results[gh_file]:
-            logging.debug("There are extra results which are not being printed.")
-            logging.debug(ghrequest.extra_results[gh_file])
-            # comment_body.append("* Additional results for this file:\n\n> ")
-            # comment_body.append(
-            #     "\n> ".join(ghrequest.extra_results[gh_file]))
-            # comment_body.append("\n---\n\n")
-            # Extra results are disabled now because flake8 generates a lot of error codes
-            # The acceptable ones are listed in relevant_error_pattern in run_pycodestyle
 
-    if config["only_mention_files_with_errors"] and not ERROR:
+    if not ERROR:
         comment_body.append(config["message"]["no_errors"])
 
     comment_body = ''.join(comment_body)
