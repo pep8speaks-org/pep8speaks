@@ -88,42 +88,19 @@ message:  # Customize the comment made by the bot
 
 # Popular Users
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://avatars1.githubusercontent.com/u/21206976?v=4&s=200" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/pandas-dev/pandas">Pandas</a>
-      </td>
-      <td align="center" valign="top">
-        <img src="https://github.com/sunpy/sunpy-logo/blob/master/generated/sunpy_icon.png?raw=true" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/sunpy">SunPy</a>
-      </td>
-      <td align="center" width="20%" valign="top">
-        <img src="https://avatars0.githubusercontent.com/u/847984?v=3&s=200" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/astropy">Astropy</a>
-      </td>
-      <td align="center" valign="top">
-        <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black" target="_blank" href="https://github.com/scikit-learn-contrib">Scikit Learn Contrib</a>
-      </td>
-      <td align="center" valign="top">
-        <img style="margin-right: 5%" src="https://avatars3.githubusercontent.com/u/897180?v=3&s=400" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/scikit-image">Scikit Image</a>
-      </td>
-      <td align="center" valign="top">
-        <img style="margin-right: 5%" src="https://avatars0.githubusercontent.com/u/1284937?v=4&s=200" height="100px">
-        <br>
-        <a style="text-decoration: none; color: black;" target="_blank" href="https://github.com/spyder-ide/spyder">Spyder IDE</a>
-      </td>
-     </tr>
-  </tbody>
-</table>
+| | Organization | Description |
+|-|-|-|
+| <img src="https://avatars1.githubusercontent.com/u/21206976?v=4&s=200" height="100px"> | [Pandas](https://github.com/pandas-dev/pandas) | Powerful data manipulation tools for Python |
+| <img src="https://avatars0.githubusercontent.com/u/476009?v=4&s=200" height="100px"> | [Adobe](https://github.com/adobe) | Open source from Adobe |
+| <img src="https://avatars0.githubusercontent.com/u/623819?v=4&s=200" height="100px"> | [openSUSE](https://github.com/openSUSE) | Linux distribution |
+| <img src="https://avatars0.githubusercontent.com/u/58386951?v=4&s=200" height="100px"> | [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) | The lightweight PyTorch wrapper for ML researchers. |
+| <img src="https://avatars0.githubusercontent.com/u/388785?v=4&s=200" height="100px"> | [NetworkX](https://github.com/NetworkX/NetworkX) | Python library for graph theory and complex networks |
+| <img src="https://avatars0.githubusercontent.com/u/717666?v=4&s=200" height="100px"> | [Statsmodels](https://github.com/statsmodels/statsmodels) | Statistical modeling and econometrics in Python |
+| <img src="https://github.com/sunpy/sunpy-logo/blob/master/generated/sunpy_icon.png?raw=true" height="100px"> | [SunPy](https://github.com/sunpy) | Python for Solar Physics |
+| <img src="https://avatars0.githubusercontent.com/u/847984?v=3&s=200" height="100px"> | [Astropy](https://github.com/astropy) | Astronomy in Python |
+| <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px"> | [Scikit Learn Contrib](https://github.com/scikit-learn-contrib) | scikit-learn compatible projects |
+| <img style="margin-right: 5%" src="https://avatars3.githubusercontent.com/u/897180?v=3&s=400" height="100px"> | [Scikit Image](https://github.com/scikit-image) | Image processing in Python |
+| <img style="margin-right: 5%" src="https://avatars0.githubusercontent.com/u/1284937?v=4&s=200" height="100px"> | [Spyder IDE](https://github.com/spyder-ide/spyder) | The Scientific Python Development Environment |
 
 See the [complete list of organizations and users](https://github.com/OrkoHunter/pep8speaks/wiki/List-of-users-and-orgs).
 

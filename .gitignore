@@ -95,3 +95,5 @@ exports.sh
 
 # Sublime Text
 .sublime-*
+
+.idea
