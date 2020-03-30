@@ -3,7 +3,7 @@ pullRequestOpened: >
   :sparkling_heart: Thank you so much for creating the pull request! :sparkling_heart:
 
 
-  Have a look at [the test workflow](https://github.com/OrkoHunter/pep8speaks/blob/master/tests/pep8speaks/test_workflow.py). The branch of this pull request is going to be deployed on Heroku with payload URL https://pep8speaks-pr-xxx.herokuapp.com . The repository https://github.com/OrkoHunter/test-pep8speaks is configured to test review deployments like this.
+  Have a look at [the test workflow](https://github.com/OrkoHunter/pep8speaks/blob/master/tests/test_workflow.py). The branch of this pull request is going to be deployed on Heroku with payload URL https://pep8speaks-pr-xxx.herokuapp.com . The repository https://github.com/OrkoHunter/test-pep8speaks is configured to test review deployments like this.
 
 
   @OrkoHunter Create a review app for this PR on Heroku and  update the `Webhook URL` of the [test-pep8speaks app](https://github.com/settings/apps/test-pep8speaks). Finally restart Travis to test this PR.
