@@ -96,6 +96,7 @@ message:  # Customize the comment made by the bot
 | <img src="https://avatars0.githubusercontent.com/u/58386951?v=4&s=200" height="100px"> | [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) | The lightweight PyTorch wrapper for ML researchers. |
 | <img src="https://avatars0.githubusercontent.com/u/388785?v=4&s=200" height="100px"> | [NetworkX](https://github.com/NetworkX/NetworkX) | Python library for graph theory and complex networks |
 | <img src="https://avatars0.githubusercontent.com/u/717666?v=4&s=200" height="100px"> | [Statsmodels](https://github.com/statsmodels/statsmodels) | Statistical modeling and econometrics in Python |
+| <img src="https://avatars3.githubusercontent.com/u/1284191?v=4&s=200" height="100px"> | [xarray (PyData)](https://github.com/pydata/xarray) | N-D labeled arrays and datasets in Python (Python for Data) |
 | <img src="https://github.com/sunpy/sunpy-logo/blob/master/generated/sunpy_icon.png?raw=true" height="100px"> | [SunPy](https://github.com/sunpy) | Python for Solar Physics |
 | <img src="https://avatars0.githubusercontent.com/u/847984?v=3&s=200" height="100px"> | [Astropy](https://github.com/astropy) | Astronomy in Python |
 | <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px"> | [Scikit Learn Contrib](https://github.com/scikit-learn-contrib) | scikit-learn compatible projects |
