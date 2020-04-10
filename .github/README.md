@@ -20,6 +20,7 @@ Table of Contents
    * [How to fix PEP 8 issues?](#how-to-fix-pep-8-issues)
    * [Release announcements](#release-announcements)
    * [Contributing](#contributing)
+   * [Updates](#updates)
 
 # Installation
 
@@ -196,3 +197,7 @@ If you use this project and you like it, [please let me know](https://saythanks.
     </tr>
 </tbody>
 </table>
+
+# Updates
+
+- April 5, 2020 - [PEP8Speaks - Now helping 5,000 open source projects write neat and clean Python](https://orkohunter.net/blog/pep8speaks-5000-projects/)
