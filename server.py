@@ -4,14 +4,12 @@ import os
 import sys
 
 from flask import Flask, redirect, request
-from flask_session import Session
 
 from pep8speaks import handlers, utils
 
 
 def create_app():
     app = Flask(__name__)
-    sess = Session()
 
     logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
@@ -47,7 +45,6 @@ def create_app():
     app.secret_key = os.environ.setdefault("APP_SECRET_KEY", "")
     app.config['SESSION_TYPE'] = 'filesystem'
 
-    sess.init_app(app)
     app.debug = False
     return app
 
