@@ -93,7 +93,7 @@ flask_session
 
 exports.sh
 
-# Sublime Text
+# Text editors
 .sublime-*
-
 .idea
+.vscode
