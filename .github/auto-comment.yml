@@ -6,6 +6,6 @@ pullRequestOpened: >
   Have a look at [the test workflow](https://github.com/OrkoHunter/pep8speaks/blob/master/tests/test_workflow.py). The branch of this pull request is going to be deployed on Heroku with payload URL https://pep8speaks-pr-xxx.herokuapp.com . The repository https://github.com/OrkoHunter/test-pep8speaks is configured to test review deployments like this.
 
 
-  @OrkoHunter Create a review app for this PR on Heroku and  update the `Webhook URL` of the [test-pep8speaks app](https://github.com/settings/apps/test-pep8speaks). Finally restart Travis to test this PR.
+  @OrkoHunter Create a review app for this PR on [Heroku](https://dashboard.heroku.com/) and  update the `Webhook URL` of the [test-pep8speaks app](https://github.com/settings/apps/test-pep8speaks). Finally restart Travis to test this PR.
 
   Remember to deploy the production app and revert the Webhook URL of the test GitHub app when the Pull Request is merged.
