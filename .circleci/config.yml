@@ -16,8 +16,8 @@ jobs:
       - run:
           name: Test
           command: |
-          echo "Make sure you the review app of this branch is deployed and configured in the test-pep8speaks app"
-          pytest
+              echo "Make sure you the review app of this branch is deployed and configured in the test-pep8speaks app"
+              pytest
 
 workflows:
   main:
