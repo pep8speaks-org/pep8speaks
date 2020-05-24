@@ -1,0 +1,25 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@0.3.0
+
+jobs:
+  build-and-test:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - run:
+          name: Install test requirements
+          command: pip install -r requirements/test.txt
+      - python/save-cache
+      - run:
+          name: Test
+          command: |
+          echo "Make sure you the review app of this branch is deployed and configured in the test-pep8speaks app"
+          pytest
+
+workflows:
+  main:
+    jobs:
+      - build-and-test
