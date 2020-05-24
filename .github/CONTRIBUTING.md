@@ -53,7 +53,7 @@ $ python server.py
 $ pytest tests/local
 ```
 
-These tests do not cover all the source files. The branch will get tested on Travis when the Pull Request is created.
+These tests do not cover all the source files. The branch will get tested on CI when the Pull Request is created.
 You can help writing more local unit tests and mock tests. Thanks to [@chinskiy](https://github.com/chinskiy) for bootstrapping the test framework.
 
 ### Code style
@@ -87,7 +87,7 @@ All changes made to the source files have to be submitted via Pull Requests. The
 - A test GitHub app called [test-pep8speaks](https://github.com/apps/test-pep8speaks) is already installed on the repository [OrkoHunter/test-pep8speaks](https://github.com/OrkoHunter/test-pep8speaks).
 - The Payload URL of the test GitHub app is changed to that of the recently deployed review app on Heroku.
   - This is usually `https://pep8speaks-pr-###-herokuapp.com` where `###` is the PR number.
-- Travis is to be restarted. This ensures that the tests would use the deployed review app as server.
+- CI is to be restarted. This ensures that the tests would use the deployed review app as server.
 - We then wait for the sweet green checks! :white_check_mark:
 
 The crucial tests to be run in this process are written inside [tests/test_workflow.py](https://github.com/OrkoHunter/pep8speaks/blob/master/tests/test_workflow.py). The workflow is written in the module and is as follows :
