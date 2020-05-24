@@ -27,7 +27,7 @@ Table of Contents
 
 ### Run local server
 
-Use Python 3.6+ and pip3.
+You can use [`pyenv`](https://github.com/pyenv/pyenv) to manage Python versions easily. Use Python 3.8.x for this project.
 
 - Fork the repository.
 - Clone your fork.
@@ -35,13 +35,13 @@ Use Python 3.6+ and pip3.
 - Install the requirements.
 
 ``` shell
-$ pip3 install -r requirements/test.txt
+$ pip install -r requirements/test.txt
 ```
 
 - Start the server
 
 ``` shell
-$ python3 server.py
+$ python server.py
 ```
 
 
