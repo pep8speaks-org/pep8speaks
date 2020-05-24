@@ -48,12 +48,12 @@ def create_a_new_pr(repo, expected_comment, head, sha, base="master"):
 
     # Create a pull request with the newly created branch and base branch on repo
     try:
-        TRAVIS_PR_NUMBER = os.environ["TRAVIS_PR_NUMBER"]
-        pr_title = f"Testing PR #{TRAVIS_PR_NUMBER} on OrkoHunter/PEP8Speaks"
-        pr_body = f"Testing https://github.com/OrkoHunter/pep8speaks/pull/{TRAVIS_PR_NUMBER}\n\n"
+        CI_PULL_REQUEST = os.environ["CI_PULL_REQUEST"]
+        pr_title = f"Testing PR #{CI_PULL_REQUEST.split('/')[-1]} on OrkoHunter/PEP8Speaks"
+        pr_body = f"Testing {CI_PULL_REQUEST}\n\n"
     except KeyError:
         pr_title = "Testing new changes"
-        pr_body = "Not triggered by Travis.\n\n"
+        pr_body = "Not triggered by CI.\n\n"
 
     pr_body += f"---\n*Expected Result -*\n\n---\n{expected_comment}\n---"
 

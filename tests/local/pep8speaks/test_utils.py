@@ -61,7 +61,8 @@ class TestUtils:
         key, data = 'testkey', 'testdata'
 
         hmac_obj = hmac.new(key.encode(),
-                            data.encode())
+                            data.encode(),
+                            digestmod="sha1")
 
         request_ctx.headers = {
             'X-Hub-Signature': f'{hmac_obj.name}={hmac_obj.hexdigest()}'
