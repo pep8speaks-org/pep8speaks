@@ -107,7 +107,7 @@ def test_errors_without_pep8speaks_yml():
     head = "test-errors-without-pep8speaks.yml"
     sha = "7bd64e782f605d3a4f7388c0c993ebb344a952c4"
     expected_comment = (
-        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP\N{NBSP}8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/7bd64e782f605d3a4f7388c0c993ebb344a952c4/modules/good_module"
         ".py):\n\n> [Line 14:80](https://github.com/OrkoHunter/test-pep8speaks/blob/7bd64e782f605d3a4f7388c0c993e"
@@ -130,7 +130,7 @@ def test_errors_with_pep8speaks_yml():
     head = "test-errors-with-pep8speaks.yml"
     sha = "076c6c107250b61f9bec84230e5c2aa63c337901"
     expected_comment = (
-        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP\N{NBSP}8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/076c6c107250b61f9bec84230e5c2aa63c337901/modules/good_module"
         ".py):\n\n> [Line 14:82](https://github.com/OrkoHunter/test-pep8speaks/blob/076c6c107250b61f9bec84230e5c2"
@@ -155,7 +155,7 @@ def test_errors_with_setup_cfg_and_pep8speaks_yml():
     head = "test-errors-with-setup.cfg-and-pep8speaks.yml"
     sha = "d2dfbb72f2e72758bad016b682e5f9a5a38d5599"
     expected_comment = (
-        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP\N{NBSP}8](https://"
         "www.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https:/"
         "/github.com/OrkoHunter/test-pep8speaks/blob/d2dfbb72f2e72758bad016b682e5f9a5a38d5599/modules/good_module"
         ".py):\n\n> [Line 2:1](https://github.com/OrkoHunter/test-pep8speaks/blob/d2dfbb72f2e72758bad016b682e5f9a"
@@ -192,7 +192,7 @@ def test_errors_with_flake8():
     head = "test-errors-with-flake8"
     sha = "b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a"
     expected_comment = (
-        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP 8](https://ww"
+        "Hello @pep8speaks! Thanks for opening this PR. We checked the lines you've touched for [PEP\N{NBSP}8](https://ww"
         "w.python.org/dev/peps/pep-0008) issues, and found:\n\n* In the file [`modules/good_module.py`](https://git"
         "hub.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002dafd71a/modules/good_module.py"
         "):\n\n> [Line 2:1](https://github.com/OrkoHunter/test-pep8speaks/blob/b1ea9ab93d7ed0a357182f4bb4f44a002daf"

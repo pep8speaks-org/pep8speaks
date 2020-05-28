@@ -277,7 +277,7 @@ def prepare_comment(ghrequest, config):
         if comment_header == "":
             comment_header = (
                 "Hello @{author!s}! Thanks for {action_text} this PR. "
-                "We checked the lines you've touched for [PEP 8]"
+                "We checked the lines you've touched for [PEP\N{NBSP}8]"
                 "(https://www.python.org/dev/peps/pep-0008) issues, and found:"
                 .format(author=author, action_text=action_text))
         comment_header = comment_header + "\n\n"
