@@ -103,7 +103,7 @@ message:  # Customize the comment made by the bot
 | <img src="https://avatars3.githubusercontent.com/u/17349883?v=3&s=200" height="100px"> | [Scikit Learn Contrib](https://github.com/scikit-learn-contrib) | scikit-learn compatible projects |
 | <img style="margin-right: 5%" src="https://avatars3.githubusercontent.com/u/897180?v=3&s=400" height="100px"> | [Scikit Image](https://github.com/scikit-image) | Image processing in Python |
 | <img style="margin-right: 5%" src="https://avatars0.githubusercontent.com/u/1284937?v=4&s=200" height="100px"> | [Spyder IDE](https://github.com/spyder-ide/spyder) | The Scientific Python Development Environment |
-| <img src="https://github.com/catalyst-team/catalyst-pics/blob/master/pics/Catalyst_transparent.png?raw=true" height="100px"> | [Catalyst](https://github.com/catalyst-team/catalyst) | PyTorch framework for Deep Learning research and development |
+| <img src="https://github.com/catalyst-team/catalyst-pics/blob/master/pics/catalyst-icon-transparent-2.png?raw=true" height="100px"> | [Catalyst](https://github.com/catalyst-team/catalyst) | PyTorch framework for Deep Learning research and development |
 
 See the [complete list of organizations and users](https://github.com/OrkoHunter/pep8speaks/wiki/List-of-users-and-orgs).
 
