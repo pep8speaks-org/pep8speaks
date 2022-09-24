@@ -150,7 +150,7 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <h2 align="center">Gold Sponsors</h2>
 
-[Become a Gold Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.com).
+[Become a Gold Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.org).
 
 <table>
   <tbody>
@@ -176,7 +176,7 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <h2 align="center">Silver Sponsors</h2>
 
-[Become a Silver Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.com).
+[Become a Silver Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.org).
 
 <table>
   <tbody>
