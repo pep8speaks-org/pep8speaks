@@ -1,5 +1,0 @@
--r base.txt
-pytest~=5.4.2
-pytest-flask~=1.0.0
-pytest-mock~=1.6.3
-mock~=3.0.5
