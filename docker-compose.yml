@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pep8speaks:
+    build: .
+    image: pep8speaks
+    ports:
+      - ${SERVICE_PORT-8000}:8000
+   command: [ "gunicorn", "server:app", "--bind", "0.0.0.0:8000", "--workers", "4" ]
