@@ -40,7 +40,7 @@ def create_app():
                 app.logger.info("Received an unauthorized request")
                 return handlers.handle_unauthorized_requests()
         else:
-            return redirect("https://pep8speaks.com")
+            return redirect("https://pep8speaks.org")
 
     app.secret_key = os.environ.setdefault("APP_SECRET_KEY", "")
     app.config['SESSION_TYPE'] = 'filesystem'
