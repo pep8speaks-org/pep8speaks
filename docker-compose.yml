@@ -13,3 +13,4 @@ services:
       LOG_LEVEL: ${LOG_LEVEL-DEBUG}
       FLASK_DEBUG: ${FLASK_DEBUG-1}
       BOT_USERNAME: ${BOT_USERNAME-pep8speaks}
+    restart: always
