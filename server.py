@@ -4,14 +4,18 @@ import os
 import sys
 
 from flask import Flask, redirect, request
-
+from pep8speaks.constants import LOG_LEVEL
 from pep8speaks import handlers, utils
 
 
 def create_app():
     app = Flask(__name__)
 
-    logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+    # Map the environment variable value to a logging level
+    log_level = LOG_LEVEL.upper()  # Ensure it's in uppercase
+    log_level = getattr(logging, log_level, logging.INFO) 
+
+    logging.basicConfig(stream=sys.stdout, level=log_level)
 
     @app.route("/", methods=['GET', 'POST'])
     def main():
@@ -53,4 +57,4 @@ app = create_app()
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

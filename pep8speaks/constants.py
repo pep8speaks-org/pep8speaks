@@ -1,6 +1,8 @@
 import os
+from dotenv import load_dotenv
 
-# HEADERS is deprecated, use AUTH only
-HEADERS = {"Authorization": "token " + os.environ.setdefault("GITHUB_TOKEN", "")}
-AUTH = (os.environ.setdefault("BOT_USERNAME", ""), os.environ.setdefault("GITHUB_TOKEN", ""))
+load_dotenv()
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
 BASE_URL = 'https://api.github.com'
+FLASK_DEBUG=0

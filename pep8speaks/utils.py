@@ -7,7 +7,7 @@ import os
 from flask import abort
 from flask import Response as FResponse
 import requests
-from pep8speaks.constants import AUTH, BASE_URL
+from pep8speaks.constants import GITHUB_TOKEN, BASE_URL
 
 
 def query_request(query=None, method="GET", **kwargs):
@@ -22,7 +22,7 @@ def query_request(query=None, method="GET", **kwargs):
         query = BASE_URL + query
 
     request_kwargs = {
-        "auth": AUTH,
+        "headers": {"Authorization": f"Bearer {GITHUB_TOKEN}"}
     }
     request_kwargs.update(**kwargs)
     return requests.request(method, query, **request_kwargs)
