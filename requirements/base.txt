@@ -8,5 +8,5 @@ unidiff~=0.6.0
 autopep8~=1.5.2
 markdown~=3.2.2
 beautifulsoup4~=4.9.1
-markupsafe==2.0.1
-python-dotenv==1.0.0
+markupsafe~=2.0.1
+python-dotenv~=1.0.0
