@@ -1,7 +1,5 @@
 # PEP 8 Speaks [![CircleCI](https://img.shields.io/circleci/build/github/OrkoHunter/pep8speaks)](https://app.circleci.com/pipelines/github/OrkoHunter/pep8speaks) ![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OrkoHunter)
 
-## Notice: This project is no longer active. If you would like to help and take ownership, please take a look at https://github.com/pep8speaks-org/pep8speaks/issues/191.
-
 
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
@@ -150,7 +148,9 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <sub><sup><sub>[.](https://github.com/OrkoHunter/python-easter-eggs)
 
-<h2 align="center">Gold Sponsors</h2>
+<h2 align="center">Previous Sponsors</h2>
+
+<h4 align="center">Gold Sponsors</h2>
 
 [Become a Gold Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.org).
 
