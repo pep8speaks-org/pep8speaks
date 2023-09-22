@@ -204,5 +204,3 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Updates
 
 - April 5, 2020 - [PEP8Speaks - Now helping 5,000 open source projects write neat and clean Python](https://orkohunter.net/blog/pep8speaks-5000-projects/)
-
-<!--START_SECTION:activity-->
