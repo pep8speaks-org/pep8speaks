@@ -208,14 +208,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#204](https://github.com/scil-vital/dwi_ml/pull/204#issuecomment-1731868494) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-2. 🗣 Commented on [#64](https://github.com/politeauthority/cver/pull/64#issuecomment-1731770829) in [politeauthority/cver](https://github.com/politeauthority/cver)
-3. 🗣 Commented on [#203](https://github.com/scil-vital/dwi_ml/pull/203#issuecomment-1731764121) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-4. 🗣 Commented on [#64](https://github.com/politeauthority/cver/pull/64#issuecomment-1731749743) in [politeauthority/cver](https://github.com/politeauthority/cver)
-5. 🗣 Commented on [#28](https://github.com/eastgenomics/eris/pull/28#issuecomment-1731747488) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-6. 🗣 Commented on [#1358](https://github.com/spacetelescope/jwql/pull/1358#issuecomment-1731720136) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-7. 🗣 Commented on [#80](https://github.com/aimclub/BAMT/pull/80#issuecomment-1731365625) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-8. 🗣 Commented on [#7071](https://github.com/scikit-image/scikit-image/pull/7071#issuecomment-1731354429) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-9. 🗣 Commented on [#1171](https://github.com/aimclub/FEDOT/pull/1171#issuecomment-1731341738) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-10. 🗣 Commented on [#26](https://github.com/eastgenomics/eris/pull/26#issuecomment-1731288026) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+1. 🗣 Commented on [#169](https://github.com/Fatal1ty/mashumaro/pull/169#issuecomment-1731895933) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+2. 🗣 Commented on [#204](https://github.com/scil-vital/dwi_ml/pull/204#issuecomment-1731868494) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+3. 🗣 Commented on [#64](https://github.com/politeauthority/cver/pull/64#issuecomment-1731770829) in [politeauthority/cver](https://github.com/politeauthority/cver)
+4. 🗣 Commented on [#203](https://github.com/scil-vital/dwi_ml/pull/203#issuecomment-1731764121) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+5. 🗣 Commented on [#64](https://github.com/politeauthority/cver/pull/64#issuecomment-1731749743) in [politeauthority/cver](https://github.com/politeauthority/cver)
+6. 🗣 Commented on [#28](https://github.com/eastgenomics/eris/pull/28#issuecomment-1731747488) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+7. 🗣 Commented on [#1358](https://github.com/spacetelescope/jwql/pull/1358#issuecomment-1731720136) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+8. 🗣 Commented on [#80](https://github.com/aimclub/BAMT/pull/80#issuecomment-1731365625) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+9. 🗣 Commented on [#7071](https://github.com/scikit-image/scikit-image/pull/7071#issuecomment-1731354429) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
+10. 🗣 Commented on [#1171](https://github.com/aimclub/FEDOT/pull/1171#issuecomment-1731341738) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
 <!--END_SECTION:activity-->
