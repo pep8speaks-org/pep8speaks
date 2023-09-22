@@ -208,14 +208,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#80](https://github.com/aimclub/BAMT/pull/80#issuecomment-1731365625) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-2. 🗣 Commented on [#7071](https://github.com/scikit-image/scikit-image/pull/7071#issuecomment-1731354429) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-3. 🗣 Commented on [#1171](https://github.com/aimclub/FEDOT/pull/1171#issuecomment-1731341738) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-4. 🗣 Commented on [#26](https://github.com/eastgenomics/eris/pull/26#issuecomment-1731288026) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-5. 🗣 Commented on [#4](https://github.com/eastgenomics/eggd_RNASeQC/pull/4#issuecomment-1731183996) in [eastgenomics/eggd_RNASeQC](https://github.com/eastgenomics/eggd_RNASeQC)
-6. 🗣 Commented on [#918](https://github.com/avaframe/AvaFrame/pull/918#issuecomment-1731147325) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-7. 🗣 Commented on [#7139](https://github.com/scikit-image/scikit-image/pull/7139#issuecomment-1731133648) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-8. 🗣 Commented on [#7145](https://github.com/scikit-image/scikit-image/pull/7145#issuecomment-1731110063) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-9. 🗣 Commented on [#560](https://github.com/OpenFreeEnergy/openfe/pull/560#issuecomment-1731061367) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-10. 🗣 Commented on [#127](https://github.com/MDAnalysis/GridDataFormats/pull/127#issuecomment-1731018146) in [MDAnalysis/GridDataFormats](https://github.com/MDAnalysis/GridDataFormats)
+1. 🗣 Commented on [#64](https://github.com/politeauthority/cver/pull/64#issuecomment-1731749743) in [politeauthority/cver](https://github.com/politeauthority/cver)
+2. 🗣 Commented on [#28](https://github.com/eastgenomics/eris/pull/28#issuecomment-1731747488) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#1358](https://github.com/spacetelescope/jwql/pull/1358#issuecomment-1731720136) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#80](https://github.com/aimclub/BAMT/pull/80#issuecomment-1731365625) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+5. 🗣 Commented on [#7071](https://github.com/scikit-image/scikit-image/pull/7071#issuecomment-1731354429) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
+6. 🗣 Commented on [#1171](https://github.com/aimclub/FEDOT/pull/1171#issuecomment-1731341738) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+7. 🗣 Commented on [#26](https://github.com/eastgenomics/eris/pull/26#issuecomment-1731288026) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+8. 🗣 Commented on [#4](https://github.com/eastgenomics/eggd_RNASeQC/pull/4#issuecomment-1731183996) in [eastgenomics/eggd_RNASeQC](https://github.com/eastgenomics/eggd_RNASeQC)
+9. 🗣 Commented on [#918](https://github.com/avaframe/AvaFrame/pull/918#issuecomment-1731147325) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#7139](https://github.com/scikit-image/scikit-image/pull/7139#issuecomment-1731133648) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
 <!--END_SECTION:activity-->
