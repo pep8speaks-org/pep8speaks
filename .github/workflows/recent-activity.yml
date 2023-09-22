@@ -1,4 +1,4 @@
-name: Update README
+name: Update Recent Activity
 on:
   schedule:
     - cron: "*/30 * * * *"
