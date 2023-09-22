@@ -1,7 +1,7 @@
 name: Update README
 on:
-  # schedule:
-  #   - cron: "* * * * *"
+  schedule:
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -18,3 +18,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           GH_USERNAME: pep8speaks
+          MAX_LINES: 10
