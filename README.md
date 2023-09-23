@@ -4,7 +4,7 @@
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
 <p align="center">
-    <img src="logo.png">
+    <img src=".github/logo.png">
 </p>
 
 Table of Contents
@@ -30,7 +30,7 @@ Table of Contents
 
 # Example
 
-<img src="action.gif">
+<img src=".github/action.gif">
 
 
 # Main features
