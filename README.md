@@ -1,5 +1,5 @@
-# PEP 8 Speaks [![CircleCI](https://img.shields.io/circleci/build/github/OrkoHunter/pep8speaks)](https://app.circleci.com/pipelines/github/OrkoHunter/pep8speaks) ![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OrkoHunter)
-
+# PEP 8 Speaks
+![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) 
 
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
