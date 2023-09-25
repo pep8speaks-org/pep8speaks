@@ -1,5 +1,5 @@
-# PEP 8 Speaks [![CircleCI](https://img.shields.io/circleci/build/github/OrkoHunter/pep8speaks)](https://app.circleci.com/pipelines/github/OrkoHunter/pep8speaks) ![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OrkoHunter)
-
+# PEP 8 Speaks
+![GitHub release](https://img.shields.io/github/release/OrkoHunter/pep8speaks.svg) ![GitHub contributors](https://img.shields.io/github/contributors/OrkoHunter/pep8speaks.svg) 
 
 A GitHub :octocat: app to automatically review Python code style over Pull Requests
 
@@ -129,24 +129,30 @@ Updates to the app are announced using the GitHub Release feature over [here](ht
 
 Usually, the master branch is deployed as soon as Pull Requests are merged in the repository. However, on every Friday, I  make a release and make sure the latest code is deployed. You do not need to do anything to use the latest version. If you use a fork of PEP 8 Speaks, check out the Release space.
 
-# Contributing
+<h2 align="center">Sponsors</h2>
 
-You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Read [CONTRIBUTING](/.github/CONTRIBUTING.md) doc to understand how the project works and how you can make changes.
+[Become a Gold Sponsor](https://github.com/OrkoHunter/pep8speaks/wiki/Funding#how-to-donate) and get your logo and name with a link to your site on our README and our [website](https://pep8speaks.org).
 
-The project requires to be hosted on a server and due to which, it needs financial support as well.
-
-Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pep8speaks/wiki/Funding).
-
-[![Donate](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/orkohunter)
-
-If you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter). Thanks!
-
-:heart:
-
-<sub><sup><sub>This project does not endorse all of the rules of the original PEP 8 and thus believes in customizing pycodestyle.
-
-<sub><sup><sub>[.](https://github.com/OrkoHunter/python-easter-eggs)
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://www.samagragovernance.in/">
+          <img src="https://www.samagragovernance.in/img/logo-colored.png">
+          <br><br>
+          <p>Samagra Governance</p>
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/Samagra-Development">
+          <img src="https://user-images.githubusercontent.com/80503666/192479293-4202ed08-7085-4470-a222-ecf9beac52fd.jpg">
+          <br><br>
+          <p>SamagraX</p>
+        </a>
+      </td>
+    </tr>
+</tbody>
+</table>
 
 <h2 align="center">Previous Sponsors</h2>
 
@@ -200,6 +206,25 @@ If you use this project and you like it, [please let me know](https://saythanks.
     </tr>
 </tbody>
 </table>
+
+# Contributing
+
+You can support the project by contributing to its development. If you have any suggestions for new features or improvements, please [create an issue](https://github.com/OrkoHunter/pep8speaks/issues/new). Pull Requests are most welcome ! Read [CONTRIBUTING](/.github/CONTRIBUTING.md) doc to understand how the project works and how you can make changes.
+
+The project requires to be hosted on a server and due to which, it needs financial support as well.
+
+Please read the [case for funding PEP 8 Speaks](https://github.com/OrkoHunter/pep8speaks/wiki/Funding).
+
+[![Donate](https://img.shields.io/liberapay/receives/OrkoHunter.svg?logo=liberapay)](https://liberapay.com/OrkoHunter)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/orkohunter)
+
+If you use this project and you like it, [please let me know](https://saythanks.io/to/OrkoHunter). Thanks!
+
+:heart:
+
+<sub><sup><sub>This project does not endorse all of the rules of the original PEP 8 and thus believes in customizing pycodestyle.
+
+<sub><sup><sub>[.](https://github.com/OrkoHunter/python-easter-eggs)
 
 # Updates
 
