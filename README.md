@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2910](https://github.com/dipy/dipy/pull/2910#issuecomment-1735966459) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#575](https://github.com/ExoCTK/exoctk/pull/575#issuecomment-1735685795) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-3. 🗣 Commented on [#16](https://github.com/CartoonFan/MPD/pull/16#issuecomment-1735566368) in [CartoonFan/MPD](https://github.com/CartoonFan/MPD)
-4. 🗣 Commented on [#7153](https://github.com/scikit-image/scikit-image/pull/7153#issuecomment-1735546221) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-5. 🗣 Commented on [#199](https://github.com/aimclub/GOLEM/pull/199#issuecomment-1735491198) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-6. 🗣 Commented on [#1058](https://github.com/lmcinnes/umap/pull/1058#issuecomment-1735482297) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-7. 🗣 Commented on [#5208](https://github.com/rhinstaller/anaconda/pull/5208#issuecomment-1735475024) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#5179](https://github.com/rhinstaller/anaconda/pull/5179#issuecomment-1735398512) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-9. 🗣 Commented on [#31](https://github.com/eastgenomics/eris/pull/31#issuecomment-1735378299) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-10. 🗣 Commented on [#1415](https://github.com/openSUSE/osc/pull/1415#issuecomment-1735364686) in [openSUSE/osc](https://github.com/openSUSE/osc)
+1. 🗣 Commented on [#89](https://github.com/garmin/pyrex/pull/89#issuecomment-1736317936) in [garmin/pyrex](https://github.com/garmin/pyrex)
+2. 🗣 Commented on [#2910](https://github.com/dipy/dipy/pull/2910#issuecomment-1735966459) in [dipy/dipy](https://github.com/dipy/dipy)
+3. 🗣 Commented on [#575](https://github.com/ExoCTK/exoctk/pull/575#issuecomment-1735685795) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+4. 🗣 Commented on [#16](https://github.com/CartoonFan/MPD/pull/16#issuecomment-1735566368) in [CartoonFan/MPD](https://github.com/CartoonFan/MPD)
+5. 🗣 Commented on [#7153](https://github.com/scikit-image/scikit-image/pull/7153#issuecomment-1735546221) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
+6. 🗣 Commented on [#199](https://github.com/aimclub/GOLEM/pull/199#issuecomment-1735491198) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+7. 🗣 Commented on [#1058](https://github.com/lmcinnes/umap/pull/1058#issuecomment-1735482297) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+8. 🗣 Commented on [#5208](https://github.com/rhinstaller/anaconda/pull/5208#issuecomment-1735475024) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#5179](https://github.com/rhinstaller/anaconda/pull/5179#issuecomment-1735398512) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#31](https://github.com/eastgenomics/eris/pull/31#issuecomment-1735378299) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
 <!--END_SECTION:activity-->
