@@ -11,7 +11,7 @@ name: Create and publish a Docker image
 
 on:
   push:
-    tags: ["v*.*.*", "v*.*.*-*"]
+    tags: ["v*.*-*", "v*.*"]
     
 
 env:
