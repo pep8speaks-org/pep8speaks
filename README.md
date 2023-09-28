@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#466](https://github.com/UIUCLibrary/Speedwagon/pull/466#issuecomment-1739912198) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-2. 🗣 Commented on [#20900](https://github.com/spyder-ide/spyder/pull/20900#issuecomment-1739909335) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#746](https://github.com/scilus/scilpy/pull/746#issuecomment-1739888681) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#1152](https://github.com/spacetelescope/jwql/pull/1152#issuecomment-1739741760) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-5. 🗣 Commented on [#7175](https://github.com/scikit-image/scikit-image/pull/7175#issuecomment-1739719882) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-6. 🗣 Commented on [#828](https://github.com/nipreps/niworkflows/pull/828#issuecomment-1739573829) in [nipreps/niworkflows](https://github.com/nipreps/niworkflows)
-7. 🗣 Commented on [#125](https://github.com/eastgenomics/dias_batch_running/pull/125#issuecomment-1739502145) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-8. 🗣 Commented on [#369](https://github.com/nipreps/smriprep/pull/369#issuecomment-1739494863) in [nipreps/smriprep](https://github.com/nipreps/smriprep)
-9. 🗣 Commented on [#1177](https://github.com/aimclub/FEDOT/pull/1177#issuecomment-1739157280) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-10. 🗣 Commented on [#1416](https://github.com/openSUSE/osc/pull/1416#issuecomment-1739104352) in [openSUSE/osc](https://github.com/openSUSE/osc)
+1. 🗣 Commented on [#5214](https://github.com/rhinstaller/anaconda/pull/5214#issuecomment-1740011338) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#70](https://github.com/politeauthority/cver/pull/70#issuecomment-1739996100) in [politeauthority/cver](https://github.com/politeauthority/cver)
+3. 🗣 Commented on [#466](https://github.com/UIUCLibrary/Speedwagon/pull/466#issuecomment-1739912198) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+4. 🗣 Commented on [#20900](https://github.com/spyder-ide/spyder/pull/20900#issuecomment-1739909335) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#746](https://github.com/scilus/scilpy/pull/746#issuecomment-1739888681) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#1152](https://github.com/spacetelescope/jwql/pull/1152#issuecomment-1739741760) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#7175](https://github.com/scikit-image/scikit-image/pull/7175#issuecomment-1739719882) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
+8. 🗣 Commented on [#828](https://github.com/nipreps/niworkflows/pull/828#issuecomment-1739573829) in [nipreps/niworkflows](https://github.com/nipreps/niworkflows)
+9. 🗣 Commented on [#125](https://github.com/eastgenomics/dias_batch_running/pull/125#issuecomment-1739502145) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+10. 🗣 Commented on [#369](https://github.com/nipreps/smriprep/pull/369#issuecomment-1739494863) in [nipreps/smriprep](https://github.com/nipreps/smriprep)
 <!--END_SECTION:activity-->
