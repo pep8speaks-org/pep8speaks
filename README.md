@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1176](https://github.com/aimclub/FEDOT/pull/1176#issuecomment-1738879004) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#121](https://github.com/eastgenomics/dias_batch_running/pull/121#issuecomment-1738802087) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-3. 🗣 Commented on [#2919](https://github.com/dipy/dipy/pull/2919#issuecomment-1738726190) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#7168](https://github.com/scikit-image/scikit-image/pull/7168#issuecomment-1738674223) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-5. 🗣 Commented on [#100](https://github.com/OpenFreeEnergy/cinnabar/pull/100#issuecomment-1738447398) in [OpenFreeEnergy/cinnabar](https://github.com/OpenFreeEnergy/cinnabar)
-6. 🗣 Commented on [#7166](https://github.com/scikit-image/scikit-image/pull/7166#issuecomment-1738063592) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-7. 🗣 Commented on [#68](https://github.com/politeauthority/cver/pull/68#issuecomment-1737945107) in [politeauthority/cver](https://github.com/politeauthority/cver)
-8. 🗣 Commented on [#68](https://github.com/politeauthority/cver/pull/68#issuecomment-1737924360) in [politeauthority/cver](https://github.com/politeauthority/cver)
-9. 🗣 Commented on [#206](https://github.com/scil-vital/dwi_ml/pull/206#issuecomment-1737548261) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-10. 🗣 Commented on [#122](https://github.com/eastgenomics/dias_batch_running/pull/122#issuecomment-1737546397) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+1. 🗣 Commented on [#921](https://github.com/avaframe/AvaFrame/pull/921#issuecomment-1739021981) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#1](https://github.com/rasbt/LLMs-from-scratch/pull/1#issuecomment-1739020148) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+3. 🗣 Commented on [#28](https://github.com/oemof/oemof-network/pull/28#issuecomment-1739017470) in [oemof/oemof-network](https://github.com/oemof/oemof-network)
+4. 🗣 Commented on [#123](https://github.com/eastgenomics/dias_batch_running/pull/123#issuecomment-1739016578) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+5. 🗣 Commented on [#980](https://github.com/oemof/oemof-solph/pull/980#issuecomment-1738989971) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+6. 🗣 Commented on [#1176](https://github.com/aimclub/FEDOT/pull/1176#issuecomment-1738879004) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+7. 🗣 Commented on [#121](https://github.com/eastgenomics/dias_batch_running/pull/121#issuecomment-1738802087) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+8. 🗣 Commented on [#2919](https://github.com/dipy/dipy/pull/2919#issuecomment-1738726190) in [dipy/dipy](https://github.com/dipy/dipy)
+9. 🗣 Commented on [#7168](https://github.com/scikit-image/scikit-image/pull/7168#issuecomment-1738674223) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
+10. 🗣 Commented on [#100](https://github.com/OpenFreeEnergy/cinnabar/pull/100#issuecomment-1738447398) in [OpenFreeEnergy/cinnabar](https://github.com/OpenFreeEnergy/cinnabar)
 <!--END_SECTION:activity-->
