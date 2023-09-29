@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#48](https://github.com/ITMO-NSS-team/MetaFEDOT/pull/48#issuecomment-1740467665) in [ITMO-NSS-team/MetaFEDOT](https://github.com/ITMO-NSS-team/MetaFEDOT)
-2. 🗣 Commented on [#368](https://github.com/payu-org/payu/pull/368#issuecomment-1740153743) in [payu-org/payu](https://github.com/payu-org/payu)
-3. 🗣 Commented on [#5214](https://github.com/rhinstaller/anaconda/pull/5214#issuecomment-1740011338) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-4. 🗣 Commented on [#70](https://github.com/politeauthority/cver/pull/70#issuecomment-1739996100) in [politeauthority/cver](https://github.com/politeauthority/cver)
-5. 🗣 Commented on [#466](https://github.com/UIUCLibrary/Speedwagon/pull/466#issuecomment-1739912198) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-6. 🗣 Commented on [#20900](https://github.com/spyder-ide/spyder/pull/20900#issuecomment-1739909335) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#746](https://github.com/scilus/scilpy/pull/746#issuecomment-1739888681) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#1152](https://github.com/spacetelescope/jwql/pull/1152#issuecomment-1739741760) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#7175](https://github.com/scikit-image/scikit-image/pull/7175#issuecomment-1739719882) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-10. 🗣 Commented on [#828](https://github.com/nipreps/niworkflows/pull/828#issuecomment-1739573829) in [nipreps/niworkflows](https://github.com/nipreps/niworkflows)
+1. 🗣 Commented on [#739](https://github.com/StingraySoftware/stingray/pull/739#issuecomment-1740649237) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+2. 🗣 Commented on [#48](https://github.com/ITMO-NSS-team/MetaFEDOT/pull/48#issuecomment-1740467665) in [ITMO-NSS-team/MetaFEDOT](https://github.com/ITMO-NSS-team/MetaFEDOT)
+3. 🗣 Commented on [#368](https://github.com/payu-org/payu/pull/368#issuecomment-1740153743) in [payu-org/payu](https://github.com/payu-org/payu)
+4. 🗣 Commented on [#5214](https://github.com/rhinstaller/anaconda/pull/5214#issuecomment-1740011338) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#70](https://github.com/politeauthority/cver/pull/70#issuecomment-1739996100) in [politeauthority/cver](https://github.com/politeauthority/cver)
+6. 🗣 Commented on [#466](https://github.com/UIUCLibrary/Speedwagon/pull/466#issuecomment-1739912198) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+7. 🗣 Commented on [#20900](https://github.com/spyder-ide/spyder/pull/20900#issuecomment-1739909335) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#746](https://github.com/scilus/scilpy/pull/746#issuecomment-1739888681) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#1152](https://github.com/spacetelescope/jwql/pull/1152#issuecomment-1739741760) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#7175](https://github.com/scikit-image/scikit-image/pull/7175#issuecomment-1739719882) in [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
 <!--END_SECTION:activity-->
