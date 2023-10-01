@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#644](https://github.com/einsteinpy/einsteinpy/pull/644#issuecomment-1742133303) in [einsteinpy/einsteinpy](https://github.com/einsteinpy/einsteinpy)
-2. 🗣 Commented on [#2](https://github.com/Tamminhdiep97/AirSim/pull/2#issuecomment-1742070256) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
-3. 🗣 Commented on [#34](https://github.com/Borda/pyDeprecate/pull/34#issuecomment-1742063171) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
-4. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/AirSim/pull/1#issuecomment-1742033662) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
-5. 🗣 Commented on [#491](https://github.com/spatialaudio/python-sounddevice/pull/491#issuecomment-1741984817) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
-6. 🗣 Commented on [#61](https://github.com/Mte90/GH-License/pull/61#issuecomment-1741964732) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
-7. 🗣 Commented on [#60](https://github.com/Mte90/GH-License/pull/60#issuecomment-1741877550) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
-8. 🗣 Commented on [#73](https://github.com/politeauthority/cver/pull/73#issuecomment-1741821326) in [politeauthority/cver](https://github.com/politeauthority/cver)
-9. 🗣 Commented on [#632](https://github.com/SergeyPirogov/webdriver_manager/pull/632#issuecomment-1741808011) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
-10. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1741797370) in [politeauthority/cver](https://github.com/politeauthority/cver)
+1. 🗣 Commented on [#645](https://github.com/einsteinpy/einsteinpy/pull/645#issuecomment-1742136450) in [einsteinpy/einsteinpy](https://github.com/einsteinpy/einsteinpy)
+2. 🗣 Commented on [#644](https://github.com/einsteinpy/einsteinpy/pull/644#issuecomment-1742133303) in [einsteinpy/einsteinpy](https://github.com/einsteinpy/einsteinpy)
+3. 🗣 Commented on [#2](https://github.com/Tamminhdiep97/AirSim/pull/2#issuecomment-1742070256) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
+4. 🗣 Commented on [#34](https://github.com/Borda/pyDeprecate/pull/34#issuecomment-1742063171) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
+5. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/AirSim/pull/1#issuecomment-1742033662) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
+6. 🗣 Commented on [#491](https://github.com/spatialaudio/python-sounddevice/pull/491#issuecomment-1741984817) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
+7. 🗣 Commented on [#61](https://github.com/Mte90/GH-License/pull/61#issuecomment-1741964732) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
+8. 🗣 Commented on [#60](https://github.com/Mte90/GH-License/pull/60#issuecomment-1741877550) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
+9. 🗣 Commented on [#73](https://github.com/politeauthority/cver/pull/73#issuecomment-1741821326) in [politeauthority/cver](https://github.com/politeauthority/cver)
+10. 🗣 Commented on [#632](https://github.com/SergeyPirogov/webdriver_manager/pull/632#issuecomment-1741808011) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
 <!--END_SECTION:activity-->
