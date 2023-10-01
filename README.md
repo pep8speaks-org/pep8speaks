@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/AirSim/pull/1#issuecomment-1742033662) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
-2. 🗣 Commented on [#491](https://github.com/spatialaudio/python-sounddevice/pull/491#issuecomment-1741984817) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
-3. 🗣 Commented on [#61](https://github.com/Mte90/GH-License/pull/61#issuecomment-1741964732) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
-4. 🗣 Commented on [#60](https://github.com/Mte90/GH-License/pull/60#issuecomment-1741877550) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
-5. 🗣 Commented on [#73](https://github.com/politeauthority/cver/pull/73#issuecomment-1741821326) in [politeauthority/cver](https://github.com/politeauthority/cver)
-6. 🗣 Commented on [#632](https://github.com/SergeyPirogov/webdriver_manager/pull/632#issuecomment-1741808011) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
-7. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1741797370) in [politeauthority/cver](https://github.com/politeauthority/cver)
-8. 🗣 Commented on [#72](https://github.com/politeauthority/cver/pull/72#issuecomment-1741790499) in [politeauthority/cver](https://github.com/politeauthority/cver)
-9. 🗣 Commented on [#897](https://github.com/WesternFriend/WF-website/pull/897#issuecomment-1741691543) in [WesternFriend/WF-website](https://github.com/WesternFriend/WF-website)
-10. 🗣 Commented on [#24](https://github.com/VCTLabs/redis-ipc-py/pull/24#issuecomment-1741690778) in [VCTLabs/redis-ipc-py](https://github.com/VCTLabs/redis-ipc-py)
+1. 🗣 Commented on [#34](https://github.com/Borda/pyDeprecate/pull/34#issuecomment-1742063171) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
+2. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/AirSim/pull/1#issuecomment-1742033662) in [Tamminhdiep97/AirSim](https://github.com/Tamminhdiep97/AirSim)
+3. 🗣 Commented on [#491](https://github.com/spatialaudio/python-sounddevice/pull/491#issuecomment-1741984817) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
+4. 🗣 Commented on [#61](https://github.com/Mte90/GH-License/pull/61#issuecomment-1741964732) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
+5. 🗣 Commented on [#60](https://github.com/Mte90/GH-License/pull/60#issuecomment-1741877550) in [Mte90/GH-License](https://github.com/Mte90/GH-License)
+6. 🗣 Commented on [#73](https://github.com/politeauthority/cver/pull/73#issuecomment-1741821326) in [politeauthority/cver](https://github.com/politeauthority/cver)
+7. 🗣 Commented on [#632](https://github.com/SergeyPirogov/webdriver_manager/pull/632#issuecomment-1741808011) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
+8. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1741797370) in [politeauthority/cver](https://github.com/politeauthority/cver)
+9. 🗣 Commented on [#72](https://github.com/politeauthority/cver/pull/72#issuecomment-1741790499) in [politeauthority/cver](https://github.com/politeauthority/cver)
+10. 🗣 Commented on [#897](https://github.com/WesternFriend/WF-website/pull/897#issuecomment-1741691543) in [WesternFriend/WF-website](https://github.com/WesternFriend/WF-website)
 <!--END_SECTION:activity-->
