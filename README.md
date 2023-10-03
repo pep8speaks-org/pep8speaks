@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1745638783) in [politeauthority/cver](https://github.com/politeauthority/cver)
-2. 🗣 Commented on [#316](https://github.com/nipreps/nibabies/pull/316#issuecomment-1745600287) in [nipreps/nibabies](https://github.com/nipreps/nibabies)
-3. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1745466425) in [politeauthority/cver](https://github.com/politeauthority/cver)
-4. 🗣 Commented on [#856](https://github.com/ToFuProject/tofu/pull/856#issuecomment-1745239122) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-5. 🗣 Commented on [#487](https://github.com/aramis-lab/clinicadl/pull/487#issuecomment-1745082519) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-6. 🗣 Commented on [#2](https://github.com/daVinci13/Exe2shell/pull/2#issuecomment-1745072823) in [daVinci13/Exe2shell](https://github.com/daVinci13/Exe2shell)
-7. 🗣 Commented on [#1](https://github.com/daVinci13/Exe2shell/pull/1#issuecomment-1745072609) in [daVinci13/Exe2shell](https://github.com/daVinci13/Exe2shell)
-8. 🗣 Commented on [#1877](https://github.com/OpenSCAP/openscap/pull/1877#issuecomment-1744895214) in [OpenSCAP/openscap](https://github.com/OpenSCAP/openscap)
-9. 🗣 Commented on [#129](https://github.com/eastgenomics/dias_batch_running/pull/129#issuecomment-1744887071) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-10. 🗣 Commented on [#128](https://github.com/eastgenomics/dias_batch_running/pull/128#issuecomment-1744645185) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+1. 🗣 Commented on [#52](https://github.com/spacetelescope/jwst_coronagraph_visibility/pull/52#issuecomment-1745669372) in [spacetelescope/jwst_coronagraph_visibility](https://github.com/spacetelescope/jwst_coronagraph_visibility)
+2. 🗣 Commented on [#1370](https://github.com/spacetelescope/jwql/pull/1370#issuecomment-1745667178) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1745638783) in [politeauthority/cver](https://github.com/politeauthority/cver)
+4. 🗣 Commented on [#316](https://github.com/nipreps/nibabies/pull/316#issuecomment-1745600287) in [nipreps/nibabies](https://github.com/nipreps/nibabies)
+5. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1745466425) in [politeauthority/cver](https://github.com/politeauthority/cver)
+6. 🗣 Commented on [#856](https://github.com/ToFuProject/tofu/pull/856#issuecomment-1745239122) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+7. 🗣 Commented on [#487](https://github.com/aramis-lab/clinicadl/pull/487#issuecomment-1745082519) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+8. 🗣 Commented on [#2](https://github.com/daVinci13/Exe2shell/pull/2#issuecomment-1745072823) in [daVinci13/Exe2shell](https://github.com/daVinci13/Exe2shell)
+9. 🗣 Commented on [#1](https://github.com/daVinci13/Exe2shell/pull/1#issuecomment-1745072609) in [daVinci13/Exe2shell](https://github.com/daVinci13/Exe2shell)
+10. 🗣 Commented on [#1877](https://github.com/OpenSCAP/openscap/pull/1877#issuecomment-1744895214) in [OpenSCAP/openscap](https://github.com/OpenSCAP/openscap)
 <!--END_SECTION:activity-->
