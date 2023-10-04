@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#5229](https://github.com/rhinstaller/anaconda/pull/5229#issuecomment-1746833616) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-2. 🗣 Commented on [#37](https://github.com/eastgenomics/eris/pull/37#issuecomment-1746820292) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-3. 🗣 Commented on [#571](https://github.com/OpenFreeEnergy/openfe/pull/571#issuecomment-1746578794) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-4. 🗣 Commented on [#130](https://github.com/eastgenomics/dias_batch_running/pull/130#issuecomment-1746493911) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-5. 🗣 Commented on [#2](https://github.com/GenevieveBuckley/micro-sam/pull/2#issuecomment-1746245313) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
-6. 🗣 Commented on [#2923](https://github.com/dipy/dipy/pull/2923#issuecomment-1746149221) in [dipy/dipy](https://github.com/dipy/dipy)
-7. 🗣 Commented on [#305](https://github.com/DeMarcoLab/fibsem/pull/305#issuecomment-1746135546) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-8. 🗣 Commented on [#52](https://github.com/spacetelescope/jwst_coronagraph_visibility/pull/52#issuecomment-1745669372) in [spacetelescope/jwst_coronagraph_visibility](https://github.com/spacetelescope/jwst_coronagraph_visibility)
-9. 🗣 Commented on [#1370](https://github.com/spacetelescope/jwql/pull/1370#issuecomment-1745667178) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#71](https://github.com/politeauthority/cver/pull/71#issuecomment-1745638783) in [politeauthority/cver](https://github.com/politeauthority/cver)
+1. 🗣 Commented on [#38](https://github.com/eastgenomics/eris/pull/38#issuecomment-1746883340) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+2. 🗣 Commented on [#5229](https://github.com/rhinstaller/anaconda/pull/5229#issuecomment-1746833616) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#37](https://github.com/eastgenomics/eris/pull/37#issuecomment-1746820292) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+4. 🗣 Commented on [#571](https://github.com/OpenFreeEnergy/openfe/pull/571#issuecomment-1746578794) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+5. 🗣 Commented on [#130](https://github.com/eastgenomics/dias_batch_running/pull/130#issuecomment-1746493911) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+6. 🗣 Commented on [#2](https://github.com/GenevieveBuckley/micro-sam/pull/2#issuecomment-1746245313) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
+7. 🗣 Commented on [#2923](https://github.com/dipy/dipy/pull/2923#issuecomment-1746149221) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#305](https://github.com/DeMarcoLab/fibsem/pull/305#issuecomment-1746135546) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+9. 🗣 Commented on [#52](https://github.com/spacetelescope/jwst_coronagraph_visibility/pull/52#issuecomment-1745669372) in [spacetelescope/jwst_coronagraph_visibility](https://github.com/spacetelescope/jwst_coronagraph_visibility)
+10. 🗣 Commented on [#1370](https://github.com/spacetelescope/jwql/pull/1370#issuecomment-1745667178) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
