@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2927](https://github.com/dipy/dipy/pull/2927#issuecomment-1748893514) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#2759](https://github.com/dipy/dipy/pull/2759#issuecomment-1748873797) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#488](https://github.com/aramis-lab/clinicadl/pull/488#issuecomment-1748793360) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-4. 🗣 Commented on [#197](https://github.com/aimclub/GOLEM/pull/197#issuecomment-1748743343) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-5. 🗣 Commented on [#133](https://github.com/eastgenomics/dias_batch_running/pull/133#issuecomment-1748704052) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-6. 🗣 Commented on [#132](https://github.com/eastgenomics/dias_batch_running/pull/132#issuecomment-1748607268) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-7. 🗣 Commented on [#767](https://github.com/StingraySoftware/stingray/pull/767#issuecomment-1748299649) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-8. 🗣 Commented on [#214](https://github.com/DevoInc/python-sdk/pull/214#issuecomment-1748236822) in [DevoInc/python-sdk](https://github.com/DevoInc/python-sdk)
-9. 🗣 Commented on [#7](https://github.com/njzjz/zhihubackup/pull/7#issuecomment-1748188790) in [njzjz/zhihubackup](https://github.com/njzjz/zhihubackup)
-10. 🗣 Commented on [#4](https://github.com/njzjz/zhihubackup/pull/4#issuecomment-1748166033) in [njzjz/zhihubackup](https://github.com/njzjz/zhihubackup)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/GriD_Fashion/pull/1#issuecomment-1748971574) in [tuhinmallick/GriD_Fashion](https://github.com/tuhinmallick/GriD_Fashion)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/Fashion-Trend-Analysis-and-Prediction-Model/pull/1#issuecomment-1748967320) in [tuhinmallick/Fashion-Trend-Analysis-and-Prediction-Model](https://github.com/tuhinmallick/Fashion-Trend-Analysis-and-Prediction-Model)
+3. 🗣 Commented on [#2927](https://github.com/dipy/dipy/pull/2927#issuecomment-1748893514) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#2759](https://github.com/dipy/dipy/pull/2759#issuecomment-1748873797) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#488](https://github.com/aramis-lab/clinicadl/pull/488#issuecomment-1748793360) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+6. 🗣 Commented on [#197](https://github.com/aimclub/GOLEM/pull/197#issuecomment-1748743343) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+7. 🗣 Commented on [#133](https://github.com/eastgenomics/dias_batch_running/pull/133#issuecomment-1748704052) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+8. 🗣 Commented on [#132](https://github.com/eastgenomics/dias_batch_running/pull/132#issuecomment-1748607268) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+9. 🗣 Commented on [#767](https://github.com/StingraySoftware/stingray/pull/767#issuecomment-1748299649) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+10. 🗣 Commented on [#214](https://github.com/DevoInc/python-sdk/pull/214#issuecomment-1748236822) in [DevoInc/python-sdk](https://github.com/DevoInc/python-sdk)
 <!--END_SECTION:activity-->
