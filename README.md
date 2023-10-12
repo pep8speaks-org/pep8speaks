@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#6](https://github.com/ITMO-NSS-team/GAMLET/pull/6#issuecomment-1760025360) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-2. 🗣 Commented on [#2922](https://github.com/dipy/dipy/pull/2922#issuecomment-1759940703) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#5245](https://github.com/rhinstaller/anaconda/pull/5245#issuecomment-1759924427) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-4. 🗣 Commented on [#161](https://github.com/gwpy/pyomicron/pull/161#issuecomment-1759651075) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
-5. 🗣 Commented on [#1588](https://github.com/HEXRD/hexrdgui/pull/1588#issuecomment-1759484044) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-6. 🗣 Commented on [#96](https://github.com/aimclub/Fedot.Industrial/pull/96#issuecomment-1759468584) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-7. 🗣 Commented on [#995](https://github.com/aramis-lab/clinica/pull/995#issuecomment-1759220123) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
-8. 🗣 Commented on [#56](https://github.com/njzjz/qiuwenbot/pull/56#issuecomment-1758788286) in [njzjz/qiuwenbot](https://github.com/njzjz/qiuwenbot)
-9. 🗣 Commented on [#200](https://github.com/CartoonFan/lutris/pull/200#issuecomment-1758718669) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#191](https://github.com/foreign-sub/pwnagotchi/pull/191#issuecomment-1758680021) in [foreign-sub/pwnagotchi](https://github.com/foreign-sub/pwnagotchi)
+1. 🗣 Commented on [#56](https://github.com/ITMO-NSS-team/GAMLET/pull/56#issuecomment-1760224348) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#21423](https://github.com/spyder-ide/spyder/pull/21423#issuecomment-1760214099) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#93](https://github.com/politeauthority/cver/pull/93#issuecomment-1760188552) in [politeauthority/cver](https://github.com/politeauthority/cver)
+4. 🗣 Commented on [#6](https://github.com/ITMO-NSS-team/GAMLET/pull/6#issuecomment-1760025360) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+5. 🗣 Commented on [#2922](https://github.com/dipy/dipy/pull/2922#issuecomment-1759940703) in [dipy/dipy](https://github.com/dipy/dipy)
+6. 🗣 Commented on [#5245](https://github.com/rhinstaller/anaconda/pull/5245#issuecomment-1759924427) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#161](https://github.com/gwpy/pyomicron/pull/161#issuecomment-1759651075) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
+8. 🗣 Commented on [#1588](https://github.com/HEXRD/hexrdgui/pull/1588#issuecomment-1759484044) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+9. 🗣 Commented on [#96](https://github.com/aimclub/Fedot.Industrial/pull/96#issuecomment-1759468584) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+10. 🗣 Commented on [#995](https://github.com/aramis-lab/clinica/pull/995#issuecomment-1759220123) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
 <!--END_SECTION:activity-->
