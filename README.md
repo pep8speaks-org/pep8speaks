@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1333](https://github.com/NeuralEnsemble/python-neo/pull/1333#issuecomment-1761632389) in [NeuralEnsemble/python-neo](https://github.com/NeuralEnsemble/python-neo)
-2. 🗣 Commented on [#59](https://github.com/ITMO-NSS-team/GAMLET/pull/59#issuecomment-1761565778) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-3. 🗣 Commented on [#98](https://github.com/aimclub/Fedot.Industrial/pull/98#issuecomment-1761460973) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-4. 🗣 Commented on [#97](https://github.com/aimclub/Fedot.Industrial/pull/97#issuecomment-1761432113) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-5. 🗣 Commented on [#5247](https://github.com/rhinstaller/anaconda/pull/5247#issuecomment-1761344981) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-6. 🗣 Commented on [#138](https://github.com/aimclub/GOLEM/pull/138#issuecomment-1761251103) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-7. 🗣 Commented on [#217](https://github.com/aimclub/GOLEM/pull/217#issuecomment-1761230859) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-8. 🗣 Commented on [#96](https://github.com/politeauthority/cver/pull/96#issuecomment-1760540217) in [politeauthority/cver](https://github.com/politeauthority/cver)
-9. 🗣 Commented on [#31](https://github.com/MDAnalysis/hole2-mdakit/pull/31#issuecomment-1760524514) in [MDAnalysis/hole2-mdakit](https://github.com/MDAnalysis/hole2-mdakit)
-10. 🗣 Commented on [#20090](https://github.com/spyder-ide/spyder/pull/20090#issuecomment-1760469376) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#60](https://github.com/ITMO-NSS-team/GAMLET/pull/60#issuecomment-1761708201) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#1333](https://github.com/NeuralEnsemble/python-neo/pull/1333#issuecomment-1761632389) in [NeuralEnsemble/python-neo](https://github.com/NeuralEnsemble/python-neo)
+3. 🗣 Commented on [#59](https://github.com/ITMO-NSS-team/GAMLET/pull/59#issuecomment-1761565778) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+4. 🗣 Commented on [#98](https://github.com/aimclub/Fedot.Industrial/pull/98#issuecomment-1761460973) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+5. 🗣 Commented on [#97](https://github.com/aimclub/Fedot.Industrial/pull/97#issuecomment-1761432113) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+6. 🗣 Commented on [#5247](https://github.com/rhinstaller/anaconda/pull/5247#issuecomment-1761344981) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#138](https://github.com/aimclub/GOLEM/pull/138#issuecomment-1761251103) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+8. 🗣 Commented on [#217](https://github.com/aimclub/GOLEM/pull/217#issuecomment-1761230859) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+9. 🗣 Commented on [#96](https://github.com/politeauthority/cver/pull/96#issuecomment-1760540217) in [politeauthority/cver](https://github.com/politeauthority/cver)
+10. 🗣 Commented on [#31](https://github.com/MDAnalysis/hole2-mdakit/pull/31#issuecomment-1760524514) in [MDAnalysis/hole2-mdakit](https://github.com/MDAnalysis/hole2-mdakit)
 <!--END_SECTION:activity-->
