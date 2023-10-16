@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#580](https://github.com/ExoCTK/exoctk/pull/580#issuecomment-1764611875) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-2. 🗣 Commented on [#597](https://github.com/NeuralEnsemble/elephant/pull/597#issuecomment-1764296271) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-3. 🗣 Commented on [#3783](https://github.com/privacyidea/privacyidea/pull/3783#issuecomment-1764039551) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-4. 🗣 Commented on [#51](https://github.com/cirKITers/Quafel/pull/51#issuecomment-1763929181) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-5. 🗣 Commented on [#360](https://github.com/payu-org/payu/pull/360#issuecomment-1763535078) in [payu-org/payu](https://github.com/payu-org/payu)
-6. 🗣 Commented on [#21426](https://github.com/spyder-ide/spyder/pull/21426#issuecomment-1763469779) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#638](https://github.com/SergeyPirogov/webdriver_manager/pull/638#issuecomment-1763443653) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
-8. 🗣 Commented on [#3896](https://github.com/MDAnalysis/mdanalysis/pull/3896#issuecomment-1763405719) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/langchain_faiss_vectorindex/pull/1#issuecomment-1763348563) in [tuhinmallick/langchain_faiss_vectorindex](https://github.com/tuhinmallick/langchain_faiss_vectorindex)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/fiftyone-docs-search/pull/1#issuecomment-1763331181) in [tuhinmallick/fiftyone-docs-search](https://github.com/tuhinmallick/fiftyone-docs-search)
+1. 🗣 Commented on [#101](https://github.com/politeauthority/cver/pull/101#issuecomment-1764761123) in [politeauthority/cver](https://github.com/politeauthority/cver)
+2. 🗣 Commented on [#580](https://github.com/ExoCTK/exoctk/pull/580#issuecomment-1764611875) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+3. 🗣 Commented on [#597](https://github.com/NeuralEnsemble/elephant/pull/597#issuecomment-1764296271) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+4. 🗣 Commented on [#3783](https://github.com/privacyidea/privacyidea/pull/3783#issuecomment-1764039551) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#51](https://github.com/cirKITers/Quafel/pull/51#issuecomment-1763929181) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+6. 🗣 Commented on [#360](https://github.com/payu-org/payu/pull/360#issuecomment-1763535078) in [payu-org/payu](https://github.com/payu-org/payu)
+7. 🗣 Commented on [#21426](https://github.com/spyder-ide/spyder/pull/21426#issuecomment-1763469779) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#638](https://github.com/SergeyPirogov/webdriver_manager/pull/638#issuecomment-1763443653) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
+9. 🗣 Commented on [#3896](https://github.com/MDAnalysis/mdanalysis/pull/3896#issuecomment-1763405719) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/langchain_faiss_vectorindex/pull/1#issuecomment-1763348563) in [tuhinmallick/langchain_faiss_vectorindex](https://github.com/tuhinmallick/langchain_faiss_vectorindex)
 <!--END_SECTION:activity-->
