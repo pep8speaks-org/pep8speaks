@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#102](https://github.com/politeauthority/cver/pull/102#issuecomment-1765140133) in [politeauthority/cver](https://github.com/politeauthority/cver)
-2. 🗣 Commented on [#5181](https://github.com/rhinstaller/anaconda/pull/5181#issuecomment-1764922888) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#5255](https://github.com/rhinstaller/anaconda/pull/5255#issuecomment-1764864928) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-4. 🗣 Commented on [#101](https://github.com/politeauthority/cver/pull/101#issuecomment-1764761123) in [politeauthority/cver](https://github.com/politeauthority/cver)
-5. 🗣 Commented on [#580](https://github.com/ExoCTK/exoctk/pull/580#issuecomment-1764611875) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-6. 🗣 Commented on [#597](https://github.com/NeuralEnsemble/elephant/pull/597#issuecomment-1764296271) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-7. 🗣 Commented on [#3783](https://github.com/privacyidea/privacyidea/pull/3783#issuecomment-1764039551) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-8. 🗣 Commented on [#51](https://github.com/cirKITers/Quafel/pull/51#issuecomment-1763929181) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-9. 🗣 Commented on [#360](https://github.com/payu-org/payu/pull/360#issuecomment-1763535078) in [payu-org/payu](https://github.com/payu-org/payu)
-10. 🗣 Commented on [#21426](https://github.com/spyder-ide/spyder/pull/21426#issuecomment-1763469779) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#104](https://github.com/politeauthority/cver/pull/104#issuecomment-1765234197) in [politeauthority/cver](https://github.com/politeauthority/cver)
+2. 🗣 Commented on [#102](https://github.com/politeauthority/cver/pull/102#issuecomment-1765140133) in [politeauthority/cver](https://github.com/politeauthority/cver)
+3. 🗣 Commented on [#5181](https://github.com/rhinstaller/anaconda/pull/5181#issuecomment-1764922888) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+4. 🗣 Commented on [#5255](https://github.com/rhinstaller/anaconda/pull/5255#issuecomment-1764864928) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#101](https://github.com/politeauthority/cver/pull/101#issuecomment-1764761123) in [politeauthority/cver](https://github.com/politeauthority/cver)
+6. 🗣 Commented on [#580](https://github.com/ExoCTK/exoctk/pull/580#issuecomment-1764611875) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+7. 🗣 Commented on [#597](https://github.com/NeuralEnsemble/elephant/pull/597#issuecomment-1764296271) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+8. 🗣 Commented on [#3783](https://github.com/privacyidea/privacyidea/pull/3783#issuecomment-1764039551) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+9. 🗣 Commented on [#51](https://github.com/cirKITers/Quafel/pull/51#issuecomment-1763929181) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+10. 🗣 Commented on [#360](https://github.com/payu-org/payu/pull/360#issuecomment-1763535078) in [payu-org/payu](https://github.com/payu-org/payu)
 <!--END_SECTION:activity-->
