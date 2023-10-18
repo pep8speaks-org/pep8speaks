@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/Minimal-URL-Shortener/pull/1#issuecomment-1769501782) in [tuhinmallick/Minimal-URL-Shortener](https://github.com/tuhinmallick/Minimal-URL-Shortener)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/Group-E-mail-Automation/pull/1#issuecomment-1769501226) in [tuhinmallick/Group-E-mail-Automation](https://github.com/tuhinmallick/Group-E-mail-Automation)
-3. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN/pull/1#issuecomment-1769497233) in [tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN](https://github.com/tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN)
-4. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-based-Duplicate-Images-Finder/pull/1#issuecomment-1769497214) in [tuhinmallick/Streamlit-based-Duplicate-Images-Finder](https://github.com/tuhinmallick/Streamlit-based-Duplicate-Images-Finder)
-5. 🗣 Commented on [#1](https://github.com/tuhinmallick/Haystack-based-QA-system/pull/1#issuecomment-1769496327) in [tuhinmallick/Haystack-based-QA-system](https://github.com/tuhinmallick/Haystack-based-QA-system)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/speech-2-data-expert.ai-streamlit/pull/1#issuecomment-1769475386) in [tuhinmallick/speech-2-data-expert.ai-streamlit](https://github.com/tuhinmallick/speech-2-data-expert.ai-streamlit)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-Imagededup/pull/1#issuecomment-1769473826) in [tuhinmallick/Streamlit-Imagededup](https://github.com/tuhinmallick/Streamlit-Imagededup)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/Deep-Question-Answering-System/pull/1#issuecomment-1769472074) in [tuhinmallick/Deep-Question-Answering-System](https://github.com/tuhinmallick/Deep-Question-Answering-System)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/CLIP_prefix_caption/pull/1#issuecomment-1769457368) in [tuhinmallick/CLIP_prefix_caption](https://github.com/tuhinmallick/CLIP_prefix_caption)
-10. 🗣 Commented on [#107](https://github.com/politeauthority/cver/pull/107#issuecomment-1769402239) in [politeauthority/cver](https://github.com/politeauthority/cver)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/demo-face-gan/pull/1#issuecomment-1769517092) in [tuhinmallick/demo-face-gan](https://github.com/tuhinmallick/demo-face-gan)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/Minimal-URL-Shortener/pull/1#issuecomment-1769501782) in [tuhinmallick/Minimal-URL-Shortener](https://github.com/tuhinmallick/Minimal-URL-Shortener)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/Group-E-mail-Automation/pull/1#issuecomment-1769501226) in [tuhinmallick/Group-E-mail-Automation](https://github.com/tuhinmallick/Group-E-mail-Automation)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN/pull/1#issuecomment-1769497233) in [tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN](https://github.com/tuhinmallick/Streamlit-based-Image-Super-Resolution-using-ESRGAN)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-based-Duplicate-Images-Finder/pull/1#issuecomment-1769497214) in [tuhinmallick/Streamlit-based-Duplicate-Images-Finder](https://github.com/tuhinmallick/Streamlit-based-Duplicate-Images-Finder)
+6. 🗣 Commented on [#1](https://github.com/tuhinmallick/Haystack-based-QA-system/pull/1#issuecomment-1769496327) in [tuhinmallick/Haystack-based-QA-system](https://github.com/tuhinmallick/Haystack-based-QA-system)
+7. 🗣 Commented on [#1](https://github.com/tuhinmallick/speech-2-data-expert.ai-streamlit/pull/1#issuecomment-1769475386) in [tuhinmallick/speech-2-data-expert.ai-streamlit](https://github.com/tuhinmallick/speech-2-data-expert.ai-streamlit)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit-Imagededup/pull/1#issuecomment-1769473826) in [tuhinmallick/Streamlit-Imagededup](https://github.com/tuhinmallick/Streamlit-Imagededup)
+9. 🗣 Commented on [#1](https://github.com/tuhinmallick/Deep-Question-Answering-System/pull/1#issuecomment-1769472074) in [tuhinmallick/Deep-Question-Answering-System](https://github.com/tuhinmallick/Deep-Question-Answering-System)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/CLIP_prefix_caption/pull/1#issuecomment-1769457368) in [tuhinmallick/CLIP_prefix_caption](https://github.com/tuhinmallick/CLIP_prefix_caption)
 <!--END_SECTION:activity-->
