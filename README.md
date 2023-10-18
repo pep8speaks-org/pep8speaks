@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/crab/pull/1#issuecomment-1767562698) in [tuhinmallick/crab](https://github.com/tuhinmallick/crab)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine/pull/1#issuecomment-1767559101) in [tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine](https://github.com/tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine)
-3. 🗣 Commented on [#478](https://github.com/HEPCloud/decisionengine_modules/pull/478#issuecomment-1767432536) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
-4. 🗣 Commented on [#201](https://github.com/CartoonFan/lutris/pull/201#issuecomment-1767371539) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-5. 🗣 Commented on [#2851](https://github.com/astropy/astroquery/pull/2851#issuecomment-1767322223) in [astropy/astroquery](https://github.com/astropy/astroquery)
-6. 🗣 Commented on [#457](https://github.com/nabaztag2018/pynab/pull/457#issuecomment-1767085499) in [nabaztag2018/pynab](https://github.com/nabaztag2018/pynab)
-7. 🗣 Commented on [#91](https://github.com/spacetelescope/jwst_gtvt/pull/91#issuecomment-1766535362) in [spacetelescope/jwst_gtvt](https://github.com/spacetelescope/jwst_gtvt)
-8. 🗣 Commented on [#101](https://github.com/aimclub/Fedot.Industrial/pull/101#issuecomment-1766274153) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#91](https://github.com/Richard-Sti/csiborgtools/pull/91#issuecomment-1766195847) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
-10. 🗣 Commented on [#2](https://github.com/eastgenomics/gene_annotation2bed/pull/2#issuecomment-1766130027) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/recommender/pull/1#issuecomment-1767610743) in [tuhinmallick/recommender](https://github.com/tuhinmallick/recommender)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/finsight/pull/1#issuecomment-1767610179) in [tuhinmallick/finsight](https://github.com/tuhinmallick/finsight)
+3. 🗣 Commented on [#144](https://github.com/DeMarcoLab/autolamella/pull/144#issuecomment-1767582342) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/crab/pull/1#issuecomment-1767562698) in [tuhinmallick/crab](https://github.com/tuhinmallick/crab)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine/pull/1#issuecomment-1767559101) in [tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine](https://github.com/tuhinmallick/kaggle_outbrain_click_prediction_google_cloud_ml_engine)
+6. 🗣 Commented on [#478](https://github.com/HEPCloud/decisionengine_modules/pull/478#issuecomment-1767432536) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
+7. 🗣 Commented on [#201](https://github.com/CartoonFan/lutris/pull/201#issuecomment-1767371539) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+8. 🗣 Commented on [#2851](https://github.com/astropy/astroquery/pull/2851#issuecomment-1767322223) in [astropy/astroquery](https://github.com/astropy/astroquery)
+9. 🗣 Commented on [#457](https://github.com/nabaztag2018/pynab/pull/457#issuecomment-1767085499) in [nabaztag2018/pynab](https://github.com/nabaztag2018/pynab)
+10. 🗣 Commented on [#91](https://github.com/spacetelescope/jwst_gtvt/pull/91#issuecomment-1766535362) in [spacetelescope/jwst_gtvt](https://github.com/spacetelescope/jwst_gtvt)
 <!--END_SECTION:activity-->
