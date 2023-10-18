@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/Similar-Images-Search/pull/1#issuecomment-1768530528) in [tuhinmallick/Similar-Images-Search](https://github.com/tuhinmallick/Similar-Images-Search)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/Youtube-Whisper-Streamlit/pull/1#issuecomment-1768523653) in [tuhinmallick/Youtube-Whisper-Streamlit](https://github.com/tuhinmallick/Youtube-Whisper-Streamlit)
-3. 🗣 Commented on [#1](https://github.com/tuhinmallick/snscrape/pull/1#issuecomment-1768509215) in [tuhinmallick/snscrape](https://github.com/tuhinmallick/snscrape)
-4. 🗣 Commented on [#1](https://github.com/tuhinmallick/MetaGPT/pull/1#issuecomment-1768508806) in [tuhinmallick/MetaGPT](https://github.com/tuhinmallick/MetaGPT)
-5. 🗣 Commented on [#1](https://github.com/tuhinmallick/gpt-engineer/pull/1#issuecomment-1768505741) in [tuhinmallick/gpt-engineer](https://github.com/tuhinmallick/gpt-engineer)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/DevOpsGPT/pull/1#issuecomment-1768505033) in [tuhinmallick/DevOpsGPT](https://github.com/tuhinmallick/DevOpsGPT)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/youtube_script_generator/pull/1#issuecomment-1768502648) in [tuhinmallick/youtube_script_generator](https://github.com/tuhinmallick/youtube_script_generator)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/influencer-gpt/pull/1#issuecomment-1768498863) in [tuhinmallick/influencer-gpt](https://github.com/tuhinmallick/influencer-gpt)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/Document_Scanner_Python/pull/1#issuecomment-1768370268) in [tuhinmallick/Document_Scanner_Python](https://github.com/tuhinmallick/Document_Scanner_Python)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/Streamlit_Bank_Loan_Prediction/pull/1#issuecomment-1768364164) in [tuhinmallick/Streamlit_Bank_Loan_Prediction](https://github.com/tuhinmallick/Streamlit_Bank_Loan_Prediction)
+1. 🗣 Commented on [#106](https://github.com/politeauthority/cver/pull/106#issuecomment-1768828634) in [politeauthority/cver](https://github.com/politeauthority/cver)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/Similar-Images-Search/pull/1#issuecomment-1768530528) in [tuhinmallick/Similar-Images-Search](https://github.com/tuhinmallick/Similar-Images-Search)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/Youtube-Whisper-Streamlit/pull/1#issuecomment-1768523653) in [tuhinmallick/Youtube-Whisper-Streamlit](https://github.com/tuhinmallick/Youtube-Whisper-Streamlit)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/snscrape/pull/1#issuecomment-1768509215) in [tuhinmallick/snscrape](https://github.com/tuhinmallick/snscrape)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/MetaGPT/pull/1#issuecomment-1768508806) in [tuhinmallick/MetaGPT](https://github.com/tuhinmallick/MetaGPT)
+6. 🗣 Commented on [#1](https://github.com/tuhinmallick/gpt-engineer/pull/1#issuecomment-1768505741) in [tuhinmallick/gpt-engineer](https://github.com/tuhinmallick/gpt-engineer)
+7. 🗣 Commented on [#1](https://github.com/tuhinmallick/DevOpsGPT/pull/1#issuecomment-1768505033) in [tuhinmallick/DevOpsGPT](https://github.com/tuhinmallick/DevOpsGPT)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/youtube_script_generator/pull/1#issuecomment-1768502648) in [tuhinmallick/youtube_script_generator](https://github.com/tuhinmallick/youtube_script_generator)
+9. 🗣 Commented on [#1](https://github.com/tuhinmallick/influencer-gpt/pull/1#issuecomment-1768498863) in [tuhinmallick/influencer-gpt](https://github.com/tuhinmallick/influencer-gpt)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/Document_Scanner_Python/pull/1#issuecomment-1768370268) in [tuhinmallick/Document_Scanner_Python](https://github.com/tuhinmallick/Document_Scanner_Python)
 <!--END_SECTION:activity-->
