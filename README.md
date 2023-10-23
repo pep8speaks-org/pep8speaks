@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#774](https://github.com/scilus/scilpy/pull/774#issuecomment-1775506607) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#771](https://github.com/scilus/scilpy/pull/771#issuecomment-1775421501) in [scilus/scilpy](https://github.com/scilus/scilpy)
-3. 🗣 Commented on [#991](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/991#issuecomment-1775366153) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#768](https://github.com/scilus/scilpy/pull/768#issuecomment-1775305907) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#734](https://github.com/scilus/scilpy/pull/734#issuecomment-1775280425) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#664](https://github.com/scilus/scilpy/pull/664#issuecomment-1775198519) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#767](https://github.com/scilus/scilpy/pull/767#issuecomment-1775170591) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#717](https://github.com/QuantEcon/QuantEcon.py/pull/717#issuecomment-1775107053) in [QuantEcon/QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py)
-9. 🗣 Commented on [#2953](https://github.com/dipy/dipy/pull/2953#issuecomment-1775106195) in [dipy/dipy](https://github.com/dipy/dipy)
-10. 🗣 Commented on [#5269](https://github.com/rhinstaller/anaconda/pull/5269#issuecomment-1774913375) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#778](https://github.com/scilus/scilpy/pull/778#issuecomment-1775758157) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#777](https://github.com/scilus/scilpy/pull/777#issuecomment-1775746366) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#33](https://github.com/nstarman/utilipy/pull/33#issuecomment-1775745678) in [nstarman/utilipy](https://github.com/nstarman/utilipy)
+4. 🗣 Commented on [#776](https://github.com/scilus/scilpy/pull/776#issuecomment-1775678208) in [scilus/scilpy](https://github.com/scilus/scilpy)
+5. 🗣 Commented on [#773](https://github.com/scilus/scilpy/pull/773#issuecomment-1775670140) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#774](https://github.com/scilus/scilpy/pull/774#issuecomment-1775506607) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#771](https://github.com/scilus/scilpy/pull/771#issuecomment-1775421501) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#991](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/991#issuecomment-1775366153) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+9. 🗣 Commented on [#768](https://github.com/scilus/scilpy/pull/768#issuecomment-1775305907) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#734](https://github.com/scilus/scilpy/pull/734#issuecomment-1775280425) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
