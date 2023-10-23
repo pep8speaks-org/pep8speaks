@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#771](https://github.com/scilus/scilpy/pull/771#issuecomment-1775421501) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#991](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/991#issuecomment-1775366153) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-3. 🗣 Commented on [#768](https://github.com/scilus/scilpy/pull/768#issuecomment-1775305907) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#734](https://github.com/scilus/scilpy/pull/734#issuecomment-1775280425) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#664](https://github.com/scilus/scilpy/pull/664#issuecomment-1775198519) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#767](https://github.com/scilus/scilpy/pull/767#issuecomment-1775170591) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#717](https://github.com/QuantEcon/QuantEcon.py/pull/717#issuecomment-1775107053) in [QuantEcon/QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py)
-8. 🗣 Commented on [#2953](https://github.com/dipy/dipy/pull/2953#issuecomment-1775106195) in [dipy/dipy](https://github.com/dipy/dipy)
-9. 🗣 Commented on [#5269](https://github.com/rhinstaller/anaconda/pull/5269#issuecomment-1774913375) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-10. 🗣 Commented on [#1005](https://github.com/aramis-lab/clinica/pull/1005#issuecomment-1774890091) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
+1. 🗣 Commented on [#774](https://github.com/scilus/scilpy/pull/774#issuecomment-1775506607) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#771](https://github.com/scilus/scilpy/pull/771#issuecomment-1775421501) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#991](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/991#issuecomment-1775366153) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+4. 🗣 Commented on [#768](https://github.com/scilus/scilpy/pull/768#issuecomment-1775305907) in [scilus/scilpy](https://github.com/scilus/scilpy)
+5. 🗣 Commented on [#734](https://github.com/scilus/scilpy/pull/734#issuecomment-1775280425) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#664](https://github.com/scilus/scilpy/pull/664#issuecomment-1775198519) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#767](https://github.com/scilus/scilpy/pull/767#issuecomment-1775170591) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#717](https://github.com/QuantEcon/QuantEcon.py/pull/717#issuecomment-1775107053) in [QuantEcon/QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py)
+9. 🗣 Commented on [#2953](https://github.com/dipy/dipy/pull/2953#issuecomment-1775106195) in [dipy/dipy](https://github.com/dipy/dipy)
+10. 🗣 Commented on [#5269](https://github.com/rhinstaller/anaconda/pull/5269#issuecomment-1774913375) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
