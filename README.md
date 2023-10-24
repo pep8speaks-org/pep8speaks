@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#6](https://github.com/rasbt/cvpr2023/pull/6#issuecomment-1776119453) in [rasbt/cvpr2023](https://github.com/rasbt/cvpr2023)
-2. 🗣 Commented on [#993](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/993#issuecomment-1776069185) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-3. 🗣 Commented on [#3](https://github.com/GenevieveBuckley/micro-sam/pull/3#issuecomment-1775990532) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
-4. 🗣 Commented on [#786](https://github.com/scilus/scilpy/pull/786#issuecomment-1775925527) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#769](https://github.com/scilus/scilpy/pull/769#issuecomment-1775921067) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#785](https://github.com/scilus/scilpy/pull/785#issuecomment-1775859518) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#783](https://github.com/scilus/scilpy/pull/783#issuecomment-1775857828) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#782](https://github.com/scilus/scilpy/pull/782#issuecomment-1775856238) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/haystack-search-pipeline-streamlit/pull/1#issuecomment-1775851248) in [tuhinmallick/haystack-search-pipeline-streamlit](https://github.com/tuhinmallick/haystack-search-pipeline-streamlit)
-10. 🗣 Commented on [#779](https://github.com/scilus/scilpy/pull/779#issuecomment-1775792657) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#1](https://github.com/Advik-B/librespot-python/pull/1#issuecomment-1776751378) in [Advik-B/librespot-python](https://github.com/Advik-B/librespot-python)
+2. 🗣 Commented on [#6](https://github.com/rasbt/cvpr2023/pull/6#issuecomment-1776119453) in [rasbt/cvpr2023](https://github.com/rasbt/cvpr2023)
+3. 🗣 Commented on [#993](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/993#issuecomment-1776069185) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+4. 🗣 Commented on [#3](https://github.com/GenevieveBuckley/micro-sam/pull/3#issuecomment-1775990532) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
+5. 🗣 Commented on [#786](https://github.com/scilus/scilpy/pull/786#issuecomment-1775925527) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#769](https://github.com/scilus/scilpy/pull/769#issuecomment-1775921067) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#785](https://github.com/scilus/scilpy/pull/785#issuecomment-1775859518) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#783](https://github.com/scilus/scilpy/pull/783#issuecomment-1775857828) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#782](https://github.com/scilus/scilpy/pull/782#issuecomment-1775856238) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/haystack-search-pipeline-streamlit/pull/1#issuecomment-1775851248) in [tuhinmallick/haystack-search-pipeline-streamlit](https://github.com/tuhinmallick/haystack-search-pipeline-streamlit)
 <!--END_SECTION:activity-->
