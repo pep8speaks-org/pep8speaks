@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#564](https://github.com/NeuralEnsemble/elephant/pull/564#issuecomment-1783047476) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-2. 🗣 Commented on [#5283](https://github.com/rhinstaller/anaconda/pull/5283#issuecomment-1782765109) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#455](https://github.com/VorTECHsa/python-sdk/pull/455#issuecomment-1782749836) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
-4. 🗣 Commented on [#570](https://github.com/NeuralEnsemble/elephant/pull/570#issuecomment-1782574381) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-5. 🗣 Commented on [#208](https://github.com/scil-vital/dwi_ml/pull/208#issuecomment-1781868680) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-6. 🗣 Commented on [#173](https://github.com/gwpy/pyomicron/pull/173#issuecomment-1781576659) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
-7. 🗣 Commented on [#44](https://github.com/eastgenomics/eris/pull/44#issuecomment-1781444289) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#231](https://github.com/aimclub/GOLEM/pull/231#issuecomment-1781420968) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-9. 🗣 Commented on [#750](https://github.com/scilus/scilpy/pull/750#issuecomment-1781310829) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#1189](https://github.com/aimclub/FEDOT/pull/1189#issuecomment-1780883871) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+1. 🗣 Commented on [#64](https://github.com/ITMO-NSS-team/GAMLET/pull/64#issuecomment-1783382080) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#564](https://github.com/NeuralEnsemble/elephant/pull/564#issuecomment-1783047476) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+3. 🗣 Commented on [#5283](https://github.com/rhinstaller/anaconda/pull/5283#issuecomment-1782765109) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+4. 🗣 Commented on [#455](https://github.com/VorTECHsa/python-sdk/pull/455#issuecomment-1782749836) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
+5. 🗣 Commented on [#570](https://github.com/NeuralEnsemble/elephant/pull/570#issuecomment-1782574381) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+6. 🗣 Commented on [#208](https://github.com/scil-vital/dwi_ml/pull/208#issuecomment-1781868680) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+7. 🗣 Commented on [#173](https://github.com/gwpy/pyomicron/pull/173#issuecomment-1781576659) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
+8. 🗣 Commented on [#44](https://github.com/eastgenomics/eris/pull/44#issuecomment-1781444289) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#231](https://github.com/aimclub/GOLEM/pull/231#issuecomment-1781420968) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+10. 🗣 Commented on [#750](https://github.com/scilus/scilpy/pull/750#issuecomment-1781310829) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
