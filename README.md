@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/generative-ai/pull/1#issuecomment-1791690161) in [tuhinmallick/generative-ai](https://github.com/tuhinmallick/generative-ai)
-2. 🗣 Commented on [#1007](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1007#issuecomment-1791686674) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-3. 🗣 Commented on [#2962](https://github.com/dipy/dipy/pull/2962#issuecomment-1791680253) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#39](https://github.com/MDAnalysis/transport-analysis/pull/39#issuecomment-1791552966) in [MDAnalysis/transport-analysis](https://github.com/MDAnalysis/transport-analysis)
-5. 🗣 Commented on [#614](https://github.com/OpenFreeEnergy/openfe/pull/614#issuecomment-1791537417) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-6. 🗣 Commented on [#5298](https://github.com/rhinstaller/anaconda/pull/5298#issuecomment-1791522004) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#613](https://github.com/OpenFreeEnergy/openfe/pull/613#issuecomment-1791516377) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-8. 🗣 Commented on [#802](https://github.com/scilus/scilpy/pull/802#issuecomment-1791412695) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#800](https://github.com/scilus/scilpy/pull/800#issuecomment-1791246542) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#799](https://github.com/scilus/scilpy/pull/799#issuecomment-1791242130) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/contact-center-ai-samples/pull/1#issuecomment-1791698508) in [tuhinmallick/contact-center-ai-samples](https://github.com/tuhinmallick/contact-center-ai-samples)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/genai-for-marketing/pull/1#issuecomment-1791696614) in [tuhinmallick/genai-for-marketing](https://github.com/tuhinmallick/genai-for-marketing)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/document-ai-samples/pull/1#issuecomment-1791695673) in [tuhinmallick/document-ai-samples](https://github.com/tuhinmallick/document-ai-samples)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/mlops-with-vertex-ai/pull/1#issuecomment-1791693822) in [tuhinmallick/mlops-with-vertex-ai](https://github.com/tuhinmallick/mlops-with-vertex-ai)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/generative-ai/pull/1#issuecomment-1791690161) in [tuhinmallick/generative-ai](https://github.com/tuhinmallick/generative-ai)
+6. 🗣 Commented on [#1007](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1007#issuecomment-1791686674) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#2962](https://github.com/dipy/dipy/pull/2962#issuecomment-1791680253) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#39](https://github.com/MDAnalysis/transport-analysis/pull/39#issuecomment-1791552966) in [MDAnalysis/transport-analysis](https://github.com/MDAnalysis/transport-analysis)
+9. 🗣 Commented on [#614](https://github.com/OpenFreeEnergy/openfe/pull/614#issuecomment-1791537417) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+10. 🗣 Commented on [#5298](https://github.com/rhinstaller/anaconda/pull/5298#issuecomment-1791522004) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
