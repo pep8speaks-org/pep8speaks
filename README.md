@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/SoM/pull/1#issuecomment-1803231369) in [tuhinmallick/SoM](https://github.com/tuhinmallick/SoM)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/fforma/pull/1#issuecomment-1802939548) in [tuhinmallick/fforma](https://github.com/tuhinmallick/fforma)
-3. 🗣 Commented on [#1](https://github.com/tuhinmallick/esrnn_torch/pull/1#issuecomment-1802935096) in [tuhinmallick/esrnn_torch](https://github.com/tuhinmallick/esrnn_torch)
-4. 🗣 Commented on [#511](https://github.com/njzjz/reacnetgenerator/pull/511#issuecomment-1802721453) in [njzjz/reacnetgenerator](https://github.com/njzjz/reacnetgenerator)
-5. 🗣 Commented on [#1397](https://github.com/spacetelescope/jwql/pull/1397#issuecomment-1802701841) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#51](https://github.com/MDAnalysis/mdaencore/pull/51#issuecomment-1802520165) in [MDAnalysis/mdaencore](https://github.com/MDAnalysis/mdaencore)
-7. 🗣 Commented on [#2](https://github.com/nsryan2/transition-scenarios/pull/2#issuecomment-1802327605) in [nsryan2/transition-scenarios](https://github.com/nsryan2/transition-scenarios)
-8. 🗣 Commented on [#1396](https://github.com/spacetelescope/jwql/pull/1396#issuecomment-1802324680) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/LCM_Inpaint_Outpaint_Comfy/pull/1#issuecomment-1802225134) in [tuhinmallick/LCM_Inpaint_Outpaint_Comfy](https://github.com/tuhinmallick/LCM_Inpaint_Outpaint_Comfy)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/lama-cleaner/pull/1#issuecomment-1802208338) in [tuhinmallick/lama-cleaner](https://github.com/tuhinmallick/lama-cleaner)
+1. 🗣 Commented on [#2145](https://github.com/astropy/astroquery/pull/2145#issuecomment-1803659022) in [astropy/astroquery](https://github.com/astropy/astroquery)
+2. 🗣 Commented on [#1013](https://github.com/aramis-lab/clinica/pull/1013#issuecomment-1803636167) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/SoM/pull/1#issuecomment-1803231369) in [tuhinmallick/SoM](https://github.com/tuhinmallick/SoM)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/fforma/pull/1#issuecomment-1802939548) in [tuhinmallick/fforma](https://github.com/tuhinmallick/fforma)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/esrnn_torch/pull/1#issuecomment-1802935096) in [tuhinmallick/esrnn_torch](https://github.com/tuhinmallick/esrnn_torch)
+6. 🗣 Commented on [#511](https://github.com/njzjz/reacnetgenerator/pull/511#issuecomment-1802721453) in [njzjz/reacnetgenerator](https://github.com/njzjz/reacnetgenerator)
+7. 🗣 Commented on [#1397](https://github.com/spacetelescope/jwql/pull/1397#issuecomment-1802701841) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+8. 🗣 Commented on [#51](https://github.com/MDAnalysis/mdaencore/pull/51#issuecomment-1802520165) in [MDAnalysis/mdaencore](https://github.com/MDAnalysis/mdaencore)
+9. 🗣 Commented on [#2](https://github.com/nsryan2/transition-scenarios/pull/2#issuecomment-1802327605) in [nsryan2/transition-scenarios](https://github.com/nsryan2/transition-scenarios)
+10. 🗣 Commented on [#1396](https://github.com/spacetelescope/jwql/pull/1396#issuecomment-1802324680) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
