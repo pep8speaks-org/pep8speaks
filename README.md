@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/CogVLM/pull/1#issuecomment-1806233125) in [tuhinmallick/CogVLM](https://github.com/tuhinmallick/CogVLM)
-2. 🗣 Commented on [#2615](https://github.com/metabrainz/listenbrainz-server/pull/2615#issuecomment-1806207048) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#60](https://github.com/cirKITers/Quafel/pull/60#issuecomment-1805967440) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-4. 🗣 Commented on [#48](https://github.com/eastgenomics/eris/pull/48#issuecomment-1805884936) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-5. 🗣 Commented on [#19](https://github.com/ITMO-NSS-team/pytsbe/pull/19#issuecomment-1805641081) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/BetterOCR/pull/1#issuecomment-1805221098) in [tuhinmallick/BetterOCR](https://github.com/tuhinmallick/BetterOCR)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/Yi/pull/1#issuecomment-1805216249) in [tuhinmallick/Yi](https://github.com/tuhinmallick/Yi)
-8. 🗣 Commented on [#21511](https://github.com/spyder-ide/spyder/pull/21511#issuecomment-1804962201) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-9. 🗣 Commented on [#4350](https://github.com/uwcirg/truenth-portal/pull/4350#issuecomment-1804930265) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/gorilla/pull/1#issuecomment-1804903837) in [tuhinmallick/gorilla](https://github.com/tuhinmallick/gorilla)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/alignment-handbook/pull/1#issuecomment-1806285282) in [tuhinmallick/alignment-handbook](https://github.com/tuhinmallick/alignment-handbook)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/OpenAI_Agent_Swarm/pull/1#issuecomment-1806260174) in [tuhinmallick/OpenAI_Agent_Swarm](https://github.com/tuhinmallick/OpenAI_Agent_Swarm)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/VisionAPI/pull/1#issuecomment-1806254442) in [tuhinmallick/VisionAPI](https://github.com/tuhinmallick/VisionAPI)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/GPTCaption/pull/1#issuecomment-1806239930) in [tuhinmallick/GPTCaption](https://github.com/tuhinmallick/GPTCaption)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/CogVLM/pull/1#issuecomment-1806233125) in [tuhinmallick/CogVLM](https://github.com/tuhinmallick/CogVLM)
+6. 🗣 Commented on [#2615](https://github.com/metabrainz/listenbrainz-server/pull/2615#issuecomment-1806207048) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+7. 🗣 Commented on [#60](https://github.com/cirKITers/Quafel/pull/60#issuecomment-1805967440) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+8. 🗣 Commented on [#48](https://github.com/eastgenomics/eris/pull/48#issuecomment-1805884936) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#19](https://github.com/ITMO-NSS-team/pytsbe/pull/19#issuecomment-1805641081) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/BetterOCR/pull/1#issuecomment-1805221098) in [tuhinmallick/BetterOCR](https://github.com/tuhinmallick/BetterOCR)
 <!--END_SECTION:activity-->
