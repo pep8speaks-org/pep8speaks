@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1399](https://github.com/spacetelescope/jwql/pull/1399#issuecomment-1809122920) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#1398](https://github.com/spacetelescope/jwql/pull/1398#issuecomment-1808925712) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#1052](https://github.com/yeatmanlab/pyAFQ/pull/1052#issuecomment-1808766474) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-4. 🗣 Commented on [#806](https://github.com/scilus/scilpy/pull/806#issuecomment-1808613990) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#807](https://github.com/scilus/scilpy/pull/807#issuecomment-1808509194) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#2](https://github.com/tzamalisp/crossai/pull/2#issuecomment-1808479146) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
-7. 🗣 Commented on [#62](https://github.com/cirKITers/Quafel/pull/62#issuecomment-1808379988) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-8. 🗣 Commented on [#61](https://github.com/cirKITers/Quafel/pull/61#issuecomment-1808347548) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-9. 🗣 Commented on [#5314](https://github.com/rhinstaller/anaconda/pull/5314#issuecomment-1808119951) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-10. 🗣 Commented on [#31](https://github.com/eastgenomics/trendyQC/pull/31#issuecomment-1808080103) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+1. 🗣 Commented on [#1391](https://github.com/spacetelescope/jwql/pull/1391#issuecomment-1809152859) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+2. 🗣 Commented on [#1399](https://github.com/spacetelescope/jwql/pull/1399#issuecomment-1809122920) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#1398](https://github.com/spacetelescope/jwql/pull/1398#issuecomment-1808925712) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#1052](https://github.com/yeatmanlab/pyAFQ/pull/1052#issuecomment-1808766474) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+5. 🗣 Commented on [#806](https://github.com/scilus/scilpy/pull/806#issuecomment-1808613990) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#807](https://github.com/scilus/scilpy/pull/807#issuecomment-1808509194) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#2](https://github.com/tzamalisp/crossai/pull/2#issuecomment-1808479146) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
+8. 🗣 Commented on [#62](https://github.com/cirKITers/Quafel/pull/62#issuecomment-1808379988) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+9. 🗣 Commented on [#61](https://github.com/cirKITers/Quafel/pull/61#issuecomment-1808347548) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+10. 🗣 Commented on [#5314](https://github.com/rhinstaller/anaconda/pull/5314#issuecomment-1808119951) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
