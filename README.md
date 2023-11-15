@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#12](https://github.com/eastgenomics/g2t_ops/pull/12#issuecomment-1812757587) in [eastgenomics/g2t_ops](https://github.com/eastgenomics/g2t_ops)
-2. 🗣 Commented on [#1016](https://github.com/aramis-lab/clinica/pull/1016#issuecomment-1812701574) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
-3. 🗣 Commented on [#6](https://github.com/tzamalisp/crossai/pull/6#issuecomment-1812584277) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
-4. 🗣 Commented on [#5](https://github.com/tzamalisp/crossai/pull/5#issuecomment-1812230650) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
-5. 🗣 Commented on [#12](https://github.com/cirKITers/quantum-siren/pull/12#issuecomment-1812095256) in [cirKITers/quantum-siren](https://github.com/cirKITers/quantum-siren)
-6. 🗣 Commented on [#937](https://github.com/avaframe/AvaFrame/pull/937#issuecomment-1812075566) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-7. 🗣 Commented on [#21528](https://github.com/spyder-ide/spyder/pull/21528#issuecomment-1812047539) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#4](https://github.com/tzamalisp/crossai/pull/4#issuecomment-1812046047) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
-9. 🗣 Commented on [#3](https://github.com/tzamalisp/crossai/pull/3#issuecomment-1812044864) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
-10. 🗣 Commented on [#1012](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1012#issuecomment-1811489986) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+1. 🗣 Commented on [#390](https://github.com/NASA-Planetary-Science/sbpy/pull/390#issuecomment-1812801094) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+2. 🗣 Commented on [#26](https://github.com/avaframe/QGisAF/pull/26#issuecomment-1812781356) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
+3. 🗣 Commented on [#12](https://github.com/eastgenomics/g2t_ops/pull/12#issuecomment-1812757587) in [eastgenomics/g2t_ops](https://github.com/eastgenomics/g2t_ops)
+4. 🗣 Commented on [#1016](https://github.com/aramis-lab/clinica/pull/1016#issuecomment-1812701574) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
+5. 🗣 Commented on [#6](https://github.com/tzamalisp/crossai/pull/6#issuecomment-1812584277) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
+6. 🗣 Commented on [#5](https://github.com/tzamalisp/crossai/pull/5#issuecomment-1812230650) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
+7. 🗣 Commented on [#12](https://github.com/cirKITers/quantum-siren/pull/12#issuecomment-1812095256) in [cirKITers/quantum-siren](https://github.com/cirKITers/quantum-siren)
+8. 🗣 Commented on [#937](https://github.com/avaframe/AvaFrame/pull/937#issuecomment-1812075566) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#21528](https://github.com/spyder-ide/spyder/pull/21528#issuecomment-1812047539) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#4](https://github.com/tzamalisp/crossai/pull/4#issuecomment-1812046047) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
 <!--END_SECTION:activity-->
