@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/latent-consistency-model/pull/1#issuecomment-1814992748) in [tuhinmallick/latent-consistency-model](https://github.com/tuhinmallick/latent-consistency-model)
-2. 🗣 Commented on [#5331](https://github.com/rhinstaller/anaconda/pull/5331#issuecomment-1814486195) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#5329](https://github.com/rhinstaller/anaconda/pull/5329#issuecomment-1814380839) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-4. 🗣 Commented on [#3046](https://github.com/reframe-hpc/reframe/pull/3046#issuecomment-1814029269) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#20151](https://github.com/spyder-ide/spyder/pull/20151#issuecomment-1813784464) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/myla/pull/1#issuecomment-1813405679) in [tuhinmallick/myla](https://github.com/tuhinmallick/myla)
-7. 🗣 Commented on [#4394](https://github.com/pyload/pyload/pull/4394#issuecomment-1813372055) in [pyload/pyload](https://github.com/pyload/pyload)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/xllm/pull/1#issuecomment-1813370036) in [tuhinmallick/xllm](https://github.com/tuhinmallick/xllm)
-9. 🗣 Commented on [#94](https://github.com/njzjz/deepmd-kit/pull/94#issuecomment-1813276806) in [njzjz/deepmd-kit](https://github.com/njzjz/deepmd-kit)
-10. 🗣 Commented on [#2628](https://github.com/metabrainz/listenbrainz-server/pull/2628#issuecomment-1813192765) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/fastapi-rocket-boilerplate/pull/1#issuecomment-1815011484) in [tuhinmallick/fastapi-rocket-boilerplate](https://github.com/tuhinmallick/fastapi-rocket-boilerplate)
+2. 🗣 Commented on [#5309](https://github.com/rhinstaller/anaconda/pull/5309#issuecomment-1815003079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/latent-consistency-model/pull/1#issuecomment-1814992748) in [tuhinmallick/latent-consistency-model](https://github.com/tuhinmallick/latent-consistency-model)
+4. 🗣 Commented on [#5331](https://github.com/rhinstaller/anaconda/pull/5331#issuecomment-1814486195) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#5329](https://github.com/rhinstaller/anaconda/pull/5329#issuecomment-1814380839) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#3046](https://github.com/reframe-hpc/reframe/pull/3046#issuecomment-1814029269) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+7. 🗣 Commented on [#20151](https://github.com/spyder-ide/spyder/pull/20151#issuecomment-1813784464) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/myla/pull/1#issuecomment-1813405679) in [tuhinmallick/myla](https://github.com/tuhinmallick/myla)
+9. 🗣 Commented on [#4394](https://github.com/pyload/pyload/pull/4394#issuecomment-1813372055) in [pyload/pyload](https://github.com/pyload/pyload)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/xllm/pull/1#issuecomment-1813370036) in [tuhinmallick/xllm](https://github.com/tuhinmallick/xllm)
 <!--END_SECTION:activity-->
