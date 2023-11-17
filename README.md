@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#502](https://github.com/aramis-lab/clinicadl/pull/502#issuecomment-1816110020) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-2. 🗣 Commented on [#1622](https://github.com/HEXRD/hexrdgui/pull/1622#issuecomment-1815412489) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-3. 🗣 Commented on [#810](https://github.com/scilus/scilpy/pull/810#issuecomment-1815255079) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#940](https://github.com/avaframe/AvaFrame/pull/940#issuecomment-1815211343) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-5. 🗣 Commented on [#1013](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1013#issuecomment-1815033033) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/fastapi-rocket-boilerplate/pull/1#issuecomment-1815011484) in [tuhinmallick/fastapi-rocket-boilerplate](https://github.com/tuhinmallick/fastapi-rocket-boilerplate)
-7. 🗣 Commented on [#5309](https://github.com/rhinstaller/anaconda/pull/5309#issuecomment-1815003079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/latent-consistency-model/pull/1#issuecomment-1814992748) in [tuhinmallick/latent-consistency-model](https://github.com/tuhinmallick/latent-consistency-model)
-9. 🗣 Commented on [#5331](https://github.com/rhinstaller/anaconda/pull/5331#issuecomment-1814486195) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-10. 🗣 Commented on [#5329](https://github.com/rhinstaller/anaconda/pull/5329#issuecomment-1814380839) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#81](https://github.com/ITMO-NSS-team/GAMLET/pull/81#issuecomment-1816152054) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#502](https://github.com/aramis-lab/clinicadl/pull/502#issuecomment-1816110020) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+3. 🗣 Commented on [#1622](https://github.com/HEXRD/hexrdgui/pull/1622#issuecomment-1815412489) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+4. 🗣 Commented on [#810](https://github.com/scilus/scilpy/pull/810#issuecomment-1815255079) in [scilus/scilpy](https://github.com/scilus/scilpy)
+5. 🗣 Commented on [#940](https://github.com/avaframe/AvaFrame/pull/940#issuecomment-1815211343) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#1013](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1013#issuecomment-1815033033) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#1](https://github.com/tuhinmallick/fastapi-rocket-boilerplate/pull/1#issuecomment-1815011484) in [tuhinmallick/fastapi-rocket-boilerplate](https://github.com/tuhinmallick/fastapi-rocket-boilerplate)
+8. 🗣 Commented on [#5309](https://github.com/rhinstaller/anaconda/pull/5309#issuecomment-1815003079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#1](https://github.com/tuhinmallick/latent-consistency-model/pull/1#issuecomment-1814992748) in [tuhinmallick/latent-consistency-model](https://github.com/tuhinmallick/latent-consistency-model)
+10. 🗣 Commented on [#5331](https://github.com/rhinstaller/anaconda/pull/5331#issuecomment-1814486195) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
