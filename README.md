@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#647](https://github.com/OpenFreeEnergy/openfe/pull/647#issuecomment-1819167804) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-2. 🗣 Commented on [#3813](https://github.com/privacyidea/privacyidea/pull/3813#issuecomment-1818508564) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-3. 🗣 Commented on [#1](https://github.com/tuhinmallick/lcm-demo/pull/1#issuecomment-1818309431) in [tuhinmallick/lcm-demo](https://github.com/tuhinmallick/lcm-demo)
-4. 🗣 Commented on [#1](https://github.com/tuhinmallick/Ollama/pull/1#issuecomment-1818307777) in [tuhinmallick/Ollama](https://github.com/tuhinmallick/Ollama)
-5. 🗣 Commented on [#1](https://github.com/tuhinmallick/OllamaPY/pull/1#issuecomment-1818307095) in [tuhinmallick/OllamaPY](https://github.com/tuhinmallick/OllamaPY)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/MetaCLIP/pull/1#issuecomment-1818306403) in [tuhinmallick/MetaCLIP](https://github.com/tuhinmallick/MetaCLIP)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/awesome-foundation-and-multimodal-models/pull/1#issuecomment-1818306216) in [tuhinmallick/awesome-foundation-and-multimodal-models](https://github.com/tuhinmallick/awesome-foundation-and-multimodal-models)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval/pull/1#issuecomment-1818298923) in [tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval](https://github.com/tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/langchain2api/pull/1#issuecomment-1818297119) in [tuhinmallick/langchain2api](https://github.com/tuhinmallick/langchain2api)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/a-person-mask-generator/pull/1#issuecomment-1818296863) in [tuhinmallick/a-person-mask-generator](https://github.com/tuhinmallick/a-person-mask-generator)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/privateGPT/pull/1#issuecomment-1819348300) in [tuhinmallick/privateGPT](https://github.com/tuhinmallick/privateGPT)
+2. 🗣 Commented on [#647](https://github.com/OpenFreeEnergy/openfe/pull/647#issuecomment-1819167804) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+3. 🗣 Commented on [#3813](https://github.com/privacyidea/privacyidea/pull/3813#issuecomment-1818508564) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/lcm-demo/pull/1#issuecomment-1818309431) in [tuhinmallick/lcm-demo](https://github.com/tuhinmallick/lcm-demo)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/Ollama/pull/1#issuecomment-1818307777) in [tuhinmallick/Ollama](https://github.com/tuhinmallick/Ollama)
+6. 🗣 Commented on [#1](https://github.com/tuhinmallick/OllamaPY/pull/1#issuecomment-1818307095) in [tuhinmallick/OllamaPY](https://github.com/tuhinmallick/OllamaPY)
+7. 🗣 Commented on [#1](https://github.com/tuhinmallick/MetaCLIP/pull/1#issuecomment-1818306403) in [tuhinmallick/MetaCLIP](https://github.com/tuhinmallick/MetaCLIP)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/awesome-foundation-and-multimodal-models/pull/1#issuecomment-1818306216) in [tuhinmallick/awesome-foundation-and-multimodal-models](https://github.com/tuhinmallick/awesome-foundation-and-multimodal-models)
+9. 🗣 Commented on [#1](https://github.com/tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval/pull/1#issuecomment-1818298923) in [tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval](https://github.com/tuhinmallick/dstoolkit-ComputerVision-ImageRetrieval)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/langchain2api/pull/1#issuecomment-1818297119) in [tuhinmallick/langchain2api](https://github.com/tuhinmallick/langchain2api)
 <!--END_SECTION:activity-->
