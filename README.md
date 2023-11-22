@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#12](https://github.com/jnsebgosselin/qtapputils/pull/12#issuecomment-1822961011) in [jnsebgosselin/qtapputils](https://github.com/jnsebgosselin/qtapputils)
-2. 🗣 Commented on [#55](https://github.com/eastgenomics/eris/pull/55#issuecomment-1822727797) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-3. 🗣 Commented on [#54](https://github.com/eastgenomics/eris/pull/54#issuecomment-1822694980) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-4. 🗣 Commented on [#4](https://github.com/GenevieveBuckley/micro-sam/pull/4#issuecomment-1822635961) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
-5. 🗣 Commented on [#210](https://github.com/CartoonFan/lutris/pull/210#issuecomment-1821786549) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-6. 🗣 Commented on [#53](https://github.com/eastgenomics/eris/pull/53#issuecomment-1821184987) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-7. 🗣 Commented on [#787](https://github.com/scilus/scilpy/pull/787#issuecomment-1821160321) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#953](https://github.com/WesternFriend/WF-website/pull/953#issuecomment-1821050429) in [WesternFriend/WF-website](https://github.com/WesternFriend/WF-website)
-9. 🗣 Commented on [#9](https://github.com/eastgenomics/optimised_filtering/pull/9#issuecomment-1820972459) in [eastgenomics/optimised_filtering](https://github.com/eastgenomics/optimised_filtering)
-10. 🗣 Commented on [#7](https://github.com/eastgenomics/optimised_filtering/pull/7#issuecomment-1820966521) in [eastgenomics/optimised_filtering](https://github.com/eastgenomics/optimised_filtering)
+1. 🗣 Commented on [#2](https://github.com/Code-Institute-Solutions/blog/pull/2#issuecomment-1823173064) in [Code-Institute-Solutions/blog](https://github.com/Code-Institute-Solutions/blog)
+2. 🗣 Commented on [#12](https://github.com/jnsebgosselin/qtapputils/pull/12#issuecomment-1822961011) in [jnsebgosselin/qtapputils](https://github.com/jnsebgosselin/qtapputils)
+3. 🗣 Commented on [#55](https://github.com/eastgenomics/eris/pull/55#issuecomment-1822727797) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+4. 🗣 Commented on [#54](https://github.com/eastgenomics/eris/pull/54#issuecomment-1822694980) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+5. 🗣 Commented on [#4](https://github.com/GenevieveBuckley/micro-sam/pull/4#issuecomment-1822635961) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
+6. 🗣 Commented on [#210](https://github.com/CartoonFan/lutris/pull/210#issuecomment-1821786549) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+7. 🗣 Commented on [#53](https://github.com/eastgenomics/eris/pull/53#issuecomment-1821184987) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+8. 🗣 Commented on [#787](https://github.com/scilus/scilpy/pull/787#issuecomment-1821160321) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#953](https://github.com/WesternFriend/WF-website/pull/953#issuecomment-1821050429) in [WesternFriend/WF-website](https://github.com/WesternFriend/WF-website)
+10. 🗣 Commented on [#9](https://github.com/eastgenomics/optimised_filtering/pull/9#issuecomment-1820972459) in [eastgenomics/optimised_filtering](https://github.com/eastgenomics/optimised_filtering)
 <!--END_SECTION:activity-->
