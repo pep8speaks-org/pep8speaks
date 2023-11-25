@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/LookaheadDecoding/pull/1#issuecomment-1826304446) in [tuhinmallick/LookaheadDecoding](https://github.com/tuhinmallick/LookaheadDecoding)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/rags/pull/1#issuecomment-1826304408) in [tuhinmallick/rags](https://github.com/tuhinmallick/rags)
-3. 🗣 Commented on [#58](https://github.com/DeMarcoLab/juno/pull/58#issuecomment-1826280279) in [DeMarcoLab/juno](https://github.com/DeMarcoLab/juno)
-4. 🗣 Commented on [#1192](https://github.com/scikit-optimize/scikit-optimize/pull/1192#issuecomment-1826087421) in [scikit-optimize/scikit-optimize](https://github.com/scikit-optimize/scikit-optimize)
-5. 🗣 Commented on [#21555](https://github.com/spyder-ide/spyder/pull/21555#issuecomment-1826032109) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-6. 🗣 Commented on [#143](https://github.com/eastgenomics/dias_batch_running/pull/143#issuecomment-1825931086) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-7. 🗣 Commented on [#657](https://github.com/OpenFreeEnergy/openfe/pull/657#issuecomment-1825929906) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-8. 🗣 Commented on [#1021](https://github.com/oemof/oemof-solph/pull/1021#issuecomment-1825764821) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-9. 🗣 Commented on [#148](https://github.com/lettucecfd/lettuce/pull/148#issuecomment-1825756534) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-10. 🗣 Commented on [#86](https://github.com/eastgenomics/athena/pull/86#issuecomment-1825740205) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/auto-cot/pull/1#issuecomment-1826358076) in [tuhinmallick/auto-cot](https://github.com/tuhinmallick/auto-cot)
+2. 🗣 Commented on [#1](https://github.com/tuhinmallick/LookaheadDecoding/pull/1#issuecomment-1826304446) in [tuhinmallick/LookaheadDecoding](https://github.com/tuhinmallick/LookaheadDecoding)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/rags/pull/1#issuecomment-1826304408) in [tuhinmallick/rags](https://github.com/tuhinmallick/rags)
+4. 🗣 Commented on [#58](https://github.com/DeMarcoLab/juno/pull/58#issuecomment-1826280279) in [DeMarcoLab/juno](https://github.com/DeMarcoLab/juno)
+5. 🗣 Commented on [#1192](https://github.com/scikit-optimize/scikit-optimize/pull/1192#issuecomment-1826087421) in [scikit-optimize/scikit-optimize](https://github.com/scikit-optimize/scikit-optimize)
+6. 🗣 Commented on [#21555](https://github.com/spyder-ide/spyder/pull/21555#issuecomment-1826032109) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#143](https://github.com/eastgenomics/dias_batch_running/pull/143#issuecomment-1825931086) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+8. 🗣 Commented on [#657](https://github.com/OpenFreeEnergy/openfe/pull/657#issuecomment-1825929906) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+9. 🗣 Commented on [#1021](https://github.com/oemof/oemof-solph/pull/1021#issuecomment-1825764821) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+10. 🗣 Commented on [#148](https://github.com/lettucecfd/lettuce/pull/148#issuecomment-1825756534) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
 <!--END_SECTION:activity-->
