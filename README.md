@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#16](https://github.com/eastgenomics/code_school/pull/16#issuecomment-1831505100) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
-2. 🗣 Commented on [#389](https://github.com/payu-org/payu/pull/389#issuecomment-1831476094) in [payu-org/payu](https://github.com/payu-org/payu)
-3. 🗣 Commented on [#7](https://github.com/kossiitkgp/mailing-scripts/pull/7#issuecomment-1831295049) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
-4. 🗣 Commented on [#212](https://github.com/CartoonFan/lutris/pull/212#issuecomment-1831262631) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-5. 🗣 Commented on [#4403](https://github.com/pyload/pyload/pull/4403#issuecomment-1830942060) in [pyload/pyload](https://github.com/pyload/pyload)
-6. 🗣 Commented on [#4402](https://github.com/pyload/pyload/pull/4402#issuecomment-1830906348) in [pyload/pyload](https://github.com/pyload/pyload)
-7. 🗣 Commented on [#945](https://github.com/avaframe/AvaFrame/pull/945#issuecomment-1830812751) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#20](https://github.com/gagnonanthony/CCPM/pull/20#issuecomment-1830710599) in [gagnonanthony/CCPM](https://github.com/gagnonanthony/CCPM)
-9. 🗣 Commented on [#818](https://github.com/scilus/scilpy/pull/818#issuecomment-1830652783) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#21](https://github.com/tzamalisp/crossai/pull/21#issuecomment-1830630697) in [tzamalisp/crossai](https://github.com/tzamalisp/crossai)
+1. 🗣 Commented on [#3054](https://github.com/reframe-hpc/reframe/pull/3054#issuecomment-1831591401) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+2. 🗣 Commented on [#511](https://github.com/rpm-software-management/dnf-plugins-core/pull/511#issuecomment-1831569633) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+3. 🗣 Commented on [#16](https://github.com/eastgenomics/code_school/pull/16#issuecomment-1831505100) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
+4. 🗣 Commented on [#389](https://github.com/payu-org/payu/pull/389#issuecomment-1831476094) in [payu-org/payu](https://github.com/payu-org/payu)
+5. 🗣 Commented on [#7](https://github.com/kossiitkgp/mailing-scripts/pull/7#issuecomment-1831295049) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
+6. 🗣 Commented on [#212](https://github.com/CartoonFan/lutris/pull/212#issuecomment-1831262631) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+7. 🗣 Commented on [#4403](https://github.com/pyload/pyload/pull/4403#issuecomment-1830942060) in [pyload/pyload](https://github.com/pyload/pyload)
+8. 🗣 Commented on [#4402](https://github.com/pyload/pyload/pull/4402#issuecomment-1830906348) in [pyload/pyload](https://github.com/pyload/pyload)
+9. 🗣 Commented on [#945](https://github.com/avaframe/AvaFrame/pull/945#issuecomment-1830812751) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#20](https://github.com/gagnonanthony/CCPM/pull/20#issuecomment-1830710599) in [gagnonanthony/CCPM](https://github.com/gagnonanthony/CCPM)
 <!--END_SECTION:activity-->
