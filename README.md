@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1210](https://github.com/aimclub/FEDOT/pull/1210#issuecomment-1831882391) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#1213](https://github.com/aimclub/FEDOT/pull/1213#issuecomment-1831782579) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-3. 🗣 Commented on [#57](https://github.com/eastgenomics/eris/pull/57#issuecomment-1831761278) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-4. 🗣 Commented on [#3054](https://github.com/reframe-hpc/reframe/pull/3054#issuecomment-1831591401) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#511](https://github.com/rpm-software-management/dnf-plugins-core/pull/511#issuecomment-1831569633) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
-6. 🗣 Commented on [#16](https://github.com/eastgenomics/code_school/pull/16#issuecomment-1831505100) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
-7. 🗣 Commented on [#389](https://github.com/payu-org/payu/pull/389#issuecomment-1831476094) in [payu-org/payu](https://github.com/payu-org/payu)
-8. 🗣 Commented on [#7](https://github.com/kossiitkgp/mailing-scripts/pull/7#issuecomment-1831295049) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
-9. 🗣 Commented on [#212](https://github.com/CartoonFan/lutris/pull/212#issuecomment-1831262631) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#4403](https://github.com/pyload/pyload/pull/4403#issuecomment-1830942060) in [pyload/pyload](https://github.com/pyload/pyload)
+1. 🗣 Commented on [#1584](https://github.com/zarr-developers/zarr-python/pull/1584#issuecomment-1831946209) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+2. 🗣 Commented on [#1210](https://github.com/aimclub/FEDOT/pull/1210#issuecomment-1831882391) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+3. 🗣 Commented on [#1213](https://github.com/aimclub/FEDOT/pull/1213#issuecomment-1831782579) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+4. 🗣 Commented on [#57](https://github.com/eastgenomics/eris/pull/57#issuecomment-1831761278) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+5. 🗣 Commented on [#3054](https://github.com/reframe-hpc/reframe/pull/3054#issuecomment-1831591401) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+6. 🗣 Commented on [#511](https://github.com/rpm-software-management/dnf-plugins-core/pull/511#issuecomment-1831569633) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+7. 🗣 Commented on [#16](https://github.com/eastgenomics/code_school/pull/16#issuecomment-1831505100) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
+8. 🗣 Commented on [#389](https://github.com/payu-org/payu/pull/389#issuecomment-1831476094) in [payu-org/payu](https://github.com/payu-org/payu)
+9. 🗣 Commented on [#7](https://github.com/kossiitkgp/mailing-scripts/pull/7#issuecomment-1831295049) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
+10. 🗣 Commented on [#212](https://github.com/CartoonFan/lutris/pull/212#issuecomment-1831262631) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
