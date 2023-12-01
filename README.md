@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1667](https://github.com/OGGM/oggm/pull/1667#issuecomment-1836416642) in [OGGM/oggm](https://github.com/OGGM/oggm)
-2. 🗣 Commented on [#873](https://github.com/PyThaiNLP/pythainlp/pull/873#issuecomment-1836314729) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-3. 🗣 Commented on [#9078](https://github.com/statsmodels/statsmodels/pull/9078#issuecomment-1836186182) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-4. 🗣 Commented on [#1216](https://github.com/aimclub/FEDOT/pull/1216#issuecomment-1836184524) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-5. 🗣 Commented on [#1027](https://github.com/aramis-lab/clinica/pull/1027#issuecomment-1836161773) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
-6. 🗣 Commented on [#25](https://github.com/oda-hub/dispatcher-plugin-integral-all-sky/pull/25#issuecomment-1836150876) in [oda-hub/dispatcher-plugin-integral-all-sky](https://github.com/oda-hub/dispatcher-plugin-integral-all-sky)
-7. 🗣 Commented on [#824](https://github.com/scilus/scilpy/pull/824#issuecomment-1836141918) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#823](https://github.com/scilus/scilpy/pull/823#issuecomment-1836070705) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#1215](https://github.com/aimclub/FEDOT/pull/1215#issuecomment-1835996623) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-10. 🗣 Commented on [#5357](https://github.com/rhinstaller/anaconda/pull/5357#issuecomment-1835994787) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#12](https://github.com/Osazz/banking_system/pull/12#issuecomment-1836461537) in [Osazz/banking_system](https://github.com/Osazz/banking_system)
+2. 🗣 Commented on [#1667](https://github.com/OGGM/oggm/pull/1667#issuecomment-1836416642) in [OGGM/oggm](https://github.com/OGGM/oggm)
+3. 🗣 Commented on [#873](https://github.com/PyThaiNLP/pythainlp/pull/873#issuecomment-1836314729) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+4. 🗣 Commented on [#9078](https://github.com/statsmodels/statsmodels/pull/9078#issuecomment-1836186182) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+5. 🗣 Commented on [#1216](https://github.com/aimclub/FEDOT/pull/1216#issuecomment-1836184524) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+6. 🗣 Commented on [#1027](https://github.com/aramis-lab/clinica/pull/1027#issuecomment-1836161773) in [aramis-lab/clinica](https://github.com/aramis-lab/clinica)
+7. 🗣 Commented on [#25](https://github.com/oda-hub/dispatcher-plugin-integral-all-sky/pull/25#issuecomment-1836150876) in [oda-hub/dispatcher-plugin-integral-all-sky](https://github.com/oda-hub/dispatcher-plugin-integral-all-sky)
+8. 🗣 Commented on [#824](https://github.com/scilus/scilpy/pull/824#issuecomment-1836141918) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#823](https://github.com/scilus/scilpy/pull/823#issuecomment-1836070705) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#1215](https://github.com/aimclub/FEDOT/pull/1215#issuecomment-1835996623) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
 <!--END_SECTION:activity-->
