@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#218](https://github.com/CartoonFan/lutris/pull/218#issuecomment-1840545740) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/fabricator/pull/1#issuecomment-1840401451) in [tuhinmallick/fabricator](https://github.com/tuhinmallick/fabricator)
-3. 🗣 Commented on [#879](https://github.com/PyThaiNLP/pythainlp/pull/879#issuecomment-1840042977) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-4. 🗣 Commented on [#128](https://github.com/Dog-Face-Development/Periodic-Table-Info/pull/128#issuecomment-1839846927) in [Dog-Face-Development/Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info)
-5. 🗣 Commented on [#122](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/122#issuecomment-1839838110) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
-6. 🗣 Commented on [#121](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/121#issuecomment-1839836821) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
-7. 🗣 Commented on [#120](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/120#issuecomment-1839834216) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
-8. 🗣 Commented on [#114](https://github.com/Dog-Face-Development/PyWorkout/pull/114#issuecomment-1839805437) in [Dog-Face-Development/PyWorkout](https://github.com/Dog-Face-Development/PyWorkout)
-9. 🗣 Commented on [#113](https://github.com/Dog-Face-Development/PyWorkout/pull/113#issuecomment-1839803562) in [Dog-Face-Development/PyWorkout](https://github.com/Dog-Face-Development/PyWorkout)
-10. 🗣 Commented on [#112](https://github.com/Dog-Face-Development/PyWorkout/pull/112#issuecomment-1839798499) in [Dog-Face-Development/PyWorkout](https://github.com/Dog-Face-Development/PyWorkout)
+1. 🗣 Commented on [#38](https://github.com/eastgenomics/trendyQC/pull/38#issuecomment-1840852046) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+2. 🗣 Commented on [#218](https://github.com/CartoonFan/lutris/pull/218#issuecomment-1840545740) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/fabricator/pull/1#issuecomment-1840401451) in [tuhinmallick/fabricator](https://github.com/tuhinmallick/fabricator)
+4. 🗣 Commented on [#879](https://github.com/PyThaiNLP/pythainlp/pull/879#issuecomment-1840042977) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+5. 🗣 Commented on [#128](https://github.com/Dog-Face-Development/Periodic-Table-Info/pull/128#issuecomment-1839846927) in [Dog-Face-Development/Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info)
+6. 🗣 Commented on [#122](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/122#issuecomment-1839838110) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
+7. 🗣 Commented on [#121](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/121#issuecomment-1839836821) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
+8. 🗣 Commented on [#120](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/120#issuecomment-1839834216) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
+9. 🗣 Commented on [#114](https://github.com/Dog-Face-Development/PyWorkout/pull/114#issuecomment-1839805437) in [Dog-Face-Development/PyWorkout](https://github.com/Dog-Face-Development/PyWorkout)
+10. 🗣 Commented on [#113](https://github.com/Dog-Face-Development/PyWorkout/pull/113#issuecomment-1839803562) in [Dog-Face-Development/PyWorkout](https://github.com/Dog-Face-Development/PyWorkout)
 <!--END_SECTION:activity-->
