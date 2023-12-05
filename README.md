@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#61](https://github.com/eastgenomics/eris/pull/61#issuecomment-1841133370) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#89](https://github.com/eastgenomics/athena/pull/89#issuecomment-1841096640) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-3. 🗣 Commented on [#154](https://github.com/eastgenomics/dias_batch_running/pull/154#issuecomment-1840891420) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-4. 🗣 Commented on [#38](https://github.com/eastgenomics/trendyQC/pull/38#issuecomment-1840852046) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-5. 🗣 Commented on [#218](https://github.com/CartoonFan/lutris/pull/218#issuecomment-1840545740) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/fabricator/pull/1#issuecomment-1840401451) in [tuhinmallick/fabricator](https://github.com/tuhinmallick/fabricator)
-7. 🗣 Commented on [#879](https://github.com/PyThaiNLP/pythainlp/pull/879#issuecomment-1840042977) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-8. 🗣 Commented on [#128](https://github.com/Dog-Face-Development/Periodic-Table-Info/pull/128#issuecomment-1839846927) in [Dog-Face-Development/Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info)
-9. 🗣 Commented on [#122](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/122#issuecomment-1839838110) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
-10. 🗣 Commented on [#121](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/121#issuecomment-1839836821) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
+1. 🗣 Commented on [#1588](https://github.com/zarr-developers/zarr-python/pull/1588#issuecomment-1841263227) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+2. 🗣 Commented on [#61](https://github.com/eastgenomics/eris/pull/61#issuecomment-1841133370) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#89](https://github.com/eastgenomics/athena/pull/89#issuecomment-1841096640) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+4. 🗣 Commented on [#154](https://github.com/eastgenomics/dias_batch_running/pull/154#issuecomment-1840891420) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+5. 🗣 Commented on [#38](https://github.com/eastgenomics/trendyQC/pull/38#issuecomment-1840852046) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+6. 🗣 Commented on [#218](https://github.com/CartoonFan/lutris/pull/218#issuecomment-1840545740) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+7. 🗣 Commented on [#1](https://github.com/tuhinmallick/fabricator/pull/1#issuecomment-1840401451) in [tuhinmallick/fabricator](https://github.com/tuhinmallick/fabricator)
+8. 🗣 Commented on [#879](https://github.com/PyThaiNLP/pythainlp/pull/879#issuecomment-1840042977) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+9. 🗣 Commented on [#128](https://github.com/Dog-Face-Development/Periodic-Table-Info/pull/128#issuecomment-1839846927) in [Dog-Face-Development/Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info)
+10. 🗣 Commented on [#122](https://github.com/Dog-Face-Development/LEGO-Block-Creator/pull/122#issuecomment-1839838110) in [Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator)
 <!--END_SECTION:activity-->
