@@ -233,14 +233,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 # Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1456](https://github.com/openSUSE/osc/pull/1456#issuecomment-1842584980) in [openSUSE/osc](https://github.com/openSUSE/osc)
-2. 🗣 Commented on [#181](https://github.com/Fatal1ty/mashumaro/pull/181#issuecomment-1842499924) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
-3. 🗣 Commented on [#758](https://github.com/EducationalTestingService/skll/pull/758#issuecomment-1841971644) in [EducationalTestingService/skll](https://github.com/EducationalTestingService/skll)
-4. 🗣 Commented on [#4353](https://github.com/uwcirg/truenth-portal/pull/4353#issuecomment-1841802088) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-5. 🗣 Commented on [#490](https://github.com/UIUCLibrary/Speedwagon/pull/490#issuecomment-1841760054) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-6. 🗣 Commented on [#1020](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1020#issuecomment-1841744358) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-7. 🗣 Commented on [#509](https://github.com/spatialaudio/python-sounddevice/pull/509#issuecomment-1841724374) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
-8. 🗣 Commented on [#2549](https://github.com/metabrainz/listenbrainz-server/pull/2549#issuecomment-1841569976) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#2654](https://github.com/metabrainz/listenbrainz-server/pull/2654#issuecomment-1841541176) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-10. 🗣 Commented on [#1590](https://github.com/zarr-developers/zarr-python/pull/1590#issuecomment-1841536969) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+1. 🗣 Commented on [#1070](https://github.com/yeatmanlab/pyAFQ/pull/1070#issuecomment-1842864476) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+2. 🗣 Commented on [#1456](https://github.com/openSUSE/osc/pull/1456#issuecomment-1842584980) in [openSUSE/osc](https://github.com/openSUSE/osc)
+3. 🗣 Commented on [#181](https://github.com/Fatal1ty/mashumaro/pull/181#issuecomment-1842499924) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+4. 🗣 Commented on [#758](https://github.com/EducationalTestingService/skll/pull/758#issuecomment-1841971644) in [EducationalTestingService/skll](https://github.com/EducationalTestingService/skll)
+5. 🗣 Commented on [#4353](https://github.com/uwcirg/truenth-portal/pull/4353#issuecomment-1841802088) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+6. 🗣 Commented on [#490](https://github.com/UIUCLibrary/Speedwagon/pull/490#issuecomment-1841760054) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+7. 🗣 Commented on [#1020](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1020#issuecomment-1841744358) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+8. 🗣 Commented on [#509](https://github.com/spatialaudio/python-sounddevice/pull/509#issuecomment-1841724374) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
+9. 🗣 Commented on [#2549](https://github.com/metabrainz/listenbrainz-server/pull/2549#issuecomment-1841569976) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+10. 🗣 Commented on [#2654](https://github.com/metabrainz/listenbrainz-server/pull/2654#issuecomment-1841541176) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
