@@ -1,6 +1,6 @@
 ---
 name: 💡 Feature request
-about: Suggest an idea to improve Robyn
+about: Suggest an idea to improve pep8speaks
 labels: [enhancement]
 ---
 
