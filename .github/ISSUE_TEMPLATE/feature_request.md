@@ -5,7 +5,7 @@ labels: [enhancement]
 ---
 
 <!--
-Thank you for considering improving Robyn!
+Thank you for considering improving pep8speaks!
 
 Please describe your idea in depth. If you're not sure what to write, imagine the following:
   - How is this important to you? How would you use it?
