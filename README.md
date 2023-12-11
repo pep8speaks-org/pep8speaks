@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#589](https://github.com/quark-engine/quark-engine/pull/589#issuecomment-1849237225) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
-2. 🗣 Commented on [#3002](https://github.com/dipy/dipy/pull/3002#issuecomment-1848833781) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#3001](https://github.com/dipy/dipy/pull/3001#issuecomment-1848804375) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848766845) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-5. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848763233) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-6. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848723579) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-7. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848686037) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-8. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848675460) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-9. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848675128) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-10. 🗣 Commented on [#2996](https://github.com/dipy/dipy/pull/2996#issuecomment-1848615408) in [dipy/dipy](https://github.com/dipy/dipy)
+1. 🗣 Commented on [#5371](https://github.com/rhinstaller/anaconda/pull/5371#issuecomment-1849438897) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#589](https://github.com/quark-engine/quark-engine/pull/589#issuecomment-1849237225) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
+3. 🗣 Commented on [#3002](https://github.com/dipy/dipy/pull/3002#issuecomment-1848833781) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#3001](https://github.com/dipy/dipy/pull/3001#issuecomment-1848804375) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848766845) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
+6. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848763233) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
+7. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848723579) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
+8. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848686037) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
+9. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848675460) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
+10. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-1848675128) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
 <!--END_SECTION:activity-->
