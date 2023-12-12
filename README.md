@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4354](https://github.com/uwcirg/truenth-portal/pull/4354#issuecomment-1851245753) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-2. 🗣 Commented on [#240](https://github.com/wtbarnes/fiasco/pull/240#issuecomment-1851139948) in [wtbarnes/fiasco](https://github.com/wtbarnes/fiasco)
-3. 🗣 Commented on [#1023](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1023#issuecomment-1850998477) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#2](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline/pull/2#issuecomment-1850575231) in [Gravity-Spy/gravityspy-ligo-pipeline](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline)
-5. 🗣 Commented on [#3006](https://github.com/dipy/dipy/pull/3006#issuecomment-1850434443) in [dipy/dipy](https://github.com/dipy/dipy)
-6. 🗣 Commented on [#115](https://github.com/OpenFreeEnergy/cinnabar/pull/115#issuecomment-1850348330) in [OpenFreeEnergy/cinnabar](https://github.com/OpenFreeEnergy/cinnabar)
-7. 🗣 Commented on [#1222](https://github.com/aimclub/FEDOT/pull/1222#issuecomment-1850304613) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-8. 🗣 Commented on [#160](https://github.com/eastgenomics/dias_batch_running/pull/160#issuecomment-1850164412) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-9. 🗣 Commented on [#881](https://github.com/ToFuProject/tofu/pull/881#issuecomment-1850089320) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-10. 🗣 Commented on [#59](https://github.com/CartoonFan/mgba/pull/59#issuecomment-1849984592) in [CartoonFan/mgba](https://github.com/CartoonFan/mgba)
+1. 🗣 Commented on [#853](https://github.com/fury-gl/fury/pull/853#issuecomment-1851255327) in [fury-gl/fury](https://github.com/fury-gl/fury)
+2. 🗣 Commented on [#4354](https://github.com/uwcirg/truenth-portal/pull/4354#issuecomment-1851245753) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+3. 🗣 Commented on [#240](https://github.com/wtbarnes/fiasco/pull/240#issuecomment-1851139948) in [wtbarnes/fiasco](https://github.com/wtbarnes/fiasco)
+4. 🗣 Commented on [#1023](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1023#issuecomment-1850998477) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#2](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline/pull/2#issuecomment-1850575231) in [Gravity-Spy/gravityspy-ligo-pipeline](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline)
+6. 🗣 Commented on [#3006](https://github.com/dipy/dipy/pull/3006#issuecomment-1850434443) in [dipy/dipy](https://github.com/dipy/dipy)
+7. 🗣 Commented on [#115](https://github.com/OpenFreeEnergy/cinnabar/pull/115#issuecomment-1850348330) in [OpenFreeEnergy/cinnabar](https://github.com/OpenFreeEnergy/cinnabar)
+8. 🗣 Commented on [#1222](https://github.com/aimclub/FEDOT/pull/1222#issuecomment-1850304613) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+9. 🗣 Commented on [#160](https://github.com/eastgenomics/dias_batch_running/pull/160#issuecomment-1850164412) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+10. 🗣 Commented on [#881](https://github.com/ToFuProject/tofu/pull/881#issuecomment-1850089320) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
 <!--END_SECTION:activity-->
