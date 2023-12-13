@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#89](https://github.com/ITMO-NSS-team/GAMLET/pull/89#issuecomment-1854239137) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-2. 🗣 Commented on [#64](https://github.com/eastgenomics/eris/pull/64#issuecomment-1854220971) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-3. 🗣 Commented on [#92](https://github.com/INT-NIT/DigLabTools/pull/92#issuecomment-1854172019) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
-4. 🗣 Commented on [#98](https://github.com/aimclub/BAMT/pull/98#issuecomment-1854038944) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-5. 🗣 Commented on [#5](https://github.com/eastgenomics/eggd_QC_Classifier/pull/5#issuecomment-1854029734) in [eastgenomics/eggd_QC_Classifier](https://github.com/eastgenomics/eggd_QC_Classifier)
-6. 🗣 Commented on [#21](https://github.com/ITMO-NSS-team/pytsbe/pull/21#issuecomment-1854003087) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
-7. 🗣 Commented on [#88](https://github.com/ITMO-NSS-team/GAMLET/pull/88#issuecomment-1853876589) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-8. 🗣 Commented on [#251](https://github.com/aimclub/GOLEM/pull/251#issuecomment-1853591302) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-9. 🗣 Commented on [#950](https://github.com/avaframe/AvaFrame/pull/950#issuecomment-1853565099) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-10. 🗣 Commented on [#1](https://github.com/tuhinmallick/AnimateAnyone-unofficial/pull/1#issuecomment-1853036724) in [tuhinmallick/AnimateAnyone-unofficial](https://github.com/tuhinmallick/AnimateAnyone-unofficial)
+1. 🗣 Commented on [#3](https://github.com/eastgenomics/gene_annotation2bed/pull/3#issuecomment-1854338946) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+2. 🗣 Commented on [#89](https://github.com/ITMO-NSS-team/GAMLET/pull/89#issuecomment-1854239137) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+3. 🗣 Commented on [#64](https://github.com/eastgenomics/eris/pull/64#issuecomment-1854220971) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+4. 🗣 Commented on [#92](https://github.com/INT-NIT/DigLabTools/pull/92#issuecomment-1854172019) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+5. 🗣 Commented on [#98](https://github.com/aimclub/BAMT/pull/98#issuecomment-1854038944) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+6. 🗣 Commented on [#5](https://github.com/eastgenomics/eggd_QC_Classifier/pull/5#issuecomment-1854029734) in [eastgenomics/eggd_QC_Classifier](https://github.com/eastgenomics/eggd_QC_Classifier)
+7. 🗣 Commented on [#21](https://github.com/ITMO-NSS-team/pytsbe/pull/21#issuecomment-1854003087) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
+8. 🗣 Commented on [#88](https://github.com/ITMO-NSS-team/GAMLET/pull/88#issuecomment-1853876589) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+9. 🗣 Commented on [#251](https://github.com/aimclub/GOLEM/pull/251#issuecomment-1853591302) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+10. 🗣 Commented on [#950](https://github.com/avaframe/AvaFrame/pull/950#issuecomment-1853565099) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
 <!--END_SECTION:activity-->
