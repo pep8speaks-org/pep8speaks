@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#98](https://github.com/aimclub/BAMT/pull/98#issuecomment-1854038944) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-2. 🗣 Commented on [#5](https://github.com/eastgenomics/eggd_QC_Classifier/pull/5#issuecomment-1854029734) in [eastgenomics/eggd_QC_Classifier](https://github.com/eastgenomics/eggd_QC_Classifier)
-3. 🗣 Commented on [#21](https://github.com/ITMO-NSS-team/pytsbe/pull/21#issuecomment-1854003087) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
-4. 🗣 Commented on [#88](https://github.com/ITMO-NSS-team/GAMLET/pull/88#issuecomment-1853876589) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-5. 🗣 Commented on [#251](https://github.com/aimclub/GOLEM/pull/251#issuecomment-1853591302) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-6. 🗣 Commented on [#950](https://github.com/avaframe/AvaFrame/pull/950#issuecomment-1853565099) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/AnimateAnyone-unofficial/pull/1#issuecomment-1853036724) in [tuhinmallick/AnimateAnyone-unofficial](https://github.com/tuhinmallick/AnimateAnyone-unofficial)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/MixtralKit/pull/1#issuecomment-1853030770) in [tuhinmallick/MixtralKit](https://github.com/tuhinmallick/MixtralKit)
-9. 🗣 Commented on [#57](https://github.com/foreign-sub/aiofreepybox/pull/57#issuecomment-1852996035) in [foreign-sub/aiofreepybox](https://github.com/foreign-sub/aiofreepybox)
-10. 🗣 Commented on [#2668](https://github.com/metabrainz/listenbrainz-server/pull/2668#issuecomment-1852757956) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+1. 🗣 Commented on [#89](https://github.com/ITMO-NSS-team/GAMLET/pull/89#issuecomment-1854239137) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#64](https://github.com/eastgenomics/eris/pull/64#issuecomment-1854220971) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#92](https://github.com/INT-NIT/DigLabTools/pull/92#issuecomment-1854172019) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+4. 🗣 Commented on [#98](https://github.com/aimclub/BAMT/pull/98#issuecomment-1854038944) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+5. 🗣 Commented on [#5](https://github.com/eastgenomics/eggd_QC_Classifier/pull/5#issuecomment-1854029734) in [eastgenomics/eggd_QC_Classifier](https://github.com/eastgenomics/eggd_QC_Classifier)
+6. 🗣 Commented on [#21](https://github.com/ITMO-NSS-team/pytsbe/pull/21#issuecomment-1854003087) in [ITMO-NSS-team/pytsbe](https://github.com/ITMO-NSS-team/pytsbe)
+7. 🗣 Commented on [#88](https://github.com/ITMO-NSS-team/GAMLET/pull/88#issuecomment-1853876589) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+8. 🗣 Commented on [#251](https://github.com/aimclub/GOLEM/pull/251#issuecomment-1853591302) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+9. 🗣 Commented on [#950](https://github.com/avaframe/AvaFrame/pull/950#issuecomment-1853565099) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/AnimateAnyone-unofficial/pull/1#issuecomment-1853036724) in [tuhinmallick/AnimateAnyone-unofficial](https://github.com/tuhinmallick/AnimateAnyone-unofficial)
 <!--END_SECTION:activity-->
