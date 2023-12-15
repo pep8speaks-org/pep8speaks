@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-2. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-3. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#21616](https://github.com/spyder-ide/spyder/pull/21616#issuecomment-1858242712) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#25](https://github.com/telebotter/django-telegrambot/pull/25#issuecomment-1858221381) in [telebotter/django-telegrambot](https://github.com/telebotter/django-telegrambot)
-6. 🗣 Commented on [#868](https://github.com/scilus/scilpy/pull/868#issuecomment-1858135734) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#867](https://github.com/scilus/scilpy/pull/867#issuecomment-1858133965) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#4](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/4#issuecomment-1857995189) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
-9. 🗣 Commented on [#3836](https://github.com/privacyidea/privacyidea/pull/3836#issuecomment-1857900518) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-10. 🗣 Commented on [#54](https://github.com/eastgenomics/Ploutos/pull/54#issuecomment-1857711741) in [eastgenomics/Ploutos](https://github.com/eastgenomics/Ploutos)
+1. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+2. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+3. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+4. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#21616](https://github.com/spyder-ide/spyder/pull/21616#issuecomment-1858242712) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+6. 🗣 Commented on [#25](https://github.com/telebotter/django-telegrambot/pull/25#issuecomment-1858221381) in [telebotter/django-telegrambot](https://github.com/telebotter/django-telegrambot)
+7. 🗣 Commented on [#868](https://github.com/scilus/scilpy/pull/868#issuecomment-1858135734) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#867](https://github.com/scilus/scilpy/pull/867#issuecomment-1858133965) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#4](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/4#issuecomment-1857995189) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
+10. 🗣 Commented on [#3836](https://github.com/privacyidea/privacyidea/pull/3836#issuecomment-1857900518) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
 <!--END_SECTION:activity-->
