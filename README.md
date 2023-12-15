@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
-2. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-3. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-4. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-5. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-6. 🗣 Commented on [#21616](https://github.com/spyder-ide/spyder/pull/21616#issuecomment-1858242712) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#25](https://github.com/telebotter/django-telegrambot/pull/25#issuecomment-1858221381) in [telebotter/django-telegrambot](https://github.com/telebotter/django-telegrambot)
-8. 🗣 Commented on [#868](https://github.com/scilus/scilpy/pull/868#issuecomment-1858135734) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#867](https://github.com/scilus/scilpy/pull/867#issuecomment-1858133965) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#4](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/4#issuecomment-1857995189) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
+1. 🗣 Commented on [#1208](https://github.com/tableau/connector-plugin-sdk/pull/1208#issuecomment-1858582938) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+2. 🗣 Commented on [#1027](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1027#issuecomment-1858582394) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#870](https://github.com/scilus/scilpy/pull/870#issuecomment-1858577838) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
+5. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+6. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+7. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+8. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+9. 🗣 Commented on [#21616](https://github.com/spyder-ide/spyder/pull/21616#issuecomment-1858242712) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#25](https://github.com/telebotter/django-telegrambot/pull/25#issuecomment-1858221381) in [telebotter/django-telegrambot](https://github.com/telebotter/django-telegrambot)
 <!--END_SECTION:activity-->
