@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#854](https://github.com/fury-gl/fury/pull/854#issuecomment-1858720204) in [fury-gl/fury](https://github.com/fury-gl/fury)
-2. 🗣 Commented on [#1208](https://github.com/tableau/connector-plugin-sdk/pull/1208#issuecomment-1858582938) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
-3. 🗣 Commented on [#1027](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1027#issuecomment-1858582394) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#870](https://github.com/scilus/scilpy/pull/870#issuecomment-1858577838) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
-6. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-7. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-8. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-9. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-10. 🗣 Commented on [#21616](https://github.com/spyder-ide/spyder/pull/21616#issuecomment-1858242712) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#21622](https://github.com/spyder-ide/spyder/pull/21622#issuecomment-1858840769) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#854](https://github.com/fury-gl/fury/pull/854#issuecomment-1858720204) in [fury-gl/fury](https://github.com/fury-gl/fury)
+3. 🗣 Commented on [#1208](https://github.com/tableau/connector-plugin-sdk/pull/1208#issuecomment-1858582938) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+4. 🗣 Commented on [#1027](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1027#issuecomment-1858582394) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#870](https://github.com/scilus/scilpy/pull/870#issuecomment-1858577838) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
+7. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+8. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+9. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+10. 🗣 Commented on [#1026](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1026#issuecomment-1858267764) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
