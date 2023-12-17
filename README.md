@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#17](https://github.com/kkuba91/turnament_organizer/pull/17#issuecomment-1859002544) in [kkuba91/turnament_organizer](https://github.com/kkuba91/turnament_organizer)
-2. 🗣 Commented on [#21622](https://github.com/spyder-ide/spyder/pull/21622#issuecomment-1858840769) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#854](https://github.com/fury-gl/fury/pull/854#issuecomment-1858720204) in [fury-gl/fury](https://github.com/fury-gl/fury)
-4. 🗣 Commented on [#1208](https://github.com/tableau/connector-plugin-sdk/pull/1208#issuecomment-1858582938) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
-5. 🗣 Commented on [#1027](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1027#issuecomment-1858582394) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-6. 🗣 Commented on [#870](https://github.com/scilus/scilpy/pull/870#issuecomment-1858577838) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
-8. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-9. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-10. 🗣 Commented on [#296](https://github.com/AdvancedPhotonSource/tike/pull/296#issuecomment-1858396457) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+1. 🗣 Commented on [#183](https://github.com/Fatal1ty/mashumaro/pull/183#issuecomment-1859021898) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+2. 🗣 Commented on [#17](https://github.com/kkuba91/turnament_organizer/pull/17#issuecomment-1859002544) in [kkuba91/turnament_organizer](https://github.com/kkuba91/turnament_organizer)
+3. 🗣 Commented on [#21622](https://github.com/spyder-ide/spyder/pull/21622#issuecomment-1858840769) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#854](https://github.com/fury-gl/fury/pull/854#issuecomment-1858720204) in [fury-gl/fury](https://github.com/fury-gl/fury)
+5. 🗣 Commented on [#1208](https://github.com/tableau/connector-plugin-sdk/pull/1208#issuecomment-1858582938) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+6. 🗣 Commented on [#1027](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1027#issuecomment-1858582394) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#870](https://github.com/scilus/scilpy/pull/870#issuecomment-1858577838) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/aiconfig/pull/1#issuecomment-1858516172) in [tuhinmallick/aiconfig](https://github.com/tuhinmallick/aiconfig)
+9. 🗣 Commented on [#1639](https://github.com/HEXRD/hexrdgui/pull/1639#issuecomment-1858466668) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+10. 🗣 Commented on [#1032](https://github.com/oemof/oemof-solph/pull/1032#issuecomment-1858420074) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
 <!--END_SECTION:activity-->
