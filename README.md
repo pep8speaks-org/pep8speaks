@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#178](https://github.com/gwpy/pyomicron/pull/178#issuecomment-1860994455) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
-2. 🗣 Commented on [#169](https://github.com/OpenFreeEnergy/gufe/pull/169#issuecomment-1860870557) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-3. 🗣 Commented on [#1412](https://github.com/spacetelescope/jwql/pull/1412#issuecomment-1860866706) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#1232](https://github.com/aimclub/FEDOT/pull/1232#issuecomment-1860728144) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-5. 🗣 Commented on [#3083](https://github.com/reframe-hpc/reframe/pull/3083#issuecomment-1859242711) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/NeurIPS-llm-efficiency-challenge/pull/1#issuecomment-1859145562) in [tuhinmallick/NeurIPS-llm-efficiency-challenge](https://github.com/tuhinmallick/NeurIPS-llm-efficiency-challenge)
-7. 🗣 Commented on [#1](https://github.com/tuhinmallick/neurips_submission/pull/1#issuecomment-1859145097) in [tuhinmallick/neurips_submission](https://github.com/tuhinmallick/neurips_submission)
-8. 🗣 Commented on [#1](https://github.com/tuhinmallick/OpenAIWorkshop/pull/1#issuecomment-1859132785) in [tuhinmallick/OpenAIWorkshop](https://github.com/tuhinmallick/OpenAIWorkshop)
-9. 🗣 Commented on [#223](https://github.com/CartoonFan/lutris/pull/223#issuecomment-1859037685) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#183](https://github.com/Fatal1ty/mashumaro/pull/183#issuecomment-1859021898) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+1. 🗣 Commented on [#1028](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1028#issuecomment-1861205359) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#1](https://github.com/Remi-Gau/QLS-course-materials/pull/1#issuecomment-1861187767) in [Remi-Gau/QLS-course-materials](https://github.com/Remi-Gau/QLS-course-materials)
+3. 🗣 Commented on [#178](https://github.com/gwpy/pyomicron/pull/178#issuecomment-1860994455) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
+4. 🗣 Commented on [#169](https://github.com/OpenFreeEnergy/gufe/pull/169#issuecomment-1860870557) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+5. 🗣 Commented on [#1412](https://github.com/spacetelescope/jwql/pull/1412#issuecomment-1860866706) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+6. 🗣 Commented on [#1232](https://github.com/aimclub/FEDOT/pull/1232#issuecomment-1860728144) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+7. 🗣 Commented on [#3083](https://github.com/reframe-hpc/reframe/pull/3083#issuecomment-1859242711) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+8. 🗣 Commented on [#1](https://github.com/tuhinmallick/NeurIPS-llm-efficiency-challenge/pull/1#issuecomment-1859145562) in [tuhinmallick/NeurIPS-llm-efficiency-challenge](https://github.com/tuhinmallick/NeurIPS-llm-efficiency-challenge)
+9. 🗣 Commented on [#1](https://github.com/tuhinmallick/neurips_submission/pull/1#issuecomment-1859145097) in [tuhinmallick/neurips_submission](https://github.com/tuhinmallick/neurips_submission)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/OpenAIWorkshop/pull/1#issuecomment-1859132785) in [tuhinmallick/OpenAIWorkshop](https://github.com/tuhinmallick/OpenAIWorkshop)
 <!--END_SECTION:activity-->
