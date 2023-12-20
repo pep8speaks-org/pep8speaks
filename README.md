@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#41](https://github.com/LipAnn/SongsChordsBot/pull/41#issuecomment-1864386435) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
-2. 🗣 Commented on [#9102](https://github.com/statsmodels/statsmodels/pull/9102#issuecomment-1864250941) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-3. 🗣 Commented on [#1](https://github.com/tuhinmallick/GoogleCalendarAssistant/pull/1#issuecomment-1864022146) in [tuhinmallick/GoogleCalendarAssistant](https://github.com/tuhinmallick/GoogleCalendarAssistant)
-4. 🗣 Commented on [#38](https://github.com/LipAnn/SongsChordsBot/pull/38#issuecomment-1863998685) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
-5. 🗣 Commented on [#245](https://github.com/NCAR/wrf_hydro_py/pull/245#issuecomment-1863811435) in [NCAR/wrf_hydro_py](https://github.com/NCAR/wrf_hydro_py)
-6. 🗣 Commented on [#4374](https://github.com/MDAnalysis/mdanalysis/pull/4374#issuecomment-1863758658) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#593](https://github.com/HEXRD/hexrd/pull/593#issuecomment-1863537288) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-8. 🗣 Commented on [#1259](https://github.com/spacetelescope/jwql/pull/1259#issuecomment-1863507946) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#224](https://github.com/CartoonFan/lutris/pull/224#issuecomment-1863474638) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#855](https://github.com/fury-gl/fury/pull/855#issuecomment-1863118801) in [fury-gl/fury](https://github.com/fury-gl/fury)
+1. 🗣 Commented on [#42](https://github.com/LipAnn/SongsChordsBot/pull/42#issuecomment-1864454954) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
+2. 🗣 Commented on [#41](https://github.com/LipAnn/SongsChordsBot/pull/41#issuecomment-1864386435) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
+3. 🗣 Commented on [#9102](https://github.com/statsmodels/statsmodels/pull/9102#issuecomment-1864250941) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+4. 🗣 Commented on [#1](https://github.com/tuhinmallick/GoogleCalendarAssistant/pull/1#issuecomment-1864022146) in [tuhinmallick/GoogleCalendarAssistant](https://github.com/tuhinmallick/GoogleCalendarAssistant)
+5. 🗣 Commented on [#38](https://github.com/LipAnn/SongsChordsBot/pull/38#issuecomment-1863998685) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
+6. 🗣 Commented on [#245](https://github.com/NCAR/wrf_hydro_py/pull/245#issuecomment-1863811435) in [NCAR/wrf_hydro_py](https://github.com/NCAR/wrf_hydro_py)
+7. 🗣 Commented on [#4374](https://github.com/MDAnalysis/mdanalysis/pull/4374#issuecomment-1863758658) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#593](https://github.com/HEXRD/hexrd/pull/593#issuecomment-1863537288) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+9. 🗣 Commented on [#1259](https://github.com/spacetelescope/jwql/pull/1259#issuecomment-1863507946) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#224](https://github.com/CartoonFan/lutris/pull/224#issuecomment-1863474638) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
