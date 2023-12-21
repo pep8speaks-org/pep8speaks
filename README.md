@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#21641](https://github.com/spyder-ide/spyder/pull/21641#issuecomment-1865353013) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/weak-to-strong/pull/1#issuecomment-1865254562) in [tuhinmallick/weak-to-strong](https://github.com/tuhinmallick/weak-to-strong)
-3. 🗣 Commented on [#135](https://github.com/OpenFreeEnergy/gufe/pull/135#issuecomment-1864947613) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-4. 🗣 Commented on [#1030](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1030#issuecomment-1864912685) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-5. 🗣 Commented on [#1416](https://github.com/spacetelescope/jwql/pull/1416#issuecomment-1864856103) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#101](https://github.com/Richard-Sti/csiborgtools/pull/101#issuecomment-1864673799) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
-7. 🗣 Commented on [#67](https://github.com/eastgenomics/eris/pull/67#issuecomment-1864634896) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#2677](https://github.com/metabrainz/listenbrainz-server/pull/2677#issuecomment-1864515136) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#1641](https://github.com/HEXRD/hexrdgui/pull/1641#issuecomment-1864507198) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-10. 🗣 Commented on [#42](https://github.com/LipAnn/SongsChordsBot/pull/42#issuecomment-1864454954) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
+1. 🗣 Commented on [#500](https://github.com/zarr-developers/numcodecs/pull/500#issuecomment-1865720842) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+2. 🗣 Commented on [#21641](https://github.com/spyder-ide/spyder/pull/21641#issuecomment-1865353013) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/weak-to-strong/pull/1#issuecomment-1865254562) in [tuhinmallick/weak-to-strong](https://github.com/tuhinmallick/weak-to-strong)
+4. 🗣 Commented on [#135](https://github.com/OpenFreeEnergy/gufe/pull/135#issuecomment-1864947613) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+5. 🗣 Commented on [#1030](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1030#issuecomment-1864912685) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+6. 🗣 Commented on [#1416](https://github.com/spacetelescope/jwql/pull/1416#issuecomment-1864856103) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#101](https://github.com/Richard-Sti/csiborgtools/pull/101#issuecomment-1864673799) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+8. 🗣 Commented on [#67](https://github.com/eastgenomics/eris/pull/67#issuecomment-1864634896) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#2677](https://github.com/metabrainz/listenbrainz-server/pull/2677#issuecomment-1864515136) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+10. 🗣 Commented on [#1641](https://github.com/HEXRD/hexrdgui/pull/1641#issuecomment-1864507198) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
