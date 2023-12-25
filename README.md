@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1236](https://github.com/aimclub/FEDOT/pull/1236#issuecomment-1869003332) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#228](https://github.com/CartoonFan/lutris/pull/228#issuecomment-1868726851) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-3. 🗣 Commented on [#669](https://github.com/OpenFreeEnergy/openfe/pull/669#issuecomment-1868609926) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-4. 🗣 Commented on [#430](https://github.com/SDXorg/pysd/pull/430#issuecomment-1868505802) in [SDXorg/pysd](https://github.com/SDXorg/pysd)
-5. 🗣 Commented on [#1](https://github.com/tuhinmallick/kay/pull/1#issuecomment-1868433505) in [tuhinmallick/kay](https://github.com/tuhinmallick/kay)
-6. 🗣 Commented on [#1](https://github.com/tuhinmallick/Osprey/pull/1#issuecomment-1868430498) in [tuhinmallick/Osprey](https://github.com/tuhinmallick/Osprey)
-7. 🗣 Commented on [#60](https://github.com/LipAnn/SongsChordsBot/pull/60#issuecomment-1868382399) in [LipAnn/SongsChordsBot](https://github.com/LipAnn/SongsChordsBot)
-8. 🗣 Commented on [#215](https://github.com/jcmgray/quimb/pull/215#issuecomment-1868377722) in [jcmgray/quimb](https://github.com/jcmgray/quimb)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/crewAI-examples/pull/1#issuecomment-1868375827) in [tuhinmallick/crewAI-examples](https://github.com/tuhinmallick/crewAI-examples)
-10. 🗣 Commented on [#227](https://github.com/CartoonFan/lutris/pull/227#issuecomment-1868337249) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+1. 💪 Opened PR [#454](https://github.com/pep8speaks-org/test-pep8speaks/pull/454) in [pep8speaks-org/test-pep8speaks](https://github.com/pep8speaks-org/test-pep8speaks)
+2. 💪 Opened PR [#453](https://github.com/pep8speaks-org/test-pep8speaks/pull/453) in [pep8speaks-org/test-pep8speaks](https://github.com/pep8speaks-org/test-pep8speaks)
+3. 💪 Opened PR [#452](https://github.com/pep8speaks-org/test-pep8speaks/pull/452) in [pep8speaks-org/test-pep8speaks](https://github.com/pep8speaks-org/test-pep8speaks)
+4. 💪 Opened PR [#451](https://github.com/pep8speaks-org/test-pep8speaks/pull/451) in [pep8speaks-org/test-pep8speaks](https://github.com/pep8speaks-org/test-pep8speaks)
+5. 💪 Opened PR [#450](https://github.com/pep8speaks-org/test-pep8speaks/pull/450) in [pep8speaks-org/test-pep8speaks](https://github.com/pep8speaks-org/test-pep8speaks)
+6. 🗣 Commented on [#1236](https://github.com/aimclub/FEDOT/pull/1236#issuecomment-1869003332) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+7. 🗣 Commented on [#228](https://github.com/CartoonFan/lutris/pull/228#issuecomment-1868726851) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+8. 🗣 Commented on [#669](https://github.com/OpenFreeEnergy/openfe/pull/669#issuecomment-1868609926) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+9. 🗣 Commented on [#430](https://github.com/SDXorg/pysd/pull/430#issuecomment-1868505802) in [SDXorg/pysd](https://github.com/SDXorg/pysd)
+10. 🗣 Commented on [#1](https://github.com/tuhinmallick/kay/pull/1#issuecomment-1868433505) in [tuhinmallick/kay](https://github.com/tuhinmallick/kay)
 <!--END_SECTION:activity-->
