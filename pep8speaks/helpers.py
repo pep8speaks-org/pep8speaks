@@ -18,20 +18,14 @@ from pep8speaks import utils
 
 def update_users(repository):
     """Star the repository from the bot account"""
-    headers = {
-        "Content-Length": "0",
-    }
     query = f"/user/starred/{repository}"
-    return utils.query_request(query=query, method='PUT', headers=headers)
+    return utils.query_request(query=query, method='PUT')
 
 
 def follow_user(user):
     """Follow the user of the service"""
-    headers = {
-        "Content-Length": "0",
-    }
     query = f"/user/following/{user}"
-    return utils.query_request(query=query, method='PUT', headers=headers)
+    return utils.query_request(query=query, method='PUT')
 
 
 def read_setup_cfg_file(setup_config_file):
@@ -513,7 +507,7 @@ def update_fork_desc(ghrequest):
     query = f"/repos/{ghrequest.fork_fullname}"
     r = utils.query_request(query)
     ATTEMPT = 0
-    while(r.status_code != 200):
+    while (r.status_code != 200):
         time.sleep(5)
         r = utils.query_request(query)
         ATTEMPT += 1
