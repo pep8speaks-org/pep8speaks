@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#233](https://github.com/CartoonFan/lutris/pull/233#issuecomment-1872669115) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-2. 🗣 Commented on [#2032](https://github.com/rpm-software-management/dnf/pull/2032#issuecomment-1872571899) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-3. 🗣 Commented on [#232](https://github.com/CartoonFan/lutris/pull/232#issuecomment-1872502318) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-4. 🗣 Commented on [#1](https://github.com/tuhinmallick/mixtral-offloading/pull/1#issuecomment-1872480701) in [tuhinmallick/mixtral-offloading](https://github.com/tuhinmallick/mixtral-offloading)
-5. 🗣 Commented on [#314](https://github.com/DeMarcoLab/fibsem/pull/314#issuecomment-1872466745) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-6. 🗣 Commented on [#1](https://github.com/ivanlonel/pokeapi/pull/1#issuecomment-1872442666) in [ivanlonel/pokeapi](https://github.com/ivanlonel/pokeapi)
-7. 🗣 Commented on [#673](https://github.com/OpenFreeEnergy/openfe/pull/673#issuecomment-1872386480) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-8. 🗣 Commented on [#1418](https://github.com/spacetelescope/jwql/pull/1418#issuecomment-1872368957) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#231](https://github.com/CartoonFan/lutris/pull/231#issuecomment-1872213759) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#2910](https://github.com/astropy/astroquery/pull/2910#issuecomment-1872168587) in [astropy/astroquery](https://github.com/astropy/astroquery)
+1. 🗣 Commented on [#1](https://github.com/tuhinmallick/full-stack-fastapi-postgresql/pull/1#issuecomment-1872906319) in [tuhinmallick/full-stack-fastapi-postgresql](https://github.com/tuhinmallick/full-stack-fastapi-postgresql)
+2. 🗣 Commented on [#233](https://github.com/CartoonFan/lutris/pull/233#issuecomment-1872669115) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+3. 🗣 Commented on [#2032](https://github.com/rpm-software-management/dnf/pull/2032#issuecomment-1872571899) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+4. 🗣 Commented on [#232](https://github.com/CartoonFan/lutris/pull/232#issuecomment-1872502318) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/mixtral-offloading/pull/1#issuecomment-1872480701) in [tuhinmallick/mixtral-offloading](https://github.com/tuhinmallick/mixtral-offloading)
+6. 🗣 Commented on [#314](https://github.com/DeMarcoLab/fibsem/pull/314#issuecomment-1872466745) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+7. 🗣 Commented on [#1](https://github.com/ivanlonel/pokeapi/pull/1#issuecomment-1872442666) in [ivanlonel/pokeapi](https://github.com/ivanlonel/pokeapi)
+8. 🗣 Commented on [#673](https://github.com/OpenFreeEnergy/openfe/pull/673#issuecomment-1872386480) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+9. 🗣 Commented on [#1418](https://github.com/spacetelescope/jwql/pull/1418#issuecomment-1872368957) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#231](https://github.com/CartoonFan/lutris/pull/231#issuecomment-1872213759) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
