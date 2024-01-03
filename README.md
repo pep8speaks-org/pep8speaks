@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#171](https://github.com/eastgenomics/dias_batch_running/pull/171#issuecomment-1875286810) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-2. 🗣 Commented on [#236](https://github.com/CartoonFan/lutris/pull/236#issuecomment-1874843796) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-3. 🗣 Commented on [#247](https://github.com/NCAR/wrf_hydro_py/pull/247#issuecomment-1874718295) in [NCAR/wrf_hydro_py](https://github.com/NCAR/wrf_hydro_py)
-4. 🗣 Commented on [#46](https://github.com/tjhowse/modbus4mqtt/pull/46#issuecomment-1874632624) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
-5. 🗣 Commented on [#101](https://github.com/aimclub/BAMT/pull/101#issuecomment-1874519991) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-6. 🗣 Commented on [#240](https://github.com/TelebirrApp/TelebirrApp/pull/240#issuecomment-1874454660) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-7. 🗣 Commented on [#423](https://github.com/manoharan-lab/holopy/pull/423#issuecomment-1874442264) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
-8. 🗣 Commented on [#238](https://github.com/TelebirrApp/TelebirrApp/pull/238#issuecomment-1874404686) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-9. 🗣 Commented on [#358](https://github.com/MDAnalysis/UserGuide/pull/358#issuecomment-1874342099) in [MDAnalysis/UserGuide](https://github.com/MDAnalysis/UserGuide)
-10. 🗣 Commented on [#3025](https://github.com/dipy/dipy/pull/3025#issuecomment-1874337900) in [dipy/dipy](https://github.com/dipy/dipy)
+1. 🗣 Commented on [#69](https://github.com/eastgenomics/eris/pull/69#issuecomment-1875358472) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+2. 🗣 Commented on [#1644](https://github.com/HEXRD/hexrdgui/pull/1644#issuecomment-1875353754) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+3. 🗣 Commented on [#258](https://github.com/TelebirrApp/TelebirrApp/pull/258#issuecomment-1875301326) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+4. 🗣 Commented on [#171](https://github.com/eastgenomics/dias_batch_running/pull/171#issuecomment-1875286810) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
+5. 🗣 Commented on [#236](https://github.com/CartoonFan/lutris/pull/236#issuecomment-1874843796) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+6. 🗣 Commented on [#247](https://github.com/NCAR/wrf_hydro_py/pull/247#issuecomment-1874718295) in [NCAR/wrf_hydro_py](https://github.com/NCAR/wrf_hydro_py)
+7. 🗣 Commented on [#46](https://github.com/tjhowse/modbus4mqtt/pull/46#issuecomment-1874632624) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
+8. 🗣 Commented on [#101](https://github.com/aimclub/BAMT/pull/101#issuecomment-1874519991) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+9. 🗣 Commented on [#240](https://github.com/TelebirrApp/TelebirrApp/pull/240#issuecomment-1874454660) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+10. 🗣 Commented on [#423](https://github.com/manoharan-lab/holopy/pull/423#issuecomment-1874442264) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
 <!--END_SECTION:activity-->
