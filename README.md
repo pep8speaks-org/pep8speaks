@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#304](https://github.com/TelebirrApp/TelebirrApp/pull/304#issuecomment-1876967464) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-2. 🗣 Commented on [#1](https://github.com/tuhinmallick/shopify-test-data-generator/pull/1#issuecomment-1876922619) in [tuhinmallick/shopify-test-data-generator](https://github.com/tuhinmallick/shopify-test-data-generator)
-3. 🗣 Commented on [#952](https://github.com/avaframe/AvaFrame/pull/952#issuecomment-1876857055) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-4. 🗣 Commented on [#207](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science/pull/207#issuecomment-1876293085) in [EdinsonRequena/articicial-inteligence-and-data-science](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science)
-5. 🗣 Commented on [#431](https://github.com/manoharan-lab/holopy/pull/431#issuecomment-1875668289) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
-6. 🗣 Commented on [#69](https://github.com/eastgenomics/eris/pull/69#issuecomment-1875358472) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-7. 🗣 Commented on [#1644](https://github.com/HEXRD/hexrdgui/pull/1644#issuecomment-1875353754) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-8. 🗣 Commented on [#258](https://github.com/TelebirrApp/TelebirrApp/pull/258#issuecomment-1875301326) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-9. 🗣 Commented on [#171](https://github.com/eastgenomics/dias_batch_running/pull/171#issuecomment-1875286810) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
-10. 🗣 Commented on [#236](https://github.com/CartoonFan/lutris/pull/236#issuecomment-1874843796) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+1. 🗣 Commented on [#2](https://github.com/Borda/AttentionDeepMIL/pull/2#issuecomment-1877131556) in [Borda/AttentionDeepMIL](https://github.com/Borda/AttentionDeepMIL)
+2. 🗣 Commented on [#304](https://github.com/TelebirrApp/TelebirrApp/pull/304#issuecomment-1876967464) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+3. 🗣 Commented on [#1](https://github.com/tuhinmallick/shopify-test-data-generator/pull/1#issuecomment-1876922619) in [tuhinmallick/shopify-test-data-generator](https://github.com/tuhinmallick/shopify-test-data-generator)
+4. 🗣 Commented on [#952](https://github.com/avaframe/AvaFrame/pull/952#issuecomment-1876857055) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+5. 🗣 Commented on [#207](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science/pull/207#issuecomment-1876293085) in [EdinsonRequena/articicial-inteligence-and-data-science](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science)
+6. 🗣 Commented on [#431](https://github.com/manoharan-lab/holopy/pull/431#issuecomment-1875668289) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
+7. 🗣 Commented on [#69](https://github.com/eastgenomics/eris/pull/69#issuecomment-1875358472) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+8. 🗣 Commented on [#1644](https://github.com/HEXRD/hexrdgui/pull/1644#issuecomment-1875353754) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+9. 🗣 Commented on [#258](https://github.com/TelebirrApp/TelebirrApp/pull/258#issuecomment-1875301326) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+10. 🗣 Commented on [#171](https://github.com/eastgenomics/dias_batch_running/pull/171#issuecomment-1875286810) in [eastgenomics/dias_batch_running](https://github.com/eastgenomics/dias_batch_running)
 <!--END_SECTION:activity-->
