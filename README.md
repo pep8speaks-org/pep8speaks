@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1242](https://github.com/aimclub/FEDOT/pull/1242#issuecomment-1877534697) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#88](https://github.com/kaulketh/ledpibot/pull/88#issuecomment-1877472510) in [kaulketh/ledpibot](https://github.com/kaulketh/ledpibot)
-3. 🗣 Commented on [#87](https://github.com/kaulketh/ledpibot/pull/87#issuecomment-1877468233) in [kaulketh/ledpibot](https://github.com/kaulketh/ledpibot)
-4. 🗣 Commented on [#1040](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1040#issuecomment-1877429907) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-5. 🗣 Commented on [#1463](https://github.com/openSUSE/osc/pull/1463#issuecomment-1877343528) in [openSUSE/osc](https://github.com/openSUSE/osc)
-6. 🗣 Commented on [#161](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/161#issuecomment-1877248873) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-7. 🗣 Commented on [#2](https://github.com/Borda/AttentionDeepMIL/pull/2#issuecomment-1877131556) in [Borda/AttentionDeepMIL](https://github.com/Borda/AttentionDeepMIL)
-8. 🗣 Commented on [#304](https://github.com/TelebirrApp/TelebirrApp/pull/304#issuecomment-1876967464) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-9. 🗣 Commented on [#1](https://github.com/tuhinmallick/shopify-test-data-generator/pull/1#issuecomment-1876922619) in [tuhinmallick/shopify-test-data-generator](https://github.com/tuhinmallick/shopify-test-data-generator)
-10. 🗣 Commented on [#952](https://github.com/avaframe/AvaFrame/pull/952#issuecomment-1876857055) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#1041](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1041#issuecomment-1877620078) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#679](https://github.com/OpenFreeEnergy/openfe/pull/679#issuecomment-1877611098) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+3. 🗣 Commented on [#596](https://github.com/HEXRD/hexrd/pull/596#issuecomment-1877596994) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+4. 🗣 Commented on [#1242](https://github.com/aimclub/FEDOT/pull/1242#issuecomment-1877534697) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+5. 🗣 Commented on [#88](https://github.com/kaulketh/ledpibot/pull/88#issuecomment-1877472510) in [kaulketh/ledpibot](https://github.com/kaulketh/ledpibot)
+6. 🗣 Commented on [#87](https://github.com/kaulketh/ledpibot/pull/87#issuecomment-1877468233) in [kaulketh/ledpibot](https://github.com/kaulketh/ledpibot)
+7. 🗣 Commented on [#1040](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1040#issuecomment-1877429907) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+8. 🗣 Commented on [#1463](https://github.com/openSUSE/osc/pull/1463#issuecomment-1877343528) in [openSUSE/osc](https://github.com/openSUSE/osc)
+9. 🗣 Commented on [#161](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/161#issuecomment-1877248873) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+10. 🗣 Commented on [#2](https://github.com/Borda/AttentionDeepMIL/pull/2#issuecomment-1877131556) in [Borda/AttentionDeepMIL](https://github.com/Borda/AttentionDeepMIL)
 <!--END_SECTION:activity-->
