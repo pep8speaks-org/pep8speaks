@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#161](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/161#issuecomment-1877248873) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-2. 🗣 Commented on [#2](https://github.com/Borda/AttentionDeepMIL/pull/2#issuecomment-1877131556) in [Borda/AttentionDeepMIL](https://github.com/Borda/AttentionDeepMIL)
-3. 🗣 Commented on [#304](https://github.com/TelebirrApp/TelebirrApp/pull/304#issuecomment-1876967464) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
-4. 🗣 Commented on [#1](https://github.com/tuhinmallick/shopify-test-data-generator/pull/1#issuecomment-1876922619) in [tuhinmallick/shopify-test-data-generator](https://github.com/tuhinmallick/shopify-test-data-generator)
-5. 🗣 Commented on [#952](https://github.com/avaframe/AvaFrame/pull/952#issuecomment-1876857055) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-6. 🗣 Commented on [#207](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science/pull/207#issuecomment-1876293085) in [EdinsonRequena/articicial-inteligence-and-data-science](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science)
-7. 🗣 Commented on [#431](https://github.com/manoharan-lab/holopy/pull/431#issuecomment-1875668289) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
-8. 🗣 Commented on [#69](https://github.com/eastgenomics/eris/pull/69#issuecomment-1875358472) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-9. 🗣 Commented on [#1644](https://github.com/HEXRD/hexrdgui/pull/1644#issuecomment-1875353754) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-10. 🗣 Commented on [#258](https://github.com/TelebirrApp/TelebirrApp/pull/258#issuecomment-1875301326) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+1. 🗣 Commented on [#1463](https://github.com/openSUSE/osc/pull/1463#issuecomment-1877343528) in [openSUSE/osc](https://github.com/openSUSE/osc)
+2. 🗣 Commented on [#161](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/161#issuecomment-1877248873) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+3. 🗣 Commented on [#2](https://github.com/Borda/AttentionDeepMIL/pull/2#issuecomment-1877131556) in [Borda/AttentionDeepMIL](https://github.com/Borda/AttentionDeepMIL)
+4. 🗣 Commented on [#304](https://github.com/TelebirrApp/TelebirrApp/pull/304#issuecomment-1876967464) in [TelebirrApp/TelebirrApp](https://github.com/TelebirrApp/TelebirrApp)
+5. 🗣 Commented on [#1](https://github.com/tuhinmallick/shopify-test-data-generator/pull/1#issuecomment-1876922619) in [tuhinmallick/shopify-test-data-generator](https://github.com/tuhinmallick/shopify-test-data-generator)
+6. 🗣 Commented on [#952](https://github.com/avaframe/AvaFrame/pull/952#issuecomment-1876857055) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+7. 🗣 Commented on [#207](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science/pull/207#issuecomment-1876293085) in [EdinsonRequena/articicial-inteligence-and-data-science](https://github.com/EdinsonRequena/articicial-inteligence-and-data-science)
+8. 🗣 Commented on [#431](https://github.com/manoharan-lab/holopy/pull/431#issuecomment-1875668289) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
+9. 🗣 Commented on [#69](https://github.com/eastgenomics/eris/pull/69#issuecomment-1875358472) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+10. 🗣 Commented on [#1644](https://github.com/HEXRD/hexrdgui/pull/1644#issuecomment-1875353754) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
