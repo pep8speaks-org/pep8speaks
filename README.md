@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#708](https://github.com/bashtage/arch/pull/708#issuecomment-1878635232) in [bashtage/arch](https://github.com/bashtage/arch)
-2. 🗣 Commented on [#680](https://github.com/OpenFreeEnergy/openfe/pull/680#issuecomment-1878046360) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-3. 🗣 Commented on [#2695](https://github.com/metabrainz/listenbrainz-server/pull/2695#issuecomment-1877731389) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#3027](https://github.com/dipy/dipy/pull/3027#issuecomment-1877718704) in [dipy/dipy](https://github.com/dipy/dipy)
-5. 🗣 Commented on [#45](https://github.com/catalyst-team/hydra-slayer/pull/45#issuecomment-1877691436) in [catalyst-team/hydra-slayer](https://github.com/catalyst-team/hydra-slayer)
-6. 🗣 Commented on [#487](https://github.com/HEPCloud/decisionengine_modules/pull/487#issuecomment-1877666975) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
-7. 🗣 Commented on [#511](https://github.com/UIUCLibrary/Speedwagon/pull/511#issuecomment-1877649183) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-8. 🗣 Commented on [#1041](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1041#issuecomment-1877620078) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-9. 🗣 Commented on [#679](https://github.com/OpenFreeEnergy/openfe/pull/679#issuecomment-1877611098) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-10. 🗣 Commented on [#596](https://github.com/HEXRD/hexrd/pull/596#issuecomment-1877596994) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+1. 🗣 Commented on [#1645](https://github.com/HEXRD/hexrdgui/pull/1645#issuecomment-1878816074) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+2. 🗣 Commented on [#708](https://github.com/bashtage/arch/pull/708#issuecomment-1878635232) in [bashtage/arch](https://github.com/bashtage/arch)
+3. 🗣 Commented on [#680](https://github.com/OpenFreeEnergy/openfe/pull/680#issuecomment-1878046360) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+4. 🗣 Commented on [#2695](https://github.com/metabrainz/listenbrainz-server/pull/2695#issuecomment-1877731389) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#3027](https://github.com/dipy/dipy/pull/3027#issuecomment-1877718704) in [dipy/dipy](https://github.com/dipy/dipy)
+6. 🗣 Commented on [#45](https://github.com/catalyst-team/hydra-slayer/pull/45#issuecomment-1877691436) in [catalyst-team/hydra-slayer](https://github.com/catalyst-team/hydra-slayer)
+7. 🗣 Commented on [#487](https://github.com/HEPCloud/decisionengine_modules/pull/487#issuecomment-1877666975) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
+8. 🗣 Commented on [#511](https://github.com/UIUCLibrary/Speedwagon/pull/511#issuecomment-1877649183) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+9. 🗣 Commented on [#1041](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1041#issuecomment-1877620078) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+10. 🗣 Commented on [#679](https://github.com/OpenFreeEnergy/openfe/pull/679#issuecomment-1877611098) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
 <!--END_SECTION:activity-->
