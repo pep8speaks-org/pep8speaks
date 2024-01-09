@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#71](https://github.com/eastgenomics/eris/pull/71#issuecomment-1883347759) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#96](https://github.com/eastgenomics/eggd_conductor/pull/96#issuecomment-1883006923) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-3. 🗣 Commented on [#95](https://github.com/eastgenomics/eggd_conductor/pull/95#issuecomment-1882920331) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-4. 🗣 Commented on [#21685](https://github.com/spyder-ide/spyder/pull/21685#issuecomment-1882787186) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#50](https://github.com/tjhowse/modbus4mqtt/pull/50#issuecomment-1882748637) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
-6. 🗣 Commented on [#18](https://github.com/brianhang/pokerpals/pull/18#issuecomment-1882499349) in [brianhang/pokerpals](https://github.com/brianhang/pokerpals)
-7. 🗣 Commented on [#218](https://github.com/innobi/pantab/pull/218#issuecomment-1882423184) in [innobi/pantab](https://github.com/innobi/pantab)
-8. 🗣 Commented on [#239](https://github.com/CartoonFan/lutris/pull/239#issuecomment-1882407051) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-9. 🗣 Commented on [#218](https://github.com/innobi/pantab/pull/218#issuecomment-1882402862) in [innobi/pantab](https://github.com/innobi/pantab)
-10. 🗣 Commented on [#218](https://github.com/innobi/pantab/pull/218#issuecomment-1882288716) in [innobi/pantab](https://github.com/innobi/pantab)
+1. 🗣 Commented on [#1086](https://github.com/yeatmanlab/pyAFQ/pull/1086#issuecomment-1883863613) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+2. 🗣 Commented on [#71](https://github.com/eastgenomics/eris/pull/71#issuecomment-1883347759) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#96](https://github.com/eastgenomics/eggd_conductor/pull/96#issuecomment-1883006923) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+4. 🗣 Commented on [#95](https://github.com/eastgenomics/eggd_conductor/pull/95#issuecomment-1882920331) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+5. 🗣 Commented on [#21685](https://github.com/spyder-ide/spyder/pull/21685#issuecomment-1882787186) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+6. 🗣 Commented on [#50](https://github.com/tjhowse/modbus4mqtt/pull/50#issuecomment-1882748637) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
+7. 🗣 Commented on [#18](https://github.com/brianhang/pokerpals/pull/18#issuecomment-1882499349) in [brianhang/pokerpals](https://github.com/brianhang/pokerpals)
+8. 🗣 Commented on [#218](https://github.com/innobi/pantab/pull/218#issuecomment-1882423184) in [innobi/pantab](https://github.com/innobi/pantab)
+9. 🗣 Commented on [#239](https://github.com/CartoonFan/lutris/pull/239#issuecomment-1882407051) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+10. 🗣 Commented on [#218](https://github.com/innobi/pantab/pull/218#issuecomment-1882402862) in [innobi/pantab](https://github.com/innobi/pantab)
 <!--END_SECTION:activity-->
