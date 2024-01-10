@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1425](https://github.com/spacetelescope/jwql/pull/1425#issuecomment-1885091462) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#21692](https://github.com/spyder-ide/spyder/pull/21692#issuecomment-1885016715) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#886](https://github.com/ToFuProject/tofu/pull/886#issuecomment-1884959067) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-4. 🗣 Commented on [#315](https://github.com/DeMarcoLab/fibsem/pull/315#issuecomment-1884789371) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-5. 🗣 Commented on [#19](https://github.com/eastgenomics/eggd_artemis/pull/19#issuecomment-1884458617) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-6. 🗣 Commented on [#1086](https://github.com/yeatmanlab/pyAFQ/pull/1086#issuecomment-1883863613) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-7. 🗣 Commented on [#71](https://github.com/eastgenomics/eris/pull/71#issuecomment-1883347759) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#96](https://github.com/eastgenomics/eggd_conductor/pull/96#issuecomment-1883006923) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-9. 🗣 Commented on [#95](https://github.com/eastgenomics/eggd_conductor/pull/95#issuecomment-1882920331) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-10. 🗣 Commented on [#21685](https://github.com/spyder-ide/spyder/pull/21685#issuecomment-1882787186) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#72](https://github.com/eastgenomics/eris/pull/72#issuecomment-1885142503) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+2. 🗣 Commented on [#1425](https://github.com/spacetelescope/jwql/pull/1425#issuecomment-1885091462) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#21692](https://github.com/spyder-ide/spyder/pull/21692#issuecomment-1885016715) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#886](https://github.com/ToFuProject/tofu/pull/886#issuecomment-1884959067) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+5. 🗣 Commented on [#315](https://github.com/DeMarcoLab/fibsem/pull/315#issuecomment-1884789371) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+6. 🗣 Commented on [#19](https://github.com/eastgenomics/eggd_artemis/pull/19#issuecomment-1884458617) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+7. 🗣 Commented on [#1086](https://github.com/yeatmanlab/pyAFQ/pull/1086#issuecomment-1883863613) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+8. 🗣 Commented on [#71](https://github.com/eastgenomics/eris/pull/71#issuecomment-1883347759) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#96](https://github.com/eastgenomics/eggd_conductor/pull/96#issuecomment-1883006923) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+10. 🗣 Commented on [#95](https://github.com/eastgenomics/eggd_conductor/pull/95#issuecomment-1882920331) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
 <!--END_SECTION:activity-->
