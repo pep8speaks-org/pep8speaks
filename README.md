@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#670](https://github.com/EducationalTestingService/rsmtool/pull/670#issuecomment-1885935940) in [EducationalTestingService/rsmtool](https://github.com/EducationalTestingService/rsmtool)
-2. 🗣 Commented on [#1426](https://github.com/spacetelescope/jwql/pull/1426#issuecomment-1885778745) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#4425](https://github.com/pyload/pyload/pull/4425#issuecomment-1885756701) in [pyload/pyload](https://github.com/pyload/pyload)
-4. 🗣 Commented on [#7](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/7#issuecomment-1885747196) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
-5. 🗣 Commented on [#601](https://github.com/HEXRD/hexrd/pull/601#issuecomment-1885418303) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-6. 🗣 Commented on [#436](https://github.com/manoharan-lab/holopy/pull/436#issuecomment-1885395063) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
-7. 🗣 Commented on [#103](https://github.com/aimclub/BAMT/pull/103#issuecomment-1885257209) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-8. 🗣 Commented on [#72](https://github.com/eastgenomics/eris/pull/72#issuecomment-1885142503) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-9. 🗣 Commented on [#1425](https://github.com/spacetelescope/jwql/pull/1425#issuecomment-1885091462) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#21692](https://github.com/spyder-ide/spyder/pull/21692#issuecomment-1885016715) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#240](https://github.com/CartoonFan/lutris/pull/240#issuecomment-1886099993) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#670](https://github.com/EducationalTestingService/rsmtool/pull/670#issuecomment-1885935940) in [EducationalTestingService/rsmtool](https://github.com/EducationalTestingService/rsmtool)
+3. 🗣 Commented on [#1426](https://github.com/spacetelescope/jwql/pull/1426#issuecomment-1885778745) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#4425](https://github.com/pyload/pyload/pull/4425#issuecomment-1885756701) in [pyload/pyload](https://github.com/pyload/pyload)
+5. 🗣 Commented on [#7](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/7#issuecomment-1885747196) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
+6. 🗣 Commented on [#601](https://github.com/HEXRD/hexrd/pull/601#issuecomment-1885418303) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+7. 🗣 Commented on [#436](https://github.com/manoharan-lab/holopy/pull/436#issuecomment-1885395063) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
+8. 🗣 Commented on [#103](https://github.com/aimclub/BAMT/pull/103#issuecomment-1885257209) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+9. 🗣 Commented on [#72](https://github.com/eastgenomics/eris/pull/72#issuecomment-1885142503) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+10. 🗣 Commented on [#1425](https://github.com/spacetelescope/jwql/pull/1425#issuecomment-1885091462) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
