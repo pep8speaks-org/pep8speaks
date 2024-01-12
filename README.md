@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1433](https://github.com/spacetelescope/jwql/pull/1433#issuecomment-1887895772) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#21647](https://github.com/spyder-ide/spyder/pull/21647#issuecomment-1887781831) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#1431](https://github.com/spacetelescope/jwql/pull/1431#issuecomment-1887745717) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#46](https://github.com/oemof/oemof-network/pull/46#issuecomment-1887561914) in [oemof/oemof-network](https://github.com/oemof/oemof-network)
-5. 🗣 Commented on [#780](https://github.com/StingraySoftware/stingray/pull/780#issuecomment-1887529107) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-6. 🗣 Commented on [#1](https://github.com/eastgenomics/MetricsOutput_edit/pull/1#issuecomment-1887453526) in [eastgenomics/MetricsOutput_edit](https://github.com/eastgenomics/MetricsOutput_edit)
-7. 🗣 Commented on [#1427](https://github.com/spacetelescope/jwql/pull/1427#issuecomment-1887407117) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-8. 🗣 Commented on [#27](https://github.com/eastgenomics/eggd_generate_bed/pull/27#issuecomment-1886916558) in [eastgenomics/eggd_generate_bed](https://github.com/eastgenomics/eggd_generate_bed)
-9. 🗣 Commented on [#1](https://github.com/Remi-Gau/dFC/pull/1#issuecomment-1886818467) in [Remi-Gau/dFC](https://github.com/Remi-Gau/dFC)
-10. 🗣 Commented on [#240](https://github.com/CartoonFan/lutris/pull/240#issuecomment-1886099993) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+1. 🗣 Commented on [#876](https://github.com/scilus/scilpy/pull/876#issuecomment-1888390828) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#1433](https://github.com/spacetelescope/jwql/pull/1433#issuecomment-1887895772) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#21647](https://github.com/spyder-ide/spyder/pull/21647#issuecomment-1887781831) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#1431](https://github.com/spacetelescope/jwql/pull/1431#issuecomment-1887745717) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+5. 🗣 Commented on [#46](https://github.com/oemof/oemof-network/pull/46#issuecomment-1887561914) in [oemof/oemof-network](https://github.com/oemof/oemof-network)
+6. 🗣 Commented on [#780](https://github.com/StingraySoftware/stingray/pull/780#issuecomment-1887529107) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+7. 🗣 Commented on [#1](https://github.com/eastgenomics/MetricsOutput_edit/pull/1#issuecomment-1887453526) in [eastgenomics/MetricsOutput_edit](https://github.com/eastgenomics/MetricsOutput_edit)
+8. 🗣 Commented on [#1427](https://github.com/spacetelescope/jwql/pull/1427#issuecomment-1887407117) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+9. 🗣 Commented on [#27](https://github.com/eastgenomics/eggd_generate_bed/pull/27#issuecomment-1886916558) in [eastgenomics/eggd_generate_bed](https://github.com/eastgenomics/eggd_generate_bed)
+10. 🗣 Commented on [#1](https://github.com/Remi-Gau/dFC/pull/1#issuecomment-1886818467) in [Remi-Gau/dFC](https://github.com/Remi-Gau/dFC)
 <!--END_SECTION:activity-->
