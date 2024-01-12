@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1286](https://github.com/rpm-software-management/mock/pull/1286#issuecomment-1889938717) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-2. 🗣 Commented on [#4162](https://github.com/MDAnalysis/mdanalysis/pull/4162#issuecomment-1889913037) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#99](https://github.com/eastgenomics/eggd_conductor/pull/99#issuecomment-1889699543) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-4. 🗣 Commented on [#392](https://github.com/NASA-Planetary-Science/sbpy/pull/392#issuecomment-1889525561) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-5. 🗣 Commented on [#4423](https://github.com/MDAnalysis/mdanalysis/pull/4423#issuecomment-1889344237) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-6. 🗣 Commented on [#1](https://github.com/eastgenomics/variant_workbook_parser/pull/1#issuecomment-1889217346) in [eastgenomics/variant_workbook_parser](https://github.com/eastgenomics/variant_workbook_parser)
-7. 🗣 Commented on [#474](https://github.com/oemof/tespy/pull/474#issuecomment-1888787307) in [oemof/tespy](https://github.com/oemof/tespy)
-8. 🗣 Commented on [#5399](https://github.com/rhinstaller/anaconda/pull/5399#issuecomment-1888734675) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-9. 🗣 Commented on [#876](https://github.com/scilus/scilpy/pull/876#issuecomment-1888390828) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#1433](https://github.com/spacetelescope/jwql/pull/1433#issuecomment-1887895772) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#603](https://github.com/HEXRD/hexrd/pull/603#issuecomment-1889982165) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#1286](https://github.com/rpm-software-management/mock/pull/1286#issuecomment-1889938717) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+3. 🗣 Commented on [#4162](https://github.com/MDAnalysis/mdanalysis/pull/4162#issuecomment-1889913037) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#99](https://github.com/eastgenomics/eggd_conductor/pull/99#issuecomment-1889699543) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+5. 🗣 Commented on [#392](https://github.com/NASA-Planetary-Science/sbpy/pull/392#issuecomment-1889525561) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+6. 🗣 Commented on [#4423](https://github.com/MDAnalysis/mdanalysis/pull/4423#issuecomment-1889344237) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#1](https://github.com/eastgenomics/variant_workbook_parser/pull/1#issuecomment-1889217346) in [eastgenomics/variant_workbook_parser](https://github.com/eastgenomics/variant_workbook_parser)
+8. 🗣 Commented on [#474](https://github.com/oemof/tespy/pull/474#issuecomment-1888787307) in [oemof/tespy](https://github.com/oemof/tespy)
+9. 🗣 Commented on [#5399](https://github.com/rhinstaller/anaconda/pull/5399#issuecomment-1888734675) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#876](https://github.com/scilus/scilpy/pull/876#issuecomment-1888390828) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
