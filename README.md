@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#242](https://github.com/CartoonFan/lutris/pull/242#issuecomment-1891146615) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-2. 🗣 Commented on [#21707](https://github.com/spyder-ide/spyder/pull/21707#issuecomment-1891127547) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#3039](https://github.com/dipy/dipy/pull/3039#issuecomment-1891098418) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#10](https://github.com/kossiitkgp/mailing-scripts/pull/10#issuecomment-1890923202) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
-5. 🗣 Commented on [#13](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/13#issuecomment-1890923068) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
-6. 🗣 Commented on [#241](https://github.com/CartoonFan/lutris/pull/241#issuecomment-1890392297) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-7. 🗣 Commented on [#8](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/8#issuecomment-1890367679) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
-8. 🗣 Commented on [#49](https://github.com/aguinane/nem-reader/pull/49#issuecomment-1890306660) in [aguinane/nem-reader](https://github.com/aguinane/nem-reader)
-9. 🗣 Commented on [#13](https://github.com/sarnold/gitchangelog/pull/13#issuecomment-1890269768) in [sarnold/gitchangelog](https://github.com/sarnold/gitchangelog)
-10. 🗣 Commented on [#3038](https://github.com/dipy/dipy/pull/3038#issuecomment-1890263799) in [dipy/dipy](https://github.com/dipy/dipy)
+1. 🗣 Commented on [#5401](https://github.com/rhinstaller/anaconda/pull/5401#issuecomment-1891189740) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#242](https://github.com/CartoonFan/lutris/pull/242#issuecomment-1891146615) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+3. 🗣 Commented on [#21707](https://github.com/spyder-ide/spyder/pull/21707#issuecomment-1891127547) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#3039](https://github.com/dipy/dipy/pull/3039#issuecomment-1891098418) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#10](https://github.com/kossiitkgp/mailing-scripts/pull/10#issuecomment-1890923202) in [kossiitkgp/mailing-scripts](https://github.com/kossiitkgp/mailing-scripts)
+6. 🗣 Commented on [#13](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/13#issuecomment-1890923068) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
+7. 🗣 Commented on [#241](https://github.com/CartoonFan/lutris/pull/241#issuecomment-1890392297) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+8. 🗣 Commented on [#8](https://github.com/EdinsonRequena/tiktok-backend-clone/pull/8#issuecomment-1890367679) in [EdinsonRequena/tiktok-backend-clone](https://github.com/EdinsonRequena/tiktok-backend-clone)
+9. 🗣 Commented on [#49](https://github.com/aguinane/nem-reader/pull/49#issuecomment-1890306660) in [aguinane/nem-reader](https://github.com/aguinane/nem-reader)
+10. 🗣 Commented on [#13](https://github.com/sarnold/gitchangelog/pull/13#issuecomment-1890269768) in [sarnold/gitchangelog](https://github.com/sarnold/gitchangelog)
 <!--END_SECTION:activity-->
