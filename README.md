@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1045](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1045#issuecomment-1894309034) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-2. 🗣 Commented on [#21710](https://github.com/spyder-ide/spyder/pull/21710#issuecomment-1894059241) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#955](https://github.com/avaframe/AvaFrame/pull/955#issuecomment-1893945358) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-4. 🗣 Commented on [#489](https://github.com/HEPCloud/decisionengine_modules/pull/489#issuecomment-1893936794) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
-5. 🗣 Commented on [#59](https://github.com/elinscott/ase_koopmans/pull/59#issuecomment-1893867097) in [elinscott/ase_koopmans](https://github.com/elinscott/ase_koopmans)
-6. 🗣 Commented on [#180](https://github.com/eastgenomics/eggd_dias_batch/pull/180#issuecomment-1893794511) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-7. 🗣 Commented on [#75](https://github.com/eastgenomics/eris/pull/75#issuecomment-1893697744) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#74](https://github.com/eastgenomics/eris/pull/74#issuecomment-1893640136) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-9. 🗣 Commented on [#59](https://github.com/eastgenomics/trendyQC/pull/59#issuecomment-1893616580) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-10. 🗣 Commented on [#655](https://github.com/SergeyPirogov/webdriver_manager/pull/655#issuecomment-1893362981) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
+1. 🗣 Commented on [#1634](https://github.com/zarr-developers/zarr-python/pull/1634#issuecomment-1894499907) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+2. 🗣 Commented on [#1045](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1045#issuecomment-1894309034) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#21710](https://github.com/spyder-ide/spyder/pull/21710#issuecomment-1894059241) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#955](https://github.com/avaframe/AvaFrame/pull/955#issuecomment-1893945358) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+5. 🗣 Commented on [#489](https://github.com/HEPCloud/decisionengine_modules/pull/489#issuecomment-1893936794) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
+6. 🗣 Commented on [#59](https://github.com/elinscott/ase_koopmans/pull/59#issuecomment-1893867097) in [elinscott/ase_koopmans](https://github.com/elinscott/ase_koopmans)
+7. 🗣 Commented on [#180](https://github.com/eastgenomics/eggd_dias_batch/pull/180#issuecomment-1893794511) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
+8. 🗣 Commented on [#75](https://github.com/eastgenomics/eris/pull/75#issuecomment-1893697744) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#74](https://github.com/eastgenomics/eris/pull/74#issuecomment-1893640136) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+10. 🗣 Commented on [#59](https://github.com/eastgenomics/trendyQC/pull/59#issuecomment-1893616580) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
 <!--END_SECTION:activity-->
