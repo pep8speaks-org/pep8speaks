@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#689](https://github.com/OpenFreeEnergy/openfe/pull/689#issuecomment-1896087590) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-2. 🗣 Commented on [#118](https://github.com/MDAnalysis/MDAKits/pull/118#issuecomment-1895695415) in [MDAnalysis/MDAKits](https://github.com/MDAnalysis/MDAKits)
-3. 🗣 Commented on [#20](https://github.com/cirKITers/Quantum-Siren/pull/20#issuecomment-1895434483) in [cirKITers/Quantum-Siren](https://github.com/cirKITers/Quantum-Siren)
-4. 🗣 Commented on [#244](https://github.com/CartoonFan/lutris/pull/244#issuecomment-1894960587) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-5. 🗣 Commented on [#403](https://github.com/payu-org/payu/pull/403#issuecomment-1894909100) in [payu-org/payu](https://github.com/payu-org/payu)
-6. 🗣 Commented on [#43](https://github.com/ddobie/dwf_prepipe/pull/43#issuecomment-1894765595) in [ddobie/dwf_prepipe](https://github.com/ddobie/dwf_prepipe)
-7. 🗣 Commented on [#376](https://github.com/NASA-Planetary-Science/sbpy/pull/376#issuecomment-1894758873) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-8. 🗣 Commented on [#1634](https://github.com/zarr-developers/zarr-python/pull/1634#issuecomment-1894499907) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-9. 🗣 Commented on [#1045](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1045#issuecomment-1894309034) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-10. 🗣 Commented on [#21710](https://github.com/spyder-ide/spyder/pull/21710#issuecomment-1894059241) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#5411](https://github.com/rhinstaller/anaconda/pull/5411#issuecomment-1896218502) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#689](https://github.com/OpenFreeEnergy/openfe/pull/689#issuecomment-1896087590) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+3. 🗣 Commented on [#118](https://github.com/MDAnalysis/MDAKits/pull/118#issuecomment-1895695415) in [MDAnalysis/MDAKits](https://github.com/MDAnalysis/MDAKits)
+4. 🗣 Commented on [#20](https://github.com/cirKITers/Quantum-Siren/pull/20#issuecomment-1895434483) in [cirKITers/Quantum-Siren](https://github.com/cirKITers/Quantum-Siren)
+5. 🗣 Commented on [#244](https://github.com/CartoonFan/lutris/pull/244#issuecomment-1894960587) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+6. 🗣 Commented on [#403](https://github.com/payu-org/payu/pull/403#issuecomment-1894909100) in [payu-org/payu](https://github.com/payu-org/payu)
+7. 🗣 Commented on [#43](https://github.com/ddobie/dwf_prepipe/pull/43#issuecomment-1894765595) in [ddobie/dwf_prepipe](https://github.com/ddobie/dwf_prepipe)
+8. 🗣 Commented on [#376](https://github.com/NASA-Planetary-Science/sbpy/pull/376#issuecomment-1894758873) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+9. 🗣 Commented on [#1634](https://github.com/zarr-developers/zarr-python/pull/1634#issuecomment-1894499907) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+10. 🗣 Commented on [#1045](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1045#issuecomment-1894309034) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
