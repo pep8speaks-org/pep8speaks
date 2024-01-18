@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#78](https://github.com/eastgenomics/eris/pull/78#issuecomment-1898574168) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#2720](https://github.com/metabrainz/listenbrainz-server/pull/2720#issuecomment-1898418800) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#2719](https://github.com/metabrainz/listenbrainz-server/pull/2719#issuecomment-1898405425) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#20](https://github.com/eastgenomics/eggd_artemis/pull/20#issuecomment-1898396020) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-5. 🗣 Commented on [#77](https://github.com/eastgenomics/eris/pull/77#issuecomment-1898393683) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-6. 🗣 Commented on [#393](https://github.com/NASA-Planetary-Science/sbpy/pull/393#issuecomment-1897569871) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-7. 🗣 Commented on [#560](https://github.com/NeuralEnsemble/elephant/pull/560#issuecomment-1897296914) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-8. 🗣 Commented on [#890](https://github.com/ToFuProject/tofu/pull/890#issuecomment-1897090651) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-9. 🗣 Commented on [#76](https://github.com/eastgenomics/eris/pull/76#issuecomment-1896984945) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-10. 🗣 Commented on [#221](https://github.com/scil-vital/dwi_ml/pull/221#issuecomment-1896855608) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+1. 🗣 Commented on [#957](https://github.com/avaframe/AvaFrame/pull/957#issuecomment-1898672879) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#1435](https://github.com/spacetelescope/jwql/pull/1435#issuecomment-1898667857) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#78](https://github.com/eastgenomics/eris/pull/78#issuecomment-1898574168) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+4. 🗣 Commented on [#2720](https://github.com/metabrainz/listenbrainz-server/pull/2720#issuecomment-1898418800) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#2719](https://github.com/metabrainz/listenbrainz-server/pull/2719#issuecomment-1898405425) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#20](https://github.com/eastgenomics/eggd_artemis/pull/20#issuecomment-1898396020) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+7. 🗣 Commented on [#77](https://github.com/eastgenomics/eris/pull/77#issuecomment-1898393683) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+8. 🗣 Commented on [#393](https://github.com/NASA-Planetary-Science/sbpy/pull/393#issuecomment-1897569871) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+9. 🗣 Commented on [#560](https://github.com/NeuralEnsemble/elephant/pull/560#issuecomment-1897296914) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+10. 🗣 Commented on [#890](https://github.com/ToFuProject/tofu/pull/890#issuecomment-1897090651) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
 <!--END_SECTION:activity-->
