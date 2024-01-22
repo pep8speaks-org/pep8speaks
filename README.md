@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#86](https://github.com/MDAnalysis/mdanalysis-sphinx-theme/pull/86#issuecomment-1902833619) in [MDAnalysis/mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme)
-2. 🗣 Commented on [#894](https://github.com/ToFuProject/tofu/pull/894#issuecomment-1902767748) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-3. 🗣 Commented on [#4407](https://github.com/MDAnalysis/mdanalysis/pull/4407#issuecomment-1902740518) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-4. 🗣 Commented on [#893](https://github.com/ToFuProject/tofu/pull/893#issuecomment-1902723662) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-5. 🗣 Commented on [#714](https://github.com/StingraySoftware/stingray/pull/714#issuecomment-1902708808) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-6. 🗣 Commented on [#479](https://github.com/oemof/tespy/pull/479#issuecomment-1902595810) in [oemof/tespy](https://github.com/oemof/tespy)
-7. 🗣 Commented on [#316](https://github.com/DeMarcoLab/fibsem/pull/316#issuecomment-1901953436) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-8. 🗣 Commented on [#145](https://github.com/DeMarcoLab/autolamella/pull/145#issuecomment-1901952633) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
-9. 🗣 Commented on [#515](https://github.com/askap-vast/vast-tools/pull/515#issuecomment-1901947772) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
-10. 🗣 Commented on [#1](https://github.com/ddobie/DWF_broker/pull/1#issuecomment-1901766191) in [ddobie/DWF_broker](https://github.com/ddobie/DWF_broker)
+1. 🗣 Commented on [#17](https://github.com/rasbt/LLMs-from-scratch/pull/17#issuecomment-1902915042) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+2. 🗣 Commented on [#86](https://github.com/MDAnalysis/mdanalysis-sphinx-theme/pull/86#issuecomment-1902833619) in [MDAnalysis/mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme)
+3. 🗣 Commented on [#894](https://github.com/ToFuProject/tofu/pull/894#issuecomment-1902767748) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+4. 🗣 Commented on [#4407](https://github.com/MDAnalysis/mdanalysis/pull/4407#issuecomment-1902740518) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+5. 🗣 Commented on [#893](https://github.com/ToFuProject/tofu/pull/893#issuecomment-1902723662) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+6. 🗣 Commented on [#714](https://github.com/StingraySoftware/stingray/pull/714#issuecomment-1902708808) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+7. 🗣 Commented on [#479](https://github.com/oemof/tespy/pull/479#issuecomment-1902595810) in [oemof/tespy](https://github.com/oemof/tespy)
+8. 🗣 Commented on [#316](https://github.com/DeMarcoLab/fibsem/pull/316#issuecomment-1901953436) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+9. 🗣 Commented on [#145](https://github.com/DeMarcoLab/autolamella/pull/145#issuecomment-1901952633) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+10. 🗣 Commented on [#515](https://github.com/askap-vast/vast-tools/pull/515#issuecomment-1901947772) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
 <!--END_SECTION:activity-->
