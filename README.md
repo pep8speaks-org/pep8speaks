@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#5416](https://github.com/rhinstaller/anaconda/pull/5416#issuecomment-1903656258) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-2. 🗣 Commented on [#17](https://github.com/rasbt/LLMs-from-scratch/pull/17#issuecomment-1902915042) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-3. 🗣 Commented on [#86](https://github.com/MDAnalysis/mdanalysis-sphinx-theme/pull/86#issuecomment-1902833619) in [MDAnalysis/mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme)
-4. 🗣 Commented on [#894](https://github.com/ToFuProject/tofu/pull/894#issuecomment-1902767748) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-5. 🗣 Commented on [#4407](https://github.com/MDAnalysis/mdanalysis/pull/4407#issuecomment-1902740518) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-6. 🗣 Commented on [#893](https://github.com/ToFuProject/tofu/pull/893#issuecomment-1902723662) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-7. 🗣 Commented on [#714](https://github.com/StingraySoftware/stingray/pull/714#issuecomment-1902708808) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-8. 🗣 Commented on [#479](https://github.com/oemof/tespy/pull/479#issuecomment-1902595810) in [oemof/tespy](https://github.com/oemof/tespy)
-9. 🗣 Commented on [#316](https://github.com/DeMarcoLab/fibsem/pull/316#issuecomment-1901953436) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-10. 🗣 Commented on [#145](https://github.com/DeMarcoLab/autolamella/pull/145#issuecomment-1901952633) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+1. 🗣 Commented on [#61](https://github.com/eastgenomics/trendyQC/pull/61#issuecomment-1903892619) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+2. 🗣 Commented on [#5416](https://github.com/rhinstaller/anaconda/pull/5416#issuecomment-1903656258) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#17](https://github.com/rasbt/LLMs-from-scratch/pull/17#issuecomment-1902915042) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+4. 🗣 Commented on [#86](https://github.com/MDAnalysis/mdanalysis-sphinx-theme/pull/86#issuecomment-1902833619) in [MDAnalysis/mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme)
+5. 🗣 Commented on [#894](https://github.com/ToFuProject/tofu/pull/894#issuecomment-1902767748) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+6. 🗣 Commented on [#4407](https://github.com/MDAnalysis/mdanalysis/pull/4407#issuecomment-1902740518) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#893](https://github.com/ToFuProject/tofu/pull/893#issuecomment-1902723662) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+8. 🗣 Commented on [#714](https://github.com/StingraySoftware/stingray/pull/714#issuecomment-1902708808) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+9. 🗣 Commented on [#479](https://github.com/oemof/tespy/pull/479#issuecomment-1902595810) in [oemof/tespy](https://github.com/oemof/tespy)
+10. 🗣 Commented on [#316](https://github.com/DeMarcoLab/fibsem/pull/316#issuecomment-1901953436) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
 <!--END_SECTION:activity-->
