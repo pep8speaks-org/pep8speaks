@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1049](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1049#issuecomment-1906611760) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-2. 🗣 Commented on [#2730](https://github.com/metabrainz/listenbrainz-server/pull/2730#issuecomment-1906607795) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#33](https://github.com/OpenFreeEnergy/kartograf/pull/33#issuecomment-1906401539) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
-4. 🗣 Commented on [#1440](https://github.com/spacetelescope/jwql/pull/1440#issuecomment-1906371568) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-5. 🗣 Commented on [#20](https://github.com/gagnonanthony/CCPM/pull/20#issuecomment-1906128964) in [gagnonanthony/CCPM](https://github.com/gagnonanthony/CCPM)
-6. 🗣 Commented on [#93](https://github.com/INT-NIT/DigLabTools/pull/93#issuecomment-1906088355) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
-7. 🗣 Commented on [#47](https://github.com/OpenFreeEnergy/Lomap/pull/47#issuecomment-1905960120) in [OpenFreeEnergy/Lomap](https://github.com/OpenFreeEnergy/Lomap)
-8. 🗣 Commented on [#2729](https://github.com/metabrainz/listenbrainz-server/pull/2729#issuecomment-1905748765) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#411](https://github.com/payu-org/payu/pull/411#issuecomment-1905412714) in [payu-org/payu](https://github.com/payu-org/payu)
-10. 🗣 Commented on [#4357](https://github.com/uwcirg/truenth-portal/pull/4357#issuecomment-1904741740) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+1. 🗣 Commented on [#1473](https://github.com/openSUSE/osc/pull/1473#issuecomment-1906810450) in [openSUSE/osc](https://github.com/openSUSE/osc)
+2. 🗣 Commented on [#1049](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1049#issuecomment-1906611760) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#2730](https://github.com/metabrainz/listenbrainz-server/pull/2730#issuecomment-1906607795) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#33](https://github.com/OpenFreeEnergy/kartograf/pull/33#issuecomment-1906401539) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
+5. 🗣 Commented on [#1440](https://github.com/spacetelescope/jwql/pull/1440#issuecomment-1906371568) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+6. 🗣 Commented on [#20](https://github.com/gagnonanthony/CCPM/pull/20#issuecomment-1906128964) in [gagnonanthony/CCPM](https://github.com/gagnonanthony/CCPM)
+7. 🗣 Commented on [#93](https://github.com/INT-NIT/DigLabTools/pull/93#issuecomment-1906088355) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+8. 🗣 Commented on [#47](https://github.com/OpenFreeEnergy/Lomap/pull/47#issuecomment-1905960120) in [OpenFreeEnergy/Lomap](https://github.com/OpenFreeEnergy/Lomap)
+9. 🗣 Commented on [#2729](https://github.com/metabrainz/listenbrainz-server/pull/2729#issuecomment-1905748765) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+10. 🗣 Commented on [#411](https://github.com/payu-org/payu/pull/411#issuecomment-1905412714) in [payu-org/payu](https://github.com/payu-org/payu)
 <!--END_SECTION:activity-->
