@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#515](https://github.com/UIUCLibrary/Speedwagon/pull/515#issuecomment-1908753739) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-2. 🗣 Commented on [#1638](https://github.com/zarr-developers/zarr-python/pull/1638#issuecomment-1908581873) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-3. 🗣 Commented on [#1445](https://github.com/spacetelescope/jwql/pull/1445#issuecomment-1908522566) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#1653](https://github.com/HEXRD/hexrdgui/pull/1653#issuecomment-1908494335) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-5. 🗣 Commented on [#1444](https://github.com/spacetelescope/jwql/pull/1444#issuecomment-1908479077) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#501](https://github.com/zarr-developers/numcodecs/pull/501#issuecomment-1908341386) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
-7. 🗣 Commented on [#1442](https://github.com/spacetelescope/jwql/pull/1442#issuecomment-1908333784) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-8. 🗣 Commented on [#5](https://github.com/avaframe/AmaConnector/pull/5#issuecomment-1908106109) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
-9. 🗣 Commented on [#1287](https://github.com/rpm-software-management/mock/pull/1287#issuecomment-1907880106) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-10. 🗣 Commented on [#4440](https://github.com/MDAnalysis/mdanalysis/pull/4440#issuecomment-1907824735) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+1. 🗣 Commented on [#885](https://github.com/scilus/scilpy/pull/885#issuecomment-1908851367) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#246](https://github.com/CartoonFan/lutris/pull/246#issuecomment-1908829093) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+3. 🗣 Commented on [#515](https://github.com/UIUCLibrary/Speedwagon/pull/515#issuecomment-1908753739) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+4. 🗣 Commented on [#1638](https://github.com/zarr-developers/zarr-python/pull/1638#issuecomment-1908581873) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+5. 🗣 Commented on [#1445](https://github.com/spacetelescope/jwql/pull/1445#issuecomment-1908522566) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+6. 🗣 Commented on [#1653](https://github.com/HEXRD/hexrdgui/pull/1653#issuecomment-1908494335) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+7. 🗣 Commented on [#1444](https://github.com/spacetelescope/jwql/pull/1444#issuecomment-1908479077) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+8. 🗣 Commented on [#501](https://github.com/zarr-developers/numcodecs/pull/501#issuecomment-1908341386) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+9. 🗣 Commented on [#1442](https://github.com/spacetelescope/jwql/pull/1442#issuecomment-1908333784) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#5](https://github.com/avaframe/AmaConnector/pull/5#issuecomment-1908106109) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
 <!--END_SECTION:activity-->
