@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1442](https://github.com/spacetelescope/jwql/pull/1442#issuecomment-1908333784) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#5](https://github.com/avaframe/AmaConnector/pull/5#issuecomment-1908106109) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
-3. 🗣 Commented on [#1287](https://github.com/rpm-software-management/mock/pull/1287#issuecomment-1907880106) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-4. 🗣 Commented on [#4440](https://github.com/MDAnalysis/mdanalysis/pull/4440#issuecomment-1907824735) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-5. 🗣 Commented on [#220](https://github.com/OpenSCAP/openscap-report/pull/220#issuecomment-1907808121) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
-6. 🗣 Commented on [#48](https://github.com/Remi-Gau/nilearn/pull/48#issuecomment-1907729870) in [Remi-Gau/nilearn](https://github.com/Remi-Gau/nilearn)
-7. 🗣 Commented on [#4438](https://github.com/MDAnalysis/mdanalysis/pull/4438#issuecomment-1907699409) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-8. 🗣 Commented on [#7](https://github.com/PyThaiNLP/PyThaiTTS/pull/7#issuecomment-1907460386) in [PyThaiNLP/PyThaiTTS](https://github.com/PyThaiNLP/PyThaiTTS)
-9. 🗣 Commented on [#2731](https://github.com/metabrainz/listenbrainz-server/pull/2731#issuecomment-1907440632) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-10. 🗣 Commented on [#4358](https://github.com/uwcirg/truenth-portal/pull/4358#issuecomment-1907107014) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+1. 🗣 Commented on [#501](https://github.com/zarr-developers/numcodecs/pull/501#issuecomment-1908341386) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+2. 🗣 Commented on [#1442](https://github.com/spacetelescope/jwql/pull/1442#issuecomment-1908333784) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#5](https://github.com/avaframe/AmaConnector/pull/5#issuecomment-1908106109) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
+4. 🗣 Commented on [#1287](https://github.com/rpm-software-management/mock/pull/1287#issuecomment-1907880106) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+5. 🗣 Commented on [#4440](https://github.com/MDAnalysis/mdanalysis/pull/4440#issuecomment-1907824735) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+6. 🗣 Commented on [#220](https://github.com/OpenSCAP/openscap-report/pull/220#issuecomment-1907808121) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
+7. 🗣 Commented on [#48](https://github.com/Remi-Gau/nilearn/pull/48#issuecomment-1907729870) in [Remi-Gau/nilearn](https://github.com/Remi-Gau/nilearn)
+8. 🗣 Commented on [#4438](https://github.com/MDAnalysis/mdanalysis/pull/4438#issuecomment-1907699409) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+9. 🗣 Commented on [#7](https://github.com/PyThaiNLP/PyThaiTTS/pull/7#issuecomment-1907460386) in [PyThaiNLP/PyThaiTTS](https://github.com/PyThaiNLP/PyThaiTTS)
+10. 🗣 Commented on [#2731](https://github.com/metabrainz/listenbrainz-server/pull/2731#issuecomment-1907440632) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
