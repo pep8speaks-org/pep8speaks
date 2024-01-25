@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1051](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1051#issuecomment-1908992621) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-2. 🗣 Commented on [#1447](https://github.com/spacetelescope/jwql/pull/1447#issuecomment-1908955702) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#1446](https://github.com/spacetelescope/jwql/pull/1446#issuecomment-1908931229) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#885](https://github.com/scilus/scilpy/pull/885#issuecomment-1908851367) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#246](https://github.com/CartoonFan/lutris/pull/246#issuecomment-1908829093) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-6. 🗣 Commented on [#515](https://github.com/UIUCLibrary/Speedwagon/pull/515#issuecomment-1908753739) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-7. 🗣 Commented on [#1638](https://github.com/zarr-developers/zarr-python/pull/1638#issuecomment-1908581873) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-8. 🗣 Commented on [#1445](https://github.com/spacetelescope/jwql/pull/1445#issuecomment-1908522566) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#1653](https://github.com/HEXRD/hexrdgui/pull/1653#issuecomment-1908494335) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-10. 🗣 Commented on [#1444](https://github.com/spacetelescope/jwql/pull/1444#issuecomment-1908479077) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#5423](https://github.com/rhinstaller/anaconda/pull/5423#issuecomment-1909195104) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#1051](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1051#issuecomment-1908992621) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#1447](https://github.com/spacetelescope/jwql/pull/1447#issuecomment-1908955702) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#1446](https://github.com/spacetelescope/jwql/pull/1446#issuecomment-1908931229) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+5. 🗣 Commented on [#885](https://github.com/scilus/scilpy/pull/885#issuecomment-1908851367) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#246](https://github.com/CartoonFan/lutris/pull/246#issuecomment-1908829093) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+7. 🗣 Commented on [#515](https://github.com/UIUCLibrary/Speedwagon/pull/515#issuecomment-1908753739) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
+8. 🗣 Commented on [#1638](https://github.com/zarr-developers/zarr-python/pull/1638#issuecomment-1908581873) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+9. 🗣 Commented on [#1445](https://github.com/spacetelescope/jwql/pull/1445#issuecomment-1908522566) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#1653](https://github.com/HEXRD/hexrdgui/pull/1653#issuecomment-1908494335) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
