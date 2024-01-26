@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-2. 🗣 Commented on [#4](https://github.com/eastgenomics/gene_annotation2bed/pull/4#issuecomment-1912231744) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
-3. 🗣 Commented on [#224](https://github.com/OpenSCAP/openscap-report/pull/224#issuecomment-1912032254) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
-4. 🗣 Commented on [#275](https://github.com/OpenFreeEnergy/gufe/pull/275#issuecomment-1911681410) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-5. 🗣 Commented on [#102](https://github.com/drauger-os-development/edamame/pull/102#issuecomment-1911433450) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-6. 🗣 Commented on [#1091](https://github.com/yeatmanlab/pyAFQ/pull/1091#issuecomment-1910989487) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-7. 🗣 Commented on [#1055](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1055#issuecomment-1910943778) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-8. 🗣 Commented on [#1449](https://github.com/spacetelescope/jwql/pull/1449#issuecomment-1910807469) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#1655](https://github.com/HEXRD/hexrdgui/pull/1655#issuecomment-1910805734) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-10. 🗣 Commented on [#887](https://github.com/scilus/scilpy/pull/887#issuecomment-1910764769) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#277](https://github.com/OpenFreeEnergy/gufe/pull/277#issuecomment-1912328002) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+2. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+3. 🗣 Commented on [#4](https://github.com/eastgenomics/gene_annotation2bed/pull/4#issuecomment-1912231744) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+4. 🗣 Commented on [#224](https://github.com/OpenSCAP/openscap-report/pull/224#issuecomment-1912032254) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
+5. 🗣 Commented on [#275](https://github.com/OpenFreeEnergy/gufe/pull/275#issuecomment-1911681410) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+6. 🗣 Commented on [#102](https://github.com/drauger-os-development/edamame/pull/102#issuecomment-1911433450) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
+7. 🗣 Commented on [#1091](https://github.com/yeatmanlab/pyAFQ/pull/1091#issuecomment-1910989487) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+8. 🗣 Commented on [#1055](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1055#issuecomment-1910943778) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+9. 🗣 Commented on [#1449](https://github.com/spacetelescope/jwql/pull/1449#issuecomment-1910807469) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#1655](https://github.com/HEXRD/hexrdgui/pull/1655#issuecomment-1910805734) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
