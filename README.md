@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-2. 🗣 Commented on [#394](https://github.com/NASA-Planetary-Science/sbpy/pull/394#issuecomment-1912503891) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-3. 🗣 Commented on [#81](https://github.com/eastgenomics/eris/pull/81#issuecomment-1912380533) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-4. 🗣 Commented on [#277](https://github.com/OpenFreeEnergy/gufe/pull/277#issuecomment-1912328002) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-5. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-6. 🗣 Commented on [#4](https://github.com/eastgenomics/gene_annotation2bed/pull/4#issuecomment-1912231744) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
-7. 🗣 Commented on [#224](https://github.com/OpenSCAP/openscap-report/pull/224#issuecomment-1912032254) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
-8. 🗣 Commented on [#275](https://github.com/OpenFreeEnergy/gufe/pull/275#issuecomment-1911681410) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-9. 🗣 Commented on [#102](https://github.com/drauger-os-development/edamame/pull/102#issuecomment-1911433450) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-10. 🗣 Commented on [#1091](https://github.com/yeatmanlab/pyAFQ/pull/1091#issuecomment-1910989487) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+1. 🗣 Commented on [#55](https://github.com/AllenInstitute/em_stitch/pull/55#issuecomment-1912855811) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
+2. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#394](https://github.com/NASA-Planetary-Science/sbpy/pull/394#issuecomment-1912503891) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+4. 🗣 Commented on [#81](https://github.com/eastgenomics/eris/pull/81#issuecomment-1912380533) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+5. 🗣 Commented on [#277](https://github.com/OpenFreeEnergy/gufe/pull/277#issuecomment-1912328002) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+6. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+7. 🗣 Commented on [#4](https://github.com/eastgenomics/gene_annotation2bed/pull/4#issuecomment-1912231744) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+8. 🗣 Commented on [#224](https://github.com/OpenSCAP/openscap-report/pull/224#issuecomment-1912032254) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
+9. 🗣 Commented on [#275](https://github.com/OpenFreeEnergy/gufe/pull/275#issuecomment-1911681410) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+10. 🗣 Commented on [#102](https://github.com/drauger-os-development/edamame/pull/102#issuecomment-1911433450) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
 <!--END_SECTION:activity-->
