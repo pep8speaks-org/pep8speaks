@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#103](https://github.com/drauger-os-development/edamame/pull/103#issuecomment-1913347963) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-2. 🗣 Commented on [#898](https://github.com/ToFuProject/tofu/pull/898#issuecomment-1913169124) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-3. 🗣 Commented on [#2936](https://github.com/astropy/astroquery/pull/2936#issuecomment-1913114167) in [astropy/astroquery](https://github.com/astropy/astroquery)
-4. 🗣 Commented on [#55](https://github.com/AllenInstitute/em_stitch/pull/55#issuecomment-1912855811) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
-5. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-6. 🗣 Commented on [#394](https://github.com/NASA-Planetary-Science/sbpy/pull/394#issuecomment-1912503891) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-7. 🗣 Commented on [#81](https://github.com/eastgenomics/eris/pull/81#issuecomment-1912380533) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#277](https://github.com/OpenFreeEnergy/gufe/pull/277#issuecomment-1912328002) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-9. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-10. 🗣 Commented on [#4](https://github.com/eastgenomics/gene_annotation2bed/pull/4#issuecomment-1912231744) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+1. 🗣 Commented on [#792](https://github.com/StingraySoftware/stingray/pull/792#issuecomment-1913356537) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+2. 🗣 Commented on [#103](https://github.com/drauger-os-development/edamame/pull/103#issuecomment-1913347963) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
+3. 🗣 Commented on [#898](https://github.com/ToFuProject/tofu/pull/898#issuecomment-1913169124) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+4. 🗣 Commented on [#2936](https://github.com/astropy/astroquery/pull/2936#issuecomment-1913114167) in [astropy/astroquery](https://github.com/astropy/astroquery)
+5. 🗣 Commented on [#55](https://github.com/AllenInstitute/em_stitch/pull/55#issuecomment-1912855811) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
+6. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#394](https://github.com/NASA-Planetary-Science/sbpy/pull/394#issuecomment-1912503891) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+8. 🗣 Commented on [#81](https://github.com/eastgenomics/eris/pull/81#issuecomment-1912380533) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#277](https://github.com/OpenFreeEnergy/gufe/pull/277#issuecomment-1912328002) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+10. 🗣 Commented on [#588](https://github.com/ExoCTK/exoctk/pull/588#issuecomment-1912291635) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
 <!--END_SECTION:activity-->
