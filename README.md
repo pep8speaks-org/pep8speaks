@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#484](https://github.com/oemof/tespy/pull/484#issuecomment-1915353183) in [oemof/tespy](https://github.com/oemof/tespy)
-2. 🗣 Commented on [#1455](https://github.com/spacetelescope/jwql/pull/1455#issuecomment-1915290597) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#262](https://github.com/aimclub/GOLEM/pull/262#issuecomment-1915053626) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-4. 🗣 Commented on [#522](https://github.com/aramis-lab/clinicadl/pull/522#issuecomment-1914868471) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-5. 🗣 Commented on [#693](https://github.com/OpenFreeEnergy/openfe/pull/693#issuecomment-1914828292) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-6. 🗣 Commented on [#278](https://github.com/OpenFreeEnergy/gufe/pull/278#issuecomment-1914614646) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-7. 🗣 Commented on [#958](https://github.com/avaframe/AvaFrame/pull/958#issuecomment-1914532287) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#3852](https://github.com/privacyidea/privacyidea/pull/3852#issuecomment-1914529586) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-9. 🗣 Commented on [#12](https://github.com/0xPrateek/Stake/pull/12#issuecomment-1913542562) in [0xPrateek/Stake](https://github.com/0xPrateek/Stake)
-10. 🗣 Commented on [#247](https://github.com/CartoonFan/lutris/pull/247#issuecomment-1913452357) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+1. 🗣 Commented on [#73](https://github.com/Remi-Gau/bids2cite/pull/73#issuecomment-1915453227) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
+2. 🗣 Commented on [#484](https://github.com/oemof/tespy/pull/484#issuecomment-1915353183) in [oemof/tespy](https://github.com/oemof/tespy)
+3. 🗣 Commented on [#1455](https://github.com/spacetelescope/jwql/pull/1455#issuecomment-1915290597) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#262](https://github.com/aimclub/GOLEM/pull/262#issuecomment-1915053626) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+5. 🗣 Commented on [#522](https://github.com/aramis-lab/clinicadl/pull/522#issuecomment-1914868471) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+6. 🗣 Commented on [#693](https://github.com/OpenFreeEnergy/openfe/pull/693#issuecomment-1914828292) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+7. 🗣 Commented on [#278](https://github.com/OpenFreeEnergy/gufe/pull/278#issuecomment-1914614646) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+8. 🗣 Commented on [#958](https://github.com/avaframe/AvaFrame/pull/958#issuecomment-1914532287) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#3852](https://github.com/privacyidea/privacyidea/pull/3852#issuecomment-1914529586) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+10. 🗣 Commented on [#12](https://github.com/0xPrateek/Stake/pull/12#issuecomment-1913542562) in [0xPrateek/Stake](https://github.com/0xPrateek/Stake)
 <!--END_SECTION:activity-->
