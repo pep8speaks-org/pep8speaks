@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#12](https://github.com/0xPrateek/Stake/pull/12#issuecomment-1913542562) in [0xPrateek/Stake](https://github.com/0xPrateek/Stake)
-2. 🗣 Commented on [#247](https://github.com/CartoonFan/lutris/pull/247#issuecomment-1913452357) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-3. 🗣 Commented on [#792](https://github.com/StingraySoftware/stingray/pull/792#issuecomment-1913356537) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-4. 🗣 Commented on [#103](https://github.com/drauger-os-development/edamame/pull/103#issuecomment-1913347963) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-5. 🗣 Commented on [#898](https://github.com/ToFuProject/tofu/pull/898#issuecomment-1913169124) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-6. 🗣 Commented on [#2936](https://github.com/astropy/astroquery/pull/2936#issuecomment-1913114167) in [astropy/astroquery](https://github.com/astropy/astroquery)
-7. 🗣 Commented on [#55](https://github.com/AllenInstitute/em_stitch/pull/55#issuecomment-1912855811) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
-8. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-9. 🗣 Commented on [#394](https://github.com/NASA-Planetary-Science/sbpy/pull/394#issuecomment-1912503891) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-10. 🗣 Commented on [#81](https://github.com/eastgenomics/eris/pull/81#issuecomment-1912380533) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+1. 🗣 Commented on [#958](https://github.com/avaframe/AvaFrame/pull/958#issuecomment-1914532287) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#3852](https://github.com/privacyidea/privacyidea/pull/3852#issuecomment-1914529586) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+3. 🗣 Commented on [#12](https://github.com/0xPrateek/Stake/pull/12#issuecomment-1913542562) in [0xPrateek/Stake](https://github.com/0xPrateek/Stake)
+4. 🗣 Commented on [#247](https://github.com/CartoonFan/lutris/pull/247#issuecomment-1913452357) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+5. 🗣 Commented on [#792](https://github.com/StingraySoftware/stingray/pull/792#issuecomment-1913356537) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+6. 🗣 Commented on [#103](https://github.com/drauger-os-development/edamame/pull/103#issuecomment-1913347963) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
+7. 🗣 Commented on [#898](https://github.com/ToFuProject/tofu/pull/898#issuecomment-1913169124) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+8. 🗣 Commented on [#2936](https://github.com/astropy/astroquery/pull/2936#issuecomment-1913114167) in [astropy/astroquery](https://github.com/astropy/astroquery)
+9. 🗣 Commented on [#55](https://github.com/AllenInstitute/em_stitch/pull/55#issuecomment-1912855811) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
+10. 🗣 Commented on [#1056](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1056#issuecomment-1912677276) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
