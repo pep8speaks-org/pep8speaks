@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#35](https://github.com/OpenFreeEnergy/kartograf/pull/35#issuecomment-1915727357) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
-2. 🗣 Commented on [#1456](https://github.com/spacetelescope/jwql/pull/1456#issuecomment-1915576072) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#73](https://github.com/Remi-Gau/bids2cite/pull/73#issuecomment-1915453227) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
-4. 🗣 Commented on [#484](https://github.com/oemof/tespy/pull/484#issuecomment-1915353183) in [oemof/tespy](https://github.com/oemof/tespy)
-5. 🗣 Commented on [#1455](https://github.com/spacetelescope/jwql/pull/1455#issuecomment-1915290597) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#262](https://github.com/aimclub/GOLEM/pull/262#issuecomment-1915053626) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
-7. 🗣 Commented on [#522](https://github.com/aramis-lab/clinicadl/pull/522#issuecomment-1914868471) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-8. 🗣 Commented on [#693](https://github.com/OpenFreeEnergy/openfe/pull/693#issuecomment-1914828292) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-9. 🗣 Commented on [#278](https://github.com/OpenFreeEnergy/gufe/pull/278#issuecomment-1914614646) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-10. 🗣 Commented on [#958](https://github.com/avaframe/AvaFrame/pull/958#issuecomment-1914532287) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#1058](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1058#issuecomment-1915840058) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#35](https://github.com/OpenFreeEnergy/kartograf/pull/35#issuecomment-1915727357) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
+3. 🗣 Commented on [#1456](https://github.com/spacetelescope/jwql/pull/1456#issuecomment-1915576072) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#73](https://github.com/Remi-Gau/bids2cite/pull/73#issuecomment-1915453227) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
+5. 🗣 Commented on [#484](https://github.com/oemof/tespy/pull/484#issuecomment-1915353183) in [oemof/tespy](https://github.com/oemof/tespy)
+6. 🗣 Commented on [#1455](https://github.com/spacetelescope/jwql/pull/1455#issuecomment-1915290597) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#262](https://github.com/aimclub/GOLEM/pull/262#issuecomment-1915053626) in [aimclub/GOLEM](https://github.com/aimclub/GOLEM)
+8. 🗣 Commented on [#522](https://github.com/aramis-lab/clinicadl/pull/522#issuecomment-1914868471) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+9. 🗣 Commented on [#693](https://github.com/OpenFreeEnergy/openfe/pull/693#issuecomment-1914828292) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+10. 🗣 Commented on [#278](https://github.com/OpenFreeEnergy/gufe/pull/278#issuecomment-1914614646) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
 <!--END_SECTION:activity-->
