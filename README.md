@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/eastgenomics/variant_filtering_comparison/pull/1#issuecomment-1921575391) in [eastgenomics/variant_filtering_comparison](https://github.com/eastgenomics/variant_filtering_comparison)
-2. 🗣 Commented on [#1](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/1#issuecomment-1921544057) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
-3. 🗣 Commented on [#21757](https://github.com/spyder-ide/spyder/pull/21757#issuecomment-1921489311) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-4. 🗣 Commented on [#5441](https://github.com/rhinstaller/anaconda/pull/5441#issuecomment-1921483907) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#1476](https://github.com/openSUSE/osc/pull/1476#issuecomment-1921448953) in [openSUSE/osc](https://github.com/openSUSE/osc)
-6. 🗣 Commented on [#1634](https://github.com/odlgroup/odl/pull/1634#issuecomment-1921352185) in [odlgroup/odl](https://github.com/odlgroup/odl)
-7. 🗣 Commented on [#1301](https://github.com/rpm-software-management/mock/pull/1301#issuecomment-1921271584) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-8. 🗣 Commented on [#1633](https://github.com/odlgroup/odl/pull/1633#issuecomment-1920995686) in [odlgroup/odl](https://github.com/odlgroup/odl)
-9. 🗣 Commented on [#248](https://github.com/CartoonFan/lutris/pull/248#issuecomment-1920732556) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#1](https://github.com/GenevieveBuckley/napari-animation/pull/1#issuecomment-1920226931) in [GenevieveBuckley/napari-animation](https://github.com/GenevieveBuckley/napari-animation)
+1. 🗣 Commented on [#85](https://github.com/eastgenomics/eris/pull/85#issuecomment-1921808700) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+2. 🗣 Commented on [#1](https://github.com/eastgenomics/variant_filtering_comparison/pull/1#issuecomment-1921575391) in [eastgenomics/variant_filtering_comparison](https://github.com/eastgenomics/variant_filtering_comparison)
+3. 🗣 Commented on [#1](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/1#issuecomment-1921544057) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
+4. 🗣 Commented on [#21757](https://github.com/spyder-ide/spyder/pull/21757#issuecomment-1921489311) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#5441](https://github.com/rhinstaller/anaconda/pull/5441#issuecomment-1921483907) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#1476](https://github.com/openSUSE/osc/pull/1476#issuecomment-1921448953) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#1634](https://github.com/odlgroup/odl/pull/1634#issuecomment-1921352185) in [odlgroup/odl](https://github.com/odlgroup/odl)
+8. 🗣 Commented on [#1301](https://github.com/rpm-software-management/mock/pull/1301#issuecomment-1921271584) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+9. 🗣 Commented on [#1633](https://github.com/odlgroup/odl/pull/1633#issuecomment-1920995686) in [odlgroup/odl](https://github.com/odlgroup/odl)
+10. 🗣 Commented on [#248](https://github.com/CartoonFan/lutris/pull/248#issuecomment-1920732556) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
