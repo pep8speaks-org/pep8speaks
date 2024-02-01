@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/GenevieveBuckley/napari-animation/pull/1#issuecomment-1920226931) in [GenevieveBuckley/napari-animation](https://github.com/GenevieveBuckley/napari-animation)
-2. 🗣 Commented on [#2748](https://github.com/metabrainz/listenbrainz-server/pull/2748#issuecomment-1919966549) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#613](https://github.com/HEXRD/hexrd/pull/613#issuecomment-1919737544) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-4. 🗣 Commented on [#1059](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1059#issuecomment-1919678807) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-5. 🗣 Commented on [#84](https://github.com/eastgenomics/eris/pull/84#issuecomment-1919594905) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-6. 🗣 Commented on [#300](https://github.com/AdvancedPhotonSource/tike/pull/300#issuecomment-1919554164) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-7. 🗣 Commented on [#2747](https://github.com/metabrainz/listenbrainz-server/pull/2747#issuecomment-1919538359) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#168](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/168#issuecomment-1919185264) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-9. 🗣 Commented on [#167](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/167#issuecomment-1919065787) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-10. 🗣 Commented on [#1](https://github.com/Seluj78/shellhub-python/pull/1#issuecomment-1918970680) in [Seluj78/shellhub-python](https://github.com/Seluj78/shellhub-python)
+1. 🗣 Commented on [#248](https://github.com/CartoonFan/lutris/pull/248#issuecomment-1920732556) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#1](https://github.com/GenevieveBuckley/napari-animation/pull/1#issuecomment-1920226931) in [GenevieveBuckley/napari-animation](https://github.com/GenevieveBuckley/napari-animation)
+3. 🗣 Commented on [#2748](https://github.com/metabrainz/listenbrainz-server/pull/2748#issuecomment-1919966549) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#613](https://github.com/HEXRD/hexrd/pull/613#issuecomment-1919737544) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+5. 🗣 Commented on [#1059](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1059#issuecomment-1919678807) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+6. 🗣 Commented on [#84](https://github.com/eastgenomics/eris/pull/84#issuecomment-1919594905) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+7. 🗣 Commented on [#300](https://github.com/AdvancedPhotonSource/tike/pull/300#issuecomment-1919554164) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+8. 🗣 Commented on [#2747](https://github.com/metabrainz/listenbrainz-server/pull/2747#issuecomment-1919538359) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#168](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/168#issuecomment-1919185264) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+10. 🗣 Commented on [#167](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/167#issuecomment-1919065787) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
 <!--END_SECTION:activity-->
