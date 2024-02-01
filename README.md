@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1476](https://github.com/openSUSE/osc/pull/1476#issuecomment-1921448953) in [openSUSE/osc](https://github.com/openSUSE/osc)
-2. 🗣 Commented on [#1634](https://github.com/odlgroup/odl/pull/1634#issuecomment-1921352185) in [odlgroup/odl](https://github.com/odlgroup/odl)
-3. 🗣 Commented on [#1301](https://github.com/rpm-software-management/mock/pull/1301#issuecomment-1921271584) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-4. 🗣 Commented on [#1633](https://github.com/odlgroup/odl/pull/1633#issuecomment-1920995686) in [odlgroup/odl](https://github.com/odlgroup/odl)
-5. 🗣 Commented on [#248](https://github.com/CartoonFan/lutris/pull/248#issuecomment-1920732556) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-6. 🗣 Commented on [#1](https://github.com/GenevieveBuckley/napari-animation/pull/1#issuecomment-1920226931) in [GenevieveBuckley/napari-animation](https://github.com/GenevieveBuckley/napari-animation)
-7. 🗣 Commented on [#2748](https://github.com/metabrainz/listenbrainz-server/pull/2748#issuecomment-1919966549) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#613](https://github.com/HEXRD/hexrd/pull/613#issuecomment-1919737544) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-9. 🗣 Commented on [#1059](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1059#issuecomment-1919678807) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-10. 🗣 Commented on [#84](https://github.com/eastgenomics/eris/pull/84#issuecomment-1919594905) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+1. 🗣 Commented on [#1](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/1#issuecomment-1921544057) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
+2. 🗣 Commented on [#21757](https://github.com/spyder-ide/spyder/pull/21757#issuecomment-1921489311) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#5441](https://github.com/rhinstaller/anaconda/pull/5441#issuecomment-1921483907) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+4. 🗣 Commented on [#1476](https://github.com/openSUSE/osc/pull/1476#issuecomment-1921448953) in [openSUSE/osc](https://github.com/openSUSE/osc)
+5. 🗣 Commented on [#1634](https://github.com/odlgroup/odl/pull/1634#issuecomment-1921352185) in [odlgroup/odl](https://github.com/odlgroup/odl)
+6. 🗣 Commented on [#1301](https://github.com/rpm-software-management/mock/pull/1301#issuecomment-1921271584) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+7. 🗣 Commented on [#1633](https://github.com/odlgroup/odl/pull/1633#issuecomment-1920995686) in [odlgroup/odl](https://github.com/odlgroup/odl)
+8. 🗣 Commented on [#248](https://github.com/CartoonFan/lutris/pull/248#issuecomment-1920732556) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+9. 🗣 Commented on [#1](https://github.com/GenevieveBuckley/napari-animation/pull/1#issuecomment-1920226931) in [GenevieveBuckley/napari-animation](https://github.com/GenevieveBuckley/napari-animation)
+10. 🗣 Commented on [#2748](https://github.com/metabrainz/listenbrainz-server/pull/2748#issuecomment-1919966549) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
