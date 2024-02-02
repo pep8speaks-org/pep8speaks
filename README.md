@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#503](https://github.com/zarr-developers/numcodecs/pull/503#issuecomment-1924342643) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
-2. 🗣 Commented on [#2](https://github.com/eastgenomics/TSO500_Compare_Output/pull/2#issuecomment-1924308994) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
-3. 🗣 Commented on [#701](https://github.com/HEPCloud/decisionengine/pull/701#issuecomment-1924298233) in [HEPCloud/decisionengine](https://github.com/HEPCloud/decisionengine)
-4. 🗣 Commented on [#226](https://github.com/scil-vital/dwi_ml/pull/226#issuecomment-1924267458) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-5. 🗣 Commented on [#36](https://github.com/OpenFreeEnergy/kartograf/pull/36#issuecomment-1924125699) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
-6. 🗣 Commented on [#47](https://github.com/tilde-lab/metis-client/pull/47#issuecomment-1923973629) in [tilde-lab/metis-client](https://github.com/tilde-lab/metis-client)
-7. 🗣 Commented on [#86](https://github.com/eastgenomics/eris/pull/86#issuecomment-1923867541) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-8. 🗣 Commented on [#700](https://github.com/OpenFreeEnergy/openfe/pull/700#issuecomment-1923592501) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-9. 🗣 Commented on [#65](https://github.com/eastgenomics/trendyQC/pull/65#issuecomment-1923561225) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-10. 🗣 Commented on [#1](https://github.com/eastgenomics/TSO500_Compare_Output/pull/1#issuecomment-1923438222) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
+1. 🗣 Commented on [#1060](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1060#issuecomment-1924653804) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#503](https://github.com/zarr-developers/numcodecs/pull/503#issuecomment-1924342643) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+3. 🗣 Commented on [#2](https://github.com/eastgenomics/TSO500_Compare_Output/pull/2#issuecomment-1924308994) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
+4. 🗣 Commented on [#701](https://github.com/HEPCloud/decisionengine/pull/701#issuecomment-1924298233) in [HEPCloud/decisionengine](https://github.com/HEPCloud/decisionengine)
+5. 🗣 Commented on [#226](https://github.com/scil-vital/dwi_ml/pull/226#issuecomment-1924267458) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+6. 🗣 Commented on [#36](https://github.com/OpenFreeEnergy/kartograf/pull/36#issuecomment-1924125699) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
+7. 🗣 Commented on [#47](https://github.com/tilde-lab/metis-client/pull/47#issuecomment-1923973629) in [tilde-lab/metis-client](https://github.com/tilde-lab/metis-client)
+8. 🗣 Commented on [#86](https://github.com/eastgenomics/eris/pull/86#issuecomment-1923867541) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+9. 🗣 Commented on [#700](https://github.com/OpenFreeEnergy/openfe/pull/700#issuecomment-1923592501) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+10. 🗣 Commented on [#65](https://github.com/eastgenomics/trendyQC/pull/65#issuecomment-1923561225) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
 <!--END_SECTION:activity-->
