@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4](https://github.com/maxsu/IFProject/pull/4#issuecomment-1926763919) in [maxsu/IFProject](https://github.com/maxsu/IFProject)
-2. 🗣 Commented on [#5](https://github.com/GenevieveBuckley/micro-sam/pull/5#issuecomment-1926396511) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
-3. 🗣 Commented on [#24](https://github.com/rasbt/LLMs-from-scratch/pull/24#issuecomment-1925805400) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-4. 🗣 Commented on [#1615](https://github.com/OGGM/oggm/pull/1615#issuecomment-1925735978) in [OGGM/oggm](https://github.com/OGGM/oggm)
-5. 🗣 Commented on [#1686](https://github.com/OGGM/oggm/pull/1686#issuecomment-1925734764) in [OGGM/oggm](https://github.com/OGGM/oggm)
-6. 🗣 Commented on [#1102](https://github.com/yeatmanlab/pyAFQ/pull/1102#issuecomment-1925451320) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-7. 🗣 Commented on [#21392](https://github.com/spyder-ide/spyder/pull/21392#issuecomment-1925375563) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#1244](https://github.com/aimclub/FEDOT/pull/1244#issuecomment-1925343191) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-9. 🗣 Commented on [#249](https://github.com/CartoonFan/lutris/pull/249#issuecomment-1925280456) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#2](https://github.com/maxsu/IFProject/pull/2#issuecomment-1924941322) in [maxsu/IFProject](https://github.com/maxsu/IFProject)
+1. 🗣 Commented on [#250](https://github.com/CartoonFan/lutris/pull/250#issuecomment-1927012313) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#4](https://github.com/maxsu/IFProject/pull/4#issuecomment-1926763919) in [maxsu/IFProject](https://github.com/maxsu/IFProject)
+3. 🗣 Commented on [#5](https://github.com/GenevieveBuckley/micro-sam/pull/5#issuecomment-1926396511) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
+4. 🗣 Commented on [#24](https://github.com/rasbt/LLMs-from-scratch/pull/24#issuecomment-1925805400) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+5. 🗣 Commented on [#1615](https://github.com/OGGM/oggm/pull/1615#issuecomment-1925735978) in [OGGM/oggm](https://github.com/OGGM/oggm)
+6. 🗣 Commented on [#1686](https://github.com/OGGM/oggm/pull/1686#issuecomment-1925734764) in [OGGM/oggm](https://github.com/OGGM/oggm)
+7. 🗣 Commented on [#1102](https://github.com/yeatmanlab/pyAFQ/pull/1102#issuecomment-1925451320) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+8. 🗣 Commented on [#21392](https://github.com/spyder-ide/spyder/pull/21392#issuecomment-1925375563) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#1244](https://github.com/aimclub/FEDOT/pull/1244#issuecomment-1925343191) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+10. 🗣 Commented on [#249](https://github.com/CartoonFan/lutris/pull/249#issuecomment-1925280456) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
