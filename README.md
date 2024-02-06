@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#794](https://github.com/spacetelescope/webbpsf/pull/794#issuecomment-1928716654) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-2. 🗣 Commented on [#1103](https://github.com/yeatmanlab/pyAFQ/pull/1103#issuecomment-1928505754) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-3. 🗣 Commented on [#703](https://github.com/OpenFreeEnergy/openfe/pull/703#issuecomment-1928033802) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-4. 🗣 Commented on [#209](https://github.com/cleder/pygeoif/pull/209#issuecomment-1927416831) in [cleder/pygeoif](https://github.com/cleder/pygeoif)
-5. 🗣 Commented on [#17](https://github.com/eastgenomics/code_school/pull/17#issuecomment-1927299870) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
-6. 🗣 Commented on [#2](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/2#issuecomment-1927191246) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
-7. 🗣 Commented on [#250](https://github.com/CartoonFan/lutris/pull/250#issuecomment-1927012313) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-8. 🗣 Commented on [#4](https://github.com/maxsu/IFProject/pull/4#issuecomment-1926763919) in [maxsu/IFProject](https://github.com/maxsu/IFProject)
-9. 🗣 Commented on [#5](https://github.com/GenevieveBuckley/micro-sam/pull/5#issuecomment-1926396511) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
-10. 🗣 Commented on [#24](https://github.com/rasbt/LLMs-from-scratch/pull/24#issuecomment-1925805400) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+1. 🗣 Commented on [#115](https://github.com/aimclub/Fedot.Industrial/pull/115#issuecomment-1929275632) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+2. 🗣 Commented on [#794](https://github.com/spacetelescope/webbpsf/pull/794#issuecomment-1928716654) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+3. 🗣 Commented on [#1103](https://github.com/yeatmanlab/pyAFQ/pull/1103#issuecomment-1928505754) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+4. 🗣 Commented on [#703](https://github.com/OpenFreeEnergy/openfe/pull/703#issuecomment-1928033802) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+5. 🗣 Commented on [#209](https://github.com/cleder/pygeoif/pull/209#issuecomment-1927416831) in [cleder/pygeoif](https://github.com/cleder/pygeoif)
+6. 🗣 Commented on [#17](https://github.com/eastgenomics/code_school/pull/17#issuecomment-1927299870) in [eastgenomics/code_school](https://github.com/eastgenomics/code_school)
+7. 🗣 Commented on [#2](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/2#issuecomment-1927191246) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
+8. 🗣 Commented on [#250](https://github.com/CartoonFan/lutris/pull/250#issuecomment-1927012313) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+9. 🗣 Commented on [#4](https://github.com/maxsu/IFProject/pull/4#issuecomment-1926763919) in [maxsu/IFProject](https://github.com/maxsu/IFProject)
+10. 🗣 Commented on [#5](https://github.com/GenevieveBuckley/micro-sam/pull/5#issuecomment-1926396511) in [GenevieveBuckley/micro-sam](https://github.com/GenevieveBuckley/micro-sam)
 <!--END_SECTION:activity-->
