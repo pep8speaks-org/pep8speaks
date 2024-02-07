@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#9144](https://github.com/statsmodels/statsmodels/pull/9144#issuecomment-1931568624) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-2. 🗣 Commented on [#4361](https://github.com/uwcirg/truenth-portal/pull/4361#issuecomment-1931182644) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-3. 🗣 Commented on [#1061](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1061#issuecomment-1930984003) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#301](https://github.com/AdvancedPhotonSource/tike/pull/301#issuecomment-1930966798) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-5. 🗣 Commented on [#705](https://github.com/OpenFreeEnergy/openfe/pull/705#issuecomment-1930913545) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-6. 🗣 Commented on [#286](https://github.com/OpenFreeEnergy/gufe/pull/286#issuecomment-1930809393) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-7. 🗣 Commented on [#3109](https://github.com/reframe-hpc/reframe/pull/3109#issuecomment-1930779122) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-8. 🗣 Commented on [#798](https://github.com/spacetelescope/webbpsf/pull/798#issuecomment-1930712173) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-9. 🗣 Commented on [#10](https://github.com/eastgenomics/Haemonc_requests/pull/10#issuecomment-1930406969) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
-10. 🗣 Commented on [#21769](https://github.com/spyder-ide/spyder/pull/21769#issuecomment-1930282919) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#87](https://github.com/eastgenomics/eris/pull/87#issuecomment-1931765937) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+2. 🗣 Commented on [#9144](https://github.com/statsmodels/statsmodels/pull/9144#issuecomment-1931568624) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+3. 🗣 Commented on [#4361](https://github.com/uwcirg/truenth-portal/pull/4361#issuecomment-1931182644) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+4. 🗣 Commented on [#1061](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1061#issuecomment-1930984003) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#301](https://github.com/AdvancedPhotonSource/tike/pull/301#issuecomment-1930966798) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+6. 🗣 Commented on [#705](https://github.com/OpenFreeEnergy/openfe/pull/705#issuecomment-1930913545) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+7. 🗣 Commented on [#286](https://github.com/OpenFreeEnergy/gufe/pull/286#issuecomment-1930809393) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+8. 🗣 Commented on [#3109](https://github.com/reframe-hpc/reframe/pull/3109#issuecomment-1930779122) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+9. 🗣 Commented on [#798](https://github.com/spacetelescope/webbpsf/pull/798#issuecomment-1930712173) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+10. 🗣 Commented on [#10](https://github.com/eastgenomics/Haemonc_requests/pull/10#issuecomment-1930406969) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
 <!--END_SECTION:activity-->
