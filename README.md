@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-2. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-3. 🗣 Commented on [#1257](https://github.com/aimclub/FEDOT/pull/1257#issuecomment-1934352825) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-4. 🗣 Commented on [#5463](https://github.com/rhinstaller/anaconda/pull/5463#issuecomment-1934290191) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#1660](https://github.com/zarr-developers/zarr-python/pull/1660#issuecomment-1934195956) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-6. 🗣 Commented on [#287](https://github.com/OpenFreeEnergy/gufe/pull/287#issuecomment-1934123901) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-7. 🗣 Commented on [#798](https://github.com/StingraySoftware/stingray/pull/798#issuecomment-1933915531) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-8. 🗣 Commented on [#706](https://github.com/OpenFreeEnergy/openfe/pull/706#issuecomment-1933810283) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-9. 🗣 Commented on [#1063](https://github.com/4DNucleome/PartSeg/pull/1063#issuecomment-1933061214) in [4DNucleome/PartSeg](https://github.com/4DNucleome/PartSeg)
-10. 🗣 Commented on [#10](https://github.com/Seluj78/shellhub-python/pull/10#issuecomment-1932595197) in [Seluj78/shellhub-python](https://github.com/Seluj78/shellhub-python)
+1. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+2. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+3. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+4. 🗣 Commented on [#1257](https://github.com/aimclub/FEDOT/pull/1257#issuecomment-1934352825) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+5. 🗣 Commented on [#5463](https://github.com/rhinstaller/anaconda/pull/5463#issuecomment-1934290191) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#1660](https://github.com/zarr-developers/zarr-python/pull/1660#issuecomment-1934195956) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+7. 🗣 Commented on [#287](https://github.com/OpenFreeEnergy/gufe/pull/287#issuecomment-1934123901) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+8. 🗣 Commented on [#798](https://github.com/StingraySoftware/stingray/pull/798#issuecomment-1933915531) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+9. 🗣 Commented on [#706](https://github.com/OpenFreeEnergy/openfe/pull/706#issuecomment-1933810283) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+10. 🗣 Commented on [#1063](https://github.com/4DNucleome/PartSeg/pull/1063#issuecomment-1933061214) in [4DNucleome/PartSeg](https://github.com/4DNucleome/PartSeg)
 <!--END_SECTION:activity-->
