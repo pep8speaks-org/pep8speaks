@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#486](https://github.com/Spoken-tutorial/spoken-website/pull/486#issuecomment-1935931611) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-2. 🗣 Commented on [#1317](https://github.com/rpm-software-management/mock/pull/1317#issuecomment-1935905922) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-3. 🗣 Commented on [#251](https://github.com/CartoonFan/lutris/pull/251#issuecomment-1935815750) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-4. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-6. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-7. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-8. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-9. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-10. 🗣 Commented on [#1257](https://github.com/aimclub/FEDOT/pull/1257#issuecomment-1934352825) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+1. 🗣 Commented on [#10](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/10#issuecomment-1936087620) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
+2. 🗣 Commented on [#486](https://github.com/Spoken-tutorial/spoken-website/pull/486#issuecomment-1935931611) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+3. 🗣 Commented on [#1317](https://github.com/rpm-software-management/mock/pull/1317#issuecomment-1935905922) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+4. 🗣 Commented on [#251](https://github.com/CartoonFan/lutris/pull/251#issuecomment-1935815750) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+5. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+6. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+7. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+8. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+9. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+10. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
 <!--END_SECTION:activity-->
