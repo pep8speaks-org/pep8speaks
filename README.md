@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-2. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-3. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-5. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-6. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-7. 🗣 Commented on [#1257](https://github.com/aimclub/FEDOT/pull/1257#issuecomment-1934352825) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-8. 🗣 Commented on [#5463](https://github.com/rhinstaller/anaconda/pull/5463#issuecomment-1934290191) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-9. 🗣 Commented on [#1660](https://github.com/zarr-developers/zarr-python/pull/1660#issuecomment-1934195956) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-10. 🗣 Commented on [#287](https://github.com/OpenFreeEnergy/gufe/pull/287#issuecomment-1934123901) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+1. 🗣 Commented on [#251](https://github.com/CartoonFan/lutris/pull/251#issuecomment-1935815750) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+3. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+4. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+6. 🗣 Commented on [#497](https://github.com/aramis-lab/clinicadl/pull/497#issuecomment-1934589525) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+7. 🗣 Commented on [#117](https://github.com/aimclub/Fedot.Industrial/pull/117#issuecomment-1934356811) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+8. 🗣 Commented on [#1257](https://github.com/aimclub/FEDOT/pull/1257#issuecomment-1934352825) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+9. 🗣 Commented on [#5463](https://github.com/rhinstaller/anaconda/pull/5463#issuecomment-1934290191) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#1660](https://github.com/zarr-developers/zarr-python/pull/1660#issuecomment-1934195956) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
 <!--END_SECTION:activity-->
