@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3](https://github.com/eastgenomics/TSO500_Compare_Output/pull/3#issuecomment-1936397259) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
-2. 🗣 Commented on [#118](https://github.com/aimclub/Fedot.Industrial/pull/118#issuecomment-1936141815) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-3. 🗣 Commented on [#10](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/10#issuecomment-1936087620) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
-4. 🗣 Commented on [#486](https://github.com/Spoken-tutorial/spoken-website/pull/486#issuecomment-1935931611) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-5. 🗣 Commented on [#1317](https://github.com/rpm-software-management/mock/pull/1317#issuecomment-1935905922) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-6. 🗣 Commented on [#251](https://github.com/CartoonFan/lutris/pull/251#issuecomment-1935815750) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-7. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-8. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-9. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-10. 🗣 Commented on [#1479](https://github.com/spacetelescope/jwql/pull/1479#issuecomment-1934625725) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#2947](https://github.com/astropy/astroquery/pull/2947#issuecomment-1936425984) in [astropy/astroquery](https://github.com/astropy/astroquery)
+2. 🗣 Commented on [#3](https://github.com/eastgenomics/TSO500_Compare_Output/pull/3#issuecomment-1936397259) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
+3. 🗣 Commented on [#118](https://github.com/aimclub/Fedot.Industrial/pull/118#issuecomment-1936141815) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+4. 🗣 Commented on [#10](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/10#issuecomment-1936087620) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
+5. 🗣 Commented on [#486](https://github.com/Spoken-tutorial/spoken-website/pull/486#issuecomment-1935931611) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+6. 🗣 Commented on [#1317](https://github.com/rpm-software-management/mock/pull/1317#issuecomment-1935905922) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+7. 🗣 Commented on [#251](https://github.com/CartoonFan/lutris/pull/251#issuecomment-1935815750) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+8. 🗣 Commented on [#3113](https://github.com/reframe-hpc/reframe/pull/3113#issuecomment-1935658164) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+9. 🗣 Commented on [#1105](https://github.com/yeatmanlab/pyAFQ/pull/1105#issuecomment-1934858627) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+10. 🗣 Commented on [#1063](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1063#issuecomment-1934847662) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
