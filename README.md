@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#252](https://github.com/CartoonFan/lutris/pull/252#issuecomment-1937094552) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-2. 🗣 Commented on [#1635](https://github.com/odlgroup/odl/pull/1635#issuecomment-1936990878) in [odlgroup/odl](https://github.com/odlgroup/odl)
-3. 🗣 Commented on [#1065](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1065#issuecomment-1936922413) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#179](https://github.com/gwpy/pyomicron/pull/179#issuecomment-1936804557) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
-5. 🗣 Commented on [#2769](https://github.com/metabrainz/listenbrainz-server/pull/2769#issuecomment-1936655151) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-6. 🗣 Commented on [#2947](https://github.com/astropy/astroquery/pull/2947#issuecomment-1936425984) in [astropy/astroquery](https://github.com/astropy/astroquery)
-7. 🗣 Commented on [#3](https://github.com/eastgenomics/TSO500_Compare_Output/pull/3#issuecomment-1936397259) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
-8. 🗣 Commented on [#118](https://github.com/aimclub/Fedot.Industrial/pull/118#issuecomment-1936141815) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#10](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/10#issuecomment-1936087620) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
-10. 🗣 Commented on [#486](https://github.com/Spoken-tutorial/spoken-website/pull/486#issuecomment-1935931611) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+1. 🗣 Commented on [#1](https://github.com/Cybsloth/de_zoomcamp_2024/pull/1#issuecomment-1937113421) in [Cybsloth/de_zoomcamp_2024](https://github.com/Cybsloth/de_zoomcamp_2024)
+2. 🗣 Commented on [#252](https://github.com/CartoonFan/lutris/pull/252#issuecomment-1937094552) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+3. 🗣 Commented on [#1635](https://github.com/odlgroup/odl/pull/1635#issuecomment-1936990878) in [odlgroup/odl](https://github.com/odlgroup/odl)
+4. 🗣 Commented on [#1065](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1065#issuecomment-1936922413) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#179](https://github.com/gwpy/pyomicron/pull/179#issuecomment-1936804557) in [gwpy/pyomicron](https://github.com/gwpy/pyomicron)
+6. 🗣 Commented on [#2769](https://github.com/metabrainz/listenbrainz-server/pull/2769#issuecomment-1936655151) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+7. 🗣 Commented on [#2947](https://github.com/astropy/astroquery/pull/2947#issuecomment-1936425984) in [astropy/astroquery](https://github.com/astropy/astroquery)
+8. 🗣 Commented on [#3](https://github.com/eastgenomics/TSO500_Compare_Output/pull/3#issuecomment-1936397259) in [eastgenomics/TSO500_Compare_Output](https://github.com/eastgenomics/TSO500_Compare_Output)
+9. 🗣 Commented on [#118](https://github.com/aimclub/Fedot.Industrial/pull/118#issuecomment-1936141815) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+10. 🗣 Commented on [#10](https://github.com/ITMO-NSS-team/TorchCNNBuilder/pull/10#issuecomment-1936087620) in [ITMO-NSS-team/TorchCNNBuilder](https://github.com/ITMO-NSS-team/TorchCNNBuilder)
 <!--END_SECTION:activity-->
