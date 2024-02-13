@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#5469](https://github.com/rhinstaller/anaconda/pull/5469#issuecomment-1939754079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-2. 🗣 Commented on [#895](https://github.com/scilus/scilpy/pull/895#issuecomment-1939686147) in [scilus/scilpy](https://github.com/scilus/scilpy)
-3. 🗣 Commented on [#801](https://github.com/spacetelescope/webbpsf/pull/801#issuecomment-1939365963) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#2773](https://github.com/metabrainz/listenbrainz-server/pull/2773#issuecomment-1939144361) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#1481](https://github.com/spacetelescope/jwql/pull/1481#issuecomment-1939000941) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#1691](https://github.com/astropy/photutils/pull/1691#issuecomment-1938881334) in [astropy/photutils](https://github.com/astropy/photutils)
-7. 🗣 Commented on [#1349](https://github.com/openSUSE/osc/pull/1349#issuecomment-1938762520) in [openSUSE/osc](https://github.com/openSUSE/osc)
-8. 🗣 Commented on [#10](https://github.com/thoth-pub/thoth-loader/pull/10#issuecomment-1938624365) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
-9. 🗣 Commented on [#289](https://github.com/OpenFreeEnergy/gufe/pull/289#issuecomment-1938398917) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-10. 🗣 Commented on [#192](https://github.com/eastgenomics/eggd_dias_batch/pull/192#issuecomment-1938307628) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
+1. 🗣 Commented on [#800](https://github.com/StingraySoftware/stingray/pull/800#issuecomment-1939922521) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+2. 🗣 Commented on [#5469](https://github.com/rhinstaller/anaconda/pull/5469#issuecomment-1939754079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#895](https://github.com/scilus/scilpy/pull/895#issuecomment-1939686147) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#801](https://github.com/spacetelescope/webbpsf/pull/801#issuecomment-1939365963) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+5. 🗣 Commented on [#2773](https://github.com/metabrainz/listenbrainz-server/pull/2773#issuecomment-1939144361) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#1481](https://github.com/spacetelescope/jwql/pull/1481#issuecomment-1939000941) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#1691](https://github.com/astropy/photutils/pull/1691#issuecomment-1938881334) in [astropy/photutils](https://github.com/astropy/photutils)
+8. 🗣 Commented on [#1349](https://github.com/openSUSE/osc/pull/1349#issuecomment-1938762520) in [openSUSE/osc](https://github.com/openSUSE/osc)
+9. 🗣 Commented on [#10](https://github.com/thoth-pub/thoth-loader/pull/10#issuecomment-1938624365) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
+10. 🗣 Commented on [#289](https://github.com/OpenFreeEnergy/gufe/pull/289#issuecomment-1938398917) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
 <!--END_SECTION:activity-->
