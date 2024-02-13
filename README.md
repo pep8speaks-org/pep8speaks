@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#721](https://github.com/OpenFreeEnergy/openfe/pull/721#issuecomment-1941352439) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-2. 🗣 Commented on [#1052](https://github.com/oemof/oemof-solph/pull/1052#issuecomment-1941336092) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-3. 🗣 Commented on [#521](https://github.com/aramis-lab/clinicadl/pull/521#issuecomment-1941166338) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-4. 🗣 Commented on [#2776](https://github.com/metabrainz/listenbrainz-server/pull/2776#issuecomment-1941156594) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#191](https://github.com/damnever/pigar/pull/191#issuecomment-1940763233) in [damnever/pigar](https://github.com/damnever/pigar)
-6. 🗣 Commented on [#800](https://github.com/StingraySoftware/stingray/pull/800#issuecomment-1939922521) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-7. 🗣 Commented on [#5469](https://github.com/rhinstaller/anaconda/pull/5469#issuecomment-1939754079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#895](https://github.com/scilus/scilpy/pull/895#issuecomment-1939686147) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#801](https://github.com/spacetelescope/webbpsf/pull/801#issuecomment-1939365963) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-10. 🗣 Commented on [#2773](https://github.com/metabrainz/listenbrainz-server/pull/2773#issuecomment-1939144361) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+1. 🗣 Commented on [#896](https://github.com/scilus/scilpy/pull/896#issuecomment-1941706421) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#721](https://github.com/OpenFreeEnergy/openfe/pull/721#issuecomment-1941352439) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+3. 🗣 Commented on [#1052](https://github.com/oemof/oemof-solph/pull/1052#issuecomment-1941336092) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+4. 🗣 Commented on [#521](https://github.com/aramis-lab/clinicadl/pull/521#issuecomment-1941166338) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+5. 🗣 Commented on [#2776](https://github.com/metabrainz/listenbrainz-server/pull/2776#issuecomment-1941156594) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#191](https://github.com/damnever/pigar/pull/191#issuecomment-1940763233) in [damnever/pigar](https://github.com/damnever/pigar)
+7. 🗣 Commented on [#800](https://github.com/StingraySoftware/stingray/pull/800#issuecomment-1939922521) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+8. 🗣 Commented on [#5469](https://github.com/rhinstaller/anaconda/pull/5469#issuecomment-1939754079) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#895](https://github.com/scilus/scilpy/pull/895#issuecomment-1939686147) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#801](https://github.com/spacetelescope/webbpsf/pull/801#issuecomment-1939365963) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
 <!--END_SECTION:activity-->
