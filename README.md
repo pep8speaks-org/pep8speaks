@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-2. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-4. 🗣 Commented on [#724](https://github.com/OpenFreeEnergy/openfe/pull/724#issuecomment-1943914476) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-5. 🗣 Commented on [#518](https://github.com/aramis-lab/clinicadl/pull/518#issuecomment-1943838336) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-6. 🗣 Commented on [#487](https://github.com/Spoken-tutorial/spoken-website/pull/487#issuecomment-1943678393) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-7. 🗣 Commented on [#21666](https://github.com/spyder-ide/spyder/pull/21666#issuecomment-1943635577) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#3](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/3#issuecomment-1943633250) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
-9. 🗣 Commented on [#253](https://github.com/CartoonFan/lutris/pull/253#issuecomment-1943617270) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-10. 🗣 Commented on [#1322](https://github.com/rpm-software-management/mock/pull/1322#issuecomment-1943517141) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+1. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+3. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+5. 🗣 Commented on [#724](https://github.com/OpenFreeEnergy/openfe/pull/724#issuecomment-1943914476) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+6. 🗣 Commented on [#518](https://github.com/aramis-lab/clinicadl/pull/518#issuecomment-1943838336) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+7. 🗣 Commented on [#487](https://github.com/Spoken-tutorial/spoken-website/pull/487#issuecomment-1943678393) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+8. 🗣 Commented on [#21666](https://github.com/spyder-ide/spyder/pull/21666#issuecomment-1943635577) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#3](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/3#issuecomment-1943633250) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
+10. 🗣 Commented on [#253](https://github.com/CartoonFan/lutris/pull/253#issuecomment-1943617270) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
 <!--END_SECTION:activity-->
