@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#903](https://github.com/scilus/scilpy/pull/903#issuecomment-1946825015) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#105](https://github.com/aimclub/BAMT/pull/105#issuecomment-1946006900) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
-3. 🗣 Commented on [#24](https://github.com/eastgenomics/themis/pull/24#issuecomment-1945954003) in [eastgenomics/themis](https://github.com/eastgenomics/themis)
-4. 🗣 Commented on [#89](https://github.com/eastgenomics/eris/pull/89#issuecomment-1945748179) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-5. 🗣 Commented on [#4458](https://github.com/MDAnalysis/mdanalysis/pull/4458#issuecomment-1945585838) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-6. 🗣 Commented on [#804](https://github.com/spacetelescope/webbpsf/pull/804#issuecomment-1945325426) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-7. 🗣 Commented on [#3095](https://github.com/reframe-hpc/reframe/pull/3095#issuecomment-1945028294) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-8. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-10. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+1. 🗣 Commented on [#258](https://github.com/casacore/python-casacore/pull/258#issuecomment-1947434160) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
+2. 🗣 Commented on [#903](https://github.com/scilus/scilpy/pull/903#issuecomment-1946825015) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#105](https://github.com/aimclub/BAMT/pull/105#issuecomment-1946006900) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+4. 🗣 Commented on [#24](https://github.com/eastgenomics/themis/pull/24#issuecomment-1945954003) in [eastgenomics/themis](https://github.com/eastgenomics/themis)
+5. 🗣 Commented on [#89](https://github.com/eastgenomics/eris/pull/89#issuecomment-1945748179) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+6. 🗣 Commented on [#4458](https://github.com/MDAnalysis/mdanalysis/pull/4458#issuecomment-1945585838) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#804](https://github.com/spacetelescope/webbpsf/pull/804#issuecomment-1945325426) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+8. 🗣 Commented on [#3095](https://github.com/reframe-hpc/reframe/pull/3095#issuecomment-1945028294) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+9. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
 <!--END_SECTION:activity-->
