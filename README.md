@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#89](https://github.com/eastgenomics/eris/pull/89#issuecomment-1945748179) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#4458](https://github.com/MDAnalysis/mdanalysis/pull/4458#issuecomment-1945585838) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#804](https://github.com/spacetelescope/webbpsf/pull/804#issuecomment-1945325426) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#3095](https://github.com/reframe-hpc/reframe/pull/3095#issuecomment-1945028294) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-8. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-10. 🗣 Commented on [#724](https://github.com/OpenFreeEnergy/openfe/pull/724#issuecomment-1943914476) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+1. 🗣 Commented on [#24](https://github.com/eastgenomics/themis/pull/24#issuecomment-1945954003) in [eastgenomics/themis](https://github.com/eastgenomics/themis)
+2. 🗣 Commented on [#89](https://github.com/eastgenomics/eris/pull/89#issuecomment-1945748179) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#4458](https://github.com/MDAnalysis/mdanalysis/pull/4458#issuecomment-1945585838) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#804](https://github.com/spacetelescope/webbpsf/pull/804#issuecomment-1945325426) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+5. 🗣 Commented on [#3095](https://github.com/reframe-hpc/reframe/pull/3095#issuecomment-1945028294) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+6. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+9. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+10. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
 <!--END_SECTION:activity-->
