@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-6. 🗣 Commented on [#724](https://github.com/OpenFreeEnergy/openfe/pull/724#issuecomment-1943914476) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-7. 🗣 Commented on [#518](https://github.com/aramis-lab/clinicadl/pull/518#issuecomment-1943838336) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-8. 🗣 Commented on [#487](https://github.com/Spoken-tutorial/spoken-website/pull/487#issuecomment-1943678393) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-9. 🗣 Commented on [#21666](https://github.com/spyder-ide/spyder/pull/21666#issuecomment-1943635577) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-10. 🗣 Commented on [#3](https://github.com/eastgenomics/eggd_add_MANE_annotation/pull/3#issuecomment-1943633250) in [eastgenomics/eggd_add_MANE_annotation](https://github.com/eastgenomics/eggd_add_MANE_annotation)
+1. 🗣 Commented on [#3095](https://github.com/reframe-hpc/reframe/pull/3095#issuecomment-1945028294) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+2. 🗣 Commented on [#1482](https://github.com/spacetelescope/jwql/pull/1482#issuecomment-1944516938) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#21804](https://github.com/spyder-ide/spyder/pull/21804#issuecomment-1944177368) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#803](https://github.com/spacetelescope/webbpsf/pull/803#issuecomment-1944127225) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+5. 🗣 Commented on [#2782](https://github.com/metabrainz/listenbrainz-server/pull/2782#issuecomment-1944110316) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#904](https://github.com/ToFuProject/tofu/pull/904#issuecomment-1944092433) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+7. 🗣 Commented on [#724](https://github.com/OpenFreeEnergy/openfe/pull/724#issuecomment-1943914476) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+8. 🗣 Commented on [#518](https://github.com/aramis-lab/clinicadl/pull/518#issuecomment-1943838336) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+9. 🗣 Commented on [#487](https://github.com/Spoken-tutorial/spoken-website/pull/487#issuecomment-1943678393) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+10. 🗣 Commented on [#21666](https://github.com/spyder-ide/spyder/pull/21666#issuecomment-1943635577) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
 <!--END_SECTION:activity-->
