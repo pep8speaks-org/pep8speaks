@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1670](https://github.com/zarr-developers/zarr-python/pull/1670#issuecomment-1948412220) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-2. 🗣 Commented on [#172](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/172#issuecomment-1948327157) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-3. 🗣 Commented on [#3864](https://github.com/privacyidea/privacyidea/pull/3864#issuecomment-1948243684) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-4. 🗣 Commented on [#130](https://github.com/mattpitkin/psrqpy/pull/130#issuecomment-1948117156) in [mattpitkin/psrqpy](https://github.com/mattpitkin/psrqpy)
-5. 🗣 Commented on [#6](https://github.com/eastgenomics/gene_annotation2bed/pull/6#issuecomment-1948074019) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
-6. 🗣 Commented on [#729](https://github.com/OpenFreeEnergy/openfe/pull/729#issuecomment-1947935649) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-7. 🗣 Commented on [#526](https://github.com/bengosney/isitbinday/pull/526#issuecomment-1947927536) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
-8. 🗣 Commented on [#258](https://github.com/casacore/python-casacore/pull/258#issuecomment-1947434160) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
-9. 🗣 Commented on [#903](https://github.com/scilus/scilpy/pull/903#issuecomment-1946825015) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#105](https://github.com/aimclub/BAMT/pull/105#issuecomment-1946006900) in [aimclub/BAMT](https://github.com/aimclub/BAMT)
+1. 🗣 Commented on [#67](https://github.com/eastgenomics/trendyQC/pull/67#issuecomment-1948478047) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+2. 🗣 Commented on [#1670](https://github.com/zarr-developers/zarr-python/pull/1670#issuecomment-1948412220) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+3. 🗣 Commented on [#172](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/172#issuecomment-1948327157) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+4. 🗣 Commented on [#3864](https://github.com/privacyidea/privacyidea/pull/3864#issuecomment-1948243684) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#130](https://github.com/mattpitkin/psrqpy/pull/130#issuecomment-1948117156) in [mattpitkin/psrqpy](https://github.com/mattpitkin/psrqpy)
+6. 🗣 Commented on [#6](https://github.com/eastgenomics/gene_annotation2bed/pull/6#issuecomment-1948074019) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
+7. 🗣 Commented on [#729](https://github.com/OpenFreeEnergy/openfe/pull/729#issuecomment-1947935649) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+8. 🗣 Commented on [#526](https://github.com/bengosney/isitbinday/pull/526#issuecomment-1947927536) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
+9. 🗣 Commented on [#258](https://github.com/casacore/python-casacore/pull/258#issuecomment-1947434160) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
+10. 🗣 Commented on [#903](https://github.com/scilus/scilpy/pull/903#issuecomment-1946825015) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
