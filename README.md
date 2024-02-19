@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1490](https://github.com/spacetelescope/jwql/pull/1490#issuecomment-1952930905) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#27](https://github.com/eastgenomics/ansible-run-monitoring/pull/27#issuecomment-1952921037) in [eastgenomics/ansible-run-monitoring](https://github.com/eastgenomics/ansible-run-monitoring)
-3. 🗣 Commented on [#21784](https://github.com/spyder-ide/spyder/pull/21784#issuecomment-1952754530) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-4. 🗣 Commented on [#65](https://github.com/incf-nidash/nidmresults/pull/65#issuecomment-1952748483) in [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults)
-5. 🗣 Commented on [#1489](https://github.com/spacetelescope/jwql/pull/1489#issuecomment-1952671444) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#1491](https://github.com/openSUSE/osc/pull/1491#issuecomment-1952652835) in [openSUSE/osc](https://github.com/openSUSE/osc)
-7. 🗣 Commented on [#173](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/173#issuecomment-1952476667) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-8. 🗣 Commented on [#1640](https://github.com/odlgroup/odl/pull/1640#issuecomment-1952363175) in [odlgroup/odl](https://github.com/odlgroup/odl)
-9. 🗣 Commented on [#68](https://github.com/eastgenomics/trendyQC/pull/68#issuecomment-1952245398) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-10. 🗣 Commented on [#26](https://github.com/eastgenomics/ansible-run-monitoring/pull/26#issuecomment-1952222642) in [eastgenomics/ansible-run-monitoring](https://github.com/eastgenomics/ansible-run-monitoring)
+1. 🗣 Commented on [#908](https://github.com/scilus/scilpy/pull/908#issuecomment-1952996052) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#1490](https://github.com/spacetelescope/jwql/pull/1490#issuecomment-1952930905) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#27](https://github.com/eastgenomics/ansible-run-monitoring/pull/27#issuecomment-1952921037) in [eastgenomics/ansible-run-monitoring](https://github.com/eastgenomics/ansible-run-monitoring)
+4. 🗣 Commented on [#21784](https://github.com/spyder-ide/spyder/pull/21784#issuecomment-1952754530) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#65](https://github.com/incf-nidash/nidmresults/pull/65#issuecomment-1952748483) in [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults)
+6. 🗣 Commented on [#1489](https://github.com/spacetelescope/jwql/pull/1489#issuecomment-1952671444) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#1491](https://github.com/openSUSE/osc/pull/1491#issuecomment-1952652835) in [openSUSE/osc](https://github.com/openSUSE/osc)
+8. 🗣 Commented on [#173](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/173#issuecomment-1952476667) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+9. 🗣 Commented on [#1640](https://github.com/odlgroup/odl/pull/1640#issuecomment-1952363175) in [odlgroup/odl](https://github.com/odlgroup/odl)
+10. 🗣 Commented on [#68](https://github.com/eastgenomics/trendyQC/pull/68#issuecomment-1952245398) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
 <!--END_SECTION:activity-->
