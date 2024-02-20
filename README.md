@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#770](https://github.com/spacetelescope/webbpsf/pull/770#issuecomment-1954382610) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-2. 🗣 Commented on [#25](https://github.com/eastgenomics/themis/pull/25#issuecomment-1954375616) in [eastgenomics/themis](https://github.com/eastgenomics/themis)
-3. 🗣 Commented on [#260](https://github.com/casacore/python-casacore/pull/260#issuecomment-1954344200) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
-4. 🗣 Commented on [#102](https://github.com/eastgenomics/eggd_conductor/pull/102#issuecomment-1954129014) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-5. 🗣 Commented on [#109](https://github.com/Richard-Sti/csiborgtools/pull/109#issuecomment-1954100696) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
-6. 🗣 Commented on [#66](https://github.com/incf-nidash/nidmresults/pull/66#issuecomment-1953744185) in [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults)
-7. 🗣 Commented on [#961](https://github.com/avaframe/AvaFrame/pull/961#issuecomment-1953730990) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#862](https://github.com/fury-gl/fury/pull/862#issuecomment-1953469929) in [fury-gl/fury](https://github.com/fury-gl/fury)
-9. 🗣 Commented on [#1492](https://github.com/spacetelescope/jwql/pull/1492#issuecomment-1953326463) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#1491](https://github.com/spacetelescope/jwql/pull/1491#issuecomment-1953118959) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#796](https://github.com/StingraySoftware/stingray/pull/796#issuecomment-1954547791) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+2. 🗣 Commented on [#92](https://github.com/eastgenomics/eris/pull/92#issuecomment-1954509296) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#770](https://github.com/spacetelescope/webbpsf/pull/770#issuecomment-1954382610) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+4. 🗣 Commented on [#25](https://github.com/eastgenomics/themis/pull/25#issuecomment-1954375616) in [eastgenomics/themis](https://github.com/eastgenomics/themis)
+5. 🗣 Commented on [#260](https://github.com/casacore/python-casacore/pull/260#issuecomment-1954344200) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
+6. 🗣 Commented on [#102](https://github.com/eastgenomics/eggd_conductor/pull/102#issuecomment-1954129014) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+7. 🗣 Commented on [#109](https://github.com/Richard-Sti/csiborgtools/pull/109#issuecomment-1954100696) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+8. 🗣 Commented on [#66](https://github.com/incf-nidash/nidmresults/pull/66#issuecomment-1953744185) in [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults)
+9. 🗣 Commented on [#961](https://github.com/avaframe/AvaFrame/pull/961#issuecomment-1953730990) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#862](https://github.com/fury-gl/fury/pull/862#issuecomment-1953469929) in [fury-gl/fury](https://github.com/fury-gl/fury)
 <!--END_SECTION:activity-->
