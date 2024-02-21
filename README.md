@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#71](https://github.com/eastgenomics/trendyQC/pull/71#issuecomment-1956425158) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-2. 🗣 Commented on [#148](https://github.com/INT-NIT/BEP032tools/pull/148#issuecomment-1956386827) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
-3. 🗣 Commented on [#5485](https://github.com/rhinstaller/anaconda/pull/5485#issuecomment-1956378721) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-4. 🗣 Commented on [#1485](https://github.com/openSUSE/osc/pull/1485#issuecomment-1956129523) in [openSUSE/osc](https://github.com/openSUSE/osc)
-5. 🗣 Commented on [#907](https://github.com/ToFuProject/tofu/pull/907#issuecomment-1955565053) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-6. 🗣 Commented on [#807](https://github.com/spacetelescope/webbpsf/pull/807#issuecomment-1955185860) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-7. 🗣 Commented on [#256](https://github.com/CartoonFan/lutris/pull/256#issuecomment-1954882483) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-8. 🗣 Commented on [#158](https://github.com/arfc/transition-scenarios/pull/158#issuecomment-1954800719) in [arfc/transition-scenarios](https://github.com/arfc/transition-scenarios)
-9. 🗣 Commented on [#93](https://github.com/eastgenomics/eris/pull/93#issuecomment-1954611921) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-10. 🗣 Commented on [#796](https://github.com/StingraySoftware/stingray/pull/796#issuecomment-1954547791) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+1. 🗣 Commented on [#97](https://github.com/ITMO-NSS-team/GAMLET/pull/97#issuecomment-1956546037) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+2. 🗣 Commented on [#71](https://github.com/eastgenomics/trendyQC/pull/71#issuecomment-1956425158) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+3. 🗣 Commented on [#148](https://github.com/INT-NIT/BEP032tools/pull/148#issuecomment-1956386827) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
+4. 🗣 Commented on [#5485](https://github.com/rhinstaller/anaconda/pull/5485#issuecomment-1956378721) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#1485](https://github.com/openSUSE/osc/pull/1485#issuecomment-1956129523) in [openSUSE/osc](https://github.com/openSUSE/osc)
+6. 🗣 Commented on [#907](https://github.com/ToFuProject/tofu/pull/907#issuecomment-1955565053) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+7. 🗣 Commented on [#807](https://github.com/spacetelescope/webbpsf/pull/807#issuecomment-1955185860) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+8. 🗣 Commented on [#256](https://github.com/CartoonFan/lutris/pull/256#issuecomment-1954882483) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+9. 🗣 Commented on [#158](https://github.com/arfc/transition-scenarios/pull/158#issuecomment-1954800719) in [arfc/transition-scenarios](https://github.com/arfc/transition-scenarios)
+10. 🗣 Commented on [#93](https://github.com/eastgenomics/eris/pull/93#issuecomment-1954611921) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
 <!--END_SECTION:activity-->
