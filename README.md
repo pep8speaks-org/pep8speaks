@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3059](https://github.com/dipy/dipy/pull/3059#issuecomment-1958567131) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#1498](https://github.com/spacetelescope/jwql/pull/1498#issuecomment-1958473990) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#3](https://github.com/SandroMartens/DBGSOM/pull/3#issuecomment-1957855791) in [SandroMartens/DBGSOM](https://github.com/SandroMartens/DBGSOM)
-4. 🗣 Commented on [#1](https://github.com/arfc/didymus/pull/1#issuecomment-1957645402) in [arfc/didymus](https://github.com/arfc/didymus)
-5. 🗣 Commented on [#767](https://github.com/EducationalTestingService/skll/pull/767#issuecomment-1957086068) in [EducationalTestingService/skll](https://github.com/EducationalTestingService/skll)
-6. 🗣 Commented on [#4463](https://github.com/MDAnalysis/mdanalysis/pull/4463#issuecomment-1957030195) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#2](https://github.com/eastgenomics/eggd_sex_check/pull/2#issuecomment-1956987737) in [eastgenomics/eggd_sex_check](https://github.com/eastgenomics/eggd_sex_check)
-8. 🗣 Commented on [#120](https://github.com/aimclub/Fedot.Industrial/pull/120#issuecomment-1956592924) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#97](https://github.com/ITMO-NSS-team/GAMLET/pull/97#issuecomment-1956546037) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
-10. 🗣 Commented on [#71](https://github.com/eastgenomics/trendyQC/pull/71#issuecomment-1956425158) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+1. 🗣 Commented on [#257](https://github.com/CartoonFan/lutris/pull/257#issuecomment-1958712034) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#3059](https://github.com/dipy/dipy/pull/3059#issuecomment-1958567131) in [dipy/dipy](https://github.com/dipy/dipy)
+3. 🗣 Commented on [#1498](https://github.com/spacetelescope/jwql/pull/1498#issuecomment-1958473990) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#3](https://github.com/SandroMartens/DBGSOM/pull/3#issuecomment-1957855791) in [SandroMartens/DBGSOM](https://github.com/SandroMartens/DBGSOM)
+5. 🗣 Commented on [#1](https://github.com/arfc/didymus/pull/1#issuecomment-1957645402) in [arfc/didymus](https://github.com/arfc/didymus)
+6. 🗣 Commented on [#767](https://github.com/EducationalTestingService/skll/pull/767#issuecomment-1957086068) in [EducationalTestingService/skll](https://github.com/EducationalTestingService/skll)
+7. 🗣 Commented on [#4463](https://github.com/MDAnalysis/mdanalysis/pull/4463#issuecomment-1957030195) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#2](https://github.com/eastgenomics/eggd_sex_check/pull/2#issuecomment-1956987737) in [eastgenomics/eggd_sex_check](https://github.com/eastgenomics/eggd_sex_check)
+9. 🗣 Commented on [#120](https://github.com/aimclub/Fedot.Industrial/pull/120#issuecomment-1956592924) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+10. 🗣 Commented on [#97](https://github.com/ITMO-NSS-team/GAMLET/pull/97#issuecomment-1956546037) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
 <!--END_SECTION:activity-->
