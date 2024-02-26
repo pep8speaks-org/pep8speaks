@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#122](https://github.com/aimclub/Fedot.Industrial/pull/122#issuecomment-1963067049) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-2. 🗣 Commented on [#3081](https://github.com/dipy/dipy/pull/3081#issuecomment-1962990858) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#2795](https://github.com/metabrainz/listenbrainz-server/pull/2795#issuecomment-1962723678) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#258](https://github.com/CartoonFan/lutris/pull/258#issuecomment-1962604760) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-5. 🗣 Commented on [#1499](https://github.com/spacetelescope/jwql/pull/1499#issuecomment-1962077792) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#889](https://github.com/scilus/scilpy/pull/889#issuecomment-1961973038) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#921](https://github.com/scilus/scilpy/pull/921#issuecomment-1961720127) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#94](https://github.com/eastgenomics/eris/pull/94#issuecomment-1961635379) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-9. 🗣 Commented on [#3078](https://github.com/dipy/dipy/pull/3078#issuecomment-1961495683) in [dipy/dipy](https://github.com/dipy/dipy)
-10. 🗣 Commented on [#1495](https://github.com/openSUSE/osc/pull/1495#issuecomment-1960996364) in [openSUSE/osc](https://github.com/openSUSE/osc)
+1. 🗣 Commented on [#70](https://github.com/normcontrol/normcontrol-Document-Parser/pull/70#issuecomment-1963114590) in [normcontrol/normcontrol-Document-Parser](https://github.com/normcontrol/normcontrol-Document-Parser)
+2. 🗣 Commented on [#122](https://github.com/aimclub/Fedot.Industrial/pull/122#issuecomment-1963067049) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+3. 🗣 Commented on [#3081](https://github.com/dipy/dipy/pull/3081#issuecomment-1962990858) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#2795](https://github.com/metabrainz/listenbrainz-server/pull/2795#issuecomment-1962723678) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#258](https://github.com/CartoonFan/lutris/pull/258#issuecomment-1962604760) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+6. 🗣 Commented on [#1499](https://github.com/spacetelescope/jwql/pull/1499#issuecomment-1962077792) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#889](https://github.com/scilus/scilpy/pull/889#issuecomment-1961973038) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#921](https://github.com/scilus/scilpy/pull/921#issuecomment-1961720127) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#94](https://github.com/eastgenomics/eris/pull/94#issuecomment-1961635379) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+10. 🗣 Commented on [#3078](https://github.com/dipy/dipy/pull/3078#issuecomment-1961495683) in [dipy/dipy](https://github.com/dipy/dipy)
 <!--END_SECTION:activity-->
