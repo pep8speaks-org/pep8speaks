@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#737](https://github.com/OpenFreeEnergy/openfe/pull/737#issuecomment-1964174392) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-2. 🗣 Commented on [#110](https://github.com/Richard-Sti/csiborgtools/pull/110#issuecomment-1964018928) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
-3. 🗣 Commented on [#123](https://github.com/aimclub/Fedot.Industrial/pull/123#issuecomment-1963603889) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-4. 🗣 Commented on [#70](https://github.com/normcontrol/normcontrol-Document-Parser/pull/70#issuecomment-1963114590) in [normcontrol/normcontrol-Document-Parser](https://github.com/normcontrol/normcontrol-Document-Parser)
-5. 🗣 Commented on [#122](https://github.com/aimclub/Fedot.Industrial/pull/122#issuecomment-1963067049) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-6. 🗣 Commented on [#3081](https://github.com/dipy/dipy/pull/3081#issuecomment-1962990858) in [dipy/dipy](https://github.com/dipy/dipy)
-7. 🗣 Commented on [#2795](https://github.com/metabrainz/listenbrainz-server/pull/2795#issuecomment-1962723678) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#258](https://github.com/CartoonFan/lutris/pull/258#issuecomment-1962604760) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
-9. 🗣 Commented on [#1499](https://github.com/spacetelescope/jwql/pull/1499#issuecomment-1962077792) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#889](https://github.com/scilus/scilpy/pull/889#issuecomment-1961973038) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#475](https://github.com/VorTECHsa/python-sdk/pull/475#issuecomment-1964359945) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
+2. 🗣 Commented on [#737](https://github.com/OpenFreeEnergy/openfe/pull/737#issuecomment-1964174392) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+3. 🗣 Commented on [#110](https://github.com/Richard-Sti/csiborgtools/pull/110#issuecomment-1964018928) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+4. 🗣 Commented on [#123](https://github.com/aimclub/Fedot.Industrial/pull/123#issuecomment-1963603889) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+5. 🗣 Commented on [#70](https://github.com/normcontrol/normcontrol-Document-Parser/pull/70#issuecomment-1963114590) in [normcontrol/normcontrol-Document-Parser](https://github.com/normcontrol/normcontrol-Document-Parser)
+6. 🗣 Commented on [#122](https://github.com/aimclub/Fedot.Industrial/pull/122#issuecomment-1963067049) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+7. 🗣 Commented on [#3081](https://github.com/dipy/dipy/pull/3081#issuecomment-1962990858) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#2795](https://github.com/metabrainz/listenbrainz-server/pull/2795#issuecomment-1962723678) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#258](https://github.com/CartoonFan/lutris/pull/258#issuecomment-1962604760) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+10. 🗣 Commented on [#1499](https://github.com/spacetelescope/jwql/pull/1499#issuecomment-1962077792) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
