@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#98](https://github.com/eastgenomics/eris/pull/98#issuecomment-1970922654) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#2800](https://github.com/metabrainz/listenbrainz-server/pull/2800#issuecomment-1970900331) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#480](https://github.com/VorTECHsa/python-sdk/pull/480#issuecomment-1970849889) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
-4. 🗣 Commented on [#5499](https://github.com/rhinstaller/anaconda/pull/5499#issuecomment-1970709241) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#15](https://github.com/codingfriendsfun/pcc/pull/15#issuecomment-1970510271) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-6. 🗣 Commented on [#45](https://github.com/arfc/osier/pull/45#issuecomment-1970296163) in [arfc/osier](https://github.com/arfc/osier)
-7. 🗣 Commented on [#294](https://github.com/OpenFreeEnergy/gufe/pull/294#issuecomment-1970197584) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-8. 🗣 Commented on [#5498](https://github.com/rhinstaller/anaconda/pull/5498#issuecomment-1969445907) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-9. 🗣 Commented on [#924](https://github.com/scilus/scilpy/pull/924#issuecomment-1969334900) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#1503](https://github.com/spacetelescope/jwql/pull/1503#issuecomment-1969279131) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#2801](https://github.com/metabrainz/listenbrainz-server/pull/2801#issuecomment-1971312173) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+2. 🗣 Commented on [#98](https://github.com/eastgenomics/eris/pull/98#issuecomment-1970922654) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+3. 🗣 Commented on [#2800](https://github.com/metabrainz/listenbrainz-server/pull/2800#issuecomment-1970900331) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#480](https://github.com/VorTECHsa/python-sdk/pull/480#issuecomment-1970849889) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
+5. 🗣 Commented on [#5499](https://github.com/rhinstaller/anaconda/pull/5499#issuecomment-1970709241) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#15](https://github.com/codingfriendsfun/pcc/pull/15#issuecomment-1970510271) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
+7. 🗣 Commented on [#45](https://github.com/arfc/osier/pull/45#issuecomment-1970296163) in [arfc/osier](https://github.com/arfc/osier)
+8. 🗣 Commented on [#294](https://github.com/OpenFreeEnergy/gufe/pull/294#issuecomment-1970197584) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+9. 🗣 Commented on [#5498](https://github.com/rhinstaller/anaconda/pull/5498#issuecomment-1969445907) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#924](https://github.com/scilus/scilpy/pull/924#issuecomment-1969334900) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
