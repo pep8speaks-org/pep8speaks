@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#105](https://github.com/eastgenomics/eris/pull/105#issuecomment-1980781248) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-2. 🗣 Commented on [#28](https://github.com/eastgenomics/ansible-run-monitoring/pull/28#issuecomment-1980516778) in [eastgenomics/ansible-run-monitoring](https://github.com/eastgenomics/ansible-run-monitoring)
-3. 🗣 Commented on [#104](https://github.com/eastgenomics/eris/pull/104#issuecomment-1979298510) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-4. 🗣 Commented on [#103](https://github.com/eastgenomics/eris/pull/103#issuecomment-1979169059) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
-5. 🗣 Commented on [#3097](https://github.com/dipy/dipy/pull/3097#issuecomment-1979126594) in [dipy/dipy](https://github.com/dipy/dipy)
-6. 🗣 Commented on [#57](https://github.com/esynr3z/corsair/pull/57#issuecomment-1979114167) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
-7. 🗣 Commented on [#56](https://github.com/esynr3z/corsair/pull/56#issuecomment-1979083945) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
-8. 🗣 Commented on [#55](https://github.com/esynr3z/corsair/pull/55#issuecomment-1979060677) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
-9. 🗣 Commented on [#1504](https://github.com/openSUSE/osc/pull/1504#issuecomment-1979040099) in [openSUSE/osc](https://github.com/openSUSE/osc)
-10. 🗣 Commented on [#194](https://github.com/eastgenomics/eggd_dias_batch/pull/194#issuecomment-1978472511) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
+1. 🗣 Commented on [#5507](https://github.com/rhinstaller/anaconda/pull/5507#issuecomment-1980828792) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#9](https://github.com/eastgenomics/test_directory_checker/pull/9#issuecomment-1980808567) in [eastgenomics/test_directory_checker](https://github.com/eastgenomics/test_directory_checker)
+3. 🗣 Commented on [#105](https://github.com/eastgenomics/eris/pull/105#issuecomment-1980781248) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+4. 🗣 Commented on [#28](https://github.com/eastgenomics/ansible-run-monitoring/pull/28#issuecomment-1980516778) in [eastgenomics/ansible-run-monitoring](https://github.com/eastgenomics/ansible-run-monitoring)
+5. 🗣 Commented on [#104](https://github.com/eastgenomics/eris/pull/104#issuecomment-1979298510) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+6. 🗣 Commented on [#103](https://github.com/eastgenomics/eris/pull/103#issuecomment-1979169059) in [eastgenomics/eris](https://github.com/eastgenomics/eris)
+7. 🗣 Commented on [#3097](https://github.com/dipy/dipy/pull/3097#issuecomment-1979126594) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#57](https://github.com/esynr3z/corsair/pull/57#issuecomment-1979114167) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
+9. 🗣 Commented on [#56](https://github.com/esynr3z/corsair/pull/56#issuecomment-1979083945) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
+10. 🗣 Commented on [#55](https://github.com/esynr3z/corsair/pull/55#issuecomment-1979060677) in [esynr3z/corsair](https://github.com/esynr3z/corsair)
 <!--END_SECTION:activity-->
