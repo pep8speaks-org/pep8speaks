@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1040](https://github.com/oemof/oemof-solph/pull/1040#issuecomment-1983141796) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-2. 🗣 Commented on [#5508](https://github.com/rhinstaller/anaconda/pull/5508#issuecomment-1982677808) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#4367](https://github.com/uwcirg/truenth-portal/pull/4367#issuecomment-1982281063) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-4. 🗣 Commented on [#3102](https://github.com/dipy/dipy/pull/3102#issuecomment-1982155665) in [dipy/dipy](https://github.com/dipy/dipy)
-5. 🗣 Commented on [#69](https://github.com/hasl-sensor/integration/pull/69#issuecomment-1981888013) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
-6. 🗣 Commented on [#4366](https://github.com/uwcirg/truenth-portal/pull/4366#issuecomment-1981759393) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-7. 🗣 Commented on [#1692](https://github.com/OGGM/oggm/pull/1692#issuecomment-1981650156) in [OGGM/oggm](https://github.com/OGGM/oggm)
-8. 🗣 Commented on [#934](https://github.com/scilus/scilpy/pull/934#issuecomment-1981643907) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#54](https://github.com/rasbt/LLMs-from-scratch/pull/54#issuecomment-1981001346) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-10. 🗣 Commented on [#5507](https://github.com/rhinstaller/anaconda/pull/5507#issuecomment-1980828792) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#25](https://github.com/eastgenomics/test_directory_parser/pull/25#issuecomment-1983307800) in [eastgenomics/test_directory_parser](https://github.com/eastgenomics/test_directory_parser)
+2. 🗣 Commented on [#1508](https://github.com/openSUSE/osc/pull/1508#issuecomment-1983273435) in [openSUSE/osc](https://github.com/openSUSE/osc)
+3. 🗣 Commented on [#1040](https://github.com/oemof/oemof-solph/pull/1040#issuecomment-1983141796) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+4. 🗣 Commented on [#5508](https://github.com/rhinstaller/anaconda/pull/5508#issuecomment-1982677808) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#4367](https://github.com/uwcirg/truenth-portal/pull/4367#issuecomment-1982281063) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+6. 🗣 Commented on [#3102](https://github.com/dipy/dipy/pull/3102#issuecomment-1982155665) in [dipy/dipy](https://github.com/dipy/dipy)
+7. 🗣 Commented on [#69](https://github.com/hasl-sensor/integration/pull/69#issuecomment-1981888013) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
+8. 🗣 Commented on [#4366](https://github.com/uwcirg/truenth-portal/pull/4366#issuecomment-1981759393) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+9. 🗣 Commented on [#1692](https://github.com/OGGM/oggm/pull/1692#issuecomment-1981650156) in [OGGM/oggm](https://github.com/OGGM/oggm)
+10. 🗣 Commented on [#934](https://github.com/scilus/scilpy/pull/934#issuecomment-1981643907) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
