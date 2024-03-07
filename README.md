@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#126](https://github.com/aimclub/Fedot.Industrial/pull/126#issuecomment-1983403209) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-2. 🗣 Commented on [#25](https://github.com/eastgenomics/test_directory_parser/pull/25#issuecomment-1983307800) in [eastgenomics/test_directory_parser](https://github.com/eastgenomics/test_directory_parser)
-3. 🗣 Commented on [#1508](https://github.com/openSUSE/osc/pull/1508#issuecomment-1983273435) in [openSUSE/osc](https://github.com/openSUSE/osc)
-4. 🗣 Commented on [#1040](https://github.com/oemof/oemof-solph/pull/1040#issuecomment-1983141796) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-5. 🗣 Commented on [#5508](https://github.com/rhinstaller/anaconda/pull/5508#issuecomment-1982677808) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-6. 🗣 Commented on [#4367](https://github.com/uwcirg/truenth-portal/pull/4367#issuecomment-1982281063) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-7. 🗣 Commented on [#3102](https://github.com/dipy/dipy/pull/3102#issuecomment-1982155665) in [dipy/dipy](https://github.com/dipy/dipy)
-8. 🗣 Commented on [#69](https://github.com/hasl-sensor/integration/pull/69#issuecomment-1981888013) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
-9. 🗣 Commented on [#4366](https://github.com/uwcirg/truenth-portal/pull/4366#issuecomment-1981759393) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-10. 🗣 Commented on [#1692](https://github.com/OGGM/oggm/pull/1692#issuecomment-1981650156) in [OGGM/oggm](https://github.com/OGGM/oggm)
+1. 🗣 Commented on [#936](https://github.com/scilus/scilpy/pull/936#issuecomment-1983602151) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#126](https://github.com/aimclub/Fedot.Industrial/pull/126#issuecomment-1983403209) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+3. 🗣 Commented on [#25](https://github.com/eastgenomics/test_directory_parser/pull/25#issuecomment-1983307800) in [eastgenomics/test_directory_parser](https://github.com/eastgenomics/test_directory_parser)
+4. 🗣 Commented on [#1508](https://github.com/openSUSE/osc/pull/1508#issuecomment-1983273435) in [openSUSE/osc](https://github.com/openSUSE/osc)
+5. 🗣 Commented on [#1040](https://github.com/oemof/oemof-solph/pull/1040#issuecomment-1983141796) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+6. 🗣 Commented on [#5508](https://github.com/rhinstaller/anaconda/pull/5508#issuecomment-1982677808) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#4367](https://github.com/uwcirg/truenth-portal/pull/4367#issuecomment-1982281063) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+8. 🗣 Commented on [#3102](https://github.com/dipy/dipy/pull/3102#issuecomment-1982155665) in [dipy/dipy](https://github.com/dipy/dipy)
+9. 🗣 Commented on [#69](https://github.com/hasl-sensor/integration/pull/69#issuecomment-1981888013) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
+10. 🗣 Commented on [#4366](https://github.com/uwcirg/truenth-portal/pull/4366#issuecomment-1981759393) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
 <!--END_SECTION:activity-->
