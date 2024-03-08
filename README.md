@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#942](https://github.com/scilus/scilpy/pull/942#issuecomment-1984555978) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#19](https://github.com/codingfriendsfun/pcc/pull/19#issuecomment-1984530927) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-3. 🗣 Commented on [#17](https://github.com/codingfriendsfun/pcc/pull/17#issuecomment-1984529407) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-4. 🗣 Commented on [#1265](https://github.com/aimclub/FEDOT/pull/1265#issuecomment-1984427075) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-5. 🗣 Commented on [#1076](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1076#issuecomment-1984228192) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-6. 🗣 Commented on [#937](https://github.com/scilus/scilpy/pull/937#issuecomment-1983995298) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#3104](https://github.com/dipy/dipy/pull/3104#issuecomment-1983713631) in [dipy/dipy](https://github.com/dipy/dipy)
-8. 🗣 Commented on [#936](https://github.com/scilus/scilpy/pull/936#issuecomment-1983602151) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#126](https://github.com/aimclub/Fedot.Industrial/pull/126#issuecomment-1983403209) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-10. 🗣 Commented on [#25](https://github.com/eastgenomics/test_directory_parser/pull/25#issuecomment-1983307800) in [eastgenomics/test_directory_parser](https://github.com/eastgenomics/test_directory_parser)
+1. 🗣 Commented on [#21](https://github.com/codingfriendsfun/pcc/pull/21#issuecomment-1985030571) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
+2. 🗣 Commented on [#942](https://github.com/scilus/scilpy/pull/942#issuecomment-1984555978) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#19](https://github.com/codingfriendsfun/pcc/pull/19#issuecomment-1984530927) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
+4. 🗣 Commented on [#17](https://github.com/codingfriendsfun/pcc/pull/17#issuecomment-1984529407) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
+5. 🗣 Commented on [#1265](https://github.com/aimclub/FEDOT/pull/1265#issuecomment-1984427075) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+6. 🗣 Commented on [#1076](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1076#issuecomment-1984228192) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#937](https://github.com/scilus/scilpy/pull/937#issuecomment-1983995298) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#3104](https://github.com/dipy/dipy/pull/3104#issuecomment-1983713631) in [dipy/dipy](https://github.com/dipy/dipy)
+9. 🗣 Commented on [#936](https://github.com/scilus/scilpy/pull/936#issuecomment-1983602151) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#126](https://github.com/aimclub/Fedot.Industrial/pull/126#issuecomment-1983403209) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
 <!--END_SECTION:activity-->
