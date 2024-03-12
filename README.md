@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#21875](https://github.com/spyder-ide/spyder/pull/21875#issuecomment-1990936206) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-2. 🗣 Commented on [#2064](https://github.com/rpm-software-management/dnf/pull/2064#issuecomment-1989198175) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-3. 🗣 Commented on [#1](https://github.com/meanmail/django-model-utils/pull/1#issuecomment-1988908148) in [meanmail/django-model-utils](https://github.com/meanmail/django-model-utils)
-4. 🗣 Commented on [#76](https://github.com/Remi-Gau/bids2cite/pull/76#issuecomment-1988551807) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
-5. 🗣 Commented on [#1497](https://github.com/spacetelescope/jwql/pull/1497#issuecomment-1988494185) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-6. 🗣 Commented on [#66](https://github.com/rasbt/LLMs-from-scratch/pull/66#issuecomment-1988293448) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-7. 🗣 Commented on [#3879](https://github.com/privacyidea/privacyidea/pull/3879#issuecomment-1987992905) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-8. 🗣 Commented on [#1267](https://github.com/aimclub/FEDOT/pull/1267#issuecomment-1987795013) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-9. 🗣 Commented on [#416](https://github.com/xarray-contrib/xskillscore/pull/416#issuecomment-1987362157) in [xarray-contrib/xskillscore](https://github.com/xarray-contrib/xskillscore)
-10. 🗣 Commented on [#34](https://github.com/noshita/ktch/pull/34#issuecomment-1987197193) in [noshita/ktch](https://github.com/noshita/ktch)
+1. 🗣 Commented on [#1705](https://github.com/zarr-developers/zarr-python/pull/1705#issuecomment-1991257190) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+2. 🗣 Commented on [#21875](https://github.com/spyder-ide/spyder/pull/21875#issuecomment-1990936206) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#2064](https://github.com/rpm-software-management/dnf/pull/2064#issuecomment-1989198175) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+4. 🗣 Commented on [#1](https://github.com/meanmail/django-model-utils/pull/1#issuecomment-1988908148) in [meanmail/django-model-utils](https://github.com/meanmail/django-model-utils)
+5. 🗣 Commented on [#76](https://github.com/Remi-Gau/bids2cite/pull/76#issuecomment-1988551807) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
+6. 🗣 Commented on [#1497](https://github.com/spacetelescope/jwql/pull/1497#issuecomment-1988494185) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+7. 🗣 Commented on [#66](https://github.com/rasbt/LLMs-from-scratch/pull/66#issuecomment-1988293448) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+8. 🗣 Commented on [#3879](https://github.com/privacyidea/privacyidea/pull/3879#issuecomment-1987992905) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+9. 🗣 Commented on [#1267](https://github.com/aimclub/FEDOT/pull/1267#issuecomment-1987795013) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+10. 🗣 Commented on [#416](https://github.com/xarray-contrib/xskillscore/pull/416#issuecomment-1987362157) in [xarray-contrib/xskillscore](https://github.com/xarray-contrib/xskillscore)
 <!--END_SECTION:activity-->
