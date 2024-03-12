@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#378](https://github.com/dicompyler/dicompyler-core/pull/378#issuecomment-1992553438) in [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core)
-2. 🗣 Commented on [#4482](https://github.com/MDAnalysis/mdanalysis/pull/4482#issuecomment-1992368223) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#227](https://github.com/scil-vital/dwi_ml/pull/227#issuecomment-1992290048) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-4. 🗣 Commented on [#515](https://github.com/zarr-developers/numcodecs/pull/515#issuecomment-1992069025) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
-5. 🗣 Commented on [#2808](https://github.com/metabrainz/listenbrainz-server/pull/2808#issuecomment-1991411773) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-6. 🗣 Commented on [#1705](https://github.com/zarr-developers/zarr-python/pull/1705#issuecomment-1991257190) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-7. 🗣 Commented on [#21875](https://github.com/spyder-ide/spyder/pull/21875#issuecomment-1990936206) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#2064](https://github.com/rpm-software-management/dnf/pull/2064#issuecomment-1989198175) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-9. 🗣 Commented on [#1](https://github.com/meanmail/django-model-utils/pull/1#issuecomment-1988908148) in [meanmail/django-model-utils](https://github.com/meanmail/django-model-utils)
-10. 🗣 Commented on [#76](https://github.com/Remi-Gau/bids2cite/pull/76#issuecomment-1988551807) in [Remi-Gau/bids2cite](https://github.com/Remi-Gau/bids2cite)
+1. 🗣 Commented on [#1223](https://github.com/tableau/connector-plugin-sdk/pull/1223#issuecomment-1992649214) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+2. 🗣 Commented on [#378](https://github.com/dicompyler/dicompyler-core/pull/378#issuecomment-1992553438) in [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core)
+3. 🗣 Commented on [#4482](https://github.com/MDAnalysis/mdanalysis/pull/4482#issuecomment-1992368223) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#227](https://github.com/scil-vital/dwi_ml/pull/227#issuecomment-1992290048) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+5. 🗣 Commented on [#515](https://github.com/zarr-developers/numcodecs/pull/515#issuecomment-1992069025) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+6. 🗣 Commented on [#2808](https://github.com/metabrainz/listenbrainz-server/pull/2808#issuecomment-1991411773) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+7. 🗣 Commented on [#1705](https://github.com/zarr-developers/zarr-python/pull/1705#issuecomment-1991257190) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+8. 🗣 Commented on [#21875](https://github.com/spyder-ide/spyder/pull/21875#issuecomment-1990936206) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#2064](https://github.com/rpm-software-management/dnf/pull/2064#issuecomment-1989198175) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+10. 🗣 Commented on [#1](https://github.com/meanmail/django-model-utils/pull/1#issuecomment-1988908148) in [meanmail/django-model-utils](https://github.com/meanmail/django-model-utils)
 <!--END_SECTION:activity-->
