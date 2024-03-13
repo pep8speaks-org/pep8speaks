@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#296](https://github.com/OpenFreeEnergy/gufe/pull/296#issuecomment-1994163302) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-2. 🗣 Commented on [#318](https://github.com/DeMarcoLab/fibsem/pull/318#issuecomment-1992933038) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-3. 🗣 Commented on [#146](https://github.com/DeMarcoLab/autolamella/pull/146#issuecomment-1992931275) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
-4. 🗣 Commented on [#1223](https://github.com/tableau/connector-plugin-sdk/pull/1223#issuecomment-1992649214) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
-5. 🗣 Commented on [#378](https://github.com/dicompyler/dicompyler-core/pull/378#issuecomment-1992553438) in [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core)
-6. 🗣 Commented on [#4482](https://github.com/MDAnalysis/mdanalysis/pull/4482#issuecomment-1992368223) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#227](https://github.com/scil-vital/dwi_ml/pull/227#issuecomment-1992290048) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-8. 🗣 Commented on [#515](https://github.com/zarr-developers/numcodecs/pull/515#issuecomment-1992069025) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
-9. 🗣 Commented on [#2808](https://github.com/metabrainz/listenbrainz-server/pull/2808#issuecomment-1991411773) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-10. 🗣 Commented on [#1705](https://github.com/zarr-developers/zarr-python/pull/1705#issuecomment-1991257190) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+1. 🗣 Commented on [#527](https://github.com/rpm-software-management/dnf-plugins-core/pull/527#issuecomment-1994276520) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+2. 🗣 Commented on [#296](https://github.com/OpenFreeEnergy/gufe/pull/296#issuecomment-1994163302) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+3. 🗣 Commented on [#318](https://github.com/DeMarcoLab/fibsem/pull/318#issuecomment-1992933038) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+4. 🗣 Commented on [#146](https://github.com/DeMarcoLab/autolamella/pull/146#issuecomment-1992931275) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+5. 🗣 Commented on [#1223](https://github.com/tableau/connector-plugin-sdk/pull/1223#issuecomment-1992649214) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+6. 🗣 Commented on [#378](https://github.com/dicompyler/dicompyler-core/pull/378#issuecomment-1992553438) in [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core)
+7. 🗣 Commented on [#4482](https://github.com/MDAnalysis/mdanalysis/pull/4482#issuecomment-1992368223) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#227](https://github.com/scil-vital/dwi_ml/pull/227#issuecomment-1992290048) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+9. 🗣 Commented on [#515](https://github.com/zarr-developers/numcodecs/pull/515#issuecomment-1992069025) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+10. 🗣 Commented on [#2808](https://github.com/metabrainz/listenbrainz-server/pull/2808#issuecomment-1991411773) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
