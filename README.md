@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#52](https://github.com/tuhinmallick/timeseries-simulation/pull/52#issuecomment-1996213141) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
-2. 🗣 Commented on [#199](https://github.com/Fatal1ty/mashumaro/pull/199#issuecomment-1995669702) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
-3. 🗣 Commented on [#198](https://github.com/Fatal1ty/mashumaro/pull/198#issuecomment-1995652016) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
-4. 🗣 Commented on [#1077](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1077#issuecomment-1995604110) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-5. 🗣 Commented on [#493](https://github.com/HEPCloud/decisionengine_modules/pull/493#issuecomment-1995572529) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
-6. 🗣 Commented on [#56](https://github.com/Fatal1ty/aioapns/pull/56#issuecomment-1995524686) in [Fatal1ty/aioapns](https://github.com/Fatal1ty/aioapns)
-7. 🗣 Commented on [#944](https://github.com/scilus/scilpy/pull/944#issuecomment-1994673121) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#69](https://github.com/rasbt/LLMs-from-scratch/pull/69#issuecomment-1994427525) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-9. 🗣 Commented on [#69](https://github.com/rasbt/LLMs-from-scratch/pull/69#issuecomment-1994421936) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-10. 🗣 Commented on [#527](https://github.com/rpm-software-management/dnf-plugins-core/pull/527#issuecomment-1994276520) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+1. 🗣 Commented on [#21891](https://github.com/spyder-ide/spyder/pull/21891#issuecomment-1997163621) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#52](https://github.com/tuhinmallick/timeseries-simulation/pull/52#issuecomment-1996213141) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
+3. 🗣 Commented on [#199](https://github.com/Fatal1ty/mashumaro/pull/199#issuecomment-1995669702) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+4. 🗣 Commented on [#198](https://github.com/Fatal1ty/mashumaro/pull/198#issuecomment-1995652016) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+5. 🗣 Commented on [#1077](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1077#issuecomment-1995604110) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+6. 🗣 Commented on [#493](https://github.com/HEPCloud/decisionengine_modules/pull/493#issuecomment-1995572529) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
+7. 🗣 Commented on [#56](https://github.com/Fatal1ty/aioapns/pull/56#issuecomment-1995524686) in [Fatal1ty/aioapns](https://github.com/Fatal1ty/aioapns)
+8. 🗣 Commented on [#944](https://github.com/scilus/scilpy/pull/944#issuecomment-1994673121) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#69](https://github.com/rasbt/LLMs-from-scratch/pull/69#issuecomment-1994427525) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+10. 🗣 Commented on [#69](https://github.com/rasbt/LLMs-from-scratch/pull/69#issuecomment-1994421936) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 <!--END_SECTION:activity-->
