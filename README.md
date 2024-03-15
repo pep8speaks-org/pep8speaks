@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1520](https://github.com/spacetelescope/jwql/pull/1520#issuecomment-2000354086) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#2967](https://github.com/astropy/astroquery/pull/2967#issuecomment-2000276733) in [astropy/astroquery](https://github.com/astropy/astroquery)
-3. 🗣 Commented on [#4437](https://github.com/pyload/pyload/pull/4437#issuecomment-2000250387) in [pyload/pyload](https://github.com/pyload/pyload)
-4. 🗣 Commented on [#4335](https://github.com/uwcirg/truenth-portal/pull/4335#issuecomment-2000028909) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-5. 🗣 Commented on [#427](https://github.com/payu-org/payu/pull/427#issuecomment-1998867643) in [payu-org/payu](https://github.com/payu-org/payu)
-6. 🗣 Commented on [#38](https://github.com/tuhinmallick/timeseries-simulation/pull/38#issuecomment-1998694711) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
-7. 🗣 Commented on [#1078](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1078#issuecomment-1998590200) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-8. 🗣 Commented on [#23](https://github.com/cdfxscrq/File-Sharing-Bot/pull/23#issuecomment-1998472872) in [cdfxscrq/File-Sharing-Bot](https://github.com/cdfxscrq/File-Sharing-Bot)
-9. 🗣 Commented on [#1516](https://github.com/spacetelescope/jwql/pull/1516#issuecomment-1998329178) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#947](https://github.com/scilus/scilpy/pull/947#issuecomment-1998059860) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#1521](https://github.com/spacetelescope/jwql/pull/1521#issuecomment-2000436719) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+2. 🗣 Commented on [#1520](https://github.com/spacetelescope/jwql/pull/1520#issuecomment-2000354086) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#2967](https://github.com/astropy/astroquery/pull/2967#issuecomment-2000276733) in [astropy/astroquery](https://github.com/astropy/astroquery)
+4. 🗣 Commented on [#4437](https://github.com/pyload/pyload/pull/4437#issuecomment-2000250387) in [pyload/pyload](https://github.com/pyload/pyload)
+5. 🗣 Commented on [#4335](https://github.com/uwcirg/truenth-portal/pull/4335#issuecomment-2000028909) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+6. 🗣 Commented on [#427](https://github.com/payu-org/payu/pull/427#issuecomment-1998867643) in [payu-org/payu](https://github.com/payu-org/payu)
+7. 🗣 Commented on [#38](https://github.com/tuhinmallick/timeseries-simulation/pull/38#issuecomment-1998694711) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
+8. 🗣 Commented on [#1078](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1078#issuecomment-1998590200) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+9. 🗣 Commented on [#23](https://github.com/cdfxscrq/File-Sharing-Bot/pull/23#issuecomment-1998472872) in [cdfxscrq/File-Sharing-Bot](https://github.com/cdfxscrq/File-Sharing-Bot)
+10. 🗣 Commented on [#1516](https://github.com/spacetelescope/jwql/pull/1516#issuecomment-1998329178) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
