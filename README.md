@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#28](https://github.com/tuhinmallick/timeseries-simulation/pull/28#issuecomment-2002216429) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
-2. 🗣 Commented on [#3128](https://github.com/dipy/dipy/pull/3128#issuecomment-2002204321) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#71](https://github.com/hasl-sensor/integration/pull/71#issuecomment-2002176094) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
-4. 🗣 Commented on [#5](https://github.com/Cybsloth/de_zoomcamp_2024/pull/5#issuecomment-2002097436) in [Cybsloth/de_zoomcamp_2024](https://github.com/Cybsloth/de_zoomcamp_2024)
-5. 🗣 Commented on [#1](https://github.com/phalanx-hk/kaggle_pipeline/pull/1#issuecomment-2002048559) in [phalanx-hk/kaggle_pipeline](https://github.com/phalanx-hk/kaggle_pipeline)
-6. 🗣 Commented on [#4438](https://github.com/pyload/pyload/pull/4438#issuecomment-2001959183) in [pyload/pyload](https://github.com/pyload/pyload)
-7. 🗣 Commented on [#319](https://github.com/DeMarcoLab/fibsem/pull/319#issuecomment-2001880823) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-8. 🗣 Commented on [#122](https://github.com/aimclub/FEDOT.Web/pull/122#issuecomment-2000536083) in [aimclub/FEDOT.Web](https://github.com/aimclub/FEDOT.Web)
-9. 🗣 Commented on [#1521](https://github.com/spacetelescope/jwql/pull/1521#issuecomment-2000436719) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#1520](https://github.com/spacetelescope/jwql/pull/1520#issuecomment-2000354086) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#21903](https://github.com/spyder-ide/spyder/pull/21903#issuecomment-2002329544) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#28](https://github.com/tuhinmallick/timeseries-simulation/pull/28#issuecomment-2002216429) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
+3. 🗣 Commented on [#3128](https://github.com/dipy/dipy/pull/3128#issuecomment-2002204321) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#71](https://github.com/hasl-sensor/integration/pull/71#issuecomment-2002176094) in [hasl-sensor/integration](https://github.com/hasl-sensor/integration)
+5. 🗣 Commented on [#5](https://github.com/Cybsloth/de_zoomcamp_2024/pull/5#issuecomment-2002097436) in [Cybsloth/de_zoomcamp_2024](https://github.com/Cybsloth/de_zoomcamp_2024)
+6. 🗣 Commented on [#1](https://github.com/phalanx-hk/kaggle_pipeline/pull/1#issuecomment-2002048559) in [phalanx-hk/kaggle_pipeline](https://github.com/phalanx-hk/kaggle_pipeline)
+7. 🗣 Commented on [#4438](https://github.com/pyload/pyload/pull/4438#issuecomment-2001959183) in [pyload/pyload](https://github.com/pyload/pyload)
+8. 🗣 Commented on [#319](https://github.com/DeMarcoLab/fibsem/pull/319#issuecomment-2001880823) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+9. 🗣 Commented on [#122](https://github.com/aimclub/FEDOT.Web/pull/122#issuecomment-2000536083) in [aimclub/FEDOT.Web](https://github.com/aimclub/FEDOT.Web)
+10. 🗣 Commented on [#1521](https://github.com/spacetelescope/jwql/pull/1521#issuecomment-2000436719) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
