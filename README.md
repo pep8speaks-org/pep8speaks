@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#2](https://github.com/Tamminhdiep97/PDFs_chat/pull/2#issuecomment-2002819339) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
-2. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/PDFs_chat/pull/1#issuecomment-2002788281) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
-3. 🗣 Commented on [#2815](https://github.com/metabrainz/listenbrainz-server/pull/2815#issuecomment-2002779664) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#13](https://github.com/sarnold/ymltoxml/pull/13#issuecomment-2002769012) in [sarnold/ymltoxml](https://github.com/sarnold/ymltoxml)
-5. 🗣 Commented on [#75](https://github.com/rasbt/LLMs-from-scratch/pull/75#issuecomment-2002749042) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-6. 🗣 Commented on [#1101](https://github.com/lmcinnes/umap/pull/1101#issuecomment-2002605006) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-7. 🗣 Commented on [#1](https://github.com/arfc/msr-spatial-dep/pull/1#issuecomment-2002551791) in [arfc/msr-spatial-dep](https://github.com/arfc/msr-spatial-dep)
-8. 🗣 Commented on [#21903](https://github.com/spyder-ide/spyder/pull/21903#issuecomment-2002329544) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-9. 🗣 Commented on [#28](https://github.com/tuhinmallick/timeseries-simulation/pull/28#issuecomment-2002216429) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
-10. 🗣 Commented on [#3128](https://github.com/dipy/dipy/pull/3128#issuecomment-2002204321) in [dipy/dipy](https://github.com/dipy/dipy)
+1. 🗣 Commented on [#3132](https://github.com/dipy/dipy/pull/3132#issuecomment-2004087486) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#2](https://github.com/Tamminhdiep97/PDFs_chat/pull/2#issuecomment-2002819339) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
+3. 🗣 Commented on [#1](https://github.com/Tamminhdiep97/PDFs_chat/pull/1#issuecomment-2002788281) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
+4. 🗣 Commented on [#2815](https://github.com/metabrainz/listenbrainz-server/pull/2815#issuecomment-2002779664) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#13](https://github.com/sarnold/ymltoxml/pull/13#issuecomment-2002769012) in [sarnold/ymltoxml](https://github.com/sarnold/ymltoxml)
+6. 🗣 Commented on [#75](https://github.com/rasbt/LLMs-from-scratch/pull/75#issuecomment-2002749042) in [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+7. 🗣 Commented on [#1101](https://github.com/lmcinnes/umap/pull/1101#issuecomment-2002605006) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+8. 🗣 Commented on [#1](https://github.com/arfc/msr-spatial-dep/pull/1#issuecomment-2002551791) in [arfc/msr-spatial-dep](https://github.com/arfc/msr-spatial-dep)
+9. 🗣 Commented on [#21903](https://github.com/spyder-ide/spyder/pull/21903#issuecomment-2002329544) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#28](https://github.com/tuhinmallick/timeseries-simulation/pull/28#issuecomment-2002216429) in [tuhinmallick/timeseries-simulation](https://github.com/tuhinmallick/timeseries-simulation)
 <!--END_SECTION:activity-->
