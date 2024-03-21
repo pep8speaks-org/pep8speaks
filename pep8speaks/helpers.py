@@ -331,6 +331,19 @@ def prepare_comment(ghrequest, config):
     if action_text:
         comment_footer.append(
             config["message"][action_text[:-3] + "ed"]["footer"])
+    comment_footer.append("""<details>
+<summary>PEP 8 Speaks commands and options</summary>
+<br />
+
+You can trigger PEP 8 Speaks actions by commenting on this PR:
+
+- `@pep8speaks suggest diff` in a comment of the PR, and it will comment
+  a gist of diff suggesting fixes for the PR
+- `@pep8speaks pep8ify` on the PR and it will create a Pull Request with
+  changes suggested by autopep8 against the branch of the author of the PR.
+  autopep8 fixes most of the errors reported by pycodestyle
+
+</details>""")
 
     comment_footer = ''.join(comment_footer)
 
