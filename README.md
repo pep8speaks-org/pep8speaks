@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#42](https://github.com/AndrewHocking/DanceConnect/pull/42#issuecomment-2017150836) in [AndrewHocking/DanceConnect](https://github.com/AndrewHocking/DanceConnect)
-2. 🗣 Commented on [#4528](https://github.com/MDAnalysis/mdanalysis/pull/4528#issuecomment-2016820316) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#1105](https://github.com/lmcinnes/umap/pull/1105#issuecomment-2016692684) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-4. 🗣 Commented on [#1104](https://github.com/lmcinnes/umap/pull/1104#issuecomment-2016592988) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-5. 🗣 Commented on [#116](https://github.com/alecalve/python-bitcoin-blockchain-parser/pull/116#issuecomment-2016539896) in [alecalve/python-bitcoin-blockchain-parser](https://github.com/alecalve/python-bitcoin-blockchain-parser)
-6. 🗣 Commented on [#115](https://github.com/alecalve/python-bitcoin-blockchain-parser/pull/115#issuecomment-2016539754) in [alecalve/python-bitcoin-blockchain-parser](https://github.com/alecalve/python-bitcoin-blockchain-parser)
-7. 🗣 Commented on [#1103](https://github.com/lmcinnes/umap/pull/1103#issuecomment-2016489561) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-8. 🗣 Commented on [#1519](https://github.com/spacetelescope/jwql/pull/1519#issuecomment-2016320066) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-9. 🗣 Commented on [#104](https://github.com/drauger-os-development/edamame/pull/104#issuecomment-2016314413) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-10. 🗣 Commented on [#5526](https://github.com/rhinstaller/anaconda/pull/5526#issuecomment-2015920567) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#4529](https://github.com/MDAnalysis/mdanalysis/pull/4529#issuecomment-2017340697) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+2. 🗣 Commented on [#42](https://github.com/AndrewHocking/DanceConnect/pull/42#issuecomment-2017150836) in [AndrewHocking/DanceConnect](https://github.com/AndrewHocking/DanceConnect)
+3. 🗣 Commented on [#4528](https://github.com/MDAnalysis/mdanalysis/pull/4528#issuecomment-2016820316) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#1105](https://github.com/lmcinnes/umap/pull/1105#issuecomment-2016692684) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+5. 🗣 Commented on [#1104](https://github.com/lmcinnes/umap/pull/1104#issuecomment-2016592988) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+6. 🗣 Commented on [#116](https://github.com/alecalve/python-bitcoin-blockchain-parser/pull/116#issuecomment-2016539896) in [alecalve/python-bitcoin-blockchain-parser](https://github.com/alecalve/python-bitcoin-blockchain-parser)
+7. 🗣 Commented on [#115](https://github.com/alecalve/python-bitcoin-blockchain-parser/pull/115#issuecomment-2016539754) in [alecalve/python-bitcoin-blockchain-parser](https://github.com/alecalve/python-bitcoin-blockchain-parser)
+8. 🗣 Commented on [#1103](https://github.com/lmcinnes/umap/pull/1103#issuecomment-2016489561) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+9. 🗣 Commented on [#1519](https://github.com/spacetelescope/jwql/pull/1519#issuecomment-2016320066) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#104](https://github.com/drauger-os-development/edamame/pull/104#issuecomment-2016314413) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
 <!--END_SECTION:activity-->
