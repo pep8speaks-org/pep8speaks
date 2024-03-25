@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#10](https://github.com/eastgenomics/test_directory_checker/pull/10#issuecomment-2018044128) in [eastgenomics/test_directory_checker](https://github.com/eastgenomics/test_directory_checker)
-2. 🗣 Commented on [#9175](https://github.com/statsmodels/statsmodels/pull/9175#issuecomment-2017944128) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-3. 🗣 Commented on [#2509](https://github.com/metabrainz/listenbrainz-server/pull/2509#issuecomment-2017884499) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#622](https://github.com/NeuralEnsemble/elephant/pull/622#issuecomment-2017726134) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-5. 🗣 Commented on [#3887](https://github.com/privacyidea/privacyidea/pull/3887#issuecomment-2017514808) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-6. 🗣 Commented on [#4530](https://github.com/MDAnalysis/mdanalysis/pull/4530#issuecomment-2017372631) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#4529](https://github.com/MDAnalysis/mdanalysis/pull/4529#issuecomment-2017340697) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-8. 🗣 Commented on [#42](https://github.com/AndrewHocking/DanceConnect/pull/42#issuecomment-2017150836) in [AndrewHocking/DanceConnect](https://github.com/AndrewHocking/DanceConnect)
-9. 🗣 Commented on [#4528](https://github.com/MDAnalysis/mdanalysis/pull/4528#issuecomment-2016820316) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-10. 🗣 Commented on [#1105](https://github.com/lmcinnes/umap/pull/1105#issuecomment-2016692684) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+1. 🗣 Commented on [#92](https://github.com/cirKITers/Quafel/pull/92#issuecomment-2018133715) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+2. 🗣 Commented on [#10](https://github.com/eastgenomics/test_directory_checker/pull/10#issuecomment-2018044128) in [eastgenomics/test_directory_checker](https://github.com/eastgenomics/test_directory_checker)
+3. 🗣 Commented on [#9175](https://github.com/statsmodels/statsmodels/pull/9175#issuecomment-2017944128) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+4. 🗣 Commented on [#2509](https://github.com/metabrainz/listenbrainz-server/pull/2509#issuecomment-2017884499) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#622](https://github.com/NeuralEnsemble/elephant/pull/622#issuecomment-2017726134) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+6. 🗣 Commented on [#3887](https://github.com/privacyidea/privacyidea/pull/3887#issuecomment-2017514808) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+7. 🗣 Commented on [#4530](https://github.com/MDAnalysis/mdanalysis/pull/4530#issuecomment-2017372631) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#4529](https://github.com/MDAnalysis/mdanalysis/pull/4529#issuecomment-2017340697) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+9. 🗣 Commented on [#42](https://github.com/AndrewHocking/DanceConnect/pull/42#issuecomment-2017150836) in [AndrewHocking/DanceConnect](https://github.com/AndrewHocking/DanceConnect)
+10. 🗣 Commented on [#4528](https://github.com/MDAnalysis/mdanalysis/pull/4528#issuecomment-2016820316) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
 <!--END_SECTION:activity-->
