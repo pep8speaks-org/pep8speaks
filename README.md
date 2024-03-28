@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4372](https://github.com/uwcirg/truenth-portal/pull/4372#issuecomment-2024219422) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-2. 🗣 Commented on [#3157](https://github.com/dipy/dipy/pull/3157#issuecomment-2024205729) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#433](https://github.com/payu-org/payu/pull/433#issuecomment-2024059017) in [payu-org/payu](https://github.com/payu-org/payu)
-4. 🗣 Commented on [#3894](https://github.com/privacyidea/privacyidea/pull/3894#issuecomment-2023661822) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-5. 🗣 Commented on [#4374](https://github.com/uwcirg/truenth-portal/pull/4374#issuecomment-2023411705) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-6. 🗣 Commented on [#945](https://github.com/scilus/scilpy/pull/945#issuecomment-2023327886) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#1](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/1#issuecomment-2023129220) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-8. 🗣 Commented on [#964](https://github.com/avaframe/AvaFrame/pull/964#issuecomment-2023090461) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-9. 🗣 Commented on [#921](https://github.com/ToFuProject/tofu/pull/921#issuecomment-2023073608) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-10. 🗣 Commented on [#116](https://github.com/MDAnalysis/mdacli/pull/116#issuecomment-2023057822) in [MDAnalysis/mdacli](https://github.com/MDAnalysis/mdacli)
+1. 🗣 Commented on [#72](https://github.com/SwaragThaikkandi/SMdRQA/pull/72#issuecomment-2024464203) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+2. 🗣 Commented on [#71](https://github.com/SwaragThaikkandi/SMdRQA/pull/71#issuecomment-2024458801) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+3. 🗣 Commented on [#4372](https://github.com/uwcirg/truenth-portal/pull/4372#issuecomment-2024219422) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+4. 🗣 Commented on [#3157](https://github.com/dipy/dipy/pull/3157#issuecomment-2024205729) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#433](https://github.com/payu-org/payu/pull/433#issuecomment-2024059017) in [payu-org/payu](https://github.com/payu-org/payu)
+6. 🗣 Commented on [#3894](https://github.com/privacyidea/privacyidea/pull/3894#issuecomment-2023661822) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+7. 🗣 Commented on [#4374](https://github.com/uwcirg/truenth-portal/pull/4374#issuecomment-2023411705) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+8. 🗣 Commented on [#945](https://github.com/scilus/scilpy/pull/945#issuecomment-2023327886) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#1](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/1#issuecomment-2023129220) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+10. 🗣 Commented on [#964](https://github.com/avaframe/AvaFrame/pull/964#issuecomment-2023090461) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
 <!--END_SECTION:activity-->
