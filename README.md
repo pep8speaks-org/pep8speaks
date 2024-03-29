@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1107](https://github.com/lmcinnes/umap/pull/1107#issuecomment-2027776141) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-2. 🗣 Commented on [#21942](https://github.com/spyder-ide/spyder/pull/21942#issuecomment-2027712375) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#5](https://github.com/Advik-B/CurseForge-API/pull/5#issuecomment-2027671230) in [Advik-B/CurseForge-API](https://github.com/Advik-B/CurseForge-API)
-4. 🗣 Commented on [#9186](https://github.com/statsmodels/statsmodels/pull/9186#issuecomment-2027556236) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-5. 🗣 Commented on [#3156](https://github.com/dipy/dipy/pull/3156#issuecomment-2027505080) in [dipy/dipy](https://github.com/dipy/dipy)
-6. 🗣 Commented on [#21945](https://github.com/spyder-ide/spyder/pull/21945#issuecomment-2027480582) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#624](https://github.com/HEXRD/hexrd/pull/624#issuecomment-2027476856) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-8. 🗣 Commented on [#1](https://github.com/Remi-Gau/mist2templateflow/pull/1#issuecomment-2027392514) in [Remi-Gau/mist2templateflow](https://github.com/Remi-Gau/mist2templateflow)
-9. 🗣 Commented on [#531](https://github.com/UIUCLibrary/Speedwagon/pull/531#issuecomment-2027363981) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-10. 🗣 Commented on [#37](https://github.com/autonomio/wrangle/pull/37#issuecomment-2027165773) in [autonomio/wrangle](https://github.com/autonomio/wrangle)
+1. 🗣 Commented on [#56](https://github.com/AllenInstitute/em_stitch/pull/56#issuecomment-2027822543) in [AllenInstitute/em_stitch](https://github.com/AllenInstitute/em_stitch)
+2. 🗣 Commented on [#1107](https://github.com/lmcinnes/umap/pull/1107#issuecomment-2027776141) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+3. 🗣 Commented on [#21942](https://github.com/spyder-ide/spyder/pull/21942#issuecomment-2027712375) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+4. 🗣 Commented on [#5](https://github.com/Advik-B/CurseForge-API/pull/5#issuecomment-2027671230) in [Advik-B/CurseForge-API](https://github.com/Advik-B/CurseForge-API)
+5. 🗣 Commented on [#9186](https://github.com/statsmodels/statsmodels/pull/9186#issuecomment-2027556236) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+6. 🗣 Commented on [#3156](https://github.com/dipy/dipy/pull/3156#issuecomment-2027505080) in [dipy/dipy](https://github.com/dipy/dipy)
+7. 🗣 Commented on [#21945](https://github.com/spyder-ide/spyder/pull/21945#issuecomment-2027480582) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#624](https://github.com/HEXRD/hexrd/pull/624#issuecomment-2027476856) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+9. 🗣 Commented on [#1](https://github.com/Remi-Gau/mist2templateflow/pull/1#issuecomment-2027392514) in [Remi-Gau/mist2templateflow](https://github.com/Remi-Gau/mist2templateflow)
+10. 🗣 Commented on [#531](https://github.com/UIUCLibrary/Speedwagon/pull/531#issuecomment-2027363981) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
 <!--END_SECTION:activity-->
