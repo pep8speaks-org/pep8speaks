@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1274](https://github.com/aimclub/FEDOT/pull/1274#issuecomment-2030121577) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#825](https://github.com/spacetelescope/webbpsf/pull/825#issuecomment-2030033447) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-3. 🗣 Commented on [#2826](https://github.com/metabrainz/listenbrainz-server/pull/2826#issuecomment-2029670004) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#115](https://github.com/SwaragThaikkandi/SMdRQA/pull/115#issuecomment-2029508352) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
-5. 🗣 Commented on [#905](https://github.com/PyThaiNLP/pythainlp/pull/905#issuecomment-2029477151) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-6. 🗣 Commented on [#93](https://github.com/cirKITers/Quafel/pull/93#issuecomment-2029441082) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
-7. 🗣 Commented on [#6](https://github.com/Tamminhdiep97/PDFs_chat/pull/6#issuecomment-2028595770) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
-8. 🗣 Commented on [#4548](https://github.com/MDAnalysis/mdanalysis/pull/4548#issuecomment-2028533290) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-9. 🗣 Commented on [#877](https://github.com/fury-gl/fury/pull/877#issuecomment-2028194877) in [fury-gl/fury](https://github.com/fury-gl/fury)
-10. 🗣 Commented on [#3161](https://github.com/dipy/dipy/pull/3161#issuecomment-2028125388) in [dipy/dipy](https://github.com/dipy/dipy)
+1. 🗣 Commented on [#30](https://github.com/Borda/pyRepoStats/pull/30#issuecomment-2030166010) in [Borda/pyRepoStats](https://github.com/Borda/pyRepoStats)
+2. 🗣 Commented on [#1274](https://github.com/aimclub/FEDOT/pull/1274#issuecomment-2030121577) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+3. 🗣 Commented on [#825](https://github.com/spacetelescope/webbpsf/pull/825#issuecomment-2030033447) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+4. 🗣 Commented on [#2826](https://github.com/metabrainz/listenbrainz-server/pull/2826#issuecomment-2029670004) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#115](https://github.com/SwaragThaikkandi/SMdRQA/pull/115#issuecomment-2029508352) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+6. 🗣 Commented on [#905](https://github.com/PyThaiNLP/pythainlp/pull/905#issuecomment-2029477151) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+7. 🗣 Commented on [#93](https://github.com/cirKITers/Quafel/pull/93#issuecomment-2029441082) in [cirKITers/Quafel](https://github.com/cirKITers/Quafel)
+8. 🗣 Commented on [#6](https://github.com/Tamminhdiep97/PDFs_chat/pull/6#issuecomment-2028595770) in [Tamminhdiep97/PDFs_chat](https://github.com/Tamminhdiep97/PDFs_chat)
+9. 🗣 Commented on [#4548](https://github.com/MDAnalysis/mdanalysis/pull/4548#issuecomment-2028533290) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+10. 🗣 Commented on [#877](https://github.com/fury-gl/fury/pull/877#issuecomment-2028194877) in [fury-gl/fury](https://github.com/fury-gl/fury)
 <!--END_SECTION:activity-->
