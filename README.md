@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#966](https://github.com/avaframe/AvaFrame/pull/966#issuecomment-2034713010) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-2. 🗣 Commented on [#119](https://github.com/MDAnalysis/mdacli/pull/119#issuecomment-2034648681) in [MDAnalysis/mdacli](https://github.com/MDAnalysis/mdacli)
-3. 🗣 Commented on [#118](https://github.com/MDAnalysis/mdacli/pull/118#issuecomment-2034616100) in [MDAnalysis/mdacli](https://github.com/MDAnalysis/mdacli)
-4. 🗣 Commented on [#98](https://github.com/INT-NIT/DigLabTools/pull/98#issuecomment-2034591632) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
-5. 🗣 Commented on [#27](https://github.com/thoth-pub/thoth-dissemination/pull/27#issuecomment-2034310183) in [thoth-pub/thoth-dissemination](https://github.com/thoth-pub/thoth-dissemination)
-6. 🗣 Commented on [#121](https://github.com/SwaragThaikkandi/SMdRQA/pull/121#issuecomment-2034024360) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
-7. 🗣 Commented on [#116](https://github.com/SwaragThaikkandi/SMdRQA/pull/116#issuecomment-2033949966) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
-8. 🗣 Commented on [#29](https://github.com/njzjz/dpdata_qdpi/pull/29#issuecomment-2033897898) in [njzjz/dpdata_qdpi](https://github.com/njzjz/dpdata_qdpi)
-9. 🗣 Commented on [#1079](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1079#issuecomment-2033096968) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-10. 🗣 Commented on [#1702](https://github.com/OGGM/oggm/pull/1702#issuecomment-2032896843) in [OGGM/oggm](https://github.com/OGGM/oggm)
+1. 🗣 Commented on [#675](https://github.com/spacetelescope/webbpsf/pull/675#issuecomment-2034846595) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+2. 🗣 Commented on [#966](https://github.com/avaframe/AvaFrame/pull/966#issuecomment-2034713010) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+3. 🗣 Commented on [#119](https://github.com/MDAnalysis/mdacli/pull/119#issuecomment-2034648681) in [MDAnalysis/mdacli](https://github.com/MDAnalysis/mdacli)
+4. 🗣 Commented on [#118](https://github.com/MDAnalysis/mdacli/pull/118#issuecomment-2034616100) in [MDAnalysis/mdacli](https://github.com/MDAnalysis/mdacli)
+5. 🗣 Commented on [#98](https://github.com/INT-NIT/DigLabTools/pull/98#issuecomment-2034591632) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+6. 🗣 Commented on [#27](https://github.com/thoth-pub/thoth-dissemination/pull/27#issuecomment-2034310183) in [thoth-pub/thoth-dissemination](https://github.com/thoth-pub/thoth-dissemination)
+7. 🗣 Commented on [#121](https://github.com/SwaragThaikkandi/SMdRQA/pull/121#issuecomment-2034024360) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+8. 🗣 Commented on [#116](https://github.com/SwaragThaikkandi/SMdRQA/pull/116#issuecomment-2033949966) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+9. 🗣 Commented on [#29](https://github.com/njzjz/dpdata_qdpi/pull/29#issuecomment-2033897898) in [njzjz/dpdata_qdpi](https://github.com/njzjz/dpdata_qdpi)
+10. 🗣 Commented on [#1079](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1079#issuecomment-2033096968) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
