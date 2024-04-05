@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3176](https://github.com/dipy/dipy/pull/3176#issuecomment-2040420967) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#1746](https://github.com/zarr-developers/zarr-python/pull/1746#issuecomment-2040234741) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-3. 🗣 Commented on [#827](https://github.com/spacetelescope/webbpsf/pull/827#issuecomment-2040093080) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#3174](https://github.com/dipy/dipy/pull/3174#issuecomment-2039985744) in [dipy/dipy](https://github.com/dipy/dipy)
-5. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-6. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-7. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-8. 🗣 Commented on [#5539](https://github.com/rhinstaller/anaconda/pull/5539#issuecomment-2039144359) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-9. 🗣 Commented on [#434](https://github.com/payu-org/payu/pull/434#issuecomment-2038990386) in [payu-org/payu](https://github.com/payu-org/payu)
-10. 🗣 Commented on [#21969](https://github.com/spyder-ide/spyder/pull/21969#issuecomment-2038627147) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#23](https://github.com/Sage-Bionetworks-Challenges/cnb-tools/pull/23#issuecomment-2040732217) in [Sage-Bionetworks-Challenges/cnb-tools](https://github.com/Sage-Bionetworks-Challenges/cnb-tools)
+2. 🗣 Commented on [#3176](https://github.com/dipy/dipy/pull/3176#issuecomment-2040420967) in [dipy/dipy](https://github.com/dipy/dipy)
+3. 🗣 Commented on [#1746](https://github.com/zarr-developers/zarr-python/pull/1746#issuecomment-2040234741) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+4. 🗣 Commented on [#827](https://github.com/spacetelescope/webbpsf/pull/827#issuecomment-2040093080) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+5. 🗣 Commented on [#3174](https://github.com/dipy/dipy/pull/3174#issuecomment-2039985744) in [dipy/dipy](https://github.com/dipy/dipy)
+6. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+7. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+8. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+9. 🗣 Commented on [#5539](https://github.com/rhinstaller/anaconda/pull/5539#issuecomment-2039144359) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#434](https://github.com/payu-org/payu/pull/434#issuecomment-2038990386) in [payu-org/payu](https://github.com/payu-org/payu)
 <!--END_SECTION:activity-->
