@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-2. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-3. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-4. 🗣 Commented on [#5539](https://github.com/rhinstaller/anaconda/pull/5539#issuecomment-2039144359) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#434](https://github.com/payu-org/payu/pull/434#issuecomment-2038990386) in [payu-org/payu](https://github.com/payu-org/payu)
-6. 🗣 Commented on [#21969](https://github.com/spyder-ide/spyder/pull/21969#issuecomment-2038627147) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#3172](https://github.com/dipy/dipy/pull/3172#issuecomment-2038498458) in [dipy/dipy](https://github.com/dipy/dipy)
-8. 🗣 Commented on [#3170](https://github.com/dipy/dipy/pull/3170#issuecomment-2037737314) in [dipy/dipy](https://github.com/dipy/dipy)
-9. 🗣 Commented on [#20](https://github.com/Sage-Bionetworks-Challenges/cnb-tools/pull/20#issuecomment-2037644864) in [Sage-Bionetworks-Challenges/cnb-tools](https://github.com/Sage-Bionetworks-Challenges/cnb-tools)
-10. 🗣 Commented on [#626](https://github.com/NeuralEnsemble/elephant/pull/626#issuecomment-2037489754) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+1. 🗣 Commented on [#3174](https://github.com/dipy/dipy/pull/3174#issuecomment-2039985744) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+3. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+4. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+5. 🗣 Commented on [#5539](https://github.com/rhinstaller/anaconda/pull/5539#issuecomment-2039144359) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#434](https://github.com/payu-org/payu/pull/434#issuecomment-2038990386) in [payu-org/payu](https://github.com/payu-org/payu)
+7. 🗣 Commented on [#21969](https://github.com/spyder-ide/spyder/pull/21969#issuecomment-2038627147) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#3172](https://github.com/dipy/dipy/pull/3172#issuecomment-2038498458) in [dipy/dipy](https://github.com/dipy/dipy)
+9. 🗣 Commented on [#3170](https://github.com/dipy/dipy/pull/3170#issuecomment-2037737314) in [dipy/dipy](https://github.com/dipy/dipy)
+10. 🗣 Commented on [#20](https://github.com/Sage-Bionetworks-Challenges/cnb-tools/pull/20#issuecomment-2037644864) in [Sage-Bionetworks-Challenges/cnb-tools](https://github.com/Sage-Bionetworks-Challenges/cnb-tools)
 <!--END_SECTION:activity-->
