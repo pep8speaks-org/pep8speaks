@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#303](https://github.com/AdvancedPhotonSource/tike/pull/303#issuecomment-2040799683) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-2. 🗣 Commented on [#23](https://github.com/Sage-Bionetworks-Challenges/cnb-tools/pull/23#issuecomment-2040732217) in [Sage-Bionetworks-Challenges/cnb-tools](https://github.com/Sage-Bionetworks-Challenges/cnb-tools)
-3. 🗣 Commented on [#3176](https://github.com/dipy/dipy/pull/3176#issuecomment-2040420967) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#1746](https://github.com/zarr-developers/zarr-python/pull/1746#issuecomment-2040234741) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-5. 🗣 Commented on [#827](https://github.com/spacetelescope/webbpsf/pull/827#issuecomment-2040093080) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-6. 🗣 Commented on [#3174](https://github.com/dipy/dipy/pull/3174#issuecomment-2039985744) in [dipy/dipy](https://github.com/dipy/dipy)
-7. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-8. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-10. 🗣 Commented on [#5539](https://github.com/rhinstaller/anaconda/pull/5539#issuecomment-2039144359) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#259](https://github.com/CartoonFan/lutris/pull/259#issuecomment-2041351137) in [CartoonFan/lutris](https://github.com/CartoonFan/lutris)
+2. 🗣 Commented on [#303](https://github.com/AdvancedPhotonSource/tike/pull/303#issuecomment-2040799683) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+3. 🗣 Commented on [#23](https://github.com/Sage-Bionetworks-Challenges/cnb-tools/pull/23#issuecomment-2040732217) in [Sage-Bionetworks-Challenges/cnb-tools](https://github.com/Sage-Bionetworks-Challenges/cnb-tools)
+4. 🗣 Commented on [#3176](https://github.com/dipy/dipy/pull/3176#issuecomment-2040420967) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#1746](https://github.com/zarr-developers/zarr-python/pull/1746#issuecomment-2040234741) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+6. 🗣 Commented on [#827](https://github.com/spacetelescope/webbpsf/pull/827#issuecomment-2040093080) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+7. 🗣 Commented on [#3174](https://github.com/dipy/dipy/pull/3174#issuecomment-2039985744) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#1743](https://github.com/zarr-developers/zarr-python/pull/1743#issuecomment-2039855871) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+9. 🗣 Commented on [#128](https://github.com/aimclub/Fedot.Industrial/pull/128#issuecomment-2039480734) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+10. 🗣 Commented on [#811](https://github.com/OpenFreeEnergy/openfe/pull/811#issuecomment-2039174241) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
 <!--END_SECTION:activity-->
