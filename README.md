@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#11](https://github.com/sarnold/pyre2/pull/11#issuecomment-2044084153) in [sarnold/pyre2](https://github.com/sarnold/pyre2)
-2. 🗣 Commented on [#828](https://github.com/spacetelescope/webbpsf/pull/828#issuecomment-2043380993) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-3. 🗣 Commented on [#484](https://github.com/VorTECHsa/python-sdk/pull/484#issuecomment-2042558389) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
-4. 🗣 Commented on [#39](https://github.com/eastgenomics/automated-archiving/pull/39#issuecomment-2042413279) in [eastgenomics/automated-archiving](https://github.com/eastgenomics/automated-archiving)
-5. 🗣 Commented on [#1529](https://github.com/openSUSE/osc/pull/1529#issuecomment-2042109298) in [openSUSE/osc](https://github.com/openSUSE/osc)
-6. 🗣 Commented on [#2](https://github.com/cirKITers/HIDA-Deep-Fake/pull/2#issuecomment-2042054194) in [cirKITers/HIDA-Deep-Fake](https://github.com/cirKITers/HIDA-Deep-Fake)
-7. 🗣 Commented on [#1528](https://github.com/openSUSE/osc/pull/1528#issuecomment-2042035332) in [openSUSE/osc](https://github.com/openSUSE/osc)
-8. 🗣 Commented on [#45](https://github.com/codingfriendsfun/pcc/pull/45#issuecomment-2041605209) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-9. 🗣 Commented on [#8](https://github.com/codingfriendsfun/pcc/pull/8#issuecomment-2041604486) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-10. 🗣 Commented on [#35](https://github.com/MDAnalysis/waterdynamics/pull/35#issuecomment-2041600058) in [MDAnalysis/waterdynamics](https://github.com/MDAnalysis/waterdynamics)
+1. 🗣 Commented on [#6](https://github.com/JINO-ROHIT/learning-cicd/pull/6#issuecomment-2044666733) in [JINO-ROHIT/learning-cicd](https://github.com/JINO-ROHIT/learning-cicd)
+2. 🗣 Commented on [#11](https://github.com/sarnold/pyre2/pull/11#issuecomment-2044084153) in [sarnold/pyre2](https://github.com/sarnold/pyre2)
+3. 🗣 Commented on [#828](https://github.com/spacetelescope/webbpsf/pull/828#issuecomment-2043380993) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+4. 🗣 Commented on [#484](https://github.com/VorTECHsa/python-sdk/pull/484#issuecomment-2042558389) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
+5. 🗣 Commented on [#39](https://github.com/eastgenomics/automated-archiving/pull/39#issuecomment-2042413279) in [eastgenomics/automated-archiving](https://github.com/eastgenomics/automated-archiving)
+6. 🗣 Commented on [#1529](https://github.com/openSUSE/osc/pull/1529#issuecomment-2042109298) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#2](https://github.com/cirKITers/HIDA-Deep-Fake/pull/2#issuecomment-2042054194) in [cirKITers/HIDA-Deep-Fake](https://github.com/cirKITers/HIDA-Deep-Fake)
+8. 🗣 Commented on [#1528](https://github.com/openSUSE/osc/pull/1528#issuecomment-2042035332) in [openSUSE/osc](https://github.com/openSUSE/osc)
+9. 🗣 Commented on [#45](https://github.com/codingfriendsfun/pcc/pull/45#issuecomment-2041605209) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
+10. 🗣 Commented on [#8](https://github.com/codingfriendsfun/pcc/pull/8#issuecomment-2041604486) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
 <!--END_SECTION:activity-->
