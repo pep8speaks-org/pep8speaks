@@ -1,4 +1,3 @@
-import collections
 import fnmatch
 import hmac
 import json
@@ -8,6 +7,10 @@ from flask import abort
 from flask import Response as FResponse
 import requests
 from pep8speaks.constants import GITHUB_TOKEN, BASE_URL
+try:
+    from collections.abc import Mapping
+except ImportError:
+    from collections import Mapping
 
 
 def query_request(query=None, method="GET", **kwargs):
@@ -45,8 +48,8 @@ def update_dict(base, head):
     """
     for key, value in head.items():
         if key in base:
-            if isinstance(base, collections.Mapping):
-                if isinstance(value, collections.Mapping):
+            if isinstance(base, Mapping):
+                if isinstance(value, Mapping):
                     base[key] = update_dict(base.get(key, {}), value)
                 else:
                     base[key] = head[key]
