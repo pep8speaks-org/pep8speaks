@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#502](https://github.com/oemof/tespy/pull/502#issuecomment-2057924608) in [oemof/tespy](https://github.com/oemof/tespy)
-2. 🗣 Commented on [#1541](https://github.com/spacetelescope/jwql/pull/1541#issuecomment-2057694211) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#114](https://github.com/TIGRLab/datman-dashboard/pull/114#issuecomment-2057473790) in [TIGRLab/datman-dashboard](https://github.com/TIGRLab/datman-dashboard)
-4. 🗣 Commented on [#3158](https://github.com/reframe-hpc/reframe/pull/3158#issuecomment-2057383579) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#1536](https://github.com/openSUSE/osc/pull/1536#issuecomment-2057047173) in [openSUSE/osc](https://github.com/openSUSE/osc)
-6. 🗣 Commented on [#57](https://github.com/eastgenomics/Genetics_Ark/pull/57#issuecomment-2056898482) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
-7. 🗣 Commented on [#1383](https://github.com/deepfakes/faceswap/pull/1383#issuecomment-2056546396) in [deepfakes/faceswap](https://github.com/deepfakes/faceswap)
-8. 🗣 Commented on [#50](https://github.com/codingfriendsfun/pcc/pull/50#issuecomment-2053860585) in [codingfriendsfun/pcc](https://github.com/codingfriendsfun/pcc)
-9. 🗣 Commented on [#5](https://github.com/Code-Institute-Solutions/WalkthroughProject01/pull/5#issuecomment-2053766249) in [Code-Institute-Solutions/WalkthroughProject01](https://github.com/Code-Institute-Solutions/WalkthroughProject01)
-10. 🗣 Commented on [#9](https://github.com/sarnold/pyre2/pull/9#issuecomment-2053754241) in [sarnold/pyre2](https://github.com/sarnold/pyre2)
+1. 🗣 Commented on [#34](https://github.com/jcmgray/cotengra/pull/34#issuecomment-2059980447) in [jcmgray/cotengra](https://github.com/jcmgray/cotengra)
+2. 🗣 Commented on [#633](https://github.com/HEXRD/hexrd/pull/633#issuecomment-2059914275) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+3. 🗣 Commented on [#972](https://github.com/scilus/scilpy/pull/972#issuecomment-2059668915) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#763](https://github.com/minerllabs/minerl/pull/763#issuecomment-2059542091) in [minerllabs/minerl](https://github.com/minerllabs/minerl)
+5. 🗣 Commented on [#504](https://github.com/oemof/tespy/pull/504#issuecomment-2059525068) in [oemof/tespy](https://github.com/oemof/tespy)
+6. 🗣 Commented on [#8](https://github.com/alexfore/ARIA-tools/pull/8#issuecomment-2059501781) in [alexfore/ARIA-tools](https://github.com/alexfore/ARIA-tools)
+7. 🗣 Commented on [#5571](https://github.com/rhinstaller/anaconda/pull/5571#issuecomment-2059478301) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+8. 🗣 Commented on [#7](https://github.com/alexfore/ARIA-tools/pull/7#issuecomment-2059478059) in [alexfore/ARIA-tools](https://github.com/alexfore/ARIA-tools)
+9. 🗣 Commented on [#60](https://github.com/eastgenomics/Genetics_Ark/pull/60#issuecomment-2059325957) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
+10. 🗣 Commented on [#5570](https://github.com/rhinstaller/anaconda/pull/5570#issuecomment-2059275992) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
