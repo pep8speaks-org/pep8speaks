@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#34](https://github.com/jcmgray/cotengra/pull/34#issuecomment-2059980447) in [jcmgray/cotengra](https://github.com/jcmgray/cotengra)
-2. 🗣 Commented on [#633](https://github.com/HEXRD/hexrd/pull/633#issuecomment-2059914275) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-3. 🗣 Commented on [#972](https://github.com/scilus/scilpy/pull/972#issuecomment-2059668915) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#763](https://github.com/minerllabs/minerl/pull/763#issuecomment-2059542091) in [minerllabs/minerl](https://github.com/minerllabs/minerl)
-5. 🗣 Commented on [#504](https://github.com/oemof/tespy/pull/504#issuecomment-2059525068) in [oemof/tespy](https://github.com/oemof/tespy)
-6. 🗣 Commented on [#8](https://github.com/alexfore/ARIA-tools/pull/8#issuecomment-2059501781) in [alexfore/ARIA-tools](https://github.com/alexfore/ARIA-tools)
-7. 🗣 Commented on [#5571](https://github.com/rhinstaller/anaconda/pull/5571#issuecomment-2059478301) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#7](https://github.com/alexfore/ARIA-tools/pull/7#issuecomment-2059478059) in [alexfore/ARIA-tools](https://github.com/alexfore/ARIA-tools)
-9. 🗣 Commented on [#60](https://github.com/eastgenomics/Genetics_Ark/pull/60#issuecomment-2059325957) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
-10. 🗣 Commented on [#5570](https://github.com/rhinstaller/anaconda/pull/5570#issuecomment-2059275992) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#22005](https://github.com/spyder-ide/spyder/pull/22005#issuecomment-2062510487) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#3194](https://github.com/dipy/dipy/pull/3194#issuecomment-2062351682) in [dipy/dipy](https://github.com/dipy/dipy)
+3. 🗣 Commented on [#1129](https://github.com/yeatmanlab/pyAFQ/pull/1129#issuecomment-2062272758) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+4. 🗣 Commented on [#307](https://github.com/OpenFreeEnergy/gufe/pull/307#issuecomment-2062103152) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+5. 🗣 Commented on [#306](https://github.com/OpenFreeEnergy/gufe/pull/306#issuecomment-2062085505) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+6. 🗣 Commented on [#42](https://github.com/OpenFreeEnergy/kartograf/pull/42#issuecomment-2061971668) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
+7. 🗣 Commented on [#492](https://github.com/VorTECHsa/python-sdk/pull/492#issuecomment-2061800620) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
+8. 🗣 Commented on [#976](https://github.com/scilus/scilpy/pull/976#issuecomment-2061799234) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#192](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/192#issuecomment-2061652449) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+10. 🗣 Commented on [#64](https://github.com/eastgenomics/Genetics_Ark/pull/64#issuecomment-2061495561) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
 <!--END_SECTION:activity-->
