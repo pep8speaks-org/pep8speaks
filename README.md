@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#22006](https://github.com/spyder-ide/spyder/pull/22006#issuecomment-2062760737) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-2. 🗣 Commented on [#22005](https://github.com/spyder-ide/spyder/pull/22005#issuecomment-2062510487) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#3194](https://github.com/dipy/dipy/pull/3194#issuecomment-2062351682) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#1129](https://github.com/yeatmanlab/pyAFQ/pull/1129#issuecomment-2062272758) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-5. 🗣 Commented on [#307](https://github.com/OpenFreeEnergy/gufe/pull/307#issuecomment-2062103152) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-6. 🗣 Commented on [#306](https://github.com/OpenFreeEnergy/gufe/pull/306#issuecomment-2062085505) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
-7. 🗣 Commented on [#42](https://github.com/OpenFreeEnergy/kartograf/pull/42#issuecomment-2061971668) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
-8. 🗣 Commented on [#492](https://github.com/VorTECHsa/python-sdk/pull/492#issuecomment-2061800620) in [VorTECHsa/python-sdk](https://github.com/VorTECHsa/python-sdk)
-9. 🗣 Commented on [#976](https://github.com/scilus/scilpy/pull/976#issuecomment-2061799234) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#192](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/192#issuecomment-2061652449) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+1. 🗣 Commented on [#212](https://github.com/Fatal1ty/mashumaro/pull/212#issuecomment-2065070135) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
+2. 🗣 Commented on [#1544](https://github.com/spacetelescope/jwql/pull/1544#issuecomment-2064994599) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#304](https://github.com/AdvancedPhotonSource/tike/pull/304#issuecomment-2064390452) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+4. 🗣 Commented on [#1684](https://github.com/OGGM/oggm/pull/1684#issuecomment-2064270238) in [OGGM/oggm](https://github.com/OGGM/oggm)
+5. 🗣 Commented on [#72](https://github.com/eastgenomics/trendyQC/pull/72#issuecomment-2063884354) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+6. 🗣 Commented on [#65](https://github.com/eastgenomics/Genetics_Ark/pull/65#issuecomment-2063359408) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
+7. 🗣 Commented on [#22006](https://github.com/spyder-ide/spyder/pull/22006#issuecomment-2062760737) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#22005](https://github.com/spyder-ide/spyder/pull/22005#issuecomment-2062510487) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#3194](https://github.com/dipy/dipy/pull/3194#issuecomment-2062351682) in [dipy/dipy](https://github.com/dipy/dipy)
+10. 🗣 Commented on [#1129](https://github.com/yeatmanlab/pyAFQ/pull/1129#issuecomment-2062272758) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
 <!--END_SECTION:activity-->
