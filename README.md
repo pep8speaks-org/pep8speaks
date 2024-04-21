@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#926](https://github.com/ToFuProject/tofu/pull/926#issuecomment-2067217046) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-2. 🗣 Commented on [#635](https://github.com/HEXRD/hexrd/pull/635#issuecomment-2066808038) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-3. 🗣 Commented on [#633](https://github.com/NeuralEnsemble/elephant/pull/633#issuecomment-2066750478) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-4. 🗣 Commented on [#74](https://github.com/eastgenomics/trendyQC/pull/74#issuecomment-2066207044) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-5. 🗣 Commented on [#1542](https://github.com/openSUSE/osc/pull/1542#issuecomment-2066181143) in [openSUSE/osc](https://github.com/openSUSE/osc)
-6. 🗣 Commented on [#115](https://github.com/eastgenomics/eggd_conductor/pull/115#issuecomment-2066149889) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-7. 🗣 Commented on [#634](https://github.com/HEXRD/hexrd/pull/634#issuecomment-2065691825) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-8. 🗣 Commented on [#212](https://github.com/Fatal1ty/mashumaro/pull/212#issuecomment-2065070135) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
-9. 🗣 Commented on [#1544](https://github.com/spacetelescope/jwql/pull/1544#issuecomment-2064994599) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#304](https://github.com/AdvancedPhotonSource/tike/pull/304#issuecomment-2064390452) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+1. 🗣 Commented on [#3197](https://github.com/dipy/dipy/pull/3197#issuecomment-2067705261) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#59](https://github.com/autonomio/astetik/pull/59#issuecomment-2067690861) in [autonomio/astetik](https://github.com/autonomio/astetik)
+3. 🗣 Commented on [#598](https://github.com/autonomio/talos/pull/598#issuecomment-2067687587) in [autonomio/talos](https://github.com/autonomio/talos)
+4. 🗣 Commented on [#819](https://github.com/StingraySoftware/stingray/pull/819#issuecomment-2067626714) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+5. 🗣 Commented on [#3196](https://github.com/dipy/dipy/pull/3196#issuecomment-2067576657) in [dipy/dipy](https://github.com/dipy/dipy)
+6. 🗣 Commented on [#926](https://github.com/ToFuProject/tofu/pull/926#issuecomment-2067217046) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+7. 🗣 Commented on [#635](https://github.com/HEXRD/hexrd/pull/635#issuecomment-2066808038) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+8. 🗣 Commented on [#633](https://github.com/NeuralEnsemble/elephant/pull/633#issuecomment-2066750478) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
+9. 🗣 Commented on [#74](https://github.com/eastgenomics/trendyQC/pull/74#issuecomment-2066207044) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+10. 🗣 Commented on [#1542](https://github.com/openSUSE/osc/pull/1542#issuecomment-2066181143) in [openSUSE/osc](https://github.com/openSUSE/osc)
 <!--END_SECTION:activity-->
