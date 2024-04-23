@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3197](https://github.com/dipy/dipy/pull/3197#issuecomment-2067705261) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#59](https://github.com/autonomio/astetik/pull/59#issuecomment-2067690861) in [autonomio/astetik](https://github.com/autonomio/astetik)
-3. 🗣 Commented on [#598](https://github.com/autonomio/talos/pull/598#issuecomment-2067687587) in [autonomio/talos](https://github.com/autonomio/talos)
-4. 🗣 Commented on [#819](https://github.com/StingraySoftware/stingray/pull/819#issuecomment-2067626714) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-5. 🗣 Commented on [#3196](https://github.com/dipy/dipy/pull/3196#issuecomment-2067576657) in [dipy/dipy](https://github.com/dipy/dipy)
-6. 🗣 Commented on [#926](https://github.com/ToFuProject/tofu/pull/926#issuecomment-2067217046) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-7. 🗣 Commented on [#635](https://github.com/HEXRD/hexrd/pull/635#issuecomment-2066808038) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-8. 🗣 Commented on [#633](https://github.com/NeuralEnsemble/elephant/pull/633#issuecomment-2066750478) in [NeuralEnsemble/elephant](https://github.com/NeuralEnsemble/elephant)
-9. 🗣 Commented on [#74](https://github.com/eastgenomics/trendyQC/pull/74#issuecomment-2066207044) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-10. 🗣 Commented on [#1542](https://github.com/openSUSE/osc/pull/1542#issuecomment-2066181143) in [openSUSE/osc](https://github.com/openSUSE/osc)
+1. 🗣 Commented on [#398](https://github.com/aria-tools/ARIA-tools/pull/398#issuecomment-2070313074) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+2. 🗣 Commented on [#1](https://github.com/eastgenomics/eggd_generate_wgs_solid_cancer_workbook/pull/1#issuecomment-2069344028) in [eastgenomics/eggd_generate_wgs_solid_cancer_workbook](https://github.com/eastgenomics/eggd_generate_wgs_solid_cancer_workbook)
+3. 🗣 Commented on [#79](https://github.com/eastgenomics/trendyQC/pull/79#issuecomment-2069211982) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+4. 🗣 Commented on [#77](https://github.com/eastgenomics/trendyQC/pull/77#issuecomment-2069173824) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+5. 🗣 Commented on [#1544](https://github.com/openSUSE/osc/pull/1544#issuecomment-2069163440) in [openSUSE/osc](https://github.com/openSUSE/osc)
+6. 🗣 Commented on [#76](https://github.com/eastgenomics/trendyQC/pull/76#issuecomment-2069080530) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+7. 🗣 Commented on [#1804](https://github.com/zarr-developers/zarr-python/pull/1804#issuecomment-2069055066) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+8. 🗣 Commented on [#968](https://github.com/avaframe/AvaFrame/pull/968#issuecomment-2069000072) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#75](https://github.com/eastgenomics/trendyQC/pull/75#issuecomment-2068992261) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+10. 🗣 Commented on [#226](https://github.com/OpenSCAP/openscap-report/pull/226#issuecomment-2068852199) in [OpenSCAP/openscap-report](https://github.com/OpenSCAP/openscap-report)
 <!--END_SECTION:activity-->
