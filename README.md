@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#399](https://github.com/aria-tools/ARIA-tools/pull/399#issuecomment-2075999490) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-2. 🗣 Commented on [#2848](https://github.com/metabrainz/listenbrainz-server/pull/2848#issuecomment-2075176175) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#560](https://github.com/aramis-lab/clinicadl/pull/560#issuecomment-2075156211) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-4. 🗣 Commented on [#193](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/193#issuecomment-2075069354) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
-5. 🗣 Commented on [#880](https://github.com/fury-gl/fury/pull/880#issuecomment-2074806312) in [fury-gl/fury](https://github.com/fury-gl/fury)
-6. 🗣 Commented on [#491](https://github.com/Spoken-tutorial/spoken-website/pull/491#issuecomment-2074718051) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-7. 🗣 Commented on [#81](https://github.com/eastgenomics/trendyQC/pull/81#issuecomment-2074600145) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-8. 🗣 Commented on [#68](https://github.com/eastgenomics/Genetics_Ark/pull/68#issuecomment-2074464978) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
-9. 🗣 Commented on [#42](https://github.com/NASA-Planetary-Science/AmesCAP/pull/42#issuecomment-2073427635) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-10. 🗣 Commented on [#985](https://github.com/scilus/scilpy/pull/985#issuecomment-2073279393) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#25](https://github.com/njzjz/nodejs-wheel/pull/25#issuecomment-2078310142) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
+2. 🗣 Commented on [#1693](https://github.com/HEXRD/hexrdgui/pull/1693#issuecomment-2078202516) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+3. 🗣 Commented on [#3](https://github.com/michaelfdickey/my_daily_news/pull/3#issuecomment-2077781293) in [michaelfdickey/my_daily_news](https://github.com/michaelfdickey/my_daily_news)
+4. 🗣 Commented on [#2](https://github.com/michaelfdickey/my_daily_news/pull/2#issuecomment-2077766099) in [michaelfdickey/my_daily_news](https://github.com/michaelfdickey/my_daily_news)
+5. 🗣 Commented on [#2998](https://github.com/astropy/astroquery/pull/2998#issuecomment-2077587980) in [astropy/astroquery](https://github.com/astropy/astroquery)
+6. 🗣 Commented on [#117](https://github.com/eastgenomics/eggd_conductor/pull/117#issuecomment-2077262286) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+7. 🗣 Commented on [#2850](https://github.com/metabrainz/listenbrainz-server/pull/2850#issuecomment-2077132820) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+8. 🗣 Commented on [#194](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/194#issuecomment-2076900350) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+9. 🗣 Commented on [#24](https://github.com/njzjz/nodejs-wheel/pull/24#issuecomment-2076893615) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
+10. 🗣 Commented on [#2997](https://github.com/astropy/astroquery/pull/2997#issuecomment-2076889746) in [astropy/astroquery](https://github.com/astropy/astroquery)
 <!--END_SECTION:activity-->
