@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1550](https://github.com/openSUSE/osc/pull/1550#issuecomment-2080062643) in [openSUSE/osc](https://github.com/openSUSE/osc)
-2. 🗣 Commented on [#22027](https://github.com/spyder-ide/spyder/pull/22027#issuecomment-2079557488) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#986](https://github.com/scilus/scilpy/pull/986#issuecomment-2079507038) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#2855](https://github.com/metabrainz/listenbrainz-server/pull/2855#issuecomment-2079430500) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#203](https://github.com/eastgenomics/eggd_dias_batch/pull/203#issuecomment-2079401156) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-6. 🗣 Commented on [#202](https://github.com/eastgenomics/eggd_dias_batch/pull/202#issuecomment-2079400986) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-7. 🗣 Commented on [#200](https://github.com/eastgenomics/eggd_dias_batch/pull/200#issuecomment-2079400710) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-8. 🗣 Commented on [#82](https://github.com/eastgenomics/trendyQC/pull/82#issuecomment-2079371531) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-9. 🗣 Commented on [#495](https://github.com/Spoken-tutorial/spoken-website/pull/495#issuecomment-2079124078) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-10. 🗣 Commented on [#1497](https://github.com/rpm-software-management/ci-dnf-stack/pull/1497#issuecomment-2079007402) in [rpm-software-management/ci-dnf-stack](https://github.com/rpm-software-management/ci-dnf-stack)
+1. 🗣 Commented on [#882](https://github.com/fury-gl/fury/pull/882#issuecomment-2081184806) in [fury-gl/fury](https://github.com/fury-gl/fury)
+2. 🗣 Commented on [#9235](https://github.com/statsmodels/statsmodels/pull/9235#issuecomment-2080915687) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+3. 🗣 Commented on [#315](https://github.com/OpenFreeEnergy/gufe/pull/315#issuecomment-2080411439) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+4. 🗣 Commented on [#26](https://github.com/njzjz/nodejs-wheel/pull/26#issuecomment-2080358896) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
+5. 🗣 Commented on [#1550](https://github.com/openSUSE/osc/pull/1550#issuecomment-2080062643) in [openSUSE/osc](https://github.com/openSUSE/osc)
+6. 🗣 Commented on [#22027](https://github.com/spyder-ide/spyder/pull/22027#issuecomment-2079557488) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#986](https://github.com/scilus/scilpy/pull/986#issuecomment-2079507038) in [scilus/scilpy](https://github.com/scilus/scilpy)
+8. 🗣 Commented on [#2855](https://github.com/metabrainz/listenbrainz-server/pull/2855#issuecomment-2079430500) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#203](https://github.com/eastgenomics/eggd_dias_batch/pull/203#issuecomment-2079401156) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
+10. 🗣 Commented on [#202](https://github.com/eastgenomics/eggd_dias_batch/pull/202#issuecomment-2079400986) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
 <!--END_SECTION:activity-->
