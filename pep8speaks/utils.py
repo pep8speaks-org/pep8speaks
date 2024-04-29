@@ -27,7 +27,9 @@ def query_request(query=None, method="GET", **kwargs):
     request_kwargs = {
         "headers": {"Authorization": f"Bearer {GITHUB_TOKEN}"}
     }
-    request_kwargs.update(**kwargs)
+
+    for kw in kwargs:
+        request_kwargs["headers"].update(kwargs[kw])
     return requests.request(method, query, **request_kwargs)
 
 
