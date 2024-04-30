@@ -15,7 +15,7 @@ WORKDIR /project
 
 RUN pdm install
 
-EXPOSE 8080
+EXPOSE 8000
 
 # Define the command to run your application using Gunicorn
 CMD ["pdm", "run", "start"]
