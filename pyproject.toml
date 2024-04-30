@@ -4,6 +4,7 @@ version = ""
 description = ""
 authors = [
     {name = "Kanishk Pachauri", email = "itskanishkp.py@gmail.com"},
+    {name = "Tushar Gupta", email = "codingid6@gmail.com"},
 ]
 dependencies = [
     "requests>=2.31.0",
