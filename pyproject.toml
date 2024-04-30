@@ -1,0 +1,38 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Kanishk Pachauri", email = "itskanishkp.py@gmail.com"},
+]
+dependencies = [
+    "requests>=2.31.0",
+    "flask>=3.0.0",
+    "gunicorn>=21.2.0",
+    "pycodestyle>=2.11.1",
+    "flake8>=6.1.0",
+    "PyYAML>=6.0.1",
+    "unidiff>=0.7.5",
+    "autopep8>=2.0.4",
+    "markdown>=3.5.1",
+    "beautifulsoup4>=4.12.2",
+    "markupsafe>=2.1.3",
+    "python-dotenv>=1.0.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.3",
+    "pytest-flask>=1.3.0",
+    "pytest-mock>=3.12.0",
+    "mock>=5.1.0",
+]
+pytest = []
+pytest-flask = []
+pytest-mock = []
+mock = []
+[tool.pdm.scripts]
+start = "gunicorn server:app --bind 0.0.0.0:8000 --workers 4"
+dev = "python3 server.py"
