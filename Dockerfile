@@ -1,22 +1,21 @@
 # Use an official Python runtime as a parent image
 FROM python:3.8-alpine
 
-# Set the working directory to /app
-WORKDIR /app
+# install PDM
+RUN pip install -U pip setuptools wheel
+RUN pip install pdm
 
-# Copy the current directory contents into the container at /app
-COPY requirements /app/requirements
-COPY requirements.txt /app/requirements.txt
+# copy files
+COPY pyproject.toml pdm.lock README.md /project/
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+COPY . /project
 
-COPY pep8speaks /app/pep8speaks
-COPY server.py /app/server.py
-COPY data /app/data
 
-# Expose port 8000 for the Gunicorn server to listen on
-EXPOSE 8000
+WORKDIR /project
+
+RUN pdm install
+
+EXPOSE 8080
 
 # Define the command to run your application using Gunicorn
-CMD ["gunicorn", "server:app", "--bind", "0.0.0.0:8000",  "--workers", "4"]
+CMD ["pdm", "run", "start"]
