@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4582](https://github.com/MDAnalysis/mdanalysis/pull/4582#issuecomment-2087561050) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-2. 🗣 Commented on [#4](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024/pull/4#issuecomment-2086341587) in [ERPGulf/Saudi-E-Invoicing-Phase-2-2024](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024)
-3. 🗣 Commented on [#1549](https://github.com/spacetelescope/jwql/pull/1549#issuecomment-2085881475) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#2858](https://github.com/metabrainz/listenbrainz-server/pull/2858#issuecomment-2085338603) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#155](https://github.com/lettucecfd/lettuce/pull/155#issuecomment-2085132148) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-6. 🗣 Commented on [#3923](https://github.com/privacyidea/privacyidea/pull/3923#issuecomment-2084822998) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-7. 🗣 Commented on [#510](https://github.com/oemof/tespy/pull/510#issuecomment-2084369106) in [oemof/tespy](https://github.com/oemof/tespy)
-8. 🗣 Commented on [#51](https://github.com/PenguinCloud/WaddlePerf/pull/51#issuecomment-2083800616) in [PenguinCloud/WaddlePerf](https://github.com/PenguinCloud/WaddlePerf)
-9. 🗣 Commented on [#1](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast/pull/1#issuecomment-2083653883) in [Mr-Sunglasses/FastApi-Learn-Fast](https://github.com/Mr-Sunglasses/FastApi-Learn-Fast)
-10. 🗣 Commented on [#1132](https://github.com/yeatmanlab/pyAFQ/pull/1132#issuecomment-2083558399) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+1. 🗣 Commented on [#2861](https://github.com/metabrainz/listenbrainz-server/pull/2861#issuecomment-2088998149) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+2. 🗣 Commented on [#237](https://github.com/scil-vital/dwi_ml/pull/237#issuecomment-2088882818) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+3. 🗣 Commented on [#885](https://github.com/fury-gl/fury/pull/885#issuecomment-2088808068) in [fury-gl/fury](https://github.com/fury-gl/fury)
+4. 🗣 Commented on [#401](https://github.com/aria-tools/ARIA-tools/pull/401#issuecomment-2088289974) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+5. 🗣 Commented on [#42](https://github.com/eastgenomics/automated-archiving/pull/42#issuecomment-2088177108) in [eastgenomics/automated-archiving](https://github.com/eastgenomics/automated-archiving)
+6. 🗣 Commented on [#4584](https://github.com/MDAnalysis/mdanalysis/pull/4584#issuecomment-2088049215) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#4582](https://github.com/MDAnalysis/mdanalysis/pull/4582#issuecomment-2087561050) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#4](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024/pull/4#issuecomment-2086341587) in [ERPGulf/Saudi-E-Invoicing-Phase-2-2024](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024)
+9. 🗣 Commented on [#1549](https://github.com/spacetelescope/jwql/pull/1549#issuecomment-2085881475) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#2858](https://github.com/metabrainz/listenbrainz-server/pull/2858#issuecomment-2085338603) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
