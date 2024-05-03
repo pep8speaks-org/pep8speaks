@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#2861](https://github.com/metabrainz/listenbrainz-server/pull/2861#issuecomment-2088998149) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-2. 🗣 Commented on [#237](https://github.com/scil-vital/dwi_ml/pull/237#issuecomment-2088882818) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-3. 🗣 Commented on [#885](https://github.com/fury-gl/fury/pull/885#issuecomment-2088808068) in [fury-gl/fury](https://github.com/fury-gl/fury)
-4. 🗣 Commented on [#401](https://github.com/aria-tools/ARIA-tools/pull/401#issuecomment-2088289974) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-5. 🗣 Commented on [#42](https://github.com/eastgenomics/automated-archiving/pull/42#issuecomment-2088177108) in [eastgenomics/automated-archiving](https://github.com/eastgenomics/automated-archiving)
-6. 🗣 Commented on [#4584](https://github.com/MDAnalysis/mdanalysis/pull/4584#issuecomment-2088049215) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#4582](https://github.com/MDAnalysis/mdanalysis/pull/4582#issuecomment-2087561050) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-8. 🗣 Commented on [#4](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024/pull/4#issuecomment-2086341587) in [ERPGulf/Saudi-E-Invoicing-Phase-2-2024](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024)
-9. 🗣 Commented on [#1549](https://github.com/spacetelescope/jwql/pull/1549#issuecomment-2085881475) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#2858](https://github.com/metabrainz/listenbrainz-server/pull/2858#issuecomment-2085338603) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+1. 🗣 Commented on [#834](https://github.com/spacetelescope/webbpsf/pull/834#issuecomment-2090678740) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+2. 🗣 Commented on [#196](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/196#issuecomment-2090496435) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+3. 🗣 Commented on [#3927](https://github.com/privacyidea/privacyidea/pull/3927#issuecomment-2090154417) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+4. 🗣 Commented on [#2](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/2#issuecomment-2090040581) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+5. 🗣 Commented on [#325](https://github.com/DeMarcoLab/fibsem/pull/325#issuecomment-2089495250) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+6. 🗣 Commented on [#2861](https://github.com/metabrainz/listenbrainz-server/pull/2861#issuecomment-2088998149) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+7. 🗣 Commented on [#237](https://github.com/scil-vital/dwi_ml/pull/237#issuecomment-2088882818) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+8. 🗣 Commented on [#885](https://github.com/fury-gl/fury/pull/885#issuecomment-2088808068) in [fury-gl/fury](https://github.com/fury-gl/fury)
+9. 🗣 Commented on [#401](https://github.com/aria-tools/ARIA-tools/pull/401#issuecomment-2088289974) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+10. 🗣 Commented on [#42](https://github.com/eastgenomics/automated-archiving/pull/42#issuecomment-2088177108) in [eastgenomics/automated-archiving](https://github.com/eastgenomics/automated-archiving)
 <!--END_SECTION:activity-->
