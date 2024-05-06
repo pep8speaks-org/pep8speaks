@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#2864](https://github.com/metabrainz/listenbrainz-server/pull/2864#issuecomment-2094217743) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-2. 🗣 Commented on [#157](https://github.com/aewallin/allantools/pull/157#issuecomment-2093837059) in [aewallin/allantools](https://github.com/aewallin/allantools)
-3. 🗣 Commented on [#838](https://github.com/spacetelescope/webbpsf/pull/838#issuecomment-2093567175) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#837](https://github.com/spacetelescope/webbpsf/pull/837#issuecomment-2093517319) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-5. 🗣 Commented on [#836](https://github.com/spacetelescope/webbpsf/pull/836#issuecomment-2093238143) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-6. 🗣 Commented on [#36](https://github.com/OpenFreeEnergy/konnektor/pull/36#issuecomment-2093071413) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-7. 🗣 Commented on [#1561](https://github.com/spacetelescope/jwql/pull/1561#issuecomment-2093013851) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-8. 🗣 Commented on [#35](https://github.com/OpenFreeEnergy/konnektor/pull/35#issuecomment-2092994252) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-9. 🗣 Commented on [#24](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/24#issuecomment-2092717988) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-10. 🗣 Commented on [#970](https://github.com/avaframe/AvaFrame/pull/970#issuecomment-2092418349) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#1839](https://github.com/zarr-developers/zarr-python/pull/1839#issuecomment-2094937391) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+2. 🗣 Commented on [#22059](https://github.com/spyder-ide/spyder/pull/22059#issuecomment-2094846151) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#2864](https://github.com/metabrainz/listenbrainz-server/pull/2864#issuecomment-2094217743) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#157](https://github.com/aewallin/allantools/pull/157#issuecomment-2093837059) in [aewallin/allantools](https://github.com/aewallin/allantools)
+5. 🗣 Commented on [#838](https://github.com/spacetelescope/webbpsf/pull/838#issuecomment-2093567175) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+6. 🗣 Commented on [#837](https://github.com/spacetelescope/webbpsf/pull/837#issuecomment-2093517319) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+7. 🗣 Commented on [#836](https://github.com/spacetelescope/webbpsf/pull/836#issuecomment-2093238143) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+8. 🗣 Commented on [#36](https://github.com/OpenFreeEnergy/konnektor/pull/36#issuecomment-2093071413) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
+9. 🗣 Commented on [#1561](https://github.com/spacetelescope/jwql/pull/1561#issuecomment-2093013851) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#35](https://github.com/OpenFreeEnergy/konnektor/pull/35#issuecomment-2092994252) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
 <!--END_SECTION:activity-->
