@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1839](https://github.com/zarr-developers/zarr-python/pull/1839#issuecomment-2094937391) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-2. 🗣 Commented on [#22059](https://github.com/spyder-ide/spyder/pull/22059#issuecomment-2094846151) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#2864](https://github.com/metabrainz/listenbrainz-server/pull/2864#issuecomment-2094217743) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#157](https://github.com/aewallin/allantools/pull/157#issuecomment-2093837059) in [aewallin/allantools](https://github.com/aewallin/allantools)
-5. 🗣 Commented on [#838](https://github.com/spacetelescope/webbpsf/pull/838#issuecomment-2093567175) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-6. 🗣 Commented on [#837](https://github.com/spacetelescope/webbpsf/pull/837#issuecomment-2093517319) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-7. 🗣 Commented on [#836](https://github.com/spacetelescope/webbpsf/pull/836#issuecomment-2093238143) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-8. 🗣 Commented on [#36](https://github.com/OpenFreeEnergy/konnektor/pull/36#issuecomment-2093071413) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-9. 🗣 Commented on [#1561](https://github.com/spacetelescope/jwql/pull/1561#issuecomment-2093013851) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#35](https://github.com/OpenFreeEnergy/konnektor/pull/35#issuecomment-2092994252) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
+1. 🗣 Commented on [#840](https://github.com/spacetelescope/webbpsf/pull/840#issuecomment-2096904015) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+2. 🗣 Commented on [#524](https://github.com/zarr-developers/numcodecs/pull/524#issuecomment-2096813482) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
+3. 🗣 Commented on [#3](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline/pull/3#issuecomment-2096773874) in [Gravity-Spy/gravityspy-ligo-pipeline](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline)
+4. 🗣 Commented on [#1091](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1091#issuecomment-2096650094) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+5. 🗣 Commented on [#3930](https://github.com/privacyidea/privacyidea/pull/3930#issuecomment-2095872772) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+6. 🗣 Commented on [#22061](https://github.com/spyder-ide/spyder/pull/22061#issuecomment-2095813187) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#6](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024/pull/6#issuecomment-2095273647) in [ERPGulf/Saudi-E-Invoicing-Phase-2-2024](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024)
+8. 🗣 Commented on [#1839](https://github.com/zarr-developers/zarr-python/pull/1839#issuecomment-2094937391) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+9. 🗣 Commented on [#22059](https://github.com/spyder-ide/spyder/pull/22059#issuecomment-2094846151) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#2864](https://github.com/metabrainz/listenbrainz-server/pull/2864#issuecomment-2094217743) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
