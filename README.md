@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#840](https://github.com/spacetelescope/webbpsf/pull/840#issuecomment-2096904015) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-2. 🗣 Commented on [#524](https://github.com/zarr-developers/numcodecs/pull/524#issuecomment-2096813482) in [zarr-developers/numcodecs](https://github.com/zarr-developers/numcodecs)
-3. 🗣 Commented on [#3](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline/pull/3#issuecomment-2096773874) in [Gravity-Spy/gravityspy-ligo-pipeline](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline)
-4. 🗣 Commented on [#1091](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1091#issuecomment-2096650094) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-5. 🗣 Commented on [#3930](https://github.com/privacyidea/privacyidea/pull/3930#issuecomment-2095872772) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-6. 🗣 Commented on [#22061](https://github.com/spyder-ide/spyder/pull/22061#issuecomment-2095813187) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#6](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024/pull/6#issuecomment-2095273647) in [ERPGulf/Saudi-E-Invoicing-Phase-2-2024](https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024)
-8. 🗣 Commented on [#1839](https://github.com/zarr-developers/zarr-python/pull/1839#issuecomment-2094937391) in [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-9. 🗣 Commented on [#22059](https://github.com/spyder-ide/spyder/pull/22059#issuecomment-2094846151) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-10. 🗣 Commented on [#2864](https://github.com/metabrainz/listenbrainz-server/pull/2864#issuecomment-2094217743) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+1. 🗣 Commented on [#4591](https://github.com/MDAnalysis/mdanalysis/pull/4591#issuecomment-2099432888) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+2. 🗣 Commented on [#32](https://github.com/njzjz/nodejs-wheel/pull/32#issuecomment-2099335675) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
+3. 🗣 Commented on [#103](https://github.com/MDAnalysis/solvation-analysis/pull/103#issuecomment-2099055294) in [MDAnalysis/solvation-analysis](https://github.com/MDAnalysis/solvation-analysis)
+4. 🗣 Commented on [#30](https://github.com/thoth-pub/thoth-dissemination/pull/30#issuecomment-2098820530) in [thoth-pub/thoth-dissemination](https://github.com/thoth-pub/thoth-dissemination)
+5. 🗣 Commented on [#1565](https://github.com/spacetelescope/jwql/pull/1565#issuecomment-2098736786) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+6. 🗣 Commented on [#320](https://github.com/OpenFreeEnergy/gufe/pull/320#issuecomment-2098592908) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+7. 🗣 Commented on [#1557](https://github.com/openSUSE/osc/pull/1557#issuecomment-2098570705) in [openSUSE/osc](https://github.com/openSUSE/osc)
+8. 🗣 Commented on [#1564](https://github.com/spacetelescope/jwql/pull/1564#issuecomment-2098559379) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+9. 🗣 Commented on [#39](https://github.com/OpenFreeEnergy/konnektor/pull/39#issuecomment-2097932121) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
+10. 🗣 Commented on [#220](https://github.com/epfl-theos/koopmans/pull/220#issuecomment-2097673638) in [epfl-theos/koopmans](https://github.com/epfl-theos/koopmans)
 <!--END_SECTION:activity-->
