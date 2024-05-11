@@ -18,14 +18,16 @@ from pep8speaks import utils
 
 def update_users(repository):
     """Star the repository from the bot account"""
+    headers = {'Content-Length': '0'}
     query = f"/user/starred/{repository}"
-    return utils.query_request(query=query, method='PUT')
+    return utils.query_request(query=query, method='PUT', headers=headers)
 
 
 def follow_user(user):
     """Follow the user of the service"""
+    headers = {'Content-Length': '0'}
     query = f"/user/following/{user}"
-    return utils.query_request(query=query, method='PUT')
+    return utils.query_request(query=query, method='PUT', headers=headers)
 
 
 def read_setup_cfg_file(setup_config_file):
