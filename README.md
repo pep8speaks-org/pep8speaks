@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#543](https://github.com/bengosney/isitbinday/pull/543#issuecomment-2106350710) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
-2. 🗣 Commented on [#845](https://github.com/spacetelescope/webbpsf/pull/845#issuecomment-2106323101) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-3. 🗣 Commented on [#3218](https://github.com/dipy/dipy/pull/3218#issuecomment-2106274279) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#47](https://github.com/OpenFreeEnergy/konnektor/pull/47#issuecomment-2106247577) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-5. 🗣 Commented on [#39](https://github.com/njzjz/nodejs-wheel/pull/39#issuecomment-2106151265) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
-6. 🗣 Commented on [#2](https://github.com/JINO-ROHIT/Airflow-ML-GridSearchCV/pull/2#issuecomment-2106148854) in [JINO-ROHIT/Airflow-ML-GridSearchCV](https://github.com/JINO-ROHIT/Airflow-ML-GridSearchCV)
-7. 🗣 Commented on [#7](https://github.com/Remi-Gau/reproschema-py/pull/7#issuecomment-2105968816) in [Remi-Gau/reproschema-py](https://github.com/Remi-Gau/reproschema-py)
-8. 🗣 Commented on [#303](https://github.com/Remi-Gau/eCobidas/pull/303#issuecomment-2105960872) in [Remi-Gau/eCobidas](https://github.com/Remi-Gau/eCobidas)
-9. 🗣 Commented on [#6](https://github.com/Remi-Gau/reproschema-py/pull/6#issuecomment-2105915254) in [Remi-Gau/reproschema-py](https://github.com/Remi-Gau/reproschema-py)
-10. 🗣 Commented on [#36](https://github.com/njzjz/nodejs-wheel/pull/36#issuecomment-2105573817) in [njzjz/nodejs-wheel](https://github.com/njzjz/nodejs-wheel)
+1. 🗣 Commented on [#546](https://github.com/bengosney/isitbinday/pull/546#issuecomment-2108700744) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
+2. 🗣 Commented on [#544](https://github.com/bengosney/isitbinday/pull/544#issuecomment-2108645185) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
+3. 🗣 Commented on [#2](https://github.com/2lambda123/triton/pull/2#issuecomment-2108597826) in [2lambda123/triton](https://github.com/2lambda123/triton)
+4. 🗣 Commented on [#26](https://github.com/2lambda123/spot_ros2/pull/26#issuecomment-2108585857) in [2lambda123/spot_ros2](https://github.com/2lambda123/spot_ros2)
+5. 🗣 Commented on [#18](https://github.com/2lambda123/scikit-decide/pull/18#issuecomment-2108582063) in [2lambda123/scikit-decide](https://github.com/2lambda123/scikit-decide)
+6. 🗣 Commented on [#3189](https://github.com/reframe-hpc/reframe/pull/3189#issuecomment-2108383015) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+7. 🗣 Commented on [#1](https://github.com/2lambda123/societe-generale-swordphish-awareness/pull/1#issuecomment-2108230635) in [2lambda123/societe-generale-swordphish-awareness](https://github.com/2lambda123/societe-generale-swordphish-awareness)
+8. 🗣 Commented on [#23](https://github.com/jcmgray/autoray/pull/23#issuecomment-2107609122) in [jcmgray/autoray](https://github.com/jcmgray/autoray)
+9. 🗣 Commented on [#5](https://github.com/eastgenomics/prometheus/pull/5#issuecomment-2107422195) in [eastgenomics/prometheus](https://github.com/eastgenomics/prometheus)
+10. 🗣 Commented on [#402](https://github.com/aria-tools/ARIA-tools/pull/402#issuecomment-2107353281) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
 <!--END_SECTION:activity-->
