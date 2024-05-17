@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#537](https://github.com/UIUCLibrary/Speedwagon/pull/537#issuecomment-2113476658) in [UIUCLibrary/Speedwagon](https://github.com/UIUCLibrary/Speedwagon)
-2. 🗣 Commented on [#849](https://github.com/spacetelescope/webbpsf/pull/849#issuecomment-2113222620) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-3. 🗣 Commented on [#502](https://github.com/HEPCloud/decisionengine_modules/pull/502#issuecomment-2112949829) in [HEPCloud/decisionengine_modules](https://github.com/HEPCloud/decisionengine_modules)
-4. 🗣 Commented on [#974](https://github.com/avaframe/AvaFrame/pull/974#issuecomment-2112940694) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-5. 🗣 Commented on [#304](https://github.com/Remi-Gau/eCobidas/pull/304#issuecomment-2112811603) in [Remi-Gau/eCobidas](https://github.com/Remi-Gau/eCobidas)
-6. 🗣 Commented on [#304](https://github.com/Remi-Gau/eCobidas/pull/304#issuecomment-2112807516) in [Remi-Gau/eCobidas](https://github.com/Remi-Gau/eCobidas)
-7. 🗣 Commented on [#2872](https://github.com/metabrainz/listenbrainz-server/pull/2872#issuecomment-2112692454) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#54](https://github.com/tilde-lab/metis-client/pull/54#issuecomment-2112403990) in [tilde-lab/metis-client](https://github.com/tilde-lab/metis-client)
-9. 🗣 Commented on [#973](https://github.com/avaframe/AvaFrame/pull/973#issuecomment-2112342569) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-10. 🗣 Commented on [#3940](https://github.com/privacyidea/privacyidea/pull/3940#issuecomment-2112037354) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+1. 🗣 Commented on [#1099](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1099#issuecomment-2116163193) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#850](https://github.com/spacetelescope/webbpsf/pull/850#issuecomment-2116151878) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+3. 🗣 Commented on [#992](https://github.com/scilus/scilpy/pull/992#issuecomment-2116052168) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#3178](https://github.com/dipy/dipy/pull/3178#issuecomment-2115710890) in [dipy/dipy](https://github.com/dipy/dipy)
+5. 🗣 Commented on [#3942](https://github.com/privacyidea/privacyidea/pull/3942#issuecomment-2115447114) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+6. 🗣 Commented on [#1738](https://github.com/astropy/photutils/pull/1738#issuecomment-2115233962) in [astropy/photutils](https://github.com/astropy/photutils)
+7. 🗣 Commented on [#121](https://github.com/OpenFreeEnergy/cinnabar/pull/121#issuecomment-2115181982) in [OpenFreeEnergy/cinnabar](https://github.com/OpenFreeEnergy/cinnabar)
+8. 🗣 Commented on [#976](https://github.com/avaframe/AvaFrame/pull/976#issuecomment-2114592433) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#498](https://github.com/Spoken-tutorial/spoken-website/pull/498#issuecomment-2114091989) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+10. 🗣 Commented on [#442](https://github.com/payu-org/payu/pull/442#issuecomment-2113993175) in [payu-org/payu](https://github.com/payu-org/payu)
 <!--END_SECTION:activity-->
