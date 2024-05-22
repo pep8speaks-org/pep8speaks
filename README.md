@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#16](https://github.com/njzjz/wenxian/pull/16#issuecomment-2121405113) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-2. 🗣 Commented on [#12](https://github.com/2lambda123/juicefs/pull/12#issuecomment-2120993068) in [2lambda123/juicefs](https://github.com/2lambda123/juicefs)
-3. 🗣 Commented on [#22100](https://github.com/spyder-ide/spyder/pull/22100#issuecomment-2120900820) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-4. 🗣 Commented on [#90](https://github.com/eastgenomics/trendyQC/pull/90#issuecomment-2120196224) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-5. 🗣 Commented on [#1](https://github.com/2lambda123/-mi-sdm439-android_device_xiaomi_mi439/pull/1#issuecomment-2120144880) in [2lambda123/-mi-sdm439-android_device_xiaomi_mi439](https://github.com/2lambda123/-mi-sdm439-android_device_xiaomi_mi439)
-6. 🗣 Commented on [#29](https://github.com/GenevieveBuckley/napari/pull/29#issuecomment-2119754225) in [GenevieveBuckley/napari](https://github.com/GenevieveBuckley/napari)
-7. 🗣 Commented on [#14](https://github.com/njzjz/wenxian/pull/14#issuecomment-2119726506) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-8. 🗣 Commented on [#12](https://github.com/njzjz/wenxian/pull/12#issuecomment-2119688015) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-9. 🗣 Commented on [#11](https://github.com/njzjz/wenxian/pull/11#issuecomment-2119667790) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-10. 🗣 Commented on [#9](https://github.com/njzjz/wenxian/pull/9#issuecomment-2119632190) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
+1. 🗣 Commented on [#413](https://github.com/aria-tools/ARIA-tools/pull/413#issuecomment-2123623209) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+2. 🗣 Commented on [#4](https://github.com/drauger-os-development/systemd-boot-manager/pull/4#issuecomment-2123584960) in [drauger-os-development/systemd-boot-manager](https://github.com/drauger-os-development/systemd-boot-manager)
+3. 🗣 Commented on [#3221](https://github.com/dipy/dipy/pull/3221#issuecomment-2123538532) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#22077](https://github.com/spyder-ide/spyder/pull/22077#issuecomment-2123523035) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#857](https://github.com/spacetelescope/webbpsf/pull/857#issuecomment-2123073468) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+6. 🗣 Commented on [#856](https://github.com/spacetelescope/webbpsf/pull/856#issuecomment-2123012979) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+7. 🗣 Commented on [#855](https://github.com/spacetelescope/webbpsf/pull/855#issuecomment-2122810613) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+8. 🗣 Commented on [#887](https://github.com/fury-gl/fury/pull/887#issuecomment-2122736171) in [fury-gl/fury](https://github.com/fury-gl/fury)
+9. 🗣 Commented on [#33](https://github.com/ITMO-NSS-team/GAMLET/pull/33#issuecomment-2122633598) in [ITMO-NSS-team/GAMLET](https://github.com/ITMO-NSS-team/GAMLET)
+10. 🗣 Commented on [#10](https://github.com/privacyidea/scripts/pull/10#issuecomment-2122459507) in [privacyidea/scripts](https://github.com/privacyidea/scripts)
 <!--END_SECTION:activity-->
