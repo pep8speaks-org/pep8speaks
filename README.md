@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#313](https://github.com/AdvancedPhotonSource/tike/pull/313#issuecomment-2125655015) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-2. 🗣 Commented on [#4604](https://github.com/MDAnalysis/mdanalysis/pull/4604#issuecomment-2125591157) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#2](https://github.com/eastgenomics/variant_workbook_parser/pull/2#issuecomment-2125285797) in [eastgenomics/variant_workbook_parser](https://github.com/eastgenomics/variant_workbook_parser)
-4. 🗣 Commented on [#993](https://github.com/scilus/scilpy/pull/993#issuecomment-2125139079) in [scilus/scilpy](https://github.com/scilus/scilpy)
-5. 🗣 Commented on [#37](https://github.com/Moonlark-Dev/Moonlark/pull/37#issuecomment-2125138164) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-6. 🗣 Commented on [#42](https://github.com/rhinstaller/python-meh/pull/42#issuecomment-2124867976) in [rhinstaller/python-meh](https://github.com/rhinstaller/python-meh)
-7. 🗣 Commented on [#11](https://github.com/eastgenomics/Haemonc_requests/pull/11#issuecomment-2124620158) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
-8. 🗣 Commented on [#1](https://github.com/eastgenomics/germline_from_somatic/pull/1#issuecomment-2124575417) in [eastgenomics/germline_from_somatic](https://github.com/eastgenomics/germline_from_somatic)
-9. 🗣 Commented on [#413](https://github.com/aria-tools/ARIA-tools/pull/413#issuecomment-2123623209) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-10. 🗣 Commented on [#4](https://github.com/drauger-os-development/systemd-boot-manager/pull/4#issuecomment-2123584960) in [drauger-os-development/systemd-boot-manager](https://github.com/drauger-os-development/systemd-boot-manager)
+1. 🗣 Commented on [#1237](https://github.com/tableau/connector-plugin-sdk/pull/1237#issuecomment-2128204360) in [tableau/connector-plugin-sdk](https://github.com/tableau/connector-plugin-sdk)
+2. 🗣 Commented on [#1592](https://github.com/spacetelescope/jwql/pull/1592#issuecomment-2128016026) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#243](https://github.com/scil-vital/dwi_ml/pull/243#issuecomment-2127859630) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+4. 🗣 Commented on [#10](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/10#issuecomment-2127486792) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+5. 🗣 Commented on [#9](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/9#issuecomment-2127331764) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+6. 🗣 Commented on [#38](https://github.com/Moonlark-Dev/Moonlark/pull/38#issuecomment-2127259002) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+7. 🗣 Commented on [#99](https://github.com/INT-NIT/DigLabTools/pull/99#issuecomment-2127253544) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+8. 🗣 Commented on [#588](https://github.com/aramis-lab/clinicadl/pull/588#issuecomment-2127124263) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+9. 🗣 Commented on [#6](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/6#issuecomment-2126969708) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+10. 🗣 Commented on [#4](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/4#issuecomment-2126842670) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
 <!--END_SECTION:activity-->
