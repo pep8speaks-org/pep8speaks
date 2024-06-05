@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#10](https://github.com/CartoonFan/xiphos/pull/10#issuecomment-2146076316) in [CartoonFan/xiphos](https://github.com/CartoonFan/xiphos)
-2. 🗣 Commented on [#27](https://github.com/2lambda123/jinja/pull/27#issuecomment-2145899018) in [2lambda123/jinja](https://github.com/2lambda123/jinja)
-3. 🗣 Commented on [#3](https://github.com/2lambda123/graphene-django/pull/3#issuecomment-2145894499) in [2lambda123/graphene-django](https://github.com/2lambda123/graphene-django)
-4. 🗣 Commented on [#1141](https://github.com/yeatmanlab/pyAFQ/pull/1141#issuecomment-2145890997) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
-5. 🗣 Commented on [#1](https://github.com/2lambda123/elementary/pull/1#issuecomment-2145887701) in [2lambda123/elementary](https://github.com/2lambda123/elementary)
-6. 🗣 Commented on [#951](https://github.com/scilus/scilpy/pull/951#issuecomment-2145856328) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#78](https://github.com/cdfxscrq/userbot/pull/78#issuecomment-2145846736) in [cdfxscrq/userbot](https://github.com/cdfxscrq/userbot)
-8. 🗣 Commented on [#1](https://github.com/2lambda123/AzureAD-microsoft-authentication-library-for-python/pull/1#issuecomment-2145349218) in [2lambda123/AzureAD-microsoft-authentication-library-for-python](https://github.com/2lambda123/AzureAD-microsoft-authentication-library-for-python)
-9. 🗣 Commented on [#534](https://github.com/askap-vast/vast-tools/pull/534#issuecomment-2144106340) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
-10. 🗣 Commented on [#22141](https://github.com/spyder-ide/spyder/pull/22141#issuecomment-2144075672) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#1103](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1103#issuecomment-2148595411) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#317](https://github.com/AdvancedPhotonSource/tike/pull/317#issuecomment-2148581645) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+3. 🗣 Commented on [#3234](https://github.com/dipy/dipy/pull/3234#issuecomment-2148554712) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#940](https://github.com/ToFuProject/tofu/pull/940#issuecomment-2148495893) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+5. 🗣 Commented on [#1051](https://github.com/oemof/oemof-solph/pull/1051#issuecomment-2148349279) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+6. 🗣 Commented on [#1144](https://github.com/yeatmanlab/pyAFQ/pull/1144#issuecomment-2148249708) in [yeatmanlab/pyAFQ](https://github.com/yeatmanlab/pyAFQ)
+7. 🗣 Commented on [#93](https://github.com/eastgenomics/trendyQC/pull/93#issuecomment-2147770112) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+8. 🗣 Commented on [#4382](https://github.com/uwcirg/truenth-portal/pull/4382#issuecomment-2147514171) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+9. 🗣 Commented on [#152](https://github.com/INT-NIT/BEP032tools/pull/152#issuecomment-2147391769) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
+10. 🗣 Commented on [#5661](https://github.com/rhinstaller/anaconda/pull/5661#issuecomment-2147269973) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
