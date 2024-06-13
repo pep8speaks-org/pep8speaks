@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3031](https://github.com/astropy/astroquery/pull/3031#issuecomment-2161725032) in [astropy/astroquery](https://github.com/astropy/astroquery)
-2. 🗣 Commented on [#3248](https://github.com/dipy/dipy/pull/3248#issuecomment-2161449439) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#1107](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1107#issuecomment-2161437337) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#870](https://github.com/spacetelescope/webbpsf/pull/870#issuecomment-2161423770) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-5. 🗣 Commented on [#998](https://github.com/scilus/scilpy/pull/998#issuecomment-2160893931) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#35](https://github.com/cirKITers/Quantum-Siren/pull/35#issuecomment-2160765259) in [cirKITers/Quantum-Siren](https://github.com/cirKITers/Quantum-Siren)
-7. 🗣 Commented on [#64](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/64#issuecomment-2160201083) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-8. 🗣 Commented on [#11](https://github.com/2lambda123/LinaYorda-OSINTko/pull/11#issuecomment-2159929045) in [2lambda123/LinaYorda-OSINTko](https://github.com/2lambda123/LinaYorda-OSINTko)
-9. 🗣 Commented on [#50](https://github.com/OpenFreeEnergy/konnektor/pull/50#issuecomment-2159770297) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-10. 🗣 Commented on [#4](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline/pull/4#issuecomment-2159193152) in [Gravity-Spy/gravityspy-ligo-pipeline](https://github.com/Gravity-Spy/gravityspy-ligo-pipeline)
+1. 🗣 Commented on [#76](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/76#issuecomment-2163379318) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+2. 🗣 Commented on [#1129](https://github.com/lmcinnes/umap/pull/1129#issuecomment-2163162550) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+3. 🗣 Commented on [#3973](https://github.com/privacyidea/privacyidea/pull/3973#issuecomment-2162925316) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+4. 🗣 Commented on [#1](https://github.com/eastgenomics/Solid_cancer_requests/pull/1#issuecomment-2162706225) in [eastgenomics/Solid_cancer_requests](https://github.com/eastgenomics/Solid_cancer_requests)
+5. 🗣 Commented on [#521](https://github.com/oemof/tespy/pull/521#issuecomment-2162380407) in [oemof/tespy](https://github.com/oemof/tespy)
+6. 🗣 Commented on [#3031](https://github.com/astropy/astroquery/pull/3031#issuecomment-2161725032) in [astropy/astroquery](https://github.com/astropy/astroquery)
+7. 🗣 Commented on [#3248](https://github.com/dipy/dipy/pull/3248#issuecomment-2161449439) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#1107](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1107#issuecomment-2161437337) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+9. 🗣 Commented on [#870](https://github.com/spacetelescope/webbpsf/pull/870#issuecomment-2161423770) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+10. 🗣 Commented on [#998](https://github.com/scilus/scilpy/pull/998#issuecomment-2160893931) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
