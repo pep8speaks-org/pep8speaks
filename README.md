@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3035](https://github.com/astropy/astroquery/pull/3035#issuecomment-2168488701) in [astropy/astroquery](https://github.com/astropy/astroquery)
-2. 🗣 Commented on [#318](https://github.com/AdvancedPhotonSource/tike/pull/318#issuecomment-2168378626) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-3. 🗣 Commented on [#56](https://github.com/Moonlark-Dev/Moonlark/pull/56#issuecomment-2168369994) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-4. 🗣 Commented on [#1580](https://github.com/openSUSE/osc/pull/1580#issuecomment-2168232674) in [openSUSE/osc](https://github.com/openSUSE/osc)
-5. 🗣 Commented on [#23](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/23#issuecomment-2168083856) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-6. 🗣 Commented on [#27](https://github.com/eastgenomics/eggd_artemis/pull/27#issuecomment-2168066045) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-7. 🗣 Commented on [#7](https://github.com/2lambda123/AzureAD-microsoft-authentication-library-for-python/pull/7#issuecomment-2167955444) in [2lambda123/AzureAD-microsoft-authentication-library-for-python](https://github.com/2lambda123/AzureAD-microsoft-authentication-library-for-python)
-8. 🗣 Commented on [#19](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/19#issuecomment-2167524240) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-9. 🗣 Commented on [#17](https://github.com/2lambda123/nipy-nipype/pull/17#issuecomment-2167324531) in [2lambda123/nipy-nipype](https://github.com/2lambda123/nipy-nipype)
-10. 🗣 Commented on [#15](https://github.com/2lambda123/magenta-magenta/pull/15#issuecomment-2167320487) in [2lambda123/magenta-magenta](https://github.com/2lambda123/magenta-magenta)
+1. 🗣 Commented on [#8](https://github.com/2lambda123/ultralytics-yolov5/pull/8#issuecomment-2169924891) in [2lambda123/ultralytics-yolov5](https://github.com/2lambda123/ultralytics-yolov5)
+2. 🗣 Commented on [#14](https://github.com/2lambda123/huawei-noah-xingtian/pull/14#issuecomment-2169910138) in [2lambda123/huawei-noah-xingtian](https://github.com/2lambda123/huawei-noah-xingtian)
+3. 🗣 Commented on [#7](https://github.com/2lambda123/ultralytics-yolov5/pull/7#issuecomment-2169840164) in [2lambda123/ultralytics-yolov5](https://github.com/2lambda123/ultralytics-yolov5)
+4. 🗣 Commented on [#19](https://github.com/2lambda123/huawei-noah-HEBO/pull/19#issuecomment-2169837677) in [2lambda123/huawei-noah-HEBO](https://github.com/2lambda123/huawei-noah-HEBO)
+5. 🗣 Commented on [#23](https://github.com/2lambda123/ultralytics-ultralytics/pull/23#issuecomment-2169826736) in [2lambda123/ultralytics-ultralytics](https://github.com/2lambda123/ultralytics-ultralytics)
+6. 🗣 Commented on [#9](https://github.com/2lambda123/OpenBioLink-OpenBioLink/pull/9#issuecomment-2169768082) in [2lambda123/OpenBioLink-OpenBioLink](https://github.com/2lambda123/OpenBioLink-OpenBioLink)
+7. 🗣 Commented on [#6](https://github.com/2lambda123/google-research-pegasus/pull/6#issuecomment-2169606260) in [2lambda123/google-research-pegasus](https://github.com/2lambda123/google-research-pegasus)
+8. 🗣 Commented on [#287](https://github.com/InvisibleSymbol/rocketwatch/pull/287#issuecomment-2169534191) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
+9. 🗣 Commented on [#11](https://github.com/2lambda123/genome-breakdancer/pull/11#issuecomment-2169525280) in [2lambda123/genome-breakdancer](https://github.com/2lambda123/genome-breakdancer)
+10. 🗣 Commented on [#6](https://github.com/Sowhat999/emmmm/pull/6#issuecomment-2169478431) in [Sowhat999/emmmm](https://github.com/Sowhat999/emmmm)
 <!--END_SECTION:activity-->
