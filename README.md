@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#396](https://github.com/NASA-Planetary-Science/sbpy/pull/396#issuecomment-2195557273) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-2. 🗣 Commented on [#525](https://github.com/oemof/tespy/pull/525#issuecomment-2195411859) in [oemof/tespy](https://github.com/oemof/tespy)
-3. 🗣 Commented on [#4](https://github.com/eastgenomics/eggd_generate_rd_wgs_workbook/pull/4#issuecomment-2195112212) in [eastgenomics/eggd_generate_rd_wgs_workbook](https://github.com/eastgenomics/eggd_generate_rd_wgs_workbook)
-4. 🗣 Commented on [#55](https://github.com/spatialaudio/python-rtmixer/pull/55#issuecomment-2195004469) in [spatialaudio/python-rtmixer](https://github.com/spatialaudio/python-rtmixer)
-5. 🗣 Commented on [#28](https://github.com/eastgenomics/eggd_artemis/pull/28#issuecomment-2194911458) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-6. 🗣 Commented on [#7](https://github.com/eastgenomics/eggd_pandora/pull/7#issuecomment-2194759409) in [eastgenomics/eggd_pandora](https://github.com/eastgenomics/eggd_pandora)
-7. 🗣 Commented on [#79](https://github.com/eastgenomics/panel_ops/pull/79#issuecomment-2194219387) in [eastgenomics/panel_ops](https://github.com/eastgenomics/panel_ops)
-8. 🗣 Commented on [#2922](https://github.com/metabrainz/listenbrainz-server/pull/2922#issuecomment-2192387377) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#31](https://github.com/nsryan2/NEAR/pull/31#issuecomment-2192291717) in [nsryan2/NEAR](https://github.com/nsryan2/NEAR)
-10. 🗣 Commented on [#241](https://github.com/jcmgray/quimb/pull/241#issuecomment-2191792840) in [jcmgray/quimb](https://github.com/jcmgray/quimb)
+1. 🗣 Commented on [#322](https://github.com/AdvancedPhotonSource/tike/pull/322#issuecomment-2197510384) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+2. 🗣 Commented on [#1712](https://github.com/OGGM/oggm/pull/1712#issuecomment-2197263880) in [OGGM/oggm](https://github.com/OGGM/oggm)
+3. 🗣 Commented on [#1393](https://github.com/rpm-software-management/mock/pull/1393#issuecomment-2196954241) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+4. 🗣 Commented on [#30](https://github.com/eastgenomics/eggd_artemis/pull/30#issuecomment-2196875464) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+5. 🗣 Commented on [#995](https://github.com/avaframe/AvaFrame/pull/995#issuecomment-2196733009) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#29](https://github.com/eastgenomics/eggd_artemis/pull/29#issuecomment-2196624926) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+7. 🗣 Commented on [#2925](https://github.com/metabrainz/listenbrainz-server/pull/2925#issuecomment-2196575419) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+8. 🗣 Commented on [#2924](https://github.com/metabrainz/listenbrainz-server/pull/2924#issuecomment-2196464677) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#1588](https://github.com/openSUSE/osc/pull/1588#issuecomment-2196312831) in [openSUSE/osc](https://github.com/openSUSE/osc)
+10. 🗣 Commented on [#1795](https://github.com/astropy/photutils/pull/1795#issuecomment-2195818062) in [astropy/photutils](https://github.com/astropy/photutils)
 <!--END_SECTION:activity-->
