@@ -236,14 +236,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#322](https://github.com/AdvancedPhotonSource/tike/pull/322#issuecomment-2197510384) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-2. 🗣 Commented on [#1712](https://github.com/OGGM/oggm/pull/1712#issuecomment-2197263880) in [OGGM/oggm](https://github.com/OGGM/oggm)
-3. 🗣 Commented on [#1393](https://github.com/rpm-software-management/mock/pull/1393#issuecomment-2196954241) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-4. 🗣 Commented on [#30](https://github.com/eastgenomics/eggd_artemis/pull/30#issuecomment-2196875464) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-5. 🗣 Commented on [#995](https://github.com/avaframe/AvaFrame/pull/995#issuecomment-2196733009) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-6. 🗣 Commented on [#29](https://github.com/eastgenomics/eggd_artemis/pull/29#issuecomment-2196624926) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-7. 🗣 Commented on [#2925](https://github.com/metabrainz/listenbrainz-server/pull/2925#issuecomment-2196575419) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#2924](https://github.com/metabrainz/listenbrainz-server/pull/2924#issuecomment-2196464677) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#1588](https://github.com/openSUSE/osc/pull/1588#issuecomment-2196312831) in [openSUSE/osc](https://github.com/openSUSE/osc)
-10. 🗣 Commented on [#1795](https://github.com/astropy/photutils/pull/1795#issuecomment-2195818062) in [astropy/photutils](https://github.com/astropy/photutils)
+1. 🗣 Commented on [#38](https://github.com/MDAnalysis/waterdynamics/pull/38#issuecomment-2198324402) in [MDAnalysis/waterdynamics](https://github.com/MDAnalysis/waterdynamics)
+2. 🗣 Commented on [#193](https://github.com/aragilar/root-solver/pull/193#issuecomment-2198078029) in [aragilar/root-solver](https://github.com/aragilar/root-solver)
+3. 🗣 Commented on [#228](https://github.com/aragilar/DiscSolver/pull/228#issuecomment-2198037243) in [aragilar/DiscSolver](https://github.com/aragilar/DiscSolver)
+4. 🗣 Commented on [#35](https://github.com/pypr/automan/pull/35#issuecomment-2197875624) in [pypr/automan](https://github.com/pypr/automan)
+5. 🗣 Commented on [#322](https://github.com/AdvancedPhotonSource/tike/pull/322#issuecomment-2197510384) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+6. 🗣 Commented on [#1712](https://github.com/OGGM/oggm/pull/1712#issuecomment-2197263880) in [OGGM/oggm](https://github.com/OGGM/oggm)
+7. 🗣 Commented on [#1393](https://github.com/rpm-software-management/mock/pull/1393#issuecomment-2196954241) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+8. 🗣 Commented on [#30](https://github.com/eastgenomics/eggd_artemis/pull/30#issuecomment-2196875464) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+9. 🗣 Commented on [#995](https://github.com/avaframe/AvaFrame/pull/995#issuecomment-2196733009) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#29](https://github.com/eastgenomics/eggd_artemis/pull/29#issuecomment-2196624926) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
 <!--END_SECTION:activity-->
