@@ -232,6 +232,10 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 - April 5, 2020 - [PEP8Speaks - Now helping 5,000 open source projects write neat and clean Python](https://orkohunter.net/blog/pep8speaks-5000-projects/)
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=pep8speaks-org/pep8speaks&type=Date)](https://star-history.com/#pep8speaks-org/pep8speaks&Date)
+
 # Recent Activity
 
 <!--START_SECTION:activity-->
