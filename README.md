@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1308](https://github.com/aimclub/FEDOT/pull/1308#issuecomment-2198688090) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-2. 🗣 Commented on [#9297](https://github.com/statsmodels/statsmodels/pull/9297#issuecomment-2198573460) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-3. 🗣 Commented on [#42](https://github.com/njzjz/wenxian/pull/42#issuecomment-2198464318) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-4. 🗣 Commented on [#41](https://github.com/njzjz/wenxian/pull/41#issuecomment-2198450850) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-5. 🗣 Commented on [#36](https://github.com/njzjz/wenxian/pull/36#issuecomment-2198405840) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-6. 🗣 Commented on [#35](https://github.com/njzjz/wenxian/pull/35#issuecomment-2198401818) in [njzjz/wenxian](https://github.com/njzjz/wenxian)
-7. 🗣 Commented on [#38](https://github.com/MDAnalysis/waterdynamics/pull/38#issuecomment-2198324402) in [MDAnalysis/waterdynamics](https://github.com/MDAnalysis/waterdynamics)
-8. 🗣 Commented on [#193](https://github.com/aragilar/root-solver/pull/193#issuecomment-2198078029) in [aragilar/root-solver](https://github.com/aragilar/root-solver)
-9. 🗣 Commented on [#228](https://github.com/aragilar/DiscSolver/pull/228#issuecomment-2198037243) in [aragilar/DiscSolver](https://github.com/aragilar/DiscSolver)
-10. 🗣 Commented on [#35](https://github.com/pypr/automan/pull/35#issuecomment-2197875624) in [pypr/automan](https://github.com/pypr/automan)
+1. 🗣 Commented on [#663](https://github.com/HEXRD/hexrd/pull/663#issuecomment-2201004049) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#10](https://github.com/2lambda123/sunpy1/pull/10#issuecomment-2200872386) in [2lambda123/sunpy1](https://github.com/2lambda123/sunpy1)
+3. 🗣 Commented on [#10](https://github.com/2lambda123/sunpy/pull/10#issuecomment-2200872039) in [2lambda123/sunpy](https://github.com/2lambda123/sunpy)
+4. 🗣 Commented on [#1](https://github.com/2lambda123/spot-sim2real/pull/1#issuecomment-2200867633) in [2lambda123/spot-sim2real](https://github.com/2lambda123/spot-sim2real)
+5. 🗣 Commented on [#3227](https://github.com/reframe-hpc/reframe/pull/3227#issuecomment-2200625915) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+6. 🗣 Commented on [#1254](https://github.com/cpp-lln-lab/bidspm/pull/1254#issuecomment-2200578940) in [cpp-lln-lab/bidspm](https://github.com/cpp-lln-lab/bidspm)
+7. 🗣 Commented on [#1800](https://github.com/astropy/photutils/pull/1800#issuecomment-2200236788) in [astropy/photutils](https://github.com/astropy/photutils)
+8. 🗣 Commented on [#660](https://github.com/HEXRD/hexrd/pull/660#issuecomment-2200218948) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+9. 🗣 Commented on [#659](https://github.com/HEXRD/hexrd/pull/659#issuecomment-2200200643) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+10. 🗣 Commented on [#9](https://github.com/Sowhat999/online-judge/pull/9#issuecomment-2199984627) in [Sowhat999/online-judge](https://github.com/Sowhat999/online-judge)
 <!--END_SECTION:activity-->
