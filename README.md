@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#663](https://github.com/HEXRD/hexrd/pull/663#issuecomment-2201004049) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-2. 🗣 Commented on [#10](https://github.com/2lambda123/sunpy1/pull/10#issuecomment-2200872386) in [2lambda123/sunpy1](https://github.com/2lambda123/sunpy1)
-3. 🗣 Commented on [#10](https://github.com/2lambda123/sunpy/pull/10#issuecomment-2200872039) in [2lambda123/sunpy](https://github.com/2lambda123/sunpy)
-4. 🗣 Commented on [#1](https://github.com/2lambda123/spot-sim2real/pull/1#issuecomment-2200867633) in [2lambda123/spot-sim2real](https://github.com/2lambda123/spot-sim2real)
-5. 🗣 Commented on [#3227](https://github.com/reframe-hpc/reframe/pull/3227#issuecomment-2200625915) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-6. 🗣 Commented on [#1254](https://github.com/cpp-lln-lab/bidspm/pull/1254#issuecomment-2200578940) in [cpp-lln-lab/bidspm](https://github.com/cpp-lln-lab/bidspm)
-7. 🗣 Commented on [#1800](https://github.com/astropy/photutils/pull/1800#issuecomment-2200236788) in [astropy/photutils](https://github.com/astropy/photutils)
-8. 🗣 Commented on [#660](https://github.com/HEXRD/hexrd/pull/660#issuecomment-2200218948) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-9. 🗣 Commented on [#659](https://github.com/HEXRD/hexrd/pull/659#issuecomment-2200200643) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-10. 🗣 Commented on [#9](https://github.com/Sowhat999/online-judge/pull/9#issuecomment-2199984627) in [Sowhat999/online-judge](https://github.com/Sowhat999/online-judge)
+1. 🗣 Commented on [#600](https://github.com/ExoCTK/exoctk/pull/600#issuecomment-2203593281) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+2. 🗣 Commented on [#533](https://github.com/rpm-software-management/dnf-plugins-core/pull/533#issuecomment-2203463329) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+3. 🗣 Commented on [#3](https://github.com/cirKITers/qml-essentials/pull/3#issuecomment-2203413351) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+4. 🗣 Commented on [#2](https://github.com/cirKITers/qml-essentials/pull/2#issuecomment-2203412885) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+5. 🗣 Commented on [#1](https://github.com/cirKITers/qml-essentials/pull/1#issuecomment-2203412483) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+6. 🗣 Commented on [#1710](https://github.com/HEXRD/hexrdgui/pull/1710#issuecomment-2203336390) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+7. 🗣 Commented on [#327](https://github.com/DeMarcoLab/fibsem/pull/327#issuecomment-2203193573) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+8. 🗣 Commented on [#8](https://github.com/Sowhat999/PySimpleGUI/pull/8#issuecomment-2202668155) in [Sowhat999/PySimpleGUI](https://github.com/Sowhat999/PySimpleGUI)
+9. 🗣 Commented on [#22223](https://github.com/spyder-ide/spyder/pull/22223#issuecomment-2202337889) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#828](https://github.com/StingraySoftware/stingray/pull/828#issuecomment-2201925024) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
 <!--END_SECTION:activity-->
