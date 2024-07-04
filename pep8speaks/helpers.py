@@ -87,7 +87,7 @@ def get_config(repo, base_branch, after_commit_hash):
 
     # Default configuration parameters
     default_config = Path(__file__).absolute().parent.parent.joinpath("data", "default_pep8speaks.yml")
-    with open(default_config, "r") as config_file:
+    with open(default_config, "r", encoding="utf-8") as config_file:
         config = yaml.safe_load(config_file)
 
     linters = ["pycodestyle", "flake8"]
