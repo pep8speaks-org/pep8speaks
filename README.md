@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#600](https://github.com/ExoCTK/exoctk/pull/600#issuecomment-2203593281) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-2. 🗣 Commented on [#533](https://github.com/rpm-software-management/dnf-plugins-core/pull/533#issuecomment-2203463329) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
-3. 🗣 Commented on [#3](https://github.com/cirKITers/qml-essentials/pull/3#issuecomment-2203413351) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-4. 🗣 Commented on [#2](https://github.com/cirKITers/qml-essentials/pull/2#issuecomment-2203412885) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-5. 🗣 Commented on [#1](https://github.com/cirKITers/qml-essentials/pull/1#issuecomment-2203412483) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-6. 🗣 Commented on [#1710](https://github.com/HEXRD/hexrdgui/pull/1710#issuecomment-2203336390) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-7. 🗣 Commented on [#327](https://github.com/DeMarcoLab/fibsem/pull/327#issuecomment-2203193573) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-8. 🗣 Commented on [#8](https://github.com/Sowhat999/PySimpleGUI/pull/8#issuecomment-2202668155) in [Sowhat999/PySimpleGUI](https://github.com/Sowhat999/PySimpleGUI)
-9. 🗣 Commented on [#22223](https://github.com/spyder-ide/spyder/pull/22223#issuecomment-2202337889) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-10. 🗣 Commented on [#828](https://github.com/StingraySoftware/stingray/pull/828#issuecomment-2201925024) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+1. 🗣 Commented on [#5741](https://github.com/rhinstaller/anaconda/pull/5741#issuecomment-2205921635) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#5740](https://github.com/rhinstaller/anaconda/pull/5740#issuecomment-2205572670) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#31](https://github.com/eastgenomics/eggd_artemis/pull/31#issuecomment-2205390994) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+4. 🗣 Commented on [#3997](https://github.com/privacyidea/privacyidea/pull/3997#issuecomment-2205338687) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#999](https://github.com/avaframe/AvaFrame/pull/999#issuecomment-2205275404) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#5739](https://github.com/rhinstaller/anaconda/pull/5739#issuecomment-2205184078) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#501](https://github.com/Spoken-tutorial/spoken-website/pull/501#issuecomment-2205097502) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+8. 🗣 Commented on [#455](https://github.com/payu-org/payu/pull/455#issuecomment-2204770004) in [payu-org/payu](https://github.com/payu-org/payu)
+9. 🗣 Commented on [#4383](https://github.com/uwcirg/truenth-portal/pull/4383#issuecomment-2204640591) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+10. 🗣 Commented on [#33](https://github.com/gwpy/gwtrigfind/pull/33#issuecomment-2204621970) in [gwpy/gwtrigfind](https://github.com/gwpy/gwtrigfind)
 <!--END_SECTION:activity-->
