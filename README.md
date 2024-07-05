@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#5741](https://github.com/rhinstaller/anaconda/pull/5741#issuecomment-2205921635) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-2. 🗣 Commented on [#5740](https://github.com/rhinstaller/anaconda/pull/5740#issuecomment-2205572670) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#31](https://github.com/eastgenomics/eggd_artemis/pull/31#issuecomment-2205390994) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-4. 🗣 Commented on [#3997](https://github.com/privacyidea/privacyidea/pull/3997#issuecomment-2205338687) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-5. 🗣 Commented on [#999](https://github.com/avaframe/AvaFrame/pull/999#issuecomment-2205275404) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-6. 🗣 Commented on [#5739](https://github.com/rhinstaller/anaconda/pull/5739#issuecomment-2205184078) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#501](https://github.com/Spoken-tutorial/spoken-website/pull/501#issuecomment-2205097502) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-8. 🗣 Commented on [#455](https://github.com/payu-org/payu/pull/455#issuecomment-2204770004) in [payu-org/payu](https://github.com/payu-org/payu)
-9. 🗣 Commented on [#4383](https://github.com/uwcirg/truenth-portal/pull/4383#issuecomment-2204640591) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-10. 🗣 Commented on [#33](https://github.com/gwpy/gwtrigfind/pull/33#issuecomment-2204621970) in [gwpy/gwtrigfind](https://github.com/gwpy/gwtrigfind)
+1. 🗣 Commented on [#669](https://github.com/HEXRD/hexrd/pull/669#issuecomment-2209231275) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#118](https://github.com/eastgenomics/eggd_conductor/pull/118#issuecomment-2209208478) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+3. 🗣 Commented on [#883](https://github.com/OpenFreeEnergy/openfe/pull/883#issuecomment-2209045999) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
+4. 🗣 Commented on [#4](https://github.com/Open-CAS/test-framework/pull/4#issuecomment-2208927150) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+5. 🗣 Commented on [#18](https://github.com/thoth-pub/thoth-loader/pull/18#issuecomment-2208864592) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
+6. 🗣 Commented on [#1597](https://github.com/openSUSE/osc/pull/1597#issuecomment-2208847301) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#3999](https://github.com/privacyidea/privacyidea/pull/3999#issuecomment-2208442081) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+8. 🗣 Commented on [#75](https://github.com/cnovel/PodcastBulkDownloader/pull/75#issuecomment-2208350672) in [cnovel/PodcastBulkDownloader](https://github.com/cnovel/PodcastBulkDownloader)
+9. 🗣 Commented on [#502](https://github.com/Spoken-tutorial/spoken-website/pull/502#issuecomment-2208305128) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+10. 🗣 Commented on [#234](https://github.com/Fatal1ty/mashumaro/pull/234#issuecomment-2207696825) in [Fatal1ty/mashumaro](https://github.com/Fatal1ty/mashumaro)
 <!--END_SECTION:activity-->
