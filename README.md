@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#6](https://github.com/2lambda123/ros_utilities/pull/6#issuecomment-2214936769) in [2lambda123/ros_utilities](https://github.com/2lambda123/ros_utilities)
-2. 🗣 Commented on [#81](https://github.com/2lambda123/home-assistant-core/pull/81#issuecomment-2214912304) in [2lambda123/home-assistant-core](https://github.com/2lambda123/home-assistant-core)
-3. 🗣 Commented on [#3](https://github.com/2lambda123/graphene-django/pull/3#issuecomment-2214906286) in [2lambda123/graphene-django](https://github.com/2lambda123/graphene-django)
-4. 🗣 Commented on [#1](https://github.com/2lambda123/elementary/pull/1#issuecomment-2214900965) in [2lambda123/elementary](https://github.com/2lambda123/elementary)
-5. 🗣 Commented on [#30](https://github.com/yrahul3910/raise/pull/30#issuecomment-2214469415) in [yrahul3910/raise](https://github.com/yrahul3910/raise)
-6. 🗣 Commented on [#595](https://github.com/ExoCTK/exoctk/pull/595#issuecomment-2214291113) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-7. 🗣 Commented on [#95](https://github.com/Moonlark-Dev/Moonlark/pull/95#issuecomment-2214181798) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-8. 🗣 Commented on [#38](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/38#issuecomment-2214180793) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-9. 🗣 Commented on [#4003](https://github.com/privacyidea/privacyidea/pull/4003#issuecomment-2214171185) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-10. 🗣 Commented on [#1001](https://github.com/avaframe/AvaFrame/pull/1001#issuecomment-2213800739) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#94](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/94#issuecomment-2218054875) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+2. 🗣 Commented on [#1613](https://github.com/spacetelescope/jwql/pull/1613#issuecomment-2217955107) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#14](https://github.com/ITMO-NSS-team/nas-fedot/pull/14#issuecomment-2217885142) in [ITMO-NSS-team/nas-fedot](https://github.com/ITMO-NSS-team/nas-fedot)
+4. 🗣 Commented on [#39](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/39#issuecomment-2216969410) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+5. 🗣 Commented on [#459](https://github.com/payu-org/payu/pull/459#issuecomment-2216243690) in [payu-org/payu](https://github.com/payu-org/payu)
+6. 🗣 Commented on [#22237](https://github.com/spyder-ide/spyder/pull/22237#issuecomment-2216103685) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#527](https://github.com/oemof/tespy/pull/527#issuecomment-2215346818) in [oemof/tespy](https://github.com/oemof/tespy)
+8. 🗣 Commented on [#1599](https://github.com/openSUSE/osc/pull/1599#issuecomment-2215010687) in [openSUSE/osc](https://github.com/openSUSE/osc)
+9. 🗣 Commented on [#6](https://github.com/2lambda123/ros_utilities/pull/6#issuecomment-2214936769) in [2lambda123/ros_utilities](https://github.com/2lambda123/ros_utilities)
+10. 🗣 Commented on [#81](https://github.com/2lambda123/home-assistant-core/pull/81#issuecomment-2214912304) in [2lambda123/home-assistant-core](https://github.com/2lambda123/home-assistant-core)
 <!--END_SECTION:activity-->
