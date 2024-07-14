@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#680](https://github.com/HEXRD/hexrd/pull/680#issuecomment-2225886784) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-2. 🗣 Commented on [#2](https://github.com/Karim-53/pdll/pull/2#issuecomment-2225763290) in [Karim-53/pdll](https://github.com/Karim-53/pdll)
-3. 🗣 Commented on [#135](https://github.com/Richard-Sti/csiborgtools/pull/135#issuecomment-2225751328) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
-4. 🗣 Commented on [#3233](https://github.com/reframe-hpc/reframe/pull/3233#issuecomment-2225688004) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#3](https://github.com/eastgenomics/eggd_MetricsOutput_MultiQC_parser/pull/3#issuecomment-2225617810) in [eastgenomics/eggd_MetricsOutput_MultiQC_parser](https://github.com/eastgenomics/eggd_MetricsOutput_MultiQC_parser)
-6. 🗣 Commented on [#5758](https://github.com/rhinstaller/anaconda/pull/5758#issuecomment-2225364117) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#208](https://github.com/eastgenomics/eggd_dias_batch/pull/208#issuecomment-2225175073) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-8. 🗣 Commented on [#416](https://github.com/cggh/scikit-allel/pull/416#issuecomment-2222504973) in [cggh/scikit-allel](https://github.com/cggh/scikit-allel)
-9. 🗣 Commented on [#40](https://github.com/NASA-Planetary-Science/pgdtools/pull/40#issuecomment-2222469477) in [NASA-Planetary-Science/pgdtools](https://github.com/NASA-Planetary-Science/pgdtools)
-10. 🗣 Commented on [#40](https://github.com/NASA-Planetary-Science/pgdtools/pull/40#issuecomment-2222404727) in [NASA-Planetary-Science/pgdtools](https://github.com/NASA-Planetary-Science/pgdtools)
+1. 🗣 Commented on [#909](https://github.com/fury-gl/fury/pull/909#issuecomment-2227096836) in [fury-gl/fury](https://github.com/fury-gl/fury)
+2. 🗣 Commented on [#6](https://github.com/ERPGulf/ultramsg_4_ERPNext/pull/6#issuecomment-2226939573) in [ERPGulf/ultramsg_4_ERPNext](https://github.com/ERPGulf/ultramsg_4_ERPNext)
+3. 🗣 Commented on [#9309](https://github.com/statsmodels/statsmodels/pull/9309#issuecomment-2226782513) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+4. 🗣 Commented on [#1620](https://github.com/spacetelescope/jwql/pull/1620#issuecomment-2226727870) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+5. 🗣 Commented on [#1120](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1120#issuecomment-2226400096) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+6. 🗣 Commented on [#680](https://github.com/HEXRD/hexrd/pull/680#issuecomment-2225886784) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+7. 🗣 Commented on [#2](https://github.com/Karim-53/pdll/pull/2#issuecomment-2225763290) in [Karim-53/pdll](https://github.com/Karim-53/pdll)
+8. 🗣 Commented on [#135](https://github.com/Richard-Sti/csiborgtools/pull/135#issuecomment-2225751328) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+9. 🗣 Commented on [#3233](https://github.com/reframe-hpc/reframe/pull/3233#issuecomment-2225688004) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+10. 🗣 Commented on [#3](https://github.com/eastgenomics/eggd_MetricsOutput_MultiQC_parser/pull/3#issuecomment-2225617810) in [eastgenomics/eggd_MetricsOutput_MultiQC_parser](https://github.com/eastgenomics/eggd_MetricsOutput_MultiQC_parser)
 <!--END_SECTION:activity-->
