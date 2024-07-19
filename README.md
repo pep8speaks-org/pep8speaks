@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#450](https://github.com/SDXorg/pysd/pull/450#issuecomment-2233703471) in [SDXorg/pysd](https://github.com/SDXorg/pysd)
-2. 🗣 Commented on [#2](https://github.com/Code-Institute-Solutions/postgresql-and-python/pull/2#issuecomment-2233564415) in [Code-Institute-Solutions/postgresql-and-python](https://github.com/Code-Institute-Solutions/postgresql-and-python)
-3. 🗣 Commented on [#886](https://github.com/spacetelescope/webbpsf/pull/886#issuecomment-2233378906) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#7](https://github.com/D0LLi/submissions-fall-2014/pull/7#issuecomment-2233334729) in [D0LLi/submissions-fall-2014](https://github.com/D0LLi/submissions-fall-2014)
-5. 🗣 Commented on [#66](https://github.com/oemof/demandlib/pull/66#issuecomment-2233218559) in [oemof/demandlib](https://github.com/oemof/demandlib)
-6. 🗣 Commented on [#329](https://github.com/DeMarcoLab/fibsem/pull/329#issuecomment-2232039648) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-7. 🗣 Commented on [#328](https://github.com/DeMarcoLab/fibsem/pull/328#issuecomment-2232037122) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-8. 🗣 Commented on [#161](https://github.com/aimclub/Fedot.Industrial/pull/161#issuecomment-2232019777) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#2110](https://github.com/rpm-software-management/dnf/pull/2110#issuecomment-2231740437) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-10. 🗣 Commented on [#30](https://github.com/spacetelescope/jwst_backgrounds/pull/30#issuecomment-2231705409) in [spacetelescope/jwst_backgrounds](https://github.com/spacetelescope/jwst_backgrounds)
+1. 🗣 Commented on [#49](https://github.com/Borda/pyDeprecate/pull/49#issuecomment-2237387316) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
+2. 🗣 Commented on [#1623](https://github.com/spacetelescope/jwql/pull/1623#issuecomment-2237079050) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#687](https://github.com/HEXRD/hexrd/pull/687#issuecomment-2237056892) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+4. 🗣 Commented on [#31](https://github.com/spacetelescope/jwst_backgrounds/pull/31#issuecomment-2236625900) in [spacetelescope/jwst_backgrounds](https://github.com/spacetelescope/jwst_backgrounds)
+5. 🗣 Commented on [#121](https://github.com/eastgenomics/eggd_conductor/pull/121#issuecomment-2236594458) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+6. 🗣 Commented on [#5775](https://github.com/rhinstaller/anaconda/pull/5775#issuecomment-2236043141) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#1007](https://github.com/avaframe/AvaFrame/pull/1007#issuecomment-2235974596) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+8. 🗣 Commented on [#53](https://github.com/aguinane/nem-reader/pull/53#issuecomment-2235913424) in [aguinane/nem-reader](https://github.com/aguinane/nem-reader)
+9. 🗣 Commented on [#9](https://github.com/D0LLi/PySimpleGUI/pull/9#issuecomment-2235904167) in [D0LLi/PySimpleGUI](https://github.com/D0LLi/PySimpleGUI)
+10. 🗣 Commented on [#450](https://github.com/SDXorg/pysd/pull/450#issuecomment-2233703471) in [SDXorg/pysd](https://github.com/SDXorg/pysd)
 <!--END_SECTION:activity-->
