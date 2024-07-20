@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#49](https://github.com/Borda/pyDeprecate/pull/49#issuecomment-2237387316) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
-2. 🗣 Commented on [#1623](https://github.com/spacetelescope/jwql/pull/1623#issuecomment-2237079050) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#687](https://github.com/HEXRD/hexrd/pull/687#issuecomment-2237056892) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-4. 🗣 Commented on [#31](https://github.com/spacetelescope/jwst_backgrounds/pull/31#issuecomment-2236625900) in [spacetelescope/jwst_backgrounds](https://github.com/spacetelescope/jwst_backgrounds)
-5. 🗣 Commented on [#121](https://github.com/eastgenomics/eggd_conductor/pull/121#issuecomment-2236594458) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-6. 🗣 Commented on [#5775](https://github.com/rhinstaller/anaconda/pull/5775#issuecomment-2236043141) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#1007](https://github.com/avaframe/AvaFrame/pull/1007#issuecomment-2235974596) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#53](https://github.com/aguinane/nem-reader/pull/53#issuecomment-2235913424) in [aguinane/nem-reader](https://github.com/aguinane/nem-reader)
-9. 🗣 Commented on [#9](https://github.com/D0LLi/PySimpleGUI/pull/9#issuecomment-2235904167) in [D0LLi/PySimpleGUI](https://github.com/D0LLi/PySimpleGUI)
-10. 🗣 Commented on [#450](https://github.com/SDXorg/pysd/pull/450#issuecomment-2233703471) in [SDXorg/pysd](https://github.com/SDXorg/pysd)
+1. 🗣 Commented on [#427](https://github.com/aria-tools/ARIA-tools/pull/427#issuecomment-2239811097) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+2. 🗣 Commented on [#2112](https://github.com/rpm-software-management/dnf/pull/2112#issuecomment-2239717394) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+3. 🗣 Commented on [#3071](https://github.com/astropy/astroquery/pull/3071#issuecomment-2239485703) in [astropy/astroquery](https://github.com/astropy/astroquery)
+4. 🗣 Commented on [#102](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/102#issuecomment-2238925475) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+5. 🗣 Commented on [#165](https://github.com/lettucecfd/lettuce/pull/165#issuecomment-2238707436) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+6. 🗣 Commented on [#150](https://github.com/DeMarcoLab/autolamella/pull/150#issuecomment-2238694128) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+7. 🗣 Commented on [#164](https://github.com/lettucecfd/lettuce/pull/164#issuecomment-2238690068) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+8. 🗣 Commented on [#163](https://github.com/lettucecfd/lettuce/pull/163#issuecomment-2238552280) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+9. 🗣 Commented on [#159](https://github.com/lettucecfd/lettuce/pull/159#issuecomment-2238491137) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+10. 🗣 Commented on [#3](https://github.com/D0LLi/Library_of_jumble/pull/3#issuecomment-2238049705) in [D0LLi/Library_of_jumble](https://github.com/D0LLi/Library_of_jumble)
 <!--END_SECTION:activity-->
