@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4638](https://github.com/MDAnalysis/mdanalysis/pull/4638#issuecomment-2241806822) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-2. 🗣 Commented on [#22276](https://github.com/spyder-ide/spyder/pull/22276#issuecomment-2241715596) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#78](https://github.com/cnovel/PodcastBulkDownloader/pull/78#issuecomment-2241516067) in [cnovel/PodcastBulkDownloader](https://github.com/cnovel/PodcastBulkDownloader)
-4. 🗣 Commented on [#114](https://github.com/Moonlark-Dev/Moonlark/pull/114#issuecomment-2241513687) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-5. 🗣 Commented on [#427](https://github.com/aria-tools/ARIA-tools/pull/427#issuecomment-2239811097) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-6. 🗣 Commented on [#2112](https://github.com/rpm-software-management/dnf/pull/2112#issuecomment-2239717394) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-7. 🗣 Commented on [#3071](https://github.com/astropy/astroquery/pull/3071#issuecomment-2239485703) in [astropy/astroquery](https://github.com/astropy/astroquery)
-8. 🗣 Commented on [#102](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/102#issuecomment-2238925475) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-9. 🗣 Commented on [#165](https://github.com/lettucecfd/lettuce/pull/165#issuecomment-2238707436) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-10. 🗣 Commented on [#150](https://github.com/DeMarcoLab/autolamella/pull/150#issuecomment-2238694128) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+1. 🗣 Commented on [#691](https://github.com/HEXRD/hexrd/pull/691#issuecomment-2244015558) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#955](https://github.com/ToFuProject/tofu/pull/955#issuecomment-2243867989) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+3. 🗣 Commented on [#953](https://github.com/ToFuProject/tofu/pull/953#issuecomment-2243841860) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+4. 🗣 Commented on [#690](https://github.com/HEXRD/hexrd/pull/690#issuecomment-2243610779) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+5. 🗣 Commented on [#327](https://github.com/AdvancedPhotonSource/tike/pull/327#issuecomment-2243360666) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+6. 🗣 Commented on [#326](https://github.com/AdvancedPhotonSource/tike/pull/326#issuecomment-2243354763) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+7. 🗣 Commented on [#689](https://github.com/HEXRD/hexrd/pull/689#issuecomment-2243292184) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+8. 🗣 Commented on [#688](https://github.com/HEXRD/hexrd/pull/688#issuecomment-2243113973) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+9. 🗣 Commented on [#1311](https://github.com/aimclub/FEDOT/pull/1311#issuecomment-2242732178) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+10. 🗣 Commented on [#94](https://github.com/johnveitch/cpnest/pull/94#issuecomment-2242428559) in [johnveitch/cpnest](https://github.com/johnveitch/cpnest)
 <!--END_SECTION:activity-->
