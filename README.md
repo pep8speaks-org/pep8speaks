@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#465](https://github.com/payu-org/payu/pull/465#issuecomment-2246565084) in [payu-org/payu](https://github.com/payu-org/payu)
-2. 🗣 Commented on [#4642](https://github.com/MDAnalysis/mdanalysis/pull/4642#issuecomment-2246353940) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#329](https://github.com/AdvancedPhotonSource/tike/pull/329#issuecomment-2246167373) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-4. 🗣 Commented on [#215](https://github.com/eastgenomics/eggd_dias_batch/pull/215#issuecomment-2244719823) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
-5. 🗣 Commented on [#36](https://github.com/thoth-pub/thoth-client/pull/36#issuecomment-2244718307) in [thoth-pub/thoth-client](https://github.com/thoth-pub/thoth-client)
-6. 🗣 Commented on [#691](https://github.com/HEXRD/hexrd/pull/691#issuecomment-2244015558) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-7. 🗣 Commented on [#955](https://github.com/ToFuProject/tofu/pull/955#issuecomment-2243867989) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-8. 🗣 Commented on [#953](https://github.com/ToFuProject/tofu/pull/953#issuecomment-2243841860) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-9. 🗣 Commented on [#690](https://github.com/HEXRD/hexrd/pull/690#issuecomment-2243610779) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-10. 🗣 Commented on [#327](https://github.com/AdvancedPhotonSource/tike/pull/327#issuecomment-2243360666) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+1. 🗣 Commented on [#431](https://github.com/aria-tools/ARIA-tools/pull/431#issuecomment-2249023512) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+2. 🗣 Commented on [#22285](https://github.com/spyder-ide/spyder/pull/22285#issuecomment-2248869920) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#9320](https://github.com/statsmodels/statsmodels/pull/9320#issuecomment-2248773748) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+4. 🗣 Commented on [#11](https://github.com/eastgenomics/variant_workbook_parser/pull/11#issuecomment-2248427603) in [eastgenomics/variant_workbook_parser](https://github.com/eastgenomics/variant_workbook_parser)
+5. 🗣 Commented on [#1143](https://github.com/lmcinnes/umap/pull/1143#issuecomment-2248180830) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+6. 🗣 Commented on [#82](https://github.com/eastgenomics/Genetics_Ark/pull/82#issuecomment-2248109335) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
+7. 🗣 Commented on [#2114](https://github.com/rpm-software-management/dnf/pull/2114#issuecomment-2247659174) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+8. 🗣 Commented on [#3](https://github.com/Borda/cmd-tree/pull/3#issuecomment-2247610241) in [Borda/cmd-tree](https://github.com/Borda/cmd-tree)
+9. 🗣 Commented on [#505](https://github.com/Spoken-tutorial/spoken-website/pull/505#issuecomment-2247364304) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+10. 🗣 Commented on [#1008](https://github.com/avaframe/AvaFrame/pull/1008#issuecomment-2247161769) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
 <!--END_SECTION:activity-->
