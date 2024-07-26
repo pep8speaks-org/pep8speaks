@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#431](https://github.com/aria-tools/ARIA-tools/pull/431#issuecomment-2249023512) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-2. 🗣 Commented on [#22285](https://github.com/spyder-ide/spyder/pull/22285#issuecomment-2248869920) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#9320](https://github.com/statsmodels/statsmodels/pull/9320#issuecomment-2248773748) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-4. 🗣 Commented on [#11](https://github.com/eastgenomics/variant_workbook_parser/pull/11#issuecomment-2248427603) in [eastgenomics/variant_workbook_parser](https://github.com/eastgenomics/variant_workbook_parser)
-5. 🗣 Commented on [#1143](https://github.com/lmcinnes/umap/pull/1143#issuecomment-2248180830) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-6. 🗣 Commented on [#82](https://github.com/eastgenomics/Genetics_Ark/pull/82#issuecomment-2248109335) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
-7. 🗣 Commented on [#2114](https://github.com/rpm-software-management/dnf/pull/2114#issuecomment-2247659174) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-8. 🗣 Commented on [#3](https://github.com/Borda/cmd-tree/pull/3#issuecomment-2247610241) in [Borda/cmd-tree](https://github.com/Borda/cmd-tree)
-9. 🗣 Commented on [#505](https://github.com/Spoken-tutorial/spoken-website/pull/505#issuecomment-2247364304) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-10. 🗣 Commented on [#1008](https://github.com/avaframe/AvaFrame/pull/1008#issuecomment-2247161769) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#1017](https://github.com/scilus/scilpy/pull/1017#issuecomment-2251449436) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#994](https://github.com/scilus/scilpy/pull/994#issuecomment-2251339991) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#777](https://github.com/minerllabs/minerl/pull/777#issuecomment-2251178601) in [minerllabs/minerl](https://github.com/minerllabs/minerl)
+4. 🗣 Commented on [#6](https://github.com/HEPCloud/bill-calculator-hep/pull/6#issuecomment-2251176735) in [HEPCloud/bill-calculator-hep](https://github.com/HEPCloud/bill-calculator-hep)
+5. 🗣 Commented on [#4](https://github.com/Karim-53/pdll/pull/4#issuecomment-2251107075) in [Karim-53/pdll](https://github.com/Karim-53/pdll)
+6. 🗣 Commented on [#1016](https://github.com/scilus/scilpy/pull/1016#issuecomment-2250891732) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#22288](https://github.com/spyder-ide/spyder/pull/22288#issuecomment-2250727774) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#330](https://github.com/AdvancedPhotonSource/tike/pull/330#issuecomment-2250714110) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+9. 🗣 Commented on [#167](https://github.com/lettucecfd/lettuce/pull/167#issuecomment-2250624632) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+10. 🗣 Commented on [#39](https://github.com/thoth-pub/thoth-dissemination/pull/39#issuecomment-2250509472) in [thoth-pub/thoth-dissemination](https://github.com/thoth-pub/thoth-dissemination)
 <!--END_SECTION:activity-->
