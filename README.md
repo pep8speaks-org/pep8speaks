@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1017](https://github.com/scilus/scilpy/pull/1017#issuecomment-2251449436) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#994](https://github.com/scilus/scilpy/pull/994#issuecomment-2251339991) in [scilus/scilpy](https://github.com/scilus/scilpy)
-3. 🗣 Commented on [#777](https://github.com/minerllabs/minerl/pull/777#issuecomment-2251178601) in [minerllabs/minerl](https://github.com/minerllabs/minerl)
-4. 🗣 Commented on [#6](https://github.com/HEPCloud/bill-calculator-hep/pull/6#issuecomment-2251176735) in [HEPCloud/bill-calculator-hep](https://github.com/HEPCloud/bill-calculator-hep)
-5. 🗣 Commented on [#4](https://github.com/Karim-53/pdll/pull/4#issuecomment-2251107075) in [Karim-53/pdll](https://github.com/Karim-53/pdll)
-6. 🗣 Commented on [#1016](https://github.com/scilus/scilpy/pull/1016#issuecomment-2250891732) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#22288](https://github.com/spyder-ide/spyder/pull/22288#issuecomment-2250727774) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#330](https://github.com/AdvancedPhotonSource/tike/pull/330#issuecomment-2250714110) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
-9. 🗣 Commented on [#167](https://github.com/lettucecfd/lettuce/pull/167#issuecomment-2250624632) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-10. 🗣 Commented on [#39](https://github.com/thoth-pub/thoth-dissemination/pull/39#issuecomment-2250509472) in [thoth-pub/thoth-dissemination](https://github.com/thoth-pub/thoth-dissemination)
+1. 🗣 Commented on [#890](https://github.com/spacetelescope/webbpsf/pull/890#issuecomment-2253270099) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+2. 🗣 Commented on [#338](https://github.com/cleder/fastkml/pull/338#issuecomment-2253144034) in [cleder/fastkml](https://github.com/cleder/fastkml)
+3. 🗣 Commented on [#57](https://github.com/nsryan2/NEAR/pull/57#issuecomment-2253006510) in [nsryan2/NEAR](https://github.com/nsryan2/NEAR)
+4. 🗣 Commented on [#43](https://github.com/NASA-Planetary-Science/pgdtools/pull/43#issuecomment-2252699009) in [NASA-Planetary-Science/pgdtools](https://github.com/NASA-Planetary-Science/pgdtools)
+5. 🗣 Commented on [#1486](https://github.com/Open-CAS/open-cas-linux/pull/1486#issuecomment-2252478355) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+6. 🗣 Commented on [#218](https://github.com/eastgenomics/eggd_dias_batch/pull/218#issuecomment-2252435709) in [eastgenomics/eggd_dias_batch](https://github.com/eastgenomics/eggd_dias_batch)
+7. 🗣 Commented on [#1532](https://github.com/rpm-software-management/ci-dnf-stack/pull/1532#issuecomment-2252320061) in [rpm-software-management/ci-dnf-stack](https://github.com/rpm-software-management/ci-dnf-stack)
+8. 🗣 Commented on [#549](https://github.com/askap-vast/vast-tools/pull/549#issuecomment-2252132743) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
+9. 🗣 Commented on [#22293](https://github.com/spyder-ide/spyder/pull/22293#issuecomment-2251782943) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+10. 🗣 Commented on [#467](https://github.com/payu-org/payu/pull/467#issuecomment-2251758622) in [payu-org/payu](https://github.com/payu-org/payu)
 <!--END_SECTION:activity-->
