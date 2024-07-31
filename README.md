@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#160](https://github.com/aimclub/Fedot.Industrial/pull/160#issuecomment-2257145000) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-2. 🗣 Commented on [#1624](https://github.com/spacetelescope/jwql/pull/1624#issuecomment-2256688605) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-3. 🗣 Commented on [#693](https://github.com/HEXRD/hexrd/pull/693#issuecomment-2256163508) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-4. 🗣 Commented on [#41](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/41#issuecomment-2255956225) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-5. 🗣 Commented on [#4023](https://github.com/privacyidea/privacyidea/pull/4023#issuecomment-2255741734) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-6. 🗣 Commented on [#157](https://github.com/MDAnalysis/distopia/pull/157#issuecomment-2255556936) in [MDAnalysis/distopia](https://github.com/MDAnalysis/distopia)
-7. 🗣 Commented on [#22300](https://github.com/spyder-ide/spyder/pull/22300#issuecomment-2254905736) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#4](https://github.com/Richard-Sti/PecVelCov.jl/pull/4#issuecomment-2254616573) in [Richard-Sti/PecVelCov.jl](https://github.com/Richard-Sti/PecVelCov.jl)
-9. 🗣 Commented on [#61](https://github.com/mpds-io/mpds-api/pull/61#issuecomment-2254541781) in [mpds-io/mpds-api](https://github.com/mpds-io/mpds-api)
-10. 🗣 Commented on [#9](https://github.com/cirKITers/qml-essentials/pull/9#issuecomment-2254205304) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+1. 🗣 Commented on [#4025](https://github.com/privacyidea/privacyidea/pull/4025#issuecomment-2259345664) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+2. 🗣 Commented on [#22302](https://github.com/spyder-ide/spyder/pull/22302#issuecomment-2259230693) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#1122](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1122#issuecomment-2258777717) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+4. 🗣 Commented on [#2](https://github.com/eastgenomics/rd_wgs_workbooks_monitoring/pull/2#issuecomment-2258186020) in [eastgenomics/rd_wgs_workbooks_monitoring](https://github.com/eastgenomics/rd_wgs_workbooks_monitoring)
+5. 🗣 Commented on [#72](https://github.com/tilde-lab/aiida-crystal-dft/pull/72#issuecomment-2258021630) in [tilde-lab/aiida-crystal-dft](https://github.com/tilde-lab/aiida-crystal-dft)
+6. 🗣 Commented on [#109](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/109#issuecomment-2257914639) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+7. 🗣 Commented on [#334](https://github.com/askap-vast/vast-tools/pull/334#issuecomment-2257566655) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
+8. 🗣 Commented on [#6](https://github.com/D0LLi/saleor/pull/6#issuecomment-2257417095) in [D0LLi/saleor](https://github.com/D0LLi/saleor)
+9. 🗣 Commented on [#160](https://github.com/aimclub/Fedot.Industrial/pull/160#issuecomment-2257145000) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+10. 🗣 Commented on [#1624](https://github.com/spacetelescope/jwql/pull/1624#issuecomment-2256688605) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
