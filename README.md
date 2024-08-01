@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4025](https://github.com/privacyidea/privacyidea/pull/4025#issuecomment-2259345664) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-2. 🗣 Commented on [#22302](https://github.com/spyder-ide/spyder/pull/22302#issuecomment-2259230693) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-3. 🗣 Commented on [#1122](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1122#issuecomment-2258777717) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#2](https://github.com/eastgenomics/rd_wgs_workbooks_monitoring/pull/2#issuecomment-2258186020) in [eastgenomics/rd_wgs_workbooks_monitoring](https://github.com/eastgenomics/rd_wgs_workbooks_monitoring)
-5. 🗣 Commented on [#72](https://github.com/tilde-lab/aiida-crystal-dft/pull/72#issuecomment-2258021630) in [tilde-lab/aiida-crystal-dft](https://github.com/tilde-lab/aiida-crystal-dft)
-6. 🗣 Commented on [#109](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/109#issuecomment-2257914639) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-7. 🗣 Commented on [#334](https://github.com/askap-vast/vast-tools/pull/334#issuecomment-2257566655) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
-8. 🗣 Commented on [#6](https://github.com/D0LLi/saleor/pull/6#issuecomment-2257417095) in [D0LLi/saleor](https://github.com/D0LLi/saleor)
-9. 🗣 Commented on [#160](https://github.com/aimclub/Fedot.Industrial/pull/160#issuecomment-2257145000) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-10. 🗣 Commented on [#1624](https://github.com/spacetelescope/jwql/pull/1624#issuecomment-2256688605) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#5](https://github.com/2lambda123/pyscf-gpu4pyscf/pull/5#issuecomment-2261574151) in [2lambda123/pyscf-gpu4pyscf](https://github.com/2lambda123/pyscf-gpu4pyscf)
+2. 🗣 Commented on [#4](https://github.com/2lambda123/pyscf-gpu4pyscf/pull/4#issuecomment-2261573924) in [2lambda123/pyscf-gpu4pyscf](https://github.com/2lambda123/pyscf-gpu4pyscf)
+3. 🗣 Commented on [#2](https://github.com/2lambda123/pyscf-gpu4pyscf/pull/2#issuecomment-2261551136) in [2lambda123/pyscf-gpu4pyscf](https://github.com/2lambda123/pyscf-gpu4pyscf)
+4. 🗣 Commented on [#1](https://github.com/2lambda123/rincetonUniversity-prga/pull/1#issuecomment-2261465730) in [2lambda123/rincetonUniversity-prga](https://github.com/2lambda123/rincetonUniversity-prga)
+5. 🗣 Commented on [#893](https://github.com/spacetelescope/webbpsf/pull/893#issuecomment-2261306433) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+6. 🗣 Commented on [#529](https://github.com/oemof/tespy/pull/529#issuecomment-2261207236) in [oemof/tespy](https://github.com/oemof/tespy)
+7. 🗣 Commented on [#331](https://github.com/AdvancedPhotonSource/tike/pull/331#issuecomment-2261197552) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+8. 🗣 Commented on [#920](https://github.com/fury-gl/fury/pull/920#issuecomment-2261023239) in [fury-gl/fury](https://github.com/fury-gl/fury)
+9. 🗣 Commented on [#2](https://github.com/2lambda123/PrincetonUniversity-athena/pull/2#issuecomment-2260958467) in [2lambda123/PrincetonUniversity-athena](https://github.com/2lambda123/PrincetonUniversity-athena)
+10. 🗣 Commented on [#642](https://github.com/aramis-lab/clinicadl/pull/642#issuecomment-2260862575) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
 <!--END_SECTION:activity-->
