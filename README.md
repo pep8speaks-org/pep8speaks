@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#435](https://github.com/aria-tools/ARIA-tools/pull/435#issuecomment-2263854153) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-2. 🗣 Commented on [#610](https://github.com/ExoCTK/exoctk/pull/610#issuecomment-2263391510) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-3. 🗣 Commented on [#666](https://github.com/quark-engine/quark-engine/pull/666#issuecomment-2263187527) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
-4. 🗣 Commented on [#608](https://github.com/ExoCTK/exoctk/pull/608#issuecomment-2263186684) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-5. 🗣 Commented on [#68](https://github.com/oemof/demandlib/pull/68#issuecomment-2263110564) in [oemof/demandlib](https://github.com/oemof/demandlib)
-6. 🗣 Commented on [#11](https://github.com/eastgenomics/gene_annotation2bed/pull/11#issuecomment-2263058989) in [eastgenomics/gene_annotation2bed](https://github.com/eastgenomics/gene_annotation2bed)
-7. 🗣 Commented on [#2949](https://github.com/metabrainz/listenbrainz-server/pull/2949#issuecomment-2263045645) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#88](https://github.com/GeoscienceAustralia/dea-coastlines/pull/88#issuecomment-2262952210) in [GeoscienceAustralia/dea-coastlines](https://github.com/GeoscienceAustralia/dea-coastlines)
-9. 🗣 Commented on [#154](https://github.com/INT-NIT/BEP032tools/pull/154#issuecomment-2262916513) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
-10. 🗣 Commented on [#832](https://github.com/StingraySoftware/stingray/pull/832#issuecomment-2262910737) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+1. 🗣 Commented on [#696](https://github.com/HEXRD/hexrd/pull/696#issuecomment-2265875490) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#1719](https://github.com/OGGM/oggm/pull/1719#issuecomment-2265343942) in [OGGM/oggm](https://github.com/OGGM/oggm)
+3. 🗣 Commented on [#200](https://github.com/lettucecfd/lettuce/pull/200#issuecomment-2265334996) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+4. 🗣 Commented on [#112](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/112#issuecomment-2265273616) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+5. 🗣 Commented on [#43](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/43#issuecomment-2265136376) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+6. 🗣 Commented on [#125](https://github.com/eastgenomics/eggd_conductor/pull/125#issuecomment-2265136093) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+7. 🗣 Commented on [#124](https://github.com/eastgenomics/eggd_conductor/pull/124#issuecomment-2265111053) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+8. 🗣 Commented on [#475](https://github.com/payu-org/payu/pull/475#issuecomment-2264814398) in [payu-org/payu](https://github.com/payu-org/payu)
+9. 🗣 Commented on [#6](https://github.com/D0LLi/evennia/pull/6#issuecomment-2264801648) in [D0LLi/evennia](https://github.com/D0LLi/evennia)
+10. 🗣 Commented on [#92](https://github.com/GeoscienceAustralia/dea-coastlines/pull/92#issuecomment-2264762562) in [GeoscienceAustralia/dea-coastlines](https://github.com/GeoscienceAustralia/dea-coastlines)
 <!--END_SECTION:activity-->
