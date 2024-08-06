@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/sarnold/timew-addons/pull/1#issuecomment-2267813931) in [sarnold/timew-addons](https://github.com/sarnold/timew-addons)
-2. 🗣 Commented on [#9325](https://github.com/statsmodels/statsmodels/pull/9325#issuecomment-2266319742) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-3. 🗣 Commented on [#696](https://github.com/HEXRD/hexrd/pull/696#issuecomment-2265875490) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-4. 🗣 Commented on [#1719](https://github.com/OGGM/oggm/pull/1719#issuecomment-2265343942) in [OGGM/oggm](https://github.com/OGGM/oggm)
-5. 🗣 Commented on [#200](https://github.com/lettucecfd/lettuce/pull/200#issuecomment-2265334996) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-6. 🗣 Commented on [#112](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/112#issuecomment-2265273616) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-7. 🗣 Commented on [#43](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/43#issuecomment-2265136376) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-8. 🗣 Commented on [#125](https://github.com/eastgenomics/eggd_conductor/pull/125#issuecomment-2265136093) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-9. 🗣 Commented on [#124](https://github.com/eastgenomics/eggd_conductor/pull/124#issuecomment-2265111053) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-10. 🗣 Commented on [#475](https://github.com/payu-org/payu/pull/475#issuecomment-2264814398) in [payu-org/payu](https://github.com/payu-org/payu)
+1. 🗣 Commented on [#834](https://github.com/StingraySoftware/stingray/pull/834#issuecomment-2270123205) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+2. 🗣 Commented on [#10](https://github.com/2lambda123/metaflow/pull/10#issuecomment-2269745414) in [2lambda123/metaflow](https://github.com/2lambda123/metaflow)
+3. 🗣 Commented on [#13](https://github.com/2lambda123/mckinsey-vizro/pull/13#issuecomment-2269744707) in [2lambda123/mckinsey-vizro](https://github.com/2lambda123/mckinsey-vizro)
+4. 🗣 Commented on [#3](https://github.com/2lambda123/mckinsey-causalnex/pull/3#issuecomment-2269743669) in [2lambda123/mckinsey-causalnex](https://github.com/2lambda123/mckinsey-causalnex)
+5. 🗣 Commented on [#3](https://github.com/2lambda123/lartpang-PySODEvalToolkit/pull/3#issuecomment-2269742557) in [2lambda123/lartpang-PySODEvalToolkit](https://github.com/2lambda123/lartpang-PySODEvalToolkit)
+6. 🗣 Commented on [#2](https://github.com/2lambda123/cheader2json/pull/2#issuecomment-2269711497) in [2lambda123/cheader2json](https://github.com/2lambda123/cheader2json)
+7. 🗣 Commented on [#901](https://github.com/spacetelescope/webbpsf/pull/901#issuecomment-2269605937) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+8. 🗣 Commented on [#1604](https://github.com/openSUSE/osc/pull/1604#issuecomment-2269342817) in [openSUSE/osc](https://github.com/openSUSE/osc)
+9. 🗣 Commented on [#613](https://github.com/ExoCTK/exoctk/pull/613#issuecomment-2269276197) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+10. 🗣 Commented on [#612](https://github.com/ExoCTK/exoctk/pull/612#issuecomment-2269266690) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
 <!--END_SECTION:activity-->
