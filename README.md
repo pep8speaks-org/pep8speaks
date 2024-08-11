@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#701](https://github.com/HEXRD/hexrd/pull/701#issuecomment-2278616415) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-2. 🗣 Commented on [#2957](https://github.com/metabrainz/listenbrainz-server/pull/2957#issuecomment-2278563966) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#3083](https://github.com/astropy/astroquery/pull/3083#issuecomment-2278557232) in [astropy/astroquery](https://github.com/astropy/astroquery)
-4. 🗣 Commented on [#670](https://github.com/quark-engine/quark-engine/pull/670#issuecomment-2277988383) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
-5. 🗣 Commented on [#69](https://github.com/Fatal1ty/aioapns/pull/69#issuecomment-2277944585) in [Fatal1ty/aioapns](https://github.com/Fatal1ty/aioapns)
-6. 🗣 Commented on [#5814](https://github.com/rhinstaller/anaconda/pull/5814#issuecomment-2277933164) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#3081](https://github.com/astropy/astroquery/pull/3081#issuecomment-2277759624) in [astropy/astroquery](https://github.com/astropy/astroquery)
-8. 🗣 Commented on [#1651](https://github.com/odlgroup/odl/pull/1651#issuecomment-2277563770) in [odlgroup/odl](https://github.com/odlgroup/odl)
-9. 🗣 Commented on [#1606](https://github.com/openSUSE/osc/pull/1606#issuecomment-2277536733) in [openSUSE/osc](https://github.com/openSUSE/osc)
-10. 🗣 Commented on [#480](https://github.com/payu-org/payu/pull/480#issuecomment-2276890920) in [payu-org/payu](https://github.com/payu-org/payu)
+1. 🗣 Commented on [#578](https://github.com/bengosney/isitbinday/pull/578#issuecomment-2282263741) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
+2. 🗣 Commented on [#3309](https://github.com/dipy/dipy/pull/3309#issuecomment-2282235002) in [dipy/dipy](https://github.com/dipy/dipy)
+3. 🗣 Commented on [#701](https://github.com/HEXRD/hexrd/pull/701#issuecomment-2278616415) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+4. 🗣 Commented on [#2957](https://github.com/metabrainz/listenbrainz-server/pull/2957#issuecomment-2278563966) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#3083](https://github.com/astropy/astroquery/pull/3083#issuecomment-2278557232) in [astropy/astroquery](https://github.com/astropy/astroquery)
+6. 🗣 Commented on [#670](https://github.com/quark-engine/quark-engine/pull/670#issuecomment-2277988383) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
+7. 🗣 Commented on [#69](https://github.com/Fatal1ty/aioapns/pull/69#issuecomment-2277944585) in [Fatal1ty/aioapns](https://github.com/Fatal1ty/aioapns)
+8. 🗣 Commented on [#5814](https://github.com/rhinstaller/anaconda/pull/5814#issuecomment-2277933164) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#3081](https://github.com/astropy/astroquery/pull/3081#issuecomment-2277759624) in [astropy/astroquery](https://github.com/astropy/astroquery)
+10. 🗣 Commented on [#1651](https://github.com/odlgroup/odl/pull/1651#issuecomment-2277563770) in [odlgroup/odl](https://github.com/odlgroup/odl)
 <!--END_SECTION:activity-->
