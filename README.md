@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1147](https://github.com/lmcinnes/umap/pull/1147#issuecomment-2286999679) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
-2. 🗣 Commented on [#4](https://github.com/HEXRD/polycrystalx/pull/4#issuecomment-2286700558) in [HEXRD/polycrystalx](https://github.com/HEXRD/polycrystalx)
-3. 🗣 Commented on [#1320](https://github.com/aimclub/FEDOT/pull/1320#issuecomment-2286475348) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-4. 🗣 Commented on [#52](https://github.com/OpenFreeEnergy/konnektor/pull/52#issuecomment-2286418658) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-5. 🗣 Commented on [#62](https://github.com/elinscott/ase_koopmans/pull/62#issuecomment-2286370326) in [elinscott/ase_koopmans](https://github.com/elinscott/ase_koopmans)
-6. 🗣 Commented on [#129](https://github.com/eastgenomics/eggd_conductor/pull/129#issuecomment-2286305823) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-7. 🗣 Commented on [#5826](https://github.com/rhinstaller/anaconda/pull/5826#issuecomment-2286256483) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#58](https://github.com/OpenFreeEnergy/konnektor/pull/58#issuecomment-2286131663) in [OpenFreeEnergy/konnektor](https://github.com/OpenFreeEnergy/konnektor)
-9. 🗣 Commented on [#55](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/55#issuecomment-2286024498) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-10. 🗣 Commented on [#17](https://github.com/cirKITers/qml-essentials/pull/17#issuecomment-2285823847) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+1. 🗣 Commented on [#5](https://github.com/Sage-Bionetworks/core-models/pull/5#issuecomment-2289574553) in [Sage-Bionetworks/core-models](https://github.com/Sage-Bionetworks/core-models)
+2. 🗣 Commented on [#706](https://github.com/HEXRD/hexrd/pull/706#issuecomment-2289486003) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+3. 🗣 Commented on [#10](https://github.com/cirKITers/qml-essentials/pull/10#issuecomment-2289212608) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+4. 🗣 Commented on [#3](https://github.com/ITMO-NSS-team/FEDOT.LLM/pull/3#issuecomment-2289164753) in [ITMO-NSS-team/FEDOT.LLM](https://github.com/ITMO-NSS-team/FEDOT.LLM)
+5. 🗣 Commented on [#157](https://github.com/lettucecfd/lettuce/pull/157#issuecomment-2289128899) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+6. 🗣 Commented on [#56](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/56#issuecomment-2289051314) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
+7. 🗣 Commented on [#1653](https://github.com/odlgroup/odl/pull/1653#issuecomment-2288837354) in [odlgroup/odl](https://github.com/odlgroup/odl)
+8. 🗣 Commented on [#1](https://github.com/rachellamcw/LogisticsShippingRates/pull/1#issuecomment-2288751000) in [rachellamcw/LogisticsShippingRates](https://github.com/rachellamcw/LogisticsShippingRates)
+9. 🗣 Commented on [#5657](https://github.com/rhinstaller/anaconda/pull/5657#issuecomment-2288502985) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+10. 🗣 Commented on [#140](https://github.com/Richard-Sti/csiborgtools/pull/140#issuecomment-2288455634) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
 <!--END_SECTION:activity-->
