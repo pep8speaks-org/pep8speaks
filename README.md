@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#5](https://github.com/Sage-Bionetworks/core-models/pull/5#issuecomment-2289574553) in [Sage-Bionetworks/core-models](https://github.com/Sage-Bionetworks/core-models)
-2. 🗣 Commented on [#706](https://github.com/HEXRD/hexrd/pull/706#issuecomment-2289486003) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-3. 🗣 Commented on [#10](https://github.com/cirKITers/qml-essentials/pull/10#issuecomment-2289212608) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-4. 🗣 Commented on [#3](https://github.com/ITMO-NSS-team/FEDOT.LLM/pull/3#issuecomment-2289164753) in [ITMO-NSS-team/FEDOT.LLM](https://github.com/ITMO-NSS-team/FEDOT.LLM)
-5. 🗣 Commented on [#157](https://github.com/lettucecfd/lettuce/pull/157#issuecomment-2289128899) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-6. 🗣 Commented on [#56](https://github.com/eastgenomics/dias_reports_bulk_reanalysis/pull/56#issuecomment-2289051314) in [eastgenomics/dias_reports_bulk_reanalysis](https://github.com/eastgenomics/dias_reports_bulk_reanalysis)
-7. 🗣 Commented on [#1653](https://github.com/odlgroup/odl/pull/1653#issuecomment-2288837354) in [odlgroup/odl](https://github.com/odlgroup/odl)
-8. 🗣 Commented on [#1](https://github.com/rachellamcw/LogisticsShippingRates/pull/1#issuecomment-2288751000) in [rachellamcw/LogisticsShippingRates](https://github.com/rachellamcw/LogisticsShippingRates)
-9. 🗣 Commented on [#5657](https://github.com/rhinstaller/anaconda/pull/5657#issuecomment-2288502985) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-10. 🗣 Commented on [#140](https://github.com/Richard-Sti/csiborgtools/pull/140#issuecomment-2288455634) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+1. 🗣 Commented on [#708](https://github.com/HEXRD/hexrd/pull/708#issuecomment-2292458652) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#46](https://github.com/NASA-Planetary-Science/AmesCAP/pull/46#issuecomment-2292421285) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+3. 🗣 Commented on [#45](https://github.com/NASA-Planetary-Science/AmesCAP/pull/45#issuecomment-2292420292) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+4. 🗣 Commented on [#2963](https://github.com/metabrainz/listenbrainz-server/pull/2963#issuecomment-2291824015) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#2121](https://github.com/rpm-software-management/dnf/pull/2121#issuecomment-2291413012) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+6. 🗣 Commented on [#4656](https://github.com/MDAnalysis/mdanalysis/pull/4656#issuecomment-2291353898) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#5828](https://github.com/rhinstaller/anaconda/pull/5828#issuecomment-2291167243) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+8. 🗣 Commented on [#22350](https://github.com/spyder-ide/spyder/pull/22350#issuecomment-2290172664) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#5](https://github.com/Sage-Bionetworks/core-models/pull/5#issuecomment-2289574553) in [Sage-Bionetworks/core-models](https://github.com/Sage-Bionetworks/core-models)
+10. 🗣 Commented on [#706](https://github.com/HEXRD/hexrd/pull/706#issuecomment-2289486003) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
 <!--END_SECTION:activity-->
