@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#708](https://github.com/HEXRD/hexrd/pull/708#issuecomment-2292458652) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-2. 🗣 Commented on [#46](https://github.com/NASA-Planetary-Science/AmesCAP/pull/46#issuecomment-2292421285) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-3. 🗣 Commented on [#45](https://github.com/NASA-Planetary-Science/AmesCAP/pull/45#issuecomment-2292420292) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-4. 🗣 Commented on [#2963](https://github.com/metabrainz/listenbrainz-server/pull/2963#issuecomment-2291824015) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#2121](https://github.com/rpm-software-management/dnf/pull/2121#issuecomment-2291413012) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-6. 🗣 Commented on [#4656](https://github.com/MDAnalysis/mdanalysis/pull/4656#issuecomment-2291353898) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#5828](https://github.com/rhinstaller/anaconda/pull/5828#issuecomment-2291167243) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-8. 🗣 Commented on [#22350](https://github.com/spyder-ide/spyder/pull/22350#issuecomment-2290172664) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-9. 🗣 Commented on [#5](https://github.com/Sage-Bionetworks/core-models/pull/5#issuecomment-2289574553) in [Sage-Bionetworks/core-models](https://github.com/Sage-Bionetworks/core-models)
-10. 🗣 Commented on [#706](https://github.com/HEXRD/hexrd/pull/706#issuecomment-2289486003) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+1. 🗣 Commented on [#3321](https://github.com/dipy/dipy/pull/3321#issuecomment-2294483039) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#1125](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1125#issuecomment-2294096090) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#1628](https://github.com/spacetelescope/jwql/pull/1628#issuecomment-2294040646) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#174](https://github.com/Moonlark-Dev/Moonlark/pull/174#issuecomment-2293794530) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+5. 🗣 Commented on [#642](https://github.com/tableau/TabPy/pull/642#issuecomment-2293409826) in [tableau/TabPy](https://github.com/tableau/TabPy)
+6. 🗣 Commented on [#216](https://github.com/lettucecfd/lettuce/pull/216#issuecomment-2293306189) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+7. 🗣 Commented on [#1](https://github.com/2lambda123/dhlparcel-bots/pull/1#issuecomment-2293300430) in [2lambda123/dhlparcel-bots](https://github.com/2lambda123/dhlparcel-bots)
+8. 🗣 Commented on [#33](https://github.com/cirKITers/mind-the-qapp/pull/33#issuecomment-2293150324) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
+9. 🗣 Commented on [#214](https://github.com/lettucecfd/lettuce/pull/214#issuecomment-2293137972) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+10. 🗣 Commented on [#213](https://github.com/lettucecfd/lettuce/pull/213#issuecomment-2292950233) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
 <!--END_SECTION:activity-->
