@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3321](https://github.com/dipy/dipy/pull/3321#issuecomment-2294483039) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#1125](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1125#issuecomment-2294096090) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-3. 🗣 Commented on [#1628](https://github.com/spacetelescope/jwql/pull/1628#issuecomment-2294040646) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#174](https://github.com/Moonlark-Dev/Moonlark/pull/174#issuecomment-2293794530) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-5. 🗣 Commented on [#642](https://github.com/tableau/TabPy/pull/642#issuecomment-2293409826) in [tableau/TabPy](https://github.com/tableau/TabPy)
-6. 🗣 Commented on [#216](https://github.com/lettucecfd/lettuce/pull/216#issuecomment-2293306189) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-7. 🗣 Commented on [#1](https://github.com/2lambda123/dhlparcel-bots/pull/1#issuecomment-2293300430) in [2lambda123/dhlparcel-bots](https://github.com/2lambda123/dhlparcel-bots)
-8. 🗣 Commented on [#33](https://github.com/cirKITers/mind-the-qapp/pull/33#issuecomment-2293150324) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
-9. 🗣 Commented on [#214](https://github.com/lettucecfd/lettuce/pull/214#issuecomment-2293137972) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-10. 🗣 Commented on [#213](https://github.com/lettucecfd/lettuce/pull/213#issuecomment-2292950233) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+1. 🗣 Commented on [#1](https://github.com/2lambda123/ethereum-tests/pull/1#issuecomment-2295006029) in [2lambda123/ethereum-tests](https://github.com/2lambda123/ethereum-tests)
+2. 🗣 Commented on [#72](https://github.com/PenguinCloud/WaddleBot-Core/pull/72#issuecomment-2294932126) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+3. 🗣 Commented on [#54](https://github.com/MDAnalysis/transport-analysis/pull/54#issuecomment-2294926672) in [MDAnalysis/transport-analysis](https://github.com/MDAnalysis/transport-analysis)
+4. 🗣 Commented on [#4](https://github.com/2lambda123/ubisoft-mixer/pull/4#issuecomment-2294884477) in [2lambda123/ubisoft-mixer](https://github.com/2lambda123/ubisoft-mixer)
+5. 🗣 Commented on [#2](https://github.com/2lambda123/ubisoft-mixer/pull/2#issuecomment-2294884395) in [2lambda123/ubisoft-mixer](https://github.com/2lambda123/ubisoft-mixer)
+6. 🗣 Commented on [#70](https://github.com/PenguinCloud/WaddleBot-Core/pull/70#issuecomment-2294878304) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+7. 🗣 Commented on [#67](https://github.com/PenguinCloud/WaddleBot-Core/pull/67#issuecomment-2294870740) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+8. 🗣 Commented on [#3](https://github.com/2lambda123/EpicGames-SPIRV-Cross/pull/3#issuecomment-2294857880) in [2lambda123/EpicGames-SPIRV-Cross](https://github.com/2lambda123/EpicGames-SPIRV-Cross)
+9. 🗣 Commented on [#2](https://github.com/2lambda123/EpicGames-SPIRV-Cross/pull/2#issuecomment-2294855901) in [2lambda123/EpicGames-SPIRV-Cross](https://github.com/2lambda123/EpicGames-SPIRV-Cross)
+10. 🗣 Commented on [#579](https://github.com/bengosney/isitbinday/pull/579#issuecomment-2294707331) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
 <!--END_SECTION:activity-->
