@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#584](https://github.com/bengosney/isitbinday/pull/584#issuecomment-2297313698) in [bengosney/isitbinday](https://github.com/bengosney/isitbinday)
-2. 🗣 Commented on [#12](https://github.com/2lambda123/juicefs/pull/12#issuecomment-2297238364) in [2lambda123/juicefs](https://github.com/2lambda123/juicefs)
-3. 🗣 Commented on [#1023](https://github.com/scilus/scilpy/pull/1023#issuecomment-2296832409) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#221](https://github.com/lettucecfd/lettuce/pull/221#issuecomment-2295871117) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-5. 🗣 Commented on [#3](https://github.com/2lambda123/CosmiQ-solaris/pull/3#issuecomment-2295223667) in [2lambda123/CosmiQ-solaris](https://github.com/2lambda123/CosmiQ-solaris)
-6. 🗣 Commented on [#2](https://github.com/2lambda123/CosmiQ-solaris/pull/2#issuecomment-2295223572) in [2lambda123/CosmiQ-solaris](https://github.com/2lambda123/CosmiQ-solaris)
-7. 🗣 Commented on [#105](https://github.com/pypr/compyle/pull/105#issuecomment-2295220750) in [pypr/compyle](https://github.com/pypr/compyle)
-8. 🗣 Commented on [#179](https://github.com/Moonlark-Dev/Moonlark/pull/179#issuecomment-2295202603) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-9. 🗣 Commented on [#1](https://github.com/2lambda123/ethereum-tests/pull/1#issuecomment-2295006029) in [2lambda123/ethereum-tests](https://github.com/2lambda123/ethereum-tests)
-10. 🗣 Commented on [#72](https://github.com/PenguinCloud/WaddleBot-Core/pull/72#issuecomment-2294932126) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+1. 🗣 Commented on [#712](https://github.com/HEXRD/hexrd/pull/712#issuecomment-2299844615) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+2. 🗣 Commented on [#711](https://github.com/HEXRD/hexrd/pull/711#issuecomment-2299440347) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+3. 🗣 Commented on [#3328](https://github.com/dipy/dipy/pull/3328#issuecomment-2299184723) in [dipy/dipy](https://github.com/dipy/dipy)
+4. 🗣 Commented on [#128](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/128#issuecomment-2299134594) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+5. 🗣 Commented on [#123](https://github.com/eastgenomics/trendyQC/pull/123#issuecomment-2299077534) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+6. 🗣 Commented on [#224](https://github.com/lettucecfd/lettuce/pull/224#issuecomment-2298776293) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+7. 🗣 Commented on [#400](https://github.com/pypr/pysph/pull/400#issuecomment-2298481902) in [pypr/pysph](https://github.com/pypr/pysph)
+8. 🗣 Commented on [#1013](https://github.com/avaframe/AvaFrame/pull/1013#issuecomment-2298464571) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#1012](https://github.com/avaframe/AvaFrame/pull/1012#issuecomment-2298422810) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+10. 🗣 Commented on [#1011](https://github.com/avaframe/AvaFrame/pull/1011#issuecomment-2298388708) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
 <!--END_SECTION:activity-->
