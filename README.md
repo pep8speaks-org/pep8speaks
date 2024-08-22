@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#712](https://github.com/HEXRD/hexrd/pull/712#issuecomment-2299844615) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-2. 🗣 Commented on [#711](https://github.com/HEXRD/hexrd/pull/711#issuecomment-2299440347) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-3. 🗣 Commented on [#3328](https://github.com/dipy/dipy/pull/3328#issuecomment-2299184723) in [dipy/dipy](https://github.com/dipy/dipy)
-4. 🗣 Commented on [#128](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/128#issuecomment-2299134594) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-5. 🗣 Commented on [#123](https://github.com/eastgenomics/trendyQC/pull/123#issuecomment-2299077534) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-6. 🗣 Commented on [#224](https://github.com/lettucecfd/lettuce/pull/224#issuecomment-2298776293) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-7. 🗣 Commented on [#400](https://github.com/pypr/pysph/pull/400#issuecomment-2298481902) in [pypr/pysph](https://github.com/pypr/pysph)
-8. 🗣 Commented on [#1013](https://github.com/avaframe/AvaFrame/pull/1013#issuecomment-2298464571) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-9. 🗣 Commented on [#1012](https://github.com/avaframe/AvaFrame/pull/1012#issuecomment-2298422810) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-10. 🗣 Commented on [#1011](https://github.com/avaframe/AvaFrame/pull/1011#issuecomment-2298388708) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+1. 🗣 Commented on [#22368](https://github.com/spyder-ide/spyder/pull/22368#issuecomment-2303047329) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#332](https://github.com/AdvancedPhotonSource/tike/pull/332#issuecomment-2302638814) in [AdvancedPhotonSource/tike](https://github.com/AdvancedPhotonSource/tike)
+3. 🗣 Commented on [#336](https://github.com/OpenFreeEnergy/gufe/pull/336#issuecomment-2302523116) in [OpenFreeEnergy/gufe](https://github.com/OpenFreeEnergy/gufe)
+4. 🗣 Commented on [#4046](https://github.com/privacyidea/privacyidea/pull/4046#issuecomment-2302374295) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#5842](https://github.com/rhinstaller/anaconda/pull/5842#issuecomment-2301798158) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#5829](https://github.com/rhinstaller/anaconda/pull/5829#issuecomment-2301732826) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#7](https://github.com/eastgenomics/GitHub_Actions/pull/7#issuecomment-2301500360) in [eastgenomics/GitHub_Actions](https://github.com/eastgenomics/GitHub_Actions)
+8. 🗣 Commented on [#5](https://github.com/eastgenomics/phoenix/pull/5#issuecomment-2301394773) in [eastgenomics/phoenix](https://github.com/eastgenomics/phoenix)
+9. 🗣 Commented on [#712](https://github.com/HEXRD/hexrd/pull/712#issuecomment-2299844615) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+10. 🗣 Commented on [#711](https://github.com/HEXRD/hexrd/pull/711#issuecomment-2299440347) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
 <!--END_SECTION:activity-->
