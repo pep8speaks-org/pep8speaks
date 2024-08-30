@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#47](https://github.com/OpenFreeEnergy/kartograf/pull/47#issuecomment-2316412862) in [OpenFreeEnergy/kartograf](https://github.com/OpenFreeEnergy/kartograf)
-2. 🗣 Commented on [#418](https://github.com/cggh/scikit-allel/pull/418#issuecomment-2316386731) in [cggh/scikit-allel](https://github.com/cggh/scikit-allel)
-3. 🗣 Commented on [#89](https://github.com/eastgenomics/Genetics_Ark/pull/89#issuecomment-2315790596) in [eastgenomics/Genetics_Ark](https://github.com/eastgenomics/Genetics_Ark)
-4. 🗣 Commented on [#2127](https://github.com/rpm-software-management/dnf/pull/2127#issuecomment-2315509433) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-5. 🗣 Commented on [#5857](https://github.com/rhinstaller/anaconda/pull/5857#issuecomment-2315034850) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-6. 🗣 Commented on [#2968](https://github.com/metabrainz/listenbrainz-server/pull/2968#issuecomment-2315019542) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-7. 🗣 Commented on [#247](https://github.com/lettucecfd/lettuce/pull/247#issuecomment-2314974091) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
-8. 🗣 Commented on [#273](https://github.com/casacore/python-casacore/pull/273#issuecomment-2314737079) in [casacore/python-casacore](https://github.com/casacore/python-casacore)
-9. 🗣 Commented on [#2](https://github.com/eastgenomics/automated-clinvar-submission/pull/2#issuecomment-2314671947) in [eastgenomics/automated-clinvar-submission](https://github.com/eastgenomics/automated-clinvar-submission)
-10. 🗣 Commented on [#899](https://github.com/spacetelescope/webbpsf/pull/899#issuecomment-2314360871) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+1. 🗣 Commented on [#3343](https://github.com/dipy/dipy/pull/3343#issuecomment-2319458128) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#1126](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1126#issuecomment-2318975860) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#1643](https://github.com/spacetelescope/jwql/pull/1643#issuecomment-2318701034) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+4. 🗣 Commented on [#34](https://github.com/ucsusa/pypsa-illinois/pull/34#issuecomment-2318697382) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
+5. 🗣 Commented on [#4](https://github.com/2lambda123/https-github.com-shivasiddharth-GassistPi/pull/4#issuecomment-2318559362) in [2lambda123/https-github.com-shivasiddharth-GassistPi](https://github.com/2lambda123/https-github.com-shivasiddharth-GassistPi)
+6. 🗣 Commented on [#4693](https://github.com/MDAnalysis/mdanalysis/pull/4693#issuecomment-2318553013) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+7. 🗣 Commented on [#1328](https://github.com/aimclub/FEDOT/pull/1328#issuecomment-2318445217) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+8. 🗣 Commented on [#1656](https://github.com/odlgroup/odl/pull/1656#issuecomment-2318380655) in [odlgroup/odl](https://github.com/odlgroup/odl)
+9. 🗣 Commented on [#1655](https://github.com/odlgroup/odl/pull/1655#issuecomment-2318333587) in [odlgroup/odl](https://github.com/odlgroup/odl)
+10. 🗣 Commented on [#837](https://github.com/StingraySoftware/stingray/pull/837#issuecomment-2318242021) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
 <!--END_SECTION:activity-->
