@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3343](https://github.com/dipy/dipy/pull/3343#issuecomment-2319458128) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#1126](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1126#issuecomment-2318975860) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-3. 🗣 Commented on [#1643](https://github.com/spacetelescope/jwql/pull/1643#issuecomment-2318701034) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-4. 🗣 Commented on [#34](https://github.com/ucsusa/pypsa-illinois/pull/34#issuecomment-2318697382) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
-5. 🗣 Commented on [#4](https://github.com/2lambda123/https-github.com-shivasiddharth-GassistPi/pull/4#issuecomment-2318559362) in [2lambda123/https-github.com-shivasiddharth-GassistPi](https://github.com/2lambda123/https-github.com-shivasiddharth-GassistPi)
-6. 🗣 Commented on [#4693](https://github.com/MDAnalysis/mdanalysis/pull/4693#issuecomment-2318553013) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-7. 🗣 Commented on [#1328](https://github.com/aimclub/FEDOT/pull/1328#issuecomment-2318445217) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
-8. 🗣 Commented on [#1656](https://github.com/odlgroup/odl/pull/1656#issuecomment-2318380655) in [odlgroup/odl](https://github.com/odlgroup/odl)
-9. 🗣 Commented on [#1655](https://github.com/odlgroup/odl/pull/1655#issuecomment-2318333587) in [odlgroup/odl](https://github.com/odlgroup/odl)
-10. 🗣 Commented on [#837](https://github.com/StingraySoftware/stingray/pull/837#issuecomment-2318242021) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+1. 🗣 Commented on [#193](https://github.com/SwaragThaikkandi/SMdRQA/pull/193#issuecomment-2322144563) in [SwaragThaikkandi/SMdRQA](https://github.com/SwaragThaikkandi/SMdRQA)
+2. 🗣 Commented on [#1644](https://github.com/spacetelescope/jwql/pull/1644#issuecomment-2321598287) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+3. 🗣 Commented on [#1](https://github.com/2lambda123/statbiophys-pygor3/pull/1#issuecomment-2320962327) in [2lambda123/statbiophys-pygor3](https://github.com/2lambda123/statbiophys-pygor3)
+4. 🗣 Commented on [#3](https://github.com/2lambda123/nasa-opera-sds-pge/pull/3#issuecomment-2320944307) in [2lambda123/nasa-opera-sds-pge](https://github.com/2lambda123/nasa-opera-sds-pge)
+5. 🗣 Commented on [#1](https://github.com/2lambda123/statbiophys-OLGA/pull/1#issuecomment-2320931203) in [2lambda123/statbiophys-OLGA](https://github.com/2lambda123/statbiophys-OLGA)
+6. 🗣 Commented on [#2](https://github.com/2lambda123/nasa-opera-sds-pge/pull/2#issuecomment-2320925670) in [2lambda123/nasa-opera-sds-pge](https://github.com/2lambda123/nasa-opera-sds-pge)
+7. 🗣 Commented on [#13](https://github.com/2lambda123/nasa-opera-sds-pcm/pull/13#issuecomment-2320886280) in [2lambda123/nasa-opera-sds-pcm](https://github.com/2lambda123/nasa-opera-sds-pcm)
+8. 🗣 Commented on [#8](https://github.com/2lambda123/nasa-opera-sds-pcm/pull/8#issuecomment-2320819799) in [2lambda123/nasa-opera-sds-pcm](https://github.com/2lambda123/nasa-opera-sds-pcm)
+9. 🗣 Commented on [#7](https://github.com/2lambda123/nasa-opera-sds-pcm/pull/7#issuecomment-2320819399) in [2lambda123/nasa-opera-sds-pcm](https://github.com/2lambda123/nasa-opera-sds-pcm)
+10. 🗣 Commented on [#5](https://github.com/2lambda123/nasa-opera-sds-pcm/pull/5#issuecomment-2320818794) in [2lambda123/nasa-opera-sds-pcm](https://github.com/2lambda123/nasa-opera-sds-pcm)
 <!--END_SECTION:activity-->
