@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4065](https://github.com/privacyidea/privacyidea/pull/4065#issuecomment-2327525233) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-2. 🗣 Commented on [#908](https://github.com/spacetelescope/webbpsf/pull/908#issuecomment-2327342037) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-3. 🗣 Commented on [#929](https://github.com/OpenFreeEnergy/openfe/pull/929#issuecomment-2326824045) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-4. 🗣 Commented on [#144](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/144#issuecomment-2326756270) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
-5. 🗣 Commented on [#9](https://github.com/2lambda123/winter-telescope-mirar/pull/9#issuecomment-2326699234) in [2lambda123/winter-telescope-mirar](https://github.com/2lambda123/winter-telescope-mirar)
-6. 🗣 Commented on [#36](https://github.com/ucsusa/pypsa-illinois/pull/36#issuecomment-2326687052) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
-7. 🗣 Commented on [#8](https://github.com/2lambda123/winter-telescope-mirar/pull/8#issuecomment-2326610127) in [2lambda123/winter-telescope-mirar](https://github.com/2lambda123/winter-telescope-mirar)
-8. 🗣 Commented on [#7](https://github.com/2lambda123/winter-telescope-mirar/pull/7#issuecomment-2326608518) in [2lambda123/winter-telescope-mirar](https://github.com/2lambda123/winter-telescope-mirar)
-9. 🗣 Commented on [#1499](https://github.com/Open-CAS/open-cas-linux/pull/1499#issuecomment-2326443070) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-10. 🗣 Commented on [#12](https://github.com/eastgenomics/GitHub_Actions/pull/12#issuecomment-2326256353) in [eastgenomics/GitHub_Actions](https://github.com/eastgenomics/GitHub_Actions)
+1. 🗣 Commented on [#1](https://github.com/2lambda123/nasa-astrobee/pull/1#issuecomment-2329930976) in [2lambda123/nasa-astrobee](https://github.com/2lambda123/nasa-astrobee)
+2. 🗣 Commented on [#4](https://github.com/2lambda123/nasa-gesdisc-tutorials/pull/4#issuecomment-2329866684) in [2lambda123/nasa-gesdisc-tutorials](https://github.com/2lambda123/nasa-gesdisc-tutorials)
+3. 🗣 Commented on [#838](https://github.com/StingraySoftware/stingray/pull/838#issuecomment-2329450952) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
+4. 🗣 Commented on [#39](https://github.com/ucsusa/pypsa-illinois/pull/39#issuecomment-2329341227) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
+5. 🗣 Commented on [#3](https://github.com/gfunkmonk/Ventoy/pull/3#issuecomment-2329339415) in [gfunkmonk/Ventoy](https://github.com/gfunkmonk/Ventoy)
+6. 🗣 Commented on [#1026](https://github.com/scilus/scilpy/pull/1026#issuecomment-2329305194) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#40](https://github.com/cirKITers/qml-essentials/pull/40#issuecomment-2328236341) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+8. 🗣 Commented on [#10](https://github.com/Open-CAS/test-framework/pull/10#issuecomment-2328022227) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+9. 🗣 Commented on [#506](https://github.com/Spoken-tutorial/spoken-website/pull/506#issuecomment-2328006696) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+10. 🗣 Commented on [#1127](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1127#issuecomment-2327578344) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
