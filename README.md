@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/2lambda123/nasa-astrobee/pull/1#issuecomment-2329930976) in [2lambda123/nasa-astrobee](https://github.com/2lambda123/nasa-astrobee)
-2. 🗣 Commented on [#4](https://github.com/2lambda123/nasa-gesdisc-tutorials/pull/4#issuecomment-2329866684) in [2lambda123/nasa-gesdisc-tutorials](https://github.com/2lambda123/nasa-gesdisc-tutorials)
-3. 🗣 Commented on [#838](https://github.com/StingraySoftware/stingray/pull/838#issuecomment-2329450952) in [StingraySoftware/stingray](https://github.com/StingraySoftware/stingray)
-4. 🗣 Commented on [#39](https://github.com/ucsusa/pypsa-illinois/pull/39#issuecomment-2329341227) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
-5. 🗣 Commented on [#3](https://github.com/gfunkmonk/Ventoy/pull/3#issuecomment-2329339415) in [gfunkmonk/Ventoy](https://github.com/gfunkmonk/Ventoy)
-6. 🗣 Commented on [#1026](https://github.com/scilus/scilpy/pull/1026#issuecomment-2329305194) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#40](https://github.com/cirKITers/qml-essentials/pull/40#issuecomment-2328236341) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-8. 🗣 Commented on [#10](https://github.com/Open-CAS/test-framework/pull/10#issuecomment-2328022227) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
-9. 🗣 Commented on [#506](https://github.com/Spoken-tutorial/spoken-website/pull/506#issuecomment-2328006696) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-10. 🗣 Commented on [#1127](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1127#issuecomment-2327578344) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+1. 🗣 Commented on [#1027](https://github.com/scilus/scilpy/pull/1027#issuecomment-2332202488) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#968](https://github.com/scilus/scilpy/pull/968#issuecomment-2332103162) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#41](https://github.com/ucsusa/pypsa-illinois/pull/41#issuecomment-2332004660) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
+4. 🗣 Commented on [#963](https://github.com/ToFuProject/tofu/pull/963#issuecomment-2331857205) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+5. 🗣 Commented on [#2](https://github.com/2lambda123/nasa-harmony-service-example/pull/2#issuecomment-2331760265) in [2lambda123/nasa-harmony-service-example](https://github.com/2lambda123/nasa-harmony-service-example)
+6. 🗣 Commented on [#1](https://github.com/2lambda123/nasa-harmony-service-example/pull/1#issuecomment-2331759705) in [2lambda123/nasa-harmony-service-example](https://github.com/2lambda123/nasa-harmony-service-example)
+7. 🗣 Commented on [#507](https://github.com/Spoken-tutorial/spoken-website/pull/507#issuecomment-2331027540) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+8. 🗣 Commented on [#12](https://github.com/oemof/oemof-visio/pull/12#issuecomment-2330994513) in [oemof/oemof-visio](https://github.com/oemof/oemof-visio)
+9. 🗣 Commented on [#153](https://github.com/DeMarcoLab/autolamella/pull/153#issuecomment-2330755729) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+10. 🗣 Commented on [#335](https://github.com/DeMarcoLab/fibsem/pull/335#issuecomment-2330542472) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
 <!--END_SECTION:activity-->
