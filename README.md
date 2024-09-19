@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#34](https://github.com/Borda/kaggle_SandBox/pull/34#issuecomment-2356833616) in [Borda/kaggle_SandBox](https://github.com/Borda/kaggle_SandBox)
-2. 🗣 Commented on [#1526](https://github.com/Open-CAS/open-cas-linux/pull/1526#issuecomment-2356770147) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-3. 🗣 Commented on [#1130](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1130#issuecomment-2356590123) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#3358](https://github.com/dipy/dipy/pull/3358#issuecomment-2356291565) in [dipy/dipy](https://github.com/dipy/dipy)
-5. 🗣 Commented on [#816](https://github.com/Open-CAS/ocf/pull/816#issuecomment-2355904978) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
-6. 🗣 Commented on [#3](https://github.com/eastgenomics/RD_requests/pull/3#issuecomment-2355892976) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-7. 🗣 Commented on [#13](https://github.com/eastgenomics/eggd_generate_rd_wgs_workbook/pull/13#issuecomment-2355785384) in [eastgenomics/eggd_generate_rd_wgs_workbook](https://github.com/eastgenomics/eggd_generate_rd_wgs_workbook)
-8. 🗣 Commented on [#937](https://github.com/OpenFreeEnergy/openfe/pull/937#issuecomment-2354207543) in [OpenFreeEnergy/openfe](https://github.com/OpenFreeEnergy/openfe)
-9. 🗣 Commented on [#132](https://github.com/eastgenomics/eggd_conductor/pull/132#issuecomment-2353231707) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-10. 🗣 Commented on [#425](https://github.com/cggh/scikit-allel/pull/425#issuecomment-2353204471) in [cggh/scikit-allel](https://github.com/cggh/scikit-allel)
+1. 🗣 Commented on [#827](https://github.com/Open-CAS/ocf/pull/827#issuecomment-2359072391) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
+2. 🗣 Commented on [#5](https://github.com/eastgenomics/RD_requests/pull/5#issuecomment-2358712222) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+3. 🗣 Commented on [#12](https://github.com/eastgenomics/Haemonc_requests/pull/12#issuecomment-2358638626) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
+4. 🗣 Commented on [#133](https://github.com/eastgenomics/eggd_conductor/pull/133#issuecomment-2358533958) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+5. 🗣 Commented on [#75](https://github.com/tuhinmallick/InsiderTrader/pull/75#issuecomment-2358357691) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
+6. 🗣 Commented on [#68](https://github.com/tuhinmallick/InsiderTrader/pull/68#issuecomment-2358357649) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
+7. 🗣 Commented on [#67](https://github.com/tuhinmallick/InsiderTrader/pull/67#issuecomment-2358356771) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
+8. 🗣 Commented on [#62](https://github.com/tuhinmallick/InsiderTrader/pull/62#issuecomment-2358354370) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
+9. 🗣 Commented on [#306](https://github.com/OpenFreeEnergy/alchemiscale/pull/306#issuecomment-2358337267) in [OpenFreeEnergy/alchemiscale](https://github.com/OpenFreeEnergy/alchemiscale)
+10. 🗣 Commented on [#55](https://github.com/tuhinmallick/InsiderTrader/pull/55#issuecomment-2358312647) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
 <!--END_SECTION:activity-->
