@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#827](https://github.com/Open-CAS/ocf/pull/827#issuecomment-2359072391) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
-2. 🗣 Commented on [#5](https://github.com/eastgenomics/RD_requests/pull/5#issuecomment-2358712222) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-3. 🗣 Commented on [#12](https://github.com/eastgenomics/Haemonc_requests/pull/12#issuecomment-2358638626) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
-4. 🗣 Commented on [#133](https://github.com/eastgenomics/eggd_conductor/pull/133#issuecomment-2358533958) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-5. 🗣 Commented on [#75](https://github.com/tuhinmallick/InsiderTrader/pull/75#issuecomment-2358357691) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
-6. 🗣 Commented on [#68](https://github.com/tuhinmallick/InsiderTrader/pull/68#issuecomment-2358357649) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
-7. 🗣 Commented on [#67](https://github.com/tuhinmallick/InsiderTrader/pull/67#issuecomment-2358356771) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
-8. 🗣 Commented on [#62](https://github.com/tuhinmallick/InsiderTrader/pull/62#issuecomment-2358354370) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
-9. 🗣 Commented on [#306](https://github.com/OpenFreeEnergy/alchemiscale/pull/306#issuecomment-2358337267) in [OpenFreeEnergy/alchemiscale](https://github.com/OpenFreeEnergy/alchemiscale)
-10. 🗣 Commented on [#55](https://github.com/tuhinmallick/InsiderTrader/pull/55#issuecomment-2358312647) in [tuhinmallick/InsiderTrader](https://github.com/tuhinmallick/InsiderTrader)
+1. 🗣 Commented on [#280](https://github.com/OpenFreeEnergy/alchemiscale/pull/280#issuecomment-2362281936) in [OpenFreeEnergy/alchemiscale](https://github.com/OpenFreeEnergy/alchemiscale)
+2. 🗣 Commented on [#16](https://github.com/ucsusa/2024-kansas-city-analysis/pull/16#issuecomment-2362016618) in [ucsusa/2024-kansas-city-analysis](https://github.com/ucsusa/2024-kansas-city-analysis)
+3. 🗣 Commented on [#147](https://github.com/Richard-Sti/csiborgtools/pull/147#issuecomment-2360867016) in [Richard-Sti/csiborgtools](https://github.com/Richard-Sti/csiborgtools)
+4. 🗣 Commented on [#4075](https://github.com/privacyidea/privacyidea/pull/4075#issuecomment-2360747570) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#1](https://github.com/eastgenomics/clinvar_submissions/pull/1#issuecomment-2360699867) in [eastgenomics/clinvar_submissions](https://github.com/eastgenomics/clinvar_submissions)
+6. 🗣 Commented on [#150](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/pull/150#issuecomment-2360362833) in [OpenFreeEnergy/IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024)
+7. 🗣 Commented on [#827](https://github.com/Open-CAS/ocf/pull/827#issuecomment-2359072391) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
+8. 🗣 Commented on [#5](https://github.com/eastgenomics/RD_requests/pull/5#issuecomment-2358712222) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+9. 🗣 Commented on [#12](https://github.com/eastgenomics/Haemonc_requests/pull/12#issuecomment-2358638626) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
+10. 🗣 Commented on [#133](https://github.com/eastgenomics/eggd_conductor/pull/133#issuecomment-2358533958) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
 <!--END_SECTION:activity-->
