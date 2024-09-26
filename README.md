@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#48](https://github.com/NASA-Planetary-Science/AmesCAP/pull/48#issuecomment-2372015231) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-2. 🗣 Commented on [#170](https://github.com/arfc/transition-scenarios/pull/170#issuecomment-2371715159) in [arfc/transition-scenarios](https://github.com/arfc/transition-scenarios)
-3. 🗣 Commented on [#428](https://github.com/cggh/scikit-allel/pull/428#issuecomment-2371593155) in [cggh/scikit-allel](https://github.com/cggh/scikit-allel)
-4. 🗣 Commented on [#43](https://github.com/OpenFreeEnergy/openfe-gromacs/pull/43#issuecomment-2371248303) in [OpenFreeEnergy/openfe-gromacs](https://github.com/OpenFreeEnergy/openfe-gromacs)
-5. 🗣 Commented on [#22564](https://github.com/spyder-ide/spyder/pull/22564#issuecomment-2371217524) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-6. 🗣 Commented on [#1415](https://github.com/rpm-software-management/mock/pull/1415#issuecomment-2371161758) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-7. 🗣 Commented on [#7](https://github.com/eastgenomics/RD_requests/pull/7#issuecomment-2371130929) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-8. 🗣 Commented on [#42](https://github.com/OpenFreeEnergy/openfe-gromacs/pull/42#issuecomment-2371039582) in [OpenFreeEnergy/openfe-gromacs](https://github.com/OpenFreeEnergy/openfe-gromacs)
-9. 🗣 Commented on [#665](https://github.com/einsteinpy/einsteinpy/pull/665#issuecomment-2369427623) in [einsteinpy/einsteinpy](https://github.com/einsteinpy/einsteinpy)
-10. 🗣 Commented on [#90](https://github.com/OpenFreeEnergy/feflow/pull/90#issuecomment-2368075242) in [OpenFreeEnergy/feflow](https://github.com/OpenFreeEnergy/feflow)
+1. 🗣 Commented on [#1135](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1135#issuecomment-2374267369) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+2. 🗣 Commented on [#1134](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1134#issuecomment-2374033164) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+3. 🗣 Commented on [#1030](https://github.com/scilus/scilpy/pull/1030#issuecomment-2374011461) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#1533](https://github.com/Open-CAS/open-cas-linux/pull/1533#issuecomment-2373984126) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+5. 🗣 Commented on [#90](https://github.com/PenguinCloud/WaddleBot-Core/pull/90#issuecomment-2373611642) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+6. 🗣 Commented on [#1030](https://github.com/avaframe/AvaFrame/pull/1030#issuecomment-2373589704) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+7. 🗣 Commented on [#47](https://github.com/OpenFreeEnergy/openfe-gromacs/pull/47#issuecomment-2373568668) in [OpenFreeEnergy/openfe-gromacs](https://github.com/OpenFreeEnergy/openfe-gromacs)
+8. 🗣 Commented on [#89](https://github.com/PenguinCloud/WaddleBot-Core/pull/89#issuecomment-2373561528) in [PenguinCloud/WaddleBot-Core](https://github.com/PenguinCloud/WaddleBot-Core)
+9. 🗣 Commented on [#4718](https://github.com/MDAnalysis/mdanalysis/pull/4718#issuecomment-2373497861) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+10. 🗣 Commented on [#10](https://github.com/PenguinCloud/WaddleDBM/pull/10#issuecomment-2373470102) in [PenguinCloud/WaddleDBM](https://github.com/PenguinCloud/WaddleDBM)
 <!--END_SECTION:activity-->
