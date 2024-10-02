@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4097](https://github.com/privacyidea/privacyidea/pull/4097#issuecomment-2384087079) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-2. 🗣 Commented on [#3368](https://github.com/dipy/dipy/pull/3368#issuecomment-2384061700) in [dipy/dipy](https://github.com/dipy/dipy)
-3. 🗣 Commented on [#1032](https://github.com/scilus/scilpy/pull/1032#issuecomment-2383532427) in [scilus/scilpy](https://github.com/scilus/scilpy)
-4. 🗣 Commented on [#43](https://github.com/cirKITers/qml-essentials/pull/43#issuecomment-2383493836) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-5. 🗣 Commented on [#227](https://github.com/UKRIN-MAPS/ukat/pull/227#issuecomment-2383089110) in [UKRIN-MAPS/ukat](https://github.com/UKRIN-MAPS/ukat)
-6. 🗣 Commented on [#1480](https://github.com/rpm-software-management/mock/pull/1480#issuecomment-2382286620) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-7. 🗣 Commented on [#154](https://github.com/DeMarcoLab/autolamella/pull/154#issuecomment-2381975085) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
-8. 🗣 Commented on [#336](https://github.com/DeMarcoLab/fibsem/pull/336#issuecomment-2381969142) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
-9. 🗣 Commented on [#720](https://github.com/HEXRD/hexrd/pull/720#issuecomment-2380715500) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-10. 🗣 Commented on [#213](https://github.com/njzjz/deepmd-kit/pull/213#issuecomment-2380576101) in [njzjz/deepmd-kit](https://github.com/njzjz/deepmd-kit)
+1. 🗣 Commented on [#246](https://github.com/scil-vital/dwi_ml/pull/246#issuecomment-2386427318) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
+2. 🗣 Commented on [#5](https://github.com/eastgenomics/MultiQC/pull/5#issuecomment-2386335692) in [eastgenomics/MultiQC](https://github.com/eastgenomics/MultiQC)
+3. 🗣 Commented on [#4](https://github.com/eastgenomics/MultiQC/pull/4#issuecomment-2386287431) in [eastgenomics/MultiQC](https://github.com/eastgenomics/MultiQC)
+4. 🗣 Commented on [#2](https://github.com/eastgenomics/s3_upload/pull/2#issuecomment-2386192433) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+5. 🗣 Commented on [#4098](https://github.com/privacyidea/privacyidea/pull/4098#issuecomment-2385965770) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+6. 🗣 Commented on [#3111](https://github.com/astropy/astroquery/pull/3111#issuecomment-2385405981) in [astropy/astroquery](https://github.com/astropy/astroquery)
+7. 🗣 Commented on [#134](https://github.com/eastgenomics/eggd_conductor/pull/134#issuecomment-2385328563) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+8. 🗣 Commented on [#22620](https://github.com/spyder-ide/spyder/pull/22620#issuecomment-2384858668) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#4408](https://github.com/uwcirg/truenth-portal/pull/4408#issuecomment-2384563188) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+10. 🗣 Commented on [#1734](https://github.com/HEXRD/hexrdgui/pull/1734#issuecomment-2384423232) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
