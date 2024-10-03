@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#246](https://github.com/scil-vital/dwi_ml/pull/246#issuecomment-2386427318) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-2. 🗣 Commented on [#5](https://github.com/eastgenomics/MultiQC/pull/5#issuecomment-2386335692) in [eastgenomics/MultiQC](https://github.com/eastgenomics/MultiQC)
-3. 🗣 Commented on [#4](https://github.com/eastgenomics/MultiQC/pull/4#issuecomment-2386287431) in [eastgenomics/MultiQC](https://github.com/eastgenomics/MultiQC)
-4. 🗣 Commented on [#2](https://github.com/eastgenomics/s3_upload/pull/2#issuecomment-2386192433) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-5. 🗣 Commented on [#4098](https://github.com/privacyidea/privacyidea/pull/4098#issuecomment-2385965770) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-6. 🗣 Commented on [#3111](https://github.com/astropy/astroquery/pull/3111#issuecomment-2385405981) in [astropy/astroquery](https://github.com/astropy/astroquery)
-7. 🗣 Commented on [#134](https://github.com/eastgenomics/eggd_conductor/pull/134#issuecomment-2385328563) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-8. 🗣 Commented on [#22620](https://github.com/spyder-ide/spyder/pull/22620#issuecomment-2384858668) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-9. 🗣 Commented on [#4408](https://github.com/uwcirg/truenth-portal/pull/4408#issuecomment-2384563188) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-10. 🗣 Commented on [#1734](https://github.com/HEXRD/hexrdgui/pull/1734#issuecomment-2384423232) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+1. 🗣 Commented on [#1033](https://github.com/scilus/scilpy/pull/1033#issuecomment-2389358607) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#356](https://github.com/cleder/fastkml/pull/356#issuecomment-2389104949) in [cleder/fastkml](https://github.com/cleder/fastkml)
+3. 🗣 Commented on [#1547](https://github.com/Open-CAS/open-cas-linux/pull/1547#issuecomment-2389031906) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+4. 🗣 Commented on [#175](https://github.com/arfc/transition-scenarios/pull/175#issuecomment-2389024775) in [arfc/transition-scenarios](https://github.com/arfc/transition-scenarios)
+5. 🗣 Commented on [#2991](https://github.com/metabrainz/listenbrainz-server/pull/2991#issuecomment-2389002393) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#3275](https://github.com/reframe-hpc/reframe/pull/3275#issuecomment-2388998635) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+7. 🗣 Commented on [#20](https://github.com/thoth-pub/thoth-loader/pull/20#issuecomment-2388733366) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
+8. 🗣 Commented on [#156](https://github.com/INT-NIT/BEP032tools/pull/156#issuecomment-2388592925) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
+9. 🗣 Commented on [#1538](https://github.com/Open-CAS/open-cas-linux/pull/1538#issuecomment-2388292795) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+10. 🗣 Commented on [#8](https://github.com/eastgenomics/RD_requests/pull/8#issuecomment-2387950197) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
 <!--END_SECTION:activity-->
