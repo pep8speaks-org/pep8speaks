@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1033](https://github.com/scilus/scilpy/pull/1033#issuecomment-2389358607) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#356](https://github.com/cleder/fastkml/pull/356#issuecomment-2389104949) in [cleder/fastkml](https://github.com/cleder/fastkml)
-3. 🗣 Commented on [#1547](https://github.com/Open-CAS/open-cas-linux/pull/1547#issuecomment-2389031906) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-4. 🗣 Commented on [#175](https://github.com/arfc/transition-scenarios/pull/175#issuecomment-2389024775) in [arfc/transition-scenarios](https://github.com/arfc/transition-scenarios)
-5. 🗣 Commented on [#2991](https://github.com/metabrainz/listenbrainz-server/pull/2991#issuecomment-2389002393) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-6. 🗣 Commented on [#3275](https://github.com/reframe-hpc/reframe/pull/3275#issuecomment-2388998635) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-7. 🗣 Commented on [#20](https://github.com/thoth-pub/thoth-loader/pull/20#issuecomment-2388733366) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
-8. 🗣 Commented on [#156](https://github.com/INT-NIT/BEP032tools/pull/156#issuecomment-2388592925) in [INT-NIT/BEP032tools](https://github.com/INT-NIT/BEP032tools)
-9. 🗣 Commented on [#1538](https://github.com/Open-CAS/open-cas-linux/pull/1538#issuecomment-2388292795) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-10. 🗣 Commented on [#8](https://github.com/eastgenomics/RD_requests/pull/8#issuecomment-2387950197) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+1. 🗣 Commented on [#3113](https://github.com/astropy/astroquery/pull/3113#issuecomment-2391423990) in [astropy/astroquery](https://github.com/astropy/astroquery)
+2. 🗣 Commented on [#4726](https://github.com/MDAnalysis/mdanalysis/pull/4726#issuecomment-2391412337) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+3. 🗣 Commented on [#661](https://github.com/aramis-lab/clinicadl/pull/661#issuecomment-2390910074) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
+4. 🗣 Commented on [#3](https://github.com/eastgenomics/s3_upload/pull/3#issuecomment-2390834431) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+5. 🗣 Commented on [#1546](https://github.com/Open-CAS/open-cas-linux/pull/1546#issuecomment-2390690386) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+6. 🗣 Commented on [#58](https://github.com/tj-python/cpython/pull/58#issuecomment-2390537418) in [tj-python/cpython](https://github.com/tj-python/cpython)
+7. 🗣 Commented on [#16](https://github.com/njzjz/deepmd-mace/pull/16#issuecomment-2389777416) in [njzjz/deepmd-mace](https://github.com/njzjz/deepmd-mace)
+8. 🗣 Commented on [#4725](https://github.com/MDAnalysis/mdanalysis/pull/4725#issuecomment-2389716658) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+9. 🗣 Commented on [#1034](https://github.com/scilus/scilpy/pull/1034#issuecomment-2389633537) in [scilus/scilpy](https://github.com/scilus/scilpy)
+10. 🗣 Commented on [#17](https://github.com/Open-CAS/test-framework/pull/17#issuecomment-2389562733) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
 <!--END_SECTION:activity-->
