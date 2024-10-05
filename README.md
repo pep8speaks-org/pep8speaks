@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3113](https://github.com/astropy/astroquery/pull/3113#issuecomment-2391423990) in [astropy/astroquery](https://github.com/astropy/astroquery)
-2. 🗣 Commented on [#4726](https://github.com/MDAnalysis/mdanalysis/pull/4726#issuecomment-2391412337) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-3. 🗣 Commented on [#661](https://github.com/aramis-lab/clinicadl/pull/661#issuecomment-2390910074) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-4. 🗣 Commented on [#3](https://github.com/eastgenomics/s3_upload/pull/3#issuecomment-2390834431) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-5. 🗣 Commented on [#1546](https://github.com/Open-CAS/open-cas-linux/pull/1546#issuecomment-2390690386) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-6. 🗣 Commented on [#58](https://github.com/tj-python/cpython/pull/58#issuecomment-2390537418) in [tj-python/cpython](https://github.com/tj-python/cpython)
-7. 🗣 Commented on [#16](https://github.com/njzjz/deepmd-mace/pull/16#issuecomment-2389777416) in [njzjz/deepmd-mace](https://github.com/njzjz/deepmd-mace)
-8. 🗣 Commented on [#4725](https://github.com/MDAnalysis/mdanalysis/pull/4725#issuecomment-2389716658) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-9. 🗣 Commented on [#1034](https://github.com/scilus/scilpy/pull/1034#issuecomment-2389633537) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#17](https://github.com/Open-CAS/test-framework/pull/17#issuecomment-2389562733) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+1. 🗣 Commented on [#292](https://github.com/DevoInc/python-sdk/pull/292#issuecomment-2394391681) in [DevoInc/python-sdk](https://github.com/DevoInc/python-sdk)
+2. 🗣 Commented on [#3280](https://github.com/reframe-hpc/reframe/pull/3280#issuecomment-2393969895) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+3. 🗣 Commented on [#135](https://github.com/eastgenomics/eggd_conductor/pull/135#issuecomment-2393780745) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+4. 🗣 Commented on [#358](https://github.com/cleder/fastkml/pull/358#issuecomment-2393750203) in [cleder/fastkml](https://github.com/cleder/fastkml)
+5. 🗣 Commented on [#4100](https://github.com/privacyidea/privacyidea/pull/4100#issuecomment-2393704277) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+6. 🗣 Commented on [#1635](https://github.com/openSUSE/osc/pull/1635#issuecomment-2393612779) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#255](https://github.com/OpenSCAP/oscap-anaconda-addon/pull/255#issuecomment-2393577914) in [OpenSCAP/oscap-anaconda-addon](https://github.com/OpenSCAP/oscap-anaconda-addon)
+8. 🗣 Commented on [#9](https://github.com/eastgenomics/RD_requests/pull/9#issuecomment-2393370949) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+9. 🗣 Commented on [#338](https://github.com/DeMarcoLab/fibsem/pull/338#issuecomment-2393094752) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+10. 🗣 Commented on [#1737](https://github.com/HEXRD/hexrdgui/pull/1737#issuecomment-2392478782) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
