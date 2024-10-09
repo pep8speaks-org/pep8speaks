@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1647](https://github.com/spacetelescope/jwql/pull/1647#issuecomment-2397382653) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-2. 🗣 Commented on [#5](https://github.com/eastgenomics/s3_upload/pull/5#issuecomment-2397342896) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-3. 🗣 Commented on [#56](https://github.com/cirKITers/qml-essentials/pull/56#issuecomment-2396881996) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-4. 🗣 Commented on [#3281](https://github.com/reframe-hpc/reframe/pull/3281#issuecomment-2396870166) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#4](https://github.com/eastgenomics/s3_upload/pull/4#issuecomment-2396564802) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-6. 🗣 Commented on [#255](https://github.com/OpenSCAP/oscap-anaconda-addon/pull/255#issuecomment-2396421903) in [OpenSCAP/oscap-anaconda-addon](https://github.com/OpenSCAP/oscap-anaconda-addon)
-7. 🗣 Commented on [#560](https://github.com/spatialaudio/python-sounddevice/pull/560#issuecomment-2396229467) in [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice)
-8. 🗣 Commented on [#924](https://github.com/PyThaiNLP/pythainlp/pull/924#issuecomment-2395465985) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-9. 🗣 Commented on [#240](https://github.com/my8100/scrapydweb/pull/240#issuecomment-2395361022) in [my8100/scrapydweb](https://github.com/my8100/scrapydweb)
-10. 🗣 Commented on [#156](https://github.com/DeMarcoLab/autolamella/pull/156#issuecomment-2395302802) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+1. 🗣 Commented on [#10](https://github.com/eastgenomics/RD_requests/pull/10#issuecomment-2400134649) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+2. 🗣 Commented on [#430](https://github.com/cggh/scikit-allel/pull/430#issuecomment-2399716885) in [cggh/scikit-allel](https://github.com/cggh/scikit-allel)
+3. 🗣 Commented on [#9385](https://github.com/statsmodels/statsmodels/pull/9385#issuecomment-2399149356) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+4. 🗣 Commented on [#28](https://github.com/njzjz/deepmd-gnn/pull/28#issuecomment-2398168079) in [njzjz/deepmd-gnn](https://github.com/njzjz/deepmd-gnn)
+5. 🗣 Commented on [#445](https://github.com/aria-tools/ARIA-tools/pull/445#issuecomment-2398051033) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+6. 🗣 Commented on [#27](https://github.com/njzjz/deepmd-gnn/pull/27#issuecomment-2398025812) in [njzjz/deepmd-gnn](https://github.com/njzjz/deepmd-gnn)
+7. 🗣 Commented on [#560](https://github.com/rpm-software-management/dnf-plugins-core/pull/560#issuecomment-2397937081) in [rpm-software-management/dnf-plugins-core](https://github.com/rpm-software-management/dnf-plugins-core)
+8. 🗣 Commented on [#14](https://github.com/2lambda123/mesa/pull/14#issuecomment-2397779974) in [2lambda123/mesa](https://github.com/2lambda123/mesa)
+9. 🗣 Commented on [#5](https://github.com/2lambda123/QuandeLibC/pull/5#issuecomment-2397706549) in [2lambda123/QuandeLibC](https://github.com/2lambda123/QuandeLibC)
+10. 🗣 Commented on [#1647](https://github.com/spacetelescope/jwql/pull/1647#issuecomment-2397382653) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
 <!--END_SECTION:activity-->
