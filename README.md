@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#853](https://github.com/Open-CAS/ocf/pull/853#issuecomment-2411669739) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
-2. 🗣 Commented on [#1660](https://github.com/odlgroup/odl/pull/1660#issuecomment-2411407705) in [odlgroup/odl](https://github.com/odlgroup/odl)
-3. 🗣 Commented on [#11](https://github.com/eastgenomics/RD_requests/pull/11#issuecomment-2411169735) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-4. 🗣 Commented on [#666](https://github.com/aramis-lab/clinicadl/pull/666#issuecomment-2411063803) in [aramis-lab/clinicadl](https://github.com/aramis-lab/clinicadl)
-5. 🗣 Commented on [#165](https://github.com/aimclub/Fedot.Industrial/pull/165#issuecomment-2410656753) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-6. 🗣 Commented on [#36](https://github.com/avaframe/QGisAF/pull/36#issuecomment-2410475411) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
-7. 🗣 Commented on [#1032](https://github.com/avaframe/AvaFrame/pull/1032#issuecomment-2410430764) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#11](https://github.com/drauger-os-development/drauger-installer/pull/11#issuecomment-2409940227) in [drauger-os-development/drauger-installer](https://github.com/drauger-os-development/drauger-installer)
-9. 🗣 Commented on [#9389](https://github.com/statsmodels/statsmodels/pull/9389#issuecomment-2409919192) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-10. 🗣 Commented on [#528](https://github.com/payu-org/payu/pull/528#issuecomment-2409842828) in [payu-org/payu](https://github.com/payu-org/payu)
+1. 🗣 Commented on [#117](https://github.com/UIUCLibrary/Packager/pull/117#issuecomment-2414688423) in [UIUCLibrary/Packager](https://github.com/UIUCLibrary/Packager)
+2. 🗣 Commented on [#1035](https://github.com/avaframe/AvaFrame/pull/1035#issuecomment-2413698002) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+3. 🗣 Commented on [#4734](https://github.com/MDAnalysis/mdanalysis/pull/4734#issuecomment-2413498595) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#2143](https://github.com/rpm-software-management/dnf/pull/2143#issuecomment-2413451509) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+5. 🗣 Commented on [#170](https://github.com/MDAnalysis/distopia/pull/170#issuecomment-2413429251) in [MDAnalysis/distopia](https://github.com/MDAnalysis/distopia)
+6. 🗣 Commented on [#38](https://github.com/avaframe/QGisAF/pull/38#issuecomment-2413233820) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
+7. 🗣 Commented on [#531](https://github.com/payu-org/payu/pull/531#issuecomment-2412608811) in [payu-org/payu](https://github.com/payu-org/payu)
+8. 🗣 Commented on [#22598](https://github.com/spyder-ide/spyder/pull/22598#issuecomment-2412589123) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#853](https://github.com/Open-CAS/ocf/pull/853#issuecomment-2411669739) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
+10. 🗣 Commented on [#1660](https://github.com/odlgroup/odl/pull/1660#issuecomment-2411407705) in [odlgroup/odl](https://github.com/odlgroup/odl)
 <!--END_SECTION:activity-->
