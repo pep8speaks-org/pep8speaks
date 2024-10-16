@@ -49,7 +49,7 @@ class TestUtils:
 
         assert match_webhook_secret(mock_request) is True
 
-        monkeypatch.setenv('OVER_HEROKU', True)
+        monkeypatch.setenv('OVER_HEROKU', 'True')
 
         mock_request.headers = {'Header1': True}
         with pytest.raises(werkzeug.exceptions.Forbidden):
