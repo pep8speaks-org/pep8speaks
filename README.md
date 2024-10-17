@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#117](https://github.com/UIUCLibrary/Packager/pull/117#issuecomment-2414688423) in [UIUCLibrary/Packager](https://github.com/UIUCLibrary/Packager)
-2. 🗣 Commented on [#1035](https://github.com/avaframe/AvaFrame/pull/1035#issuecomment-2413698002) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-3. 🗣 Commented on [#4734](https://github.com/MDAnalysis/mdanalysis/pull/4734#issuecomment-2413498595) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-4. 🗣 Commented on [#2143](https://github.com/rpm-software-management/dnf/pull/2143#issuecomment-2413451509) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-5. 🗣 Commented on [#170](https://github.com/MDAnalysis/distopia/pull/170#issuecomment-2413429251) in [MDAnalysis/distopia](https://github.com/MDAnalysis/distopia)
-6. 🗣 Commented on [#38](https://github.com/avaframe/QGisAF/pull/38#issuecomment-2413233820) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
-7. 🗣 Commented on [#531](https://github.com/payu-org/payu/pull/531#issuecomment-2412608811) in [payu-org/payu](https://github.com/payu-org/payu)
-8. 🗣 Commented on [#22598](https://github.com/spyder-ide/spyder/pull/22598#issuecomment-2412589123) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-9. 🗣 Commented on [#853](https://github.com/Open-CAS/ocf/pull/853#issuecomment-2411669739) in [Open-CAS/ocf](https://github.com/Open-CAS/ocf)
-10. 🗣 Commented on [#1660](https://github.com/odlgroup/odl/pull/1660#issuecomment-2411407705) in [odlgroup/odl](https://github.com/odlgroup/odl)
+1. 🗣 Commented on [#3384](https://github.com/dipy/dipy/pull/3384#issuecomment-2417100232) in [dipy/dipy](https://github.com/dipy/dipy)
+2. 🗣 Commented on [#16](https://github.com/eastgenomics/s3_upload/pull/16#issuecomment-2417033851) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+3. 🗣 Commented on [#625](https://github.com/ExoCTK/exoctk/pull/625#issuecomment-2416941160) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
+4. 🗣 Commented on [#1573](https://github.com/Open-CAS/open-cas-linux/pull/1573#issuecomment-2416849692) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+5. 🗣 Commented on [#31](https://github.com/Borda/pyDeprecate/pull/31#issuecomment-2416150732) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
+6. 🗣 Commented on [#7](https://github.com/avaframe/AmaConnector/pull/7#issuecomment-2416056600) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
+7. 🗣 Commented on [#2](https://github.com/eastgenomics/clinvar_submissions/pull/2#issuecomment-2416055809) in [eastgenomics/clinvar_submissions](https://github.com/eastgenomics/clinvar_submissions)
+8. 🗣 Commented on [#699](https://github.com/quark-engine/quark-engine/pull/699#issuecomment-2415750246) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
+9. 🗣 Commented on [#532](https://github.com/payu-org/payu/pull/532#issuecomment-2415657762) in [payu-org/payu](https://github.com/payu-org/payu)
+10. 🗣 Commented on [#171](https://github.com/MDAnalysis/distopia/pull/171#issuecomment-2415307553) in [MDAnalysis/distopia](https://github.com/MDAnalysis/distopia)
 <!--END_SECTION:activity-->
