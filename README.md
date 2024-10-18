@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3384](https://github.com/dipy/dipy/pull/3384#issuecomment-2417100232) in [dipy/dipy](https://github.com/dipy/dipy)
-2. 🗣 Commented on [#16](https://github.com/eastgenomics/s3_upload/pull/16#issuecomment-2417033851) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-3. 🗣 Commented on [#625](https://github.com/ExoCTK/exoctk/pull/625#issuecomment-2416941160) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
-4. 🗣 Commented on [#1573](https://github.com/Open-CAS/open-cas-linux/pull/1573#issuecomment-2416849692) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-5. 🗣 Commented on [#31](https://github.com/Borda/pyDeprecate/pull/31#issuecomment-2416150732) in [Borda/pyDeprecate](https://github.com/Borda/pyDeprecate)
-6. 🗣 Commented on [#7](https://github.com/avaframe/AmaConnector/pull/7#issuecomment-2416056600) in [avaframe/AmaConnector](https://github.com/avaframe/AmaConnector)
-7. 🗣 Commented on [#2](https://github.com/eastgenomics/clinvar_submissions/pull/2#issuecomment-2416055809) in [eastgenomics/clinvar_submissions](https://github.com/eastgenomics/clinvar_submissions)
-8. 🗣 Commented on [#699](https://github.com/quark-engine/quark-engine/pull/699#issuecomment-2415750246) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
-9. 🗣 Commented on [#532](https://github.com/payu-org/payu/pull/532#issuecomment-2415657762) in [payu-org/payu](https://github.com/payu-org/payu)
-10. 🗣 Commented on [#171](https://github.com/MDAnalysis/distopia/pull/171#issuecomment-2415307553) in [MDAnalysis/distopia](https://github.com/MDAnalysis/distopia)
+1. 🗣 Commented on [#2146](https://github.com/rpm-software-management/dnf/pull/2146#issuecomment-2419356992) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+2. 🗣 Commented on [#9398](https://github.com/statsmodels/statsmodels/pull/9398#issuecomment-2419331083) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+3. 🗣 Commented on [#5945](https://github.com/rhinstaller/anaconda/pull/5945#issuecomment-2419269257) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+4. 🗣 Commented on [#9396](https://github.com/statsmodels/statsmodels/pull/9396#issuecomment-2419081475) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+5. 🗣 Commented on [#1343](https://github.com/aimclub/FEDOT/pull/1343#issuecomment-2419074141) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+6. 🗣 Commented on [#22684](https://github.com/spyder-ide/spyder/pull/22684#issuecomment-2418191877) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#9393](https://github.com/statsmodels/statsmodels/pull/9393#issuecomment-2417791438) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+8. 🗣 Commented on [#3384](https://github.com/dipy/dipy/pull/3384#issuecomment-2417100232) in [dipy/dipy](https://github.com/dipy/dipy)
+9. 🗣 Commented on [#16](https://github.com/eastgenomics/s3_upload/pull/16#issuecomment-2417033851) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+10. 🗣 Commented on [#625](https://github.com/ExoCTK/exoctk/pull/625#issuecomment-2416941160) in [ExoCTK/exoctk](https://github.com/ExoCTK/exoctk)
 <!--END_SECTION:activity-->
