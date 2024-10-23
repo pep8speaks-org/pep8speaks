@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4114](https://github.com/privacyidea/privacyidea/pull/4114#issuecomment-2426583814) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-2. 🗣 Commented on [#166](https://github.com/aimclub/Fedot.Industrial/pull/166#issuecomment-2426452528) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-3. 🗣 Commented on [#141](https://github.com/eastgenomics/eggd_conductor/pull/141#issuecomment-2426088133) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-4. 🗣 Commented on [#941](https://github.com/fury-gl/fury/pull/941#issuecomment-2425720981) in [fury-gl/fury](https://github.com/fury-gl/fury)
-5. 🗣 Commented on [#58](https://github.com/foreign-sub/aiofreepybox/pull/58#issuecomment-2425198978) in [foreign-sub/aiofreepybox](https://github.com/foreign-sub/aiofreepybox)
-6. 🗣 Commented on [#342](https://github.com/InvisibleSymbol/rocketwatch/pull/342#issuecomment-2424869200) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
-7. 🗣 Commented on [#4757](https://github.com/MDAnalysis/mdanalysis/pull/4757#issuecomment-2424831029) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-8. 🗣 Commented on [#4754](https://github.com/MDAnalysis/mdanalysis/pull/4754#issuecomment-2424792280) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-9. 🗣 Commented on [#4752](https://github.com/MDAnalysis/mdanalysis/pull/4752#issuecomment-2424757291) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-10. 🗣 Commented on [#340](https://github.com/InvisibleSymbol/rocketwatch/pull/340#issuecomment-2424260363) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
+1. 🗣 Commented on [#1489](https://github.com/rpm-software-management/mock/pull/1489#issuecomment-2429026445) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+2. 🗣 Commented on [#4](https://github.com/eastgenomics/clinvar_submissions/pull/4#issuecomment-2428798264) in [eastgenomics/clinvar_submissions](https://github.com/eastgenomics/clinvar_submissions)
+3. 🗣 Commented on [#1749](https://github.com/OGGM/oggm/pull/1749#issuecomment-2428011453) in [OGGM/oggm](https://github.com/OGGM/oggm)
+4. 🗣 Commented on [#3287](https://github.com/reframe-hpc/reframe/pull/3287#issuecomment-2427847780) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+5. 🗣 Commented on [#450](https://github.com/aria-tools/ARIA-tools/pull/450#issuecomment-2427676829) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+6. 🗣 Commented on [#725](https://github.com/HEXRD/hexrd/pull/725#issuecomment-2427312465) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+7. 🗣 Commented on [#4114](https://github.com/privacyidea/privacyidea/pull/4114#issuecomment-2426583814) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+8. 🗣 Commented on [#166](https://github.com/aimclub/Fedot.Industrial/pull/166#issuecomment-2426452528) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+9. 🗣 Commented on [#141](https://github.com/eastgenomics/eggd_conductor/pull/141#issuecomment-2426088133) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
+10. 🗣 Commented on [#941](https://github.com/fury-gl/fury/pull/941#issuecomment-2425720981) in [fury-gl/fury](https://github.com/fury-gl/fury)
 <!--END_SECTION:activity-->
