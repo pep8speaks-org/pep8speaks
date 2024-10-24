@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1489](https://github.com/rpm-software-management/mock/pull/1489#issuecomment-2429026445) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
-2. 🗣 Commented on [#4](https://github.com/eastgenomics/clinvar_submissions/pull/4#issuecomment-2428798264) in [eastgenomics/clinvar_submissions](https://github.com/eastgenomics/clinvar_submissions)
-3. 🗣 Commented on [#1749](https://github.com/OGGM/oggm/pull/1749#issuecomment-2428011453) in [OGGM/oggm](https://github.com/OGGM/oggm)
-4. 🗣 Commented on [#3287](https://github.com/reframe-hpc/reframe/pull/3287#issuecomment-2427847780) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-5. 🗣 Commented on [#450](https://github.com/aria-tools/ARIA-tools/pull/450#issuecomment-2427676829) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-6. 🗣 Commented on [#725](https://github.com/HEXRD/hexrd/pull/725#issuecomment-2427312465) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-7. 🗣 Commented on [#4114](https://github.com/privacyidea/privacyidea/pull/4114#issuecomment-2426583814) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-8. 🗣 Commented on [#166](https://github.com/aimclub/Fedot.Industrial/pull/166#issuecomment-2426452528) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-9. 🗣 Commented on [#141](https://github.com/eastgenomics/eggd_conductor/pull/141#issuecomment-2426088133) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-10. 🗣 Commented on [#941](https://github.com/fury-gl/fury/pull/941#issuecomment-2425720981) in [fury-gl/fury](https://github.com/fury-gl/fury)
+1. 🗣 Commented on [#452](https://github.com/aria-tools/ARIA-tools/pull/452#issuecomment-2433348015) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+2. 🗣 Commented on [#22718](https://github.com/spyder-ide/spyder/pull/22718#issuecomment-2433287381) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#203](https://github.com/mcdougallab/modeldb/pull/203#issuecomment-2433248853) in [mcdougallab/modeldb](https://github.com/mcdougallab/modeldb)
+4. 🗣 Commented on [#202](https://github.com/mcdougallab/modeldb/pull/202#issuecomment-2433222666) in [mcdougallab/modeldb](https://github.com/mcdougallab/modeldb)
+5. 🗣 Commented on [#9402](https://github.com/statsmodels/statsmodels/pull/9402#issuecomment-2433079717) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+6. 🗣 Commented on [#22](https://github.com/thoth-pub/thoth-loader/pull/22#issuecomment-2432353293) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
+7. 🗣 Commented on [#1957](https://github.com/dipy/dipy/pull/1957#issuecomment-2430239858) in [dipy/dipy](https://github.com/dipy/dipy)
+8. 🗣 Commented on [#20](https://github.com/MDAnalysis/mda-openbabel-converter/pull/20#issuecomment-2430167446) in [MDAnalysis/mda-openbabel-converter](https://github.com/MDAnalysis/mda-openbabel-converter)
+9. 🗣 Commented on [#21](https://github.com/thoth-pub/thoth-loader/pull/21#issuecomment-2429438322) in [thoth-pub/thoth-loader](https://github.com/thoth-pub/thoth-loader)
+10. 🗣 Commented on [#1489](https://github.com/rpm-software-management/mock/pull/1489#issuecomment-2429026445) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
 <!--END_SECTION:activity-->
