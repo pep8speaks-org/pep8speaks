@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#22](https://github.com/2lambda123/RasaHQ-rasa/pull/22#issuecomment-2442371434) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-2. 🗣 Commented on [#45](https://github.com/ucsusa/pypsa-illinois/pull/45#issuecomment-2442236006) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
-3. 🗣 Commented on [#142](https://github.com/eastgenomics/eggd_conductor/pull/142#issuecomment-2441925521) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-4. 🗣 Commented on [#4770](https://github.com/MDAnalysis/mdanalysis/pull/4770#issuecomment-2441606428) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-5. 🗣 Commented on [#21](https://github.com/2lambda123/RasaHQ-rasa/pull/21#issuecomment-2441455459) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-6. 🗣 Commented on [#20](https://github.com/2lambda123/RasaHQ-rasa/pull/20#issuecomment-2441454382) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-7. 🗣 Commented on [#19](https://github.com/2lambda123/RasaHQ-rasa/pull/19#issuecomment-2441452751) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-8. 🗣 Commented on [#18](https://github.com/2lambda123/RasaHQ-rasa/pull/18#issuecomment-2441451655) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-9. 🗣 Commented on [#17](https://github.com/2lambda123/RasaHQ-rasa/pull/17#issuecomment-2441450622) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
-10. 🗣 Commented on [#16](https://github.com/2lambda123/RasaHQ-rasa/pull/16#issuecomment-2441449704) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
+1. 🗣 Commented on [#1157](https://github.com/lmcinnes/umap/pull/1157#issuecomment-2444364159) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+2. 🗣 Commented on [#1041](https://github.com/scilus/scilpy/pull/1041#issuecomment-2444122102) in [scilus/scilpy](https://github.com/scilus/scilpy)
+3. 🗣 Commented on [#4773](https://github.com/MDAnalysis/mdanalysis/pull/4773#issuecomment-2444038206) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#4134](https://github.com/privacyidea/privacyidea/pull/4134#issuecomment-2443865012) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#202](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/202#issuecomment-2443626222) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+6. 🗣 Commented on [#5969](https://github.com/rhinstaller/anaconda/pull/5969#issuecomment-2443387005) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#819](https://github.com/spatialaudio/nbsphinx/pull/819#issuecomment-2442663329) in [spatialaudio/nbsphinx](https://github.com/spatialaudio/nbsphinx)
+8. 🗣 Commented on [#4132](https://github.com/privacyidea/privacyidea/pull/4132#issuecomment-2442386905) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+9. 🗣 Commented on [#22](https://github.com/2lambda123/RasaHQ-rasa/pull/22#issuecomment-2442371434) in [2lambda123/RasaHQ-rasa](https://github.com/2lambda123/RasaHQ-rasa)
+10. 🗣 Commented on [#45](https://github.com/ucsusa/pypsa-illinois/pull/45#issuecomment-2442236006) in [ucsusa/pypsa-illinois](https://github.com/ucsusa/pypsa-illinois)
 <!--END_SECTION:activity-->
