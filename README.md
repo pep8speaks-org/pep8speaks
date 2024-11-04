@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#2172](https://github.com/OpenSCAP/openscap/pull/2172#issuecomment-2453037136) in [OpenSCAP/openscap](https://github.com/OpenSCAP/openscap)
-2. 🗣 Commented on [#305](https://github.com/boutproject/xBOUT/pull/305#issuecomment-2452466734) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
-3. 🗣 Commented on [#1145](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1145#issuecomment-2452325729) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-4. 🗣 Commented on [#27](https://github.com/eastgenomics/s3_upload/pull/27#issuecomment-2451666883) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-5. 🗣 Commented on [#953](https://github.com/PyThaiNLP/pythainlp/pull/953#issuecomment-2451374733) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-6. 🗣 Commented on [#248](https://github.com/scil-vital/dwi_ml/pull/248#issuecomment-2450423035) in [scil-vital/dwi_ml](https://github.com/scil-vital/dwi_ml)
-7. 🗣 Commented on [#143](https://github.com/eastgenomics/eggd_conductor/pull/143#issuecomment-2450267735) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-8. 🗣 Commented on [#1045](https://github.com/scilus/scilpy/pull/1045#issuecomment-2449959674) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#26](https://github.com/eastgenomics/s3_upload/pull/26#issuecomment-2449850058) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-10. 🗣 Commented on [#204](https://github.com/eastgenomics/eggd_generate_variant_workbook/pull/204#issuecomment-2449491902) in [eastgenomics/eggd_generate_variant_workbook](https://github.com/eastgenomics/eggd_generate_variant_workbook)
+1. 🗣 Commented on [#928](https://github.com/spacetelescope/webbpsf/pull/928#issuecomment-2453535716) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+2. 🗣 Commented on [#685](https://github.com/SergeyPirogov/webdriver_manager/pull/685#issuecomment-2453503010) in [SergeyPirogov/webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager)
+3. 🗣 Commented on [#2](https://github.com/2lambda123/aws-serverless-application-model/pull/2#issuecomment-2453488867) in [2lambda123/aws-serverless-application-model](https://github.com/2lambda123/aws-serverless-application-model)
+4. 🗣 Commented on [#6](https://github.com/2lambda123/aws-aws-cli/pull/6#issuecomment-2453482670) in [2lambda123/aws-aws-cli](https://github.com/2lambda123/aws-aws-cli)
+5. 🗣 Commented on [#2](https://github.com/2lambda123/MotorolaSolutions-cerbero/pull/2#issuecomment-2453458732) in [2lambda123/MotorolaSolutions-cerbero](https://github.com/2lambda123/MotorolaSolutions-cerbero)
+6. 🗣 Commented on [#3](https://github.com/2lambda123/dowjones-hammer/pull/3#issuecomment-2453446466) in [2lambda123/dowjones-hammer](https://github.com/2lambda123/dowjones-hammer)
+7. 🗣 Commented on [#977](https://github.com/PyThaiNLP/pythainlp/pull/977#issuecomment-2453446159) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+8. 🗣 Commented on [#2](https://github.com/2lambda123/OpenRarity-open-rarity/pull/2#issuecomment-2453445763) in [2lambda123/OpenRarity-open-rarity](https://github.com/2lambda123/OpenRarity-open-rarity)
+9. 🗣 Commented on [#2](https://github.com/2lambda123/wallix-redemption/pull/2#issuecomment-2453421933) in [2lambda123/wallix-redemption](https://github.com/2lambda123/wallix-redemption)
+10. 🗣 Commented on [#3016](https://github.com/metabrainz/listenbrainz-server/pull/3016#issuecomment-2453410945) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
 <!--END_SECTION:activity-->
