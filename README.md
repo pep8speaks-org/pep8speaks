@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#153](https://github.com/eastgenomics/trendyQC/pull/153#issuecomment-2457032176) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-2. 🗣 Commented on [#1580](https://github.com/Open-CAS/open-cas-linux/pull/1580#issuecomment-2456838675) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-3. 🗣 Commented on [#26](https://github.com/Open-CAS/test-framework/pull/26#issuecomment-2456830951) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
-4. 🗣 Commented on [#1751](https://github.com/HEXRD/hexrdgui/pull/1751#issuecomment-2455848969) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-5. 🗣 Commented on [#1046](https://github.com/scilus/scilpy/pull/1046#issuecomment-2455476864) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#4](https://github.com/2lambda123/OpenRarity-open-rarity/pull/4#issuecomment-2455460806) in [2lambda123/OpenRarity-open-rarity](https://github.com/2lambda123/OpenRarity-open-rarity)
-7. 🗣 Commented on [#1022](https://github.com/scilus/scilpy/pull/1022#issuecomment-2454993274) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#145](https://github.com/eastgenomics/eggd_conductor/pull/145#issuecomment-2454829979) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-9. 🗣 Commented on [#144](https://github.com/eastgenomics/eggd_conductor/pull/144#issuecomment-2454625539) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-10. 🗣 Commented on [#31](https://github.com/eastgenomics/s3_upload/pull/31#issuecomment-2454559780) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+1. 🗣 Commented on [#3026](https://github.com/metabrainz/listenbrainz-server/pull/3026#issuecomment-2460202162) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+2. 🗣 Commented on [#2](https://github.com/2lambda123/micropython-micropython/pull/2#issuecomment-2460188406) in [2lambda123/micropython-micropython](https://github.com/2lambda123/micropython-micropython)
+3. 🗣 Commented on [#167](https://github.com/aimclub/Fedot.Industrial/pull/167#issuecomment-2460065506) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
+4. 🗣 Commented on [#58](https://github.com/cirKITers/qml-essentials/pull/58#issuecomment-2460006193) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+5. 🗣 Commented on [#27](https://github.com/Open-CAS/test-framework/pull/27#issuecomment-2459832308) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+6. 🗣 Commented on [#1](https://github.com/2lambda123/dowjones-tokendito/pull/1#issuecomment-2459683089) in [2lambda123/dowjones-tokendito](https://github.com/2lambda123/dowjones-tokendito)
+7. 🗣 Commented on [#5982](https://github.com/rhinstaller/anaconda/pull/5982#issuecomment-2457747870) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+8. 🗣 Commented on [#35](https://github.com/eastgenomics/s3_upload/pull/35#issuecomment-2457665425) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+9. 🗣 Commented on [#3](https://github.com/2lambda123/cda-tum-fiction/pull/3#issuecomment-2457626812) in [2lambda123/cda-tum-fiction](https://github.com/2lambda123/cda-tum-fiction)
+10. 🗣 Commented on [#4129](https://github.com/privacyidea/privacyidea/pull/4129#issuecomment-2457490226) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
 <!--END_SECTION:activity-->
