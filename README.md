@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#2](https://github.com/2lambda123/midjourney-flax/pull/2#issuecomment-2462312205) in [2lambda123/midjourney-flax](https://github.com/2lambda123/midjourney-flax)
-2. 🗣 Commented on [#2](https://github.com/2lambda123/apirrone-Memento/pull/2#issuecomment-2462302714) in [2lambda123/apirrone-Memento](https://github.com/2lambda123/apirrone-Memento)
-3. 🗣 Commented on [#13](https://github.com/eastgenomics/RD_requests/pull/13#issuecomment-2461742023) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-4. 🗣 Commented on [#378](https://github.com/cleder/fastkml/pull/378#issuecomment-2461381439) in [cleder/fastkml](https://github.com/cleder/fastkml)
-5. 🗣 Commented on [#2155](https://github.com/rpm-software-management/dnf/pull/2155#issuecomment-2461267078) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-6. 🗣 Commented on [#365](https://github.com/TIGRLab/datman/pull/365#issuecomment-2461010285) in [TIGRLab/datman](https://github.com/TIGRLab/datman)
-7. 🗣 Commented on [#3026](https://github.com/metabrainz/listenbrainz-server/pull/3026#issuecomment-2460202162) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#2](https://github.com/2lambda123/micropython-micropython/pull/2#issuecomment-2460188406) in [2lambda123/micropython-micropython](https://github.com/2lambda123/micropython-micropython)
-9. 🗣 Commented on [#167](https://github.com/aimclub/Fedot.Industrial/pull/167#issuecomment-2460065506) in [aimclub/Fedot.Industrial](https://github.com/aimclub/Fedot.Industrial)
-10. 🗣 Commented on [#58](https://github.com/cirKITers/qml-essentials/pull/58#issuecomment-2460006193) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+1. 🗣 Commented on [#1754](https://github.com/HEXRD/hexrdgui/pull/1754#issuecomment-2463528683) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+2. 🗣 Commented on [#4423](https://github.com/uwcirg/truenth-portal/pull/4423#issuecomment-2463464001) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+3. 🗣 Commented on [#1048](https://github.com/scilus/scilpy/pull/1048#issuecomment-2463308377) in [scilus/scilpy](https://github.com/scilus/scilpy)
+4. 🗣 Commented on [#24](https://github.com/Open-CAS/test-framework/pull/24#issuecomment-2462863313) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+5. 🗣 Commented on [#2](https://github.com/2lambda123/midjourney-flax/pull/2#issuecomment-2462312205) in [2lambda123/midjourney-flax](https://github.com/2lambda123/midjourney-flax)
+6. 🗣 Commented on [#2](https://github.com/2lambda123/apirrone-Memento/pull/2#issuecomment-2462302714) in [2lambda123/apirrone-Memento](https://github.com/2lambda123/apirrone-Memento)
+7. 🗣 Commented on [#13](https://github.com/eastgenomics/RD_requests/pull/13#issuecomment-2461742023) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+8. 🗣 Commented on [#378](https://github.com/cleder/fastkml/pull/378#issuecomment-2461381439) in [cleder/fastkml](https://github.com/cleder/fastkml)
+9. 🗣 Commented on [#2155](https://github.com/rpm-software-management/dnf/pull/2155#issuecomment-2461267078) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+10. 🗣 Commented on [#365](https://github.com/TIGRLab/datman/pull/365#issuecomment-2461010285) in [TIGRLab/datman](https://github.com/TIGRLab/datman)
 <!--END_SECTION:activity-->
