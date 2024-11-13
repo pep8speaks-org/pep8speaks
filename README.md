@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/2lambda123/0xInfection-TIDoS-Framework/pull/1#issuecomment-2468937976) in [2lambda123/0xInfection-TIDoS-Framework](https://github.com/2lambda123/0xInfection-TIDoS-Framework)
-2. 🗣 Commented on [#3029](https://github.com/metabrainz/listenbrainz-server/pull/3029#issuecomment-2468294021) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-3. 🗣 Commented on [#149](https://github.com/eastgenomics/eggd_conductor/pull/149#issuecomment-2468288049) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-4. 🗣 Commented on [#418](https://github.com/NASA-Planetary-Science/sbpy/pull/418#issuecomment-2468283614) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
-5. 🗣 Commented on [#45](https://github.com/cirKITers/mind-the-qapp/pull/45#issuecomment-2468101890) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
-6. 🗣 Commented on [#1660](https://github.com/openSUSE/osc/pull/1660#issuecomment-2468087803) in [openSUSE/osc](https://github.com/openSUSE/osc)
-7. 🗣 Commented on [#44](https://github.com/cirKITers/mind-the-qapp/pull/44#issuecomment-2468072454) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
-8. 🗣 Commented on [#42](https://github.com/cirKITers/mind-the-qapp/pull/42#issuecomment-2467855065) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
-9. 🗣 Commented on [#1039](https://github.com/avaframe/AvaFrame/pull/1039#issuecomment-2467782209) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-10. 🗣 Commented on [#41](https://github.com/avaframe/QGisAF/pull/41#issuecomment-2467693902) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
+1. 🗣 Commented on [#7](https://github.com/HEXRD/polycrystalx/pull/7#issuecomment-2471323285) in [HEXRD/polycrystalx](https://github.com/HEXRD/polycrystalx)
+2. 🗣 Commented on [#3031](https://github.com/metabrainz/listenbrainz-server/pull/3031#issuecomment-2471046330) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+3. 🗣 Commented on [#3316](https://github.com/reframe-hpc/reframe/pull/3316#issuecomment-2470999923) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+4. 🗣 Commented on [#419](https://github.com/NASA-Planetary-Science/sbpy/pull/419#issuecomment-2470765096) in [NASA-Planetary-Science/sbpy](https://github.com/NASA-Planetary-Science/sbpy)
+5. 🗣 Commented on [#1409](https://github.com/deepfakes/faceswap/pull/1409#issuecomment-2470596107) in [deepfakes/faceswap](https://github.com/deepfakes/faceswap)
+6. 🗣 Commented on [#712](https://github.com/quark-engine/quark-engine/pull/712#issuecomment-2470565416) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
+7. 🗣 Commented on [#5990](https://github.com/rhinstaller/anaconda/pull/5990#issuecomment-2470094287) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+8. 🗣 Commented on [#339](https://github.com/DeMarcoLab/fibsem/pull/339#issuecomment-2469660555) in [DeMarcoLab/fibsem](https://github.com/DeMarcoLab/fibsem)
+9. 🗣 Commented on [#537](https://github.com/payu-org/payu/pull/537#issuecomment-2469393654) in [payu-org/payu](https://github.com/payu-org/payu)
+10. 🗣 Commented on [#366](https://github.com/TIGRLab/datman/pull/366#issuecomment-2469261381) in [TIGRLab/datman](https://github.com/TIGRLab/datman)
 <!--END_SECTION:activity-->
