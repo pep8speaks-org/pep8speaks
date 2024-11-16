@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3027](https://github.com/metabrainz/listenbrainz-server/pull/3027#issuecomment-2476396548) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-2. 🗣 Commented on [#37](https://github.com/eastgenomics/s3_upload/pull/37#issuecomment-2476134015) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
-3. 🗣 Commented on [#62](https://github.com/cirKITers/qml-essentials/pull/62#issuecomment-2475903378) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-4. 🗣 Commented on [#5996](https://github.com/rhinstaller/anaconda/pull/5996#issuecomment-2475835002) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#4](https://github.com/drauger-os-development/download-optimizer/pull/4#issuecomment-2475303832) in [drauger-os-development/download-optimizer](https://github.com/drauger-os-development/download-optimizer)
-6. 🗣 Commented on [#1759](https://github.com/HEXRD/hexrdgui/pull/1759#issuecomment-2475037299) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
-7. 🗣 Commented on [#987](https://github.com/ToFuProject/tofu/pull/987#issuecomment-2474842874) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-8. 🗣 Commented on [#387](https://github.com/PyAbel/PyAbel/pull/387#issuecomment-2474842426) in [PyAbel/PyAbel](https://github.com/PyAbel/PyAbel)
-9. 🗣 Commented on [#651](https://github.com/tomopy/tomopy/pull/651#issuecomment-2474798027) in [tomopy/tomopy](https://github.com/tomopy/tomopy)
-10. 🗣 Commented on [#986](https://github.com/ToFuProject/tofu/pull/986#issuecomment-2474298521) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+1. 🗣 Commented on [#8](https://github.com/foreign-sub/CustomPiOS/pull/8#issuecomment-2478461313) in [foreign-sub/CustomPiOS](https://github.com/foreign-sub/CustomPiOS)
+2. 🗣 Commented on [#4144](https://github.com/privacyidea/privacyidea/pull/4144#issuecomment-2478084422) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+3. 🗣 Commented on [#4790](https://github.com/MDAnalysis/mdanalysis/pull/4790#issuecomment-2477214391) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#46](https://github.com/cirKITers/mind-the-qapp/pull/46#issuecomment-2476744196) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
+5. 🗣 Commented on [#3027](https://github.com/metabrainz/listenbrainz-server/pull/3027#issuecomment-2476396548) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#37](https://github.com/eastgenomics/s3_upload/pull/37#issuecomment-2476134015) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+7. 🗣 Commented on [#62](https://github.com/cirKITers/qml-essentials/pull/62#issuecomment-2475903378) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+8. 🗣 Commented on [#5996](https://github.com/rhinstaller/anaconda/pull/5996#issuecomment-2475835002) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#4](https://github.com/drauger-os-development/download-optimizer/pull/4#issuecomment-2475303832) in [drauger-os-development/download-optimizer](https://github.com/drauger-os-development/download-optimizer)
+10. 🗣 Commented on [#1759](https://github.com/HEXRD/hexrdgui/pull/1759#issuecomment-2475037299) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
 <!--END_SECTION:activity-->
