@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3](https://github.com/2lambda123/bartongroup-slivka-bio/pull/3#issuecomment-2480830867) in [2lambda123/bartongroup-slivka-bio](https://github.com/2lambda123/bartongroup-slivka-bio)
-2. 🗣 Commented on [#108](https://github.com/drauger-os-development/edamame/pull/108#issuecomment-2480811047) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-3. 🗣 Commented on [#1](https://github.com/2lambda123/bartongroup-2passtools/pull/1#issuecomment-2480755485) in [2lambda123/bartongroup-2passtools](https://github.com/2lambda123/bartongroup-2passtools)
-4. 🗣 Commented on [#22996](https://github.com/spyder-ide/spyder/pull/22996#issuecomment-2480398710) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#6](https://github.com/2lambda123/Ericsson-cognitive-labs/pull/6#issuecomment-2480241253) in [2lambda123/Ericsson-cognitive-labs](https://github.com/2lambda123/Ericsson-cognitive-labs)
-6. 🗣 Commented on [#3](https://github.com/cdfxscrq/MissSabrina/pull/3#issuecomment-2479932930) in [cdfxscrq/MissSabrina](https://github.com/cdfxscrq/MissSabrina)
-7. 🗣 Commented on [#42](https://github.com/avaframe/QGisAF/pull/42#issuecomment-2479797947) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
-8. 🗣 Commented on [#14](https://github.com/eastgenomics/RD_requests/pull/14#issuecomment-2479435610) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-9. 🗣 Commented on [#297](https://github.com/Moonlark-Dev/Moonlark/pull/297#issuecomment-2479395505) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-10. 🗣 Commented on [#290](https://github.com/Moonlark-Dev/Moonlark/pull/290#issuecomment-2479205422) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+1. 🗣 Commented on [#1](https://github.com/MBrede/generative_ai/pull/1#issuecomment-2481444727) in [MBrede/generative_ai](https://github.com/MBrede/generative_ai)
+2. 🗣 Commented on [#3](https://github.com/foreign-sub/esphome-docs/pull/3#issuecomment-2481051404) in [foreign-sub/esphome-docs](https://github.com/foreign-sub/esphome-docs)
+3. 🗣 Commented on [#3](https://github.com/2lambda123/bartongroup-slivka-bio/pull/3#issuecomment-2480830867) in [2lambda123/bartongroup-slivka-bio](https://github.com/2lambda123/bartongroup-slivka-bio)
+4. 🗣 Commented on [#108](https://github.com/drauger-os-development/edamame/pull/108#issuecomment-2480811047) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
+5. 🗣 Commented on [#1](https://github.com/2lambda123/bartongroup-2passtools/pull/1#issuecomment-2480755485) in [2lambda123/bartongroup-2passtools](https://github.com/2lambda123/bartongroup-2passtools)
+6. 🗣 Commented on [#22996](https://github.com/spyder-ide/spyder/pull/22996#issuecomment-2480398710) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#6](https://github.com/2lambda123/Ericsson-cognitive-labs/pull/6#issuecomment-2480241253) in [2lambda123/Ericsson-cognitive-labs](https://github.com/2lambda123/Ericsson-cognitive-labs)
+8. 🗣 Commented on [#3](https://github.com/cdfxscrq/MissSabrina/pull/3#issuecomment-2479932930) in [cdfxscrq/MissSabrina](https://github.com/cdfxscrq/MissSabrina)
+9. 🗣 Commented on [#42](https://github.com/avaframe/QGisAF/pull/42#issuecomment-2479797947) in [avaframe/QGisAF](https://github.com/avaframe/QGisAF)
+10. 🗣 Commented on [#14](https://github.com/eastgenomics/RD_requests/pull/14#issuecomment-2479435610) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
 <!--END_SECTION:activity-->
