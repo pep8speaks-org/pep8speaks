@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1046](https://github.com/avaframe/AvaFrame/pull/1046#issuecomment-2485681898) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-2. 🗣 Commented on [#64](https://github.com/tjhowse/modbus4mqtt/pull/64#issuecomment-2485108112) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
-3. 🗣 Commented on [#715](https://github.com/quark-engine/quark-engine/pull/715#issuecomment-2485009403) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
-4. 🗣 Commented on [#23022](https://github.com/spyder-ide/spyder/pull/23022#issuecomment-2484401613) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#389](https://github.com/PyAbel/PyAbel/pull/389#issuecomment-2484369504) in [PyAbel/PyAbel](https://github.com/PyAbel/PyAbel)
-6. 🗣 Commented on [#16](https://github.com/MBrede/generative_ai/pull/16#issuecomment-2483920459) in [MBrede/generative_ai](https://github.com/MBrede/generative_ai)
-7. 🗣 Commented on [#4](https://github.com/2lambda123/PyBoy/pull/4#issuecomment-2483836870) in [2lambda123/PyBoy](https://github.com/2lambda123/PyBoy)
-8. 🗣 Commented on [#335](https://github.com/manodeep/Corrfunc/pull/335#issuecomment-2483796165) in [manodeep/Corrfunc](https://github.com/manodeep/Corrfunc)
-9. 🗣 Commented on [#11](https://github.com/eastgenomics/eggd_conductor_monitor/pull/11#issuecomment-2483181381) in [eastgenomics/eggd_conductor_monitor](https://github.com/eastgenomics/eggd_conductor_monitor)
-10. 🗣 Commented on [#49](https://github.com/cirKITers/mind-the-qapp/pull/49#issuecomment-2482069826) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
+1. 🗣 Commented on [#1045](https://github.com/avaframe/AvaFrame/pull/1045#issuecomment-2488109434) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#109](https://github.com/drauger-os-development/edamame/pull/109#issuecomment-2487486454) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
+3. 🗣 Commented on [#3134](https://github.com/astropy/astroquery/pull/3134#issuecomment-2487354949) in [astropy/astroquery](https://github.com/astropy/astroquery)
+4. 🗣 Commented on [#4424](https://github.com/uwcirg/truenth-portal/pull/4424#issuecomment-2487055255) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+5. 🗣 Commented on [#7](https://github.com/Onset-lab/onsetpy/pull/7#issuecomment-2486483439) in [Onset-lab/onsetpy](https://github.com/Onset-lab/onsetpy)
+6. 🗣 Commented on [#932](https://github.com/spacetelescope/webbpsf/pull/932#issuecomment-2486481208) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+7. 🗣 Commented on [#16](https://github.com/eastgenomics/RD_requests/pull/16#issuecomment-2486478125) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
+8. 🗣 Commented on [#1046](https://github.com/avaframe/AvaFrame/pull/1046#issuecomment-2485681898) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#64](https://github.com/tjhowse/modbus4mqtt/pull/64#issuecomment-2485108112) in [tjhowse/modbus4mqtt](https://github.com/tjhowse/modbus4mqtt)
+10. 🗣 Commented on [#715](https://github.com/quark-engine/quark-engine/pull/715#issuecomment-2485009403) in [quark-engine/quark-engine](https://github.com/quark-engine/quark-engine)
 <!--END_SECTION:activity-->
