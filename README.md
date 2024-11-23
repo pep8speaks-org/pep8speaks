@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#36](https://github.com/njzjz/deepmd-gnn/pull/36#issuecomment-2490278329) in [njzjz/deepmd-gnn](https://github.com/njzjz/deepmd-gnn)
-2. 🗣 Commented on [#458](https://github.com/aria-tools/ARIA-tools/pull/458#issuecomment-2489920091) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
-3. 🗣 Commented on [#391](https://github.com/cleder/fastkml/pull/391#issuecomment-2489754472) in [cleder/fastkml](https://github.com/cleder/fastkml)
-4. 🗣 Commented on [#3042](https://github.com/metabrainz/listenbrainz-server/pull/3042#issuecomment-2489404027) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#652](https://github.com/tableau/TabPy/pull/652#issuecomment-2489366701) in [tableau/TabPy](https://github.com/tableau/TabPy)
-6. 🗣 Commented on [#1053](https://github.com/scilus/scilpy/pull/1053#issuecomment-2489353611) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#1045](https://github.com/avaframe/AvaFrame/pull/1045#issuecomment-2488109434) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-8. 🗣 Commented on [#109](https://github.com/drauger-os-development/edamame/pull/109#issuecomment-2487486454) in [drauger-os-development/edamame](https://github.com/drauger-os-development/edamame)
-9. 🗣 Commented on [#3134](https://github.com/astropy/astroquery/pull/3134#issuecomment-2487354949) in [astropy/astroquery](https://github.com/astropy/astroquery)
-10. 🗣 Commented on [#4424](https://github.com/uwcirg/truenth-portal/pull/4424#issuecomment-2487055255) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+1. 🗣 Commented on [#6018](https://github.com/rhinstaller/anaconda/pull/6018#issuecomment-2494916010) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+2. 🗣 Commented on [#392](https://github.com/cleder/fastkml/pull/392#issuecomment-2494540280) in [cleder/fastkml](https://github.com/cleder/fastkml)
+3. 🗣 Commented on [#1510](https://github.com/CiviWiki/OpenCiviWiki/pull/1510#issuecomment-2494484613) in [CiviWiki/OpenCiviWiki](https://github.com/CiviWiki/OpenCiviWiki)
+4. 🗣 Commented on [#41](https://github.com/eastgenomics/s3_upload/pull/41#issuecomment-2494481861) in [eastgenomics/s3_upload](https://github.com/eastgenomics/s3_upload)
+5. 🗣 Commented on [#21](https://github.com/eastgenomics/eggd_GATKgCNV_call/pull/21#issuecomment-2493964423) in [eastgenomics/eggd_GATKgCNV_call](https://github.com/eastgenomics/eggd_GATKgCNV_call)
+6. 🗣 Commented on [#23055](https://github.com/spyder-ide/spyder/pull/23055#issuecomment-2493959572) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#653](https://github.com/tableau/TabPy/pull/653#issuecomment-2491912020) in [tableau/TabPy](https://github.com/tableau/TabPy)
+8. 🗣 Commented on [#9430](https://github.com/statsmodels/statsmodels/pull/9430#issuecomment-2491669834) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+9. 🗣 Commented on [#9431](https://github.com/statsmodels/statsmodels/pull/9431#issuecomment-2491654805) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+10. 🗣 Commented on [#23044](https://github.com/spyder-ide/spyder/pull/23044#issuecomment-2491646668) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
 <!--END_SECTION:activity-->
