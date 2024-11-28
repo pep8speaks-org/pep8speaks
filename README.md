@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1052](https://github.com/scilus/scilpy/pull/1052#issuecomment-2501304160) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#1057](https://github.com/scilus/scilpy/pull/1057#issuecomment-2501299032) in [scilus/scilpy](https://github.com/scilus/scilpy)
-3. 🗣 Commented on [#19](https://github.com/eastgenomics/RD_requests/pull/19#issuecomment-2501235040) in [eastgenomics/RD_requests](https://github.com/eastgenomics/RD_requests)
-4. 🗣 Commented on [#6024](https://github.com/rhinstaller/anaconda/pull/6024#issuecomment-2500230526) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#3326](https://github.com/reframe-hpc/reframe/pull/3326#issuecomment-2500095430) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
-6. 🗣 Commented on [#1144](https://github.com/oemof/oemof-solph/pull/1144#issuecomment-2499943860) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-7. 🗣 Commented on [#23079](https://github.com/spyder-ide/spyder/pull/23079#issuecomment-2499042694) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#992](https://github.com/ToFuProject/tofu/pull/992#issuecomment-2499002526) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-9. 🗣 Commented on [#56](https://github.com/MDAnalysis/transport-analysis/pull/56#issuecomment-2498729259) in [MDAnalysis/transport-analysis](https://github.com/MDAnalysis/transport-analysis)
-10. 🗣 Commented on [#732](https://github.com/HEXRD/hexrd/pull/732#issuecomment-2498466703) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+1. 🗣 Commented on [#5](https://github.com/mpds-io/mpds-aiida/pull/5#issuecomment-2504320559) in [mpds-io/mpds-aiida](https://github.com/mpds-io/mpds-aiida)
+2. 🗣 Commented on [#17](https://github.com/mpds-io/mpds-client/pull/17#issuecomment-2504299659) in [mpds-io/mpds-client](https://github.com/mpds-io/mpds-client)
+3. 🗣 Commented on [#17](https://github.com/eastgenomics/eggd_vcf_qc/pull/17#issuecomment-2504288122) in [eastgenomics/eggd_vcf_qc](https://github.com/eastgenomics/eggd_vcf_qc)
+4. 🗣 Commented on [#4808](https://github.com/MDAnalysis/mdanalysis/pull/4808#issuecomment-2504276355) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+5. 🗣 Commented on [#3139](https://github.com/astropy/astroquery/pull/3139#issuecomment-2504153100) in [astropy/astroquery](https://github.com/astropy/astroquery)
+6. 🗣 Commented on [#6023](https://github.com/rhinstaller/anaconda/pull/6023#issuecomment-2503983955) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#16](https://github.com/eastgenomics/eggd_vcf_qc/pull/16#issuecomment-2503686028) in [eastgenomics/eggd_vcf_qc](https://github.com/eastgenomics/eggd_vcf_qc)
+8. 🗣 Commented on [#513](https://github.com/Spoken-tutorial/spoken-website/pull/513#issuecomment-2503016496) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+9. 🗣 Commented on [#2](https://github.com/PenguinCloud/WaddlebotLibs/pull/2#issuecomment-2502950790) in [PenguinCloud/WaddlebotLibs](https://github.com/PenguinCloud/WaddlebotLibs)
+10. 🗣 Commented on [#740](https://github.com/QuantEcon/QuantEcon.py/pull/740#issuecomment-2502674043) in [QuantEcon/QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py)
 <!--END_SECTION:activity-->
