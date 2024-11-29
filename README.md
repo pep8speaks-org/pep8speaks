@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#5](https://github.com/mpds-io/mpds-aiida/pull/5#issuecomment-2504320559) in [mpds-io/mpds-aiida](https://github.com/mpds-io/mpds-aiida)
-2. 🗣 Commented on [#17](https://github.com/mpds-io/mpds-client/pull/17#issuecomment-2504299659) in [mpds-io/mpds-client](https://github.com/mpds-io/mpds-client)
-3. 🗣 Commented on [#17](https://github.com/eastgenomics/eggd_vcf_qc/pull/17#issuecomment-2504288122) in [eastgenomics/eggd_vcf_qc](https://github.com/eastgenomics/eggd_vcf_qc)
-4. 🗣 Commented on [#4808](https://github.com/MDAnalysis/mdanalysis/pull/4808#issuecomment-2504276355) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-5. 🗣 Commented on [#3139](https://github.com/astropy/astroquery/pull/3139#issuecomment-2504153100) in [astropy/astroquery](https://github.com/astropy/astroquery)
-6. 🗣 Commented on [#6023](https://github.com/rhinstaller/anaconda/pull/6023#issuecomment-2503983955) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#16](https://github.com/eastgenomics/eggd_vcf_qc/pull/16#issuecomment-2503686028) in [eastgenomics/eggd_vcf_qc](https://github.com/eastgenomics/eggd_vcf_qc)
-8. 🗣 Commented on [#513](https://github.com/Spoken-tutorial/spoken-website/pull/513#issuecomment-2503016496) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-9. 🗣 Commented on [#2](https://github.com/PenguinCloud/WaddlebotLibs/pull/2#issuecomment-2502950790) in [PenguinCloud/WaddlebotLibs](https://github.com/PenguinCloud/WaddlebotLibs)
-10. 🗣 Commented on [#740](https://github.com/QuantEcon/QuantEcon.py/pull/740#issuecomment-2502674043) in [QuantEcon/QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py)
+1. 🗣 Commented on [#1669](https://github.com/openSUSE/osc/pull/1669#issuecomment-2506257110) in [openSUSE/osc](https://github.com/openSUSE/osc)
+2. 🗣 Commented on [#230](https://github.com/epfl-theos/koopmans/pull/230#issuecomment-2505987616) in [epfl-theos/koopmans](https://github.com/epfl-theos/koopmans)
+3. 🗣 Commented on [#1166](https://github.com/lmcinnes/umap/pull/1166#issuecomment-2505494319) in [lmcinnes/umap](https://github.com/lmcinnes/umap)
+4. 🗣 Commented on [#4809](https://github.com/MDAnalysis/mdanalysis/pull/4809#issuecomment-2504873414) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+5. 🗣 Commented on [#1761](https://github.com/HEXRD/hexrdgui/pull/1761#issuecomment-2504509650) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+6. 🗣 Commented on [#5](https://github.com/mpds-io/mpds-aiida/pull/5#issuecomment-2504320559) in [mpds-io/mpds-aiida](https://github.com/mpds-io/mpds-aiida)
+7. 🗣 Commented on [#17](https://github.com/mpds-io/mpds-client/pull/17#issuecomment-2504299659) in [mpds-io/mpds-client](https://github.com/mpds-io/mpds-client)
+8. 🗣 Commented on [#17](https://github.com/eastgenomics/eggd_vcf_qc/pull/17#issuecomment-2504288122) in [eastgenomics/eggd_vcf_qc](https://github.com/eastgenomics/eggd_vcf_qc)
+9. 🗣 Commented on [#4808](https://github.com/MDAnalysis/mdanalysis/pull/4808#issuecomment-2504276355) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+10. 🗣 Commented on [#3139](https://github.com/astropy/astroquery/pull/3139#issuecomment-2504153100) in [astropy/astroquery](https://github.com/astropy/astroquery)
 <!--END_SECTION:activity-->
