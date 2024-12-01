@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3053](https://github.com/metabrainz/listenbrainz-server/pull/3053#issuecomment-2508134958) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-2. 🗣 Commented on [#6030](https://github.com/rhinstaller/anaconda/pull/6030#issuecomment-2507836919) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#1048](https://github.com/avaframe/AvaFrame/pull/1048#issuecomment-2507787483) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-4. 🗣 Commented on [#4168](https://github.com/privacyidea/privacyidea/pull/4168#issuecomment-2507777627) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-5. 🗣 Commented on [#5995](https://github.com/rhinstaller/anaconda/pull/5995#issuecomment-2507734670) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-6. 🗣 Commented on [#19](https://github.com/CartoonFan/oclint/pull/19#issuecomment-2506964977) in [CartoonFan/oclint](https://github.com/CartoonFan/oclint)
-7. 🗣 Commented on [#348](https://github.com/InvisibleSymbol/rocketwatch/pull/348#issuecomment-2506869974) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
-8. 🗣 Commented on [#3141](https://github.com/astropy/astroquery/pull/3141#issuecomment-2506512558) in [astropy/astroquery](https://github.com/astropy/astroquery)
-9. 🗣 Commented on [#1669](https://github.com/openSUSE/osc/pull/1669#issuecomment-2506257110) in [openSUSE/osc](https://github.com/openSUSE/osc)
-10. 🗣 Commented on [#230](https://github.com/epfl-theos/koopmans/pull/230#issuecomment-2505987616) in [epfl-theos/koopmans](https://github.com/epfl-theos/koopmans)
+1. 🗣 Commented on [#23024](https://github.com/spyder-ide/spyder/pull/23024#issuecomment-2509023029) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#937](https://github.com/spacetelescope/webbpsf/pull/937#issuecomment-2508802081) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+3. 🗣 Commented on [#994](https://github.com/ToFuProject/tofu/pull/994#issuecomment-2508752587) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+4. 🗣 Commented on [#3053](https://github.com/metabrainz/listenbrainz-server/pull/3053#issuecomment-2508134958) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#6030](https://github.com/rhinstaller/anaconda/pull/6030#issuecomment-2507836919) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+6. 🗣 Commented on [#1048](https://github.com/avaframe/AvaFrame/pull/1048#issuecomment-2507787483) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+7. 🗣 Commented on [#4168](https://github.com/privacyidea/privacyidea/pull/4168#issuecomment-2507777627) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+8. 🗣 Commented on [#5995](https://github.com/rhinstaller/anaconda/pull/5995#issuecomment-2507734670) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+9. 🗣 Commented on [#19](https://github.com/CartoonFan/oclint/pull/19#issuecomment-2506964977) in [CartoonFan/oclint](https://github.com/CartoonFan/oclint)
+10. 🗣 Commented on [#348](https://github.com/InvisibleSymbol/rocketwatch/pull/348#issuecomment-2506869974) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
 <!--END_SECTION:activity-->
