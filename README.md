@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#400](https://github.com/cleder/fastkml/pull/400#issuecomment-2510347004) in [cleder/fastkml](https://github.com/cleder/fastkml)
-2. 🗣 Commented on [#995](https://github.com/ToFuProject/tofu/pull/995#issuecomment-2510250065) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-3. 🗣 Commented on [#397](https://github.com/cleder/fastkml/pull/397#issuecomment-2510227587) in [cleder/fastkml](https://github.com/cleder/fastkml)
-4. 🗣 Commented on [#247](https://github.com/MDAnalysis/MDAKits/pull/247#issuecomment-2509575906) in [MDAnalysis/MDAKits](https://github.com/MDAnalysis/MDAKits)
-5. 🗣 Commented on [#315](https://github.com/Moonlark-Dev/Moonlark/pull/315#issuecomment-2509552529) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-6. 🗣 Commented on [#23024](https://github.com/spyder-ide/spyder/pull/23024#issuecomment-2509023029) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#937](https://github.com/spacetelescope/webbpsf/pull/937#issuecomment-2508802081) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-8. 🗣 Commented on [#994](https://github.com/ToFuProject/tofu/pull/994#issuecomment-2508752587) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-9. 🗣 Commented on [#3053](https://github.com/metabrainz/listenbrainz-server/pull/3053#issuecomment-2508134958) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-10. 🗣 Commented on [#6030](https://github.com/rhinstaller/anaconda/pull/6030#issuecomment-2507836919) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+1. 🗣 Commented on [#1350](https://github.com/aimclub/FEDOT/pull/1350#issuecomment-2511914507) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+2. 🗣 Commented on [#29](https://github.com/drauger-os-development/drauger-welcome/pull/29#issuecomment-2511747476) in [drauger-os-development/drauger-welcome](https://github.com/drauger-os-development/drauger-welcome)
+3. 🗣 Commented on [#11](https://github.com/ITMO-NSS-team/Open-Source-Advisor/pull/11#issuecomment-2511417459) in [ITMO-NSS-team/Open-Source-Advisor](https://github.com/ITMO-NSS-team/Open-Source-Advisor)
+4. 🗣 Commented on [#4814](https://github.com/MDAnalysis/mdanalysis/pull/4814#issuecomment-2511377355) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+5. 🗣 Commented on [#1514](https://github.com/rpm-software-management/mock/pull/1514#issuecomment-2511196221) in [rpm-software-management/mock](https://github.com/rpm-software-management/mock)
+6. 🗣 Commented on [#3055](https://github.com/metabrainz/listenbrainz-server/pull/3055#issuecomment-2510982092) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+7. 🗣 Commented on [#400](https://github.com/cleder/fastkml/pull/400#issuecomment-2510347004) in [cleder/fastkml](https://github.com/cleder/fastkml)
+8. 🗣 Commented on [#995](https://github.com/ToFuProject/tofu/pull/995#issuecomment-2510250065) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+9. 🗣 Commented on [#397](https://github.com/cleder/fastkml/pull/397#issuecomment-2510227587) in [cleder/fastkml](https://github.com/cleder/fastkml)
+10. 🗣 Commented on [#247](https://github.com/MDAnalysis/MDAKits/pull/247#issuecomment-2509575906) in [MDAnalysis/MDAKits](https://github.com/MDAnalysis/MDAKits)
 <!--END_SECTION:activity-->
