@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#997](https://github.com/ToFuProject/tofu/pull/997#issuecomment-2515214376) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-2. 🗣 Commented on [#1663](https://github.com/odlgroup/odl/pull/1663#issuecomment-2515000356) in [odlgroup/odl](https://github.com/odlgroup/odl)
-3. 🗣 Commented on [#996](https://github.com/ToFuProject/tofu/pull/996#issuecomment-2514645702) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-4. 🗣 Commented on [#41](https://github.com/eastgenomics/eggd_artemis/pull/41#issuecomment-2514498577) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-5. 🗣 Commented on [#40](https://github.com/eastgenomics/eggd_artemis/pull/40#issuecomment-2514289521) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-6. 🗣 Commented on [#39](https://github.com/eastgenomics/eggd_artemis/pull/39#issuecomment-2513938015) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-7. 🗣 Commented on [#319](https://github.com/Moonlark-Dev/Moonlark/pull/319#issuecomment-2513880461) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-8. 🗣 Commented on [#539](https://github.com/payu-org/payu/pull/539#issuecomment-2513574094) in [payu-org/payu](https://github.com/payu-org/payu)
-9. 🗣 Commented on [#4816](https://github.com/MDAnalysis/mdanalysis/pull/4816#issuecomment-2513314059) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-10. 🗣 Commented on [#1659](https://github.com/spacetelescope/jwql/pull/1659#issuecomment-2513032448) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+1. 🗣 Commented on [#32](https://github.com/foreign-sub/tinygrad/pull/32#issuecomment-2517505268) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+2. 🗣 Commented on [#581](https://github.com/oemof/tespy/pull/581#issuecomment-2517171806) in [oemof/tespy](https://github.com/oemof/tespy)
+3. 🗣 Commented on [#162](https://github.com/eastgenomics/trendyQC/pull/162#issuecomment-2516936102) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+4. 🗣 Commented on [#42](https://github.com/eastgenomics/eggd_artemis/pull/42#issuecomment-2516716577) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+5. 🗣 Commented on [#31](https://github.com/foreign-sub/tinygrad/pull/31#issuecomment-2516472475) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+6. 🗣 Commented on [#394](https://github.com/PyAbel/PyAbel/pull/394#issuecomment-2516066113) in [PyAbel/PyAbel](https://github.com/PyAbel/PyAbel)
+7. 🗣 Commented on [#4820](https://github.com/MDAnalysis/mdanalysis/pull/4820#issuecomment-2515902606) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+8. 🗣 Commented on [#1068](https://github.com/scilus/scilpy/pull/1068#issuecomment-2515559099) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#28](https://github.com/CartoonFan/shaderc/pull/28#issuecomment-2515526539) in [CartoonFan/shaderc](https://github.com/CartoonFan/shaderc)
+10. 🗣 Commented on [#733](https://github.com/HEXRD/hexrd/pull/733#issuecomment-2515444740) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
 <!--END_SECTION:activity-->
