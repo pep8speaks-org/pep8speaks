@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#32](https://github.com/foreign-sub/tinygrad/pull/32#issuecomment-2517505268) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-2. 🗣 Commented on [#581](https://github.com/oemof/tespy/pull/581#issuecomment-2517171806) in [oemof/tespy](https://github.com/oemof/tespy)
-3. 🗣 Commented on [#162](https://github.com/eastgenomics/trendyQC/pull/162#issuecomment-2516936102) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-4. 🗣 Commented on [#42](https://github.com/eastgenomics/eggd_artemis/pull/42#issuecomment-2516716577) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
-5. 🗣 Commented on [#31](https://github.com/foreign-sub/tinygrad/pull/31#issuecomment-2516472475) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-6. 🗣 Commented on [#394](https://github.com/PyAbel/PyAbel/pull/394#issuecomment-2516066113) in [PyAbel/PyAbel](https://github.com/PyAbel/PyAbel)
-7. 🗣 Commented on [#4820](https://github.com/MDAnalysis/mdanalysis/pull/4820#issuecomment-2515902606) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-8. 🗣 Commented on [#1068](https://github.com/scilus/scilpy/pull/1068#issuecomment-2515559099) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#28](https://github.com/CartoonFan/shaderc/pull/28#issuecomment-2515526539) in [CartoonFan/shaderc](https://github.com/CartoonFan/shaderc)
-10. 🗣 Commented on [#733](https://github.com/HEXRD/hexrd/pull/733#issuecomment-2515444740) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+1. 🗣 Commented on [#1664](https://github.com/odlgroup/odl/pull/1664#issuecomment-2520284949) in [odlgroup/odl](https://github.com/odlgroup/odl)
+2. 🗣 Commented on [#63](https://github.com/cirKITers/qml-essentials/pull/63#issuecomment-2520159430) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+3. 🗣 Commented on [#35](https://github.com/foreign-sub/tinygrad/pull/35#issuecomment-2519518184) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+4. 🗣 Commented on [#34](https://github.com/foreign-sub/tinygrad/pull/34#issuecomment-2518925690) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+5. 🗣 Commented on [#4822](https://github.com/MDAnalysis/mdanalysis/pull/4822#issuecomment-2518863028) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+6. 🗣 Commented on [#1069](https://github.com/scilus/scilpy/pull/1069#issuecomment-2518527192) in [scilus/scilpy](https://github.com/scilus/scilpy)
+7. 🗣 Commented on [#33](https://github.com/foreign-sub/tinygrad/pull/33#issuecomment-2518451700) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+8. 🗣 Commented on [#3066](https://github.com/metabrainz/listenbrainz-server/pull/3066#issuecomment-2517832615) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#32](https://github.com/foreign-sub/tinygrad/pull/32#issuecomment-2517505268) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#581](https://github.com/oemof/tespy/pull/581#issuecomment-2517171806) in [oemof/tespy](https://github.com/oemof/tespy)
 <!--END_SECTION:activity-->
