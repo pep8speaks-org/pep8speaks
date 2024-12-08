@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#39](https://github.com/foreign-sub/tinygrad/pull/39#issuecomment-2522451577) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-2. 🗣 Commented on [#38](https://github.com/foreign-sub/tinygrad/pull/38#issuecomment-2521925723) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-3. 🗣 Commented on [#264](https://github.com/cleder/pygeoif/pull/264#issuecomment-2521312414) in [cleder/pygeoif](https://github.com/cleder/pygeoif)
-4. 🗣 Commented on [#37](https://github.com/foreign-sub/tinygrad/pull/37#issuecomment-2521288210) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-5. 🗣 Commented on [#4173](https://github.com/privacyidea/privacyidea/pull/4173#issuecomment-2520627569) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-6. 🗣 Commented on [#205](https://github.com/colinoflynn/pico-python/pull/205#issuecomment-2520426248) in [colinoflynn/pico-python](https://github.com/colinoflynn/pico-python)
-7. 🗣 Commented on [#36](https://github.com/foreign-sub/tinygrad/pull/36#issuecomment-2520416731) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-8. 🗣 Commented on [#4166](https://github.com/privacyidea/privacyidea/pull/4166#issuecomment-2520410930) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-9. 🗣 Commented on [#1664](https://github.com/odlgroup/odl/pull/1664#issuecomment-2520284949) in [odlgroup/odl](https://github.com/odlgroup/odl)
-10. 🗣 Commented on [#63](https://github.com/cirKITers/qml-essentials/pull/63#issuecomment-2520159430) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+1. 🗣 Commented on [#449](https://github.com/manoharan-lab/holopy/pull/449#issuecomment-2525273545) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
+2. 🗣 Commented on [#23213](https://github.com/spyder-ide/spyder/pull/23213#issuecomment-2525255202) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+3. 🗣 Commented on [#1668](https://github.com/odlgroup/odl/pull/1668#issuecomment-2525247035) in [odlgroup/odl](https://github.com/odlgroup/odl)
+4. 🗣 Commented on [#44](https://github.com/foreign-sub/tinygrad/pull/44#issuecomment-2525176592) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+5. 🗣 Commented on [#43](https://github.com/foreign-sub/tinygrad/pull/43#issuecomment-2525000992) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+6. 🗣 Commented on [#946](https://github.com/fury-gl/fury/pull/946#issuecomment-2524830473) in [fury-gl/fury](https://github.com/fury-gl/fury)
+7. 🗣 Commented on [#42](https://github.com/foreign-sub/tinygrad/pull/42#issuecomment-2524802729) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+8. 🗣 Commented on [#23201](https://github.com/spyder-ide/spyder/pull/23201#issuecomment-2524566903) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+9. 🗣 Commented on [#41](https://github.com/foreign-sub/tinygrad/pull/41#issuecomment-2524064292) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#945](https://github.com/fury-gl/fury/pull/945#issuecomment-2523896832) in [fury-gl/fury](https://github.com/fury-gl/fury)
 <!--END_SECTION:activity-->
