@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4800](https://github.com/MDAnalysis/mdanalysis/pull/4800#issuecomment-2526406858) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-2. 🗣 Commented on [#47](https://github.com/foreign-sub/tinygrad/pull/47#issuecomment-2526357829) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-3. 🗣 Commented on [#46](https://github.com/foreign-sub/tinygrad/pull/46#issuecomment-2525990730) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-4. 🗣 Commented on [#2](https://github.com/sdgniser/app/pull/2#issuecomment-2525431556) in [sdgniser/app](https://github.com/sdgniser/app)
-5. 🗣 Commented on [#45](https://github.com/foreign-sub/tinygrad/pull/45#issuecomment-2525379064) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-6. 🗣 Commented on [#449](https://github.com/manoharan-lab/holopy/pull/449#issuecomment-2525273545) in [manoharan-lab/holopy](https://github.com/manoharan-lab/holopy)
-7. 🗣 Commented on [#23213](https://github.com/spyder-ide/spyder/pull/23213#issuecomment-2525255202) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#1668](https://github.com/odlgroup/odl/pull/1668#issuecomment-2525247035) in [odlgroup/odl](https://github.com/odlgroup/odl)
-9. 🗣 Commented on [#44](https://github.com/foreign-sub/tinygrad/pull/44#issuecomment-2525176592) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-10. 🗣 Commented on [#43](https://github.com/foreign-sub/tinygrad/pull/43#issuecomment-2525000992) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+1. 🗣 Commented on [#49](https://github.com/foreign-sub/tinygrad/pull/49#issuecomment-2529330596) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+2. 🗣 Commented on [#12](https://github.com/llgneuroresearch/avnirpy/pull/12#issuecomment-2529222442) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
+3. 🗣 Commented on [#948](https://github.com/spacetelescope/webbpsf/pull/948#issuecomment-2529094335) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
+4. 🗣 Commented on [#5](https://github.com/Code-Institute-Solutions/churnometer/pull/5#issuecomment-2528648465) in [Code-Institute-Solutions/churnometer](https://github.com/Code-Institute-Solutions/churnometer)
+5. 🗣 Commented on [#1052](https://github.com/avaframe/AvaFrame/pull/1052#issuecomment-2528483878) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#9445](https://github.com/statsmodels/statsmodels/pull/9445#issuecomment-2528461315) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+7. 🗣 Commented on [#48](https://github.com/foreign-sub/tinygrad/pull/48#issuecomment-2528459040) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+8. 🗣 Commented on [#3069](https://github.com/metabrainz/listenbrainz-server/pull/3069#issuecomment-2527975027) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#1594](https://github.com/Open-CAS/open-cas-linux/pull/1594#issuecomment-2527698338) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+10. 🗣 Commented on [#13](https://github.com/eastgenomics/Haemonc_requests/pull/13#issuecomment-2527427080) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
 <!--END_SECTION:activity-->
