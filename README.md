@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#49](https://github.com/foreign-sub/tinygrad/pull/49#issuecomment-2529330596) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-2. 🗣 Commented on [#12](https://github.com/llgneuroresearch/avnirpy/pull/12#issuecomment-2529222442) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
-3. 🗣 Commented on [#948](https://github.com/spacetelescope/webbpsf/pull/948#issuecomment-2529094335) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#5](https://github.com/Code-Institute-Solutions/churnometer/pull/5#issuecomment-2528648465) in [Code-Institute-Solutions/churnometer](https://github.com/Code-Institute-Solutions/churnometer)
-5. 🗣 Commented on [#1052](https://github.com/avaframe/AvaFrame/pull/1052#issuecomment-2528483878) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-6. 🗣 Commented on [#9445](https://github.com/statsmodels/statsmodels/pull/9445#issuecomment-2528461315) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-7. 🗣 Commented on [#48](https://github.com/foreign-sub/tinygrad/pull/48#issuecomment-2528459040) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-8. 🗣 Commented on [#3069](https://github.com/metabrainz/listenbrainz-server/pull/3069#issuecomment-2527975027) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#1594](https://github.com/Open-CAS/open-cas-linux/pull/1594#issuecomment-2527698338) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-10. 🗣 Commented on [#13](https://github.com/eastgenomics/Haemonc_requests/pull/13#issuecomment-2527427080) in [eastgenomics/Haemonc_requests](https://github.com/eastgenomics/Haemonc_requests)
+1. 🗣 Commented on [#38](https://github.com/MBrede/generative_ai/pull/38#issuecomment-2532113042) in [MBrede/generative_ai](https://github.com/MBrede/generative_ai)
+2. 🗣 Commented on [#51](https://github.com/foreign-sub/tinygrad/pull/51#issuecomment-2531728697) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+3. 🗣 Commented on [#1053](https://github.com/avaframe/AvaFrame/pull/1053#issuecomment-2531699396) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+4. 🗣 Commented on [#6045](https://github.com/rhinstaller/anaconda/pull/6045#issuecomment-2531530196) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#2171](https://github.com/rpm-software-management/dnf/pull/2171#issuecomment-2531114438) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
+6. 🗣 Commented on [#33](https://github.com/Open-CAS/test-framework/pull/33#issuecomment-2530363982) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
+7. 🗣 Commented on [#1595](https://github.com/Open-CAS/open-cas-linux/pull/1595#issuecomment-2530360897) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
+8. 🗣 Commented on [#50](https://github.com/foreign-sub/tinygrad/pull/50#issuecomment-2530040658) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+9. 🗣 Commented on [#49](https://github.com/foreign-sub/tinygrad/pull/49#issuecomment-2529330596) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#12](https://github.com/llgneuroresearch/avnirpy/pull/12#issuecomment-2529222442) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
 <!--END_SECTION:activity-->
