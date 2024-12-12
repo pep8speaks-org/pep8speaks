@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#38](https://github.com/MBrede/generative_ai/pull/38#issuecomment-2532113042) in [MBrede/generative_ai](https://github.com/MBrede/generative_ai)
-2. 🗣 Commented on [#51](https://github.com/foreign-sub/tinygrad/pull/51#issuecomment-2531728697) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-3. 🗣 Commented on [#1053](https://github.com/avaframe/AvaFrame/pull/1053#issuecomment-2531699396) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-4. 🗣 Commented on [#6045](https://github.com/rhinstaller/anaconda/pull/6045#issuecomment-2531530196) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#2171](https://github.com/rpm-software-management/dnf/pull/2171#issuecomment-2531114438) in [rpm-software-management/dnf](https://github.com/rpm-software-management/dnf)
-6. 🗣 Commented on [#33](https://github.com/Open-CAS/test-framework/pull/33#issuecomment-2530363982) in [Open-CAS/test-framework](https://github.com/Open-CAS/test-framework)
-7. 🗣 Commented on [#1595](https://github.com/Open-CAS/open-cas-linux/pull/1595#issuecomment-2530360897) in [Open-CAS/open-cas-linux](https://github.com/Open-CAS/open-cas-linux)
-8. 🗣 Commented on [#50](https://github.com/foreign-sub/tinygrad/pull/50#issuecomment-2530040658) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-9. 🗣 Commented on [#49](https://github.com/foreign-sub/tinygrad/pull/49#issuecomment-2529330596) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-10. 🗣 Commented on [#12](https://github.com/llgneuroresearch/avnirpy/pull/12#issuecomment-2529222442) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
+1. 🗣 Commented on [#54](https://github.com/foreign-sub/tinygrad/pull/54#issuecomment-2536078054) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+2. 🗣 Commented on [#308](https://github.com/boutproject/xBOUT/pull/308#issuecomment-2533758545) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
+3. 🗣 Commented on [#1](https://github.com/ERPGulf/gauth_erpgulf/pull/1#issuecomment-2533675169) in [ERPGulf/gauth_erpgulf](https://github.com/ERPGulf/gauth_erpgulf)
+4. 🗣 Commented on [#53](https://github.com/foreign-sub/tinygrad/pull/53#issuecomment-2533454929) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+5. 🗣 Commented on [#4427](https://github.com/uwcirg/truenth-portal/pull/4427#issuecomment-2533343987) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
+6. 🗣 Commented on [#1512](https://github.com/CiviWiki/OpenCiviWiki/pull/1512#issuecomment-2533218369) in [CiviWiki/OpenCiviWiki](https://github.com/CiviWiki/OpenCiviWiki)
+7. 🗣 Commented on [#53](https://github.com/NASA-Planetary-Science/AmesCAP/pull/53#issuecomment-2532847254) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+8. 🗣 Commented on [#52](https://github.com/foreign-sub/tinygrad/pull/52#issuecomment-2532754564) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+9. 🗣 Commented on [#52](https://github.com/NASA-Planetary-Science/AmesCAP/pull/52#issuecomment-2532553236) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+10. 🗣 Commented on [#38](https://github.com/MBrede/generative_ai/pull/38#issuecomment-2532113042) in [MBrede/generative_ai](https://github.com/MBrede/generative_ai)
 <!--END_SECTION:activity-->
