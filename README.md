@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#514](https://github.com/Spoken-tutorial/spoken-website/pull/514#issuecomment-2540904784) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-2. 🗣 Commented on [#61](https://github.com/foreign-sub/tinygrad/pull/61#issuecomment-2540823391) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-3. 🗣 Commented on [#60](https://github.com/foreign-sub/tinygrad/pull/60#issuecomment-2540372701) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-4. 🗣 Commented on [#4428](https://github.com/uwcirg/truenth-portal/pull/4428#issuecomment-2539947767) in [uwcirg/truenth-portal](https://github.com/uwcirg/truenth-portal)
-5. 🗣 Commented on [#59](https://github.com/foreign-sub/tinygrad/pull/59#issuecomment-2539908775) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-6. 🗣 Commented on [#1106](https://github.com/scilus/scilpy/pull/1106#issuecomment-2539907875) in [scilus/scilpy](https://github.com/scilus/scilpy)
-7. 🗣 Commented on [#1103](https://github.com/scilus/scilpy/pull/1103#issuecomment-2539892988) in [scilus/scilpy](https://github.com/scilus/scilpy)
-8. 🗣 Commented on [#1102](https://github.com/scilus/scilpy/pull/1102#issuecomment-2539872473) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#1101](https://github.com/scilus/scilpy/pull/1101#issuecomment-2539830024) in [scilus/scilpy](https://github.com/scilus/scilpy)
-10. 🗣 Commented on [#1099](https://github.com/scilus/scilpy/pull/1099#issuecomment-2539811881) in [scilus/scilpy](https://github.com/scilus/scilpy)
+1. 🗣 Commented on [#18](https://github.com/mpds-io/mpds-client/pull/18#issuecomment-2543075346) in [mpds-io/mpds-client](https://github.com/mpds-io/mpds-client)
+2. 🗣 Commented on [#66](https://github.com/elinscott/ase_koopmans/pull/66#issuecomment-2543022136) in [elinscott/ase_koopmans](https://github.com/elinscott/ase_koopmans)
+3. 🗣 Commented on [#65](https://github.com/foreign-sub/tinygrad/pull/65#issuecomment-2542993605) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+4. 🗣 Commented on [#64](https://github.com/foreign-sub/tinygrad/pull/64#issuecomment-2542662099) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+5. 🗣 Commented on [#54](https://github.com/NASA-Planetary-Science/AmesCAP/pull/54#issuecomment-2542584981) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+6. 🗣 Commented on [#63](https://github.com/foreign-sub/tinygrad/pull/63#issuecomment-2542217867) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+7. 🗣 Commented on [#2](https://github.com/HEXRD/polycrystal/pull/2#issuecomment-2542047567) in [HEXRD/polycrystal](https://github.com/HEXRD/polycrystal)
+8. 🗣 Commented on [#13](https://github.com/llgneuroresearch/avnirpy/pull/13#issuecomment-2541896201) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
+9. 🗣 Commented on [#62](https://github.com/foreign-sub/tinygrad/pull/62#issuecomment-2541534773) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#3347](https://github.com/reframe-hpc/reframe/pull/3347#issuecomment-2541489602) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
 <!--END_SECTION:activity-->
