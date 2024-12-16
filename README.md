@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#18](https://github.com/mpds-io/mpds-client/pull/18#issuecomment-2543075346) in [mpds-io/mpds-client](https://github.com/mpds-io/mpds-client)
-2. 🗣 Commented on [#66](https://github.com/elinscott/ase_koopmans/pull/66#issuecomment-2543022136) in [elinscott/ase_koopmans](https://github.com/elinscott/ase_koopmans)
-3. 🗣 Commented on [#65](https://github.com/foreign-sub/tinygrad/pull/65#issuecomment-2542993605) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-4. 🗣 Commented on [#64](https://github.com/foreign-sub/tinygrad/pull/64#issuecomment-2542662099) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-5. 🗣 Commented on [#54](https://github.com/NASA-Planetary-Science/AmesCAP/pull/54#issuecomment-2542584981) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-6. 🗣 Commented on [#63](https://github.com/foreign-sub/tinygrad/pull/63#issuecomment-2542217867) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-7. 🗣 Commented on [#2](https://github.com/HEXRD/polycrystal/pull/2#issuecomment-2542047567) in [HEXRD/polycrystal](https://github.com/HEXRD/polycrystal)
-8. 🗣 Commented on [#13](https://github.com/llgneuroresearch/avnirpy/pull/13#issuecomment-2541896201) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
-9. 🗣 Commented on [#62](https://github.com/foreign-sub/tinygrad/pull/62#issuecomment-2541534773) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-10. 🗣 Commented on [#3347](https://github.com/reframe-hpc/reframe/pull/3347#issuecomment-2541489602) in [reframe-hpc/reframe](https://github.com/reframe-hpc/reframe)
+1. 🗣 Commented on [#23293](https://github.com/spyder-ide/spyder/pull/23293#issuecomment-2544164726) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+2. 🗣 Commented on [#69](https://github.com/foreign-sub/tinygrad/pull/69#issuecomment-2544034152) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+3. 🗣 Commented on [#4837](https://github.com/MDAnalysis/mdanalysis/pull/4837#issuecomment-2544006152) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+4. 🗣 Commented on [#22](https://github.com/sarnold/pyserv/pull/22#issuecomment-2543982348) in [sarnold/pyserv](https://github.com/sarnold/pyserv)
+5. 🗣 Commented on [#68](https://github.com/foreign-sub/tinygrad/pull/68#issuecomment-2543886832) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+6. 🗣 Commented on [#1679](https://github.com/openSUSE/osc/pull/1679#issuecomment-2543840847) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#25](https://github.com/my8100/logparser/pull/25#issuecomment-2543507315) in [my8100/logparser](https://github.com/my8100/logparser)
+8. 🗣 Commented on [#33](https://github.com/sdhutchins/labrat/pull/33#issuecomment-2543414444) in [sdhutchins/labrat](https://github.com/sdhutchins/labrat)
+9. 🗣 Commented on [#67](https://github.com/foreign-sub/tinygrad/pull/67#issuecomment-2543410166) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#9456](https://github.com/statsmodels/statsmodels/pull/9456#issuecomment-2543384327) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
 <!--END_SECTION:activity-->
