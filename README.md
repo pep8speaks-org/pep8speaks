@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#4192](https://github.com/privacyidea/privacyidea/pull/4192#issuecomment-2546139502) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-2. 🗣 Commented on [#8](https://github.com/HEXRD/polycrystalx/pull/8#issuecomment-2545961890) in [HEXRD/polycrystalx](https://github.com/HEXRD/polycrystalx)
-3. 🗣 Commented on [#951](https://github.com/spacetelescope/webbpsf/pull/951#issuecomment-2545924382) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-4. 🗣 Commented on [#950](https://github.com/spacetelescope/webbpsf/pull/950#issuecomment-2545877325) in [spacetelescope/webbpsf](https://github.com/spacetelescope/webbpsf)
-5. 🗣 Commented on [#134](https://github.com/oda-hub/dispatcher-plugin-integral/pull/134#issuecomment-2545729207) in [oda-hub/dispatcher-plugin-integral](https://github.com/oda-hub/dispatcher-plugin-integral)
-6. 🗣 Commented on [#71](https://github.com/foreign-sub/tinygrad/pull/71#issuecomment-2544859848) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-7. 🗣 Commented on [#223](https://github.com/damnever/pigar/pull/223#issuecomment-2544501667) in [damnever/pigar](https://github.com/damnever/pigar)
-8. 🗣 Commented on [#70](https://github.com/foreign-sub/tinygrad/pull/70#issuecomment-2544330811) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-9. 🗣 Commented on [#205](https://github.com/mcdougallab/modeldb/pull/205#issuecomment-2544325733) in [mcdougallab/modeldb](https://github.com/mcdougallab/modeldb)
-10. 🗣 Commented on [#23293](https://github.com/spyder-ide/spyder/pull/23293#issuecomment-2544164726) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+1. 🗣 Commented on [#251](https://github.com/lettucecfd/lettuce/pull/251#issuecomment-2548431156) in [lettucecfd/lettuce](https://github.com/lettucecfd/lettuce)
+2. 🗣 Commented on [#43](https://github.com/eastgenomics/eggd_artemis/pull/43#issuecomment-2548231275) in [eastgenomics/eggd_artemis](https://github.com/eastgenomics/eggd_artemis)
+3. 🗣 Commented on [#34](https://github.com/sdhutchins/labrat/pull/34#issuecomment-2547410282) in [sdhutchins/labrat](https://github.com/sdhutchins/labrat)
+4. 🗣 Commented on [#580](https://github.com/askap-vast/vast-tools/pull/580#issuecomment-2547353051) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
+5. 🗣 Commented on [#55](https://github.com/NASA-Planetary-Science/AmesCAP/pull/55#issuecomment-2547105117) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+6. 🗣 Commented on [#1767](https://github.com/HEXRD/hexrdgui/pull/1767#issuecomment-2547092040) in [HEXRD/hexrdgui](https://github.com/HEXRD/hexrdgui)
+7. 🗣 Commented on [#16](https://github.com/linum-uqam/linumpy/pull/16#issuecomment-2546816954) in [linum-uqam/linumpy](https://github.com/linum-uqam/linumpy)
+8. 🗣 Commented on [#460](https://github.com/aria-tools/ARIA-tools/pull/460#issuecomment-2546770407) in [aria-tools/ARIA-tools](https://github.com/aria-tools/ARIA-tools)
+9. 🗣 Commented on [#33](https://github.com/linum-uqam/linumpy/pull/33#issuecomment-2546663241) in [linum-uqam/linumpy](https://github.com/linum-uqam/linumpy)
+10. 🗣 Commented on [#1147](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1147#issuecomment-2546439461) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
 <!--END_SECTION:activity-->
