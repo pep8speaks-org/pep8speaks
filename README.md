@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#79](https://github.com/foreign-sub/tinygrad/pull/79#issuecomment-2555678463) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-2. 🗣 Commented on [#6060](https://github.com/rhinstaller/anaconda/pull/6060#issuecomment-2554363573) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#3154](https://github.com/astropy/astroquery/pull/3154#issuecomment-2551625537) in [astropy/astroquery](https://github.com/astropy/astroquery)
-4. 🗣 Commented on [#516](https://github.com/Spoken-tutorial/spoken-website/pull/516#issuecomment-2551083899) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
-5. 🗣 Commented on [#953](https://github.com/fury-gl/fury/pull/953#issuecomment-2550986408) in [fury-gl/fury](https://github.com/fury-gl/fury)
-6. 🗣 Commented on [#6057](https://github.com/rhinstaller/anaconda/pull/6057#issuecomment-2550908161) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#155](https://github.com/eastgenomics/eggd_conductor/pull/155#issuecomment-2550851822) in [eastgenomics/eggd_conductor](https://github.com/eastgenomics/eggd_conductor)
-8. 🗣 Commented on [#3083](https://github.com/metabrainz/listenbrainz-server/pull/3083#issuecomment-2550661996) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#75](https://github.com/foreign-sub/tinygrad/pull/75#issuecomment-2550616698) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
-10. 🗣 Commented on [#88](https://github.com/ChinaGodMan/UserScriptsHistory/pull/88#issuecomment-2550554798) in [ChinaGodMan/UserScriptsHistory](https://github.com/ChinaGodMan/UserScriptsHistory)
+1. 🗣 Commented on [#63](https://github.com/mpds-io/mpds-api/pull/63#issuecomment-2557362269) in [mpds-io/mpds-api](https://github.com/mpds-io/mpds-api)
+2. 🗣 Commented on [#44](https://github.com/linum-uqam/linumpy/pull/44#issuecomment-2557289110) in [linum-uqam/linumpy](https://github.com/linum-uqam/linumpy)
+3. 🗣 Commented on [#3090](https://github.com/metabrainz/listenbrainz-server/pull/3090#issuecomment-2557254619) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+4. 🗣 Commented on [#736](https://github.com/Ibercivis/EU-CS_platform/pull/736#issuecomment-2557236135) in [Ibercivis/EU-CS_platform](https://github.com/Ibercivis/EU-CS_platform)
+5. 🗣 Commented on [#60](https://github.com/foreign-sub/aiofreepybox/pull/60#issuecomment-2556215330) in [foreign-sub/aiofreepybox](https://github.com/foreign-sub/aiofreepybox)
+6. 🗣 Commented on [#80](https://github.com/foreign-sub/tinygrad/pull/80#issuecomment-2556116068) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+7. 🗣 Commented on [#357](https://github.com/InvisibleSymbol/rocketwatch/pull/357#issuecomment-2556096926) in [InvisibleSymbol/rocketwatch](https://github.com/InvisibleSymbol/rocketwatch)
+8. 🗣 Commented on [#1663](https://github.com/spacetelescope/jwql/pull/1663#issuecomment-2555869070) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+9. 🗣 Commented on [#79](https://github.com/foreign-sub/tinygrad/pull/79#issuecomment-2555678463) in [foreign-sub/tinygrad](https://github.com/foreign-sub/tinygrad)
+10. 🗣 Commented on [#6060](https://github.com/rhinstaller/anaconda/pull/6060#issuecomment-2554363573) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
 <!--END_SECTION:activity-->
