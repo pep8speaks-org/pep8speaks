@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#592](https://github.com/oemof/tespy/pull/592#issuecomment-2571756953) in [oemof/tespy](https://github.com/oemof/tespy)
-2. 🗣 Commented on [#9468](https://github.com/statsmodels/statsmodels/pull/9468#issuecomment-2571756073) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
-3. 🗣 Commented on [#3114](https://github.com/metabrainz/listenbrainz-server/pull/3114#issuecomment-2571715256) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-4. 🗣 Commented on [#3113](https://github.com/metabrainz/listenbrainz-server/pull/3113#issuecomment-2571713751) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-5. 🗣 Commented on [#1056](https://github.com/PyThaiNLP/pythainlp/pull/1056#issuecomment-2571624713) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-6. 🗣 Commented on [#85](https://github.com/CartoonFan/pcsx2/pull/85#issuecomment-2571462999) in [CartoonFan/pcsx2](https://github.com/CartoonFan/pcsx2)
-7. 🗣 Commented on [#342](https://github.com/Moonlark-Dev/Moonlark/pull/342#issuecomment-2571324000) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-8. 🗣 Commented on [#712](https://github.com/deuteronomy-works/pyffmpeg/pull/712#issuecomment-2571122989) in [deuteronomy-works/pyffmpeg](https://github.com/deuteronomy-works/pyffmpeg)
-9. 🗣 Commented on [#711](https://github.com/deuteronomy-works/pyffmpeg/pull/711#issuecomment-2571122741) in [deuteronomy-works/pyffmpeg](https://github.com/deuteronomy-works/pyffmpeg)
-10. 🗣 Commented on [#710](https://github.com/deuteronomy-works/pyffmpeg/pull/710#issuecomment-2571122466) in [deuteronomy-works/pyffmpeg](https://github.com/deuteronomy-works/pyffmpeg)
+1. 🗣 Commented on [#16](https://github.com/ERPGulf/zatca_erpgulf/pull/16#issuecomment-2573534403) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
+2. 🗣 Commented on [#522](https://github.com/Spoken-tutorial/spoken-website/pull/522#issuecomment-2573352846) in [Spoken-tutorial/spoken-website](https://github.com/Spoken-tutorial/spoken-website)
+3. 🗣 Commented on [#1685](https://github.com/openSUSE/osc/pull/1685#issuecomment-2572560843) in [openSUSE/osc](https://github.com/openSUSE/osc)
+4. 🗣 Commented on [#23377](https://github.com/spyder-ide/spyder/pull/23377#issuecomment-2572293194) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#592](https://github.com/oemof/tespy/pull/592#issuecomment-2571756953) in [oemof/tespy](https://github.com/oemof/tespy)
+6. 🗣 Commented on [#9468](https://github.com/statsmodels/statsmodels/pull/9468#issuecomment-2571756073) in [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels)
+7. 🗣 Commented on [#3114](https://github.com/metabrainz/listenbrainz-server/pull/3114#issuecomment-2571715256) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+8. 🗣 Commented on [#3113](https://github.com/metabrainz/listenbrainz-server/pull/3113#issuecomment-2571713751) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#1056](https://github.com/PyThaiNLP/pythainlp/pull/1056#issuecomment-2571624713) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
+10. 🗣 Commented on [#85](https://github.com/CartoonFan/pcsx2/pull/85#issuecomment-2571462999) in [CartoonFan/pcsx2](https://github.com/CartoonFan/pcsx2)
 <!--END_SECTION:activity-->
