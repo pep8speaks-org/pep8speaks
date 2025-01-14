@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1004](https://github.com/ToFuProject/tofu/pull/1004#issuecomment-2585845284) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-2. 🗣 Commented on [#3173](https://github.com/astropy/astroquery/pull/3173#issuecomment-2585762507) in [astropy/astroquery](https://github.com/astropy/astroquery)
-3. 🗣 Commented on [#3](https://github.com/2lambda123/googlecolab-colabtools/pull/3#issuecomment-2585752695) in [2lambda123/googlecolab-colabtools](https://github.com/2lambda123/googlecolab-colabtools)
-4. 🗣 Commented on [#2](https://github.com/2lambda123/googlecolab-colabtools/pull/2#issuecomment-2585751474) in [2lambda123/googlecolab-colabtools](https://github.com/2lambda123/googlecolab-colabtools)
-5. 🗣 Commented on [#252](https://github.com/my8100/scrapydweb/pull/252#issuecomment-2585694996) in [my8100/scrapydweb](https://github.com/my8100/scrapydweb)
-6. 🗣 Commented on [#23444](https://github.com/spyder-ide/spyder/pull/23444#issuecomment-2585678473) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#250](https://github.com/my8100/scrapydweb/pull/250#issuecomment-2585639783) in [my8100/scrapydweb](https://github.com/my8100/scrapydweb)
-8. 🗣 Commented on [#4536](https://github.com/pyload/pyload/pull/4536#issuecomment-2585294430) in [pyload/pyload](https://github.com/pyload/pyload)
-9. 🗣 Commented on [#1064](https://github.com/PyThaiNLP/pythainlp/pull/1064#issuecomment-2585140952) in [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp)
-10. 🗣 Commented on [#20](https://github.com/linum-uqam/linumpy/pull/20#issuecomment-2584993098) in [linum-uqam/linumpy](https://github.com/linum-uqam/linumpy)
+1. 🗣 Commented on [#170](https://github.com/adobe/ops-cli/pull/170#issuecomment-2587508493) in [adobe/ops-cli](https://github.com/adobe/ops-cli)
+2. 🗣 Commented on [#6090](https://github.com/rhinstaller/anaconda/pull/6090#issuecomment-2587033316) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+3. 🗣 Commented on [#4206](https://github.com/privacyidea/privacyidea/pull/4206#issuecomment-2586928589) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+4. 🗣 Commented on [#4203](https://github.com/privacyidea/privacyidea/pull/4203#issuecomment-2586812820) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
+5. 🗣 Commented on [#1756](https://github.com/OGGM/oggm/pull/1756#issuecomment-2586637142) in [OGGM/oggm](https://github.com/OGGM/oggm)
+6. 🗣 Commented on [#157](https://github.com/DeMarcoLab/autolamella/pull/157#issuecomment-2586147538) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
+7. 🗣 Commented on [#93](https://github.com/CartoonFan/pcsx2/pull/93#issuecomment-2586025140) in [CartoonFan/pcsx2](https://github.com/CartoonFan/pcsx2)
+8. 🗣 Commented on [#1004](https://github.com/ToFuProject/tofu/pull/1004#issuecomment-2585845284) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+9. 🗣 Commented on [#3173](https://github.com/astropy/astroquery/pull/3173#issuecomment-2585762507) in [astropy/astroquery](https://github.com/astropy/astroquery)
+10. 🗣 Commented on [#3](https://github.com/2lambda123/googlecolab-colabtools/pull/3#issuecomment-2585752695) in [2lambda123/googlecolab-colabtools](https://github.com/2lambda123/googlecolab-colabtools)
 <!--END_SECTION:activity-->
