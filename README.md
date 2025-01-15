@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#170](https://github.com/adobe/ops-cli/pull/170#issuecomment-2587508493) in [adobe/ops-cli](https://github.com/adobe/ops-cli)
-2. 🗣 Commented on [#6090](https://github.com/rhinstaller/anaconda/pull/6090#issuecomment-2587033316) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-3. 🗣 Commented on [#4206](https://github.com/privacyidea/privacyidea/pull/4206#issuecomment-2586928589) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-4. 🗣 Commented on [#4203](https://github.com/privacyidea/privacyidea/pull/4203#issuecomment-2586812820) in [privacyidea/privacyidea](https://github.com/privacyidea/privacyidea)
-5. 🗣 Commented on [#1756](https://github.com/OGGM/oggm/pull/1756#issuecomment-2586637142) in [OGGM/oggm](https://github.com/OGGM/oggm)
-6. 🗣 Commented on [#157](https://github.com/DeMarcoLab/autolamella/pull/157#issuecomment-2586147538) in [DeMarcoLab/autolamella](https://github.com/DeMarcoLab/autolamella)
-7. 🗣 Commented on [#93](https://github.com/CartoonFan/pcsx2/pull/93#issuecomment-2586025140) in [CartoonFan/pcsx2](https://github.com/CartoonFan/pcsx2)
-8. 🗣 Commented on [#1004](https://github.com/ToFuProject/tofu/pull/1004#issuecomment-2585845284) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-9. 🗣 Commented on [#3173](https://github.com/astropy/astroquery/pull/3173#issuecomment-2585762507) in [astropy/astroquery](https://github.com/astropy/astroquery)
-10. 🗣 Commented on [#3](https://github.com/2lambda123/googlecolab-colabtools/pull/3#issuecomment-2585752695) in [2lambda123/googlecolab-colabtools](https://github.com/2lambda123/googlecolab-colabtools)
+1. 🗣 Commented on [#3054](https://github.com/metabrainz/listenbrainz-server/pull/3054#issuecomment-2590220154) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+2. 🗣 Commented on [#1694](https://github.com/openSUSE/osc/pull/1694#issuecomment-2590214679) in [openSUSE/osc](https://github.com/openSUSE/osc)
+3. 🗣 Commented on [#105](https://github.com/INT-NIT/DigLabTools/pull/105#issuecomment-2590081258) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+4. 🗣 Commented on [#6094](https://github.com/rhinstaller/anaconda/pull/6094#issuecomment-2590022070) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+5. 🗣 Commented on [#1066](https://github.com/avaframe/AvaFrame/pull/1066#issuecomment-2589678909) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#6093](https://github.com/rhinstaller/anaconda/pull/6093#issuecomment-2589662319) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
+7. 🗣 Commented on [#1757](https://github.com/OGGM/oggm/pull/1757#issuecomment-2589634207) in [OGGM/oggm](https://github.com/OGGM/oggm)
+8. 🗣 Commented on [#4892](https://github.com/MDAnalysis/mdanalysis/pull/4892#issuecomment-2588913019) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+9. 🗣 Commented on [#1666](https://github.com/spacetelescope/jwql/pull/1666#issuecomment-2588281612) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
+10. 🗣 Commented on [#1150](https://github.com/oemof/oemof-solph/pull/1150#issuecomment-2588133501) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
 <!--END_SECTION:activity-->
