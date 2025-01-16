@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#3054](https://github.com/metabrainz/listenbrainz-server/pull/3054#issuecomment-2590220154) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-2. 🗣 Commented on [#1694](https://github.com/openSUSE/osc/pull/1694#issuecomment-2590214679) in [openSUSE/osc](https://github.com/openSUSE/osc)
-3. 🗣 Commented on [#105](https://github.com/INT-NIT/DigLabTools/pull/105#issuecomment-2590081258) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
-4. 🗣 Commented on [#6094](https://github.com/rhinstaller/anaconda/pull/6094#issuecomment-2590022070) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-5. 🗣 Commented on [#1066](https://github.com/avaframe/AvaFrame/pull/1066#issuecomment-2589678909) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-6. 🗣 Commented on [#6093](https://github.com/rhinstaller/anaconda/pull/6093#issuecomment-2589662319) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-7. 🗣 Commented on [#1757](https://github.com/OGGM/oggm/pull/1757#issuecomment-2589634207) in [OGGM/oggm](https://github.com/OGGM/oggm)
-8. 🗣 Commented on [#4892](https://github.com/MDAnalysis/mdanalysis/pull/4892#issuecomment-2588913019) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-9. 🗣 Commented on [#1666](https://github.com/spacetelescope/jwql/pull/1666#issuecomment-2588281612) in [spacetelescope/jwql](https://github.com/spacetelescope/jwql)
-10. 🗣 Commented on [#1150](https://github.com/oemof/oemof-solph/pull/1150#issuecomment-2588133501) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+1. 🗣 Commented on [#309](https://github.com/boutproject/xBOUT/pull/309#issuecomment-2592285939) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
+2. 🗣 Commented on [#24](https://github.com/ERPGulf/zatca_erpgulf/pull/24#issuecomment-2591879140) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
+3. 🗣 Commented on [#58](https://github.com/NASA-Planetary-Science/AmesCAP/pull/58#issuecomment-2591342800) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+4. 🗣 Commented on [#23463](https://github.com/spyder-ide/spyder/pull/23463#issuecomment-2591131549) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#1118](https://github.com/scilus/scilpy/pull/1118#issuecomment-2590902240) in [scilus/scilpy](https://github.com/scilus/scilpy)
+6. 🗣 Commented on [#1153](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1153#issuecomment-2590880358) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+7. 🗣 Commented on [#76](https://github.com/cirKITers/qml-essentials/pull/76#issuecomment-2590752082) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+8. 🗣 Commented on [#3054](https://github.com/metabrainz/listenbrainz-server/pull/3054#issuecomment-2590220154) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+9. 🗣 Commented on [#1694](https://github.com/openSUSE/osc/pull/1694#issuecomment-2590214679) in [openSUSE/osc](https://github.com/openSUSE/osc)
+10. 🗣 Commented on [#105](https://github.com/INT-NIT/DigLabTools/pull/105#issuecomment-2590081258) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
 <!--END_SECTION:activity-->
