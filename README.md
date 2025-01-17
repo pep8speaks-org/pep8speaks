@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#309](https://github.com/boutproject/xBOUT/pull/309#issuecomment-2592285939) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
-2. 🗣 Commented on [#24](https://github.com/ERPGulf/zatca_erpgulf/pull/24#issuecomment-2591879140) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
-3. 🗣 Commented on [#58](https://github.com/NASA-Planetary-Science/AmesCAP/pull/58#issuecomment-2591342800) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-4. 🗣 Commented on [#23463](https://github.com/spyder-ide/spyder/pull/23463#issuecomment-2591131549) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#1118](https://github.com/scilus/scilpy/pull/1118#issuecomment-2590902240) in [scilus/scilpy](https://github.com/scilus/scilpy)
-6. 🗣 Commented on [#1153](https://github.com/Sage-Bionetworks/synapsePythonClient/pull/1153#issuecomment-2590880358) in [Sage-Bionetworks/synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
-7. 🗣 Commented on [#76](https://github.com/cirKITers/qml-essentials/pull/76#issuecomment-2590752082) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
-8. 🗣 Commented on [#3054](https://github.com/metabrainz/listenbrainz-server/pull/3054#issuecomment-2590220154) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-9. 🗣 Commented on [#1694](https://github.com/openSUSE/osc/pull/1694#issuecomment-2590214679) in [openSUSE/osc](https://github.com/openSUSE/osc)
-10. 🗣 Commented on [#105](https://github.com/INT-NIT/DigLabTools/pull/105#issuecomment-2590081258) in [INT-NIT/DigLabTools](https://github.com/INT-NIT/DigLabTools)
+1. 🗣 Commented on [#1119](https://github.com/scilus/scilpy/pull/1119#issuecomment-2594297718) in [scilus/scilpy](https://github.com/scilus/scilpy)
+2. 🗣 Commented on [#61](https://github.com/NASA-Planetary-Science/AmesCAP/pull/61#issuecomment-2594054389) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+3. 🗣 Commented on [#60](https://github.com/NASA-Planetary-Science/AmesCAP/pull/60#issuecomment-2594031490) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
+4. 🗣 Commented on [#23471](https://github.com/spyder-ide/spyder/pull/23471#issuecomment-2593776558) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#17](https://github.com/llgneuroresearch/avnirpy/pull/17#issuecomment-2593665098) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
+6. 🗣 Commented on [#23470](https://github.com/spyder-ide/spyder/pull/23470#issuecomment-2593502198) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+7. 🗣 Commented on [#53](https://github.com/cirKITers/mind-the-qapp/pull/53#issuecomment-2593280965) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
+8. 🗣 Commented on [#172](https://github.com/adobe/ops-cli/pull/172#issuecomment-2592872465) in [adobe/ops-cli](https://github.com/adobe/ops-cli)
+9. 🗣 Commented on [#309](https://github.com/boutproject/xBOUT/pull/309#issuecomment-2592285939) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
+10. 🗣 Commented on [#24](https://github.com/ERPGulf/zatca_erpgulf/pull/24#issuecomment-2591879140) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
 <!--END_SECTION:activity-->
