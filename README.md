@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1119](https://github.com/scilus/scilpy/pull/1119#issuecomment-2594297718) in [scilus/scilpy](https://github.com/scilus/scilpy)
-2. 🗣 Commented on [#61](https://github.com/NASA-Planetary-Science/AmesCAP/pull/61#issuecomment-2594054389) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-3. 🗣 Commented on [#60](https://github.com/NASA-Planetary-Science/AmesCAP/pull/60#issuecomment-2594031490) in [NASA-Planetary-Science/AmesCAP](https://github.com/NASA-Planetary-Science/AmesCAP)
-4. 🗣 Commented on [#23471](https://github.com/spyder-ide/spyder/pull/23471#issuecomment-2593776558) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-5. 🗣 Commented on [#17](https://github.com/llgneuroresearch/avnirpy/pull/17#issuecomment-2593665098) in [llgneuroresearch/avnirpy](https://github.com/llgneuroresearch/avnirpy)
-6. 🗣 Commented on [#23470](https://github.com/spyder-ide/spyder/pull/23470#issuecomment-2593502198) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-7. 🗣 Commented on [#53](https://github.com/cirKITers/mind-the-qapp/pull/53#issuecomment-2593280965) in [cirKITers/mind-the-qapp](https://github.com/cirKITers/mind-the-qapp)
-8. 🗣 Commented on [#172](https://github.com/adobe/ops-cli/pull/172#issuecomment-2592872465) in [adobe/ops-cli](https://github.com/adobe/ops-cli)
-9. 🗣 Commented on [#309](https://github.com/boutproject/xBOUT/pull/309#issuecomment-2592285939) in [boutproject/xBOUT](https://github.com/boutproject/xBOUT)
-10. 🗣 Commented on [#24](https://github.com/ERPGulf/zatca_erpgulf/pull/24#issuecomment-2591879140) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
+1. 🗣 Commented on [#1067](https://github.com/avaframe/AvaFrame/pull/1067#issuecomment-2599007007) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#3131](https://github.com/metabrainz/listenbrainz-server/pull/3131#issuecomment-2598248753) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+3. 🗣 Commented on [#8](https://github.com/ERPGulf/myinvois/pull/8#issuecomment-2598195677) in [ERPGulf/myinvois](https://github.com/ERPGulf/myinvois)
+4. 🗣 Commented on [#23498](https://github.com/spyder-ide/spyder/pull/23498#issuecomment-2598194285) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+5. 🗣 Commented on [#7](https://github.com/ERPGulf/myinvois/pull/7#issuecomment-2598173341) in [ERPGulf/myinvois](https://github.com/ERPGulf/myinvois)
+6. 🗣 Commented on [#6](https://github.com/ERPGulf/myinvois/pull/6#issuecomment-2598015380) in [ERPGulf/myinvois](https://github.com/ERPGulf/myinvois)
+7. 🗣 Commented on [#3](https://github.com/ERPGulf/myinvois/pull/3#issuecomment-2597922377) in [ERPGulf/myinvois](https://github.com/ERPGulf/myinvois)
+8. 🗣 Commented on [#97](https://github.com/CartoonFan/pcsx2/pull/97#issuecomment-2597601497) in [CartoonFan/pcsx2](https://github.com/CartoonFan/pcsx2)
+9. 🗣 Commented on [#582](https://github.com/askap-vast/vast-tools/pull/582#issuecomment-2597436948) in [askap-vast/vast-tools](https://github.com/askap-vast/vast-tools)
+10. 🗣 Commented on [#1119](https://github.com/scilus/scilpy/pull/1119#issuecomment-2594297718) in [scilus/scilpy](https://github.com/scilus/scilpy)
 <!--END_SECTION:activity-->
