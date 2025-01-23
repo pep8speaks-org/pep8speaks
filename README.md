@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#108](https://github.com/eastgenomics/athena/pull/108#issuecomment-2605085242) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-2. 🗣 Commented on [#1015](https://github.com/ToFuProject/tofu/pull/1015#issuecomment-2605045998) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
-3. 🗣 Commented on [#1071](https://github.com/avaframe/AvaFrame/pull/1071#issuecomment-2604992518) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-4. 🗣 Commented on [#2](https://github.com/eastgenomics/ici_reports_export/pull/2#issuecomment-2604908659) in [eastgenomics/ici_reports_export](https://github.com/eastgenomics/ici_reports_export)
-5. 🗣 Commented on [#6102](https://github.com/rhinstaller/anaconda/pull/6102#issuecomment-2604863545) in [rhinstaller/anaconda](https://github.com/rhinstaller/anaconda)
-6. 🗣 Commented on [#106](https://github.com/eastgenomics/athena/pull/106#issuecomment-2604534387) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-7. 🗣 Commented on [#3136](https://github.com/metabrainz/listenbrainz-server/pull/3136#issuecomment-2604421326) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-8. 🗣 Commented on [#3116](https://github.com/foreign-sub/home-assistant-core/pull/3116#issuecomment-2603357624) in [foreign-sub/home-assistant-core](https://github.com/foreign-sub/home-assistant-core)
-9. 🗣 Commented on [#4896](https://github.com/MDAnalysis/mdanalysis/pull/4896#issuecomment-2603215796) in [MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-10. 🗣 Commented on [#3186](https://github.com/astropy/astroquery/pull/3186#issuecomment-2602839127) in [astropy/astroquery](https://github.com/astropy/astroquery)
+1. 🗣 Commented on [#109](https://github.com/eastgenomics/athena/pull/109#issuecomment-2607436612) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+2. 🗣 Commented on [#355](https://github.com/Moonlark-Dev/Moonlark/pull/355#issuecomment-2607319976) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+3. 🗣 Commented on [#64](https://github.com/cdfxscrq/PyroGramUserBot/pull/64#issuecomment-2606529335) in [cdfxscrq/PyroGramUserBot](https://github.com/cdfxscrq/PyroGramUserBot)
+4. 🗣 Commented on [#1](https://github.com/Kiraprint/ITMO_ICT_WebDevelopment_2024-2025/pull/1#issuecomment-2606513660) in [Kiraprint/ITMO_ICT_WebDevelopment_2024-2025](https://github.com/Kiraprint/ITMO_ICT_WebDevelopment_2024-2025)
+5. 🗣 Commented on [#3139](https://github.com/metabrainz/listenbrainz-server/pull/3139#issuecomment-2606108004) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+6. 🗣 Commented on [#18](https://github.com/arfc/2025-dotson-dissertation/pull/18#issuecomment-2605728048) in [arfc/2025-dotson-dissertation](https://github.com/arfc/2025-dotson-dissertation)
+7. 🗣 Commented on [#23524](https://github.com/spyder-ide/spyder/pull/23524#issuecomment-2605590400) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
+8. 🗣 Commented on [#1125](https://github.com/scilus/scilpy/pull/1125#issuecomment-2605487682) in [scilus/scilpy](https://github.com/scilus/scilpy)
+9. 🗣 Commented on [#108](https://github.com/eastgenomics/athena/pull/108#issuecomment-2605085242) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+10. 🗣 Commented on [#1015](https://github.com/ToFuProject/tofu/pull/1015#issuecomment-2605045998) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
 <!--END_SECTION:activity-->
