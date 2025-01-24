@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#109](https://github.com/eastgenomics/athena/pull/109#issuecomment-2607436612) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-2. 🗣 Commented on [#355](https://github.com/Moonlark-Dev/Moonlark/pull/355#issuecomment-2607319976) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
-3. 🗣 Commented on [#64](https://github.com/cdfxscrq/PyroGramUserBot/pull/64#issuecomment-2606529335) in [cdfxscrq/PyroGramUserBot](https://github.com/cdfxscrq/PyroGramUserBot)
-4. 🗣 Commented on [#1](https://github.com/Kiraprint/ITMO_ICT_WebDevelopment_2024-2025/pull/1#issuecomment-2606513660) in [Kiraprint/ITMO_ICT_WebDevelopment_2024-2025](https://github.com/Kiraprint/ITMO_ICT_WebDevelopment_2024-2025)
-5. 🗣 Commented on [#3139](https://github.com/metabrainz/listenbrainz-server/pull/3139#issuecomment-2606108004) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
-6. 🗣 Commented on [#18](https://github.com/arfc/2025-dotson-dissertation/pull/18#issuecomment-2605728048) in [arfc/2025-dotson-dissertation](https://github.com/arfc/2025-dotson-dissertation)
-7. 🗣 Commented on [#23524](https://github.com/spyder-ide/spyder/pull/23524#issuecomment-2605590400) in [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
-8. 🗣 Commented on [#1125](https://github.com/scilus/scilpy/pull/1125#issuecomment-2605487682) in [scilus/scilpy](https://github.com/scilus/scilpy)
-9. 🗣 Commented on [#108](https://github.com/eastgenomics/athena/pull/108#issuecomment-2605085242) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-10. 🗣 Commented on [#1015](https://github.com/ToFuProject/tofu/pull/1015#issuecomment-2605045998) in [ToFuProject/tofu](https://github.com/ToFuProject/tofu)
+1. 🗣 Commented on [#1074](https://github.com/avaframe/AvaFrame/pull/1074#issuecomment-2609754573) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+2. 🗣 Commented on [#173](https://github.com/eastgenomics/trendyQC/pull/173#issuecomment-2609681710) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+3. 🗣 Commented on [#171](https://github.com/eastgenomics/trendyQC/pull/171#issuecomment-2609423146) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+4. 🗣 Commented on [#1](https://github.com/Code-Institute-Solutions/flask-sqlalchemy-task-manager/pull/1#issuecomment-2609404285) in [Code-Institute-Solutions/flask-sqlalchemy-task-manager](https://github.com/Code-Institute-Solutions/flask-sqlalchemy-task-manager)
+5. 🗣 Commented on [#28](https://github.com/ERPGulf/zatca_erpgulf/pull/28#issuecomment-2609177420) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
+6. 🗣 Commented on [#1696](https://github.com/openSUSE/osc/pull/1696#issuecomment-2609133830) in [openSUSE/osc](https://github.com/openSUSE/osc)
+7. 🗣 Commented on [#1154](https://github.com/oemof/oemof-solph/pull/1154#issuecomment-2608886824) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
+8. 🗣 Commented on [#752](https://github.com/HEXRD/hexrd/pull/752#issuecomment-2608657048) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
+9. 🗣 Commented on [#109](https://github.com/eastgenomics/athena/pull/109#issuecomment-2607436612) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+10. 🗣 Commented on [#355](https://github.com/Moonlark-Dev/Moonlark/pull/355#issuecomment-2607319976) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
 <!--END_SECTION:activity-->
