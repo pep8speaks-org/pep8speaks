@@ -240,14 +240,14 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1074](https://github.com/avaframe/AvaFrame/pull/1074#issuecomment-2609754573) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
-2. 🗣 Commented on [#173](https://github.com/eastgenomics/trendyQC/pull/173#issuecomment-2609681710) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-3. 🗣 Commented on [#171](https://github.com/eastgenomics/trendyQC/pull/171#issuecomment-2609423146) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
-4. 🗣 Commented on [#1](https://github.com/Code-Institute-Solutions/flask-sqlalchemy-task-manager/pull/1#issuecomment-2609404285) in [Code-Institute-Solutions/flask-sqlalchemy-task-manager](https://github.com/Code-Institute-Solutions/flask-sqlalchemy-task-manager)
-5. 🗣 Commented on [#28](https://github.com/ERPGulf/zatca_erpgulf/pull/28#issuecomment-2609177420) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
-6. 🗣 Commented on [#1696](https://github.com/openSUSE/osc/pull/1696#issuecomment-2609133830) in [openSUSE/osc](https://github.com/openSUSE/osc)
-7. 🗣 Commented on [#1154](https://github.com/oemof/oemof-solph/pull/1154#issuecomment-2608886824) in [oemof/oemof-solph](https://github.com/oemof/oemof-solph)
-8. 🗣 Commented on [#752](https://github.com/HEXRD/hexrd/pull/752#issuecomment-2608657048) in [HEXRD/hexrd](https://github.com/HEXRD/hexrd)
-9. 🗣 Commented on [#109](https://github.com/eastgenomics/athena/pull/109#issuecomment-2607436612) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
-10. 🗣 Commented on [#355](https://github.com/Moonlark-Dev/Moonlark/pull/355#issuecomment-2607319976) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+1. 🗣 Commented on [#29](https://github.com/ERPGulf/zatca_erpgulf/pull/29#issuecomment-2612037140) in [ERPGulf/zatca_erpgulf](https://github.com/ERPGulf/zatca_erpgulf)
+2. 🗣 Commented on [#78](https://github.com/cirKITers/qml-essentials/pull/78#issuecomment-2611889491) in [cirKITers/qml-essentials](https://github.com/cirKITers/qml-essentials)
+3. 🗣 Commented on [#357](https://github.com/Moonlark-Dev/Moonlark/pull/357#issuecomment-2611678739) in [Moonlark-Dev/Moonlark](https://github.com/Moonlark-Dev/Moonlark)
+4. 🗣 Commented on [#3143](https://github.com/metabrainz/listenbrainz-server/pull/3143#issuecomment-2610320603) in [metabrainz/listenbrainz-server](https://github.com/metabrainz/listenbrainz-server)
+5. 🗣 Commented on [#1075](https://github.com/avaframe/AvaFrame/pull/1075#issuecomment-2610071820) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+6. 🗣 Commented on [#1359](https://github.com/aimclub/FEDOT/pull/1359#issuecomment-2610014325) in [aimclub/FEDOT](https://github.com/aimclub/FEDOT)
+7. 🗣 Commented on [#111](https://github.com/eastgenomics/athena/pull/111#issuecomment-2609991074) in [eastgenomics/athena](https://github.com/eastgenomics/athena)
+8. 🗣 Commented on [#1074](https://github.com/avaframe/AvaFrame/pull/1074#issuecomment-2609754573) in [avaframe/AvaFrame](https://github.com/avaframe/AvaFrame)
+9. 🗣 Commented on [#173](https://github.com/eastgenomics/trendyQC/pull/173#issuecomment-2609681710) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
+10. 🗣 Commented on [#171](https://github.com/eastgenomics/trendyQC/pull/171#issuecomment-2609423146) in [eastgenomics/trendyQC](https://github.com/eastgenomics/trendyQC)
 <!--END_SECTION:activity-->
