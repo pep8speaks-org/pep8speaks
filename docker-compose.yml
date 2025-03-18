@@ -5,7 +5,7 @@ services:
     image: pep8speaks
     ports:
       - ${SERVICE_PORT-8000}:8000
-    command: [ "gunicorn", "server:app", "--bind", "0.0.0.0:8000", "--workers", "4" ]
+    command: ["uv", "run", "gunicorn", "server:app", "--bind", "0.0.0.0:8000", "--workers", "4" ]
     environment:
       APP_SECRET_KEY: ${APP_SECRET_KEY-secret_key}
       GITHUB_TOKEN: ${GITHUB_TOKEN}
