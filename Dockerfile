@@ -4,12 +4,12 @@ FROM python:3.8-alpine
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY requirements /app/requirements
-COPY requirements.txt /app/requirements.txt
+# Install UV
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+COPY uv.lock pyproject.toml /app/
+
+RUN uv sync --frozen
 
 COPY pep8speaks /app/pep8speaks
 COPY server.py /app/server.py
@@ -19,4 +19,4 @@ COPY data /app/data
 EXPOSE 8000
 
 # Define the command to run your application using Gunicorn
-CMD ["gunicorn", "server:app", "--bind", "0.0.0.0:8000",  "--workers", "4"]
+CMD ["uv", "run", "gunicorn", "server:app", "--bind", "0.0.0.0:8000",  "--workers", "4"]
