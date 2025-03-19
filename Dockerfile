@@ -9,6 +9,8 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 COPY uv.lock pyproject.toml /app/
 
+RUN uv sync --frozen
+
 COPY pep8speaks /app/pep8speaks
 COPY server.py /app/server.py
 COPY data /app/data
