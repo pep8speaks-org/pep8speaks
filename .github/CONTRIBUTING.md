@@ -35,7 +35,7 @@ You can use [`uv`](https://docs.astral.sh/uv/) to manage Python versions easily.
 - Install the requirements.
 
 ``` shell
-$ uv sync
+$ uv sync --frozen
 ```
 
 - Start the server
