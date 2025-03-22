@@ -27,7 +27,7 @@ Table of Contents
 
 ### Run local server
 
-You can use [`pyenv`](https://github.com/pyenv/pyenv) to manage Python versions easily. Use Python 3.8.x for this project.
+You can use [`uv`](https://docs.astral.sh/uv/) to manage Python versions easily. Use Python 3.9.x for this project.
 
 - Fork the repository.
 - Clone your fork.
@@ -35,13 +35,13 @@ You can use [`pyenv`](https://github.com/pyenv/pyenv) to manage Python versions 
 - Install the requirements.
 
 ``` shell
-$ pip install -r requirements/test.txt
+$ uv sync --frozen
 ```
 
 - Start the server
 
 ``` shell
-$ python server.py
+$ uv run server.py
 ```
 
 
