@@ -24,6 +24,11 @@ class TestApp:
         mock_func = mock.MagicMock(return_value=True)
         mocker.patch('pep8speaks.utils.match_webhook_secret', mock_func)
         mocker.patch('pep8speaks.handlers.' + action, mock_func)
-        client.post(url_for('main'),
-                    headers={"X-GitHub-Event": event})
+        client.post(
+            url_for('main'),
+            headers={"X-GitHub-Event": event},
+            # TODO: This test is not representative of the real JSON payloads sent by Github and should be updated at
+            # some point to have a sample payload fixture for each of the above types.
+            json={"a": "value", "b": 1},
+        )
         assert mock_func.call_count == 2
