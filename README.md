@@ -234,7 +234,7 @@ If you use this project and you like it, [please let me know](https://saythanks.
 
 # Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=pep8speaks-org/pep8speaks&type=Date)](https://star-history.com/#pep8speaks-org/pep8speaks&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=pep8speaks-org/pep8speaks&type=Date)](https://star-history.dera.page/#pep8speaks-org/pep8speaks&Date)
 
 # Recent Activity
 
